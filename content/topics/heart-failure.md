@@ -7,11 +7,6 @@ sources:
   - NICE NG106
 ---
 
-# Heart Failure
-
-## Clinical Scenario
-
-A 68-year-old woman with longstanding hypertension and type 2 diabetes presents with three weeks of progressively worsening exertional breathlessness, orthopnoea requiring three pillows, and bilateral ankle swelling. On examination, her JVP is elevated, bibasal crepitations are present on auscultation, and there is pitting oedema to the knees. BNP is 840 pg/mL. Her ECG shows LVH with strain pattern.
 
 ## Overview
 
