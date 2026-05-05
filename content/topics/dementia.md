@@ -7,11 +7,7 @@ sources:
   - DSM-5
 ---
 
-# Dementia
 
-## Clinical Scenario
-
-A 74-year-old retired engineer is brought to the memory clinic by his daughter, who reports a two-year history of progressive memory difficulties. He repeats himself in conversation, has missed several hospital appointments, and on two occasions got lost driving to familiar places. Last week he left the gas on. He is well-groomed, alert, and cooperative, and attributes his difficulties to "just getting old." MMSE score is 20/30 with deficits in orientation, recall, and delayed memory. Neurological examination is otherwise normal.
 
 ## Overview
 
