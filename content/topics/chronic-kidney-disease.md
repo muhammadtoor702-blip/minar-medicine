@@ -7,11 +7,7 @@ sources:
   - NICE NG203
 ---
 
-# Chronic Kidney Disease
 
-## Clinical Scenario
-
-A 61-year-old woman with 14 years of type 2 diabetes and hypertension attends for routine review. She has no urinary symptoms and feels reasonably well, though she has noticed increasing fatigue. Her eGFR has fallen progressively: 52 mL/min/1.73m² two years ago, 41 last year, and 31 today. Urine ACR is 84 mg/mmol. BP is 156/94 mmHg. Hb 9.4 g/dL, bicarbonate 18 mmol/L, phosphate 1.9 mmol/L. She is currently on metformin, ramipril 10mg, and amlodipine.
 
 ## Overview
 
