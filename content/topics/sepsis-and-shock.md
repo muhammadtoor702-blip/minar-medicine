@@ -7,11 +7,7 @@ sources:
   - NICE NG51
 ---
 
-# Sepsis and Shock
 
-## Clinical Scenario
-
-A 73-year-old man is brought in by ambulance obtunded and febrile. His wife reports five days of productive cough with green sputum and worsening confusion over the last 24 hours. His temperature is 39.4°C, HR 128 bpm, BP 76/42 mmHg, RR 30/min, SpO₂ 88% on air. He is confused and does not know where he is. Lactate is 5.1 mmol/L and CXR shows left lower lobe consolidation.
 
 ## Overview
 
