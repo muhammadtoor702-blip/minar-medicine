@@ -7,11 +7,7 @@ sources:
   - ADA DKA Standards 2023
 ---
 
-# Acid-Base Disorders
 
-## Clinical Scenario
-
-A 19-year-old woman with type 1 diabetes is brought to A&E confused and vomiting after missing her insulin doses for two days. She is breathing deeply with sighing respirations at a rate of 28/min (Kussmaul breathing). ABG on air: pH 7.18, PaO₂ 13.2 kPa, PaCO₂ 2.8 kPa, HCO₃ 8 mmol/L, BE -18. Blood glucose is 28 mmol/L. Urine and blood ketones are strongly positive.
 
 ## Overview
 
