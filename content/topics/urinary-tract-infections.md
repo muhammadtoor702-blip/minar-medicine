@@ -7,11 +7,7 @@ sources:
   - EAU Urological Infections Guidelines 2023
 ---
 
-# Urinary Tract Infections
 
-## Clinical Scenario
-
-A 28-year-old woman presents with a two-day history of dysuria, increased urinary frequency, and suprapubic discomfort. She is apyrexial and systemically well. Her urine dipstick shows leucocyte esterase 2+ and nitrites positive. She is not pregnant and has no known structural urological abnormality. She has had three similar episodes in the past year, each treated with a short course of trimethoprim.
 
 ## Overview
 
