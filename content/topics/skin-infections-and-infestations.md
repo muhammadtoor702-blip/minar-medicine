@@ -8,11 +8,7 @@ sources:
   - BASHH STI Guidelines (HSV)
 ---
 
-# Skin Infections and Infestations
 
-## Clinical Scenario
-
-A 45-year-old man with poorly controlled type 2 diabetes presents with a 4-day history of rapidly spreading redness, warmth, swelling, and tenderness on his right lower leg. He has a small wound on his heel from picking at a corn. Temperature 38.6°C, HR 104 bpm, BP 118/76 mmHg. The erythema is confluent, warm, and tender with a clearly demarcated advancing edge. The margins have been marked and within 6 hours the erythema has extended 4 cm beyond the mark.
 
 ## Overview
 
