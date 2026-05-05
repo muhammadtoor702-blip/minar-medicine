@@ -8,11 +8,6 @@ sources:
   - BAD Drug Reaction Guidelines
 ---
 
-# Bullous Skin Disorders and Severe Drug Reactions
-
-## Clinical Scenario
-
-A 72-year-old woman presents with three weeks of large, tense blisters arising on her trunk, thighs, and forearms. The blisters are thick-walled, fluid-filled, and do not rupture easily when pressed (Nikolsky sign negative). They arise on both normal-appearing and erythematous skin. There is mild pruritus but no oral, ocular, or genital ulceration. Skin punch biopsy shows subepidermal cleavage. Direct immunofluorescence (DIF) shows linear IgG and C3 deposition along the dermoepidermal junction.
 
 ## Overview
 
