@@ -8,11 +8,7 @@ sources:
   - ESHRE/ASRM PCOS Consensus
 ---
 
-# Reproductive Endocrinology
 
-## Clinical Scenario
-
-A 26-year-old woman presents with 18 months of irregular periods (35–60-day cycles), weight gain of 8kg, facial hair, and persistent acne despite topical treatment. She and her partner have been trying to conceive for 14 months. BMI is 31 kg/m². Examination reveals mild hirsutism (Ferriman-Gallwey score 12) and acanthosis nigricans at the nape of the neck. Ultrasound shows bilateral enlarged ovaries with ≥12 peripheral follicles each measuring <9mm ("string of pearls"). LH is elevated relative to FSH (LH:FSH ratio 2.5:1).
 
 ## Overview
 
