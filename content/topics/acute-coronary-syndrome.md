@@ -7,11 +7,7 @@ sources:
   - ACC/AHA ACS Guidelines 2022
 ---
 
-# Acute Coronary Syndrome
 
-## Clinical Scenario
-
-A 61-year-old man with hypertension and a 30 pack-year smoking history presents at 2am with crushing central chest pain radiating to his left jaw and arm, associated with diaphoresis and nausea. The pain began 90 minutes ago and has not improved with rest. His ECG shows 3mm ST elevation in leads II, III, and aVF with reciprocal ST depression in I and aVL. He is pale, clammy, and visibly distressed.
 
 ## Overview
 
