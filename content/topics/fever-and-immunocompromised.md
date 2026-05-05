@@ -7,11 +7,7 @@ sources:
   - NICE NG143 (Neutropenic Sepsis)
 ---
 
-# Fever of Unknown Origin and Infection in the Immunocompromised
 
-## Clinical Scenario
-
-A 58-year-old man with acute myeloid leukaemia on induction chemotherapy presents on day 12 post-cycle with fever of 38.6°C, rigors, and generalised malaise. He has an indwelling central venous line. HR 118 bpm, BP 96/62 mmHg. Neutrophil count is 0.2 × 10⁹/L. Clinical examination reveals no localising signs of infection — no cough, no skin lesions, no diarrhoea, and his central line site looks clean. Blood cultures are drawn from both peripheral blood and the central line, and IV piperacillin-tazobactam is started within 45 minutes.
 
 ## Overview
 
