@@ -7,11 +7,7 @@ sources:
   - ILAE Epilepsy Classification 2017
 ---
 
-# Epilepsy and Seizures
 
-## Clinical Scenario
-
-A 24-year-old woman is brought to A&E by ambulance after collapsing in a supermarket. Witnesses describe her suddenly falling, becoming rigid for approximately 20 seconds (tonic phase), then shaking rhythmically for about 90 seconds (clonic phase). She was unresponsive throughout, bit her tongue, and was incontinent of urine. She is now confused and combative with a GCS of 12, smells of urine, and has a 3cm laceration above her right eyebrow from the fall. No prior medical history is known.
 
 ## Overview
 
