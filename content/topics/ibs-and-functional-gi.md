@@ -7,11 +7,7 @@ sources:
   - Rome IV Criteria
 ---
 
-# Irritable Bowel Syndrome and Functional GI Disorders
 
-## Clinical Scenario
-
-A 28-year-old woman presents with an 18-month history of intermittent lower abdominal cramping and bloating, with alternating periods of constipation and loose, urgent stools. Symptoms are consistently worse during periods of stress and almost always improve after defecation. She has had two colonoscopies and multiple blood tests, all normal. She is increasingly anxious about missing a cancer diagnosis and her symptoms significantly impair her ability to work and socialise. There are no alarm features.
 
 ## Overview
 
