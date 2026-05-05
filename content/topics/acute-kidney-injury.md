@@ -7,11 +7,7 @@ sources:
   - NICE NG148
 ---
 
-# Acute Kidney Injury
 
-## Clinical Scenario
-
-A 76-year-old man with hypertension and type 2 diabetes is admitted after four days of vomiting, diarrhoea, and markedly reduced urine output. He takes ramipril, metformin, and ibuprofen for chronic back pain. His creatinine today is 334 µmol/L; his documented baseline six months ago was 98 µmol/L. He is oliguric, his mucous membranes are dry, HR is 112 bpm, and BP is 94/58 mmHg. There is no urological history and no lower urinary tract symptoms.
 
 ## Overview
 
