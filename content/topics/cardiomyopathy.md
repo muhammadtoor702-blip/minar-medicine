@@ -6,11 +6,6 @@ sources:
   - ESC Cardiomyopathy Guidelines 2023
 ---
 
-# Cardiomyopathy
-
-## Clinical Scenario
-
-A 24-year-old competitive footballer collapses during a match and is resuscitated from ventricular fibrillation by the pitch-side defibrillator. He reports occasional exertional chest tightness and one previous episode of near-syncope during training, both dismissed at the time. His father died suddenly at 39. On examination there is a harsh systolic murmur at the left lower sternal border that becomes louder with standing and softer with squatting.
 
 ## Overview
 
