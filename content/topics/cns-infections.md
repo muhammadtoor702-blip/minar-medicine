@@ -7,11 +7,7 @@ sources:
   - UK Meningitis Research Foundation Guidelines
 ---
 
-# CNS Infections
 
-## Clinical Scenario
-
-A 19-year-old university student is brought in by ambulance with a 12-hour history of severe headache, high fever, and vomiting, with progressive confusion over the past three hours. His flatmate reports he was entirely well yesterday. Temperature 39.8°C, HR 128 bpm, BP 94/58 mmHg, GCS 11. He has marked neck stiffness, a positive Kernig's sign, and a rapidly spreading non-blanching purpuric rash over his trunk and lower limbs. This is meningococcal septicaemia until proven otherwise.
 
 ## Overview
 
