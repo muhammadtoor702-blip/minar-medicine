@@ -7,11 +7,7 @@ sources:
   - IAP/APA Guidelines on Acute Pancreatitis
 ---
 
-# Pancreatitis
 
-## Clinical Scenario
-
-A 42-year-old woman presents with eight hours of severe epigastric pain radiating through to her back, precipitated by a large fatty meal. She has vomited repeatedly and cannot find a comfortable position. She has had two previous shorter episodes attributed to indigestion. Temperature 38.1°C, HR 118, BP 102/68. She is tender in the epigastrium and left hypochondrium. Serum amylase is 2400 U/L and USS shows multiple gallstones.
 
 ## Overview
 
