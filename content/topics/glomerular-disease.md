@@ -6,11 +6,7 @@ sources:
   - KDIGO Glomerulonephritis Guidelines 2021
 ---
 
-# Glomerular Disease
 
-## Clinical Scenario
-
-A 7-year-old boy presents with a one-week history of periorbital puffiness in the mornings and progressive swelling of the legs and abdomen. His parents noticed his urine has been frothy. He has no haematuria, dysuria, or fever. BP is 90/58 mmHg (normal for age). Urinalysis shows 4+ protein and no blood. Serum albumin is 12 g/L, total cholesterol is 9.1 mmol/L, and his urine ACR is markedly elevated. His creatinine is normal.
 
 ## Overview
 
