@@ -8,13 +8,7 @@ sources:
   - BAD Guidelines
 ---
 
-# Eczema and Psoriasis
 
-## Clinical Scenario
-
-**Scenario A (Psoriasis):** A 28-year-old woman presents with six months of well-defined, erythematous plaques with silvery-white scale on her elbows, knees, and scalp. She has nail pitting and onycholysis. Her mother has a similar condition. She reports the rash worsens under stress.
-
-**Scenario B (Eczema):** A 4-year-old boy is brought by his mother with dry, intensely itchy, red patches in the antecubital and popliteal fossae and on his neck. He scratches constantly, disrupting sleep. He also has asthma and allergic rhinitis. His father has hay fever.
 
 ## Overview
 
