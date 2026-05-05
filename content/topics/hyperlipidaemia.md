@@ -7,11 +7,7 @@ sources:
   - NICE NG238
 ---
 
-# Hyperlipidaemia
 
-## Clinical Scenario
-
-A 46-year-old man attends for a routine health check. He is asymptomatic. His father had an MI at 51 and died at 58 from a second cardiac event. On examination, there are firm nodular thickenings palpable over both Achilles tendons consistent with tendon xanthomata, and xanthelasma around his left eye. Fasting lipids: total cholesterol 8.1 mmol/L, LDL 5.6 mmol/L, HDL 0.9 mmol/L, triglycerides 3.4 mmol/L.
 
 ## Overview
 
