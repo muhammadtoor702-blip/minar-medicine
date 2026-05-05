@@ -8,11 +8,7 @@ sources:
   - NICE CG101 (Primary Aldosteronism)
 ---
 
-# Adrenal Disease
 
-## Clinical Scenario
-
-A 38-year-old woman is referred with a two-year history of progressive central weight gain, a rounded face, easy bruising, proximal muscle weakness, and low mood. She has developed wide purple striae on her abdomen and mild hirsutism. BP is 162/98 mmHg and fasting glucose is 8.4 mmol/L. She is on no exogenous corticosteroids. 24-hour urinary free cortisol is markedly elevated on two separate collections.
 
 ## Overview
 
