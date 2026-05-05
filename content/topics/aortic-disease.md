@@ -7,11 +7,7 @@ sources:
   - ACC/AHA Aortic Disease Guidelines 2022
 ---
 
-# Aortic Disease
 
-## Clinical Scenario
-
-A 67-year-old man with hypertension and a 40 pack-year smoking history presents to the emergency department with sudden onset tearing chest pain radiating through to his interscapular back. The pain was maximal at onset. He is pale and diaphoretic. BP is 178/96 in his right arm and 142/88 in his left arm. An early diastolic murmur is audible at the left sternal border. CXR shows a widened mediastinum with blurring of the aortic knuckle.
 
 ## Overview
 
