@@ -50,7 +50,7 @@ export default function About(): JSX.Element {
             >
               Hi.
               <br />
-              I&apos;m Wahab.
+              I&apos;m Muhammad.
             </h1>
 
             <p
