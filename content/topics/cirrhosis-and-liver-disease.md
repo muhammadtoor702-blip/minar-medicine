@@ -7,11 +7,7 @@ sources:
   - EASL Clinical Practice Guidelines
 ---
 
-# Cirrhosis and Chronic Liver Disease
 
-## Clinical Scenario
-
-A 52-year-old man with known alcohol-related liver disease is brought in with two weeks of increasing abdominal distension and progressive confusion. He is jaundiced, has multiple spider naevi, palmar erythema, Dupuytren's contracture, bilateral parotid enlargement, and a coarse flapping tremor. His abdomen is tense with shifting dullness confirming ascites. Bilirubin 88 µmol/L, albumin 22 g/L, INR 2.1, creatinine 142 µmol/L. Diagnostic ascitic tap shows a neutrophil count of 380 cells/mm³.
 
 ## Overview
 
