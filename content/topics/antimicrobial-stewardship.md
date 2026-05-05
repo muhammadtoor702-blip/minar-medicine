@@ -7,11 +7,7 @@ sources:
   - UK Government AMR National Action Plan 2024
 ---
 
-# Antimicrobial Stewardship and Resistance
 
-## Clinical Scenario
-
-A 78-year-old care home resident is admitted with a two-day history of confusion and two falls. He is afebrile, HR 80 bpm, BP 128/76 mmHg, RR 16, SpO₂ 97%. His urine dipstick shows leucocytes 2+ and nitrites positive. He has no urinary symptoms — no dysuria, frequency, or suprapubic discomfort. His son is insisting he has a "urine infection" and should be on antibiotics. His carer reports he often has a positive dipstick at routine checks.
 
 ## Overview
 
