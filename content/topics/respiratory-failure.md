@@ -7,11 +7,7 @@ sources:
   - NICE NG191
 ---
 
-# Respiratory Failure
 
-## Clinical Scenario
-
-A 58-year-old man with severe COPD is brought in with 12 hours of worsening breathlessness and progressive confusion. His wife reports he has been increasingly drowsy, cyanosed, and using all his accessory muscles since this morning. RR 32/min, SpO₂ 82% on air, HR 116 bpm, BP 148/92 mmHg. He is drowsy with a GCS of 12. ABG on air: pH 7.28, PaO₂ 6.1 kPa, PaCO₂ 9.4 kPa, HCO₃ 32 mmol/L, BE +6.
 
 ## Overview
 
