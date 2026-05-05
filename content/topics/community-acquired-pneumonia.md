@@ -7,11 +7,7 @@ sources:
   - NICE NG138
 ---
 
-# Community-Acquired Pneumonia
 
-## Clinical Scenario
-
-A 51-year-old man presents with a three-day history of fever with rigors, productive cough with rusty-coloured sputum, and right-sided pleuritic chest pain. His temperature is 39.1°C, RR 26/min, HR 108 bpm, BP 114/74 mmHg, and SpO₂ is 92% on air. On examination there is dullness to percussion at the right base, bronchial breathing, and increased tactile vocal fremitus. His CXR shows consolidation of the right lower lobe.
 
 ## Overview
 
