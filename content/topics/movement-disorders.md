@@ -7,11 +7,7 @@ sources:
   - MDS Diagnostic Criteria for Parkinson's Disease 2015
 ---
 
-# Movement Disorders
 
-## Clinical Scenario
-
-A 67-year-old retired teacher presents with a two-year history of a tremor in his right hand that is present when he sits watching television but disappears when he reaches for objects. His wife has noticed he has become slower in all movements, walks with shorter steps, and has difficulty turning over in bed. He speaks more quietly and his handwriting has become progressively smaller. On examination there is a right-sided pill-rolling rest tremor (4–6 Hz), cogwheel rigidity at the wrist, bradykinesia, reduced arm swing, and a stooped, shuffling gait with en-bloc turning. His facial expression is markedly reduced.
 
 ## Overview
 
