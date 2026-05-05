@@ -7,11 +7,7 @@ sources:
   - ESC/EASD Clinical Guidelines
 ---
 
-# Fluid and Electrolyte Disorders
 
-## Clinical Scenario
-
-A 74-year-old woman on thiazide diuretics and an SSRI for hypertension and depression is brought in confused by her daughter, who found her disorientated at home after two days of nausea, reduced oral intake, and lethargy. Na+ 118 mmol/L, K+ 3.1 mmol/L, serum osmolality 246 mOsm/kg. Urine sodium 42 mmol/L, urine osmolality 380 mOsm/kg. She appears euvolaemic — JVP not elevated, no oedema, mucous membranes moist.
 
 ## Overview
 
