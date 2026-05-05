@@ -8,11 +8,6 @@ sources:
   - NICE NG17 (Type 1 Diabetes)
 ---
 
-# Diabetes Mellitus
-
-## Clinical Scenario
-
-A 47-year-old man with a BMI of 34 attends with fatigue, polydipsia, and polyuria of six weeks' duration. Fasting glucose is 9.1 mmol/L and HbA1c is 71 mmol/mol. Urine dipstick shows glucosuria and microalbuminuria. BP is 148/92 mmHg. His father had type 2 diabetes and died of an MI at 59. There are no ketonuria or features of diabetic ketoacidosis.
 
 ## Overview
 
