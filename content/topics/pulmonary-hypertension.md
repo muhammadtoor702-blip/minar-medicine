@@ -6,11 +6,7 @@ sources:
   - ESC/ERS Pulmonary Hypertension Guidelines 2022
 ---
 
-# Pulmonary Hypertension
 
-## Clinical Scenario
-
-A 34-year-old woman presents with an 18-month history of gradually progressive exertional breathlessness and two episodes of near-syncope on exertion. She has no known cardiac or pulmonary disease and takes no regular medications. Her ECG shows right axis deviation and right ventricular hypertrophy. Echocardiography reveals an estimated RVSP of 72 mmHg, marked RV dilation and hypertrophy, a D-shaped interventricular septum indicating elevated RV pressure, and moderate tricuspid regurgitation.
 
 ## Overview
 
