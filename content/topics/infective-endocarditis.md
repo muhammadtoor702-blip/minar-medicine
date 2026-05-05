@@ -6,11 +6,7 @@ sources:
   - ESC Infective Endocarditis Guidelines 2023
 ---
 
-# Infective Endocarditis
 
-## Clinical Scenario
-
-A 34-year-old intravenous drug user presents with three weeks of fever, drenching night sweats, and progressive malaise. He has lost 4kg. Examination reveals a temperature of 38.7°C, a new pansystolic murmur audible at the lower left sternal border, splinter haemorrhages under several fingernails, and tender erythematous nodules on his fingertips. Two sets of blood cultures drawn from separate sites both grow *Staphylococcus aureus*.
 
 ## Overview
 
