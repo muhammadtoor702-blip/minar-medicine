@@ -7,11 +7,7 @@ sources:
   - PHE Imported Fever Guidelines
 ---
 
-# Tropical and Travel Medicine
 
-## Clinical Scenario
-
-A 28-year-old man presents with four days of high-grade fever with rigors, severe myalgia, and headache. He returned from a two-week trip to rural Kenya three days ago and took no malaria prophylaxis, having dismissed the advice as unnecessary. Temperature 39.6°C, HR 116 bpm, BP 104/68 mmHg. He looks unwell with mild jaundice and splenomegaly. Thick and thin blood films show ring-form trophozoites and banana-shaped gametocytes. Parasitaemia is 6%.
 
 ## Overview
 
