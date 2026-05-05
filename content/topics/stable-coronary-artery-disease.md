@@ -7,11 +7,7 @@ sources:
   - NICE NG185
 ---
 
-# Stable Coronary Artery Disease
 
-## Clinical Scenario
-
-A 57-year-old man with hypertension, type 2 diabetes, and a 20 pack-year smoking history presents with a four-month history of central chest tightness that comes on predictably when climbing two flights of stairs or walking briskly uphill. It consistently resolves within five minutes of resting. He has never had pain at rest or at night. His resting ECG is normal. His GP has initiated aspirin 75mg and atorvastatin 80mg.
 
 ## Overview
 
