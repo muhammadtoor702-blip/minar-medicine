@@ -7,11 +7,7 @@ sources:
   - NICE NG12
 ---
 
-# Pleural Effusion
 
-## Clinical Scenario
-
-A 62-year-old man with a 45 pack-year smoking history presents with three months of progressive breathlessness and a dry cough. He has lost 6kg unintentionally and his wife has noticed his voice has become hoarser. On examination, the trachea is deviated toward the right. The left hemithorax shows stony dullness to percussion from the mid-zone downward, with absent breath sounds and reduced tactile vocal fremitus in the same distribution. CXR confirms a large left-sided pleural effusion with mediastinal shift.
 
 ## Overview
 
