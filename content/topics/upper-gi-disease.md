@@ -7,11 +7,7 @@ sources:
   - BSG Upper GI Bleeding Guidelines 2019
 ---
 
-# Upper GI Disease
 
-## Clinical Scenario
-
-A 54-year-old man presents with a three-month history of epigastric pain occurring 2–3 hours after meals and waking him at night, relieved by eating and antacids. He takes ibuprofen regularly for chronic back pain, smokes 15 cigarettes daily, and drinks 20 units of alcohol weekly. He has lost 4kg unintentionally. Examination reveals epigastric tenderness. Urea breath test is positive for H. pylori. OGD shows a 1.5cm duodenal ulcer with no active bleeding.
 
 ## Overview
 
