@@ -7,11 +7,7 @@ sources:
   - ACC/AHA HTN Guidelines 2017
 ---
 
-# Hypertension
 
-## Clinical Scenario
-
-A 52-year-old man attends for a routine health review with no complaints. His clinic BP is 168/102 mmHg on two readings taken 10 minutes apart. He smokes 15 cigarettes a day, has a first-degree family history of stroke, and has a BMI of 31. Urinalysis is normal. Fundoscopy shows mild arteriolar narrowing with no haemorrhages or exudates.
 
 ## Overview
 
