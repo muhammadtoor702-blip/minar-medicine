@@ -7,11 +7,7 @@ sources:
   - WHO TB Guidelines 2022
 ---
 
-# Tuberculosis
 
-## Clinical Scenario
-
-A 29-year-old man who emigrated from Pakistan 18 months ago presents with a three-month history of progressive productive cough, drenching night sweats, and unintentional weight loss of 8kg. He feels systemically unwell and fatigued. His temperature is 37.8°C. CXR shows right upper lobe consolidation with cavitation and ipsilateral hilar lymphadenopathy. Three sputum samples are sent for acid-fast bacilli smear and mycobacterial culture.
 
 ## Overview
 
