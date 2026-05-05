@@ -7,11 +7,6 @@ sources:
   - NICE NG80
 ---
 
-# Asthma
-
-## Clinical Scenario
-
-An 18-year-old woman with childhood-onset asthma is brought to A&E at midnight with severe breathlessness and wheeze that has been deteriorating over six hours. She ran out of her salbutamol inhaler two days ago and has been using a friend's inhaler. She cannot complete sentences. RR 30, SpO₂ 90% on air, HR 124, PEFR 32% of her personal best. She is using accessory muscles with visible intercostal recession and a prolonged expiratory wheeze.
 
 ## Overview
 
