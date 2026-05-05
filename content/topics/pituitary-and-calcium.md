@@ -8,11 +8,7 @@ sources:
   - NICE CG141 (Primary Hyperparathyroidism)
 ---
 
-# Pituitary Disorders and Calcium Metabolism
 
-## Clinical Scenario
-
-A 42-year-old man presents with a 3-year history of progressive headaches and recent bitemporal visual field loss. He reports erectile dysfunction and reduced libido. His shoe size has increased by two sizes over five years, his ring no longer fits, and his wife has noticed his face has changed. His hands are large with spade-like fingers. Fasting glucose is 9.2 mmol/L. IGF-1 is markedly elevated. MRI pituitary shows a 2.4 cm macroadenoma with suprasellar extension and optic chiasm compression.
 
 ## Overview
 
