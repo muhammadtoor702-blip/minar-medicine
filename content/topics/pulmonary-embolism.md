@@ -7,11 +7,7 @@ sources:
   - NICE NG158
 ---
 
-# Pulmonary Embolism
 
-## Clinical Scenario
-
-A 27-year-old woman presents with sudden onset right-sided pleuritic chest pain and breathlessness that developed while sitting at her desk, four hours ago. She returned from a nine-hour flight three days ago and is on the combined oral contraceptive pill. HR is 116 bpm, RR 22/min, SpO₂ 94% on air, BP 108/72 mmHg. Her CXR is normal. D-dimer is 3.1 mg/L.
 
 ## Overview
 
