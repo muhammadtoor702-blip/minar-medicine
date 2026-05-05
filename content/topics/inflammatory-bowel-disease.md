@@ -7,11 +7,7 @@ sources:
   - NICE NG129 / NG130
 ---
 
-# Inflammatory Bowel Disease
 
-## Clinical Scenario
-
-A 24-year-old woman presents with four months of bloody diarrhoea occurring up to eight times daily, cramping lower abdominal pain, urgency, and tenesmus. She has lost 7kg and feels systemically unwell. She has a painful red nodule on her right shin and a shallow mouth ulcer. CRP 74 mg/L, Hb 9.6 g/dL, albumin 26 g/L. Colonoscopy shows continuous, confluent mucosal inflammation from the rectum to the splenic flexure with contact bleeding and no skip lesions.
 
 ## Overview
 
