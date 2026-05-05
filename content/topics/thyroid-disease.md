@@ -8,11 +8,7 @@ sources:
   - ETA Guidelines
 ---
 
-# Thyroid Disease
 
-## Clinical Scenario
-
-A 31-year-old woman presents with three months of palpitations, weight loss of 6kg despite increased appetite, heat intolerance, and a fine tremor. She has been anxious and irritable. Her periods are now infrequent. On examination there is a diffuse smooth goitre with an audible bruit, bilateral proptosis, lid lag, and non-pitting oedema of the shins (pretibial myxoedema). Her pulse is 108 and irregularly irregular. TSH is undetectable; free T4 is markedly elevated.
 
 ## Overview
 
