@@ -7,11 +7,7 @@ sources:
   - WHO STI Guidelines 2021
 ---
 
-# Sexually Transmitted Infections
 
-## Clinical Scenario
-
-A 22-year-old woman attends a sexual health clinic with a two-week history of increased vaginal discharge, intermenstrual spotting, and deep dyspareunia. She has a new sexual partner of six weeks and has not used condoms consistently. Temperature is 38.1°C, HR 98 bpm. Speculum examination reveals mucopurulent cervical discharge, and bimanual examination demonstrates marked cervical motion tenderness and left adnexal tenderness. NAATs for *Chlamydia trachomatis* and *Neisseria gonorrhoeae* are sent from cervical and vaginal swabs.
 
 ## Overview
 
