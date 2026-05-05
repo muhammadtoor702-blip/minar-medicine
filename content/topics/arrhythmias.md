@@ -7,11 +7,7 @@ sources:
   - AHA/ACC Arrhythmia Guidelines 2015
 ---
 
-# Arrhythmias and Electrophysiology
 
-## Clinical Scenario
-
-A 31-year-old woman presents to the emergency department with sudden-onset palpitations and breathlessness that started abruptly 25 minutes ago while sitting at her desk. She reports three similar episodes over the past two years, each resolving spontaneously after 20–30 minutes. Her HR is 182 bpm, regular, BP 106/70 mmHg, and SpO₂ 98%. The ECG shows a regular narrow complex tachycardia at 182 bpm. P waves are not visible, but a pseudo-R' pattern is noted in V1.
 
 ## Overview
 
