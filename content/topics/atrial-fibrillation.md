@@ -7,11 +7,7 @@ sources:
   - NICE NG196
 ---
 
-# Atrial Fibrillation
 
-## Clinical Scenario
-
-A 72-year-old man with hypertension and type 2 diabetes presents with two days of palpitations, mild breathlessness, and reduced exercise tolerance. His wife notes he has seemed unusually tired. His pulse is irregularly irregular at 114 bpm, BP is 138/86, and SpO₂ is 97%. ECG shows absent P waves, a fibrillatory baseline, and an irregularly irregular ventricular response. He is haemodynamically stable.
 
 ## Overview
 
