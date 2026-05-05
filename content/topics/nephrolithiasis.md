@@ -7,11 +7,7 @@ sources:
   - NICE NG118
 ---
 
-# Nephrolithiasis
 
-## Clinical Scenario
-
-A 34-year-old man presents to A&E with sudden onset severe right-sided loin pain radiating to the right iliac fossa and groin, associated with nausea, vomiting, and intense restlessness. He cannot find a comfortable position and is writhing on the trolley — in marked contrast to the stillness of peritonitis. Urinalysis shows microscopic haematuria. He reports a similar but shorter episode two years ago that resolved spontaneously without investigation.
 
 ## Overview
 
