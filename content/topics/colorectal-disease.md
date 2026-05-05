@@ -8,11 +8,7 @@ sources:
   - BSG Colorectal Cancer Screening Guidelines
 ---
 
-# Colorectal Disease
 
-## Clinical Scenario
-
-A 66-year-old man presents to his GP with a six-week history of altered bowel habit — alternating constipation and looser stools — with fresh blood mixed in the stool. He has lost 5kg unintentionally and feels generally fatigued. He has a first-degree family history of colorectal cancer (father, diagnosed at age 68). Examination reveals a palpable right-sided abdominal mass. He is urgently referred on the two-week wait pathway.
 
 ## Overview
 
