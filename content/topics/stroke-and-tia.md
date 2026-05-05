@@ -7,11 +7,6 @@ sources:
   - NICE NG128
 ---
 
-# Stroke and TIA
-
-## Clinical Scenario
-
-A 69-year-old man with hypertension and known atrial fibrillation on warfarin is brought in by ambulance after his wife found him slumped in his chair, unable to speak and with weakness of his right arm and face. The onset was approximately two hours ago. His GCS is 13, he has right-sided hemiplegia with right facial droop, and he cannot produce any meaningful speech though he appears to understand what is said to him. BP is 192/106 mmHg. INR is 1.4.
 
 ## Overview
 
