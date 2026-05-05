@@ -6,11 +6,7 @@ sources:
   - ESC Pericardial Disease Guidelines 2015
 ---
 
-# Pericardial Disease
 
-## Clinical Scenario
-
-A 22-year-old medical student presents with two days of sharp central chest pain that worsens when lying flat and is relieved by sitting forward. He had a self-limiting viral upper respiratory tract infection one week ago. HR is 96 bpm, BP 118/76. A three-component scratching sound is audible at the left sternal edge with the patient leaning forward. ECG shows diffuse concave-up ("saddle-shaped") ST elevation in nearly all leads with PR depression in II and elevation in aVR.
 
 ## Overview
 
