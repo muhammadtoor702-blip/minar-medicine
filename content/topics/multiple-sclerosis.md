@@ -7,11 +7,7 @@ sources:
   - McDonald Criteria 2017
 ---
 
-# Multiple Sclerosis
 
-## Clinical Scenario
-
-A 28-year-old woman presents with a 10-day history of progressive painless visual loss in the right eye, with colours appearing washed out and pain on eye movement. Visual acuity is 6/36 in the right eye, with a right relative afferent pupillary defect (RAPD). Two years ago she had an episode of right leg weakness and tingling that resolved spontaneously over 6 weeks without medical attention. MRI brain shows multiple periventricular and juxtacortical T2/FLAIR white matter lesions, some of which demonstrate gadolinium enhancement.
 
 ## Overview
 
