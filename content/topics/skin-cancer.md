@@ -8,11 +8,7 @@ sources:
   - BAD Skin Cancer Guidelines
 ---
 
-# Skin Cancer
 
-## Clinical Scenario
-
-A 62-year-old farmer presents with a 3-month history of a rapidly changing pigmented lesion on his left forearm. It is asymmetric, has an irregular and notched border, shows multiple colours (dark brown, black, and a pink non-pigmented area), and measures 1.2 cm in diameter. He is fair-skinned with blue eyes, burns easily, and has worked outdoors for 40 years. His father had a melanoma excised at age 68. He has no palpable lymphadenopathy.
 
 ## Overview
 
