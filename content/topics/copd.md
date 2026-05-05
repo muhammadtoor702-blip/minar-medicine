@@ -7,11 +7,7 @@ sources:
   - NICE NG115
 ---
 
-# COPD
 
-## Clinical Scenario
-
-A 66-year-old ex-smoker with a 45 pack-year history presents with three days of worsening breathlessness, increased sputum that has turned green, and wheeze. He normally walks 200 metres before stopping. On examination his RR is 26, SpO₂ is 87% on air, and he is using accessory muscles. He has a barrel chest, pursed-lip breathing, hyperresonant percussion bilaterally, and a prolonged expiratory phase with audible wheeze.
 
 ## Overview
 
