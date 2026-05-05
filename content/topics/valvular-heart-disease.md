@@ -6,11 +6,7 @@ sources:
   - ESC Valvular Heart Disease Guidelines 2021
 ---
 
-# Valvular Heart Disease
 
-## Clinical Scenario
-
-A 75-year-old woman presents with an 18-month history of gradually worsening exertional breathlessness and reduced exercise tolerance. Last month she experienced near-blackout while climbing stairs. On examination there is a harsh ejection systolic murmur at the right upper sternal edge radiating to both carotids, a slow-rising low-volume pulse, a narrow pulse pressure, and a soft aortic component of S2. She has a heaving but non-displaced apex beat.
 
 ## Overview
 
