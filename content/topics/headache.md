@@ -7,11 +7,7 @@ sources:
   - IHS Classification ICHD-3
 ---
 
-# Headache
 
-## Clinical Scenario
-
-A 29-year-old woman presents to her GP for the third time in two months with recurrent severe headaches. She describes unilateral, throbbing pain lasting 12–18 hours, associated with nausea, vomiting, photophobia, and phonophobia, forcing her to lie in a dark room. The headaches are triggered by menstruation and stress. She has been taking ibuprofen and codeine almost daily to manage them. She is otherwise well, and her neurological examination is normal.
 
 ## Overview
 
