@@ -8,11 +8,7 @@ sources:
   - BAD Rosacea Guidelines
 ---
 
-# Acne and Rosacea
 
-## Clinical Scenario
-
-An 18-year-old man presents with two years of persistent acne despite adequate OTC treatment. He has inflammatory papules, pustules, and several nodules on his cheeks, forehead, and upper chest. There are two large tender fluctuant cysts on his jaw and several post-inflammatory hyperpigmented macules from previous lesions. He rates his quality of life as severely impacted — avoiding social situations, skipping school events, and experiencing low mood. He has researched isotretinoin online.
 
 ## Overview
 
