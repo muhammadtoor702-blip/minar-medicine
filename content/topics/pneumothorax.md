@@ -6,11 +6,7 @@ sources:
   - BTS Pleural Disease Guidelines 2023
 ---
 
-# Pneumothorax
 
-## Clinical Scenario
-
-A 19-year-old tall, thin male university student presents with sudden onset left-sided sharp chest pain and breathlessness that developed abruptly while sitting in a lecture 90 minutes ago. He has no prior medical history. His RR is 20/min, SpO₂ 96%, HR 94 bpm, BP 118/74 mmHg. Percussion is hyperresonant on the left. Breath sounds are reduced on the left. CXR shows a visible pleural line with a 3cm rim of air measured at the level of the hilum.
 
 ## Overview
 
