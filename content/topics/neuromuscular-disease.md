@@ -7,11 +7,7 @@ sources:
   - EFNS Myasthenia Gravis Guidelines
 ---
 
-# Neuromuscular Disease
 
-## Clinical Scenario
-
-A 34-year-old woman presents with three weeks of progressive weakness, beginning in her feet and calves and ascending over days to involve her thighs and lower back. She had a self-limiting gastroenteritis four weeks ago. She now struggles to climb stairs and cannot rise from a chair without arm support. Reflexes are absent throughout. Sensation is mildly reduced distally. Her vital capacity is 2.1 L (normal predicted 3.8 L). She has no sphincter disturbance.
 
 ## Overview
 
