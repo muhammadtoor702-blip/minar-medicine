@@ -7,11 +7,7 @@ sources:
   - WHO HIV Guidelines 2021
 ---
 
-# HIV and AIDS
 
-## Clinical Scenario
-
-A 34-year-old man presents with a four-week history of fever, drenching night sweats, 8kg of weight loss, and a persistent dry cough. Examination reveals white plaques on the tongue and buccal mucosa that bleed when scraped. His CD4 count is 62 cells/µL and HIV viral load is 340,000 copies/mL. CXR shows bilateral diffuse ground-glass infiltrates, and LDH is markedly elevated at 520 U/L.
 
 ## Overview
 
