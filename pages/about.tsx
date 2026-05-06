@@ -122,11 +122,9 @@ export default function About(): JSX.Element {
         <p style={{ fontSize: '1rem', lineHeight: 2, color: '#555' }}>
   Kids, this whole thing started because I wanted to get your mother a birthday gift.
   <br />
-  <br />
   Most men buy jewelry.
   <br />
   I built a medicine website during house job.
-  <br />
   <br />
   In hindsight, this explains a lot about me.
 </p>
