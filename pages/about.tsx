@@ -48,7 +48,7 @@ export default function About(): JSX.Element {
               The human behind Minar Medicine
             </p>
             <h1 style={{ fontSize: 'clamp(2.8rem, 7vw, 5rem)', lineHeight: 1, fontWeight: 700, color: '#111', marginBottom: '1.5rem' }}>
-              Hi.<br />I&apos;m Wahab.
+              Hi.<br />I&apos;m Muhammad.
             </h1>
             <p style={{ fontSize: '1.15rem', lineHeight: 1.9, color: '#555', maxWidth: '620px', marginBottom: '1.5rem' }}>
               I made Minar Medicine because medical education has an incredible talent for making simple things feel deeply unnecessary.
