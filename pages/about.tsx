@@ -74,7 +74,7 @@ export default function About(): JSX.Element {
         {/* Quote */}
         <div style={{ background: '#f0faf6', border: '1px solid #d9efe7', borderLeft: '5px solid #1D9E75', borderRadius: '18px', padding: '2rem', marginBottom: '2rem' }}>
           <p style={{ fontSize: '1.35rem', lineHeight: 1.8, color: '#124d3d', marginBottom: '0.75rem', fontStyle: 'italic' }}>
-            &ldquo;Most of medicine is pattern recognition, caffeine, and pretending you&apos;re calmer than you are.&rdquo;
+            &ldquo;The vibes were concerning from the beginning.&rdquo;
           </p>
           <span style={{ fontSize: '0.8rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: '#1D9E75' }}>
             — probably said during a post-call delirium episode
