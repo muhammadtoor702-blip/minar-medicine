@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <footer className="footer">
         <p>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
-        <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world.</p>
+        <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world and AZ :)</p>
       </footer>
     </>
   )
