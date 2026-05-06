@@ -120,7 +120,7 @@ export default function About(): JSX.Element {
             This website is for medical students trying to survive, house officers running on chai and denial, and anyone tired of notes written like ancient prophecy.
           </p>
         <p style={{ fontSize: '1rem', lineHeight: 2, color: '#555' }}>
-  Kids, this whole thing started because I wanted to get your mother a birthday gift.
+  Kids, this website exsists because I wanted to get your mother a birthday gift.
   <br />
   Most men buy jewelry.
   <br />
