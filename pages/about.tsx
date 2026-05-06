@@ -119,11 +119,17 @@ export default function About(): JSX.Element {
           <p style={{ fontSize: '1rem', lineHeight: 2, color: '#555', marginBottom: '1rem' }}>
             This website is for medical students trying to survive, house officers running on chai and denial, and anyone tired of notes written like ancient prophecy.
           </p>
-          <p style={{ fontSize: '1rem', lineHeight: 2, color: '#555' }}>
-            Also yes, House MD was definitely an influence.<br />
-            Barney Stinson too.<br />
-            Which probably explains a lot.
-          </p>
+        <p style={{ fontSize: '1rem', lineHeight: 2, color: '#555' }}>
+  Kids, this whole thing started because I wanted to get your mother a birthday gift.
+  <br />
+  <br />
+  Most men buy jewelry.
+  <br />
+  I built a medicine website during house job.
+  <br />
+  <br />
+  In hindsight, this explains a lot about me.
+</p>
           <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid #ececec' }}>
             <p style={{ fontSize: '1.05rem', color: '#111', fontWeight: 600 }}>
               Anyway.<br />
