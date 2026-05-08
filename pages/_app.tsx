@@ -1,50 +1,62 @@
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   return (
     <>
-      <nav className="nav">
-        <div className="flex items-center justify-between w-full">
+      <nav className="nav" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
           <Link href="/" className="nav-brand" onClick={() => setMenuOpen(false)}>
             Minar Medicine
           </Link>
 
           {/* Desktop links */}
-          <div className="nav-links hidden md:flex items-center gap-6">
-            <Link href="/systems">Systems</Link>
-            <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer">AI Tutor</a>
-            <Link href="/about">About</Link>
-          </div>
+          {!isMobile && (
+            <div className="nav-links" style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+              <Link href="/systems">Systems</Link>
+              <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer">AI Tutor</a>
+              <Link href="/about">About</Link>
+            </div>
+          )}
 
           {/* Hamburger button - mobile only */}
-          <button
-            className="md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            {menuOpen ? (
-              <span style={{ fontSize: '20px', lineHeight: 1, color: '#111' }}>✕</span>
-            ) : (
-              <>
-                <span className="block w-6 h-0.5 bg-gray-800"></span>
-                <span className="block w-6 h-0.5 bg-gray-800"></span>
-                <span className="block w-6 h-0.5 bg-gray-800"></span>
-              </>
-            )}
-          </button>
+          {isMobile && (
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle menu"
+              style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '4px', display: 'flex', flexDirection: 'column', gap: '5px' }}
+            >
+              {menuOpen ? (
+                <span style={{ fontSize: '20px', lineHeight: 1, color: '#111' }}>✕</span>
+              ) : (
+                <>
+                  <span style={{ display: 'block', width: '22px', height: '2px', background: '#111' }}></span>
+                  <span style={{ display: 'block', width: '22px', height: '2px', background: '#111' }}></span>
+                  <span style={{ display: 'block', width: '22px', height: '2px', background: '#111' }}></span>
+                </>
+              )}
+            </button>
+          )}
         </div>
 
         {/* Mobile dropdown */}
-        {menuOpen && (
-          <div className="md:hidden w-full border-t border-gray-100 mt-3 pt-3 flex flex-col gap-4 pb-2">
-            <Link href="/systems" onClick={() => setMenuOpen(false)} className="text-sm text-gray-700">Systems</Link>
-            <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="text-sm text-gray-700">AI Tutor</a>
-            <Link href="/about" onClick={() => setMenuOpen(false)} className="text-sm text-gray-700">About</Link>
+        {isMobile && menuOpen && (
+          <div style={{ borderTop: '1px solid #eee', marginTop: '12px', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '8px' }}>
+            <Link href="/systems" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>Systems</Link>
+            <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>AI Tutor</a>
+            <Link href="/about" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>About</Link>
           </div>
         )}
       </nav>
