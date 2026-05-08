@@ -26,11 +26,11 @@ export default function About(): JSX.Element {
             </p>
           </div>
 
-          <div className="w-full overflow-hidden rounded-[20px] border border-[#e8e4dc] bg-[#f7f7f7] sm:rounded-[24px] md:rounded-[28px] max-h-[400px] md:max-h-[520px] md:h-[520px]">
+          <div style={{ width: '100%', borderRadius: '20px', border: '1px solid #e8e4dc', background: '#f7f7f7', overflow: 'hidden' }}>
   <img
     src="/wahab.jpg"
     alt="Muhammad Abdul Wahab Toor"
-    className="w-full h-full object-cover object-contain"
+    style={{ width: '100%', height: 'auto', display: 'block' }}
   />
 </div>
         </div>
