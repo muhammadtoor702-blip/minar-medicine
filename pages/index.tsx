@@ -16,12 +16,20 @@ const SYSTEMS = [
   { name: 'Dermatology', icon: '🩹', slug: 'dermatology' },
 ]
 
-interface Topic { slug: string; title: string; system: string }
+interface Topic { slug: string; title: string; system: string; scenario: string; summary: string }
 
 export default function Home({ topics }: { topics: Topic[] }) {
   const [query, setQuery] = useState('')
   const filtered = query.length > 1
-    ? topics.filter(t => t.title.toLowerCase().includes(query.toLowerCase()) || t.system.toLowerCase().includes(query.toLowerCase()))
+    ? topics.filter(t => {
+      const q = query.toLowerCase()
+      return (
+        t.title.toLowerCase().includes(q) ||
+        t.system.toLowerCase().includes(q) ||
+        (t.scenario || '').toLowerCase().includes(q) ||
+        (t.summary || '').toLowerCase().includes(q)
+      )
+    })
     : topics
 
   return (
