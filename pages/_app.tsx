@@ -9,8 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <Link href="/" className="nav-brand">Minar Medicine</Link>
         <div className="nav-links">
           <Link href="/systems">Systems</Link>
-          <Link href="/about">About</Link>
           <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer">AI Tutor</a>
+          <Link href="/about">About</Link>
         </div>
       </nav>
       <Component {...pageProps} />
