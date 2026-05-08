@@ -29,6 +29,28 @@ export default function Home({ topics }: { topics: Topic[] }) {
       <div className="hero">
         <h1>Clinical medicine,<br /><em>reasoned</em> from first principles</h1>
         <p>A free, open reference built around how clinicians actually think — not just what they memorise.</p>
+        <a
+          href="https://minar-medicine-ai.vercel.app/chat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="system-card"
+          style={{
+            maxWidth: 540,
+            margin: '0 auto 1.25rem',
+            textAlign: 'left',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 16,
+            padding: '1rem 1.25rem',
+          }}
+        >
+          <div>
+            <div className="topic-title">Ask the AI Tutor →</div>
+            <div className="topic-system">Work through questions step-by-step in a new tab.</div>
+          </div>
+          <span style={{ color: '#ccc' }}>›</span>
+        </a>
         <div className="search-box">
           <span className="search-icon">⌕</span>
           <input
