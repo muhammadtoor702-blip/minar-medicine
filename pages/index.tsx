@@ -202,7 +202,7 @@ export default function Home({ topics }: { topics: Topic[] }) {
         matches.push(...slugs)
       }
     })
-    return [...new Set(matches)]
+   return matches.filter((v, i, a) => a.indexOf(v) === i)
   }
 
   const filtered = query.length > 1
