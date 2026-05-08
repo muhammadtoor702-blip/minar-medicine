@@ -8,41 +8,9 @@ export default function About(): JSX.Element {
 
   return (
     <>
-      <style>{`
-        .hero-grid {
-          max-width: 980px;
-          margin: 0 auto;
-          padding: 5rem 1.5rem 4rem;
-          display: grid;
-          grid-template-columns: 1.2fr 0.8fr;
-          gap: 2rem;
-          align-items: center;
-        }
-        .hero-photo {
-          background: #f7f7f7;
-          border: 1px solid #e8e4dc;
-          border-radius: 28px;
-          overflow: hidden;
-          height: 520px;
-        }
-        @media (max-width: 640px) {
-          .hero-grid {
-            grid-template-columns: 1fr;
-            padding: 3rem 1.25rem 0;
-          }
-          .hero-photo {
-            height: 400px;
-            border-radius: 20px 20px 0 0;
-            border-bottom: none;
-            margin: 2rem -1.25rem 0;
-            width: calc(100% + 2.5rem);
-          }
-        }
-      `}</style>
-
       {/* Hero */}
       <section style={{ background: '#ffffff', borderBottom: '1px solid #e8e4dc' }}>
-        <div className="hero-grid">
+        <div className="mx-auto grid max-w-[980px] grid-cols-1 items-center gap-8 px-4 py-12 sm:px-6 sm:py-16 md:[grid-template-columns:1.2fr_0.8fr] md:py-20">
           <div>
             <p style={{ fontSize: '12px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#1D9E75', marginBottom: '1rem' }}>
               The human behind Minar Medicine
@@ -58,11 +26,11 @@ export default function About(): JSX.Element {
             </p>
           </div>
 
-          <div className="hero-photo">
+          <div className="h-[340px] w-full overflow-hidden rounded-[20px] border border-[#e8e4dc] bg-[#f7f7f7] sm:h-[400px] sm:rounded-[24px] md:h-[520px] md:rounded-[28px]">
             <img
               src="/wahab.jpg"
               alt="Muhammad Abdul Wahab Toor"
-              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
+              className="h-full w-full object-contain"
             />
           </div>
         </div>
