@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getAllTopics } from '../lib/topics'
+import { getAllTopics, getTopicBySlug } from '../lib/topics'
 import { GetStaticProps } from 'next'
 import { useState } from 'react'
 
@@ -16,7 +16,7 @@ const SYSTEMS = [
   { name: 'Dermatology', icon: '🩹', slug: 'dermatology' },
 ]
 
-interface Topic { slug: string; title: string; system: string; scenario: string; summary: string }
+interface Topic { slug: string; title: string; system: string; scenario: string; summary: string; content: string }
 
 export default function Home({ topics }: { topics: Topic[] }) {
   const [query, setQuery] = useState('')
@@ -27,7 +27,8 @@ export default function Home({ topics }: { topics: Topic[] }) {
         t.title.toLowerCase().includes(q) ||
         t.system.toLowerCase().includes(q) ||
         (t.scenario || '').toLowerCase().includes(q) ||
-        (t.summary || '').toLowerCase().includes(q)
+        (t.summary || '').toLowerCase().includes(q) ||
+        (t.content || '').toLowerCase().includes(q)
       )
     })
     : topics
@@ -47,7 +48,6 @@ export default function Home({ topics }: { topics: Topic[] }) {
           />
         </div>
       </div>
-
       <div className="container">
         {!query && (
           <div className="section">
@@ -66,7 +66,6 @@ export default function Home({ topics }: { topics: Topic[] }) {
             </div>
           </div>
         )}
-
         <div className="section">
           <span className="section-label">{query ? `Results for "${query}"` : 'All topics'}</span>
           <div className="topic-list">
@@ -87,6 +86,9 @@ export default function Home({ topics }: { topics: Topic[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const topics = getAllTopics()
+  const topics = getAllTopics().map(t => ({
+    ...t,
+    content: getTopicBySlug(t.slug)?.content || ''
+  }))
   return { props: { topics } }
 }
