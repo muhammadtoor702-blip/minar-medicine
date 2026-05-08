@@ -34,7 +34,7 @@ export function getAllTopics(): Omit<Topic, 'content'>[] {
       scenario: data.scenario || '',
       keywords,
       sources: data.sources || [],
-      summary: String(content || '').trim().slice(0, 500),
+      summary: String(content || '').trim().slice(0, 2000),
     }
   })
 }
@@ -57,7 +57,7 @@ export function getTopicBySlug(slug: string): Topic | null {
     scenario: data.scenario || '',
     keywords,
     sources: data.sources || [],
-    summary: String(content || '').trim().slice(0, 500),
+    summary: String(content || '').trim().slice(0, 2000),
     content,
   }
 }
