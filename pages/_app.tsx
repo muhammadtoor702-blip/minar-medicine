@@ -5,9 +5,14 @@ import '../styles/globals.css'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <nav className="nav">
-        <Link href="/" className="nav-brand">Minar Medicine</Link>
-        <div className="nav-links">
+      <nav className="nav flex items-center justify-between gap-3 sm:gap-6">
+        <Link
+          href="/"
+          className="nav-brand min-w-0 max-w-[45vw] truncate text-[15px] sm:max-w-none sm:text-lg"
+        >
+          Minar Medicine
+        </Link>
+        <div className="nav-links flex items-center gap-2 text-[13px] sm:gap-4 sm:text-base">
           <Link href="/systems">Systems</Link>
           <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer">AI Tutor</a>
           <Link href="/about">About</Link>
