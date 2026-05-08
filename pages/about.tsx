@@ -30,7 +30,7 @@ export default function About(): JSX.Element {
   <img
     src="/wahab.jpg"
     alt="Muhammad Abdul Wahab Toor"
-    className="w-full h-full object-cover object-top"
+    className="w-full h-full object-cover object-contain"
   />
 </div>
         </div>
