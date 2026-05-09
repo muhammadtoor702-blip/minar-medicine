@@ -59,7 +59,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const data = await response.json()
     const text = data.choices?.[0]?.message?.content || '[]'
-    const slugs = JSON.parse(text.match(/\[.*\]/s)?.[0] || '[]')
+    const slugs = JSON.parse(text.match(/\[[\s\S]*\]/)?.[0] || '[]')
     return res.json({ slugs })
   } catch {
     return res.json({ slugs: [] })
