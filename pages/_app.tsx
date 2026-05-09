@@ -18,7 +18,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <nav className="nav" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
-          <Link href="/" className="nav-brand" onClick={() => setMenuOpen(false)}>
+          <Link href="/" className="nav-brand" onClick={() => setMenuOpen(false)} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+            <img src="/logo.png" alt="Minar Medicine" style={{ height: "28px", width: "auto" }} />
             Minar Medicine
           </Link>
 
