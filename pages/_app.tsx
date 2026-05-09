@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
           {!isMobile && (
             <div className="nav-links" style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
               <Link href="/systems">Systems</Link>
-              <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer">AI Tutor</a>
+<a href="https://minar-medicine-ai.vercel.app" target="_blank" rel="noopener noreferrer">AI Tutor</a>
               <Link href="/about">About</Link>
             </div>
           )}
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps) {
         {isMobile && menuOpen && (
           <div style={{ borderTop: '1px solid #eee', marginTop: '12px', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '16px', paddingBottom: '8px', background: '#fff', width: '100%', zIndex: 50, position: 'relative' }}>
             <Link href="/systems" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>Systems</Link>
-            <a href="https://minar-medicine-ai.vercel.app/chat" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>AI Tutor</a>
+            <a href="https://minar-medicine-ai.vercel.app" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>AI Tutor</a>
             <Link href="/about" onClick={() => setMenuOpen(false)} style={{ fontSize: '15px', color: '#333' }}>About</Link>
           </div>
         )}
