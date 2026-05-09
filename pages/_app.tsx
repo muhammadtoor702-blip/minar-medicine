@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
@@ -16,6 +17,11 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <Head>
+        <title>Minar Medicine</title>
+        <meta name="description" content="Clinical medicine, reasoned from first principles." />
+        <link rel="icon" href="/logo.png" />
+      </Head>
       <nav className="nav" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
           <Link href="/" className="nav-brand" onClick={() => setMenuOpen(false)} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
