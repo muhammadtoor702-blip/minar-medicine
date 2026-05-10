@@ -2,6 +2,7 @@ import Head from 'next/head'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/next'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -72,6 +73,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <p>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
         <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world and AZ :)</p>
       </footer>
+      <Analytics />
     </>
   )
 }
