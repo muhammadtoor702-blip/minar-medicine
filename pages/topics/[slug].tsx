@@ -1,7 +1,6 @@
 import { getTopicBySlug, getAllTopics } from '../../lib/topics'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import rehypeRaw from 'rehype-raw'
 import Link from 'next/link'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
@@ -34,7 +33,7 @@ export default function TopicPage({ topic }: { topic: Topic }) {
       )}
       <div className="card">
         <div className="topic-body">
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{topic.content}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{topic.content}</ReactMarkdown>
         </div>
       </div>
     </div>
