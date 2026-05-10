@@ -23,7 +23,39 @@ Classification by ejection fraction drives treatment decisions:
 **High-output heart failure** — a distinct entity where cardiac output is elevated but still cannot meet massively increased metabolic demands. Causes include severe anaemia, hyperthyroidism, arteriovenous fistula, wet beriberi (thiamine deficiency), Paget's disease, and pregnancy.
 
 ## Pathophysiology
-
+<svg viewBox="0 0 680 320" width="100%" xmlns="http://www.w3.org/2000/svg" style="margin:1.5rem 0;font-family:Georgia,serif">
+  <rect x="240" y="10" width="200" height="44" rx="8" fill="#085041" />
+  <text x="340" y="37" text-anchor="middle" fill="white" font-size="13" font-weight="600">Cardiac output falls</text>
+  <line x1="340" y1="54" x2="340" y2="80" stroke="#085041" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="140" y="80" width="180" height="44" rx="8" fill="#0F6E56" />
+  <text x="230" y="101" text-anchor="middle" fill="white" font-size="12">RAAS activation</text>
+  <text x="230" y="116" text-anchor="middle" fill="#9FE1CB" font-size="11">Na/water retention ↑ preload</text>
+  <rect x="360" y="80" width="180" height="44" rx="8" fill="#0F6E56" />
+  <text x="450" y="101" text-anchor="middle" fill="white" font-size="12">SNS activation</text>
+  <text x="450" y="116" text-anchor="middle" fill="#9FE1CB" font-size="11">HR ↑, vasoconstriction ↑ afterload</text>
+  <line x1="290" y1="54" x2="230" y2="80" stroke="#085041" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="390" y1="54" x2="450" y2="80" stroke="#085041" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="230" y1="124" x2="230" y2="150" stroke="#085041" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="450" y1="124" x2="450" y2="150" stroke="#085041" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="140" y="150" width="400" height="44" rx="8" fill="#1D9E75" />
+  <text x="340" y="171" text-anchor="middle" fill="white" font-size="13" font-weight="600">Initially compensatory</text>
+  <text x="340" y="186" text-anchor="middle" fill="#E1F5EE" font-size="11">Maintains cardiac output short-term</text>
+  <line x1="340" y1="194" x2="340" y2="220" stroke="#c0392b" stroke-width="2" marker-end="url(#b)"/>
+  <rect x="140" y="220" width="400" height="44" rx="8" fill="#7B1C1C" />
+  <text x="340" y="241" text-anchor="middle" fill="white" font-size="13" font-weight="600">Ultimately maladaptive</text>
+  <text x="340" y="256" text-anchor="middle" fill="#FFAAAA" font-size="11">Ventricular dilation, fibrosis, remodelling</text>
+  <line x1="140" y1="242" x2="80" y2="242" stroke="#888" stroke-width="1.5" marker-end="url(#c)"/>
+  <text x="70" y="238" text-anchor="end" fill="#085041" font-size="11" font-weight="600">ACEi/ARB</text>
+  <text x="70" y="252" text-anchor="end" fill="#085041" font-size="11">blocks RAAS</text>
+  <line x1="540" y1="242" x2="600" y2="242" stroke="#888" stroke-width="1.5" marker-end="url(#c)"/>
+  <text x="610" y="238" fill="#085041" font-size="11" font-weight="600">Beta-blocker</text>
+  <text x="610" y="252" fill="#085041" font-size="11">blocks SNS</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#085041" stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="c" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round"/></marker>
+  </defs>
+</svg>
 When cardiac output falls, compensatory mechanisms are activated. The RAAS releases angiotensin II and aldosterone, causing sodium and water retention and increasing preload. The sympathetic nervous system increases heart rate and causes vasoconstriction, raising afterload. Ventricular hypertrophy and remodelling occur.
 
 These responses initially maintain cardiac output but are ultimately maladaptive. Chronic volume and pressure overload leads to progressive ventricular dilation, fibrosis, and further dysfunction. This is the biological rationale for ACE inhibitors, beta-blockers, MRAs, and SGLT2 inhibitors — each interrupts a different arm of this neurohormonal cascade.
