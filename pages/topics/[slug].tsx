@@ -3,6 +3,8 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Link from 'next/link'
 import { GetStaticProps, GetStaticPaths } from 'next'
+import MermaidDiagram from '../../components/MermaidDiagram'
+import { Children, isValidElement } from 'react'
 
 interface Topic {
   slug: string; title: string; system: string
@@ -33,7 +35,33 @@ export default function TopicPage({ topic }: { topic: Topic }) {
       )}
       <div className="card">
         <div className="topic-body">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{topic.content}</ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={{
+              pre({ children }) {
+                const child = Children.only(children)
+
+                if (
+                  isValidElement<{ className?: string; children?: React.ReactNode }>(child) &&
+                  child.props.className?.includes('language-mermaid')
+                ) {
+                  const code = String(child.props.children).replace(/\n$/, '')
+                  return <MermaidDiagram chart={code} />
+                }
+
+                return <pre>{children}</pre>
+              },
+              code({ className, children, ...props }) {
+                return (
+                  <code className={className} {...props}>
+                    {children}
+                  </code>
+                )
+              },
+            }}
+          >
+            {topic.content}
+          </ReactMarkdown>
         </div>
       </div>
     </div>

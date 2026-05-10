@@ -55,6 +55,45 @@ PE is highly variable in presentation. The classical triad of pleuritic pain, ha
 
 Score ≤4: PE unlikely. Score >4: PE likely. This drives the investigative pathway.
 
+```mermaid
+flowchart TD
+    A["Suspected PE: pleuritic pain, dyspnoea, tachycardia, hypoxia, syncope, VTE risk"] --> B["Immediate ABCs: SpO2, BP, ECG, CXR, IV access"]
+    B --> C{"Haemodynamic instability?<br/>SBP &lt;90 mmHg or drop &gt;40 mmHg<br/>shock, syncope, arrest"}
+
+    C -->|Yes| D["High-risk / massive PE pathway"]
+    D --> E["Give O2 if hypoxaemic; cautious IV fluids; norepinephrine if shock"]
+    E --> F["Start anticoagulation if no absolute contraindication<br/>UFH preferred if thrombolysis/procedure likely"]
+    F --> G{"Can patient safely reach CTPA?"}
+    G -->|Yes| H["Urgent CTPA"]
+    G -->|No| I["Bedside echo: RV dilation, D-shaped septum, McConnell sign<br/>+ leg ultrasound if helpful"]
+    H --> J{"PE confirmed or very likely?"}
+    I --> J
+    J -->|Yes| K{"Thrombolysis contraindicated?"}
+    K -->|No| L["Systemic thrombolysis: alteplase 100 mg IV over 2 h"]
+    K -->|Yes or failed| M["Catheter-directed therapy or surgical embolectomy"]
+    J -->|No| N["Search for shock mimic: ACS, tamponade, tension pneumothorax, sepsis, dissection"]
+
+    C -->|No| O["Stable pathway: estimate pre-test probability"]
+    O --> P["Wells score components:<br/>DVT signs 3; PE most likely 3; HR &gt;100 1.5;<br/>immob/surgery 1.5; prior VTE 1.5; haemoptysis 1; cancer 1"]
+    P --> Q{"Wells &gt;4?"}
+    Q -->|PE likely| R["Skip D-dimer: order CTPA<br/>Start anticoagulation while awaiting imaging if delay/high suspicion"]
+    Q -->|Wells &lt;=4: PE unlikely| S["D-dimer"]
+    S --> T{"D-dimer negative?<br/>usually &lt;500 ng/mL FEU<br/>or age-adjusted &gt;50 y: age x 10"}
+    T -->|Yes| U["PE excluded<br/>Evaluate alternatives: pneumonia, pneumothorax, ACS, pericarditis, MSK pain"]
+    T -->|No| R
+    R --> V{"CTPA result"}
+    V -->|Negative| U
+    V -->|Positive| W["Risk stratify confirmed PE"]
+
+    W --> X{"RV strain or myocardial injury?<br/>Echo/CT RV:LV &gt;=1<br/>troponin or BNP elevated"}
+    X -->|No| Y["Low-risk / non-massive PE<br/>DOAC: apixaban or rivaroxaban<br/>Outpatient if sPESI 0 and reliable follow-up"]
+    X -->|Yes| Z{"SBP &gt;=90 and no shock?"}
+    Z -->|Yes| AA["Intermediate-risk / submassive PE<br/>Anticoagulate + monitor<br/>Rescue thrombolysis only if decompensation"]
+    Z -->|No| D
+    Y --> AB["Duration: provoked 3 mo; unprovoked &gt;=6 mo; recurrent or active cancer often indefinite"]
+    AA --> AB
+```
+
 ## Diagnosis
 
 **D-dimer:**

@@ -85,6 +85,41 @@ STEMI is defined by ST elevation ≥1mm in ≥2 contiguous limb leads, or ≥2mm
 
 **Absolute contraindications to thrombolysis:** prior haemorrhagic stroke at any time, ischaemic stroke within 3 months, suspected aortic dissection, active bleeding (excluding menstruation), BP >180/110 uncontrolled.
 
+```mermaid
+flowchart TD
+    A["Chest pain concerning for ACS<br/>pressure, diaphoresis, dyspnoea, nausea, radiation"] --> B["First 10 min: ECG + vitals + IV access<br/>Aspirin 300 mg chew; assess bleeding/dissection risk"]
+    B --> C{"STEMI criteria?<br/>STE &gt;=1 mm in 2 limb leads<br/>or V2-V3: men &gt;=2 mm, men &lt;40 &gt;=2.5 mm, women &gt;=1.5 mm<br/>or posterior/RV MI pattern"}
+
+    C -->|Yes| D["STEMI = complete occlusion until proven otherwise"]
+    D --> E["Immediate therapy unless contraindicated:<br/>P2Y12 load, UFH/LMWH, atorvastatin 80 mg<br/>O2 only if SpO2 &lt;90%; nitrates if SBP adequate"]
+    E --> F{"Red flags for aortic dissection?<br/>tearing maximal pain, pulse/BP asymmetry, mediastinal widening"}
+    F -->|Yes| G["Do NOT thrombolyse<br/>Urgent CT aorta / surgical pathway"]
+    F -->|No| H{"Primary PCI available within 120 min<br/>or door-to-balloon &lt;=90 min?"}
+    H -->|Yes| I["Primary PCI"]
+    H -->|No| J{"Symptom onset &lt;=12 h<br/>and no absolute lysis contraindication?"}
+    J -->|Yes| K["Fibrinolysis: tenecteplase/alteplase<br/>Goal door-to-needle &lt;=30 min"]
+    K --> L{"Successful lysis?<br/>&gt;=50% ST resolution at 60-90 min<br/>reperfusion arrhythmia, pain improves"}
+    L -->|Yes| M["Transfer for angiography/PCI within 2-24 h"]
+    L -->|No| N["Rescue PCI immediately"]
+    J -->|No| O["Urgent PCI transfer; no lysis"]
+
+    C -->|No| P["No STEMI: serial ECGs + high-sensitivity troponin"]
+    P --> Q{"Troponin above 99th percentile<br/>with rise/fall on 0/1 h or 0/3 h testing?"}
+    Q -->|No| R{"Ongoing ischaemic symptoms or dynamic ECG changes?"}
+    R -->|No| S["ACS unlikely<br/>Consider PE, dissection, pericarditis, pneumothorax, GI/MSK causes"]
+    R -->|Yes| T["Unstable angina<br/>Treat as NSTE-ACS; risk stratify"]
+    Q -->|Yes| U{"Type 1 MI likely?<br/>plaque rupture symptoms, ischaemic ECG, no dominant supply-demand trigger"}
+    U -->|No| V["Type 2 MI / myocardial injury<br/>Treat cause: sepsis, anaemia, hypoxia, tachyarrhythmia, hypotension"]
+    U -->|Yes| W["NSTEMI<br/>Aspirin + P2Y12 + anticoagulation + statin<br/>Avoid nitrates in RV infarct/PDE5 use/hypotension"]
+    T --> X["TIMI risk score 0-7<br/>Age &gt;=65; &gt;=3 CAD risks; known CAD; aspirin use; severe angina; ST deviation; +biomarker"]
+    W --> X
+    X --> Y{"Very high risk?<br/>shock, refractory pain, acute HF, malignant arrhythmia"}
+    Y -->|Yes| Z["Immediate invasive angiography &lt;2 h"]
+    Y -->|No| AA{"High risk?<br/>TIMI &gt;=3, dynamic ST/T changes, troponin positive, diabetes, CKD"}
+    AA -->|Yes| AB["Early angiography &lt;24 h"]
+    AA -->|No| AC["Conservative / delayed invasive strategy<br/>stress imaging or CTCA if low-intermediate risk"]
+```
+
 ### NSTEMI — Risk Stratification
 
 The **TIMI score** (0–7) guides the urgency of invasive strategy. A score ≥3 favours early angiography within 24 hours. Immediate angiography is indicated for haemodynamic instability, cardiogenic shock, refractory chest pain, or life-threatening arrhythmia.
