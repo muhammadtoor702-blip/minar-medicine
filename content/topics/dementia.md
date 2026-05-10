@@ -100,6 +100,18 @@ Distinguish dementia from:
 - Reduced Aβ42, elevated tau and phospho-tau — highly specific for Alzheimer's pathology
 - Alpha-synuclein — DLB
 
+```mermaid
+flowchart TD
+    A["Dementia: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Management
 
 ### Non-pharmacological (cornerstone)

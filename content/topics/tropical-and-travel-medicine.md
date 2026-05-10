@@ -153,6 +153,19 @@ Vector control: DEET repellent, permethrin-treated clothing, sleeping under inse
 
 **Immediate management:** Malaria film (× 3 at intervals if negative) is mandatory for any febrile traveller from a malaria-endemic area — this is non-negotiable. Blood cultures, FBC, U&E, LFTs. Then consider the full differential based on travel history and incubation period.
 
+```mermaid
+flowchart TD
+    A["Tropical and Travel Medicine: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
+    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
+    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
+    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
+    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
+    E --> F
+    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
+    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
+    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+```
+
 ## Complications
 
 **Severe malaria**: Multi-organ failure, ARDS, cerebral malaria, renal failure, hypoglycaemia, blackwater fever (intravascular haemolysis), death.

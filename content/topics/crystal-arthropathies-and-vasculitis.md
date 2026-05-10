@@ -133,6 +133,18 @@ Small vessel vasculitis with pauci-immune necrotising inflammation (minimal immu
 - **Plasma exchange**: For severe renal failure (creatinine >500 µmol/L) or pulmonary haemorrhage — evidence remains debated (PEXIVAS trial: plasma exchange did not reduce death/ESRD)
 - **Prophylaxis**: Co-trimoxazole — prevents PCP during immunosuppression; reduces relapse in GPA (trimethoprim reduces nasal *Staphylococcus* carriage — a relapse trigger)
 
+```mermaid
+flowchart TD
+    A["Crystal Arthropathies and Vasculitis: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
+    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
+    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
+    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
+    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
+    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
+    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
+    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+```
+
 ## Complications
 
 **Gout**: Tophi with skin ulceration, urate nephropathy, renal calculi, disability from chronic arthropathy, drug side effects (allopurinol hypersensitivity).

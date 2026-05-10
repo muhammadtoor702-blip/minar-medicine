@@ -144,6 +144,18 @@ Screen for psoriatic arthritis in all patients.
 
 PASI (Psoriasis Area and Severity Index) and DLQI (Dermatology Life Quality Index) guide treatment escalation. NICE criteria for biologics: PASI ≥10 + DLQI >10 after failure of ≥2 standard systemic treatments.
 
+```mermaid
+flowchart TD
+    A["Eczema and Psoriasis: skin presentation"] --> B["Morphology + distribution + mucosa + systemic symptoms + drug exposure"]
+    B --> C{"Derm emergency? SJS/TEN, DRESS, nec fasc, meningococcemia, erythroderma, ocular involvement"}
+    C -->|Yes| D["Stop culprit drug; admit/ICU/burns/ophthalmology/surgery as indicated"]
+    C -->|No| E["Pattern recognition: inflammatory, infectious, autoimmune bullous, malignant, infestation"]
+    E --> F["Use tests selectively: KOH, swab/culture, biopsy with DIF, dermoscopy, serology"]
+    F --> G{"High-risk lesion or severe/refractory disease?"}
+    G -->|Yes| H["Urgent dermatology/biopsy/systemic therapy"]
+    G -->|No| I["Topical/local therapy, trigger control, follow-up and safety-netting"]
+```
+
 ## Complications
 
 **Eczema**: Secondary bacterial infection (*S. aureus* — impetigo/eczema herpeticum if HSV superinfection — medical emergency: IV aciclovir); eczema herpeticum; erythroderma; psychological morbidity; sleep disruption.

@@ -83,6 +83,29 @@ Often **asymptomatic** — discovered on routine screening. When symptomatic: po
 
 **Screening**: All adults ≥35 years; any age with BMI ≥25 (≥23 in South Asian populations) and additional risk factors. Every 3 years if normal; annually if pre-diabetes.
 
+```mermaid
+flowchart TD
+    A["Hyperglycaemia symptoms or screening abnormality"] --> B{"Meets diabetes criteria?<br/>FPG &gt;=7.0 mmol/L OR HbA1c &gt;=48 mmol/mol<br/>2h OGTT &gt;=11.1 OR random &gt;=11.1 + symptoms"}
+    B -->|No| C["Prediabetes: HbA1c 42-47 or IFG/IGT<br/>Lifestyle, weight loss, annual review"]
+    B -->|Yes| D{"Type 1/DKA features?<br/>young/lean, weight loss, ketones, rapid onset,<br/>pH &lt;7.3, HCO3 &lt;15, ketones &gt;3"}
+    D -->|Yes| E["Treat as T1DM/DKA<br/>Never stop basal insulin; check GAD/IA2/ZnT8, C-peptide later"]
+    D -->|No| F["Likely T2DM: assess ASCVD, HF, CKD, weight, hypoglycaemia risk"]
+    F --> G["Lifestyle + metformin if eGFR &gt;=30 and tolerated"]
+    G --> H{"Compelling comorbidity?"}
+    H -->|ASCVD/high CV risk| I["Add GLP-1 RA or SGLT2i with CV benefit"]
+    H -->|HF or CKD/albuminuria| J["Add SGLT2i if eGFR allows<br/>ACEi/ARB for albuminuria/BP"]
+    H -->|Weight loss priority| K["GLP-1 RA, especially semaglutide/liraglutide/dulaglutide"]
+    H -->|Cost/no comorbidity| L["DPP-4i, sulfonylurea, pioglitazone, or insulin by patient factors"]
+    F --> M{"HbA1c target"}
+    M -->|Most adults| N["&lt;53 mmol/mol (7%)"]
+    M -->|Frailty/hypoglycaemia risk| O["Relax to &lt;58-64 mmol/mol; avoid SU/insulin if possible"]
+    E --> P["DKA protocol: 0.9% saline + K replacement<br/>Fixed-rate insulin 0.1 U/kg/h<br/>Add dextrose when glucose &lt;14"]
+    P --> Q{"DKA resolved?<br/>pH &gt;7.3, HCO3 &gt;15, ketones &lt;0.6"}
+    Q -->|Yes| R["Transition to SC insulin with overlap"]
+    Q -->|No| P
+    F --> S["Annual complications: ACR/eGFR, eyes, feet, BP, lipids, neuropathy"]
+```
+
 ## Management
 
 ### Type 2 Diabetes — Stepwise Pharmacotherapy

@@ -105,6 +105,18 @@ Pancytopaenia: anaemia (fatigue, dyspnoea), neutropaenia (infections — mouth u
 
 **PNH clone by flow cytometry**: CD59 and CD55 expression on RBCs and neutrophils — loss confirms PNH clone. Sensitive for small clones.
 
+```mermaid
+flowchart TD
+    A["Haemolytic Anaemia and Bone Marrow Failure: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
+    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
+    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
+    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
+    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
+    F --> G{"Clonal/malignant or marrow failure concern?"}
+    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
+    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+```
+
 ## Management
 
 ### Sickle Cell Disease

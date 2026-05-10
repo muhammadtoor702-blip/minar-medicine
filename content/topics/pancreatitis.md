@@ -140,6 +140,18 @@ Pancreatic ductal adenocarcinoma (PDAC) — the most common and most lethal panc
 
 **Management**: Whipple's procedure (pancreaticoduodenectomy) for resectable head-of-pancreas tumours. Only ~20% are resectable at presentation. Adjuvant chemotherapy (gemcitabine + capecitabine, or FOLFIRINOX). Palliative ERCP stenting for obstructive jaundice. Palliative chemotherapy for advanced disease (FOLFIRINOX or gemcitabine + nab-paclitaxel).
 
+```mermaid
+flowchart TD
+    A["Pancreatitis: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
+    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
+    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
+    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
+    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
+    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
+    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
+    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+```
+
 ## Complications
 
 **Acute pancreatitis**: Pancreatic necrosis (sterile or infected), pseudocyst, abscess, splenic vein thrombosis, ARDS, AKI, DIC, hypocalcaemia (fat saponification), hyperglycaemia (islet damage).

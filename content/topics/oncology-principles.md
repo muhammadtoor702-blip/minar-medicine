@@ -147,6 +147,18 @@ Neutrophil count <0.5 × 10⁹/L + temperature ≥38°C in a patient on chemothe
 
 Massive tumour cell lysis releases intracellular contents: hyperkalaemia (cardiac arrest), hyperphosphataemia (→ hypocalcaemia → tetany, seizures), hyperuricaemia (uric acid nephropathy → AKI). Highest risk: Burkitt's lymphoma, ALL, and any highly chemosensitive tumour. Prevention: aggressive IV hydration, allopurinol (or rasburicase in high-risk patients — directly metabolises uric acid), electrolyte monitoring.
 
+```mermaid
+flowchart TD
+    A["Oncology Principles: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
+    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
+    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
+    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
+    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
+    F --> G{"Clonal/malignant or marrow failure concern?"}
+    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
+    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+```
+
 ## Clinical Insight
 
 Performance status is the single most important factor in treatment decision-making after the biology of the tumour itself. It is more predictive of chemotherapy tolerance and outcomes than age. An 80-year-old with ECOG 0 tolerates treatment far better than a 55-year-old with ECOG 3. Making decisions based on chronological age rather than functional status leads to undertreating the fit elderly and overtreating the frail.

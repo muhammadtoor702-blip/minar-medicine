@@ -68,6 +68,31 @@ CKD is characteristically **silent** until the GFR falls below 25–30 mL/min/1.
 
 **Frequency of monitoring:** Determined by CKD stage and rate of progression. G3 with stable disease: every 6–12 months. G4: every 3–6 months. G5: every 1–3 months.
 
+```mermaid
+flowchart TD
+    A["Abnormal eGFR or ACR"] --> B{"Present &gt;=3 months?"}
+    B -->|No| C["Repeat testing; exclude AKI, dehydration, obstruction, nephrotoxins"]
+    B -->|Yes| D["CKD diagnosis: classify CGA<br/>Cause + GFR stage + Albuminuria stage"]
+    D --> E["GFR: G1 &gt;=90, G2 60-89, G3a 45-59,<br/>G3b 30-44, G4 15-29, G5 &lt;15"]
+    D --> F["ACR: A1 &lt;3 mg/mmol, A2 3-30, A3 &gt;30"]
+    D --> G["Risk stratify by eGFR slope, ACR, haematuria, BP, diabetes, ultrasound"]
+    G --> H{"Urgent nephrology features?"}
+    H -->|eGFR &lt;30, rapid fall, ACR &gt;70,<br/>ACR &gt;30 + haematuria, resistant HTN, suspected GN| I["Refer nephrology"]
+    H -->|No| J["Primary care/shared CKD protection"]
+    J --> K["BP target usually &lt;130/80 if proteinuric<br/>ACEi/ARB first-line if ACR elevated"]
+    K --> L{"Creatinine rise after ACEi/ARB"}
+    L -->|&lt;=30%| M["Acceptable; continue and monitor K/Cr"]
+    L -->|&gt;30% or K high| N["Stop/reduce; assess renal artery stenosis, hypovolaemia, NSAIDs"]
+    J --> O{"SGLT2 eligible?<br/>eGFR &gt;=20 and albuminuric CKD or diabetes/HF indication"}
+    O -->|Yes| P["Dapagliflozin/empagliflozin<br/>Renal + CV protection independent of glucose"]
+    J --> Q["Complication screen"]
+    Q --> R["Anaemia: iron first; ESA if Hb &lt;100 g/L after repletion<br/>target 100-120, avoid &gt;130"]
+    Q --> S["CKD-MBD: phosphate, Ca, PTH, vitamin D<br/>binders, active vitamin D, cinacalcet as indicated"]
+    Q --> T["Metabolic acidosis: bicarbonate &lt;22 to oral sodium bicarbonate"]
+    I --> U{"eGFR &lt;15 or uraemic symptoms?"}
+    U -->|Yes| V["Prepare RRT: transplant, haemodialysis AV fistula, peritoneal dialysis"]
+```
+
 ## Management
 
 ### Slowing Progression

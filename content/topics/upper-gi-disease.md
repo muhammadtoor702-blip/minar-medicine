@@ -147,6 +147,18 @@ Two histological types:
 
 **Management**: Curative intent — Ivor Lewis oesophagectomy ± neoadjuvant chemotherapy (FLOT or CROSS protocol). Most present with advanced disease — palliative chemotherapy and endoscopic stenting for dysphagia.
 
+```mermaid
+flowchart TD
+    A["Upper GI Disease: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
+    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
+    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
+    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
+    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
+    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
+    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
+    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+```
+
 ## Complications
 
 **Peptic ulcer**: Haemorrhage (most common — endoscopic haemostasis), perforation (peritonitis — surgical emergency), gastric outlet obstruction (fibrotic pyloric scarring — bilious vomiting).

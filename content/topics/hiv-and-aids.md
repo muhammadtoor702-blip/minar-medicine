@@ -72,6 +72,19 @@ Occurs 2–6 weeks after transmission. A mononucleosis-like syndrome: fever, pha
 - Cervical smear (women — increased CIN risk)
 - TB screen (IGRA or Mantoux, CXR)
 
+```mermaid
+flowchart TD
+    A["HIV and AIDS: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
+    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
+    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
+    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
+    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
+    E --> F
+    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
+    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
+    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+```
+
 ## Management
 
 ### Antiretroviral Therapy (ART)

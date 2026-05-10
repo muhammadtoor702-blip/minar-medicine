@@ -49,6 +49,33 @@ Progressive exertional dyspnoea is the cardinal symptom, often developing insidi
 
 **Spirometry is required to diagnose COPD.** Clinical features alone are insufficient.
 
+```mermaid
+flowchart TD
+    A["Smoker/exposure + chronic dyspnoea, cough, sputum"] --> B["Post-bronchodilator spirometry"]
+    B --> C{"FEV1/FVC &lt;0.70?"}
+    C -->|No| D["COPD not confirmed<br/>Consider asthma, HF, ILD, anaemia, obesity"]
+    C -->|Yes| E["COPD confirmed: grade airflow limitation"]
+    E --> F{"FEV1 % predicted"}
+    F -->|&gt;=80%| G["GOLD 1 mild"]
+    F -->|50-79%| H["GOLD 2 moderate"]
+    F -->|30-49%| I["GOLD 3 severe"]
+    F -->|&lt;30%| J["GOLD 4 very severe"]
+    E --> K["Assess exacerbations, CAT/mMRC symptoms, eosinophils, smoking, vaccines"]
+    K --> L{"Acute exacerbation now?"}
+    L -->|Yes| M["Controlled O2: target SpO2 88-92%<br/>Venturi 24-28%; ABG in severe cases"]
+    M --> N["Neb salbutamol + ipratropium<br/>Prednisolone 30-40 mg x5 days"]
+    N --> O{"Purulent sputum, consolidation, or systemic illness?"}
+    O -->|Yes| P["Antibiotics: amoxicillin/doxycycline/clarithromycin per local guidance"]
+    O -->|No| Q["No routine antibiotics"]
+    N --> R{"pH &lt;7.35 and PaCO2 &gt;6 kPa after 1 h?"}
+    R -->|Yes| S["NIV/BiPAP; ICU if NIV contraindicated or failing"]
+    R -->|No| T["Continue bronchodilators, reassess ABG/PE/PNX/pneumonia"]
+    L -->|No| U["Stable COPD: smoking cessation + inhaled therapy"]
+    U --> V["LAMA or LABA to LAMA/LABA if persistent symptoms<br/>Add ICS only if frequent exacerbations and eosinophils &gt;300 cells/uL"]
+    U --> W{"LTOT criteria when stable?"}
+    W -->|PaO2 &lt;7.3 kPa or 7.3-8.0 with cor pulmonale/polycythaemia| X["Oxygen &gt;=15 h/day"]
+```
+
 Post-bronchodilator FEV1/FVC <0.7 confirms obstructive ventilatory defect. FEV1 % predicted determines GOLD severity:
 
 | GOLD Grade | FEV1 % Predicted | Severity |

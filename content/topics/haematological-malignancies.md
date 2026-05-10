@@ -97,6 +97,18 @@ A = no B symptoms; B = fever, night sweats, weight loss.
 
 **CT chest/abdomen/pelvis + PET-CT**: Staging in lymphoma. PET is superior to CT for metabolically active disease and is used to assess treatment response (Deauville score after 2 cycles).
 
+```mermaid
+flowchart TD
+    A["Haematological Malignancies: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
+    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
+    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
+    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
+    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
+    F --> G{"Clonal/malignant or marrow failure concern?"}
+    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
+    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+```
+
 ## Management
 
 ### Acute Leukaemia

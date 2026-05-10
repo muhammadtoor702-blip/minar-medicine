@@ -74,6 +74,18 @@ Symptoms depend on severity, speed of onset, and cardiorespiratory reserve. Fati
 
 **Reticulocyte count**: Elevated in haemolysis and acute blood loss (appropriate response). Low or normal in nutritional deficiency and aplasia (inadequate response — the bone marrow cannot compensate).
 
+```mermaid
+flowchart TD
+    A["Anaemia: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
+    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
+    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
+    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
+    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
+    F --> G{"Clonal/malignant or marrow failure concern?"}
+    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
+    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+```
+
 ## Management
 
 ### Iron Deficiency

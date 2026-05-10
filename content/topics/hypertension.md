@@ -59,6 +59,18 @@ Hypertension is almost universally asymptomatic until end-organ damage occurs. W
 - Urine ACR — proteinuria as marker of early nephropathy
 - Fundoscopy — Keith-Wagener-Barker grade 3–4 indicates emergency
 
+```mermaid
+flowchart TD
+    A["Hypertension: clinical presentation"] --> B["Initial triage: vitals, ECG, troponin if ischaemia, BNP if HF, bedside echo if unstable"]
+    B --> C{"Unstable? SBP &lt;90, shock, syncope, acute pulmonary oedema, malignant arrhythmia"}
+    C -->|Yes| D["ED/ICU pathway: oxygen if SpO2 &lt;90%, IV access, continuous monitor, urgent cardiology"]
+    C -->|No| E["Risk stratify with disease-specific criteria and comorbidities"]
+    E --> F["Define anatomy/physiology: TTE, CT/MRI/cath/stress testing as indicated"]
+    F --> G{"High-risk features? rising troponin, EF &lt;40%, severe valve lesion, aortic syndrome, sustained VT, refractory symptoms"}
+    G -->|Yes| H["Admit/expedite invasive or procedural management"]
+    G -->|No| I["Outpatient/floor management: guideline therapy, risk factor control, follow-up testing"]
+```
+
 ## Management
 
 ### Lifestyle Modification

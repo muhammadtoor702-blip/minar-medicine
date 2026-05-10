@@ -13,6 +13,8 @@ interface Topic {
 
 export default function TopicPage({ topic }: { topic: Topic }) {
   const systemSlug = topic.system.toLowerCase().replace(/ /g, '-')
+  const contentWithoutComments = topic.content.replace(/<!--[\s\S]*?-->/g, '')
+
   return (
     <div className="container" style={{ paddingTop: '2.5rem', paddingBottom: '3rem' }}>
       <span className="breadcrumb">
@@ -60,7 +62,7 @@ export default function TopicPage({ topic }: { topic: Topic }) {
               },
             }}
           >
-            {topic.content}
+            {contentWithoutComments}
           </ReactMarkdown>
         </div>
       </div>

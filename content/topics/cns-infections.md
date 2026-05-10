@@ -117,6 +117,18 @@ Collection of pus within the brain parenchyma, typically arising from direct spr
 
 **Management**: IV antibiotics (ceftriaxone + metronidazole for community-acquired; add vancomycin for post-neurosurgical or traumatic) — 4–8 weeks. Surgical aspiration or excision for lesions >2.5 cm, accessible location, or deteriorating neurology. Dexamethasone for oedema with mass effect. Monitor for herniation.
 
+```mermaid
+flowchart TD
+    A["CNS Infections: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Clinical Insight
 
 Give antibiotics before CT. Bacterial meningitis kills within hours — the organism load in CSF halves within 15 minutes of the first dose of ceftriaxone, but this is vastly outweighed by the benefit of treatment. The risk of herniation from LP in meningitis without raised ICP is extremely low. The risk of herniation from untreated meningitis is high. When LP is genuinely contraindicated, take blood cultures and CT — but do not delay antibiotics waiting for either.

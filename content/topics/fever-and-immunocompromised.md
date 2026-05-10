@@ -137,6 +137,19 @@ Transplant recipients require lifelong immunosuppression to prevent rejection �
 
 **PCP prophylaxis**: Co-trimoxazole for first 6–12 months post-transplant.
 
+```mermaid
+flowchart TD
+    A["Fever of Unknown Origin and Infection in the Immunocompromised: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
+    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
+    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
+    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
+    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
+    E --> F
+    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
+    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
+    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+```
+
 ## Clinical Insight
 
 In febrile neutropenia, the source of infection is never found in approximately 40–60% of patients. This does not mean there is no infection — it means the organisms are not identifiable by current methods, or the infection has been suppressed before localising. Empirical broad-spectrum antibiotics are started because the consequences of undertreating are catastrophic. A temperature of 38°C in a neutropenic patient is a medical emergency equivalent to septic shock in an immunocompetent patient.

@@ -74,6 +74,18 @@ The **alveolar-arterial (A-a) gradient** helps localise the problem:
 - Echo if cardiogenic cause suspected
 - Spirometry and NCS/EMG if neuromuscular disease suspected
 
+```mermaid
+flowchart TD
+    A["Respiratory Failure: dyspnoea, cough, chest pain, hypoxaemia, or imaging abnormality"] --> B["Immediate severity: SpO2, RR, work of breathing, ABG/VBG, CXR/CT when indicated"]
+    B --> C{"Respiratory failure? SpO2 &lt;90%, PaO2 low, PaCO2 &gt;6 kPa, pH &lt;7.35, exhaustion"}
+    C -->|Yes| D["Escalate: controlled O2 target 94-98% or 88-92% if CO2 retainer; NIV/intubation if failing"]
+    C -->|No| E["Localize process: airway, alveolar, pleural, vascular, interstitial, neuromuscular"]
+    E --> F["Key tests: CXR, CT/CTPA, spirometry, sputum/cultures, echo, pleural studies as syndrome dictates"]
+    F --> G{"Red flags? shock, haemoptysis, tension physiology, empyema pH &lt;7.2, massive PE, severe hypoxaemia"}
+    G -->|Yes| H["Admit/ICU/procedure: drain, anticoagulate/thrombolyse, antibiotics, bronchoscopy, ventilatory support"]
+    G -->|No| I["Treat cause + reassess oxygenation, symptoms, and follow-up imaging/function"]
+```
+
 ## Management
 
 ### Type 1 Respiratory Failure

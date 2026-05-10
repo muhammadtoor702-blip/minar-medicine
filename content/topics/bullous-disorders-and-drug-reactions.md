@@ -152,6 +152,18 @@ DRESS is a severe drug hypersensitivity reaction with multi-organ involvement. D
 
 **Management**: Withdraw causative drug immediately. Oral or IV corticosteroids (prednisolone 0.5–1 mg/kg) to suppress the systemic inflammation. Monitor LFTs, renal function, FBC. Symptoms can relapse weeks after the drug is stopped.
 
+```mermaid
+flowchart TD
+    A["Bullous Skin Disorders and Severe Drug Reactions: skin presentation"] --> B["Morphology + distribution + mucosa + systemic symptoms + drug exposure"]
+    B --> C{"Derm emergency? SJS/TEN, DRESS, nec fasc, meningococcemia, erythroderma, ocular involvement"}
+    C -->|Yes| D["Stop culprit drug; admit/ICU/burns/ophthalmology/surgery as indicated"]
+    C -->|No| E["Pattern recognition: inflammatory, infectious, autoimmune bullous, malignant, infestation"]
+    E --> F["Use tests selectively: KOH, swab/culture, biopsy with DIF, dermoscopy, serology"]
+    F --> G{"High-risk lesion or severe/refractory disease?"}
+    G -->|Yes| H["Urgent dermatology/biopsy/systemic therapy"]
+    G -->|No| I["Topical/local therapy, trigger control, follow-up and safety-netting"]
+```
+
 ## Clinical Insight
 
 The distinction between pemphigus and pemphigoid saves lives and avoids unnecessary treatment. The clinical key: pemphigoid has tense blisters, negative Nikolsky sign, and minimal mucosa involvement in an elderly patient — it is managed with topical clobetasol or oral prednisolone. Pemphigus has flaccid blisters, positive Nikolsky sign, and oral erosions preceding the rash — it requires systemic immunosuppression including rituximab.

@@ -81,6 +81,18 @@ IBS is a **positive clinical diagnosis** — based on Rome IV criteria in the ab
 - Lactose/fructose intolerance — dietary exclusion trial
 - SIBO — hydrogen breath test; antibiotic treatment (rifaximin)
 
+```mermaid
+flowchart TD
+    A["Irritable Bowel Syndrome and Functional GI Disorders: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
+    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
+    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
+    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
+    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
+    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
+    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
+    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+```
+
 ## Management
 
 Management of IBS requires a **biopsychosocial approach** — addressing the physiological, psychological, and lifestyle components together. Symptom severity, patient health beliefs, and level of distress determine the intensity of intervention.

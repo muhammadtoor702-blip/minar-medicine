@@ -72,6 +72,18 @@ A clinically isolated syndrome (CIS) — a single clinical episode suggestive of
 
 **Differential diagnosis of CNS white matter lesions:** NMOSD (neuromyelitis optica spectrum disorder — anti-AQP4 or anti-MOG antibodies, longitudinally extensive spinal cord lesions), ADEM (acute disseminated encephalomyelitis — monophasic, post-infectious, children), CNS vasculitis, Susac syndrome, migraine-related white matter changes, CADASIL, B12 deficiency, HIV encephalopathy.
 
+```mermaid
+flowchart TD
+    A["Multiple Sclerosis: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Management
 
 ### Acute Relapse

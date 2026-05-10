@@ -156,6 +156,18 @@ HRT replaces oestrogen (± progesterone in women with a uterus to prevent endome
 
 **Management**: Testosterone replacement therapy (gel, patch, or IM injection) for symptomatic hypogonadism with confirmed low testosterone. Monitor Hb (polycythaemia), PSA (prostate), bone density. Clomifene or pulsatile GnRH to stimulate testicular function if fertility is desired.
 
+```mermaid
+flowchart TD
+    A["Reproductive Endocrinology: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
+    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
+    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
+    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
+    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
+    F --> G{"Primary vs secondary?"}
+    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
+    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+```
+
 ## Clinical Insight
 
 PCOS is a metabolic condition as much as a reproductive one. The ovarian and menstrual features are the presenting complaint — but the insulin resistance, cardiovascular risk, and type 2 diabetes risk are the long-term determinants of health outcomes. Every woman with PCOS should have an annual HbA1c, fasting lipids, and blood pressure check — regardless of her current reproductive goals.

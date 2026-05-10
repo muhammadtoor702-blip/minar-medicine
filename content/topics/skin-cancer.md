@@ -167,6 +167,18 @@ Sun-exposed skin — dorsum of hands, scalp, face, lower lip, ears. Also mucosal
 
 **GP surveillance**: Patients with previous melanoma require annual skin checks. Organ transplant recipients require regular dermatology review for SCC.
 
+```mermaid
+flowchart TD
+    A["Skin Cancer: skin presentation"] --> B["Morphology + distribution + mucosa + systemic symptoms + drug exposure"]
+    B --> C{"Derm emergency? SJS/TEN, DRESS, nec fasc, meningococcemia, erythroderma, ocular involvement"}
+    C -->|Yes| D["Stop culprit drug; admit/ICU/burns/ophthalmology/surgery as indicated"]
+    C -->|No| E["Pattern recognition: inflammatory, infectious, autoimmune bullous, malignant, infestation"]
+    E --> F["Use tests selectively: KOH, swab/culture, biopsy with DIF, dermoscopy, serology"]
+    F --> G{"High-risk lesion or severe/refractory disease?"}
+    G -->|Yes| H["Urgent dermatology/biopsy/systemic therapy"]
+    G -->|No| I["Topical/local therapy, trigger control, follow-up and safety-netting"]
+```
+
 ## Clinical Insight
 
 Nodular melanoma does not follow the ABCDE rules — it is raised from the outset (not flat), grows quickly, and may be symmetric, small, and relatively uniform in colour. Relying exclusively on ABCDE misses approximately 20% of melanomas. The ugly duckling sign — any lesion that stands out from the rest of the patient's skin as looking different — should prompt referral regardless of ABCDE score. Amelanotic nodular melanoma is particularly easy to miss and is frequently mistaken for a pyogenic granuloma or BCC.

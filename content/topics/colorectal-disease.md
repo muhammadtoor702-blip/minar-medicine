@@ -142,6 +142,18 @@ Lower GI bleeding (LGIB) is defined as haemorrhage from a source distal to the l
 
 **Ischaemic colitis**: Sudden onset lower abdominal cramp + bloody diarrhoea in an elderly patient with vascular disease. Watershed areas (splenic flexure, rectosigmoid junction) most vulnerable. CT shows segmental bowel wall thickening. Usually self-limiting; supportive management.
 
+```mermaid
+flowchart TD
+    A["Colorectal Disease: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
+    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
+    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
+    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
+    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
+    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
+    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
+    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+```
+
 ## Complications
 
 **CRC**: Local invasion, obstruction, perforation, fistula (to bladder, vagina), liver and lung metastases.

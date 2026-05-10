@@ -161,6 +161,18 @@ Most commonly iatrogenic — **post-thyroidectomy** or post-parathyroidectomy. A
 
 **Management**: **Calcium supplements + active vitamin D (alfacalcidol or calcitriol)** — oral, lifelong. **Recombinant PTH (teriparatide or palopegteriparatide)** — licensed for chronic hypoparathyroidism when standard therapy is insufficient.
 
+```mermaid
+flowchart TD
+    A["Pituitary Disorders and Calcium Metabolism: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
+    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
+    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
+    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
+    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
+    F --> G{"Primary vs secondary?"}
+    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
+    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+```
+
 ## Clinical Insight
 
 Acromegaly kills through cardiovascular disease — the cardiomyopathy and associated hypertension and diabetes. Achieving biochemical remission (normalised IGF-1, suppressed GH on OGTT) is associated with return of cardiovascular risk to near-normal. The delay in diagnosis — averaging 8–10 years — represents years of unrecognised cardiovascular and metabolic damage. Old photographs are the most sensitive and underused diagnostic tool.

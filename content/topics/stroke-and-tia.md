@@ -88,6 +88,18 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 - Echocardiogram — LAA thrombus, structural heart disease, PFO
 - Carotid Doppler USS — carotid stenosis
 
+```mermaid
+flowchart TD
+    A["Stroke and TIA: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Management
 
 ### Acute Ischaemic Stroke

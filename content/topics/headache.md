@@ -113,6 +113,18 @@ Treatment: Weight loss (most effective), acetazolamide (reduces CSF production),
 
 **ESR, CRP, temporal artery biopsy** for suspected GCA.
 
+```mermaid
+flowchart TD
+    A["Headache: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Clinical Insight
 
 The thunderclap headache is a diagnosis until proven otherwise. "The worst headache of my life" in a patient who has never had a headache like it requires an immediate non-contrast CT head, and if negative, a lumbar puncture at 12 hours. A normal CT does not exclude SAH — the sensitivity of CT drops from 95% at 6 hours to 50% at 1 week. Sending a patient home with analgesia after a thunderclap headache without LP is a preventable catastrophe.

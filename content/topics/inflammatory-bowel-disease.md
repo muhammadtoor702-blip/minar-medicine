@@ -62,6 +62,18 @@ PSC and axial arthropathy follow an independent course — they progress even wh
 
 **Small bowel imaging**: MRI enterography (preferred — no radiation) or CT enterography for small bowel Crohn's. CT is faster in an acute setting. MRI pelvis is gold standard for perianal Crohn's — maps fistula tracts and abscesses.
 
+```mermaid
+flowchart TD
+    A["Inflammatory Bowel Disease: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
+    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
+    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
+    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
+    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
+    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
+    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
+    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+```
+
 ## Management
 
 ### Ulcerative Colitis

@@ -115,6 +115,18 @@ The pattern of bleeding points to the component of haemostasis that is defective
 
 **D-dimer**: High sensitivity, low specificity. Excellent for ruling out VTE in low-probability patients (NPV >99%). Elevated in many benign conditions — infection, inflammation, malignancy, pregnancy, post-operatively. Do not use it as a rule-in test.
 
+```mermaid
+flowchart TD
+    A["Bleeding Disorders and Thrombosis: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
+    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
+    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
+    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
+    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
+    F --> G{"Clonal/malignant or marrow failure concern?"}
+    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
+    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+```
+
 ## Management
 
 ### Haemophilia

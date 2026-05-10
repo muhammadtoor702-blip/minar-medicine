@@ -153,6 +153,18 @@ Reactivation of varicella-zoster virus (VZV) from dorsal root ganglia following 
 - Pain management: paracetamol, NSAIDs, neuropathic agents for severe pain.
 - **Shingrix vaccine** (recombinant zoster vaccine) — recommended for adults ≥50; 97% efficacy against shingles; highly effective for preventing PHN; two doses 2–6 months apart. Preferred over Zostavax.
 
+```mermaid
+flowchart TD
+    A["Skin Infections and Infestations: skin presentation"] --> B["Morphology + distribution + mucosa + systemic symptoms + drug exposure"]
+    B --> C{"Derm emergency? SJS/TEN, DRESS, nec fasc, meningococcemia, erythroderma, ocular involvement"}
+    C -->|Yes| D["Stop culprit drug; admit/ICU/burns/ophthalmology/surgery as indicated"]
+    C -->|No| E["Pattern recognition: inflammatory, infectious, autoimmune bullous, malignant, infestation"]
+    E --> F["Use tests selectively: KOH, swab/culture, biopsy with DIF, dermoscopy, serology"]
+    F --> G{"High-risk lesion or severe/refractory disease?"}
+    G -->|Yes| H["Urgent dermatology/biopsy/systemic therapy"]
+    G -->|No| I["Topical/local therapy, trigger control, follow-up and safety-netting"]
+```
+
 ## Clinical Insight
 
 Tinea pedis is the most important and most overlooked risk factor for recurrent lower leg cellulitis. The fissures between the toes provide a portal of entry for streptococcal infection. Treating the tinea — with topical terbinafine or clotrimazole applied consistently to the web spaces — is as important as the antibiotic for preventing recurrence. Every patient with lower leg cellulitis should have their interdigital spaces examined.

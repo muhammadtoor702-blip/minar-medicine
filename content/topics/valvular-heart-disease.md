@@ -132,6 +132,18 @@ Myxomatous degeneration causes leaflet billowing into the LA during systole. Pre
 | Mitral valve prolapse | Mid-systolic click + late systolic | Click then murmur | Apex |
 | Tricuspid regurgitation | Holosystolic | Blowing | LLSB; increases with inspiration |
 
+```mermaid
+flowchart TD
+    A["Valvular Heart Disease: clinical presentation"] --> B["Initial triage: vitals, ECG, troponin if ischaemia, BNP if HF, bedside echo if unstable"]
+    B --> C{"Unstable? SBP &lt;90, shock, syncope, acute pulmonary oedema, malignant arrhythmia"}
+    C -->|Yes| D["ED/ICU pathway: oxygen if SpO2 &lt;90%, IV access, continuous monitor, urgent cardiology"]
+    C -->|No| E["Risk stratify with disease-specific criteria and comorbidities"]
+    E --> F["Define anatomy/physiology: TTE, CT/MRI/cath/stress testing as indicated"]
+    F --> G{"High-risk features? rising troponin, EF &lt;40%, severe valve lesion, aortic syndrome, sustained VT, refractory symptoms"}
+    G -->|Yes| H["Admit/expedite invasive or procedural management"]
+    G -->|No| I["Outpatient/floor management: guideline therapy, risk factor control, follow-up testing"]
+```
+
 ## Clinical Insight
 
 Aortic stenosis is notoriously underappreciated until symptoms develop. A patient who has had a systolic murmur for years and then reports their first episode of exertional syncope has crossed a critical threshold — do not wait for a second episode. Refer for echo and surgical evaluation urgently.

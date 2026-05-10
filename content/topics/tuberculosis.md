@@ -46,6 +46,31 @@ Tuberculosis (TB) is caused by *Mycobacterium tuberculosis* and remains one of t
 
 **CXR and CT thorax:** Upper lobe consolidation with cavitation is the classic active pulmonary TB pattern. Hilar lymphadenopathy, pleural effusion, miliary nodules. Old TB: upper lobe fibrosis, calcified Ghon focus and Ranke complex, volume loss.
 
+<!-- Wikimedia Commons: "Chest X-ray PA erect showing left upper lobe cavitation.png" by Cerevisae, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Chest_X-ray_PA_erect_showing_left_upper_lobe_cavitation.png -->
+![Chest X-ray showing left upper lobe cavitation](/images/medical/pulmonology/tb-left-upper-lobe-cavitation-cxr.jpg)
+
+```mermaid
+flowchart TD
+    A["Suspected TB: cough &gt;3 wk, fever, night sweats, weight loss,<br/>haemoptysis, exposure, high-burden country, immunosuppression"] --> B{"Pulmonary symptoms or abnormal CXR?"}
+    B -->|Yes| C["Airborne isolation if active pulmonary TB possible<br/>Notify infection control"]
+    C --> D["Send &gt;=3 sputum samples incl early morning<br/>AFB smear, mycobacterial culture, NAAT/GeneXpert MTB/RIF"]
+    D --> E{"NAAT or smear positive?"}
+    E -->|Yes| F["Treat active TB while awaiting culture/susceptibility<br/>Assess HIV, LFTs, contacts"]
+    E -->|No but high suspicion| G["CT chest, induced sputum or bronchoscopy/BAL<br/>Do not rely on IGRA to rule out active TB"]
+    B -->|No| H["Latent TB evaluation if contact, immigrant screen, pre-anti-TNF, HIV"]
+    H --> I{"IGRA/Mantoux positive and active TB excluded?"}
+    I -->|Yes| J["LTBI treatment: isoniazid 6 mo<br/>or rifampicin/isoniazid 3 mo; check interactions"]
+    I -->|No| K["No LTBI treatment; reassess if immunosuppression/exposure"]
+    F --> L["Drug-susceptible pulmonary TB: RIPE<br/>2 mo rifampicin + isoniazid + pyrazinamide + ethambutol<br/>then 4 mo rifampicin + isoniazid"]
+    L --> M["Prevent toxicity: pyridoxine with isoniazid<br/>baseline LFTs; visual acuity/colour vision for ethambutol"]
+    D --> N{"Rifampicin resistance or MDR risk?"}
+    N -->|Yes| O["Specialist MDR-TB regimen<br/>MDR = at least rifampicin + isoniazid resistance"]
+    F --> P{"CNS, spinal, disseminated, HIV?"}
+    P -->|CNS TB| Q["12 mo therapy + dexamethasone"]
+    P -->|HIV| R["Coordinate ART timing; monitor IRIS"]
+    F --> S["Contact tracing + public health notification<br/>Smear-positive: isolate until non-infectious, often ~2 wk effective therapy"]
+```
+
 **Bronchoscopy with BAL:** If sputum cannot be obtained or smears are negative but suspicion remains high.
 
 **Tissue biopsy:** For extrapulmonary sites — lymph node, pleural, bone biopsy. Histology shows **caseating granulomas** with central caseous necrosis, surrounded by epithelioid macrophages, Langhans giant cells, and lymphocytes.

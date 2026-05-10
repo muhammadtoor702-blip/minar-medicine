@@ -79,6 +79,18 @@ Significant bacteriuria = ≥10⁵ CFU/mL of a single organism (lower thresholds
 - CT urography — for recurrent UTI in men, structural abnormality suspected, or stones
 - All men with a first UTI warrant investigation for structural or functional abnormality
 
+```mermaid
+flowchart TD
+    A["Urinary Tract Infections: kidney/electrolyte presentation"] --> B["Immediate labs: BMP, Cr/eGFR trend, K, HCO3, Ca/Mg/Phos, urinalysis, urine microscopy"]
+    B --> C{"Emergency? K &gt;=6.5 or ECG changes, pH &lt;7.1, pulmonary oedema, anuria, uremic symptoms"}
+    C -->|Yes| D["Stabilize + nephrology: calcium/insulin for hyperK, bicarbonate selected, diuretics/dialysis if refractory"]
+    C -->|No| E["Classify: pre-renal, intrinsic, post-renal, tubular, glomerular, stone, endocrine/electrolyte"]
+    E --> F["Use thresholds: FeNa &lt;1% pre-renal, FeNa &gt;2% ATN, ACR stages, eGFR stages, urine pH/osmolality"]
+    F --> G{"Structural or obstructive concern? hydronephrosis, stones, single kidney, retention"}
+    G -->|Yes| H["Renal ultrasound/CT; catheter, stent, nephrostomy, or urology as needed"]
+    G -->|No| I["Stop nephrotoxins, dose-adjust meds, treat cause, monitor Cr/K/urine output"]
+```
+
 ## Management
 
 ### Uncomplicated Lower UTI (Women)

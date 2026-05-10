@@ -73,6 +73,18 @@ RA is a **clinical diagnosis** supported by serology and imaging. The **2010 ACR
 - Early connective tissue disease
 - Crystal arthritis (gout, pseudogout — usually oligoarticular and episodic)
 
+```mermaid
+flowchart TD
+    A["Rheumatoid Arthritis: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
+    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
+    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
+    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
+    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
+    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
+    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
+    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+```
+
 ## Management
 
 ### The Treat-to-Target (T2T) Principle

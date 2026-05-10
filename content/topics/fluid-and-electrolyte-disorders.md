@@ -149,6 +149,18 @@ Clinical assessment of volume status before prescribing IV fluids:
 - Signs of hypovolaemia (tachycardia, hypotension, oliguria, dry mucous membranes): IV crystalloid resuscitation bolus
 - Signs of hypervolaemia (raised JVP, pulmonary oedema, peripheral oedema): restrict IV fluids, consider diuretics
 
+```mermaid
+flowchart TD
+    A["Fluid and Electrolyte Disorders: kidney/electrolyte presentation"] --> B["Immediate labs: BMP, Cr/eGFR trend, K, HCO3, Ca/Mg/Phos, urinalysis, urine microscopy"]
+    B --> C{"Emergency? K &gt;=6.5 or ECG changes, pH &lt;7.1, pulmonary oedema, anuria, uremic symptoms"}
+    C -->|Yes| D["Stabilize + nephrology: calcium/insulin for hyperK, bicarbonate selected, diuretics/dialysis if refractory"]
+    C -->|No| E["Classify: pre-renal, intrinsic, post-renal, tubular, glomerular, stone, endocrine/electrolyte"]
+    E --> F["Use thresholds: FeNa &lt;1% pre-renal, FeNa &gt;2% ATN, ACR stages, eGFR stages, urine pH/osmolality"]
+    F --> G{"Structural or obstructive concern? hydronephrosis, stones, single kidney, retention"}
+    G -->|Yes| H["Renal ultrasound/CT; catheter, stent, nephrostomy, or urology as needed"]
+    G -->|No| I["Stop nephrotoxins, dose-adjust meds, treat cause, monitor Cr/K/urine output"]
+```
+
 ## Clinical Insight
 
 Thiazide diuretics and SSRIs are the two most common drug causes of SIADH — and they are frequently prescribed together in elderly women. The combination produces synergistic hyponatraemia. When an elderly woman on these drugs presents confused, the sodium is the first thing to check.

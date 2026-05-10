@@ -78,6 +78,29 @@ Distinguishing shock type matters because the treatments differ and may be direc
 
 Target lactate clearance of ≥10% per 2 hours as a resuscitation endpoint.
 
+```mermaid
+flowchart TD
+    A["Suspected infection + acute illness"] --> B["Screen: qSOFA and organ dysfunction<br/>RR &gt;=22, SBP &lt;=100, altered mentation"]
+    B --> C{"Shock or high risk?<br/>MAP &lt;65, lactate &gt;=2, SpO2 low,<br/>oliguria, confusion, mottled skin"}
+    C -->|Yes| D["Hour-1 sepsis bundle"]
+    D --> E["Measure lactate; repeat if &gt;2<br/>Blood cultures x2 before antibiotics if no delay"]
+    E --> F["Broad-spectrum IV antibiotics within 1 h<br/>Source-guided; de-escalate when cultures return"]
+    F --> G{"Hypotension or lactate &gt;=4?"}
+    G -->|Yes| H["30 mL/kg crystalloid<br/>Reassess fluid responsiveness after each bolus"]
+    G -->|No| I["Targeted fluids; avoid overload"]
+    H --> J{"MAP &gt;=65 after fluids?"}
+    J -->|No| K["Norepinephrine first-line vasopressor<br/>Target MAP &gt;=65; central line when feasible"]
+    K --> L{"Escalating vasopressors?"}
+    L -->|Yes| M["Add vasopressin; consider hydrocortisone 200 mg/day<br/>Dobutamine if myocardial dysfunction/low CO"]
+    J -->|Yes| N["Continue source control + lactate clearance goal &gt;=10% per 2 h"]
+    C -->|No| O["Evaluate source and severity; cultures/imaging; early antibiotics if sepsis likely"]
+    D --> P{"Source control needed?"}
+    P -->|Abscess, perforation, nec fasc, infected line, obstruction| Q["Urgent drainage/debridement/removal<br/>Do not wait for imaging if nec fasc likely"]
+    D --> R{"Organ support needed?"}
+    R -->|ARDS: P/F &lt;300| S["Lung-protective ventilation 6 mL/kg IBW<br/>Prone if P/F &lt;150"]
+    R -->|AKI/hyperK/acidosis/overload| T["Renal replacement therapy if refractory"]
+```
+
 ## Management
 
 ### The Hour-1 Bundle (Surviving Sepsis Campaign 2021)

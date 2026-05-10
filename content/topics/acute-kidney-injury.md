@@ -47,6 +47,29 @@ AKI is often clinically silent until it is advanced. Features depend on the caus
 
 **Immediately stop all nephrotoxins** — NSAIDs, ACEi/ARBs (can resume when recovered and stable), metformin (risk of lactic acidosis in AKI), aminoglycosides, contrast agents.
 
+```mermaid
+flowchart TD
+    A["Creatinine rise or oliguria"] --> B["KDIGO AKI?<br/>Cr +26.5 umol/L in 48 h OR &gt;=1.5x baseline in 7 d<br/>or UO &lt;0.5 mL/kg/h for &gt;=6 h"]
+    B --> C["Immediate actions: stop NSAID/ACEi/ARB/metformin/contrast<br/>Check K, bicarbonate, ABG, ECG, urine dip, bladder scan"]
+    C --> D{"Emergency complication?"}
+    D -->|K &gt;=6.5 or ECG changes| E["Hyperkalaemia: IV calcium gluconate<br/>then insulin/dextrose + salbutamol<br/>remove K; dialysis if refractory"]
+    D -->|Pulmonary oedema| F["O2/CPAP, IV furosemide if responsive, fluid restrict<br/>dialysis if refractory"]
+    D -->|pH &lt;7.1 or uraemic encephalopathy/pericarditis| G["Urgent nephrology/RRT"]
+    D -->|No| H["Classify cause"]
+    H --> I{"Volume depletion/low perfusion?<br/>vomit, diarrhoea, sepsis, HF, hypotension"}
+    I -->|Yes| J["Pre-renal AKI<br/>Crystalloid resuscitation if hypovolaemic<br/>Reassess JVP/lungs/urine output"]
+    I -->|No| K{"Obstruction possible?<br/>older male, LUTS, pelvic malignancy, hydronephrosis"}
+    K -->|Yes| L["Post-renal AKI<br/>Catheter for bladder outlet obstruction<br/>Urology for stent/nephrostomy"]
+    K -->|No| M["Intrinsic AKI workup"]
+    M --> N{"Urine findings"}
+    N -->|Muddy brown casts, FeNa &gt;2%| O["ATN: ischaemia/nephrotoxins<br/>supportive care, avoid further insults"]
+    N -->|RBC casts, blood+protein| P["GN/vasculitis: ANCA, anti-GBM, complement<br/>urgent nephrology, possible biopsy"]
+    N -->|WBC/eosinophils, rash, fever| Q["AIN: stop trigger, consider steroids if persistent"]
+    J --> R{"FeNa helpful?"}
+    R -->|No diuretics: FeNa &lt;1%| S["Supports pre-renal"]
+    R -->|On diuretics| T["Use FeUrea &lt;35% for pre-renal"]
+```
+
 **Bloods**: Creatinine (and trend), urea, electrolytes (hyperkalaemia is the life-threatening emergency), bicarbonate, calcium, phosphate, FBC, CK (rhabdomyolysis), LDH, coagulation.
 
 **Urine dipstick and microscopy**:

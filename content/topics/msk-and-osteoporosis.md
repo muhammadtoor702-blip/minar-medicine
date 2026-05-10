@@ -167,6 +167,18 @@ Tendinopathy at the origin of the extensor carpi radialis brevis from the latera
 
 Inflammation at the origin of the plantar fascia at the calcaneus. Severe heel pain on first steps in the morning or after rest ("post-static dyskinesia"). Associated with obesity, flat feet, Achilles tightness, and SpA. Management: stretching programme, orthotic insoles, night splints, corticosteroid injection, shockwave therapy.
 
+```mermaid
+flowchart TD
+    A["Musculoskeletal Disorders and Osteoporosis: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
+    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
+    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
+    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
+    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
+    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
+    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
+    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+```
+
 ## Clinical Insight
 
 Every patient starting long-term steroids (prednisolone ≥5 mg for >3 months) needs bone protection started simultaneously — not at the 3-month review, not when they fracture. Glucocorticoids reduce bone quality faster than BMD measurements reflect. A patient on prednisolone with a T-score of -1.5 has a higher absolute fracture risk than an untreated postmenopausal woman with the same T-score — because glucocorticoids impair bone quality beyond what DEXA captures. FRAX adjusts for this, but the clinical bottom line is: start bisphosphonate or another bone protection agent with the steroid prescription, not after a fracture proves the need.

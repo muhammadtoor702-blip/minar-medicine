@@ -48,6 +48,30 @@ These responses initially maintain cardiac output but are ultimately maladaptive
 
 **BNP and NT-proBNP** have high sensitivity and excellent negative predictive value. A normal BNP in an untreated patient makes significant heart failure very unlikely and effectively excludes it in the right clinical context.
 
+```mermaid
+flowchart TD
+    A["Dyspnoea, orthopnoea, oedema, raised JVP, crackles"] --> B["Assess severity: SpO2, BP, ECG, CXR, BNP/NT-proBNP, U&E"]
+    B --> C{"Acute pulmonary oedema or shock?"}
+    C -->|Yes| D["Sit upright, oxygen if SpO2 &lt;94%, IV access, monitor urine output"]
+    D --> E{"SBP &gt;90 mmHg?"}
+    E -->|Yes| F["IV loop diuretic + GTN infusion if hypertensive/congested"]
+    E -->|No| G["Avoid vasodilators; consider cardiogenic shock<br/>ICU/cardiology, inotrope/vasopressor, urgent echo"]
+    F --> H{"Persistent distress/hypoxaemia?"}
+    H -->|Yes| I["CPAP/BiPAP; intubate if failing NIV or reduced consciousness"]
+    H -->|No| J["Treat precipitant: ACS, AF, infection, PE, non-adherence, renal failure"]
+    C -->|No| K["Suspected chronic HF pathway"]
+    K --> L{"BNP elevated?<br/>BNP &gt;100 pg/mL supports HF<br/>very high values suggest urgent echo"}
+    L -->|No| M["HF unlikely if untreated; seek COPD, anaemia, obesity, deconditioning"]
+    L -->|Yes| N["Echocardiogram: classify EF"]
+    N --> O{"EF category"}
+    O -->|HFrEF &lt;40%| P["4 pillars: ACEi/ARB/ARNI + evidence beta-blocker + MRA + SGLT2i"]
+    O -->|HFmrEF 40-49%| Q["Treat comorbidities; consider HFrEF-style therapy if symptomatic"]
+    O -->|HFpEF &gt;=50%| R["Diuretics for congestion; control BP/AF/DM/obesity; SGLT2i increasingly used"]
+    P --> S{"After &gt;=3 months optimized GDMT<br/>EF still &lt;=35%?"}
+    S -->|Yes| T["ICD for sudden death prevention<br/>CRT if LBBB and QRS &gt;120 ms"]
+    S -->|No| U["Continue titration, sodium/fluid education, rehab, vaccinations"]
+```
+
 ## Diagnosis
 
 **Echocardiography is essential** — it determines ejection fraction, identifies the underlying cause (wall motion abnormalities, valvular disease, pericardial pathology), and guides therapy. No pharmacological treatment for HFrEF should be started without a confirmed EF.

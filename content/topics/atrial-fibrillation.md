@@ -51,6 +51,32 @@ AF may be completely asymptomatic and discovered incidentally, or may present wi
 
 **ECG is diagnostic:** absence of P waves (or irregular fibrillatory baseline), irregularly irregular RR intervals, and typically narrow QRS complexes (unless aberrant conduction or pre-existing BBB is present).
 
+<!-- Wikimedia Commons: "ECG Atrial Fibrillation.svg" by Ewingdo; vectorised by Marnanel, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation.svg -->
+![Atrial fibrillation ECG](/images/medical/cardiology/atrial-fibrillation-ecg.svg)
+
+```mermaid
+flowchart TD
+    A["Irregularly irregular pulse or palpitations"] --> B["12-lead ECG"]
+    B --> C{"AF confirmed?<br/>No discrete P waves + irregular RR<br/>usually narrow QRS"}
+    C -->|No| D["Differentiate: atrial flutter variable block, MAT, frequent ectopics, sinus arrhythmia"]
+    C -->|Yes| E{"Unstable?<br/>shock, syncope, ischaemia, acute HF<br/>SBP &lt;90 or severe pulmonary oedema"}
+    E -->|Yes| F["Immediate synchronised DC cardioversion<br/>Do not delay for anticoagulation"]
+    E -->|No| G["Stable AF: 3 parallel decisions"]
+    G --> H["1. Reversible causes<br/>TFTs, K/Mg, infection, PE, ACS, alcohol, OSA, valve disease"]
+    G --> I{"2. Rate vs rhythm"}
+    I -->|Older, minimal symptoms, permanent AF| J["Rate control target resting HR &lt;110<br/>Beta-blocker first-line<br/>Diltiazem/verapamil if no HFrEF<br/>Digoxin if HF/sedentary"]
+    I -->|New onset, symptomatic, young, tachycardiomyopathy| K["Rhythm control<br/>Electrical or pharmacologic cardioversion<br/>Flecainide only if no structural heart disease<br/>Amiodarone if HF/structural disease"]
+    G --> L{"3. Stroke prevention<br/>CHA2DS2-VASc"}
+    L --> M["CHF 1, HTN 1, Age &gt;=75 2, DM 1,<br/>Stroke/TIA 2, Vascular 1, Age 65-74 1, Sex female 1"]
+    M --> N{"Anticoagulate?"}
+    N -->|Men &gt;=2 or women &gt;=3| O["DOAC preferred: apixaban/rivaroxaban/dabigatran/edoxaban"]
+    N -->|Mechanical valve or moderate-severe mitral stenosis| P["Warfarin only, INR 2-3"]
+    N -->|Low score| Q["No anticoagulation; reassess risk periodically"]
+    K --> R{"AF duration &gt;48 h or unknown?"}
+    R -->|Yes| S["Anticoagulate &gt;=3 weeks before + &gt;=4 weeks after<br/>or TOE-guided cardioversion if no LAA thrombus"]
+    R -->|No| T["Cardioversion reasonable; anticoagulate based on stroke risk"]
+```
+
 **Differential for irregular pulse:**
 - Frequent ectopics — P waves visible, premature beats interspersed
 - Atrial flutter with variable block — sawtooth waves at ~300 bpm, regularly irregular

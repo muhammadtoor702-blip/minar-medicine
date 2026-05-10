@@ -71,6 +71,27 @@ Consolidation produces **V/Q mismatch** — alveoli are perfused but not ventila
 | 2 | ~9% | Hospital admission |
 | 3–5 | 15–40% | Consider HDU/ICU |
 
+```mermaid
+flowchart TD
+    A["Suspected CAP: fever, cough, sputum, pleuritic pain, focal signs"] --> B["Confirm + assess severity<br/>CXR, SpO2, RR, BP, confusion, urea, cultures if moderate/severe"]
+    B --> C{"Alternative diagnosis clues?"}
+    C -->|Upper lobe cavitation, weight loss, night sweats| D["TB pathway: isolate, sputum AFB/NAAT/culture"]
+    C -->|Bilateral perihilar oedema, raised JVP| E["Pulmonary oedema/HF"]
+    C -->|Pleuritic pain + VTE risk + normal/near-normal CXR| F["Consider PE"]
+    C -->|Persistent opacity, smoker &gt;50| G["Cancer/post-obstructive pneumonia; repeat CXR 6 wk, CT if non-resolving"]
+    C -->|No| H["CURB-65 score"]
+    H --> I{"Score"}
+    I -->|0-1| J["Low risk: outpatient if safe<br/>Amoxicillin 500 mg TDS 5 d<br/>Doxycycline if atypical suspected"]
+    I -->|2| K["Moderate: admit<br/>Amoxicillin + clarithromycin<br/>O2 target 94-98% or 88-92% if CO2 retainer"]
+    I -->|3-5| L["Severe: hospital/HDU/ICU<br/>Co-amoxiclav IV + clarithromycin IV<br/>Add levofloxacin if Legionella risk"]
+    L --> M{"Sepsis/respiratory failure?"}
+    M -->|Yes| N["Sepsis bundle; ABG; ICU if shock, rising O2 need, multilobar disease"]
+    B --> O{"Atypical clues?<br/>hyponatraemia, diarrhoea, confusion, travel/hotel"}
+    O -->|Yes| P["Legionella urine antigen<br/>Ensure macrolide/fluoroquinolone coverage"]
+    B --> Q{"Pleural effusion/empyema?"}
+    Q -->|pH &lt;7.2, glucose &lt;2.2, LDH &gt;1000, or pus| R["Chest drain + prolonged antibiotics"]
+```
+
 **Investigations:**
 - CXR — confirm consolidation, identify complications (parapneumonic effusion, empyema, cavitation)
 - FBC, U&E, CRP, LFTs, blood glucose

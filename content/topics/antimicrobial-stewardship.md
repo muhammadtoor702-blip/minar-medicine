@@ -118,6 +118,19 @@ Antibiotic-associated diarrhoea caused by toxin-producing *C. difficile* — a s
 - Multiple recurrences: **faecal microbiota transplant (FMT)** — highly effective (>80–90% cure rate)
 - Infection control: alcohol hand gel does NOT kill *C. difficile* spores — soap and water essential
 
+```mermaid
+flowchart TD
+    A["Antimicrobial Stewardship and Resistance: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
+    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
+    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
+    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
+    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
+    E --> F
+    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
+    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
+    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+```
+
 ## Complications
 
 **AMR infections**: High morbidity and mortality from limited treatment options; prolonged hospital stays; need for toxic last-resort drugs (colistin, fosfomycin).

@@ -171,6 +171,18 @@ Precipitated by intercurrent illness, surgery, trauma, or vomiting (preventing o
 
 **Management**: **Alpha-blocker first (phenoxybenzamine or doxazosin) for 10–14 days** → then beta-blocker. **Never give beta-blocker first** — unopposed alpha stimulation causes paradoxical severe hypertension. Surgical resection after alpha-blockade is definitive.
 
+```mermaid
+flowchart TD
+    A["Adrenal Disease: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
+    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
+    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
+    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
+    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
+    F --> G{"Primary vs secondary?"}
+    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
+    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+```
+
 ## Clinical Insight
 
 Adrenal crisis is under-recognised and under-treated. Any patient with known adrenal insufficiency who presents unwell — particularly with hypotension — should receive IM or IV hydrocortisone 100 mg immediately before waiting for investigations. The treatment is safe, the delay is not. All patients with Addison's disease should be trained in self-injection of IM hydrocortisone and carry a steroid emergency card at all times.

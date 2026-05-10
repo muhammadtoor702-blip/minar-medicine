@@ -154,6 +154,18 @@ The hallmark is **fatigable weakness** — weakness that worsens with repeated a
 
 **Myotonic dystrophy (DM1)**: Most common adult muscular dystrophy. CTG repeat expansion in DMPK gene. Myotonia (delayed muscle relaxation — cannot release grip), facial weakness, ptosis, distal limb weakness, cardiac conduction disease (ECG mandatory — risk of heart block and sudden death), endocrine involvement (diabetes, hypothyroidism, hypogonadism), cognitive features.
 
+```mermaid
+flowchart TD
+    A["Neuromuscular Disease: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
+    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
+    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
+    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
+    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
+    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
+    G -->|Yes| H["Treat reversible cause promptly"]
+    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+```
+
 ## Clinical Insight
 
 In GBS, the vital capacity is the vital sign. ABG will remain reassuringly normal until the patient is in acute respiratory failure — by which time emergency intubation under difficult circumstances is required. A VC of 1.5 L, or a drop of 30% from baseline, is the threshold for elective intubation. Serial 4-hourly VC measurements from the moment of diagnosis allow a planned, controlled procedure rather than a crash intubation.

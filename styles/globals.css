@@ -87,5 +87,6 @@ a { color: inherit; text-decoration: none; }
 .mermaid-diagram { overflow-x: auto; margin: 1.5rem 0; padding: 1rem; border: 1px solid #e8e4dc; border-radius: 8px; background: #ffffff; text-align: center; }
 .mermaid-diagram svg { max-width: 100%; height: auto; }
 .mermaid-error { border: 1px solid #e8e4dc; border-radius: 8px; background: #fff8f8; padding: 1rem; }
+.topic-body img { display: block; max-width: 100%; height: auto; margin: 1.25rem auto; border-radius: 8px; border: 1px solid #e8e4dc; }
 
 .footer { border-top: 1px solid #e8e4dc; padding: 2rem; text-align: center; font-size: 13px; color: #999; margin-top: 4rem; }

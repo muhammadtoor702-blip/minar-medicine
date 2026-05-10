@@ -148,6 +148,19 @@ HPV types 6 and 11 cause genital warts (condylomata acuminata). Types 16 and 18 
 
 **HPV vaccination**: Gardasil-9 (9-valent — covers HPV 6, 11, 16, 18, 31, 33, 45, 52, 58). NHS programme: offered to all children aged 12–13 years and to MSM up to age 45 in sexual health clinics.
 
+```mermaid
+flowchart TD
+    A["Sexually Transmitted Infections: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
+    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
+    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
+    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
+    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
+    E --> F
+    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
+    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
+    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+```
+
 ## Clinical Insight
 
 Partner notification is not optional — it is a core component of STI management. A treated patient with an untreated partner will be reinfected immediately upon resuming sexual contact. Notification can be patient-facilitated (patient informs partners) or provider-facilitated (clinic contacts partners directly, with patient consent). For gonorrhoea and syphilis, active follow-up of partners is essential given the serious complications and resistance implications.

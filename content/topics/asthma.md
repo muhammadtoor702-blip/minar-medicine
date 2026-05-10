@@ -42,6 +42,27 @@ The result: increased airway resistance → air trapping → hyperinflation → 
 
 **A silent chest in the context of acute asthma is a pre-arrest sign** — absent wheeze means no airflow, not improvement.
 
+```mermaid
+flowchart TD
+    A["Acute asthma: wheeze, dyspnoea, chest tightness"] --> B["Immediate severity: speech, RR, HR, SpO2, PEFR, ABG if severe"]
+    B --> C{"Life-threatening or near-fatal?<br/>PEFR &lt;33%, SpO2 &lt;92%, silent chest,<br/>cyanosis, exhaustion, hypotension, arrhythmia,<br/>PaCO2 normal/rising"}
+    C -->|Yes| D["Call senior/ICU/anaesthetics<br/>High-flow O2 target 94-98%"]
+    D --> E["Back-to-back nebulised salbutamol 5 mg<br/>+ ipratropium 0.5 mg<br/>Prednisolone 40-50 mg or IV hydrocortisone"]
+    E --> F["IV magnesium sulfate 2 g over 20 min<br/>Consider IV aminophylline only refractory/specialist"]
+    F --> G{"Deteriorating, silent chest, rising PaCO2, exhaustion?"}
+    G -->|Yes| H["Prepare controlled intubation/ventilation<br/>High risk: dynamic hyperinflation, hypotension, barotrauma"]
+    G -->|No| I["Observe closely; repeat PEFR/SpO2/ABG"]
+    C -->|No| J{"Severe?<br/>PEFR 33-50%, RR &gt;=25, HR &gt;=110,<br/>cannot complete sentences, SpO2 92-95%"}
+    J -->|Yes| K["O2 94-98%; neb salbutamol; add ipratropium; steroids early"]
+    J -->|No| L["Moderate: PEFR 50-75%, SpO2 &gt;95%<br/>SABA + oral steroid if not rapidly improving"]
+    K --> M{"After 1 h: PEFR &gt;75%, SpO2 &gt;=94%, clinically stable?"}
+    L --> M
+    M -->|Yes| N["Discharge only with preventer, technique check,<br/>written action plan, follow-up within 48 h"]
+    M -->|No| D
+    A --> O["Long-term control: SABA reliever alone only intermittent<br/>Low-dose ICS to ICS/LABA to higher ICS/LTRA/LAMA to biologics"]
+    O --> P["Never LABA monotherapy in asthma<br/>Biologics: anti-IgE or anti-IL5/IL5R if severe phenotype"]
+```
+
 **Differential for wheeze:**
 - COPD — older smoker, fixed obstruction, reduced DLCO
 - Acute pulmonary oedema ("cardiac asthma") — bibasal crepitations, raised JVP, cardiac history, CXR evidence of pulmonary oedema

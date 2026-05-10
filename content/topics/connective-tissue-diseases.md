@@ -98,6 +98,18 @@ SLE can mimic almost any medical condition. The SLICC and ACR/EULAR classificati
 
 **Renal biopsy**: Mandatory for proteinuria >500 mg/24h or active urinary sediment in SLE — to classify lupus nephritis and guide treatment intensity.
 
+```mermaid
+flowchart TD
+    A["Connective Tissue Diseases: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
+    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
+    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
+    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
+    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
+    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
+    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
+    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+```
+
 ## Management
 
 ### SLE
