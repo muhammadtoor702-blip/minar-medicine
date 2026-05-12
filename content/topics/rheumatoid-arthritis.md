@@ -75,14 +75,19 @@ RA is a **clinical diagnosis** supported by serology and imaging. The **2010 ACR
 
 ```mermaid
 flowchart TD
-    A["Rheumatoid Arthritis: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
-    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
-    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
-    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
-    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
-    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
-    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
-    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+    A["Rheumatoid Arthritis\nSymmetrical small-joint polyarthritis · morning stiffness &gt;1 h\nwrists · MCPs · PIPs (DIP joints spared · cervical spine at C1–C2)"] --> DX["DIAGNOSIS\nAnti-CCP: 95% specific · can predate disease by years (best predictor of erosive disease)\nRF: ~70–80% sensitive · non-specific (positive in Sjögren's · SLE · elderly normals)\nFBC · CRP · ESR · U&E · LFTs\nX-rays hands + feet: periarticular osteopaenia → marginal erosions (pathognomonic)\nUSS/MRI: more sensitive than X-ray for early synovitis and erosion detection"]
+
+    DX --> T2T["TREAT-TO-TARGET PRINCIPLE\nTarget: DAS28 remission (&lt;2.6) or low disease activity (2.6–3.2)\nFormal disease activity score at every clinic visit\nEscalate if target not met at 3–6 months\n(analogous to treating to BP/HbA1c targets — not symptom-based dosing)"]
+
+    T2T --> STEP1["STEP 1 — csDMARDs (start within 3 months of diagnosis)\nMethotrexate (anchor drug): 7.5–25 mg once weekly (oral or SC)\nAlways co-prescribe folic acid 5 mg/week on a different day\n(↓GI toxicity · ↓mouth ulcers — most common reason patients stop MTX)\nMonitor FBC + LFTs: monthly ×6 months then 3-monthly\nTeratogenic: reliable contraception · stop 3 months before conception\nIf MTX alone inadequate: triple therapy (MTX + hydroxychloroquine + sulfasalazine)\nBridge with: NSAIDs + PPI · intra-articular or short-course systemic steroids\n(steroids = bridge while awaiting DMARD onset at 6–12 weeks — not long-term treatment)"]
+
+    STEP1 --> ASSESS{"DAS28 at 3–6 months\n(after ≥2 csDMARDs including MTX at adequate dose)"}
+
+    ASSESS -->|"DAS28 &gt;5.1 — high disease activity\nafter ≥2 csDMARDs"| STEP2["STEP 2 — bDMARDs / JAK inhibitors (NICE NG100)\nPRE-BIOLOGIC SCREENING (mandatory):\n→ Latent TB: IGRA or Mantoux + CXR (anti-TNF reactivates TB)\n→ HBV/HCV/HIV · give live vaccines before starting\nFirst-line biologic: anti-TNF + methotrexate\n→ Adalimumab or etanercept (SC) · infliximab (IV)\n(MTX combination prevents immunogenicity · improves efficacy)\nAlternatives by indication:\n→ Tocilizumab (IL-6R): useful when CRP/ESR needed for monitoring · anaemia of CD\n→ Abatacept (CTLA4-Ig): T-cell co-stimulation blockade\n→ Rituximab (anti-CD20): seronegative RA · history of lymphoma · IGRA+\nJAK inhibitors (baricitinib · tofacitinib · upadacitinib):\n→ Oral · rapid onset (days) · reserve for biologic failure/contraindication\n→ Avoid if age &gt;65 · smoker · CVD risk factors (MHRA cardiovascular/VTE signal)"]
+
+    ASSESS -->|"DAS28 &lt;2.6 — remission achieved\nor DAS28 2.6–3.2 low disease activity"| MAINTAIN["TARGET ACHIEVED — REMISSION / LDA\nMaintain current DMARD/biologic · reassess every 3–6 months\nSustained remission &gt;12 months: consider cautious biologic tapering\n(not abrupt withdrawal — high flare risk)\nDo NOT withdraw csDMARD (MTX) in remission unless toxicity"]
+
+    STEP2 --> EXTRARTIC["EXTRA-ARTICULAR MANAGEMENT\nCardiovascular: CVD risk ≡ diabetes · statins · BP control · smoking cessation\nILD: screen with PFTs + HRCT in established RA (most common non-articular cause of death)\nAtlantoaxial subluxation: C-spine X-ray/MRI before any general anaesthetic (intubation risk)\nOsteoporosis: calcium/vit D + bisphosphonate if on long-term steroids\nFelty's (RA + splenomegaly + neutropaenia): rituximab preferred biologic"]
 ```
 
 ## Management
