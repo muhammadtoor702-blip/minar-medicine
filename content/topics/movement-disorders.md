@@ -139,14 +139,29 @@ No disease-modifying treatment exists. Symptomatic: tetrabenazine (monoamine-dep
 
 ```mermaid
 flowchart TD
-    A["Movement Disorders: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Movement disorder presentation\nTremor · bradykinesia · rigidity · dystonia · chorea\nAtaxia · myoclonus · tics"] --> EMERGENCY{"Emergency?"}
+
+    EMERGENCY -->|"Severe hyperthermia · rigidity\nleucocytosis · CK elevation\nrecent antipsychotic dose change"| NMS["NEUROLEPTIC MALIGNANT SYNDROME (NMS)\nSTOP antipsychotic IMMEDIATELY\nIV dantrolene (muscle relaxant) · bromocriptine (dopamine agonist)\nActive cooling · IV fluids · ICU\nDistinguish from serotonin syndrome:\nSerotonin: hyperreflexia + clonus + diaphoresis (vs lead-pipe rigidity in NMS)"]
+
+    EMERGENCY -->|"Acute onset chorea + psychiatric\nAntistreptolysin O raised · child"| SYDEN["SYDENHAM'S CHOREA\nPost-streptococcal · Jones criteria\nHaloperidol or sodium valproate for chorea\nPenicillin prophylaxis for secondary prevention of rheumatic fever"]
+
+    EMERGENCY -->|"No emergency"| TREMOR{"Tremor characterisation?"}
+
+    TREMOR -->|"Resting tremor · unilateral onset\nbradykinesia · rigidity\npostural instability"| PARKINS{"Parkinsonism features\n→ exclude drug-induced first"}
+
+    PARKINS -->|"Antipsychotic · metoclopramide\nprochlorperazine · L-methyldopa"| DRUG_PK["DRUG-INDUCED PARKINSONISM\nStop causative drug (symptoms resolve over weeks-months)\nSwitch antipsychotic to clozapine or quetiapine (least dopamine blocking)\nDaT SPECT: normal in drug-induced (abnormal in idiopathic PD)"]
+
+    PARKINS -->|"Insidious onset >1 year\nunilateral tremor · good levodopa response"| IPD["IDIOPATHIC PARKINSON'S DISEASE\nDaT SPECT: reduced striatal dopamine uptake (confirms)\nEarly: MAO-B inhibitor (rasagiline/selegiline) · or dopamine agonist (pramipexole/ropinirole)\nModerate-severe: levodopa/carbidopa (most effective · standard)\nMotor fluctuations (wearing off/dyskinesia): COMT inhibitor (entacapone) · or DBS\nDeep brain stimulation (DBS): STN/GPi targets · for motor complications\nNon-motor: constipation · REM sleep disorder · autonomic failure · depression · dementia (late)"]
+
+    PARKINS -->|"Early falls · supranuclear gaze palsy\naxial rigidity > limb · no tremor\npoor levodopa response"| PSP["PROGRESSIVE SUPRANUCLEAR PALSY (PSP)\nVertical gaze palsy (downward) — pathognomonic\n'Surprised stare' · axial dystonia\nMRI: midbrain atrophy (hummingbird sign)\nNo effective disease-modifying treatment\nLevodopa: some benefit in early stage · limited\nFalls prevention: occupational therapy · walking aids"]
+
+    PARKINS -->|"MSA features\n(cerebellar ataxia · autonomic failure\nor striatonigral degeneration)"| MSA["MULTIPLE SYSTEM ATROPHY (MSA)\nOrthostatism · cerebellar · parkinsonian features combined\nMRI: putaminal hypointensity · 'hot cross bun' pontine sign\nLevodopa: poor response\nFludrocortisone + midodrine for orthostatic hypotension\nSubutex for urinary retention"]
+
+    TREMOR -->|"Action/postural tremor\nbilateral · improves with alcohol\nfamily history"| ET["ESSENTIAL TREMOR\nMost common movement disorder worldwide\nHands · head · voice · no rest tremor\nPropranolol 40–80 mg BD (first-line)\nor primidone 50–250 mg ON\nDBS: severe refractory essential tremor"]
+
+    TREMOR -->|"Chorea · involuntary writhing\nfamily history · personality change\nage 30–50"| HUNT["HUNTINGTON'S DISEASE\nCAG repeat expansion (HTT gene · CAG >36 diagnostic)\nAutosomal dominant · 50% offspring risk\nGenetic testing: pre-test counselling mandatory\nChorea: tetrabenazine (VMAT2 inhibitor) or deutetrabenazine\nPsychiatric: sertraline (depression/anxiety) · haloperidol (psychosis)\nNo disease-modifying treatment · palliative approach · genetic counselling"]
+
+    TREMOR -->|"Asterixis · metabolic encephalopathy\nor myoclonic jerks"| METAB["METABOLIC/TOXIC MOVEMENT DISORDER\nAsterixis: hepatic · uraemic · CO₂ retention · drugs\nMyoclonus: post-hypoxic · Creutzfeldt-Jakob disease · metabolic\nWilson's disease (age <40 · liver disease + neurological):\n→ Low caeruloplasmin · ↑24-h urine copper · Kayser-Fleischer rings\n→ Penicillamine or trientine chelation · avoid copper-rich foods"]
 ```
 
 ## Complications
