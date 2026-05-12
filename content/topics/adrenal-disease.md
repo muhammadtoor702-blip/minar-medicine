@@ -173,14 +173,34 @@ Precipitated by intercurrent illness, surgery, trauma, or vomiting (preventing o
 
 ```mermaid
 flowchart TD
-    A["Adrenal Disease: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
-    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
-    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
-    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
-    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
-    F --> G{"Primary vs secondary?"}
-    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
-    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+    A["Suspected adrenal disease\nIdentify clinical phenotype"] --> B{"Features?"}
+    B -->|"Weight gain · hypertension · hyperglycaemia\ncentral obesity · striae · proximal myopathy\nbuffalo hump · moon face · easy bruising"| CUSH["CUSHING'S SYNDROME"]
+    B -->|"Fatigue · hypotension · hyponatraemia\nhyperkalaemia · weight loss · anorexia\nhyperpigmentation (primary only)"| ADD["ADRENAL INSUFFICIENCY"]
+    B -->|"Hypertension + hypokalaemia\n± muscle weakness · headache\n(often incidental on imaging)"| CONN["PRIMARY HYPERALDOSTERONISM"]
+    B -->|"Episodic headache · palpitations · sweating\nhypertensive crises · weight loss"| PHEO["PHAEOCHROMOCYTOMA"]
+
+    CUSH --> CUSH1["Confirm hypercortisolaemia (any one of):\n1 mg overnight dexamethasone suppression test\n24-h urine free cortisol × 2\nLate-night salivary cortisol × 2"]
+    CUSH1 --> CUSH2{"ACTH level?"}
+    CUSH2 -->|"ACTH elevated / detectable\nACTH-dependent (80–85%)"| CUSH4["High-dose dexamethasone (8 mg) + CRH test\nInferior petrosal sinus sampling (IPSS)\nPituitary MRI — Cushing's disease (80% of ACTH-dependent)\nvs ectopic ACTH (20%): CT chest/abdomen"]
+    CUSH2 -->|"ACTH suppressed &lt;1 pmol/L\nACTH-independent (15–20%)"| CUSH5["CT adrenals\nAdenoma vs adrenal carcinoma vs bilateral hyperplasia\nCarcinoma: large · heterogeneous · rapid growth"]
+
+    ADD --> ADD1["8–9 AM serum cortisol + ACTH"]
+    ADD1 -->|"Cortisol &lt;100 nmol/L"| ADD2["Likely AI — proceed to SST"]
+    ADD1 -->|"Cortisol &gt;500 nmol/L"| ADD3["AI excluded"]
+    ADD1 -->|"100–500 nmol/L: borderline"| SST["Short Synacthen Test\n250 μg ACTH IV/IM · cortisol at 30 + 60 min\nPeak &lt;500 nmol/L = impaired response"]
+    SST --> ACTHCK{"ACTH?"}
+    ACTHCK -->|"ACTH high (&gt;10 pmol/L)"| PRIM["PRIMARY (Addison's)\nAutoimmune (most common) · TB · metastases · haemorrhage\n21-hydroxylase antibodies · CT adrenals\nRx: hydrocortisone 15–25 mg/day + fludrocortisone\nCrisis: IV hydrocortisone 100 mg bolus + 0.9% NaCl"]
+    ACTHCK -->|"ACTH low/normal"| SEC["SECONDARY\nPituitary/hypothalamic disease · exogenous glucocorticoid\nMRI pituitary · evaluate other axes\nRx: hydrocortisone only (aldosterone intact)\nReplace cortisol BEFORE thyroid hormone if both deficient"]
+
+    CONN --> CONN1["Aldosterone-to-renin ratio (ARR)\nStop: spironolactone ×6 wk · diuretics/amiloride ×4 wk\nACEi/ARB/beta-blockers affect results\nARR &gt;30 (ng/dL per μIU/mL): suspicious"]
+    CONN1 -->|"ARR elevated"| CONN2["Confirmatory test\nFludrocortisone suppression · saline infusion · oral salt loading\nFailure to suppress aldosterone confirms diagnosis"]
+    CONN2 --> CONN3["CT adrenals + adrenal vein sampling (AVS)\nAVS: gold standard for lateralisation"]
+    CONN3 -->|"Unilateral adenoma"| CONN4["Laparoscopic adrenalectomy\n30–70% BP cure; K⁺ always normalises"]
+    CONN3 -->|"Bilateral hyperplasia"| CONN5["Medical: spironolactone (first-line)\nor eplerenone (fewer anti-androgenic side effects)\nAmiloride if both intolerant"]
+
+    PHEO --> PHEO1["Biochemistry FIRST — always\nPlasma free metanephrines (most sensitive)\nor 24-h urine metanephrines/catecholamines\n&gt;3× ULN: highly specific"]
+    PHEO1 -->|"Confirmed elevated"| PHEO2["Imaging after biochemistry\nCT abdomen/pelvis (90% adrenal)\nMIBG or ⁶⁸Ga-DOTATATE-PET if extra-adrenal or metastatic"]
+    PHEO2 --> PHEO3["Pre-op preparation — CRITICAL ORDER\nAlpha-blockade FIRST: phenoxybenzamine or doxazosin × 10–14 days\nTHEN beta-blockade (never beta first → hypertensive crisis)\nLaparoscopic adrenalectomy\nLifelong surveillance: 10% malignant · 25% hereditary (RET · VHL · SDHB/C/D)"]
 ```
 
 ## Clinical Insight

@@ -87,37 +87,32 @@ STEMI is defined by ST elevation ≥1mm in ≥2 contiguous limb leads, or ≥2mm
 
 ```mermaid
 flowchart TD
-    A["Chest pain concerning for ACS<br/>pressure, diaphoresis, dyspnoea, nausea, radiation"] --> B["First 10 min: ECG + vitals + IV access<br/>Aspirin 300 mg chew; assess bleeding/dissection risk"]
-    B --> C{"STEMI criteria?<br/>STE &gt;=1 mm in 2 limb leads<br/>or V2-V3: men &gt;=2 mm, men &lt;40 &gt;=2.5 mm, women &gt;=1.5 mm<br/>or posterior/RV MI pattern"}
+    A["Chest pain: pressure/heaviness, radiation, diaphoresis, nausea\nAtypical (women · elderly · DM): dyspnoea, jaw/arm pain, epigastric"] --> B["FIRST 10 MIN\n12-lead ECG · IV access · vitals\nAspirin 300 mg chewed immediately"]
+    B --> C{"ECG: STEMI criteria?\nSTE ≥1 mm in ≥2 contiguous limb leads\nV2–V3: men ≥2 mm · men &lt;40 ≥2.5 mm · women ≥1.5 mm\nor new LBBB with ischaemic presentation"}
 
-    C -->|Yes| D["STEMI = complete occlusion until proven otherwise"]
-    D --> E["Immediate therapy unless contraindicated:<br/>P2Y12 load, UFH/LMWH, atorvastatin 80 mg<br/>O2 only if SpO2 &lt;90%; nitrates if SBP adequate"]
-    E --> F{"Red flags for aortic dissection?<br/>tearing maximal pain, pulse/BP asymmetry, mediastinal widening"}
-    F -->|Yes| G["Do NOT thrombolyse<br/>Urgent CT aorta / surgical pathway"]
-    F -->|No| H{"Primary PCI available within 120 min<br/>or door-to-balloon &lt;=90 min?"}
-    H -->|Yes| I["Primary PCI"]
-    H -->|No| J{"Symptom onset &lt;=12 h<br/>and no absolute lysis contraindication?"}
-    J -->|Yes| K["Fibrinolysis: tenecteplase/alteplase<br/>Goal door-to-needle &lt;=30 min"]
-    K --> L{"Successful lysis?<br/>&gt;=50% ST resolution at 60-90 min<br/>reperfusion arrhythmia, pain improves"}
-    L -->|Yes| M["Transfer for angiography/PCI within 2-24 h"]
-    L -->|No| N["Rescue PCI immediately"]
-    J -->|No| O["Urgent PCI transfer; no lysis"]
+    C -->|"YES — STEMI\nComplete occlusion until proven otherwise"| STEMI["Load: ticagrelor 180 mg + UFH/enoxaparin + atorvastatin 80 mg\nO₂ only if SpO₂ &lt;90%\nGTN if SBP &gt;90 (avoid if RV MI or PDE5i in last 48 h)"]
+    STEMI --> DISSECT{"Exclude aortic dissection\nTearing maximal pain · BP/pulse asymmetry\nmediastinal widening on CXR?"}
+    DISSECT -->|"Yes → DO NOT THROMBOLYSE"| DISS["CT aorta urgently\nCardiac surgery pathway"]
+    DISSECT -->|"No"| REPERFUSION{"Primary PCI available within 120 min?\nOR door-to-balloon ≤90 min?"}
+    REPERFUSION -->|"Yes"| PCI["PRIMARY PCI\nGold standard — D2B ≤90 min\nTransferring: total ischaemic time ≤120 min"]
+    REPERFUSION -->|"No — onset ≤12 h,\nno absolute CI"| LYSIS["THROMBOLYSIS\nTenecteplase or alteplase — door-to-needle ≤30 min\nAbsolute CI: haemorrhagic stroke ever · ischaemic stroke &lt;3 m\nsuspected dissection · active bleeding · BP &gt;180/110 uncontrolled"]
+    LYSIS --> LYCHECK{"Successful lysis?\nST resolution ≥50% at 60–90 min\n+ reperfusion arrhythmia + pain relief?"}
+    LYCHECK -->|"Yes"| PHARMACI["Transfer for angiography + PCI within 2–24 h"]
+    LYCHECK -->|"No — failed lysis"| RESCPCI["Rescue PCI immediately"]
 
-    C -->|No| P["No STEMI: serial ECGs + high-sensitivity troponin"]
-    P --> Q{"Troponin above 99th percentile<br/>with rise/fall on 0/1 h or 0/3 h testing?"}
-    Q -->|No| R{"Ongoing ischaemic symptoms or dynamic ECG changes?"}
-    R -->|No| S["ACS unlikely<br/>Consider PE, dissection, pericarditis, pneumothorax, GI/MSK causes"]
-    R -->|Yes| T["Unstable angina<br/>Treat as NSTE-ACS; risk stratify"]
-    Q -->|Yes| U{"Type 1 MI likely?<br/>plaque rupture symptoms, ischaemic ECG, no dominant supply-demand trigger"}
-    U -->|No| V["Type 2 MI / myocardial injury<br/>Treat cause: sepsis, anaemia, hypoxia, tachyarrhythmia, hypotension"]
-    U -->|Yes| W["NSTEMI<br/>Aspirin + P2Y12 + anticoagulation + statin<br/>Avoid nitrates in RV infarct/PDE5 use/hypotension"]
-    T --> X["TIMI risk score 0-7<br/>Age &gt;=65; &gt;=3 CAD risks; known CAD; aspirin use; severe angina; ST deviation; +biomarker"]
-    W --> X
-    X --> Y{"Very high risk?<br/>shock, refractory pain, acute HF, malignant arrhythmia"}
-    Y -->|Yes| Z["Immediate invasive angiography &lt;2 h"]
-    Y -->|No| AA{"High risk?<br/>TIMI &gt;=3, dynamic ST/T changes, troponin positive, diabetes, CKD"}
-    AA -->|Yes| AB["Early angiography &lt;24 h"]
-    AA -->|No| AC["Conservative / delayed invasive strategy<br/>stress imaging or CTCA if low-intermediate risk"]
+    C -->|"NO STEMI"| NSTEMI_WU["Serial ECGs + high-sensitivity troponin\n0h/1h or 0h/3h validated pathway"]
+    NSTEMI_WU --> TROP{"Troponin rise/fall\nabove 99th percentile?"}
+    TROP -->|"Yes"| TYPE{"Type 1 vs Type 2?"}
+    TYPE -->|"Type 1: plaque rupture\nischaemic ECG · no dominant supply-demand trigger"| NSTEMI["NSTEMI\nAspirin + ticagrelor + anticoagulation + statin\nAvoid nitrates if RV infarct · hypotension · PDE5i use"]
+    TYPE -->|"Type 2: supply-demand mismatch\nsepsis · anaemia · tachyarrhythmia · hypotension"| T2MI["Type 2 MI / Myocardial Injury\nTreat the underlying cause\nCoronary intervention unlikely to help"]
+    TROP -->|"No + ongoing symptoms\nor dynamic ECG changes"| UA["Unstable Angina\nTreat as NSTE-ACS; risk-stratify"]
+    TROP -->|"No + symptoms resolved\nno ECG changes"| LOW["ACS unlikely\nConsider: PE · dissection · pericarditis · MSK · GI"]
+
+    NSTEMI --> RISK{"Invasive strategy timing"}
+    UA --> RISK
+    RISK -->|"Immediate &lt;2 h:\nshock · refractory pain · acute HF · malignant arrhythmia"| IA["Immediate angiography"]
+    RISK -->|"Early &lt;24 h:\nTIMI ≥3 · dynamic ECG · +troponin · DM · CKD"| EA["Early angiography"]
+    RISK -->|"Low risk:\nall criteria absent"| CONS["Conservative/stress test first\nor CTCA if low-intermediate risk"]
 ```
 
 ### NSTEMI — Risk Stratification
