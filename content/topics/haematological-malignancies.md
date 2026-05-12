@@ -99,14 +99,27 @@ A = no B symptoms; B = fever, night sweats, weight loss.
 
 ```mermaid
 flowchart TD
-    A["Haematological Malignancies: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
-    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
-    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
-    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
-    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
-    F --> G{"Clonal/malignant or marrow failure concern?"}
-    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
-    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+    A["Suspected haematological malignancy\nAbnormal FBC · peripheral blood film · lymphadenopathy\nsplenomegaly · B symptoms · bone pain · hypercalcaemia"] --> URGENT{"Emergency?"}
+
+    URGENT -->|"WBC >100 × 10⁹/L (leukostasis)\nblasts on smear · APL features\n(t(15;17) · DIC · high WBC)"| LEUK_EM["ACUTE LEUKAEMIA / LEUKOSTASIS\nAdmit immediately · do NOT transfuse RBCs if WBC >100 (↑viscosity)\nAPL suspected: ATRA 45 mg/m²/day IMMEDIATELY (differentiation therapy)\nDO NOT wait for cytogenetics — DIC is fatal without ATRA\nTLS prophylaxis: allopurinol + IV hydration + monitor K⁺/urate/PO₄/Cr\nPlatelet threshold: maintain >30 (APL), >10 (other)\nCross-match · haematology · ICU review"]
+
+    URGENT -->|"Cord compression · raised ICP\nSVC obstruction · lytic fracture"| CORD_EM["Dexamethasone 16 mg IV stat\nUrgent MRI whole spine\nEmergency radiotherapy or decompressive surgery\nCNS disease (ALL/DLBCL): intrathecal methotrexate"]
+
+    URGENT -->|"No"| LINEAGE{"Lineage by\nFBC + film + flow cytometry?"}
+
+    LINEAGE -->|"Myeloid blasts >20% · cytopenias\nbone marrow confirms AML"| AML["ACUTE MYELOID LEUKAEMIA (AML)\nInduction: 7+3 (cytarabine infusion × 7 days + daunorubicin × 3 days)\nAPL (PML-RARA · t(15;17)): ATRA + arsenic trioxide — >90% cure rate\n(Manage DIC with FFP/cryoprecipitate — avoid platelet transfusion in APL)\nMutation-guided targeted therapy:\nFLT3-ITD: add midostaurin · IDH1: ivosidenib · IDH2: enasidenib\nConsolidation: high-dose cytarabine × 3 cycles\nAlloSCT: high-risk (complex karyotype · MDS-related · TP53) after remission"]
+
+    LINEAGE -->|"Lymphoid blasts >20% · high WBC\nyoung patient · mediastinal mass (T-ALL)"| ALL_TX["ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL)\nMulti-agent induction: vincristine + dexamethasone + asparaginase ± anthracycline\nCNS prophylaxis: intrathecal methotrexate (± cranial irradiation in high risk)\nPh+ ALL (BCR-ABL1 positive — ~25% adult ALL):\nAdd dasatinib or ponatinib to chemotherapy — dramatically improves outcomes\nMaintenance: mercaptopurine + methotrexate × 2 years\nRelapsed/refractory: blinatumomab (BiTE) · CAR-T (tisagenlecleucel for B-ALL) · alloSCT"]
+
+    LINEAGE -->|"Leukocytosis · basophilia · eosinophilia\nsplenomegaly · Philadelphia t(9;22)"| CML_TX["CHRONIC MYELOID LEUKAEMIA (CML)\nBCR-ABL1 PCR to confirm · FISH for Philadelphia chromosome\nTKI therapy: imatinib 400 mg OD (first-line) · or dasatinib/nilotinib (second-gen — faster response)\nMonitor: BCR-ABL1 PCR 3-monthly → aim major molecular response\nTreatment-free remission (TFR): possible after ≥3 years deep MR (undetectable BCR-ABL1)\nAccelerated/blast phase: escalate TKI · consider alloSCT"]
+
+    LINEAGE -->|"Mature small lymphocytes · smudge cells\nCD5+ CD19+ CD23+ · elderly"| CLL_TX["CHRONIC LYMPHOCYTIC LEUKAEMIA (CLL)\nFlow cytometry diagnostic · Rai staging (0–IV) · Binet staging (A–C)\nWatch and wait: asymptomatic early disease (no benefit to early treatment)\nTreatment indications: Rai III/IV · cytopenias · B symptoms · rapid lymphocyte doubling\nFirst-line: venetoclax + obinutuzumab (fixed 12-month regimen) · or ibrutinib (BTK inhibitor)\ndel(17p)/TP53 mutation: avoid chemotherapy → BTK inhibitor or venetoclax\nAutoimmune haemolysis (AIHA) or ITP: prednisolone → rituximab if refractory"]
+
+    LINEAGE -->|"Lymphadenopathy · B symptoms\n(fever · night sweats · >10% weight loss)\nmediastinal mass or splenomegaly"| LYMPH{"Hodgkin or\nNon-Hodgkin?"}
+    LYMPH -->|"Reed-Sternberg cells (owl-eye nuclei)\nCD15+ CD30+ · bimodal age distribution"| HL_TX["HODGKIN LYMPHOMA (HL)\nStaging: CT + PET-CT (Deauville score for response — 5-point scale)\nEarly stage (I–IIA): ABVD × 2 cycles + involved-site radiotherapy (ISRT)\nAdvanced (III–IV): ABVD × 6 · or escalated BEACOPP (higher response, greater toxicity)\nRelapsed/refractory: brentuximab vedotin (anti-CD30 ADC) + nivolumab → autologous SCT\n>90% cure rate in early-stage disease"]
+    LYMPH -->|"Diffuse large B-cell (most common aggressive)\nor follicular/indolent or Burkitt"| NHL_TX["NON-HODGKIN LYMPHOMA (NHL)\nDLBCL (aggressive — most common NHL):\nR-CHOP × 6 cycles (rituximab + CHOP) + CNS prophylaxis if high-risk (IPI score)\nRelapsed/refractory DLBCL: CAR-T cell therapy (axicabtagene ciloleucel · lisocabtagene maraleucel)\nFollicular lymphoma (indolent):\nAsymptomatic: watch and wait · GELF criteria guide treatment initiation\nR-CHOP or obinutuzumab + bendamustine · rituximab maintenance × 2 years\nBurkitt lymphoma: R-CODOX-M/IVAC · very aggressive · HIV-associated"]
+
+    LINEAGE -->|"Paraprotein on SPEP\nlytic bone lesions · hypercalcaemia\nrenal failure · anaemia · bone pain"| MM_TX["MULTIPLE MYELOMA (MM)\nDiagnosis (SLiM-CRAB): ≥60% plasma cells · sFLC ratio >100 · MRI myeloma-defining lesions\nor: Calcium ↑ · Renal failure · Anaemia · Bone lesions\nTransplant eligible (age <70, fit): VRd × 4 induction → autologous SCT → lenalidomide maintenance\nTransplant ineligible: VRd or daratumumab-VRd or VMP\nBone disease: zoledronic acid (reduces skeletal events) · radiotherapy for focal pain\nHypercalcaemia: IV fluids + zoledronic acid"]
 ```
 
 ## Management

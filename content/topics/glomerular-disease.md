@@ -107,14 +107,23 @@ SLE involves the kidney in up to 60% of cases. WHO/ISN classes I–VI range from
 
 ```mermaid
 flowchart TD
-    A["Glomerular Disease: kidney/electrolyte presentation"] --> B["Immediate labs: BMP, Cr/eGFR trend, K, HCO3, Ca/Mg/Phos, urinalysis, urine microscopy"]
-    B --> C{"Emergency? K &gt;=6.5 or ECG changes, pH &lt;7.1, pulmonary oedema, anuria, uremic symptoms"}
-    C -->|Yes| D["Stabilize + nephrology: calcium/insulin for hyperK, bicarbonate selected, diuretics/dialysis if refractory"]
-    C -->|No| E["Classify: pre-renal, intrinsic, post-renal, tubular, glomerular, stone, endocrine/electrolyte"]
-    E --> F["Use thresholds: FeNa &lt;1% pre-renal, FeNa &gt;2% ATN, ACR stages, eGFR stages, urine pH/osmolality"]
-    F --> G{"Structural or obstructive concern? hydronephrosis, stones, single kidney, retention"}
-    G -->|Yes| H["Renal ultrasound/CT; catheter, stent, nephrostomy, or urology as needed"]
-    G -->|No| I["Stop nephrotoxins, dose-adjust meds, treat cause, monitor Cr/K/urine output"]
+    A["Glomerular disease suspected\nProteinuria · haematuria · oedema\nhypertension · AKI\nUrinalysis + urine microscopy first"] --> SYND{"Clinical syndrome?"}
+
+    SYND -->|"Proteinuria >3.5 g/day\noedema · hypoalbuminaemia <25 g/L\nhyperlipidaemia · no haematuria"| NEPHROT["NEPHROTIC SYNDROME\nGeneral measures (all causes):\nACEi/ARB: reduce proteinuria + slow progression\nLoop diuretic (furosemide): for symptomatic oedema — cautious (intravascular depletion despite oedema)\nStatin: nephrotic hyperlipidaemia is atherogenic\nAnticoagulation: if albumin <20 g/L (renal vein thrombosis + PE risk from urinary AT-III/protein C/S loss)"]
+
+    NEPHROT --> NCAUSE{"Age + features\nfor biopsy interpretation?"}
+    NCAUSE -->|"Child 1–8 yrs\nresponds to steroids"| MCD["MINIMAL CHANGE DISEASE (MCD)\nMost common nephrotic in children · podocyte foot-process effacement (EM)\nTreat empirically (no biopsy in classic childhood): prednisolone 60 mg/m²/day × 4 weeks → taper\nAdult MCD: biopsy required · same steroid regimen\nSteroid-dependent/frequent relapse: cyclophosphamide or tacrolimus/ciclosporin\nSecondary MCD: NSAIDs · lithium · lymphoma (Hodgkin) → treat cause"]
+    NCAUSE -->|"Adult · anti-PLA2R antibody +ve\nor thickened GBM on EM"| MN["MEMBRANOUS NEPHROPATHY (MN)\nMost common adult nephrotic syndrome\nPrimary MN: anti-PLA2R Ab positive (75%) · titres correlate with disease activity\nSecondary MN: malignancy (lung · GI — screen with CT CAP) · HBV · SLE · drugs\nTreatment: rituximab 1 g × 2 doses (anti-CD20) — NICE approved first-line\nor cyclophosphamide + alternate-day prednisolone (Ponticelli regimen) if rituximab fails"]
+    NCAUSE -->|"Black/Hispanic · HIV/heroin/NSAID\nor obesity/single kidney\nor FSGS on biopsy"| FSGS["FOCAL SEGMENTAL GLOMERULOSCLEROSIS (FSGS)\nPrimary FSGS: suPAR elevated · podocin/α-actinin-4 mutations\nSecondary: hyperfiltration (obesity · reflux · single kidney) · HIV-associated nephropathy\nTreatment: prednisolone 1 mg/kg × 16 weeks (response in ~40%)\nCalcineurin inhibitors (tacrolimus/ciclosporin) for steroid-resistant\nHIV-FSGS: ART + ACEi (improves proteinuria and eGFR)\nFSGS variant — TIP lesion: better prognosis · steroid-responsive"]
+    NCAUSE -->|"Diabetic × >10 years\nno haematuria · albuminuria"| DKD["DIABETIC NEPHROPATHY\nDiagnosis usually clinical (no biopsy in classic presentation)\nACEi/ARB: first-line for all patients with albuminuria\nSGLT2i (dapagliflozin/empagliflozin): reduce CKD progression independently of glucose\nFinerenone (non-steroidal MRA): FIDELIO/FIGARO trials · reduces progression\nBP <130/80 · HbA1c <53 mmol/mol"]
+
+    SYND -->|"Haematuria + proteinuria\ndysmorphic RBCs + RBC casts\nhypertension ± AKI"| NEPHR["NEPHRITIC SYNDROME\nAcute glomerulonephritis: immune-mediated inflammation\nRBC casts on microscopy — pathognomonic of GN\nLow complement: post-streptococcal · SLE · MPGN · cryoglobulinaemia\nHigh complement (normal): IgA nephropathy · ANCA vasculitis · anti-GBM disease\nSerology: ANCA (PR3/MPO) · anti-GBM · ANA/anti-dsDNA · ASO titre · anti-PLA2R"]
+
+    NEPHR --> NCAUSE2{"Serology + biopsy?"}
+    NCAUSE2 -->|"ANCA positive (PR3 or MPO)\npulmonary-renal syndrome"| AAV_G["ANCA-ASSOCIATED GN (pauci-immune crescentic GN)\nUrgent renal biopsy: crescentic GN · pauci-immune (no deposits)\nInduction: rituximab (or cyclophosphamide) + IV methylprednisolone\nMaintenance: rituximab 500 mg 6-monthly × 24 months\nPlasma exchange: Cr >500 µmol/L or pulmonary haemorrhage"]
+    NCAUSE2 -->|"Anti-GBM antibody positive\nhaemoptysis + haematuria"| GBM_G["ANTI-GBM DISEASE (GOODPASTURE'S)\nLinear IgG on immunofluorescence — pathognomonic\nPlasma exchange 14 sessions (removes anti-GBM antibody) + cyclophosphamide + prednisolone\nDo NOT delay — rapidly progressive GN destroys nephrons irreversibly\nOligo/anuric at presentation: renal recovery unlikely (treat for lung protection)"]
+    NCAUSE2 -->|"Low C3 · 2–3 weeks post-URTI/SSTI\nASO titre elevated · child/young adult"| PSGN_G["POST-STREPTOCOCCAL GN\nSubepithelial 'humps' on EM (immune complex)\nC3 low (normalises 8–12 weeks · C4 usually normal)\nSelf-limiting: supportive care · antihypertensives · diuretics\nAntibiotics: treat active streptococcal infection"]
+    NCAUSE2 -->|"IgA mesangial deposits\nhaematuria same day as URTI\nor recurrent macroscopic haematuria"| IGAN_G["IgA NEPHROPATHY (Berger's disease)\nMost common GN worldwide\nSynpharyngitic haematuria (simultaneous with URTI) — distinguishes from post-strep GN\nACEi/ARB: all patients with proteinuria >0.5 g/day\nTargeted-release budesonide (Nefecon): reduces proteinuria · PROTECT trial\nOxfolin (sparsentan): DUPLEX trial · dual AT1R/ETA receptor antagonist\nHigh-risk: systemic steroids + fish oil + optimise BP"]
 ```
 
 ## Management Principles

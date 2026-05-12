@@ -151,14 +151,24 @@ Clinical assessment of volume status before prescribing IV fluids:
 
 ```mermaid
 flowchart TD
-    A["Fluid and Electrolyte Disorders: kidney/electrolyte presentation"] --> B["Immediate labs: BMP, Cr/eGFR trend, K, HCO3, Ca/Mg/Phos, urinalysis, urine microscopy"]
-    B --> C{"Emergency? K &gt;=6.5 or ECG changes, pH &lt;7.1, pulmonary oedema, anuria, uremic symptoms"}
-    C -->|Yes| D["Stabilize + nephrology: calcium/insulin for hyperK, bicarbonate selected, diuretics/dialysis if refractory"]
-    C -->|No| E["Classify: pre-renal, intrinsic, post-renal, tubular, glomerular, stone, endocrine/electrolyte"]
-    E --> F["Use thresholds: FeNa &lt;1% pre-renal, FeNa &gt;2% ATN, ACR stages, eGFR stages, urine pH/osmolality"]
-    F --> G{"Structural or obstructive concern? hydronephrosis, stones, single kidney, retention"}
-    G -->|Yes| H["Renal ultrasound/CT; catheter, stent, nephrostomy, or urology as needed"]
-    G -->|No| I["Stop nephrotoxins, dose-adjust meds, treat cause, monitor Cr/K/urine output"]
+    A["Electrolyte abnormality or fluid status disorder\nSerum Na · K · Mg · Ca · phosphate · eGFR · blood gas\nECG if K⁺ abnormal"] --> KPLUS{"K⁺ ≥5.5 mmol/L?"}
+
+    KPLUS -->|"K⁺ ≥6.5 or ECG changes\n(peaked T waves · wide QRS · P-wave loss · sine wave)"| HYPERK["HYPERKALAEMIA — CARDIAC EMERGENCY\nECG immediately: if changes present → treat as emergency\n1. IV calcium gluconate 10% 10 mL over 10 min (stabilise membrane — does NOT lower K⁺)\n   Repeat if ECG changes persist\n2. IV insulin 10 units + 50 mL 50% dextrose (lowers K⁺ 0.5–1.5 mmol/L within 15–30 min)\n3. Salbutamol 10–20 mg nebulised (additive to insulin · shifts K⁺ into cells)\n4. Calcium resonium PO/PR (onset hours) · patiromer · sodium zirconium cyclosilicate\n5. Haemodialysis if refractory or ESRD\nReview and stop: ACEi/ARB · NSAIDs · potassium supplements\nTreat cause: AKI · Addison's · metabolic acidosis · rhabdomyolysis"]
+
+    KPLUS -->|"No"| KMINUS{"K⁺ <3.5 mmol/L?"}
+
+    KMINUS -->|"K⁺ <3.0 or symptomatic\n(arrhythmia · weakness · U waves on ECG)"| HYPOK["HYPOKALAEMIA\nMild (3.0–3.5): oral KCl (Sando-K or Slow-K)\nSevere (<3.0 or symptomatic): IV KCl max 20 mmol/h via central line (NEVER IV bolus)\n— Always check Mg²⁺ simultaneously —\nHypomagnesaemia perpetuates hypokalaemia (impairs tubular K reabsorption)\n→ IV magnesium sulphate 20 mmol over 4 h if Mg²⁺ <0.7 mmol/L\nCauses: GI loss (diarrhoea/vomiting/ileostomy) · thiazide/loop diuretics\nConn's syndrome · renal tubular acidosis · Bartter/Gitelman syndrome\nUrine K/Cr ratio >2 mEq/mmol = renal loss · <2 = GI loss/intracellular shift"]
+
+    KMINUS -->|"No"| NAPLUS{"Na⁺ disorder?"}
+
+    NAPLUS -->|"Na⁺ <135 mmol/L\nHyponatraemia"| HYPONAT{"Serum osmolality?"}
+
+    HYPONAT -->|"Serum osm <275 mOsm/kg\n(hypotonic — true hyponatraemia)"| VOLSTAT{"Volume status?"}
+    VOLSTAT -->|"Hypovolaemic\nurine Na <20 = extrarenal loss\nurine Na >20 = renal/adrenal cause"| HYPOVOL["HYPOVOLAEMIC HYPONATRAEMIA\nVolume replacement: IV 0.9% NaCl\nNa⁺ corrects as RAAS activity suppresses\nCauses: diarrhoea · vomiting · diuretics · haemorrhage\nAddison's disease: urine Na >20 despite volume depletion (cortisol/aldosterone deficiency)\n→ Hydrocortisone IV + 0.9% NaCl urgently"]
+    VOLSTAT -->|"Euvolaemic\nurine Na >30 · urine osm >100"| SIADH["SIADH (most common euvolaemic hyponatraemia)\nDiagnosis: serum osm <275 · urine osm >100 · urine Na >30 · clinical euvolaemia\nCauses: CNS (meningitis · SAH · subdural · tumour)\nLung (SCLC · pneumonia) · drugs (SSRIs · thiazides · carbamazepine · cyclophosphamide)\nManagement:\nMild-moderate: fluid restrict 500–750 mL/day\nSevere/symptomatic (seizures · coma): 3% hypertonic saline 100 mL IV over 10 min (repeat ×2)\nTolvaptan (V2-receptor antagonist): chronic severe SIADH · hospital-only initiation\nCORRECT AT ≤10 mmol/L per 24 h — risk of osmotic demyelination syndrome (ODS)"]
+    VOLSTAT -->|"Hypervolaemic\noedema · ↑JVP · ascites\nurine Na <20"| HYPERVOL["HYPERVOLAEMIC HYPONATRAEMIA\nHeart failure · cirrhosis · nephrotic syndrome\nFree water restriction (500–1000 mL/day)\nTreat underlying condition (diuretics in HF · albumin/paracentesis in cirrhosis)"]
+
+    NAPLUS -->|"Na⁺ >145 mmol/L\nHypernatraemia"| HYPERNA["HYPERNATRAEMIA\nAlways = free water deficit (rarely Na⁺ excess)\nCauses: insensible losses (burns · fever) · diabetes insipidus · inadequate water intake\nDiabetes insipidus (DI):\nSerum osm >295 + inappropriately dilute urine osm <300 (polyuria · polydipsia)\nCentral DI: ADH deficiency → responds to desmopressin (DDAVP) 0.1 µg SC/IV\nNephrogenic DI: ADH resistance (lithium · hypercalcaemia · CKD)\n→ low-Na diet + amiloride + thiazide (paradoxically reduce urine volume)\nTreatment: replace free water deficit at ≤10 mmol/L per 24 h\nFree water deficit (L) = 0.6 × IBW × ((Na/140) − 1)\nGive: 5% dextrose or 0.45% NaCl — NEVER correct hypernatraemia rapidly (cerebral oedema)"]
 ```
 
 ## Clinical Insight

@@ -86,14 +86,21 @@ Seizures arise from an imbalance between excitatory (glutamatergic) and inhibito
 
 ```mermaid
 flowchart TD
-    A["Epilepsy and Seizures: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Seizure presentation\nFirst seizure or breakthrough seizure in known epilepsy\nBM · Na⁺ · ECG · O₂ sat immediately"] --> STAT{"Duration >5 minutes\nor two seizures without recovery\nbetween them?"}
+
+    STAT -->|"Yes — Status Epilepticus"| SE["STATUS EPILEPTICUS — TIME IS BRAIN\n0–5 min: IV access · BM · O₂ · left lateral · ECG monitoring\nPhase 1 (5–10 min): Lorazepam 4 mg IV STAT\n(or buccal midazolam 10 mg / IM midazolam if no IV access)\nRepeat lorazepam once after 10 min if continuing\nPhase 2 (20–30 min — established SE): IV levetiracetam 60 mg/kg over 10 min\nor IV valproate 40 mg/kg over 10 min · or IV phenytoin 20 mg/kg over 20 min (ECG monitoring)\nPhase 3 (40–60 min — refractory SE): ITU admission\nPropofol or thiopentone infusion · continuous EEG monitoring\nInvestigate cause: ABG · electrolytes · BM · CT head · LP · toxicology screen"]
+
+    STAT -->|"No — seizure resolved"| CAUSE{"Seizure type\nand suspected cause?"}
+
+    CAUSE -->|"Young patient · no structural lesion\nfocal or generalised · family history\nor specific syndrome features"| PRIM["PRIMARY EPILEPSY SYNDROMES\nJME: myoclonic jerks on waking + GTCS + absence\n→ Valproate (first-line) · or levetiracetam/lamotrigine if female of childbearing potential\nChildhood absence epilepsy: ethosuximide (first-line) or valproate\nDravet syndrome (SCN1A mutation):\n→ AVOID sodium channel blockers (carbamazepine · phenytoin · lamotrigine) — worsen seizures\n→ Use valproate · clobazam · stiripentol · fenfluramine"]
+
+    CAUSE -->|"Structural brain lesion on MRI\nfocal seizures · temporal lobe semiology\n(déjà vu · automatisms · postictal confusion)"| FOCAL["FOCAL EPILEPSY\nMRI: mesial temporal sclerosis · cortical dysplasia · tumour · cavernoma\nFirst-line ASM: carbamazepine 200–400 mg BD · or levetiracetam · or lamotrigine\nDrug-resistant focal epilepsy (≥2 ASMs failed):\nEpilepsy surgery evaluation (presurgical workup: SEEG · ictal PET · Wada test)\nResponsive neurostimulation (RNS) or VNS if surgery not possible"]
+
+    CAUSE -->|"Clear provoking factor\nhyponatraemia · hypoglycaemia · alcohol\nfever · acute CNS infection · stroke"| PROVOKED["PROVOKED/ACUTE SYMPTOMATIC SEIZURE\nTreat the precipitant — NOT the seizure\nDo NOT start long-term ASM for an isolated provoked seizure\n(risk of recurrence is from the underlying condition, not epilepsy)\nExceptions: significant EEG abnormality · structural lesion · nocturnal seizure"]
+
+    CAUSE -->|"Subacute onset · behavioural change\npsychiatric prodrome · young woman\nmovement disorder + autonomic instability"| AUTO["AUTOIMMUNE ENCEPHALITIS — CONSIDER IN ANY REFRACTORY SEIZURE\nAnti-NMDAR · LGI1 · CASPR2 · GABA-B antibodies (serum + CSF)\nMRI: T2 FLAIR limbic signal changes (temporal lobes)\nTreat: IV methylprednisolone 1 g/day × 5 + IVIG\nScreen for tumour: CT CAP + ovarian USS (anti-NMDAR → teratoma)"]
+
+    FOCAL & PRIM --> DRUG["ANTISEIZURE MEDICATION (ASM) PRINCIPLES\nStart after 2 unprovoked seizures · or 1 unprovoked + high recurrence risk\nMonotherapy first — titrate slowly — reassess at 3 months\nDriving: seizure-free for 12 months (UK DVLA) or 6 months if controlled (group 2 licence — never)\nWomen of childbearing potential: AVOID valproate (FASD · NTDs · cognitive delay)\n→ Prescribe lamotrigine or levetiracetam\n→ Folic acid 5 mg/day pre-conception on any ASM\nSeizure diary: mandatory for all · rescue medication: buccal midazolam prescribed"]
 ```
 
 ## Management
