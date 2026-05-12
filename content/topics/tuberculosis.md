@@ -51,24 +51,27 @@ Tuberculosis (TB) is caused by *Mycobacterium tuberculosis* and remains one of t
 
 ```mermaid
 flowchart TD
-    A["Suspected TB: cough &gt;3 wk, fever, night sweats, weight loss,<br/>haemoptysis, exposure, high-burden country, immunosuppression"] --> B{"Pulmonary symptoms or abnormal CXR?"}
-    B -->|Yes| C["Airborne isolation if active pulmonary TB possible<br/>Notify infection control"]
-    C --> D["Send &gt;=3 sputum samples incl early morning<br/>AFB smear, mycobacterial culture, NAAT/GeneXpert MTB/RIF"]
-    D --> E{"NAAT or smear positive?"}
-    E -->|Yes| F["Treat active TB while awaiting culture/susceptibility<br/>Assess HIV, LFTs, contacts"]
-    E -->|No but high suspicion| G["CT chest, induced sputum or bronchoscopy/BAL<br/>Do not rely on IGRA to rule out active TB"]
-    B -->|No| H["Latent TB evaluation if contact, immigrant screen, pre-anti-TNF, HIV"]
-    H --> I{"IGRA/Mantoux positive and active TB excluded?"}
-    I -->|Yes| J["LTBI treatment: isoniazid 6 mo<br/>or rifampicin/isoniazid 3 mo; check interactions"]
-    I -->|No| K["No LTBI treatment; reassess if immunosuppression/exposure"]
-    F --> L["Drug-susceptible pulmonary TB: RIPE<br/>2 mo rifampicin + isoniazid + pyrazinamide + ethambutol<br/>then 4 mo rifampicin + isoniazid"]
-    L --> M["Prevent toxicity: pyridoxine with isoniazid<br/>baseline LFTs; visual acuity/colour vision for ethambutol"]
-    D --> N{"Rifampicin resistance or MDR risk?"}
-    N -->|Yes| O["Specialist MDR-TB regimen<br/>MDR = at least rifampicin + isoniazid resistance"]
-    F --> P{"CNS, spinal, disseminated, HIV?"}
-    P -->|CNS TB| Q["12 mo therapy + dexamethasone"]
-    P -->|HIV| R["Coordinate ART timing; monitor IRIS"]
-    F --> S["Contact tracing + public health notification<br/>Smear-positive: isolate until non-infectious, often ~2 wk effective therapy"]
+    A["Suspected Active TB\nCough &gt;3 weeks · fever · drenching night sweats · weight loss\nhaemoptysis · upper lobe CXR changes · risk: high-burden country origin · HIV · anti-TNF therapy"] --> ACTIVE{"Pulmonary symptoms\nor abnormal CXR?"}
+
+    ACTIVE -->|"Yes — pulmonary TB suspected"| ISOLATE["AIRBORNE ISOLATION IMMEDIATELY\nNegative-pressure room if available\nNotify infection control · TB is a NOTIFIABLE DISEASE\nSend ≥3 sputum samples (including early morning)\n→ AFB smear (ZN stain): rapid · ~50–70% sensitivity\n→ Mycobacterial culture: gold standard · species + sensitivities · results 2–8 weeks\n→ NAAT (GeneXpert MTB/RIF): detects M. tuberculosis + rifampicin resistance within 2 hours\n(WHO endorses as primary test — increasingly standard UK practice)\nDo NOT rely on IGRA to exclude active TB (detects exposure, not active disease)"]
+
+    ISOLATE --> RESULT{"NAAT or smear positive?"}
+
+    RESULT -->|"Positive — start treatment"| RIPE["STANDARD RIPE REGIMEN (drug-susceptible TB)\nIntensive phase (2 months): Rifampicin + Isoniazid + Pyrazinamide + Ethambutol (2HRZE)\nContinuation phase (4 months): Rifampicin + Isoniazid (4HR)\nTotal: 6 months standard pulmonary TB\nDRUG MONITORING (mandatory):\n→ Isoniazid: peripheral neuropathy → pyridoxine (B6) co-prescribed ALWAYS\n→ Ethambutol: optic neuritis → baseline visual acuity + colour vision; check monthly\n→ Rifampicin: CYP450 inducer (renders OCP ineffective · ↑warfarin dose needed · affects ARVs)\nOrange discolouration of body fluids (rifampicin) — warn patient\n→ All: hepatotoxicity → baseline LFTs · monitor"]
+
+    RESULT -->|"Negative but high suspicion"| FURTHERTEST["FURTHER INVESTIGATION\nCT chest: characterises upper lobe disease · identifies cavitation · hilar nodes\nInduced sputum or bronchoscopy + BAL: if sputum unobtainable or smear-negative\nPleural biopsy: caseating granulomata (most sensitive for TB pleurisy)\nHigh ADA (&gt;40 U/L) in pleural fluid: strongly suggestive TB effusion\nDo not delay treatment if clinical suspicion high while awaiting culture"]
+
+    RIPE --> SPECIAL{"Special circumstances?"}
+
+    SPECIAL -->|"CNS TB\n(meningitis · tuberculoma)"| CNS_TB["CNS TUBERCULOSIS\n12 months total therapy (not 6)\nAdd dexamethasone: reduces mortality and neurological sequelae (TB meningitis)\nLumbar puncture: high protein · low glucose · lymphocytes · AFB culture"]
+
+    SPECIAL -->|"HIV co-infection"| HIV_TB["TB + HIV\nStart TB treatment first\nIntroduce ART after 2 weeks (if CD4 &lt;50) or after 8 weeks of TB treatment\nWatch for IRIS (immune reconstitution inflammatory syndrome):\n→ Paradoxical worsening as immune function recovers\n→ Treat with prednisolone if severe\nRifampicin + ARV interactions: significant — specialist pharmacy review"]
+
+    SPECIAL -->|"Rifampicin resistance on NAAT\nor prior TB treatment · contact of MDR-TB"| MDR["MDR-TUBERCULOSIS\nMDR: resistant to ≥ rifampicin + isoniazid\nXDR: additionally resistant to fluoroquinolones + ≥1 second-line injectable\nSpecialist MDR-TB centre referral\nRegimen: ≥18–24 months · bedaquiline · linezolid · fluoroquinolones\nDOT (directly observed therapy): mandatory for MDR-TB"]
+
+    ACTIVE -->|"No pulmonary symptoms\nscreening: contact · immigrant · pre-anti-TNF · HIV"| LTBI["LATENT TB INFECTION (LTBI)\nIGRA (QuantiFERON-TB Gold): preferred in UK (unaffected by BCG vaccination)\nPositive IGRA + active TB excluded = LTBI\nTreat to prevent reactivation — especially: HIV · anti-TNF therapy · recent immigrants · close contacts\nRegimens: isoniazid 6 months · or rifampicin + isoniazid 3 months · or rifampicin alone 3–4 months\nScreen for active TB before treating LTBI"]
+
+    RIPE --> CONTACT["CONTACT TRACING AND PUBLIC HEALTH\nSmear-positive pulmonary TB: isolate until non-infectious (~2 weeks effective treatment)\nTest all household and close contacts for LTBI and active disease\nNotify local health protection team — legally notifiable"]
 ```
 
 **Bronchoscopy with BAL:** If sputum cannot be obtained or smears are negative but suspicion remains high.

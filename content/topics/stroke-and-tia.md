@@ -90,14 +90,21 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 
 ```mermaid
 flowchart TD
-    A["Stroke and TIA: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Suspected Stroke or TIA\nSudden focal neurological deficit: face/arm/leg weakness · aphasia · hemianopia\nvertigo + ataxia + diplopia (posterior circulation) · sudden severe headache (SAH)"] --> GLUCOSE["CHECK BLOOD GLUCOSE IMMEDIATELY\nHypoglycaemia mimics stroke — must be excluded before any intervention\nIf glucose &lt;3 mmol/L: correct and reassess completely"]
+
+    GLUCOSE --> CT["NON-CONTRAST CT HEAD — within 25 minutes\nPrimary purpose: EXCLUDE HAEMORRHAGE before thrombolysis\n(NOT to confirm ischaemic stroke — CT often normal in first 6 hours)\nCT positive for blood = haemorrhagic stroke (see haemorrhagic pathway)\nCT negative + focal deficit = assume ischaemic stroke → proceed to reperfusion decision"]
+
+    CT -->|"Blood on CT\nhaemorrhagic stroke"| HAEMO["HAEMORRHAGIC STROKE\nReverse anticoagulation IMMEDIATELY:\n→ Warfarin: vitamin K + prothrombin complex concentrate (PCC 4-factor)\n→ Dabigatran: idarucizumab\n→ Apixaban/rivaroxaban: andexanet alfa\nBP control: target systolic &lt;140 mmHg (INTERACT-2 trial) — avoid over-rapid reduction\nICP management if raised: head 30° · mannitol/hypertonic saline · EVD for hydrocephalus\nNeurosurgical referral: cerebellar haematoma &gt;3 cm · accessible lobar haematoma with deterioration\nDo NOT give antiplatelet or anticoagulant acutely"]
+
+    CT -->|"No blood on CT\nischaemic stroke presumed"| WINDOW{"Time from onset\nor last known well?"}
+
+    WINDOW -->|"Within 4.5 hours\nno contraindications"| THROMBOLYSIS["IV THROMBOLYSIS — alteplase 0.9 mg/kg (max 90 mg)\n10% as IV bolus · remainder over 60 minutes\nBP must be &lt;185/110 before giving — treat if needed\nContraindications: haemorrhage on CT · symptoms &gt;4.5 h · INR &gt;1.7\nplatelet &lt;100 · glucose &lt;2.8 or &gt;22 · recent major surgery or head trauma\nprior haemorrhagic stroke · active bleeding\nDo NOT lower BP aggressively in ischaemic stroke unless giving thrombolysis\n(permissive hypertension maintains perfusion to penumbra via collaterals)"]
+
+    WINDOW -->|"Large vessel occlusion (ICA/MCA/basilar)\nconfirmed on CTA/MRA"| THROMBECTOMY["MECHANICAL THROMBECTOMY\nWindow: up to 24 hours with viable penumbra on CT perfusion\n(DAWN and DEFUSE-3 trials — extended window if penumbra confirmed)\nNNT ~2.5 for functional independence — most effective acute stroke intervention\nCan be combined with IV thrombolysis (bridging therapy)\nTarget: ICA · MCA M1/M2 · basilar artery occlusion"]
+
+    THROMBOLYSIS & THROMBECTOMY --> SECPREV["SECONDARY PREVENTION\nAspirin 300 mg: start within 24–48 h of ischaemic stroke\n(wait 24 h after thrombolysis to reduce haemorrhagic transformation risk)\nDual antiplatelet (aspirin + clopidogrel) ×21 days: high-risk TIA or minor stroke\n(POINT and CHANCE trials: significantly reduces early recurrence)\nThen clopidogrel 75 mg indefinitely (CAPRIE trial — superior to aspirin alone)\nAF-related cardioembolic stroke: DOAC (start 4–14 days post-stroke)\nValvular AF (mechanical valve · rheumatic MS): warfarin only\nStatin: atorvastatin 80 mg in all ischaemic stroke/TIA regardless of baseline LDL\nBP: target &lt;130/80 — start 24–48 h after acute event\nCarotid stenosis 50–99% symptomatic: CEA within 2 WEEKS of TIA or minor stroke\n(delay beyond 2 weeks substantially increases recurrence risk)"]
+
+    WINDOW -->|"TIA — fully resolved"| TIA["TIA MANAGEMENT\nABCD² score ≥4 or crescendo TIA: same-day specialist review (NICE NG128)\nMRI DWI: identifies acute ischaemia even without symptoms\n12-lead ECG + 7-day cardiac monitor: detect paroxysmal AF\nEchocardiogram + carotid Doppler\nInitiate secondary prevention before discharge: antiplatelet + statin + BP control\nDo NOT discharge without treatment initiated\n10–15% stroke risk within 90 days — highest in first 48 hours"]
 ```
 
 ## Management

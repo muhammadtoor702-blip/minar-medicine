@@ -131,14 +131,21 @@ Life-threatening exacerbation of hyperthyroidism — precipitated by surgery, in
 
 ```mermaid
 flowchart TD
-    A["Thyroid Disease: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
-    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
-    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
-    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
-    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
-    F --> G{"Primary vs secondary?"}
-    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
-    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+    A["Thyroid Disease Presentation\nPalpitations · weight loss · heat intolerance · tremor (hyperthyroid)\nor fatigue · cold intolerance · weight gain · bradycardia (hypothyroid)\nor neck swelling · dysphasia · hoarseness (structural)"] --> TSH["TSH FIRST — most sensitive thyroid test\nNormal TSH essentially excludes significant primary thyroid disease\nFree T4 only if TSH is abnormal (not as routine screen)\nIsolated free T4 without TSH is almost uninterpretable"]
+
+    TSH -->|"TSH suppressed/low\nhyperthyroidism"| HYPER{"Cause of hyperthyroidism?"}
+
+    HYPER -->|"Diffuse goitre · bruit\nproptosis · pretibial myxoedema"| GRAVES["GRAVES' DISEASE\nTSH receptor antibodies (TRAb): confirm diagnosis + predict relapse risk\nOptions:\n1. Carbimazole (UK first-line): titrate to maintain euthyroidism × 12–18 months\n(agranulocytosis risk ~0.3% — warn: sore throat → STOP drug → urgent FBC)\n2. Radioactive iodine (RAI ¹³¹I): definitive · most patients become hypothyroid (planned)\n→ Contraindicated: pregnancy · active moderate/severe Graves' ophthalmopathy\n→ Avoid pregnancy for 6 months post-RAI\n3. Total thyroidectomy: large goitre · compression · malignancy suspected · patient preference\n→ Complications: hypoparathyroidism (most common) · RLN injury · hypothyroidism"]
+
+    HYPER -->|"Thyroid storm\nfever &gt;40°C · AF · confusion · jaundice\nprecipitant present"| STORM["THYROID STORM — MEDICAL EMERGENCY\nBurch-Wartofsky score for diagnosis\nTreatment sequence (ORDER MATTERS):\n1. PTU 600 mg loading → 200–300 mg TDS (blocks synthesis + T4→T3 conversion)\n2. Wait ≥1 hour — THEN Lugol's iodine (NEVER give iodine before PTU)\n(iodine before PTU provides substrate for MORE synthesis → worsens thyrotoxicosis)\n3. Propranolol: rate control + blocks peripheral T4→T3 conversion\n4. Hydrocortisone/dexamethasone: ↓T4→T3 conversion + treats adrenal insufficiency\n5. Paracetamol for fever (NOT aspirin — displaces T4 from TBG → worsens thyrotoxicosis)\n6. Treat precipitant (infection · surgery · contrast · RAI · ATD withdrawal)"]
+
+    HYPER -->|"Multinodular goitre\nor 'hot' nodule on scan\nno ophthalmopathy"| TMNG["TOXIC MULTINODULAR GOITRE / TOXIC ADENOMA\nRadioiodine uptake scan: patchy uptake (TMNG) or single hot nodule (adenoma)\nTMNG/adenoma: no ophthalmopathy · common in elderly\nTreatment: RAI (first-line) or hemithyroidectomy\nCarbimazole pre-treatment to render euthyroid before RAI"]
+
+    HYPER -->|"Transient hyperthyroid\nthen hypothyroid phase\nor post-partum"| THYROIDITIS["THYROIDITIS (subacute · postpartum · silent)\nRadioiodine uptake LOW (stored hormone leaks — not active synthesis)\nTreatment: symptomatic only (propranolol for symptoms)\nMost resolve spontaneously — monitor TFTs for hypothyroid phase"]
+
+    TSH -->|"TSH elevated\nhypothyroidism"| HYPO["HYPOTHYROIDISM\nMost common cause: Hashimoto's thyroiditis (anti-TPO antibodies)\nDrug causes: amiodarone · lithium · carbimazole · interferon-alpha\nLevothyroxine: start 50–100 mcg/day (25 mcg if elderly/cardiac disease)\nIncrease by 25 mcg every 4–6 weeks guided by TSH\nTarget TSH: 0.5–2.5 mU/L (allow 1–4 in elderly/frail)\nTake on empty stomach 30–60 min before food\n(absorption reduced by food · calcium · iron · PPIs)\nMyxoedema coma: IV T4/T3 + IV hydrocortisone + ICU (mortality ~30–40%)"]
+
+    TSH -->|"TSH normal\nthyroid nodule"| NODULE["THYROID NODULE ASSESSMENT\nStep 1: TSH (if low → radioiodine scan: hot nodule = almost never malignant)\nStep 2: USS thyroid (characterise: size · echogenicity · calcification · vascularity · lymph nodes)\nStep 3: FNA cytology (FNAC) for nodules &gt;1 cm with suspicious USS features\nBethesda classification I–VI guides management\nRed flags for malignancy: male · age &lt;20 or &gt;70 · rapid growth · hoarseness (RLN involvement)\nhard/fixed nodule · cervical lymphadenopathy · prior neck irradiation · MEN2 family history\nMedullary thyroid cancer: secretes calcitonin · RET mutation · screen family members · prophylactic thyroidectomy in RET+ relatives"]
 ```
 
 ## Complications
