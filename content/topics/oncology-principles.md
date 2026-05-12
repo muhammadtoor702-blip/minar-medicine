@@ -149,14 +149,21 @@ Massive tumour cell lysis releases intracellular contents: hyperkalaemia (cardia
 
 ```mermaid
 flowchart TD
-    A["Oncology Principles: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
-    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
-    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
-    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
-    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
-    F --> G{"Clonal/malignant or marrow failure concern?"}
-    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
-    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+    A["Oncology presentation\nNew mass · unexplained weight loss · night sweats\nabnormal bloods · incidental finding · cancer follow-up"] --> EMERG{"Oncological emergency?"}
+
+    EMERG -->|"Back pain + neurological deficits\nor sphincter disturbance"| MSCC["MALIGNANT SPINAL CORD COMPRESSION (MSCC)\nDexamethasone 16 mg IV STAT — start before imaging\nMRI whole spine urgently (within 24 h of symptoms)\nRadiotherapy: mainstay · XRT to affected vertebral levels\nSurgery: if single metastasis · spinal instability · prior XRT · good prognosis\nDO NOT DELAY — functional outcome depends on pre-treatment neurological status\nAmbulatory patients: 90% remain ambulatory with treatment\nParaplegic >24 h: rarely recover function"]
+
+    EMERG -->|"Hypercalcaemia symptoms\nnausea · confusion · polyuria · constipation"| HYPERCALC["MALIGNANT HYPERCALCAEMIA\nCa²⁺ >2.6 (symptomatic) or >3.0 (treat regardless)\nIV 0.9% NaCl 2–4 L/day (rehydration first)\nIV zoledronic acid 4 mg over 15 min (max effect 3–7 days)\nor pamidronate 60–90 mg over 4 h\nDenosumab: if bisphosphonates fail or CKD (eGFR <35)\nHydrocortisone: haematological malignancies only (PTHrP-mediated — steroids not effective)"]
+
+    EMERG -->|"SVC compression: facial oedema\narm swelling · headache · JVD\nstridor · SVCO"| SVCO["SUPERIOR VENA CAVA OBSTRUCTION\nSVC stent: fastest symptom relief (IR — within 24 h)\nDexamethasone 8–16 mg OD: reduces oedema\nUrgent radiotherapy or chemotherapy by tumour type\nHistology first if possible (SVC stent → tissue biopsy if not yet known)"]
+
+    EMERG -->|"High tumour burden + treatment\nAcute AKI · hyperkalaemia · hyperuricaemia\nhyperphosphataemia · hypocalcaemia"| TLS["TUMOUR LYSIS SYNDROME (TLS)\nPrevention (high-risk: Burkitt lymphoma · ALL · AML):\nAllopurinol before chemotherapy · IV hydration 3 L/day · urine alkalinisation\nRasburicase (urate oxidase): rapidly lowers uric acid — do NOT use in G6PD deficiency\nMonitor: K⁺ · urate · Cr · PO₄ · Ca²⁺ 4-hourly\nTreatment: IV fluids · haemodialysis if AKI refractory"]
+
+    EMERG -->|"No emergency"| STAGING["DIAGNOSIS AND STAGING\nHistological diagnosis: biopsy with IHC/molecular markers\n→ Tissue is the issue — never treat without pathology\nStaging: CT chest/abdomen/pelvis (standard) · PET-CT (lymphoma · select solid tumours)\nMolecular profiling: EGFR/ALK (lung) · HER2 (breast) · KRAS (colorectal) · MSI/TMB\nPerformance status (ECOG 0–4): determines fitness for treatment\nECOG 0–1: fit for most treatments\nECOG ≥3: systemic chemotherapy often causes more harm than benefit"]
+
+    STAGING --> INTENT{"Treatment intent?"}
+    INTENT -->|"Curative intent\n(Stage I–III most solid tumours\nor haematological)"| CURATIVE["CURATIVE TREATMENT\nSurgery: mainstay for solid tumours (R0 resection = no residual microscopic disease)\nChemotherapy: adjuvant (reduce recurrence) · neoadjuvant (downstage · assess response)\nRadiotherapy: curative (prostate · cervix · H&N) · adjuvant (breast · rectal) · stereotactic (oligometastatic)\nImmunotherapy: PD-1/PDL-1 checkpoint inhibitors\n(pembrolizumab/nivolumab) — adjuvant NSCLC · melanoma · bladder\nTargeted therapy: TKIs (erlotinib · osimertinib for EGFR+ NSCLC)"]
+    INTENT -->|"Palliative intent\n(Stage IV/incurable)"| PALLIATIVE["PALLIATIVE TREATMENT\nGoal: prolong survival + maintain QoL\nSystemic therapy: palliative chemotherapy · targeted agents · immunotherapy\nSupportive care: bisphosphonates (bone mets) · corticosteroids · antiemetics\nPalliative radiotherapy: pain from bone mets · brain mets · obstructing tumours\nEarly palliative care referral: improves QoL and survival (NEJM RCT — Temel 2010)\nAdvance care planning: EOL wishes · DNACPR · preferred place of care"]
 ```
 
 ## Clinical Insight

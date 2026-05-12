@@ -156,14 +156,19 @@ The hallmark is **fatigable weakness** — weakness that worsens with repeated a
 
 ```mermaid
 flowchart TD
-    A["Neuromuscular Disease: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Neuromuscular disease presentation\nWeakness · hypotonia · areflexia · atrophy\nor fatiguability · respiratory compromise\nEMG/NCS · CK · autoantibodies"] --> RESP{"Respiratory compromise?\nVC <1.5 L · SpO₂ <95% · inability to count to 20 in one breath"}
+
+    RESP -->|"Yes — impending respiratory failure"| RESP_TX["NEUROMUSCULAR RESPIRATORY FAILURE — ICU\nSerial FVC: if falling < 20 mL/kg → elective intubation\n(Do NOT wait for hypoxia — neuromuscular failure → type II respiratory failure late)\nNIV: only for acute-on-chronic (MND · DMD) or if reversible cause\nAvoid: suxamethonium in muscular dystrophy/denervation (hyperkalaemic cardiac arrest)\nAvoid: aminoglycosides · magnesium (worsen NMJ block in MG)"]
+
+    RESP -->|"No acute respiratory compromise"| LOCAL{"Localise lesion\n(NCS + EMG anatomy)"}
+
+    LOCAL -->|"Peripheral nerve:\nslowing NCS · axonal loss\nglove-stocking · areflexia"| PERI["PERIPHERAL NEUROPATHY\nAcute symmetrical ascending: Guillain-Barré Syndrome (GBS)\n→ Post-infectious (Campylobacter · EBV · CMV · COVID · post-vaccine)\n→ CSF: cytoalbuminous dissociation (↑protein · no cells)\n→ NCS: demyelinating (AIDP) or axonal (AMAN/AMSAN)\n→ Treatment: IVIG 0.4 g/kg × 5 days · or plasma exchange × 5\n→ Steroids: no benefit in GBS\n→ Monitor: daily FVC · swallowing · ECG (autonomic dysrhythmia)\nMFS variant (Miller Fisher): ophthalmoplegia · ataxia · areflexia · anti-GQ1b Ab\nChronic demyelinating (CIDP): response to IVIG · steroids · plasma exchange\nDiabetic neuropathy: most common · sensorimotor · painful\nParaprotein neuropathy: MGUS · myeloma · POEMS syndrome"]
+
+    LOCAL -->|"NMJ:\nfatiguable weakness · ptosis\ndiplopia · normal reflexes"| NMJ["NEUROMUSCULAR JUNCTION (NMJ) DISEASE\nMyasthenia Gravis (MG):\nAnti-AChR Ab: 85% · or anti-MuSK Ab (seronegative AChR)\nTensilon test (edrophonium): dramatic reversal of ptosis (historical)\nRepetitive nerve stimulation: decremental response (3+ Hz)\nSingle-fibre EMG: most sensitive test\nThymoma: CT chest (present in 15% MG)\nThymectomy: indicated if thymoma · or generalised MG in patients <60\nSymptom management: pyridostigmine 30–60 mg TDS (acetylcholinesterase inhibitor)\nImmunosuppression: prednisolone + azathioprine · or mycophenolate\nMyasthenic crisis (respiratory failure): IVIG or plasma exchange · ICU\nEaton-Lambert Syndrome (LEMS):\nAnti-VGCC Ab · associated with SCLC\nLimb-girdle weakness · hyporeflexia · autonomic features\n(Incremental response on RNS — unlike MG)"]
+
+    LOCAL -->|"Muscle disease:\nnear-normal NCS · elevated CK\nproximal > distal weakness"| MUSCLE["MUSCLE DISEASE (MYOPATHY)\nInflammatory myopathy:\nDermatomyositis · polymyositis · inclusion body myositis\n(see CTD flowchart for management)\nGenetic muscular dystrophies:\nDuchenne MD (DMD): X-linked · dystrophin mutation · boys <5 years · Gowers' sign\n→ Ataluren or exon-skipping therapy for certain mutations\n→ Deflazacort (steroid — preserves function)\nFacioscapulohumeral MD (FSHD): facial + shoulder-girdle · FRG1/D4Z4\nMyotonic dystrophy (DM1): CTG repeat · myotonia · cardiac (AV block) · lens (cataract)\n→ ECG annually · pacemaker if PR >200 ms or AV block\nMitochondrial myopathy: exercise intolerance · ptosis · CPEO · lactic acidosis\nMetabolic myopathy: McArdle's disease (GSD type V) — 'second wind' phenomenon"]
+
+    LOCAL -->|"Upper motor neuron + lower motor neuron\nno sensory features · no cognitive decline\nbulbar + limb involvement"| MND["MOTOR NEURONE DISEASE (MND) / ALS\nProgressive combined UMN + LMN signs · no sensory involvement\nDiagnosis: El Escorial criteria · exclude reversible mimics (cervical myelopathy · Kennedy disease)\nRiluzole 50 mg BD: modest survival benefit (first disease-modifying therapy)\nEdaravone (IV): some functional decline attenuation\nMultidisciplinary care: neurology · respiratory · nutrition · speech therapy · palliative care\nNIV (BiPAP): extends life and improves QoL · initiate when VC <50% or symptoms\nPEG (percutaneous endoscopic gastrostomy): for dysphagia · early is safer\nEnd-of-life planning: advance care plans · DNACPR · discuss early"]
 ```
 
 ## Clinical Insight

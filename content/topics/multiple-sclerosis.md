@@ -74,14 +74,21 @@ A clinically isolated syndrome (CIS) — a single clinical episode suggestive of
 
 ```mermaid
 flowchart TD
-    A["Multiple Sclerosis: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Suspected multiple sclerosis\nEpisodic neurological symptoms\nOptic neuritis · transverse myelitis · brainstem/cerebellar syndrome\ndisseminated in space and time"] --> ACUTE{"Acute relapse?"}
+
+    ACUTE -->|"New or worsening neurological symptoms\n>24 h · not explained by fever/infection"| RELAPSE["ACUTE MS RELAPSE\nFirst: exclude pseudorelapse — infection · fever · metabolic (symptoms worsen without new lesions)\nMRI brain + spine with gadolinium: new enhancing lesions = active disease\nTreatment: IV methylprednisolone 500 mg–1 g OD × 3–5 days\n(accelerates recovery — does NOT change long-term outcome)\nOptic neuritis: IV steroids if significant visual loss\nSevere spinal cord relapse: IV methylprednisolone + consider plasma exchange if no improvement\nRehabilitation: physiotherapy · occupational therapy"]
+
+    ACUTE -->|"New presentation or CIS\n(clinically isolated syndrome)"| DX["DIAGNOSIS — MCDONALD CRITERIA 2017\nDissemination in SPACE: ≥2 lesions in different CNS areas\n(periventricular · juxtacortical · infratentorial · spinal cord)\nDissemination in TIME: new T2/gadolinium lesion on follow-up MRI\nor simultaneous enhancing + non-enhancing lesions\nOligoclonal bands (CSF): present in 85–95% MS · support diagnosis if not yet meeting McDonald\nExclude mimics: B12 · APS · vasculitis · NMOSD (anti-AQP4) · MOGAD (anti-MOG)\nSpectrum:\nRRMS (85%): relapsing-remitting · SPMS: secondary progressive · PPMS: primary progressive"]
+
+    ACUTE -->|"Established MS"| TYPE{"MS disease course?"}
+
+    TYPE -->|"Relapsing-remitting MS (RRMS)\nactive disease"| RRMS["RRMS — DISEASE-MODIFYING THERAPY (DMT)\nLow-moderate efficacy (mild-moderate disease):\nInterferon beta-1a/1b or glatiramer acetate (IFN: flulike side effects)\nDimethyl fumarate (oral): well-tolerated · flushing · GI side effects\nTeriflunomide (oral): lymphopenia · teratogenic\nHigh efficacy (active disease or breakthrough on first-line):\nNatalizumab (IV monthly): anti-VLA-4 · JC virus PML risk (JCV antibody monitoring)\nOcrelizumab (IV 6-monthly): anti-CD20 · reduces relapses by 96%\nAlemtuzumab: powerful but serious autoimmune side effects (ITP · thyroid)\nCladribine (oral): annual courses × 2 years\nIMPORTANT: start high-efficacy early for active disease (treat-to-target)"]
+
+    TYPE -->|"Secondary progressive MS (SPMS)\ngradually worsening ± relapses"| SPMS["SECONDARY PROGRESSIVE MS (SPMS)\nSiponimod (oral): reduced disability progression (EXPAND trial)\nOcrelizumab: if active SPMS (relapses on top of progression)\nCladribine: active SPMS\nSymptom management increasingly important:\nSpasticity: baclofen · tizanidine · nabiximols (Sativex)\nFatigue: amantadine · modafinil · graded exercise\nBladder: oxybutynin · intermittent self-catheterisation\nDepression: antidepressants + psychological support\nPain: gabapentin/pregabalin · amitriptyline for neuropathic pain"]
+
+    TYPE -->|"Primary progressive MS (PPMS)\ngradually worsening from onset\nno relapses"| PPMS["PRIMARY PROGRESSIVE MS (PPMS)\nOcrelizumab (anti-CD20): first approved treatment for PPMS\n(ORATORIO trial: reduces disability progression · slows brain volume loss)\nSymptom management dominant:\nRehabilitation: physiotherapy · OT · neuropsychology\nSpasticity · bladder · fatigue — same as SPMS\nPsychological support: adjustment to disability · cognitive problems"]
+
+    RRMS & SPMS & PPMS --> MONITOR["MS MONITORING\nMRI brain ± spine: annually on DMT (baseline → 6 months → annually)\nEDAMS disability scale: monitor function\nCognitive testing: memory · processing speed affected in 50%\nPregnancy: DMTs generally stopped pre-conception\n(natalizumab may be continued if high relapse risk — specialist decision)\nVaccinations: live vaccines contraindicated on alemtuzumab/cladribine\nNEUROPSYCHIATRY: depression (3× general population) — screen at every visit"]
 ```
 
 ## Management

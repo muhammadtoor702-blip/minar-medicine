@@ -169,14 +169,20 @@ Inflammation at the origin of the plantar fascia at the calcaneus. Severe heel p
 
 ```mermaid
 flowchart TD
-    A["Musculoskeletal Disorders and Osteoporosis: inflammatory MSK/systemic presentation"] --> B["Define pattern: mono vs poly, axial vs peripheral, inflammatory vs mechanical, organ involvement"]
-    B --> C{"Emergency? septic joint, GCA vision risk, vasculitic renal/pulmonary disease, cord compression"}
-    C -->|Yes| D["Same-day treatment/referral: cultures/aspiration, steroids when indicated, organ-protective immunosuppression"]
-    C -->|No| E["Labs guided by phenotype: ESR/CRP, CBC/CMP/UA, RF/anti-CCP, ANA/ENA, ANCA, complements, urate"]
-    E --> F["Imaging: X-ray/US/MRI; aspirate any hot swollen joint before steroids if possible"]
-    F --> G{"Persistent inflammatory disease or erosive/organ-threatening?"}
-    G -->|Yes| H["DMARD/biologic pathway; screen TB/HBV/HCV before biologics"]
-    G -->|No| I["Symptomatic therapy, rehab, risk modification, reassess diagnosis"]
+    A["MSK or osteoporosis presentation\nFragility fracture · back pain · joint pain\nor incidental low bone density on DXA"] --> FRACT{"Acute fracture or\nvertebral collapse?"}
+
+    FRACT -->|"Acute vertebral fracture\nor cauda equina syndrome"| VERTEBRAL["VERTEBRAL FRACTURE / SPINAL EMERGENCY\nCauda equina: bilateral leg weakness · saddle anaesthesia · bowel/bladder dysfunction\n→ Emergency MRI spine · neurosurgical review immediately\nOsteoporotic vertebral fracture:\nAnalgesia · mobilise early · kyphoplasty/vertebroplasty for acute pain if not improving\nStart bone protection immediately — do not wait for DXA\nOral bisphosphonate not appropriate if fracture acute (swallowing/positioning)"]
+
+    FRACT -->|"No acute fracture\nRisk assessment needed"| RISK["OSTEOPOROSIS RISK ASSESSMENT\nFRAX score: 10-year probability of major osteoporotic fracture (hip/spine/wrist/humerus)\nRisk factors: age · female · prior fragility fracture · family history hip fracture\ncorticosteroids · alcohol >3 units/day · smoking · low BMI · secondary osteoporosis\nIndications for DXA: FRAX ≥10% (any major fracture) · or ≥3% hip · or steroid >3 months\nDXA: T-score\n≤−2.5 = osteoporosis · −1.0 to −2.5 = osteopenia · >−1.0 = normal"]
+
+    RISK --> TREAT{"Treatment threshold?"}
+    TREAT -->|"T-score ≤−2.5\nor prior fragility fracture\nor FRAX high risk"| BISPHOS["OSTEOPOROSIS PHARMACOTHERAPY\nFirst-line: alendronate 70 mg weekly (oral bisphosphonate)\nor risedronate 35 mg weekly\nOesophageal disease/GI intolerance: IV zoledronic acid 5 mg annually\nor SC denosumab 60 mg 6-monthly\n(Denosumab: do NOT stop without bridging bisphosphonate — rebound vertebral fractures)\nSupplements all patients: calcium 1000–1200 mg/day · vitamin D 800–1000 IU/day\nAnabolic agents (severe osteoporosis · very high risk):\nTeriparatide (PTH1-34): SC daily × 2 years · then bisphosphonate\nor romosozumab (anti-sclerostin): monthly × 12 months · then bisphosphonate\nReview: DXA 2 years after starting · bisphosphonate holiday at 5 years if stable"]
+
+    TREAT -->|"T-score −1.0 to −2.5\nFRAX borderline"| LIFESTYLE["LIFESTYLE AND PREVENTION\nWeight-bearing exercise: 30 min/day (improves BMD + balance)\nFall prevention: visual assessment · home safety · physio balance training\nMedication review: stop or reduce bisphosphonates · opioids · sedatives\nVitamin D: supplementation if deficient (level <50 nmol/L → 40,000 IU loading)\nAlcohol <14 units/week · smoking cessation"]
+
+    FRACT --> OA["OSTEOARTHRITIS — MECHANICAL JOINT DISEASE\nDifferentiate from inflammatory arthritis (stiffness duration <30 min · no systemic features · normal CRP)\nManagement:\nCore: exercise (most effective intervention — aerobic + strengthening)\nWeight loss if BMI >25 (1 kg weight loss → 4 kg reduction on knee load)\nAnalgesics: paracetamol first · topical NSAIDs (knee/hand) · oral NSAIDs short-course\nIntra-articular corticosteroid: acute flares · 3-monthly maximum\nIntra-articular hyaluronic acid: limited evidence\nJoint replacement: indicated when pain/disability refractory to conservative measures\n(TKR/THR — highly cost-effective surgical procedures)"]
+
+    FRACT --> LBPAIN["MECHANICAL LOW BACK PAIN\nDo NOT routinely X-ray or MRI (99% non-specific)\nRed flags requiring urgent imaging: cancer · cauda equina · infection · fracture\nYellow flags: psychosocial factors predicting chronicity\nManagement: reassurance + early return to activities (most important)\nAcute: paracetamol ± NSAIDs · diazepam short-term for muscle spasm\nChronic (>12 weeks): structured exercise programme · CBT · pain clinic\nAvoid: bed rest · passive treatments · opioids for non-specific LBP"]
 ```
 
 ## Clinical Insight
