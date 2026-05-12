@@ -74,15 +74,25 @@ Occurs 2–6 weeks after transmission. A mononucleosis-like syndrome: fever, pha
 
 ```mermaid
 flowchart TD
-    A["HIV and AIDS: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
-    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
-    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
-    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
-    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
-    E --> F
-    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
-    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
-    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+    A["HIV suspected or known\nRisk factors: unprotected sex · PWID · vertical transmission\nor HIV-related presentation"] --> TEST{"Diagnosis?"}
+
+    TEST -->|"Suspected new HIV\nor exposure history"| DX["HIV DIAGNOSIS\n4th generation HIV Ag/Ab combined test: detects p24 antigen + antibody\nWindow period: 4th gen ≥45 days (antibody alone ≥90 days)\nPositive test: confirm with HIV-1/2 differentiation assay\nHIV RNA (viral load): confirms diagnosis in seroconversion illness\nAcute HIV (seroconversion illness): fever · rash · lymphadenopathy · pharyngitis · 2–4 weeks post-exposure\nOffer test to ALL patients with: TB · hepatitis B/C · sexual health clinic attendance · pregnancy\nNotifiable disease — partner notification"]
+
+    TEST -->|"HIV confirmed\nBaseline assessment"| BASE["BASELINE INVESTIGATIONS\nCD4 count (immune status) · HIV viral load (replication)\nResistance testing (genotype) before starting ART\nHLA-B*5701 test (abacavir hypersensitivity)\nHBsAg · HCV · syphilis · gonorrhoea/chlamydia NAAT\nCMV/Toxoplasma IgG · CXR · ECHO · cervical smear"]
+
+    BASE --> CD4{"CD4 count?"}
+
+    CD4 -->|"CD4 <200 cells/µL"| CD4_LOW["HIGH IMMUNOSUPPRESSION\nStart ART URGENTLY (same day if possible)\nOI prophylaxis:\nCo-trimoxazole: PCP prophylaxis (CD4 <200) · stop when CD4 >200 on ART × 3 months\nCo-trimoxazole high dose: also covers Toxoplasma (CD4 <100)\nAzithromycin 1250 mg weekly: MAC prophylaxis if CD4 <50\nFluconazole: consider Cryptococcus prophylaxis in high-prevalence settings\nCryptococcal antigen (CrAg) screen: before ART in resource-limited settings"]
+
+    CD4 -->|"CD4 200–500 cells/µL"| CD4_MED["MODERATE IMMUNOSUPPRESSION\nStart ART — do not delay\nIncreased risk: TB · bacterial pneumonia · VZV · oral candidiasis\nStart PCP prophylaxis at CD4 <200\nTB screening: IGRA + CXR (active TB must be treated before ART start if possible)"]
+
+    CD4 -->|"CD4 >500 cells/µL"| CD4_HIGH["Start ART — all HIV regardless of CD4\n(reduces transmission · prevents cancer · extends survival)\nNo OI prophylaxis needed at this CD4 level\nAnnual monitoring: CD4 + viral load + renal/bone/lipid screen"]
+
+    CD4_LOW & CD4_MED & CD4_HIGH --> ART["ANTIRETROVIRAL THERAPY (ART)\nGoal: undetectable viral load (<50 copies/mL) within 24 weeks\nFirst-line regimen (NICE/BHIVA):\nBictegravir/tenofovir AF/emtricitabine (Biktarvy) — single tablet once daily · preferred\nor dolutegravir + tenofovir AF/emtricitabine — alternative\nPregnancy: dolutegravir + tenofovir DF/emtricitabine (Triumeq-based)\nRenally impaired: switch tenofovir DF → tenofovir AF (less nephrotoxic)\nMonitor: viral load at 4 weeks · 12 weeks · 24 weeks\nVirological failure (VL >200): resistance test · switch class\nTreatment-experienced: darunavir/ritonavir or ibalizumab for multi-drug resistant HIV"]
+
+    ART --> MONITOR["LONG-TERM MONITORING\nViral load: every 3–6 months (until undetectable · then 6-monthly)\nCD4: annually once suppressed (more frequent if CD4 <200)\nCancer screening: Kaposi sarcoma · anal cancer · cervical cancer (HPV-associated · higher risk in HIV)\nCardiovascular: statin if 10-year risk >10% (protease inhibitors raise CV risk)\nBone: DEXA scan at 50 (tenofovir causes bone demineralisation)\nUndetectable = Untransmittable (U=U): cannot transmit sexually when suppressed"]
+
+    ART --> PPEPP["PEP AND PrEP\nPEP (post-exposure prophylaxis):\nStart within 72 h of exposure · preferred: Truvada + raltegravir × 28 days\nOccupational exposure: wash site · report · HIV test immediately\nPrEP (pre-exposure prophylaxis):\nTruvada (tenofovir DF/emtricitabine) daily · or on-demand (2-1-1 for MSM)\nMonitor: HIV test + renal function every 3 months"]
 ```
 
 ## Management

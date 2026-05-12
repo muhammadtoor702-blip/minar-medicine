@@ -115,14 +115,23 @@ Treatment: Weight loss (most effective), acetazolamide (reduces CSF production),
 
 ```mermaid
 flowchart TD
-    A["Headache: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Headache presentation\nOnset speed · character · severity · associated features\nVital signs · neuro exam · fundoscopy"] --> DANGER{"Red flag features?\n(SNOOP4)"}
+
+    DANGER -->|"Sudden-onset maximal severity\nthunderclap — 0 to 10 in <60 seconds\n'worst headache of my life'"| THUNDER["THUNDERCLAP HEADACHE — SAH UNTIL PROVEN OTHERWISE\nNon-contrast CT head IMMEDIATELY (95% sensitive within 6 h of onset)\nIf CT negative AND onset <6 h: LP at 12 h from onset\n→ Xanthochromia (CSF spectrophotometry) + RBCs on microscopy\nIf CT negative AND onset 6–24 h: LP still mandatory\nSAH confirmed: neurosurgery · nimodipine 60 mg 4-hourly (vasospasm prevention) · ICU\nOther thunderclap causes:\nRCVS (reversible cerebral vasoconstriction): MRA · channel blockers · avoid triptans\nCVST (cerebral venous sinus thrombosis): MR venography · LMWH anticoagulation\nPituitary apoplexy: MRI sella · urgent ophthalmology · hydrocortisone IV if hypoadrenal"]
+
+    DANGER -->|"Fever + neck stiffness\nconfusion · non-blanching rash"| MENING["BACTERIAL MENINGITIS / ENCEPHALITIS\nCeftriaxone 2 g IV + dexamethasone IMMEDIATELY\n→ (see CNS Infections flowchart for full protocol)"]
+
+    DANGER -->|"Progressive worsening\nearly-morning · cough/Valsalva worsened\nfocal neuro signs · papilloedema"| RAISED["RAISED ICP / SPACE-OCCUPYING LESION\nUrgent CT/MRI with contrast · neurosurgery review\nDexamethasone 8–16 mg IV for oedema/tumour\nIdiopathic intracranial hypertension (IIH):\nObese woman · papilloedema · empty sella · CSF opening pressure >25 cmH₂O\nAcetazolamide + weight loss (10% loss improves papilloedema)\nLP for acute visual rescue · optic nerve sheath fenestration if progressive visual loss\nCSF shunt for refractory"]
+
+    DANGER -->|"Temporal headache · jaw claudication\nscalp tenderness · ESR >50 · age >50\nnew visual change"| GCA_H["GIANT CELL ARTERITIS\nPrednisolone 60 mg OD IMMEDIATELY — before biopsy\nIV methylprednisolone 500 mg if visual symptoms\nTemporal artery USS or biopsy within 2 weeks of steroids\n(see CTD flowchart)"]
+
+    DANGER -->|"No red flags"| PRIMARY{"Primary headache\npattern?"}
+
+    PRIMARY -->|"Unilateral · pulsating · moderate-severe\nnausea/vomiting · photophobia/phonophobia\nlasts 4–72 h · worse with activity"| MIGRAINE["MIGRAINE\nAcute mild: paracetamol 1 g + metoclopramide 10 mg (antiemetic aids absorption)\nAcute moderate-severe: sumatriptan 50–100 mg PO (or 6 mg SC — fastest)\n(Triptan contraindicated in basilar migraine · haemiplegic migraine · cardiovascular disease)\nMenstrual migraine: frovatriptan/naratriptan 2.5 mg TDS around menstruation\nProphylaxis (≥4 attacks/month OR >2 days disability/month):\nTopiramate 25–100 mg/day · or propranolol 40–120 mg BD · or amitriptyline 10–50 mg ON\nCGRP mAbs (erenumab · fremanezumab · galcanezumab): NICE approved if ≥4 attacks/month\nafter ≥2 preventive failures\nMedication overuse headache (MOH): >10 days/month acute analgesia → withdraw all acute meds\n(6–8 weeks withdrawal · bridge with naproxen)"]
+
+    PRIMARY -->|"Unilateral orbital/periorbital\nexcruciating · autonomic features\n(tears · rhinorrhoea · ptosis/miosis)\nclusters over weeks then remission"| CLUSTER["CLUSTER HEADACHE\n'Suicide headache' — most severe pain in medicine\nAcute attack: 100% O₂ via non-rebreather × 15 min (fastest non-invasive)\nor SC sumatriptan 6 mg (most effective) · or intranasal zolmitriptan 5 mg\nProphylaxis (start immediately at cluster onset):\nVerapamil 240–960 mg/day (first-line)\nShort-term bridge: prednisolone taper 60 mg → 0 over 3 weeks\nor suboccipital steroid injection (lidocaine + betamethasone)\nChronic cluster: lithium 300–1200 mg/day (check levels)"]
+
+    PRIMARY -->|"Bilateral · pressing/tightening\nmild-moderate · no nausea\nnot worsened by activity"| TTH["TENSION-TYPE HEADACHE (TTH)\nMost common headache disorder worldwide\nAcute: paracetamol 1 g or ibuprofen 400 mg\n(avoid regular use >10 days/month — MOH risk)\nChronic (>15 days/month): amitriptyline 10–75 mg ON (first-line prophylaxis)\nPhysical therapy · CBT · sleep hygiene · stress management"]
 ```
 
 ## Clinical Insight

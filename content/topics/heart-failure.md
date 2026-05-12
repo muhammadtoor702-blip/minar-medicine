@@ -50,26 +50,27 @@ These responses initially maintain cardiac output but are ultimately maladaptive
 
 ```mermaid
 flowchart TD
-    A["Dyspnoea, orthopnoea, oedema, raised JVP, crackles"] --> B["Assess severity: SpO2, BP, ECG, CXR, BNP/NT-proBNP, U&E"]
-    B --> C{"Acute pulmonary oedema or shock?"}
-    C -->|Yes| D["Sit upright, oxygen if SpO2 &lt;94%, IV access, monitor urine output"]
-    D --> E{"SBP &gt;90 mmHg?"}
-    E -->|Yes| F["IV loop diuretic + GTN infusion if hypertensive/congested"]
-    E -->|No| G["Avoid vasodilators; consider cardiogenic shock<br/>ICU/cardiology, inotrope/vasopressor, urgent echo"]
-    F --> H{"Persistent distress/hypoxaemia?"}
-    H -->|Yes| I["CPAP/BiPAP; intubate if failing NIV or reduced consciousness"]
-    H -->|No| J["Treat precipitant: ACS, AF, infection, PE, non-adherence, renal failure"]
-    C -->|No| K["Suspected chronic HF pathway"]
-    K --> L{"BNP elevated?<br/>BNP &gt;100 pg/mL supports HF<br/>very high values suggest urgent echo"}
-    L -->|No| M["HF unlikely if untreated; seek COPD, anaemia, obesity, deconditioning"]
-    L -->|Yes| N["Echocardiogram: classify EF"]
-    N --> O{"EF category"}
-    O -->|HFrEF &lt;40%| P["4 pillars: ACEi/ARB/ARNI + evidence beta-blocker + MRA + SGLT2i"]
-    O -->|HFmrEF 40-49%| Q["Treat comorbidities; consider HFrEF-style therapy if symptomatic"]
-    O -->|HFpEF &gt;=50%| R["Diuretics for congestion; control BP/AF/DM/obesity; SGLT2i increasingly used"]
-    P --> S{"After &gt;=3 months optimized GDMT<br/>EF still &lt;=35%?"}
-    S -->|Yes| T["ICD for sudden death prevention<br/>CRT if LBBB and QRS &gt;120 ms"]
-    S -->|No| U["Continue titration, sodium/fluid education, rehab, vaccinations"]
+    A["Dyspnoea · orthopnoea · oedema · raised JVP · crackles\nFatigue · reduced exercise tolerance\nSpO₂ · BP · ECG · CXR · BNP/NT-proBNP · U&E"] --> ACUTE{"Acute presentation?"}
+
+    ACUTE -->|"Acute pulmonary oedema\nor haemodynamic instability"| APO{"SBP?"}
+    APO -->|"SBP >90 mmHg\n(wet and warm)"| APO_TX["ACUTE PULMONARY OEDEMA\nSit upright · high-flow O₂ if SpO₂ <94%\nIV furosemide 40–80 mg (or double home dose)\nIV GTN infusion if SBP >110: 1–10 mg/h (titrate to symptom relief)\nNIPPV (CPAP/BiPAP): if SpO₂ <90% or respiratory rate >25 despite O₂\nIdentify and treat precipitant: ACS · acute AF · infection · non-adherence · renal failure"]
+    APO -->|"SBP <90 mmHg\n(cold and wet — cardiogenic shock)"| SHOCK["CARDIOGENIC SHOCK\nAvoid vasodilators and diuretics initially\nUrgent echocardiography · ICU\nIV dobutamine (inotrope) · or IV noradrenaline (vasopressor if distributive component)\nIABP: mechanical support — bridges to definitive management\nUrgent angiography if ACS-related (revascularisation improves survival)\nShort-term MCS: LVAD · Impella · ECMO as bridge to recovery/transplant"]
+
+    ACUTE -->|"No — suspected chronic HF"| BNP{"BNP/NT-proBNP?"}
+    BNP -->|"BNP <35 pg/mL · NT-proBNP <125 pg/mL\nHF unlikely"| DDIF["Consider differential:\nCOPD · PE · ILD · anaemia · obesity · deconditioning\nRepeat if clinical suspicion high"]
+    BNP -->|"Elevated (BNP >100 · NT-proBNP >400)"| ECHO["Echocardiogram: classify EF\n(essential before starting any disease-modifying therapy)"]
+
+    ECHO --> EF{"Ejection fraction?"}
+
+    EF -->|"HFrEF — EF <40%\n(systolic dysfunction)"| HFREF["HFrEF — 4 GUIDELINE-DIRECTED THERAPIES (all reduce mortality)\n1. ACEi (ramipril 10 mg OD) · or ARB if ACEi-intolerant (candesartan)\n   or ARNI — sacubitril/valsartan (Entresto) if symptomatic on ACEi: further reduces death/HHF\n2. Beta-blocker: bisoprolol 10 mg OD · or carvedilol · or nebivolol (start low, titrate)\n3. MRA (mineralocorticoid antagonist): spironolactone/eplerenone 25–50 mg OD\n   (monitor K⁺ — withhold if K⁺ >5.0 · Cr >220)\n4. SGLT2i: dapagliflozin 10 mg OD · or empagliflozin 10 mg OD\n   (reduces HHF + all-cause mortality · safe to eGFR ≥20 for HF indication)\nDiuretics: furosemide for symptom relief — NOT disease-modifying — use minimum effective dose"]
+    HFREF --> DEVICE{"After ≥3 months GDMT\nEF still ≤35%?"}
+    DEVICE -->|"Yes"| DEV_TX["DEVICE THERAPY\nICD: EF ≤35% despite optimal GDMT >3 months + >40 days post-MI\n(primary prevention SCD — reduces sudden death)\nCRT-D: EF ≤35% + LBBB + QRS ≥130 ms (or QRS ≥150 any morphology)\n(improves symptoms · reverses remodelling · reduces mortality)\nEnd-stage HF: LVAD (destination therapy) · or cardiac transplantation (MELD/INTERMACS)"]
+
+    EF -->|"HFmrEF — EF 40–49%\n(mildly reduced)"| HFMREF["HFmrEF\nControl comorbidities: BP · AF · diabetes · obesity\nConsider HFrEF-style therapy if symptomatic (growing evidence)\nSGLT2i: benefit extends to HFmrEF (EMPEROR-Preserved, DELIVER trials)"]
+
+    EF -->|"HFpEF — EF ≥50%\n(preserved — diastolic dysfunction)"| HFPEF["HFpEF (most common HF in elderly women)\nNo proven mortality benefit from neurohormonal agents\nSGLT2i (dapagliflozin · empagliflozin): DELIVER/EMPEROR-Preserved — reduces HHF\nFurosemide: for congestion symptom control\nControl all comorbidities: hypertension (most important) · AF · DM · obesity\nExercise training: improves exercise capacity and quality of life"]
+
+    HFREF & HFMREF & HFPEF --> CHRONIC["ALL HF — CHRONIC MANAGEMENT\nFluconazole vaccinations: influenza (annual) · pneumococcal (once)\nSodium restriction <2 g/day · fluid restriction 1.5–2 L/day if congested\nFlexible diuresis: patient-led weight-guided furosemide adjustment\nCardiac rehabilitation: survival benefit + functional improvement\nAdvance care planning: discuss prognosis · implantable defibrillator deactivation · hospice"]
 ```
 
 ## Diagnosis
