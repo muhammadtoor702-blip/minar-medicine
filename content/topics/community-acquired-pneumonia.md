@@ -73,23 +73,24 @@ Consolidation produces **V/Q mismatch** — alveoli are perfused but not ventila
 
 ```mermaid
 flowchart TD
-    A["Suspected CAP: fever, cough, sputum, pleuritic pain, focal signs"] --> B["Confirm + assess severity<br/>CXR, SpO2, RR, BP, confusion, urea, cultures if moderate/severe"]
-    B --> C{"Alternative diagnosis clues?"}
-    C -->|Upper lobe cavitation, weight loss, night sweats| D["TB pathway: isolate, sputum AFB/NAAT/culture"]
-    C -->|Bilateral perihilar oedema, raised JVP| E["Pulmonary oedema/HF"]
-    C -->|Pleuritic pain + VTE risk + normal/near-normal CXR| F["Consider PE"]
-    C -->|Persistent opacity, smoker &gt;50| G["Cancer/post-obstructive pneumonia; repeat CXR 6 wk, CT if non-resolving"]
-    C -->|No| H["CURB-65 score"]
-    H --> I{"Score"}
-    I -->|0-1| J["Low risk: outpatient if safe<br/>Amoxicillin 500 mg TDS 5 d<br/>Doxycycline if atypical suspected"]
-    I -->|2| K["Moderate: admit<br/>Amoxicillin + clarithromycin<br/>O2 target 94-98% or 88-92% if CO2 retainer"]
-    I -->|3-5| L["Severe: hospital/HDU/ICU<br/>Co-amoxiclav IV + clarithromycin IV<br/>Add levofloxacin if Legionella risk"]
-    L --> M{"Sepsis/respiratory failure?"}
-    M -->|Yes| N["Sepsis bundle; ABG; ICU if shock, rising O2 need, multilobar disease"]
-    B --> O{"Atypical clues?<br/>hyponatraemia, diarrhoea, confusion, travel/hotel"}
-    O -->|Yes| P["Legionella urine antigen<br/>Ensure macrolide/fluoroquinolone coverage"]
-    B --> Q{"Pleural effusion/empyema?"}
-    Q -->|pH &lt;7.2, glucose &lt;2.2, LDH &gt;1000, or pus| R["Chest drain + prolonged antibiotics"]
+    A["Suspected CAP: fever · cough · sputum · pleuritic pain · focal crepitations\nCXR consolidation (or CT if CXR equivocal)\nSpO₂ · RR · HR · BP · GCS · urea"] --> ALT{"Alternative diagnoses to exclude first"}
+    ALT -->|"Upper lobe cavitation · weight loss\nnight sweats · immigrant/contact"| TB["TB pathway\nIsolate immediately\nSputum AFB × 3 · NAAT (GeneXpert)"]
+    ALT -->|"Bilateral perihilar oedema\n↑ JVP · peripheral oedema"| HF["Pulmonary oedema/HF\nBNP/NT-proBNP · echo"]
+    ALT -->|"Pleuritic pain · VTE risk factors\nnormal or near-normal CXR"| PE["Consider PE\nWells score + D-dimer/CTPA"]
+    ALT -->|"Non-resolving opacity\nsmoker &gt;50 · weight loss"| CANC["Possible post-obstructive pneumonia\nRepeat CXR at 6 weeks\nCT chest if not resolving"]
+    ALT -->|"No alternative — CAP confirmed"| CURB65["CURB-65 Severity Score\nConfusion · Urea &gt;7 · RR ≥30 · BP &lt;90/60 · Age ≥65\nEach criterion = 1 point"]
+
+    CURB65 --> SEV{"Score?"}
+    SEV -->|"0–1: low risk (mortality 1%)\noutpatient if safe"| LOW["Outpatient treatment — 5 days total\nAmoxicillin 500 mg TDS (pneumococcal cover)\nor Doxycycline 100 mg BD if atypical suspected or PCN allergy\nFollow-up CXR at 6 weeks if smoker/age &gt;50"]
+    SEV -->|"2: moderate risk (mortality 8%)\nadmit"| MOD["Inpatient treatment\nAmoxicillin 500 mg TDS + clarithromycin 500 mg BD\n(covers typical + atypical organisms)\nO₂ target 94–98% (88–92% if known CO₂ retainer)\nIV therapy if unable to swallow or deteriorating"]
+    SEV -->|"3–5: severe (mortality 15–40%)\nHDU/ICU consideration"| SEV_TX["Severe CAP — IV therapy\nCo-amoxiclav 1.2 g TDS IV + clarithromycin 500 mg BD IV\nor levofloxacin 500 mg OD IV (monotherapy in PCN allergy)\nABG · blood cultures · pneumococcal/Legionella urinary antigen\nICU if: shock · SpO₂ &lt;88% despite O₂ · multilobar disease · rising ventilatory requirement"]
+    SEV_TX --> RESP{"Deteriorating despite 48 h antibiotics?"}
+    RESP -->|"Yes"| RESP_TX["Review diagnosis · broaden cover\nConsider: MRSA (vancomycin) · Pseudomonas risk (pip-tazo)\natypical organisms (add macrolide/quinolone)\nRepeat imaging · bronchoscopy/BAL\nCOVID/flu PCR if not done"]
+
+    CURB65 --> LEG{"Atypical features?\nHyponatraemia · diarrhoea · confusion · hepatitis\ntravel · hotel · air conditioning"}
+    LEG -->|"Yes"| LEG_TX["Legionella urinary antigen (LUT test)\nEnsure macrolide or fluoroquinolone cover\nLegionella: levofloxacin preferred"]
+    CURB65 --> PLEUR{"Pleural effusion present?"}
+    PLEUR -->|"Yes — sample all\nsignificant effusions"| PLEUR_TX["Pleural fluid analysis\nLight's criteria · pH · glucose · LDH · culture\nCriteria for drainage:\npH &lt;7.2 · glucose &lt;2.2 · LDH &gt;1000 · frank pus · organisms on Gram stain\nChest drain + prolonged antibiotics 3–6 weeks\nSurgical VATS decortication if loculated/failed drainage"]
 ```
 
 **Investigations:**

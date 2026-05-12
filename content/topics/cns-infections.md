@@ -119,14 +119,18 @@ Collection of pus within the brain parenchyma, typically arising from direct spr
 
 ```mermaid
 flowchart TD
-    A["CNS Infections: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Suspected CNS infection\nFever + headache + neck stiffness + photophobia\nor altered consciousness · seizures · focal neurology"] --> CLX{"Clinical syndrome?"}
+
+    CLX -->|"Fever · meningism · purpuric/petechial rash\nor rapid deterioration"| BACT["BACTERIAL MENINGITIS — TREAT BEFORE LP\nCeftriaxone 2 g IV STAT (do not delay for LP)\nDexamethasone 10 mg IV before or with first antibiotic dose\n(reduces mortality and neurological sequelae)\nAmpicillin 2 g IV 4-hourly if: age &gt;50 · immunosuppressed (Listeria cover)\nLP only after CT if: GCS &lt;13 · focal neurology · papilloedema · seizure\nNotify public health: contacts need prophylaxis (ciprofloxacin 500 mg or rifampicin)"]
+    BACT --> BACT_CSF["CSF findings (bacterial meningitis)\nOpening pressure: ↑↑\nWBC: &gt;1000 neutrophils\nProtein: &gt;1.5 g/L\nGlucose: CSF:serum &lt;0.4\nGram stain: +ve in 60–70%\nOrganisms: S. pneumoniae (adults, most common) · N. meningitidis (young) · Listeria (elderly/immunocompromised)"]
+
+    CLX -->|"Subacute onset · personality/behaviour change\ntemporal headache · focal signs\nor limbic encephalitis features"| VIRAL["VIRAL / AUTOIMMUNE ENCEPHALITIS\nIV Aciclovir 10 mg/kg TDS IMMEDIATELY (treat as HSV until proven otherwise)\nMRI brain: T2 signal temporal lobes (HSV)\nCSF: HSV PCR — sensitivity 95%\nEEG: PLEDs / periodic lateralised epileptiform discharges in HSV\nAutoimmune encephalitis (anti-NMDAR): psychosis · orofacial dyskinesia · autonomic instability\nTreatment: methylprednisolone + IVIG ± plasma exchange ± rituximab"]
+
+    CLX -->|"Gradual onset fever · focal neurology\nring-enhancing lesion on CT/MRI\ndental/sinus/ear infection or immunocompromise"| ABSCESS["BRAIN ABSCESS\nNeurosurgery: aspiration or drainage (culture + Gram stain)\nEmpiric IV antibiotics: ceftriaxone + metronidazole (4–8 weeks)\n± vancomycin if post-surgical/MRSA risk\nOrganisms: Streptococcus · Bacteroides · Staphylococcus\nImmunocompromised:\n– HIV + ring lesion: toxoplasma (pyrimethamine + sulfadiazine)\n– if no response → lymphoma (brain biopsy)\n– Cryptococcus: amphotericin + flucytosine induction → fluconazole"]
+
+    CLX -->|"HIV/immunocompromised\nheadache · nausea · no fever\ngradual onset"| CRYPTO["CRYPTOCOCCAL MENINGITIS\nSerum/CSF cryptococcal antigen (CrAg) — near-100% sensitivity\nCSF: India ink stain positive · lymphocytic pleocytosis\nInduction: liposomal amphotericin B + flucytosine × 2 weeks\nConsolidation: fluconazole 400 mg × 8 weeks\nMaintenance: fluconazole 200 mg OD until CD4 &gt;200 on ART\nRaised ICP: serial LP (not acetazolamide) — major cause of mortality"]
+
+    CLX -->|"Immigrant · HIV · TB contact\nsubacute · cranial nerve palsies\n± basal meningitis on MRI"| TBMENING["TB MENINGITIS\nCSF: lymphocytic · very high protein · low glucose · AFB/NAAT/culture\nLong duration treatment: 2HRZE/10HR\nDexamethasone: reduces mortality in ALL cases — start with antibiotics\nHydrocephalus: neurosurgical shunting\nSteroid paradoxical reactions during treatment: common — do not stop TB therapy"]
 ```
 
 ## Clinical Insight

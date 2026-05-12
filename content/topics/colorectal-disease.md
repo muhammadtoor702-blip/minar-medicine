@@ -144,14 +144,19 @@ Lower GI bleeding (LGIB) is defined as haemorrhage from a source distal to the l
 
 ```mermaid
 flowchart TD
-    A["Colorectal Disease: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
-    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
-    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
-    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
-    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
-    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
-    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
-    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+    A["Colorectal symptoms or screening finding\nChange in bowel habit · rectal bleeding · mass\npositive FIT · iron deficiency anaemia"] --> B{"Clinical context?"}
+
+    B -->|"Active rectal bleeding\n± haemodynamic compromise"| LGI["LOWER GI HAEMORRHAGE\nResuscitate: IV fluid · transfuse if Hb &lt;70 · type and crossmatch\nColonoscopy: gold standard — localisation + therapeutic haemostasis\nCT angiography: if actively bleeding + colonoscopy not immediately available\nInterventional radiology (TAE): if colonoscopy fails\nNot to miss: AVM · diverticular bleed · colorectal cancer · ischaemic colitis"]
+
+    B -->|"Left iliac fossa pain\nfever · altered bowel habit\n(older adult, especially)"| DIV["ACUTE DIVERTICULITIS\nCT abdomen: confirms diagnosis and Hinchey classification\nHinchey I (pericolic abscess): IV antibiotics · oral analgesia\nHinchey II (pelvic abscess): IV antibiotics + CT-guided drainage if &gt;4 cm\nHinchey III (purulent peritonitis): IV antibiotics ± surgery\nHinchey IV (faecal peritonitis): emergency laparotomy + Hartmann's procedure\nPost-recovery: colonoscopy 6–8 weeks to exclude malignancy"]
+
+    B -->|"Change in bowel habit ≥3 weeks\nrectal bleeding · mucus · weight loss\niron deficiency · palpable mass\nage ≥50 or positive FIT"| CRC["COLORECTAL CANCER — 2WW REFERRAL\nColonoscopy (gold standard) or CT colonography\nStaging: CT chest/abdomen/pelvis\nRectal cancer: MRI pelvis (T and N staging)\nCEA: baseline tumour marker (monitor response)"]
+    CRC --> CRCSTG{"Stage?"}
+    CRCSTG -->|"Stage I–II: localised\nno lymph nodes involved"| CRC1["Surgical resection\nRight hemicolectomy (caecum/ascending)\nLeft hemicolectomy (descending)\nAnterior resection (sigmoid/upper rectum)\nAPER (low rectal)\nAdjuvant FOLFOX if T4 or high-risk Stage II"]
+    CRCSTG -->|"Stage III: N+\nlymph nodes involved"| CRC3["Rectal cancer: neoadjuvant chemoradiation → surgery\nColon cancer: surgery → FOLFOX × 6 months\n5-year survival ~50–70%"]
+    CRCSTG -->|"Stage IV: metastatic\ndistant spread"| CRC4["Palliative: FOLFOX ± bevacizumab\nFOLFIRI ± cetuximab (RAS/BRAF wild-type)\nConsider liver resection if isolated hepatic mets (20% 5-year survival)\nMSI-high: pembrolizumab (PD-1 inhibitor) — first-line"]
+
+    B -->|"Polyp found on colonoscopy\nor positive family history"| POLY["COLORECTAL POLYP SURVEILLANCE\nHigh-risk adenoma: ≥3 polyps · villous histology · HGD · ≥1 cm\nHigh-risk: 3-year surveillance colonoscopy\nLow-risk (1–2 small tubular): 5-year surveillance\nHereditary syndromes:\nFAP (APC mutation): hundreds of polyps → colectomy by age 20s\nLynch syndrome (MMR genes — MLH1/MSH2/MSH6/PMS2):\n→ Colonoscopy every 1–2 years from age 25\n→ Endometrial screening in women\n→ Aspirin 600 mg OD reduces cancer risk (CAPP2 trial)"]
 ```
 
 ## Complications
