@@ -70,27 +70,31 @@ CKD is characteristically **silent** until the GFR falls below 25–30 mL/min/1.
 
 ```mermaid
 flowchart TD
-    A["Abnormal eGFR or ACR"] --> B{"Present &gt;=3 months?"}
-    B -->|No| C["Repeat testing; exclude AKI, dehydration, obstruction, nephrotoxins"]
-    B -->|Yes| D["CKD diagnosis: classify CGA<br/>Cause + GFR stage + Albuminuria stage"]
-    D --> E["GFR: G1 &gt;=90, G2 60-89, G3a 45-59,<br/>G3b 30-44, G4 15-29, G5 &lt;15"]
-    D --> F["ACR: A1 &lt;3 mg/mmol, A2 3-30, A3 &gt;30"]
-    D --> G["Risk stratify by eGFR slope, ACR, haematuria, BP, diabetes, ultrasound"]
-    G --> H{"Urgent nephrology features?"}
-    H -->|eGFR &lt;30, rapid fall, ACR &gt;70,<br/>ACR &gt;30 + haematuria, resistant HTN, suspected GN| I["Refer nephrology"]
-    H -->|No| J["Primary care/shared CKD protection"]
-    J --> K["BP target usually &lt;130/80 if proteinuric<br/>ACEi/ARB first-line if ACR elevated"]
-    K --> L{"Creatinine rise after ACEi/ARB"}
-    L -->|&lt;=30%| M["Acceptable; continue and monitor K/Cr"]
-    L -->|&gt;30% or K high| N["Stop/reduce; assess renal artery stenosis, hypovolaemia, NSAIDs"]
-    J --> O{"SGLT2 eligible?<br/>eGFR &gt;=20 and albuminuric CKD or diabetes/HF indication"}
-    O -->|Yes| P["Dapagliflozin/empagliflozin<br/>Renal + CV protection independent of glucose"]
-    J --> Q["Complication screen"]
-    Q --> R["Anaemia: iron first; ESA if Hb &lt;100 g/L after repletion<br/>target 100-120, avoid &gt;130"]
-    Q --> S["CKD-MBD: phosphate, Ca, PTH, vitamin D<br/>binders, active vitamin D, cinacalcet as indicated"]
-    Q --> T["Metabolic acidosis: bicarbonate &lt;22 to oral sodium bicarbonate"]
-    I --> U{"eGFR &lt;15 or uraemic symptoms?"}
-    U -->|Yes| V["Prepare RRT: transplant, haemodialysis AV fistula, peritoneal dialysis"]
+    A["Abnormal eGFR or urine ACR\n(eGFR &lt;60 mL/min/1.73m² or ACR &gt;3 mg/mmol)"] --> B{"Abnormality present for ≥3 months?"}
+    B -->|"No"| AKI_EX["Exclude AKI: check creatinine trend · recent nephrotoxins\nDehydration · obstruction · acute illness\nRepeat in 3 months before diagnosing CKD"]
+    B -->|"Yes"| DX["CKD Diagnosis — CGA Classification\nCause (C) + GFR stage (G) + Albuminuria stage (A)"]
+
+    DX --> STAGES["GFR stages:\nG1 ≥90 · G2 60–89 · G3a 45–59\nG3b 30–44 · G4 15–29 · G5 &lt;15\nAlbuminuria: A1 &lt;3 · A2 3–30 · A3 &gt;30 mg/mmol"]
+    DX --> NEPH{"Urgent nephrology referral?"}
+    NEPH -->|"Any of:\neGFR &lt;30 (G4/G5)\nRapid decline ≥5 mL/min/year\nACR &gt;70 mg/mmol\nACR &gt;30 + haematuria\nResistant hypertension\nSuspected GN or systemic disease"| NEPHREF["Refer to nephrology\nConsider renal biopsy\nPrepare RRT planning if eGFR &lt;15"]
+    NEPH -->|"No — primary/shared care"| PRIM["CKD PROTECTION STRATEGY"]
+
+    PRIM --> BP["BP CONTROL\nTarget &lt;130/80 mmHg (proteinuric or diabetic CKD)\nACEi or ARB FIRST-LINE if ACR elevated\nDo not combine ACEi + ARB (dual RAAS block)"]
+    BP --> CR{"Creatinine rise after starting ACEi/ARB?"}
+    CR -->|"≤30% rise"| ACCPT["Acceptable — continue\nMonitor K⁺ + Cr at 2–4 weeks"]
+    CR -->|"&gt;30% rise or K⁺ &gt;5.5"| STOP["Stop/reduce dose\nInvestigate: RAS · hypovolaemia · NSAIDs · bilateral stenosis"]
+
+    PRIM --> SGLT2{"SGLT2 inhibitor eligible?\neGFR ≥20 + diabetic CKD\nor proteinuria or CKD + HF"}
+    SGLT2 -->|"Yes"| SGLT2_RX["Dapagliflozin or empagliflozin\nSlows eGFR decline + reduces CV events\nIndependent of glucose-lowering effect\nCan be continued down to eGFR 20 for renoprotection"]
+
+    PRIM --> COMP["COMPLICATION MONITORING\n(screen at every review)"]
+    COMP --> ANE["Anaemia (Hb &lt;100 g/L)\nIron studies first — IV iron if deficient\nESA (e.g. darbepoetin) if Hb &lt;100 after iron repletion\nTarget Hb 100–120 g/L; avoid &gt;130 (thrombosis risk)"]
+    COMP --> MBD["CKD-MBD: ↑ phosphate · ↓ calcium · ↑ PTH · ↓ vit D\nDietary phosphate restriction\nPhosphate binders: sevelamer · calcium carbonate\nActive vitamin D (alfacalcidol)\nCinacalcet for refractory secondary hyperPTH"]
+    COMP --> ACID["Metabolic acidosis (bicarbonate &lt;22)\nOral sodium bicarbonate tablets\nProtects residual renal function + muscle mass"]
+    COMP --> CV["Cardiovascular risk\nStatins (CV risk markedly elevated in CKD)\nAspirin if established CVD"]
+
+    NEPHREF --> RRT{"eGFR &lt;15 or uraemic symptoms?\nNausea · fatigue · fluid overload · ↑ K⁺"}
+    RRT -->|"Yes"| MODES["RRT PREPARATION\nTransplantation (first-choice if eligible)\nHaemodialysis: AV fistula creation early (months before)\nPeritoneal dialysis: home-based alternative\nConservative management: if patient prefers\nReferral at eGFR ≈20 to allow time for planning"]
 ```
 
 ## Management

@@ -117,14 +117,25 @@ The pattern of bleeding points to the component of haemostasis that is defective
 
 ```mermaid
 flowchart TD
-    A["Bleeding Disorders and Thrombosis: blood count/coagulation abnormality"] --> B["CBC with smear, retic count, PT/INR, aPTT, fibrinogen, LDH, bilirubin, haptoglobin"]
-    B --> C{"Immediate danger? Hb &lt;7, active bleeding, platelets &lt;10k, blasts, DIC, TTP, neutropenic fever"}
-    C -->|Yes| D["Stabilize: transfuse by threshold, reverse anticoagulant, antibiotics, haematology urgent"]
-    C -->|No| E["Classify lineage: RBC, WBC, platelet, coagulation, marrow, haemolysis, malignancy"]
-    E --> F["Use patterns: MCV, retic, smear, iron/B12/folate, DAT, flow cytometry, marrow biopsy"]
-    F --> G{"Clonal/malignant or marrow failure concern?"}
-    G -->|Yes| H["Bone marrow/flow/cytogenetics; TLS prevention if high burden"]
-    G -->|No| I["Treat deficiency/inflammation/immune cause and monitor response"]
+    A["Abnormal bleeding or coagulation tests\nPT · aPTT · fibrinogen · platelets · blood film\nLDH · bilirubin · haptoglobin if haemolysis suspected"] --> EMER{"Critical bleeding?\nHaemodynamic compromise\nor critical-site bleed (CNS · airway · pericardium)"}
+    EMER -->|"Yes"| EMER_TX["Massive Haemorrhage Protocol\n1:1:1 ratio PRBC:FFP:platelets\nReversal agents: see below\nUrgent haematology · surgical haemostasis"]
+    EMER -->|"No"| CLASSIFY{"Coagulation pattern?"}
+
+    CLASSIFY -->|"↑ PT/INR\nnormal aPTT\nnormal platelets"| PTONLY["Extrinsic pathway (Factor VII)\nCauses: warfarin · liver disease (early) · vitamin K deficiency\nReversal:\n– Warfarin: vitamin K 1–10 mg IV + 4-factor PCC if urgent\n– DOAC (FXa inhibitor): andexanet alfa\n– DOAC (thrombin): idarucizumab (dabigatran)"]
+
+    CLASSIFY -->|"↑ aPTT\nnormal PT\nnormal platelets"| APTTONLY["Intrinsic pathway (Factors VIII · IX · XI · XII)\nMixing study: patient plasma + normal plasma 1:1"]
+    APTTONLY -->|"Corrects → deficiency"| DEFIC["FACTOR DEFICIENCY\nHaemophilia A (↓ FVIII): X-linked · males\nHaemophilia B (↓ FIX): X-linked · males\nvWD (↓ vWF): most common inherited — mucocutaneous bleeding\nTreat: recombinant FVIII/FIX · DDAVP for mild Haemophilia A and vWD\nvWF concentrate for type 2/3 vWD"]
+    APTTONLY -->|"Does NOT correct → inhibitor"| INHIB["COAGULATION INHIBITOR\nAcquired FVIII inhibitor: elderly · autoimmune · postpartum\nLupus anticoagulant (APLS): paradoxically thrombotic not haemorrhagic\nAcquired FVIII: bypass therapy — rFVIIa or aPCC\nAPLS: anticoagulate (warfarin) · hydroxychloroquine · avoid OCP"]
+
+    CLASSIFY -->|"↑ PT + ↑ aPTT\n± low fibrinogen"| BOTH["Common pathway / multiple factor deficiency\nDIC · severe liver disease · massive transfusion · supratherapeutic warfarin"]
+    BOTH --> DIC{"DIC criteria?\nCoagulopathy + thrombocytopenia\n+ high D-dimer + ↓ fibrinogen &lt;1.5 g/L"}
+    DIC -->|"Yes"| DICMGMT["DIC\nTreat underlying cause FIRST:\nsepsis · obstetric catastrophe · trauma · leukaemia (APML)\nCryoprecipitate if fibrinogen &lt;1.5 g/L\nFFP for PT/aPTT prolongation\nPlatelets: transfuse if &lt;50 (bleeding) or &lt;10 (prophylactic)\nHeparin only if thrombosis-predominant DIC"]
+
+    CLASSIFY -->|"Isolated ↓ platelets\nnormal PT/aPTT"| THROMBO["THROMBOCYTOPENIA"]
+    THROMBO --> CAUSE{"Mechanism?"}
+    CAUSE -->|"Recent heparin exposure\nthrombocytopenia + thrombosis"| HIT["HIT (Heparin-Induced Thrombocytopenia)\n4T score: Thrombocytopenia · Timing · Thrombosis · oTher causes\nSTOP all heparin (UFH AND LMWH)\nAlternative anticoagulation: argatroban · fondaparinux\nNEVER warfarin until platelets &gt;150 (limb gangrene risk)"]
+    CAUSE -->|"Microangiopathic haemolysis\nschistocytes · ↑ LDH · ↓ haptoglobin\nno clear cause"| TMA["THROMBOTIC MICROANGIOPATHY\nTTP (ADAMTS13 &lt;10%): plasma exchange + steroids + rituximab\nHUS (STEC-associated): supportive only — NO antibiotics/antiperistaltics\naHUS (complement): eculizumab\n!Platelets contraindicated in TTP/HUS (fuel the thrombus)"]
+    CAUSE -->|"Isolated ↓ platelets\nno systemic illness\nno drug cause"| ITP["ITP (Immune Thrombocytopaenia)\nPlt &lt;30 or bleeding: prednisolone 1 mg/kg/day\nIVIG for emergency (surgery/delivery)\nEltrombopag (TPO agonist) or rituximab for relapse\nSplenectomy: vaccinate first (pneumococcus · Hib · meningococcus)"]
 ```
 
 ## Management

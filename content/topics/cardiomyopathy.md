@@ -114,14 +114,26 @@ Fibro-fatty replacement of the RV myocardium, caused by mutations in **desmosoma
 
 ```mermaid
 flowchart TD
-    A["Cardiomyopathy: clinical presentation"] --> B["Initial triage: vitals, ECG, troponin if ischaemia, BNP if HF, bedside echo if unstable"]
-    B --> C{"Unstable? SBP &lt;90, shock, syncope, acute pulmonary oedema, malignant arrhythmia"}
-    C -->|Yes| D["ED/ICU pathway: oxygen if SpO2 &lt;90%, IV access, continuous monitor, urgent cardiology"]
-    C -->|No| E["Risk stratify with disease-specific criteria and comorbidities"]
-    E --> F["Define anatomy/physiology: TTE, CT/MRI/cath/stress testing as indicated"]
-    F --> G{"High-risk features? rising troponin, EF &lt;40%, severe valve lesion, aortic syndrome, sustained VT, refractory symptoms"}
-    G -->|Yes| H["Admit/expedite invasive or procedural management"]
-    G -->|No| I["Outpatient/floor management: guideline therapy, risk factor control, follow-up testing"]
+    A["Cardiac symptoms: dyspnoea · chest pain · palpitations · syncope\nor abnormal ECG · echo finding · family history SCD\nEcho + ECG + BNP + troponin + TFTs + iron studies + genetic counselling"] --> B{"Echocardiographic phenotype?"}
+
+    B -->|"↓ EF (&lt;40%)\nDilated LV · global hypokinesis"| DCM["DILATED CARDIOMYOPATHY"]
+    DCM --> DCM_CAUSE{"Aetiology?"}
+    DCM_CAUSE -->|"Coronary disease pattern\nwall motion abnormality · ECG changes"| ISCH["Ischaemic Cardiomyopathy\nCoronary angiography ± cardiac MRI viability\nRevascularisation if viable myocardium\n4-pillar HFrEF therapy regardless"]
+    DCM_CAUSE -->|"Onset within 1 month before to\n5 months after delivery"| PPCM["Peripartum Cardiomyopathy\nBromocriptine + standard HFrEF therapy\nDo NOT breastfeed on bromocriptine\n50% recover EF at 6 months\nFuture pregnancy discouraged until EF fully recovered"]
+    DCM_CAUSE -->|"Tachyarrhythmia\n(AF or SVT) sustained months"| TACHY["Tachycardia-induced Cardiomyopathy\nReversible with rate/rhythm control\nHFrEF therapy during recovery\nExpect EF improvement within 3–6 months"]
+    DCM_CAUSE -->|"No cause found\n± family history"| FDCM["Idiopathic / Familial DCM (25–30%)\nGenes: TTN · LMNA · SCN5A · MYH7\nLMNA mutations: high SCD + conduction risk → early ICD\nHFrEF 4-pillar therapy · ICD if EF ≤35% after ≥3 months optimal Rx\nCascade family screening"]
+
+    B -->|"Asymmetric septal hypertrophy\nNormal or ↑ EF\nno secondary cause (HTN · valve disease)"| HCM["HYPERTROPHIC CARDIOMYOPATHY\nAutosomal dominant: MYH7 · MYBPC3\nMost common cause of SCD in young athletes"]
+    HCM --> LVOT{"LVOT gradient ≥30 mmHg?"}
+    LVOT -->|"Yes — OBSTRUCTIVE (HOCM)"| HOCM["Avoid: vasodilators · diuretics · dehydration · inotropes\nMedical: beta-blocker (first-line) or rate-limiting CCB\nDisopyramide for refractory outflow obstruction\nInvasive: septal alcohol ablation or surgical myectomy\nSCD risk assessment: ESC HCM risk calculator\n→ ICD if high SCD risk"]
+    LVOT -->|"No — NON-OBSTRUCTIVE"| HNCM["Beta-blocker for symptoms\nICD based on SCD risk score\nAvoid competitive sport\nCascade family genetic screening"]
+
+    B -->|"RV dysfunction · fibrofatty replacement\nEpsilon wave on ECG\nVT with LBBB morphology"| ARVC["ARRHYTHMOGENIC RV CARDIOMYOPATHY\nGenes: PKP2 · DSP · DSG2 (desmosomal)\nDiagnosis: Task Force Criteria (major + minor)\nBeta-blocker to suppress arrhythmias\nICD for SCD prevention if high-risk\nCatheter ablation for recurrent VT\nAbsolute: ban from competitive sport"]
+
+    B -->|"Biventricular hypertrophy\nrestrictive filling · sparkling texture\nbiatrial enlargement"| INFILT["INFILTRATIVE / RESTRICTIVE CARDIOMYOPATHY"]
+    INFILT --> INFILT_TYPE{"Aetiology?"}
+    INFILT_TYPE -->|"Carpal tunnel + polyneuropathy\nor cardiac LVH without HTN\nor low voltage ECG"| AMYLOID["CARDIAC AMYLOIDOSIS\nAL amyloid: plasma cell dyscrasia · bone marrow biopsy\nATTR: ⁹⁹ᵐTc-PYP scan (high specificity)\nATTR-CM: tafamidis (stabilises TTN) — reduces mortality\nDiuretics for congestion; digoxin toxic in amyloid"]
+    INFILT_TYPE -->|"Bilateral hilar lymphadenopathy\nmulti-organ sarcoid · young adult"| SARC["Cardiac Sarcoidosis\nCMR: late gadolinium enhancement (patchy)\nHolter: high-grade AV block · VT\nSystemic steroids for active inflammation\nICD: heart block or VT"]
 ```
 
 ## Complications

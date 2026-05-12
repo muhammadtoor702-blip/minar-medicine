@@ -56,25 +56,25 @@ AF may be completely asymptomatic and discovered incidentally, or may present wi
 
 ```mermaid
 flowchart TD
-    A["Irregularly irregular pulse or palpitations"] --> B["12-lead ECG"]
-    B --> C{"AF confirmed?<br/>No discrete P waves + irregular RR<br/>usually narrow QRS"}
-    C -->|No| D["Differentiate: atrial flutter variable block, MAT, frequent ectopics, sinus arrhythmia"]
-    C -->|Yes| E{"Unstable?<br/>shock, syncope, ischaemia, acute HF<br/>SBP &lt;90 or severe pulmonary oedema"}
-    E -->|Yes| F["Immediate synchronised DC cardioversion<br/>Do not delay for anticoagulation"]
-    E -->|No| G["Stable AF: 3 parallel decisions"]
-    G --> H["1. Reversible causes<br/>TFTs, K/Mg, infection, PE, ACS, alcohol, OSA, valve disease"]
-    G --> I{"2. Rate vs rhythm"}
-    I -->|Older, minimal symptoms, permanent AF| J["Rate control target resting HR &lt;110<br/>Beta-blocker first-line<br/>Diltiazem/verapamil if no HFrEF<br/>Digoxin if HF/sedentary"]
-    I -->|New onset, symptomatic, young, tachycardiomyopathy| K["Rhythm control<br/>Electrical or pharmacologic cardioversion<br/>Flecainide only if no structural heart disease<br/>Amiodarone if HF/structural disease"]
-    G --> L{"3. Stroke prevention<br/>CHA2DS2-VASc"}
-    L --> M["CHF 1, HTN 1, Age &gt;=75 2, DM 1,<br/>Stroke/TIA 2, Vascular 1, Age 65-74 1, Sex female 1"]
-    M --> N{"Anticoagulate?"}
-    N -->|Men &gt;=2 or women &gt;=3| O["DOAC preferred: apixaban/rivaroxaban/dabigatran/edoxaban"]
-    N -->|Mechanical valve or moderate-severe mitral stenosis| P["Warfarin only, INR 2-3"]
-    N -->|Low score| Q["No anticoagulation; reassess risk periodically"]
-    K --> R{"AF duration &gt;48 h or unknown?"}
-    R -->|Yes| S["Anticoagulate &gt;=3 weeks before + &gt;=4 weeks after<br/>or TOE-guided cardioversion if no LAA thrombus"]
-    R -->|No| T["Cardioversion reasonable; anticoagulate based on stroke risk"]
+    A["Irregularly irregular pulse · palpitations · dyspnoea\n12-lead ECG: absent P waves · irregular RR · usually narrow QRS"] --> CONF{"AF confirmed?"}
+    CONF -->|"No"| DIFF["Differentials:\nAtrial flutter with variable block (sawtooth ~300 bpm)\nMultifocal atrial tachycardia (≥3 P morphologies)\nFrequent ectopics · sinus arrhythmia"]
+    CONF -->|"Yes"| STABLE{"Haemodynamically UNSTABLE?\nShock · syncope · ischaemia\nacute HF · SBP &lt;90"}
+
+    STABLE -->|"YES"| CARDIO["IMMEDIATE SYNCHRONISED DC CARDIOVERSION\n(Do not delay for anticoagulation)\n200 J biphasic; sedate if conscious"]
+    STABLE -->|"NO — Stable"| THREE["Stable AF: three simultaneous decisions"]
+
+    THREE --> CAUSE["1. REVERSIBLE CAUSES\nTFTs (hyperthyroidism)\nK⁺/Mg²⁺ · infection · PE · ACS\nalcohol · OSA · valvular disease\nAlways check TFTs in new AF — 10–15% have thyrotoxicosis"]
+
+    THREE --> RATERHY{"2. RATE vs RHYTHM CONTROL\nEAST-AFNET 4 (2020): early rhythm control\nreduces cardiovascular events — favour rhythm control"}
+    RATERHY -->|"Rate control preferred:\npermanent AF · elderly · minimal symptoms\nor rhythm control failed"| RATE["Rate control — target resting HR &lt;110 bpm\nBeta-blocker (first-line): bisoprolol\nDiltiazem/verapamil if no HFrEF\nDigoxin if HF or sedentary lifestyle\n(Avoid diltiazem/verapamil in HFrEF)"]
+    RATERHY -->|"Rhythm control preferred:\nnew-onset · young · symptomatic\ntachycardia-induced cardiomyopathy"| RHYTHM["Rhythm control\nAF &lt;48 h or TOE-guided: cardioversion safe\nAF &gt;48 h: anticoagulate ≥3 weeks before + ≥4 weeks after\nPharmacological cardioversion:\n– Flecainide: only if no structural heart disease\n– Amiodarone: HF or structural disease\nLong-term: catheter ablation (PVI) increasingly first-line\nfor paroxysmal and persistent AF"]
+
+    THREE --> STROKE{"3. STROKE PREVENTION\nCHA₂DS₂-VASc score"}
+    STROKE --> SCORE["CHF=1 · HTN=1 · Age ≥75=2 · DM=1\nStroke/TIA=2 · Vascular disease=1\nAge 65–74=1 · Female sex=1"]
+    SCORE --> AC{"Anticoagulate?"}
+    AC -->|"Men ≥2 or Women ≥3"| DOAC["DOAC (preferred in non-valvular AF)\nApixaban · rivaroxaban · dabigatran · edoxaban\nMore predictable · no monitoring · fewer interactions"]
+    AC -->|"Mechanical valve or\nmoderate-severe rheumatic mitral stenosis"| WARF["WARFARIN ONLY — target INR 2–3\nDOACs NOT validated in valvular AF\n(excluded from all landmark DOAC trials)"]
+    AC -->|"Score 0 (men)\nor 1 (women, sex category only)"| NOAC["No anticoagulation\nReassess annually or with new risk factors"]
 ```
 
 **Differential for irregular pulse:**
