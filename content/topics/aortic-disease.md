@@ -114,14 +114,20 @@ Retroperitoneal containment may temporarily limit haemorrhage, producing transie
 
 ```mermaid
 flowchart TD
-    A["Aortic Disease: clinical presentation"] --> B["Initial triage: vitals, ECG, troponin if ischaemia, BNP if HF, bedside echo if unstable"]
-    B --> C{"Unstable? SBP &lt;90, shock, syncope, acute pulmonary oedema, malignant arrhythmia"}
-    C -->|Yes| D["ED/ICU pathway: oxygen if SpO2 &lt;90%, IV access, continuous monitor, urgent cardiology"]
-    C -->|No| E["Risk stratify with disease-specific criteria and comorbidities"]
-    E --> F["Define anatomy/physiology: TTE, CT/MRI/cath/stress testing as indicated"]
-    F --> G{"High-risk features? rising troponin, EF &lt;40%, severe valve lesion, aortic syndrome, sustained VT, refractory symptoms"}
-    G -->|Yes| H["Admit/expedite invasive or procedural management"]
-    G -->|No| I["Outpatient/floor management: guideline therapy, risk factor control, follow-up testing"]
+    A["Suspected aortic disease\nIdentify syndrome"] --> B{"Presentation?"}
+    B -->|"Sudden severe tearing/ripping pain\nmaximal at onset · radiates to back/interscapular\n± pulse or BP asymmetry between arms\n± AR murmur · limb ischaemia · stroke symptoms"| AD["ACUTE AORTIC DISSECTION\nMedical emergency"]
+    B -->|"Incidental pulsatile abdominal mass\nor AAA on imaging · back/flank pain"| AAA["ABDOMINAL AORTIC ANEURYSM"]
+
+    AD --> AD1["IMMEDIATE MANAGEMENT\nIV access · O₂ · continuous BP monitoring (both arms)\nTarget SBP 100–120 mmHg — reduces aortic wall stress\nIV labetalol (first-line): 50 mg bolus then infusion\nor esmolol + IV sodium nitroprusside\nNEVER give thrombolytics — fatal if dissection present"]
+    AD1 --> AD_IMG["IMAGING\nCT aortogram (CTA): investigation of choice — stable patient\nTOE: if too unstable for CT or in theatre\nCXR: widened mediastinum &gt;8 cm · pleural cap · loss of aortic knuckle\n(Normal CXR does NOT exclude dissection)"]
+    AD_IMG --> STAN{"Stanford Classification"}
+    STAN -->|"TYPE A: involves ascending aorta\n(proximal to left subclavian origin)"| AD_A["TYPE A — EMERGENCY CARDIAC SURGERY\nMedian sternotomy ± circulatory arrest\n± aortic valve repair/replacement if AR present\nSurgical mortality ~15–25%\nvs untreated medical mortality ~1–2% per hour\nNEVER manage Type A medically unless absolute CI"]
+    STAN -->|"TYPE B: descending aorta only\n(distal to left subclavian)"| AD_B["TYPE B — Medical management first\nIV antihypertensives: labetalol titrated to SBP 100–120\nPain control: IV morphine\nIMRU surveillance CT at 24 h, 1 week, 1 month, then annually\nTEVAR (thoracic EVAR) if COMPLICATED:\n– Malperfusion syndrome · rupture\n– Rapid expansion · refractory pain/HTN"]
+
+    AAA --> DIAM{"Maximum diameter?"}
+    DIAM -->|"Men &lt;5.5 cm\nWomen &lt;5.0 cm"| SURV["SURVEILLANCE USS\n3.0–4.4 cm: every 1–2 years\n4.5–5.4 cm: every 3–6 months\nRisk factor modification:\nSmoking cessation · BP control · statin\nBeta-blockers may slow growth rate"]
+    DIAM -->|"Men ≥5.5 cm\nWomen ≥5.0 cm\nor growth &gt;1 cm/year\nor symptomatic"| ELEC["ELECTIVE REPAIR\nOpen surgical repair vs EVAR (endovascular)\nEVAR: lower 30-day mortality · shorter recovery\nOpen: more durable long-term · no re-intervention rate\nCardiac risk assessment mandatory pre-operatively"]
+    DIAM -->|"Ruptured AAA\nhypotension · pulsatile mass · back/flank pain"| RUPT["RUPTURED AAA — EMERGENCY\nOverall mortality ~80% (including pre-hospital)\nPermissive hypotension: target SBP 70–90 until theatre\nDo NOT over-resuscitate (worsens aortic bleeding)\nMassive transfusion protocol: 1:1:1 (PRBC:FFP:platelets)\nEmergency open repair or EVAR — no time for formal planning"]
 ```
 
 ## Complications

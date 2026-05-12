@@ -147,14 +147,24 @@ During sinus rhythm, WPW is often asymptomatic or causes palpitations from re-en
 
 ```mermaid
 flowchart TD
-    A["Arrhythmias and Electrophysiology: clinical presentation"] --> B["Initial triage: vitals, ECG, troponin if ischaemia, BNP if HF, bedside echo if unstable"]
-    B --> C{"Unstable? SBP &lt;90, shock, syncope, acute pulmonary oedema, malignant arrhythmia"}
-    C -->|Yes| D["ED/ICU pathway: oxygen if SpO2 &lt;90%, IV access, continuous monitor, urgent cardiology"]
-    C -->|No| E["Risk stratify with disease-specific criteria and comorbidities"]
-    E --> F["Define anatomy/physiology: TTE, CT/MRI/cath/stress testing as indicated"]
-    F --> G{"High-risk features? rising troponin, EF &lt;40%, severe valve lesion, aortic syndrome, sustained VT, refractory symptoms"}
-    G -->|Yes| H["Admit/expedite invasive or procedural management"]
-    G -->|No| I["Outpatient/floor management: guideline therapy, risk factor control, follow-up testing"]
+    A["Arrhythmia detected\n12-lead ECG immediately · monitor · IV access"] --> B{"Haemodynamically UNSTABLE?\nSBP &lt;90 · ongoing chest pain\nacute pulmonary oedema · syncope"}
+    B -->|"YES"| UNSTABLE["SYNCHRONISED DC CARDIOVERSION\n(Defibrillation for VF / pulseless VT)\nSedation/anaesthesia if conscious\nDo NOT delay cardioversion to clarify ECG diagnosis"]
+    B -->|"NO — Stable"| STABLE{"QRS width?"}
+
+    STABLE -->|"NARROW &lt;120 ms\nSVT"| SVT{"Regular or irregular?"}
+    SVT -->|"IRREGULAR narrow"| AFIB["Atrial Fibrillation\n→ See AF article for full management"]
+    SVT -->|"REGULAR narrow\nrate ~150 bpm\nsawtooth P waves"| AFL["ATRIAL FLUTTER 2:1\nAV nodal blocking: beta-blocker or diltiazem\nElectrical cardioversion for haemodynamic compromise\nAblation: cavotricuspid isthmus — highly curative"]
+    SVT -->|"REGULAR narrow\nretrograde P or no P\nhigh rate 150–250 bpm"| AVNRT["AVNRT or AVRT (accessory pathway)\nVagal manoeuvres first: Valsalva · carotid sinus massage\nAdenosine 6 mg IV rapid push (then 12 mg if needed)\nTerminates AVNRT/AVRT; unmasks flutter\nNEVER give adenosine/CCB/beta-blocker in pre-excited AF"]
+
+    STABLE -->|"WIDE ≥120 ms"| WIDE{"Regular or irregular?"}
+    WIDE -->|"REGULAR wide"| VT["ASSUME VT UNTIL PROVEN OTHERWISE\nAV dissociation · fusion/capture beats · concordance\nDuration &gt;0.14 s (LBBB) or &gt;0.16 s (RBBB) morphology\nAmiodarone 300 mg IV over 20–60 min → 900 mg/24 h\nor synchronised DCCV if deteriorating\nNEVER give verapamil for undifferentiated wide complex tachycardia\n(precipitates collapse in VT)"]
+    VT --> VTPOST{"Post-termination workup"}
+    VTPOST -->|"Sustained VT (&gt;30 s)\nrecurrent VT"| VTLONG["Echo · cardiac MRI · EP study\nICD: primary prevention if EF &lt;35% despite optimal Rx ≥3 months\nAblation for recurrent monomorphic VT\nBeta-blocker or amiodarone for suppression"]
+    WIDE -->|"IRREGULAR wide\nhigh rate 200–300 bpm"| PREEX["PRE-EXCITED AF (WPW) vs Torsades de Pointes\nWPW + AF: procainamide or flecainide\n(NOT digoxin · verapamil · adenosine — can accelerate conduction → VF)\nTorsades: IV magnesium 2 g · stop QTc-prolonging drugs\nTemporary pacing if bradycardia-dependent TdP"]
+
+    STABLE -->|"BRADYCARDIA &lt;60 bpm\nwith symptoms"| BRADY{"ECG pattern?"}
+    BRADY -->|"Normal P-QRS relationship\nlow rate"| SBRAD["SINUS BRADYCARDIA\nReversible causes: hypothyroid · vagal · drug toxicity · hypoxia\nAtropine 500 μg IV if symptomatic\nTranscutaneous pacing if atropine fails · transcutaneous → transvenous"]
+    BRADY -->|"PR progressively\nlengthening until drop\nor fixed PR with drops"| AVBLOCK["HEART BLOCK\n1st degree (PR &gt;200 ms): benign · no treatment needed\n2nd degree Mobitz I (Wenckebach): treat cause · pacemaker if symptomatic\n2nd degree Mobitz II: high risk of progression → permanent pacemaker\n3rd degree (complete): atropine + transcutaneous pacing urgently\nPermanent pacemaker indicated for symptomatic 3rd degree"]
 ```
 
 ## Complications

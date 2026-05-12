@@ -44,23 +44,25 @@ The result: increased airway resistance → air trapping → hyperinflation → 
 
 ```mermaid
 flowchart TD
-    A["Acute asthma: wheeze, dyspnoea, chest tightness"] --> B["Immediate severity: speech, RR, HR, SpO2, PEFR, ABG if severe"]
-    B --> C{"Life-threatening or near-fatal?<br/>PEFR &lt;33%, SpO2 &lt;92%, silent chest,<br/>cyanosis, exhaustion, hypotension, arrhythmia,<br/>PaCO2 normal/rising"}
-    C -->|Yes| D["Call senior/ICU/anaesthetics<br/>High-flow O2 target 94-98%"]
-    D --> E["Back-to-back nebulised salbutamol 5 mg<br/>+ ipratropium 0.5 mg<br/>Prednisolone 40-50 mg or IV hydrocortisone"]
-    E --> F["IV magnesium sulfate 2 g over 20 min<br/>Consider IV aminophylline only refractory/specialist"]
-    F --> G{"Deteriorating, silent chest, rising PaCO2, exhaustion?"}
-    G -->|Yes| H["Prepare controlled intubation/ventilation<br/>High risk: dynamic hyperinflation, hypotension, barotrauma"]
-    G -->|No| I["Observe closely; repeat PEFR/SpO2/ABG"]
-    C -->|No| J{"Severe?<br/>PEFR 33-50%, RR &gt;=25, HR &gt;=110,<br/>cannot complete sentences, SpO2 92-95%"}
-    J -->|Yes| K["O2 94-98%; neb salbutamol; add ipratropium; steroids early"]
-    J -->|No| L["Moderate: PEFR 50-75%, SpO2 &gt;95%<br/>SABA + oral steroid if not rapidly improving"]
-    K --> M{"After 1 h: PEFR &gt;75%, SpO2 &gt;=94%, clinically stable?"}
-    L --> M
-    M -->|Yes| N["Discharge only with preventer, technique check,<br/>written action plan, follow-up within 48 h"]
-    M -->|No| D
-    A --> O["Long-term control: SABA reliever alone only intermittent<br/>Low-dose ICS to ICS/LABA to higher ICS/LTRA/LAMA to biologics"]
-    O --> P["Never LABA monotherapy in asthma<br/>Biologics: anti-IgE or anti-IL5/IL5R if severe phenotype"]
+    A["Acute wheeze · dyspnoea · chest tightness\nSpeech · RR · HR · SpO₂ · PEFR % predicted\nABG if SpO₂ &lt;94% or severe/life-threatening"] --> C{"LIFE-THREATENING?\nAny one of:\nPEFR &lt;33% predicted\nSpO₂ &lt;92%\nSilent chest · cyanosis · exhaustion\nHypotension · arrhythmia\nPaCO₂ normal or rising (exhaustion)"}
+
+    C -->|"YES — LIFE-THREATENING"| LT["CALL ICU/ANAESTHETICS NOW\nHigh-flow O₂ — target SpO₂ 94–98%\nNebulised salbutamol 5 mg back-to-back\n+ nebulised ipratropium 0.5 mg\nIV hydrocortisone 200 mg\nIV magnesium sulphate 2 g over 20 min"]
+    LT --> LT2{"Improving after\ninitial treatment?"}
+    LT2 -->|"No — rising PaCO₂\nsilent chest · exhaustion"| ITU["Controlled intubation and ventilation\nHigh-risk procedure in asthma:\npermissive hypercapnia · low tidal volumes · long expiratory time\nDynamic hyperinflation · barotrauma risk\nIV aminophylline only under specialist guidance"]
+    LT2 -->|"Yes"| MONIT["Close monitoring\nRepeat PEFR + SpO₂ + ABG q30 min"]
+
+    C -->|"NO"| SEV{"SEVERE?\nAny one of:\nPEFR 33–50% predicted\nRR ≥25/min · HR ≥110/min\nCannot complete sentences\nSpO₂ 92–94%"}
+    SEV -->|"Yes — SEVERE"| SEVRX["O₂ target 94–98%\nNebulised salbutamol 5 mg q20 min × 3\n+ ipratropium 0.5 mg\nOral prednisolone 40–50 mg\n(or IV hydrocortisone if cannot swallow)"]
+    SEV -->|"No — MODERATE\nPEFR 50–75% · SpO₂ ≥94%"| MODRX["Salbutamol 2.5–5 mg nebulised (or 4–8 puffs spacer)\nOral prednisolone if not rapidly improving\nReassess at 1 hour"]
+
+    SEVRX --> RESP{"1 hour review:\nPEFR &gt;75% · SpO₂ ≥94%\nclinically stable?"}
+    MODRX --> RESP
+    RESP -->|"Yes — safe to discharge"| DISCH["DISCHARGE CRITERIA\nContinue prednisolone 5 days total\nResume/step-up preventer inhaler\nInhaler technique check before leaving\nWritten personalised asthma action plan\nFollow-up within 48 h (GP or asthma nurse)"]
+    RESP -->|"No — not improving"| LT
+
+    A --> CHRONIC["LONG-TERM STEPWISE MANAGEMENT\nBTS/GINA 2023 guidelines"]
+    CHRONIC --> STEPS["Step 1: SABA reliever only (intermittent mild symptoms)\nStep 2: Add low-dose ICS (budesonide 200–400 μg/day)\nStep 3: Add LABA to ICS — combination inhaler\nStep 4: Increase ICS dose ± LTRA (montelukast) ± LAMA (tiotropium)\nStep 5: Specialist biologics based on T2 endotype:\n– Anti-IgE: omalizumab (allergic/IgE-high)\n– Anti-IL-5: mepolizumab/benralizumab (eosinophilic)\n– Anti-IL-4/13: dupilumab\nThreshold: ≥2 exacerbations/year on high-dose ICS/LABA"]
+    STEPS --> WARN["CRITICAL RULES\nNEVER prescribe LABA alone in asthma — increases mortality\nSABA &gt;2×/week = inadequate control → step up ICS\nStepdown only after 3+ months of stable control\nSafety netting: every patient needs a written action plan"]
 ```
 
 **Differential for wheeze:**
