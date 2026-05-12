@@ -80,25 +80,20 @@ Target lactate clearance of ≥10% per 2 hours as a resuscitation endpoint.
 
 ```mermaid
 flowchart TD
-    A["Suspected infection + acute illness"] --> B["Screen: qSOFA and organ dysfunction<br/>RR &gt;=22, SBP &lt;=100, altered mentation"]
-    B --> C{"Shock or high risk?<br/>MAP &lt;65, lactate &gt;=2, SpO2 low,<br/>oliguria, confusion, mottled skin"}
-    C -->|Yes| D["Hour-1 sepsis bundle"]
-    D --> E["Measure lactate; repeat if &gt;2<br/>Blood cultures x2 before antibiotics if no delay"]
-    E --> F["Broad-spectrum IV antibiotics within 1 h<br/>Source-guided; de-escalate when cultures return"]
-    F --> G{"Hypotension or lactate &gt;=4?"}
-    G -->|Yes| H["30 mL/kg crystalloid<br/>Reassess fluid responsiveness after each bolus"]
-    G -->|No| I["Targeted fluids; avoid overload"]
-    H --> J{"MAP &gt;=65 after fluids?"}
-    J -->|No| K["Norepinephrine first-line vasopressor<br/>Target MAP &gt;=65; central line when feasible"]
-    K --> L{"Escalating vasopressors?"}
-    L -->|Yes| M["Add vasopressin; consider hydrocortisone 200 mg/day<br/>Dobutamine if myocardial dysfunction/low CO"]
-    J -->|Yes| N["Continue source control + lactate clearance goal &gt;=10% per 2 h"]
-    C -->|No| O["Evaluate source and severity; cultures/imaging; early antibiotics if sepsis likely"]
-    D --> P{"Source control needed?"}
-    P -->|Abscess, perforation, nec fasc, infected line, obstruction| Q["Urgent drainage/debridement/removal<br/>Do not wait for imaging if nec fasc likely"]
-    D --> R{"Organ support needed?"}
-    R -->|ARDS: P/F &lt;300| S["Lung-protective ventilation 6 mL/kg IBW<br/>Prone if P/F &lt;150"]
-    R -->|AKI/hyperK/acidosis/overload| T["Renal replacement therapy if refractory"]
+    A["Suspected Sepsis\nLife-threatening organ dysfunction from dysregulated host response to infection\nqSOFA ≥2: RR ≥22 · SBP ≤100 · altered mentation — screen for organ dysfunction"] --> SHOCK{"Haemodynamic compromise?\nMAP &lt;65 · lactate ≥4 · SpO₂ &lt;90\noliguria · confusion · mottled skin"}
+
+    SHOCK -->|"Yes — septic shock or high-risk sepsis"| BUNDLE["HOUR-1 SEPSIS BUNDLE (Surviving Sepsis 2021)\nAll 5 elements within 60 minutes of recognition:\n1. Measure lactate — repeat every 2 h if &gt;2 mmol/L; target ≥10% clearance per 2 h\n2. Blood cultures ×2 (different sites) — draw BEFORE antibiotics; do NOT delay &gt;45 min for cultures\n3. Broad-spectrum IV antibiotics — within 1 h (every hour delay ↑mortality ~7%)\n4. IV crystalloid 30 mL/kg — if hypotensive or lactate ≥4 mmol/L; reassess after each bolus\n5. Noradrenaline — if MAP &lt;65 after initial fluid resuscitation (first-line vasopressor)"]
+
+    BUNDLE --> ABXCHOICE["ANTIBIOTIC SELECTION (empirical — de-escalate when cultures return)\nUnknown community source: piperacillin-tazobactam ± gentamicin\nPneumonia: co-amoxiclav + clarithromycin (add levofloxacin if severe/Legionella)\nUrosepsis: co-amoxiclav or cefalexin\nAbdominal: piperacillin-tazobactam or meropenem\nNeutropenic: pip-taz + gentamicin · add antifungal if febrile &gt;5 days\nMeningococcal: ceftriaxone 2 g IV IMMEDIATELY + dexamethasone 0.15 mg/kg"]
+
+    BUNDLE --> SOURCE["SOURCE IDENTIFICATION AND CONTROL\nCommon sources: lung · urine · abdomen · skin/soft tissue · CNS · intravascular line\nNecrotising fasciitis — pain out of proportion to skin + crepitus/LRINEC ≥6:\nDo NOT wait for imaging — IMMEDIATE surgical debridement (antibiotics alone will fail)\nOther source control: drain abscess · remove infected line · relieve biliary obstruction"]
+
+    BUNDLE --> VASO{"MAP ≥65 after 30 mL/kg fluids?"}
+    VASO -->|"No — persistent hypotension"| PRESSORS["VASOPRESSORS AND ADJUNCTS\nNoradrenaline: first-line (NOT dopamine — ↑arrhythmias; inferior in SOAP-II trial)\nTarget MAP ≥65 mmHg · use central line when feasible\nVasopressin: add if noradrenaline &gt;0.25 mcg/kg/min (reduces norad requirements)\nDobutamine: if myocardial dysfunction + low CO despite adequate MAP\nRefractory septic shock (escalating vasopressors):\n→ IV hydrocortisone 200 mg/day (reduces vasopressor duration — not mortality in all)"]
+
+    VASO -->|"Yes — haemodynamically responsive"| ORGAN["ORGAN SUPPORT\nARDS (PaO₂/FiO₂ &lt;300): lung-protective ventilation (6 mL/kg IBW · PEEP ≥5 · plateau &lt;30 cmH₂O)\nSevere ARDS (P/F &lt;150): prone positioning ×16 h/day (PROSEVA trial: ↓28-day mortality)\nAKI: RRT if volume overload · K &gt;6 mmol/L · refractory acidosis · uraemia\nGlucose: target 6–10 mmol/L · avoid hypoglycaemia\nVTE prophylaxis · early enteral nutrition (24–48 h) · stress ulcer prophylaxis"]
+
+    SHOCK -->|"No haemodynamic compromise\nbut organ dysfunction suspected"| MONITOR["SEPSIS WITHOUT SHOCK\nCultures + imaging + source identification\nAntibiotics within 3 h if sepsis likely\nFluid resuscitation guided by clinical response (not fixed volume)\nMonitor lactate every 2 h · urine output hourly · mental status\nLactate clearance ≥10%/2 h = adequate resuscitation response"]
 ```
 
 ## Management

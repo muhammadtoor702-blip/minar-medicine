@@ -150,15 +150,21 @@ HPV types 6 and 11 cause genital warts (condylomata acuminata). Types 16 and 18 
 
 ```mermaid
 flowchart TD
-    A["Sexually Transmitted Infections: possible infection"] --> B["Assess host, syndrome, exposure, immune status, source control need"]
-    B --> C{"Sepsis, CNS infection, neutropenia, shock, hypoxia, or rapidly progressive disease?"}
-    C -->|Yes| D["Cultures immediately; empiric antimicrobials within 1 h; resuscitate and isolate if transmissible"]
-    C -->|No| E["Targeted diagnostics before antibiotics when safe: cultures, NAAT, serology, imaging"]
-    D --> F["Choose regimen by site, severity, resistance risk, renal function, allergies, pregnancy"]
-    E --> F
-    F --> G{"Source control needed? abscess, line, obstruction, necrosis, empyema"}
-    G -->|Yes| H["Drain/remove/debride urgently; antibiotics alone may fail"]
-    G -->|No| I["Reassess at 48-72 h: narrow, stop, switch to PO, define duration"]
+    A["Sexually Transmitted Infections\nMucopurulent discharge · dysuria · genital ulcer or rash\npelvic pain · cervical motion tenderness · rash on palms/soles"] --> SYNDROME{"Clinical syndrome?"}
+
+    SYNDROME -->|"Lower abdominal pain\ncervical motion tenderness\nuterine/adnexal tenderness"| PID["PELVIC INFLAMMATORY DISEASE\nClinical diagnosis (BASHH): pelvic pain + CMT/uterine tenderness + no other cause\nSend: NAAT (chlamydia + gonorrhoea) · FBC · CRP · USS (exclude TOA)\nOutpatient: IM ceftriaxone 1 g stat + doxycycline 100 mg BD ×14 d + metronidazole 400 mg BD ×14 d\nInpatient (TOA · severe systemic · failed outpatient):\nIV cefoxitin + doxycycline or IV clindamycin + gentamicin\nPartner notification: all contacts within 6 months · abstain until both treated\nComplications: infertility · ectopic pregnancy · chronic pelvic pain (Fitz-Hugh-Curtis: RUQ pain)"]
+
+    SYNDROME -->|"Urethral/cervical discharge\nor asymptomatic NAAT screen"| DISCHARGE{"NAAT result?"}
+
+    DISCHARGE -->|"Chlamydia trachomatis"| CHLAMYDIA["CHLAMYDIA (most common bacterial STI in UK)\nDoxycycline 100 mg BD ×7 days — first-line (superior to single-dose azithromycin — BASHH 2023)\nAzithromycin 1 g single dose: alternative if compliance uncertain\nLGV (serovars L1–3 — rectal · MSM): doxycycline ×21 days\nEpididymo-orchitis (&lt;35 yrs — chlamydia most common cause): doxycycline ×14 days\nTest of cure: not routine unless pregnant or persistent symptoms\nPartner notification mandatory"]
+
+    DISCHARGE -->|"Neisseria gonorrhoeae"| GONORRHOEA["GONORRHOEA (rising resistance — ceftriaxone only reliable agent)\nIM ceftriaxone 1 g single dose — BASHH 2023 (do NOT routinely add azithromycin)\nDisseminated gonococcal infection (pustules + tenosynovitis + septic arthritis):\nIV ceftriaxone 1 g daily ×7 days\nTest of cure (TOC) MANDATORY: NAAT at 2 weeks for all treated gonorrhoea\nCulture with sensitivities: mandatory for resistance surveillance\nPharyngeal: culture at 72 h (NAAT false-positive post-treatment)"]
+
+    SYNDROME -->|"Painless genital ulcer\nor rash on palms and soles\nor lymphadenopathy"| SYPHILIS["SYPHILIS\nPrimary: single painless indurated chancre · painless regional lymphadenopathy (heals spontaneously)\nSecondary: maculopapular rash PALMS + SOLES (virtually pathognomonic) · condylomata lata\nLatent: early (&lt;2 yrs) · late (&gt;2 yrs) — no symptoms\nTertiary: aortitis + AR · neurosyphilis (tabes dorsalis · Argyll Robertson pupil — accommodates but not react)\nSerology: treponemal EIA screening + VDRL/RPR (monitor activity — 4-fold titre fall = treated)\nTreatment: IM benzathine benzylpenicillin\n→ Single dose: primary · secondary · early latent\n→ ×3 weekly doses: late latent\n→ IV benzylpenicillin ×14 days: neurosyphilis\nJarisch-Herxheimer: fever/rigors 8–12 h post first dose — paracetamol · warn patient before treatment"]
+
+    SYNDROME -->|"Painful genital vesicles or ulcers\nor recurrent blistering"| HSV["GENITAL HERPES (HSV-1/HSV-2)\nDiagnosis: PCR swab from ulcer base\nPrimary/recurrent: aciclovir 400 mg TDS ×5 days (or valaciclovir 500 mg BD ×5 days)\nSuppressive therapy (≥6 recurrences/year): aciclovir 400 mg BD daily\nPregnancy near term (primary HSV): HIGH RISK neonatal herpes (encephalitis · disseminated disease)\n→ Specialist referral · consider caesarean section · neonatal IV aciclovir\nRecurrent herpes in pregnancy: lower neonatal risk (maternal antibodies present)"]
+
+    SYNDROME -->|"Soft cauliflower papules\ngenitalia/perianal"| WARTS["GENITAL WARTS (HPV 6 and 11)\nTreatment: podophyllotoxin 0.15% cream (home) · imiquimod · cryotherapy · excision\nNo treatment eradicates virus — warts may recur\nHPV vaccination: Gardasil-9 (NHS: all 12–13 year olds · MSM up to 45 in sexual health clinics)\nHPV 16/18: cervical · anal · oropharyngeal cancer → cervical screening programme"]
 ```
 
 ## Clinical Insight

@@ -169,14 +169,15 @@ Sun-exposed skin — dorsum of hands, scalp, face, lower lip, ears. Also mucosal
 
 ```mermaid
 flowchart TD
-    A["Skin Cancer: skin presentation"] --> B["Morphology + distribution + mucosa + systemic symptoms + drug exposure"]
-    B --> C{"Derm emergency? SJS/TEN, DRESS, nec fasc, meningococcemia, erythroderma, ocular involvement"}
-    C -->|Yes| D["Stop culprit drug; admit/ICU/burns/ophthalmology/surgery as indicated"]
-    C -->|No| E["Pattern recognition: inflammatory, infectious, autoimmune bullous, malignant, infestation"]
-    E --> F["Use tests selectively: KOH, swab/culture, biopsy with DIF, dermoscopy, serology"]
-    F --> G{"High-risk lesion or severe/refractory disease?"}
-    G -->|Yes| H["Urgent dermatology/biopsy/systemic therapy"]
-    G -->|No| I["Topical/local therapy, trigger control, follow-up and safety-netting"]
+    A["Skin Cancer Assessment\nPigmented or non-pigmented skin lesion\nchange in size · colour · shape · bleeding · new symptom"] --> ASSESS{"Lesion type and\nconcerning features?"}
+
+    ASSESS -->|"Pigmented lesion\nABCDE features or ugly duckling sign"| MELANOMA_WW["MELANOMA — 2-WEEK WAIT REFERRAL (NICE NG12)\nABCDE: Asymmetry · irregular Border · Colour variation (brown/black/red/white/blue)\nDiameter &gt;6 mm · Evolving (change in size/shape/colour/new symptoms)\nUgly duckling sign: lesion different from patient's other naevi — refer regardless of ABCDE\nDermoscopy improves sensitivity to ~90% vs ~70% naked eye\nNODULAR MELANOMA: raised · rapidly growing · may be amelanotic — ABCDE rules may be NORMAL\nExcision biopsy (narrow 2 mm margin): do NOT punch/shave — compromises Breslow measurement"]
+
+    MELANOMA_WW --> MELANOMA_STAGE["MELANOMA STAGING AND MANAGEMENT\nBreslow thickness (most important prognostic factor):\n→ &lt;0.8 mm (T1a): ~95% 5-year survival · 1 cm excision margin\n→ 0.8–2 mm (T2): 1–2 cm margin\n→ 2–4 mm (T3): 2–3 cm margin\n→ &gt;4 mm (T4): 2–3 cm margin · ~50% 5-year survival\nSentinel lymph node biopsy (SLNB): Breslow &gt;0.8 mm (or &lt;0.8 mm with ulceration/high mitotic rate)\nStage III–IV — systemic therapy:\nBRAF V600E positive (~50%): dabrafenib + trametinib (BRAF + MEK inhibition)\n→ Rapid responses but acquired resistance develops\nBRAF wild-type or immunotherapy preferred:\n→ Pembrolizumab or nivolumab (anti-PD-1): durable responses\n→ Nivolumab + ipilimumab (anti-PD-1 + anti-CTLA-4): highest response rate · ↑toxicity\nImmune-related AEs: colitis · pneumonitis · hepatitis · endocrinopathies — steroids required"]
+
+    ASSESS -->|"Pearly papule · rolled border\ntelangiectasiae · central ulcer\nor waxy scar-like plaque"| BCC["BASAL CELL CARCINOMA\nAlmost NEVER metastasises — locally destructive only\nSubtypes:\n→ Nodular (most common): pearly · rolled border · telangiectasiae · central ulceration (rodent ulcer)\n→ Superficial: flat · scaly · trunk — photodynamic therapy (PDT) suitable\n→ Morphoeic (sclerosing): waxy scar-like · most infiltrative · margins extend beyond clinical borders\nManagement:\n→ Surgical excision: 4 mm margin (well-defined); wider for morphoeic\n→ Mohs micrographic surgery: highest cure rate · periorbital · nasal · recurrent · large\n→ Radiotherapy: elderly or inoperable\n→ Vismodegib/sonidegib (Hedgehog inhibitor): locally advanced or metastatic BCC\nGorlin syndrome (PTCH1 germline): multiple BCCs at young age"]
+
+    ASSESS -->|"Keratinous nodule · indurated edge\ncristed ulcer · sun-exposed\nor immunosuppressed host"| SCC["SQUAMOUS CELL CARCINOMA\nCumulative UV exposure (unlike melanoma — intermittent UVR most important)\nPrecursors: actinic keratosis (1%/year progression) · Bowen's disease (SCC in situ)\nImmunosuppression: organ transplant recipients 60–100× baseline SCC risk (NOT BCC)\n→ Dermatology review from 1–2 years post-transplant\nHigh-risk features (↑metastatic potential — up to 20%):\n→ Diameter &gt;2 cm · depth &gt;4 mm · poor differentiation\n→ Perineural invasion · immunosuppressed host · ear · non-hair-bearing lip · recurrent\nManagement:\n→ Surgical excision 4–6 mm margins · Mohs for high-risk features\n→ Radiotherapy: inoperable or adjuvant\n→ Cemiplimab or pembrolizumab (anti-PD-1): locally advanced or metastatic SCC"]
 ```
 
 ## Clinical Insight
