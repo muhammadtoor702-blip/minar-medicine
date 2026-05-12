@@ -142,14 +142,21 @@ Pancreatic ductal adenocarcinoma (PDAC) — the most common and most lethal panc
 
 ```mermaid
 flowchart TD
-    A["Pancreatitis: GI/hepatic presentation"] --> B["Triage: vitals, bleeding, peritonitis, sepsis, dehydration, mental status"]
-    B --> C{"Emergency? shock, peritonitis, cholangitis, variceal bleed, severe pancreatitis, toxic megacolon"}
-    C -->|Yes| D["Resuscitate, NPO, IV access, labs/type screen, antibiotics/endoscopy/surgery/ICU as indicated"]
-    C -->|No| E["Localize: oesophageal, gastric, biliary, pancreatic, small bowel, colonic, hepatic"]
-    E --> F["Workup sequence: CBC/CMP/LFT/INR/lipase/stool tests to US/CT/endoscopy by syndrome"]
-    F --> G{"High-risk markers? bilirubin/INR high, albumin low, Hb drop, lactate, duct dilation, organ failure"}
-    G -->|Yes| H["Admit and expedite specialist procedure or imaging"]
-    G -->|No| I["Outpatient/ward pathway: targeted therapy, nutrition, surveillance, follow-up"]
+    A["Suspected acute pancreatitis\nEpigastric pain · nausea/vomiting · elevated lipase/amylase\n(≥3× upper limit of normal = diagnostic)\nSerum lipase more sensitive + specific than amylase"] --> SEV{"Severity assessment\n(Atlanta Classification 2012)"}
+
+    SEV -->|"Organ failure: Pa O₂/FiO₂ <300\ncreatinine >170 · SBP <90\nor MAP criteria"| SEVERE["SEVERE ACUTE PANCREATITIS\nICU admission · continuous monitoring\nAggressive IV fluid resuscitation: Hartmann's (lactated Ringer's) preferred over saline\n250–500 mL/h first 12–24 h · target urine output >0.5 mL/kg/h\nPain: IV opioids (morphine/fentanyl) · epidural in severe\nNo oral intake if ileus or vomiting\nNutrition: enteral (nasojejunal) within 24–48 h (superior to TPN — reduces infective complications)\nMonitor: glucose q4h · electrolytes daily · creatinine/urea\nAntibiotics: NOT routine — only if proven infected necrosis or biliary sepsis\nDo NOT drain sterile necrosis — wait ≥4 weeks (walled-off necrosis)"]
+
+    SEV -->|"No organ failure\nModerately severe or mild"| MOD["MILD-MODERATE ACUTE PANCREATITIS\nIV fluid resuscitation: 250 mL/h for first 4–6 h · reassess\nAnalgesics: paracetamol ± NSAIDs · opioids if insufficient\nNil by mouth only if vomiting/ileus\nEarly oral feeding as tolerated (clear fluids → low-fat diet)\nNo antibiotics prophylactically\nUSS abdomen: gallstones? (most important aetiology to identify)"]
+
+    SEV --> AETIOL{"Aetiology?"}
+
+    AETIOL -->|"Gallstones (50%)\nor dilated CBD · elevated LFTs\nor bilirubin >34 µmol/L"| GALLSTONE["GALLSTONE PANCREATITIS\nMRCP: to confirm common bile duct stones if USS equivocal\nERCP: urgently if concurrent cholangitis (fever + jaundice + abdominal pain = Charcot's triad)\nERCP within 72 h: if predicted severe + biliary obstruction (no cholangitis)\nLaparoscopic cholecystectomy: WITHIN SAME ADMISSION for mild gallstone pancreatitis\n(If delayed → 30% risk of recurrence in 6 weeks)\nDelayed if severe — 6–8 weeks after resolution of necrosis"]
+
+    AETIOL -->|"Alcohol (30%)\nor TG >11 mmol/L · hypercalcaemia\nor drugs · idiopathic"| OTHER_CAUSE["OTHER CAUSES\nAlcohol: alcohol cessation advice · thiamine supplementation\nHypertriglyceridaemia: TG >11 mmol/L causes severe pancreatitis\n→ Insulin infusion (lowers TG rapidly) · plasmapheresis if TG >22 mmol/L\nHypercalcaemia: treat cause (hyperparathyroidism)\nDrugs: withdraw causative agent (azathioprine · thiazides · valproate · tetracyclines)"]
+
+    SEV --> COMPLIC{"Complications?"}
+    COMPLIC -->|"CT: pancreatic necrosis >30%\nor fever >72 h · clinical deterioration"| NECROSIS["PANCREATIC NECROSIS\nCT-APACHE-II or BISAP score for severity\nSterile necrosis: conservative management (no intervention)\nInfected necrosis (CT: gas in necrosis · fever · ↑CRP · positive FNA culture):\nIV antibiotics: meropenem or imipenem (good pancreatic penetration)\nStep-up approach: percutaneous drainage → minimally invasive necrosectomy → open surgery\nWait ≥4 weeks (walled-off necrosis is safer to drain than liquid necrosis)"]
+    COMPLIC -->|"Pseudocyst >4 weeks\nwith symptoms"| PSEUDO["PANCREATIC PSEUDOCYST\nAsymptomatic: observe (most resolve spontaneously)\nSymptoms/growing/infected: endoscopic USS-guided drainage (EUS)\nor CT-guided percutaneous drainage\nSurgery: if endoscopic drainage fails"]
 ```
 
 ## Complications

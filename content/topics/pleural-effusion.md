@@ -82,14 +82,23 @@ A transudate meets none of these criteria.
 
 ```mermaid
 flowchart TD
-    A["Pleural Effusion: dyspnoea, cough, chest pain, hypoxaemia, or imaging abnormality"] --> B["Immediate severity: SpO2, RR, work of breathing, ABG/VBG, CXR/CT when indicated"]
-    B --> C{"Respiratory failure? SpO2 &lt;90%, PaO2 low, PaCO2 &gt;6 kPa, pH &lt;7.35, exhaustion"}
-    C -->|Yes| D["Escalate: controlled O2 target 94-98% or 88-92% if CO2 retainer; NIV/intubation if failing"]
-    C -->|No| E["Localize process: airway, alveolar, pleural, vascular, interstitial, neuromuscular"]
-    E --> F["Key tests: CXR, CT/CTPA, spirometry, sputum/cultures, echo, pleural studies as syndrome dictates"]
-    F --> G{"Red flags? shock, haemoptysis, tension physiology, empyema pH &lt;7.2, massive PE, severe hypoxaemia"}
-    G -->|Yes| H["Admit/ICU/procedure: drain, anticoagulate/thrombolyse, antibiotics, bronchoscopy, ventilatory support"]
-    G -->|No| I["Treat cause + reassess oxygenation, symptoms, and follow-up imaging/function"]
+    A["Pleural effusion identified\nDullness to percussion · reduced breath sounds · CXR (blunting)\nor CT/USS finding · dyspnoea"] --> SIZE{"Symptomatic or\nsignificant size?"}
+
+    SIZE -->|"Massive/symptomatic\nor diagnostic uncertainty"| TAP["DIAGNOSTIC AND THERAPEUTIC PLEUROCENTESIS\nUltrasound-guided aspiration (standard of care — NICE)\nSend: pH · protein · LDH · glucose · differential cell count · culture + Gram stain · cytology\nApply Light's criteria (exudate if ANY of):\n· Pleural protein/serum protein >0.5\n· Pleural LDH/serum LDH >0.6\n· Pleural LDH >2/3 upper limit of normal serum LDH"]
+
+    TAP --> LIGHTS{"Light's criteria?"}
+
+    LIGHTS -->|"TRANSUDATE (none of Light's criteria)\npleural protein <30 g/L"| TRANSUDATE["TRANSUDATIVE EFFUSION\nCauses (fluid leaks due to hydrostatic/oncotic imbalance):\nHeart failure (most common): bilateral · BNP >100 · cardiomegaly on CXR\n→ Diuresis + treat underlying HF\nLiver cirrhosis (hepatic hydrothorax): right-sided · ascites\n→ Diuresis · TIPS for refractory\nNephrotic syndrome: bilateral · hypoalbuminaemia · frothy urine\nHypothyroidism: check TFTs\nConstrictive pericarditis\nManagement: treat underlying cause — do NOT drain transudates repeatedly unless symptomatic"]
+
+    LIGHTS -->|"EXUDATE (any Light's criterion)\npleural protein >30 g/L"| EXUDATE{"Exudate cause?"}
+
+    EXUDATE -->|"pH <7.2 · glucose <2.2\nLDH >1000 · +ve culture · frank pus\nor loculated on USS"| COMPLICATED["COMPLICATED PARAPNEUMONIC EFFUSION / EMPYEMA\nChest drain insertion (14–16 Fr) under USS guidance\nIV antibiotics: co-amoxiclav 1.2 g TDS (or piperacillin-tazobactam if severe)\nIntrapleural fibrinolytics: alteplase 10 mg + DNase 5 mg BD × 3 days\n(MIST2 trial: significantly reduces need for surgery)\nSurgical VATS decortication: if loculated/failed drainage\nAntibiotic duration: 3–6 weeks total (until drain removed + clinical improvement)"]
+
+    EXUDATE -->|"Haemoserous fluid · unilateral\nweight loss · pleural thickening on CT\ncytology positive"| MALIGNANT["MALIGNANT PLEURAL EFFUSION\nCytology: positive in 60% (repeat if negative — send 50+ mL)\nPleural biopsy (CT-guided or VATS): if cytology negative\nCommon primaries: lung · breast · mesothelioma · lymphoma\nManagement:\nSmall/asymptomatic: observe\nLarge/symptomatic: therapeutic thoracocentesis (1.5 L max per session)\nIndwelling pleural catheter (IPC): recurrent malignant effusion · allows home drainage\nTalc pleurodesis: definitive obliteration (VATS or slurry via drain)"]
+
+    EXUDATE -->|"Lymphocytic effusion\nAFB/NAAT · ± upper lobe CXR changes\nimmunocompromised · immigrant"| TB_EFF["TB PLEURITIS\nTB effusion: lymphocytic exudate · low glucose · ADA >40 IU/L\nPleural biopsy: caseating granulomata (most sensitive for TB pleurisy)\nTreatment: standard 6-month TB regimen (2HRZE/4HR)\nBritish Thoracic Society: drain only if massive/symptomatic (not routine)"]
+
+    EXUDATE -->|"Unilateral · risk factors for PE\nor bilateral · diaphragmatic irritation\nor post-cardiac surgery"| OTHER_EX["OTHER EXUDATES\nPulmonary embolism: haemorrhagic exudate · pleuritic pain · positive CTPA\nPancreatitis: high amylase in pleural fluid (left-sided)\nRheumatoid arthritis: very low glucose (<1.6) · low complement\nSLE: multisystem features · ANA + anti-dsDNA\nChylothorax: milky fluid · high TG (>1.2 mmol/L) · lymphatic disruption"]
 ```
 
 ## Management

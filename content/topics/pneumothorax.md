@@ -50,14 +50,19 @@ The pleural space is normally maintained at a slightly negative pressure relativ
 
 ```mermaid
 flowchart TD
-    A["Pneumothorax: dyspnoea, cough, chest pain, hypoxaemia, or imaging abnormality"] --> B["Immediate severity: SpO2, RR, work of breathing, ABG/VBG, CXR/CT when indicated"]
-    B --> C{"Respiratory failure? SpO2 &lt;90%, PaO2 low, PaCO2 &gt;6 kPa, pH &lt;7.35, exhaustion"}
-    C -->|Yes| D["Escalate: controlled O2 target 94-98% or 88-92% if CO2 retainer; NIV/intubation if failing"]
-    C -->|No| E["Localize process: airway, alveolar, pleural, vascular, interstitial, neuromuscular"]
-    E --> F["Key tests: CXR, CT/CTPA, spirometry, sputum/cultures, echo, pleural studies as syndrome dictates"]
-    F --> G{"Red flags? shock, haemoptysis, tension physiology, empyema pH &lt;7.2, massive PE, severe hypoxaemia"}
-    G -->|Yes| H["Admit/ICU/procedure: drain, anticoagulate/thrombolyse, antibiotics, bronchoscopy, ventilatory support"]
-    G -->|No| I["Treat cause + reassess oxygenation, symptoms, and follow-up imaging/function"]
+    A["Suspected pneumothorax\nAcute pleuritic chest pain · dyspnoea\nhyperresonance · absent breath sounds\nor incidental CXR/CT finding"] --> TENSION{"Tension features?\n(cardiorespiratory arrest · severe hypoxia\nhypotension · tracheal deviation · JVD)"}
+
+    TENSION -->|"Yes — tension pneumothorax"| TPNX["TENSION PNEUMOTHORAX — IMMEDIATE ACTION\nDo NOT wait for CXR\nNeedle decompression: 14–16G cannula at 2nd ICS midclavicular line\nor 4th/5th ICS anterior axillary line (less muscle bulk — preferred)\nRush of air confirms diagnosis\nFollow IMMEDIATELY with chest drain (needle decompression is temporising only)\nCardiac arrest from tension: bilateral needle decompression"]
+
+    TENSION -->|"No"| TYPE{"Primary or secondary\npneumothorax?"}
+
+    TYPE -->|"No underlying lung disease\nAge <40 · tall lean male\nbleb/bulla on CT"| PSP["PRIMARY SPONTANEOUS PNEUMOTHORAX (PSP)\nCXR: assess size (BTS 2023 — rim of air at lung edge)\nSmall: rim <2 cm AND no breathlessness:\n→ Discharge home · safety net · return if symptoms worsen\n→ No aspiration/drain needed for small asymptomatic PSP (BTS 2023 update)\nLarge (rim ≥2 cm) OR breathless:\n→ Ambulatory drain (Heimlich valve): preferred over hospital admission\n→ 14–16Fr chest drain if ambulatory drain unavailable\nHospitalise: if SpO₂ <90% · bilateral · haemopneumothorax\nRecurrence (2nd ipsilateral): refer thoracic surgery\nVATS bullectomy + pleurodesis: prevents recurrence (70–80%)"]
+
+    TYPE -->|"Underlying lung disease: COPD · asthma\nCF · ILD · malignancy · TB"| SSP["SECONDARY SPONTANEOUS PNEUMOTHORAX (SSP)\nALL require admission and intervention\nSmall (1–2 cm) AND age <50 AND not breathless:\n→ Aspiration: 50 mL syringe + 3-way tap\nFailed aspiration OR large (>2 cm) OR breathless:\n→ Small-bore chest drain (12–14Fr)\nO₂: 10 L/min via face mask (promotes resorption even in COPD — short-term)\nHigh recurrence risk (>50%): thoracic surgery referral for pleurodesis\n(talc pleurodesis most effective — chemical pleurodesis via drain if not surgical candidate)"]
+
+    TYPE -->|"Post-procedure or ventilated\nor trauma"| IATROGENIC["IATROGENIC / TRAUMATIC PNEUMOTHORAX\nPost-procedure (subclavian line · pleurocentesis · lung biopsy · bronchoscopy):\nSmall + asymptomatic: observe with repeat CXR\nLarge/symptomatic: chest drain\nVentilated patient: chest drain ALWAYS (positive pressure worsens pneumothorax)\nHaemopneumothorax (trauma): large-bore chest drain (28–32Fr)"]
+
+    PSP & SSP --> ADVICE["DISCHARGE ADVICE\nAvoid: air travel until 6 weeks after radiological resolution\nAvoid: diving permanently (lifetime risk — recurrence risk)\nSmoking cessation: reduces recurrence risk (blebs associated with smoking)\nFollow-up CXR: 2–4 weeks to confirm resolution\nAlert DVLA if commercial driver"]
 ```
 
 ## Management

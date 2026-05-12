@@ -163,14 +163,23 @@ Most commonly iatrogenic — **post-thyroidectomy** or post-parathyroidectomy. A
 
 ```mermaid
 flowchart TD
-    A["Pituitary Disorders and Calcium Metabolism: endocrine presentation"] --> B["Confirm biochemistry before labeling disease; repeat if discordant"]
-    B --> C{"Emergency phenotype? shock, severe hyperglycaemia/ketosis, thyroid storm, adrenal crisis, Ca crisis"}
-    C -->|Yes| D["Stabilize first: fluids, dextrose/insulin/electrolytes, stress-dose steroids, beta-blockade, ICU when unstable"]
-    C -->|No| E["Axis-based workup: pituitary signal to target gland hormone to feedback hormone"]
-    E --> F["Use thresholds: glucose/HbA1c, pH/HCO3/ketones, TSH/free T4, cortisol/ACTH, Ca/PTH/vit D"]
-    F --> G{"Primary vs secondary?"}
-    G -->|Primary gland| H["Image gland only after biochemical confirmation; treat hormone excess/deficiency"]
-    G -->|Pituitary/hypothalamic| I["MRI pituitary and evaluate other axes; replace cortisol before thyroid hormone if deficient"]
+    A["Pituitary or calcium disorder suspected\nHeadache · visual field defect · amenorrhoea\ngalactorrhoea · acromegalic features\nor hypercalcaemia on routine bloods"] --> CA{"Corrected Ca²⁺?"}
+
+    CA -->|"Ca²⁺ >2.65 mmol/L\nHypercalcaemia"| HYPERCALC{"Severity?"}
+    HYPERCALC -->|"Ca²⁺ >3.5 mmol/L or symptomatic\n(polyuria · confusion · constipation · nausea · renal stones)"| HYPERCALC_EMERG["HYPERCALCAEMIA CRISIS\nIV 0.9% NaCl 2–4 L/day (FIRST and most important step)\nIV zoledronic acid 4 mg over 15 min (onset 24–72 h · peak 4–7 days)\nor pamidronate 60–90 mg over 4 h\nCalcitonin: rapid onset (6 h) · tachyphylaxis after 48 h · use as bridge\nHaemodialysis: refractory hypercalcaemia · renal failure\nDo NOT give loop diuretics routinely (old dogma — harmful without adequate rehydration)"]
+    HYPERCALC -->|"Ca²⁺ 2.65–3.5 mmol/L\nasymptomatic or mild symptoms"| HYPERCALC_MILD["MILD HYPERCALCAEMIA — INVESTIGATION\nCauses by PTH:\n↑ PTH: primary hyperparathyroidism (most common)\n(single adenoma 80% · hyperplasia · carcinoma <1%)\nNormal-high PTH in hypercalcaemia = inappropriate PTH = primary HPT\n↓ PTH: malignancy (PTHrP) · vitamin D toxicity · sarcoidosis · TB · granulomata\nPrimary HPT:\nSestamibi scan / neck USS: locate adenoma\nSurgery (parathyroidectomy): indicated if Ca²⁺ >2.85 · age <50 · osteoporosis · nephrolithiasis\nConservative: if asymptomatic + Ca²⁺ <2.85 → monitor 6-monthly\nFamilial hypocalciuric hypercalcaemia (FHH): urine Ca/Cr ratio <0.01 · no surgery needed"]
+
+    CA -->|"Ca²⁺ <2.10 mmol/L\nHypocalcaemia"| HYPOCALC["HYPOCALCAEMIA\nAcute severe (<1.8 or symptomatic — tetany · perioral tingling · Chvostek/Trousseau):\nIV calcium gluconate 10% 10–20 mL over 10 min · then infusion\nTrousseau's sign: BP cuff inflation → carpal spasm\nChvostek's sign: tapping facial nerve → facial twitching\nCauses: hypoparathyroidism (post-thyroidectomy) · vitamin D deficiency · pancreatitis\n↑ PO₄ + ↓ PTH = hypoparathyroidism (post-surgical most common)\nChronic: oral calcium carbonate 1.5 g/day + alfacalcidol/calcitriol"]
+
+    CA -->|"Pituitary pathology\n(headache · visual field defect\nhormone excess/deficiency)"| PITUITARY{"Pituitary syndrome?"}
+
+    PITUITARY -->|"Galactorrhoea · amenorrhoea\nprolactin >1000 mU/L\nhypogonadism · infertility"| PROLACT["PROLACTINOMA (most common functional pituitary adenoma)\nMicroprolactinoma (<10 mm) vs macroprolactinoma (≥10 mm)\nFirst: exclude physiological/drug causes (metoclopramide · antipsychotics · opioids · oestrogen)\nTreatment: dopamine agonist (cabergoline — first-line · twice weekly · better tolerated)\nor bromocriptine · usually shrinks tumour dramatically\nSurgery (TSS): only if cabergoline-resistant/intolerant · or vision-threatening macro\n90% clinical remission on cabergoline alone"]
+
+    PITUITARY -->|"Jaw/hands/feet enlargement\ndiaphoresis · DM · sleep apnoea\nIGF-1 elevated"| ACROMEG["ACROMEGALY (GH-secreting adenoma)\nIGF-1 elevated (screening test) · confirm with OGTT: GH not suppressed <1 µg/L\nMRI pituitary: macroadenoma usually\nFirst-line: transsphenoidal surgery (TSS)\nMedical therapy if surgery incomplete: somatostatin analogues (lanreotide/octreotide)\nor pegvisomant (GH receptor antagonist — GH elevated but IGF-1 normalised)\nComplications: acral enlargement · hypertension · DM · cardiomyopathy · colonic polyps"]
+
+    PITUITARY -->|"Central features of Cushing's\nno ACTH-independent cause\nMRI: pituitary adenoma"| CD["CUSHING'S DISEASE (ACTH-secreting pituitary adenoma)\n(see Adrenal Disease flowchart for Cushing's workup)\nTreatment: TSS (remission 70–80% microadenoma)\nRadiotherapy if TSS fails\nMedical bridge: metyrapone · ketoconazole · osilodrostat\nBilateral adrenalectomy: if all else fails (Nelson's syndrome risk — ACTH-secreting pituitary expands)"]
+
+    PITUITARY -->|"Hypopituitarism\nfatigue · headache · visual loss\nlow cortisol · low TSH · hypogonadism"| HYPOPITUIT["HYPOPITUITARISM\nCauses: non-functioning pituitary adenoma (most common) · craniopharyngioma · Sheehan's · radiation\nAssess all axes: cortisol (08:00) · TSH · FT4 · LH/FSH · IGF-1 · prolactin\nReplacement order (CRITICAL): cortisol FIRST · then thyroid · then sex hormones · then GH\n(Giving thyroid replacement before cortisol in combined deficiency → adrenal crisis)\nHydrocortisone 10 mg AM + 5 mg PM (or 15–20 mg total divided doses)\nMRI pituitary for underlying cause\nPituitary apoplexy: sudden severe headache + visual loss + hypopituitarism\n→ Hydrocortisone IV 100 mg STAT · urgent MRI · neurosurgery if vision failing"]
 ```
 
 ## Clinical Insight
