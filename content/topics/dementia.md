@@ -102,14 +102,21 @@ Distinguish dementia from:
 
 ```mermaid
 flowchart TD
-    A["Dementia: neurologic presentation"] --> B["Time course + focality + vitals + glucose + medication/toxin review"]
-    B --> C{"Emergency? stroke window, seizure &gt;5 min, meningitis, cord compression, raised ICP, respiratory weakness"}
-    C -->|Yes| D["Stabilize ABCs; urgent CT/MRI/LP/EEG as syndrome dictates; call neurology/ICU"]
-    C -->|No| E["Localize lesion: cortex, brainstem, cord, nerve root, peripheral nerve, NMJ, muscle"]
-    E --> F["Targeted tests: MRI, vascular imaging, EEG, EMG/NCS, CSF, autoimmune/infectious/metabolic labs"]
-    F --> G{"Treatable high-risk mimic? hypoglycaemia, infection, B12, thyroid, drug, tumour, vasculitis"}
-    G -->|Yes| H["Treat reversible cause promptly"]
-    G -->|No| I["Long-term disease-specific therapy + rehab + safety counseling"]
+    A["Progressive cognitive decline\nMemory · executive function · language · behaviour · visuospatial\nInsidious onset over months to years"] --> RULE{"Reversible cause?\n(ALWAYS screen before accepting degenerative diagnosis)"}
+
+    RULE -->|"Hypothyroid · B12/folate deficiency\ndrug-induced · depression (pseudodementia)\nnormal pressure hydrocephalus · subdural haematoma"| REVERSE["Screen reversible causes:\nTFTs · B12 · folate · FBC · LFTs · renal · Ca²⁺\nMedication review (anticholinergics · opioids · benzodiazepines)\nHIV test · syphilis serology · CT/MRI to exclude structural lesion\nNPH triad: gait apraxia + urinary incontinence + cognitive decline\n→ LP trial or shunting\nGDS-15 or PHQ-9 for depression"]
+
+    RULE -->|"No reversible cause · progressive course"| TYPE{"Cognitive + neurological pattern?"}
+
+    TYPE -->|"Episodic memory first → language/visuospatial\ninsidious gradual onset · age >65\nhippocampal atrophy on MRI"| AD["ALZHEIMER'S DISEASE (60–70%)\nCSF biomarkers: ↓Aβ42 · ↑tau · ↑phospho-tau\nAmyloid PET: positive (if available)\nTreatment:\nAChE inhibitors: donepezil 10 mg OD (all stages)\nRivastigmine · galantamine (alternatives)\nMemantine: add in moderate-severe (MMSE <20)\nLecanemab (anti-amyloid mAb): approved for early AD — amyloid confirmation required\nAnnual MMSE/ACE-III review · BPSD management · driving assessment"]
+
+    TYPE -->|"Stepwise/abrupt-onset decline after TIA/stroke\ndiffuse white matter lesions on MRI\ncardiovascular risk factors · focal signs"| VAD["VASCULAR DEMENTIA (2nd most common)\nEarly frontal/executive dysfunction\n(vs Alzheimer's: executive > memory early)\nVascular risk reduction:\nAntiplatelet · statin · BP control (target <130/80) · DM management\nAChE inhibitors: limited evidence but often trialled\nNo proven disease-modifying treatment"]
+
+    TYPE -->|"Cognitive fluctuations · visual hallucinations\nParkinsonism · REM sleep behaviour disorder\nneuroleptic hypersensitivity"| DLB["DEMENTIA WITH LEWY BODIES (DLB)\nDaT SPECT scan: reduced striatal dopamine uptake\n(distinguishes DLB from AD — key diagnostic test)\nNEVER prescribe typical or atypical antipsychotics\n(severe neuroleptic sensitivity — can be fatal)\nRivastigmine: strongest evidence in DLB\nLevodopa: modest motor benefit (limited by cognitive side effects)\nClonazepam or melatonin for REM sleep behaviour disorder"]
+
+    TYPE -->|"Behavioural change before memory\ndisinhibition · apathy · compulsive eating\nstereotyped behaviours · age <65 often\nfrontal/temporal atrophy on MRI"| FTD["FRONTOTEMPORAL DEMENTIA (3rd commonest <65)\nThree variants: behavioural (bvFTD) · semantic · non-fluent PPA\nNo disease-modifying treatment available\nSSRIs (sertraline/fluvoxamine): behavioural symptoms\nTrazodone for agitation\nDo NOT use AChE inhibitors (may worsen disinhibition)\nFamilial FTD: C9orf72 · MAPT · GRN mutations — genetic counselling"]
+
+    AD & VAD & DLB & FTD --> SUPPORT["ALL DEMENTIAS — SHARED PRINCIPLES\nCognitive stimulation therapy · structured daily routine\nCarer training + support (carer burden is major determinant of placement)\nSafety: driving (notify DVLA) · kitchen hazards · wandering · medication safety\nAdvance care planning while capacity retained:\nLasting Power of Attorney · DNACPR · preferred place of care\nDeprivation of Liberty Safeguards (DoLS) if formal assessment needed"]
 ```
 
 ## Management

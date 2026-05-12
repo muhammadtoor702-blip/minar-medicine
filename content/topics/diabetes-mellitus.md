@@ -85,25 +85,28 @@ Often **asymptomatic** — discovered on routine screening. When symptomatic: po
 
 ```mermaid
 flowchart TD
-    A["Hyperglycaemia symptoms or screening abnormality"] --> B{"Meets diabetes criteria?<br/>FPG &gt;=7.0 mmol/L OR HbA1c &gt;=48 mmol/mol<br/>2h OGTT &gt;=11.1 OR random &gt;=11.1 + symptoms"}
-    B -->|No| C["Prediabetes: HbA1c 42-47 or IFG/IGT<br/>Lifestyle, weight loss, annual review"]
-    B -->|Yes| D{"Type 1/DKA features?<br/>young/lean, weight loss, ketones, rapid onset,<br/>pH &lt;7.3, HCO3 &lt;15, ketones &gt;3"}
-    D -->|Yes| E["Treat as T1DM/DKA<br/>Never stop basal insulin; check GAD/IA2/ZnT8, C-peptide later"]
-    D -->|No| F["Likely T2DM: assess ASCVD, HF, CKD, weight, hypoglycaemia risk"]
-    F --> G["Lifestyle + metformin if eGFR &gt;=30 and tolerated"]
-    G --> H{"Compelling comorbidity?"}
-    H -->|ASCVD/high CV risk| I["Add GLP-1 RA or SGLT2i with CV benefit"]
-    H -->|HF or CKD/albuminuria| J["Add SGLT2i if eGFR allows<br/>ACEi/ARB for albuminuria/BP"]
-    H -->|Weight loss priority| K["GLP-1 RA, especially semaglutide/liraglutide/dulaglutide"]
-    H -->|Cost/no comorbidity| L["DPP-4i, sulfonylurea, pioglitazone, or insulin by patient factors"]
-    F --> M{"HbA1c target"}
-    M -->|Most adults| N["&lt;53 mmol/mol (7%)"]
-    M -->|Frailty/hypoglycaemia risk| O["Relax to &lt;58-64 mmol/mol; avoid SU/insulin if possible"]
-    E --> P["DKA protocol: 0.9% saline + K replacement<br/>Fixed-rate insulin 0.1 U/kg/h<br/>Add dextrose when glucose &lt;14"]
-    P --> Q{"DKA resolved?<br/>pH &gt;7.3, HCO3 &gt;15, ketones &lt;0.6"}
-    Q -->|Yes| R["Transition to SC insulin with overlap"]
-    Q -->|No| P
-    F --> S["Annual complications: ACR/eGFR, eyes, feet, BP, lipids, neuropathy"]
+    A["Hyperglycaemia: symptoms or screening abnormality\nFPG · HbA1c · 2-h OGTT · random glucose"] --> DX{"Meets diabetes criteria?\nFPG ≥7.0 mmol/L · HbA1c ≥48 mmol/mol\n2-h OGTT ≥11.1 · or random ≥11.1 + symptoms"}
+
+    DX -->|"No"| PRE["PREDIABETES\nHbA1c 42–47 mmol/mol · IFG or IGT\nLifestyle: weight loss ≥7% · exercise ≥150 min/week\nMetformin: if BMI >35 + age <60 or prior GDM\nAnnual HbA1c review"]
+
+    DX -->|"Yes"| T1{"Type 1 or DKA features?\nYoung/lean · rapid onset · weight loss\npH <7.3 · HCO₃ <15 · ketones >3 mmol/L"}
+
+    T1 -->|"Yes — T1DM/DKA"| DKA["DKA PROTOCOL\n1. IV fluid: 0.9% NaCl 1 L over 1 h → 1 L/2 h → 1 L/2 h → 1 L/4 h\n2. FRIII insulin: 0.1 units/kg/h fixed rate (continue basal SC insulin)\n3. K⁺ replacement: add to each bag\n   K⁺ <3.5: 40 mmol/L · K⁺ 3.5–5.5: 20 mmol/L · K⁺ >5.5: no K⁺\n4. Add 10% dextrose 125 mL/h when BG <14 mmol/L\n   (do NOT reduce insulin — the insulin is needed to clear ketones)\nResolution: pH >7.3 · HCO₃ >15 · ketones <0.6 mmol/L\n→ Overlap IV insulin with SC bolus × 30 min before stopping\nNever stop basal insulin · check GAD/IA2/ZnT8 + C-peptide"]
+
+    T1 -->|"No — likely T2DM"| T2["T2DM: assess comorbidities\nASCVD · heart failure · CKD/albuminuria\nobesity · hypoglycaemia risk · frailty"]
+    T2 --> LIFE["Lifestyle first (always):\nWeight loss ≥5% · dietary carbohydrate reduction\n≥150 min/week exercise · smoking cessation\nMetformin: first-line if eGFR ≥30 and tolerated\n(hold if eGFR <30 · hold day of contrast/surgery)"]
+    LIFE --> COMBO{"Compelling comorbidity\ndriving second-line choice?"}
+    COMBO -->|"Established ASCVD\nor high CV risk (10-year risk >10%)"| ASCVD_TX["Add GLP-1 RA with proven CV benefit:\nsemaglutide (Ozempic/Rybelsus) · liraglutide · dulaglutide\nor SGLT2i with CV benefit (empagliflozin · canagliflozin)\n→ both reduce MACE · GLP-1 RA reduce stroke · SGLT2i reduce HHF"]
+    COMBO -->|"Heart failure\nor CKD (eGFR ≥20) with albuminuria"| HF_TX["SGLT2i first (dapagliflozin · empagliflozin):\nreduce HHF + slow CKD progression independently of glucose\nACEi/ARB for albuminuria + BP control\nAvoid if eGFR <20 (limited glycaemic effect but heart failure benefit continues)"]
+    COMBO -->|"Obesity · weight loss priority"| OB_TX["GLP-1 RA: semaglutide 2.4 mg SC weekly (weight-loss licensed)\nor tirzepatide (GLP-1/GIP dual agonist — superior weight loss)\nliraglutide · dulaglutide also options"]
+    COMBO -->|"No compelling comorbidity\nor cost-limited"| OTHER["DPP-4 inhibitor (sitagliptin · alogliptin) — weight neutral\nor SGLT2i for any patient without contraindication\nSulfonylurea (gliclazide): cheap but hypoglycaemia risk\nInsulin: start basal (glargine/degludec) if HbA1c remains >75"]
+
+    T2 --> TARGET{"HbA1c target"}
+    TARGET -->|"Most adults"| T_53["<53 mmol/mol (7.0%)\nReview every 3–6 months until stable"]
+    TARGET -->|"Frailty · high hypoglycaemia risk\nelderly · limited life expectancy"| T_RELAX["Relax target: 58–64 mmol/mol\nAvoid sulfonylureas and insulin if possible · simplify regimen"]
+    TARGET -->|"T1DM"| T_T1["<53 mmol/mol (7.0%) if no hypoglycaemia risk\nCGM (FreeStyle Libre/Dexcom) recommended for all T1DM\nHybrid closed-loop insulin delivery where available"]
+
+    T2 --> COMP["ANNUAL COMPLICATIONS SCREEN\nEyes: diabetic retinopathy (dilated fundoscopy/digital photography)\nKidney: urine ACR + eGFR\nFeet: 10-g monofilament + pulses (neuropathy + PAD)\nBP: target <130/80 mmHg\nLipids: statin for all T2DM >40 or with risk factors\nNeuropathy: neuropathic pain — duloxetine or pregabalin"]
 ```
 
 ## Management
