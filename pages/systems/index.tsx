@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import { getAllTopics } from '../../lib/topics'
 import { GetStaticProps } from 'next'
 
@@ -17,6 +18,11 @@ const SYSTEMS = [
 
 export default function SystemsPage({ counts }: { counts: Record<string, number> }) {
   return (
+    <>
+    <Head>
+      <title>Browse by System — Minar Medicine</title>
+      <meta name="description" content="Browse 68 internal medicine topics by system: Cardiology, Pulmonology, Neurology, Gastroenterology, and more." />
+    </Head>
     <div className="container" style={{ paddingTop: '3rem' }}>
       <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '32px', marginBottom: '2rem' }}>All Systems</h1>
       <div className="system-grid">
@@ -29,6 +35,7 @@ export default function SystemsPage({ counts }: { counts: Record<string, number>
         ))}
       </div>
     </div>
+    </>
   )
 }
 

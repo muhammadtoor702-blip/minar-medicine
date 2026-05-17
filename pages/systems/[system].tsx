@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import { getTopicsBySystem, getAllTopics } from '../../lib/topics'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
@@ -20,6 +21,11 @@ interface Topic { slug: string; title: string; system: string }
 export default function SystemPage({ system, topics }: { system: string; topics: Topic[] }) {
   const s = SYSTEMS.find(x => x.name === system)
   return (
+    <>
+    <Head>
+      <title>{system} — Minar Medicine</title>
+      <meta name="description" content={`${topics.length} ${system} topics including ${topics.slice(0,3).map(t=>t.title).join(', ')} and more. Clinical medicine from first principles.`} />
+    </Head>
     <div className="container" style={{ paddingTop: '2.5rem', paddingBottom: '3rem' }}>
       <span className="breadcrumb"><Link href="/">Home</Link> › <Link href="/systems">Systems</Link> › {system}</span>
       <div style={{ marginBottom: '2rem' }}>
@@ -42,6 +48,7 @@ export default function SystemPage({ system, topics }: { system: string; topics:
         </div>
       )}
     </div>
+    </>
   )
 }
 

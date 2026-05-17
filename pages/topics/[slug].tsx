@@ -93,6 +93,13 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
           </div>
         </div>
 
+        {/* Back to top */}
+        <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+          <button className="back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            ↑ Back to top
+          </button>
+        </div>
+
         {/* Prev / Next navigation */}
         {(prevTopic || nextTopic) && (
           <div className="article-nav">

@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 export default function About(): JSX.Element {
   const rules: string[] = [
     'nobody knows where the ABG machine is',
@@ -8,6 +10,10 @@ export default function About(): JSX.Element {
 
   return (
     <>
+      <Head>
+        <title>About — Minar Medicine</title>
+        <meta name="description" content="Minar Medicine was built by Muhammad Abdul Wahab Toor — a house officer in Lahore who wanted clinical notes that sound like a human being is teaching medicine." />
+      </Head>
       {/* Hero */}
       <section style={{ background: '#ffffff', borderBottom: '1px solid #e8e4dc' }}>
         <div style={{

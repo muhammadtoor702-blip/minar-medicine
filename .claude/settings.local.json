@@ -16,7 +16,10 @@
       "Bash(python add_complications.py)",
       "Bash(rm styles/Home.module.css)",
       "Bash(npm uninstall *)",
-      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")"
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "Bash(git rebase *)",
+      "Bash(git push *)",
+      "Bash(git stash *)"
     ]
   }
 }
