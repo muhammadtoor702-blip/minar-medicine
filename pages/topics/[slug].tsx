@@ -5,13 +5,18 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
+const BASE_URL = 'https://minar-medicine.vercel.app'
+
 interface Topic {
   slug: string; title: string; system: string
   scenario: string; sources: string[]; content: string
 }
 
-function slugify(text: string): string {
-  return text.toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-')
+function slugify(text: string, seen: Map<string, number>): string {
+  const base = text.toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-')
+  const count = seen.get(base) ?? 0
+  seen.set(base, count + 1)
+  return count === 0 ? base : `${base}-${count}`
 }
 
 function estimateReadingTime(content: string): number {
@@ -30,15 +35,43 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
   const description = topic.scenario
     ? topic.scenario.slice(0, 160)
     : `${topic.title} — clinical overview, pathophysiology, diagnosis, and management. Part of the ${topic.system} section.`
+  const canonicalUrl = `${BASE_URL}/topics/${topic.slug}`
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'MedicalWebPage',
+    name: topic.title,
+    description,
+    url: canonicalUrl,
+    about: { '@type': 'MedicalCondition', name: topic.title },
+    publisher: { '@type': 'Organization', name: 'Minar Medicine', url: BASE_URL },
+  }
+
+  // Fresh seen map per render so slugify IDs are per-page consistent
+  const seenIds = new Map<string, number>()
 
   return (
     <>
       <Head>
         <title>{topic.title} — Minar Medicine</title>
         <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        {/* Open Graph */}
         <meta property="og:title" content={`${topic.title} — Minar Medicine`} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={`${BASE_URL}/logo.png`} />
+        {/* Twitter card */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${topic.title} — Minar Medicine`} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={`${BASE_URL}/logo.png`} />
+        {/* JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </Head>
 
       <div className="container" style={{ paddingTop: '2.5rem', paddingBottom: '3rem' }}>
@@ -77,13 +110,11 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
               remarkPlugins={[remarkGfm]}
               components={{
                 h2({ children }) {
-                  const text = String(children)
-                  const id = slugify(text)
+                  const id = slugify(String(children), seenIds)
                   return <h2 id={id}><a href={`#${id}`} className="heading-anchor">{children}</a></h2>
                 },
                 h3({ children }) {
-                  const text = String(children)
-                  const id = slugify(text)
+                  const id = slugify(String(children), seenIds)
                   return <h3 id={id}>{children}</h3>
                 },
               }}

@@ -125,17 +125,25 @@ export default function Home({ topics }: { topics: Topic[] }) {
         )}
         <div className="section">
           <span className="section-label">{query ? `Results for "${query}"` : 'All topics'}</span>
-          <div className="topic-list">
-            {filtered.map(t => (
-              <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
-                <div>
-                  <div className="topic-title">{t.title}</div>
-                  <div className="topic-system">{t.system}</div>
-                </div>
-                <span style={{ color: '#ccc' }}>›</span>
-              </Link>
-            ))}
-          </div>
+          {filtered.length === 0 && query ? (
+            <div style={{ textAlign: 'center', padding: '3rem 1rem', color: '#999' }}>
+              <div style={{ fontSize: '32px', marginBottom: '0.75rem' }}>🔍</div>
+              <p style={{ fontSize: '16px', marginBottom: '0.5rem' }}>No topics found for <strong style={{ color: '#1a1a1a' }}>&ldquo;{query}&rdquo;</strong></p>
+              <p style={{ fontSize: '14px' }}>Try a different term, or <button onClick={() => setQuery('')} style={{ background: 'none', border: 'none', color: '#1D9E75', cursor: 'pointer', fontSize: '14px', fontFamily: 'inherit', padding: 0 }}>browse all topics</button></p>
+            </div>
+          ) : (
+            <div className="topic-list">
+              {filtered.map(t => (
+                <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
+                  <div>
+                    <div className="topic-title">{t.title}</div>
+                    <div className="topic-system">{t.system}</div>
+                  </div>
+                  <span style={{ color: '#ccc' }}>›</span>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </main>
