@@ -51,11 +51,25 @@ Hypertension is almost universally asymptomatic until end-organ damage occurs. W
 - Stage 2: Clinic ≥160/100 confirmed by ABPM/HBPM ≥150/95
 - Severe: Clinic systolic ≥180 or diastolic ≥120
 
-**Assessment of end-organ damage:**
-- ECG — LVH, ischaemic changes
-- U&E — renal function, electrolytes (hypokalaemia suggests Conn's)
-- Urine ACR — proteinuria as marker of early nephropathy
-- Fundoscopy — Keith-Wagener-Barker grade 3–4 indicates emergency
+**Assessment of end-organ damage and baseline investigations:**
+- ECG — LVH (Sokolow-Lyon: S in V1 + R in V5/V6 ≥35mm), ischaemic changes, left axis deviation
+- U&E and creatinine — renal function, eGFR; hypokalaemia suggests Conn's
+- Fasting glucose and HbA1c — diabetes as a co-existing risk factor and treatment modifier
+- Fasting lipid profile — QRISK3 calculation requires total cholesterol and HDL
+- Urine ACR — proteinuria as an early marker of hypertensive nephropathy
+- Fundoscopy — Keith-Wagener-Barker grading:
+  - Grade 1: silver wiring (arterial thickening)
+  - Grade 2: arteriovenous nipping
+  - Grade 3: flame haemorrhages, cotton wool spots — indicates emergency
+  - Grade 4: papilloedema — indicates hypertensive crisis
+
+**Who to treat pharmacologically (NICE NG136):**
+- Stage 1 (clinic ≥140/90, ABPM ≥135/85): offer drug treatment only if there is evidence of end-organ damage, established CVD, renal disease, diabetes, or a 10-year cardiovascular risk ≥10% calculated by QRISK3. Otherwise, lifestyle modification and annual review.
+- Stage 2 (clinic ≥160/100, ABPM ≥150/95): offer drug treatment regardless of other risk factors.
+- Severe (clinic ≥180/120): treat on same day; assess for end-organ damage urgently.
+
+**Masked hypertension** — the opposite of white coat effect. Normal clinic readings with elevated 24-hour ABPM (≥135/85 daytime). Often missed until complications occur. Suspect in patients with multiple risk factors whose clinic BP is consistently 130–139/85–89.
+
 ## Management
 
 ### Lifestyle Modification
@@ -86,6 +100,22 @@ Lifestyle changes are mandatory for all patients regardless of whether medicatio
 - Pregnancy: labetalol, nifedipine, or methyldopa. ACEi and ARBs are absolutely contraindicated — they are teratogenic.
 - CKD with proteinuria: ACEi or ARB first-line regardless of ethnicity
 - Phaeochromocytoma crisis: give alpha-blocker (phentolamine) first. Never give a beta-blocker alone — unopposed alpha-stimulation causes paradoxical hypertension.
+
+### Monitoring on Treatment
+
+- Recheck BP at 1–2 months after starting or changing medication; 4–6 weeks after reaching target dose.
+- Renal function and electrolytes at 1–2 weeks after starting ACEi or ARB, and after every dose increase — an initial creatinine rise of up to 30% is acceptable and expected.
+- Up to 20% rise in creatinine after starting ACEi should prompt investigation for renovascular disease if not already excluded.
+- Once stable: review annually (or 6-monthly if at high cardiovascular risk).
+- A potassium >5.5 mmol/L on ACEi/ARB + spironolactone is an indication to stop or reduce the spironolactone immediately.
+
+### Drug-Specific Notes
+
+- **ACE inhibitors**: dry cough in 10–15% due to bradykinin accumulation. Switch to ARB if intolerable. Both are teratogenic — contraindicated in pregnancy. Avoid combination of ACEi + ARB (ONTARGET).
+- **CCBs**: amlodipine is preferred. Peripheral oedema is common but does not represent fluid overload — a loop diuretic is not the answer. Diltiazem and verapamil are negatively chronotropic — avoid with beta-blockers.
+- **Thiazide-like diuretics**: indapamide and chlorthalidone preferred over bendroflumethiazide (stronger evidence base). Monitor U&E at 2 weeks and 3 months.
+- **Beta-blockers**: not first-line for hypertension per NICE, but useful in patients with coexisting IHD, heart failure, or rate control need. Avoid abrupt withdrawal — rebound hypertension and angina.
+- **Spironolactone** (Step 4): low-dose (25–50mg) is effective for resistant hypertension regardless of aldosterone levels. Monitor creatinine and potassium closely; avoid if eGFR <30 or K+ ≥5.0.
 
 ## Complications
 

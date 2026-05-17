@@ -19,6 +19,15 @@ Classification by ejection fraction drives treatment decisions:
 | HFmrEF (mildly reduced) | 40–49% | Mixed or recovering |
 | HFpEF (preserved) | ≥50% | Hypertension, diabetes, obesity, ageing |
 
+**NYHA Functional Classification** guides symptom severity grading:
+
+| Class | Description |
+|-------|-------------|
+| I | No symptoms. Ordinary activity does not cause dyspnoea. |
+| II | Mild symptoms. Comfortable at rest; dyspnoea on ordinary activity. |
+| III | Marked limitation. Comfortable at rest; dyspnoea on minimal activity. |
+| IV | Symptoms at rest. Bed-bound. |
+
 **High-output heart failure** — a distinct entity where cardiac output is elevated but still cannot meet massively increased metabolic demands. Causes include severe anaemia, hyperthyroidism, arteriovenous fistula, wet beriberi (thiamine deficiency), Paget's disease, and pregnancy.
 
 ## Pathophysiology
@@ -93,12 +102,23 @@ Four drug classes independently reduce mortality and should be initiated and up-
 
 No therapy has yet demonstrated mortality reduction in HFpEF. Management focuses on treating the underlying causes (hypertension, AF, obesity, diabetes), relieving congestion with diuretics, and controlling heart rate. SGLT2 inhibitors show emerging mortality benefit in HFpEF (EMPEROR-Preserved trial) and are increasingly used.
 
+### Monitoring on Treatment
+
+- Recheck U&E, creatinine, and potassium 1–2 weeks after each dose increase of ACEi, ARB, ARNI, or MRA, and at each clinical review.
+- A creatinine rise of up to 30% after ACEi is acceptable. A rise >50% suggests renal artery stenosis or excessive diuresis.
+- Potassium >5.5 mmol/L is an indication to reduce or stop MRA and/or ACEi.
+- Serial BNP measurements at outpatient visits guide diuretic adjustment — a persistently elevated BNP suggests residual congestion.
+- Repeat echo after 3–6 months of GDMT to reassess EF — some patients recover function significantly (especially tachycardia-induced, peripartum, alcohol-related DCM).
+
+**Common precipitants of acute decompensation:** medication non-compliance, excess dietary sodium, new AF, infection, new ischaemia, NSAID use (causes sodium retention), anaemia, uncontrolled hypertension, new valve disease.
+
 ## Complications
 
 - Arrhythmias — AF is both a cause and complication of HF; ventricular arrhythmias cause sudden death
 - Cardiorenal syndrome — progressive renal impairment from reduced perfusion and venous congestion
 - Cardiac cachexia — in advanced HF; worsens prognosis
 - Thromboembolic events — particularly with severely reduced EF or AF
+- Hepatic congestion — chronic passive congestion causes congestive hepatopathy; in severe right HF, cardiac cirrhosis
 
 ## Clinical Insight
 

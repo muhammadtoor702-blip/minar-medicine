@@ -2,6 +2,7 @@ import Head from 'next/head'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -12,7 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Minar Medicine</title>
         <meta name="description" content="Clinical medicine, reasoned from first principles." />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+        <meta property="og:site_name" content="Minar Medicine" />
       </Head>
       <nav className="nav">
         <div className="nav-inner">
@@ -60,9 +63,16 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
 
       <footer className="footer">
-        <p>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
-        <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world and AZ :)</p>
+        <div className="footer-links">
+          <Link href="/">Home</Link>
+          <Link href="/systems">Systems</Link>
+          <Link href="/about">About</Link>
+          <a href="https://minar-medicine-ai.vercel.app" target="_blank" rel="noopener noreferrer">AI Tutor</a>
+        </div>
+        <p style={{ marginTop: '1rem' }}>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
+        <p style={{ marginTop: '0.4rem' }}>From Lahore — for the world and AZ :)</p>
       </footer>
+      <Analytics />
     </>
   )
 }

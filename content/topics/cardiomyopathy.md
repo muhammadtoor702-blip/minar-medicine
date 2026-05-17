@@ -110,6 +110,29 @@ Fibro-fatty replacement of the RV myocardium, caused by mutations in **desmosoma
 **ECG:** Epsilon wave (terminal notch after QRS in V1–V3), T-wave inversions in V1–V3, right precordial ST changes.
 
 **Management:** Restrict from competitive sport, beta-blocker, ICD for high-risk patients, catheter ablation for recurrent VT.
+
+---
+
+## Diagnosis — Imaging and Investigation
+
+Echocardiography is the initial investigation of choice for all suspected cardiomyopathies. Cardiac MRI (CMR) provides superior characterisation of myocardial tissue.
+
+| Feature | HCM | DCM | Restrictive | ARVC |
+|---------|-----|-----|-------------|------|
+| Wall thickness | Increased (asymmetric) | Normal/thin | Increased | Normal |
+| Cavity size | Small LV, SAM | Four-chamber dilation | Normal | RV dilation |
+| EF | Preserved | Reduced (<40%) | Preserved or reduced | RV dysfunction |
+| CMR pattern | LGE at septal insertions | Patchy mid-wall fibrosis | Subendocardial or diffuse | Fatty RV replacement |
+| ECG | LVH, deep septal Q waves | LBBB, QRS prolongation | Low voltage (amyloid) | Epsilon wave, V1–V3 T-inversion |
+
+**Key investigations:**
+- CMR with gadolinium — late gadolinium enhancement (LGE) identifies myocardial fibrosis, which is independently associated with arrhythmic risk
+- Genetic testing — offered to index patient; family cascade screening follows
+- Holter monitor — non-sustained VT guides ICD decision in HCM and ARVC
+- Exercise stress testing — provokes LVOT gradient in HCM, assesses BP response (failure to augment BP on exercise in HCM is a risk marker)
+- Technetium-99m bone scintigraphy — highly specific for ATTR cardiac amyloidosis (if positive with negative serum/urine electrophoresis, no biopsy needed)
+- Myocardial biopsy — reserved for unexplained DCM, suspected infiltrative disease, or post-transplant rejection surveillance
+
 ## Complications
 
 - Sudden cardiac death — particularly HCM and ARVC
