@@ -6,8 +6,8 @@ import { useState, useEffect, useRef } from 'react'
 
 const SYSTEMS = [
   { name: 'Cardiology', icon: '♥', slug: 'cardiology' },
-  { name: 'Pulmonology', icon: '🫁', slug: 'pulmonology' },
-  { name: 'Gastroenterology', icon: '🫃', slug: 'gastroenterology' },
+  { name: 'Pulmonology', icon: '💨', slug: 'pulmonology' },
+  { name: 'Gastroenterology', icon: '🌿', slug: 'gastroenterology' },
   { name: 'Neurology', icon: '🧠', slug: 'neurology' },
   { name: 'Endocrinology', icon: '⚡', slug: 'endocrinology' },
   { name: 'Nephrology', icon: '💧', slug: 'nephrology' },
