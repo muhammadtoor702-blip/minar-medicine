@@ -104,26 +104,6 @@ Pancytopaenia: anaemia (fatigue, dyspnoea), neutropaenia (infections — mouth u
 **Bone marrow trephine**: Mandatory for aplastic anaemia — hypocellular marrow with fat replacement. Also required to exclude infiltration and MDS.
 
 **PNH clone by flow cytometry**: CD59 and CD55 expression on RBCs and neutrophils — loss confirms PNH clone. Sensitive for small clones.
-
-```mermaid
-flowchart TD
-    A["Anaemia workup\nFBC + reticulocyte count + blood film\nLDH · bilirubin · haptoglobin\nDirect antiglobulin test (DAT/Coombs)"] --> RETIC{"Reticulocyte count?"}
-
-    RETIC -->|"HIGH retics (>120 × 10⁹/L)\nbone marrow responding = haemolysis"| HAEM{"DAT result?"}
-
-    HAEM -->|"DAT positive\n(antibody/complement on RBCs)"| AIHA["AUTOIMMUNE HAEMOLYTIC ANAEMIA (AIHA)\nWarm AIHA (IgG — spleen): most common\nSecondary: CLL · lymphoma · SLE · drugs (methyldopa · penicillin)\nTreatment: prednisolone 1 mg/kg/day → taper over weeks-months\nRituximab: steroid-refractory or relapse · splenectomy for chronic\nCold AIHA (IgM + C3 — liver): Mycoplasma/EBV/lymphoma · cold agglutinins\n→ Keep warm · rituximab first-line (steroids NOT effective in cold AIHA)"]
-
-    HAEM -->|"DAT negative"| MECHAN{"Blood film?"}
-    MECHAN -->|"Schistocytes (RBC fragments)\nand thrombocytopenia"| TMA["MICROANGIOPATHIC HAEMOLYTIC ANAEMIA (MAHA)\nSchistocytes + thrombocytopenia + Coombs-negative haemolysis\nTTP (ADAMTS13 activity <10%):\nPLASMA EXCHANGE IMMEDIATELY — mortality 90% without treatment\n+ Caplacizumab (anti-vWF nanobody) + rituximab + steroids\nDo NOT transfuse platelets in TTP (adds fuel — worsens thrombosis)\nSTEC-HUS (E. coli O157:H7): NO antibiotics (trigger HUS release)\n→ Supportive only · fluid management\nAtypical HUS (complement-mediated): eculizumab (anti-C5) or ravulizumab"]
-    MECHAN -->|"Sickle cells · target cells\nvaso-occlusive crisis · acute chest"| SCD["SICKLE CELL DISEASE (SCD)\nAcute vaso-occlusive crisis: IV fluids · strong opioid analgesia · O₂ if SpO₂ <95%\nAcute chest syndrome (ACS): exchange transfusion · IV azithromycin · bronchodilators\nStroke: exchange transfusion · MRI brain · prophylactic transfusion programme\nSplenic sequestration: urgent transfusion · splenectomy if recurrent\nChronic management: hydroxycarbamide (HU) — increases HbF, reduces vaso-occlusive crises\nCrizanlizumab (anti-P-selectin) · voxelotor (HbS polymerisation inhibitor)\nCurative: allogeneic SCT or gene therapy (betibeglogene — FDA approved)"]
-    MECHAN -->|"Heinz bodies · bite cells\nG6PD triggers"| G6PD["G6PD DEFICIENCY\nX-linked recessive · African/Mediterranean/Asian\nTriggers: primaquine · dapsone · rasburicase · fava beans · infections\nSelf-limiting · severe cases: RBC transfusion\nAvoid triggers — lifelong counselling · check G6PD before prescribing above drugs"]
-
-    RETIC -->|"LOW retics (<20 × 10⁹/L)\nbone marrow not producing"| FAIL{"Blood count pattern?"}
-    FAIL -->|"Pancytopenia\n(all lines low)"| BM["BONE MARROW FAILURE\nAplastic anaemia (AA):\nHypocellular marrow on biopsy (<25% cellularity) + peripheral pancytopenia\nSevere AA: 2 of 3 criteria (ANC <0.5 · platelets <20 · reticulocytes <20)\nAge <40 + matched donor: allogeneic SCT (curative)\nAge >40 or no donor: ATG (horse) + ciclosporin + eltrombopag\nMDS: dysplastic cells · ring sideroblasts · blast% · IPSS-R risk scoring\nLow-risk MDS: supportive (transfusions) · lenalidomide (del5q) · ESA\nHigh-risk MDS (IPSS int-2/high): azacitidine · alloSCT"]
-    FAIL -->|"Isolated cytopenias\nor nocturnal haemolysis\nor thrombosis in unusual site"| PNH["PAROXYSMAL NOCTURNAL HAEMOGLOBINURIA (PNH)\nGPI-anchor protein deficiency: CD55 and CD59 absent on flow cytometry\nTriad: Coombs-negative haemolysis + pancytopenia + thrombosis (hepatic/portal/cerebral veins)\nEculizumab (anti-C5 mAb): prevents complement-mediated haemolysis and thrombosis\nRavulizumab (long-acting anti-C5): 8-weekly dosing\nMeningococcal vaccination mandatory before eculizumab (complement inhibition → Neisseria risk)\nBone marrow failure component: consider alloSCT if severe"]
-    FAIL -->|"Isolated thrombocytopenia\nnormal WBC + Hb"| ITP["IMMUNE THROMBOCYTOPENIA (ITP)\nExclusion diagnosis — peripheral destruction of platelets by antibodies\nPlatelet <30 or bleeding: prednisolone 1 mg/kg · or IV immunoglobulin (rapid response)\nChronic: TPO-RA (romiplostim · eltrombopag) or rituximab\nSplenectomy for refractory (vaccinate before: pneumococcal · meningococcal · Hib)"]
-```
-
 ## Management
 
 ### Sickle Cell Disease

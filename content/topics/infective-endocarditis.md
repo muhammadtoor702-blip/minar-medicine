@@ -77,30 +77,6 @@ IE typically presents as a **subacute systemic illness** with fever, night sweat
 - TOE should be performed in all suspected prosthetic valve IE, all cases with negative TTE but high suspicion, and when complications are suspected.
 
 **Other investigations:** FBC (raised WBC, normocytic anaemia), CRP/ESR, U&E (immune GN), urinalysis (haematuria, proteinuria), CXR (right-sided IE may show septic emboli/pulmonary infiltrates), CT chest/abdomen/pelvis (for embolic complications).
-
-```mermaid
-flowchart TD
-    A["Suspected infective endocarditis\nFever + new murmur · or bacteraemia with no source\nor fever in prosthetic valve/IVDU/congenital HD\nor embolic phenomena"] --> EMERG{"Emergency features?"}
-
-    EMERG -->|"Severe regurgitation + acute HF\nor haemodynamic instability"| SURG_EMERG["EMERGENCY SURGERY\nPerivalvular abscess + AV block or valve rupture\nor prosthetic valve dehiscence · or large vegetation with embolism\nCTSurg referral same day\nContinue antibiotics perioperatively"]
-
-    EMERG -->|"No emergency"| DUKE["DUKE CRITERIA — ESTABLISH DIAGNOSIS\nBlood cultures × 3 sets (before antibiotics — all peripheral, >1 h apart)\nEchocardiography: TOE preferred (>90% sensitivity)\n(TTE if TOE not available — sensitivity ~75%)\nMajor criteria:\n· Positive blood cultures (typical organisms × 2 sets · or persistently positive)\n· Echocardiographic evidence (vegetation · abscess · dehiscence)\nMinor criteria:\n· Predisposing condition · fever >38°C · vascular phenomena\n· Immunological phenomena · positive blood cultures not meeting major\nDefinite IE: 2 major · or 1 major + 3 minor · or 5 minor"]
-
-    DUKE --> ORGANISM{"Causative organism?"}
-
-    ORGANISM -->|"Viridans streptococci\nor S. bovis (native valve)\npenicillin-sensitive"| STREP_IE["STREPTOCOCCAL IE (native valve)\nIV benzylpenicillin 1.2 g 4-hourly + IV gentamicin × 2 weeks\nor IV benzylpenicillin × 4 weeks (without gentamicin — renal-sparing)\nPenicillin allergy: IV vancomycin × 4–6 weeks\nExcellent prognosis with early treatment"]
-
-    ORGANISM -->|"S. aureus (most common cause\nof acute IE · native or prosthetic valve)"| STAPH_IE["STAPHYLOCOCCAL IE\nMSSA: IV flucloxacillin 2 g 6-hourly × 4–6 weeks (native) or × 6 weeks (prosthetic)\nMRSA: IV vancomycin (target trough 15–20) × 6 weeks\nor daptomycin (if vancomycin MIC >1)\nRight-sided MSSA IE (IVDU): IV flucloxacillin × 4 weeks (shorter course if no emboli)\nStaphylococcal IE is aggressive — daily echo · watch for perivalvular abscess"]
-
-    ORGANISM -->|"Enterococcus\n(E. faecalis — GI/GU source)"| ENTERO_IE["ENTEROCOCCAL IE\nIV ampicillin + IV gentamicin × 4–6 weeks\nor amoxicillin + ceftriaxone (TOPCASS regimen — less nephrotoxic)\nAmpicllin-resistant: IV vancomycin + gentamicin\nCheck for colonic malignancy: S. bovis bacteraemia → colonoscopy"]
-
-    ORGANISM -->|"Prosthetic valve\n(early <2 months: CoNS · S. aureus\nlate >2 months: viridans / S. bovis)"| PROSTHETIC_IE["PROSTHETIC VALVE IE\nEarly (<2 months): vancomycin + gentamicin + rifampicin × 6 weeks\n(CoNS is most common — often MRSA sensitive vancomycin)\nLate (>2 months): treat as native valve with same organism\nSurgery rate higher in prosthetic valve IE: 50–70%\nPerivalvular abscess: CT cardiac gated for extent · surgery usually required"]
-
-    ORGANISM -->|"Culture-negative IE\nCoxiella · Bartonella · Brucella · HACEK"| CULTURE_NEG["CULTURE-NEGATIVE IE\nSerology: Coxiella (Q fever — Phase I IgG) · Bartonella · Brucella\n16S rRNA PCR on blood or excised valve\nHACEK organisms: ampicillin-sulbactam × 4 weeks\nCoxiella: doxycycline + hydroxychloroquine × 18 months\nBartonella: ceftriaxone + gentamicin × 6 weeks"]
-
-    DUKE --> MONITOR["MONITORING DURING TREATMENT\nDaily temperature chart · weekly FBC · CRP · renal · blood cultures at 48–72 h\nRepeat TOE at 7–10 days if initial vegetation large · or at 1 week if persistent fever\nEmbolic complications: head CT if any neurological change\nOphthalmology: if vision change (Roth spots · retinal emboli)\nDENTAL: source control — dental extraction of infected teeth"]
-```
-
 ## Management
 
 ### Antibiotics

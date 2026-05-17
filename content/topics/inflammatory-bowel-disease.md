@@ -61,24 +61,6 @@ PSC and axial arthropathy follow an independent course — they progress even wh
 **Colonoscopy + biopsies**: Gold standard. In acute severe UC, use flexible sigmoidoscopy (lower perforation risk). Biopsies from multiple sites — including macroscopically normal mucosa — confirm the histological diagnosis.
 
 **Small bowel imaging**: MRI enterography (preferred — no radiation) or CT enterography for small bowel Crohn's. CT is faster in an acute setting. MRI pelvis is gold standard for perianal Crohn's — maps fistula tracts and abscesses.
-
-```mermaid
-flowchart TD
-    A["IBD suspected\nChronic diarrhoea ± blood · crampy abdominal pain\nweight loss · anaemia · perianal disease\nFCP · CRP · colonoscopy + biopsy"] --> ACUTE{"Acute severe presentation?"}
-
-    ACUTE -->|"Bloody diarrhoea >6/day\nfever · tachycardia · albumin <30\n(Truelove & Witts severe UC)"| ASUC["ACUTE SEVERE ULCERATIVE COLITIS (ASUC)\nAdmit · daily AXR (toxic megacolon: colon >6 cm)\nIV hydrocortisone 100 mg 6-hourly Days 1–3\nIV fluids · thromboprophylaxis · nutritional support\nStool cultures: exclude C. difficile/CMV/infection before steroids\nDay 3 Oxford criteria assessment:\nPoor response (CRP >45 + stool >8/day · OR stool 3–8 + CRP >25):\n→ IV ciclosporin 2 mg/kg/day · or infliximab 5 mg/kg IV (rescue therapy)\nFailing rescue by Day 7: colectomy (subtotal + end ileostomy — safest acute approach)\nDo NOT delay surgical referral when medical rescue is failing"]
-
-    ACUTE -->|"Severe Crohn's flare\nor obstruction · abscess · fistula"| CD_ACUTE["ACUTE SEVERE CROHN'S DISEASE\nCT enterography: exclude perforation · obstruction · abscess\nIV methylprednisolone 40 mg/day\nAbdominal abscess: CT-guided percutaneous drainage + antibiotics\n(metronidazole + ciprofloxacin)\nFistulising disease: MRI pelvis · seton + anti-TNF\nNutritional support: exclusive enteral nutrition (EEN) induces remission in paediatric CD"]
-
-    ACUTE -->|"No acute emergency\nConfirm diagnosis with colonoscopy + biopsy"| TYPE{"IBD type?"}
-
-    TYPE -->|"Continuous mucosal inflammation\nrectum → proximal extent · no granulomata\nbloody diarrhoea dominant"| UC["ULCERATIVE COLITIS\nInduction of remission:\nProctitis/left-sided: mesalazine suppositories 1 g ON + oral mesalazine 2.4 g/day\n(topical + oral combination superior to either alone)\nExtensive UC: mesalazine 4 g/day · or prednisolone 40 mg → taper\nSteroid-refractory/dependent: infliximab · adalimumab · vedolizumab · tofacitinib\nMaintenance: mesalazine indefinitely (all UC — reduces colorectal cancer risk by 50%)\nAzathioprine/6-MP: steroid-dependent disease\nColectomy: curative in UC — indicated for medically refractory or dysplasia/cancer\nCancer surveillance: colonoscopy every 1–5 years from 10 years after diagnosis"]
-
-    TYPE -->|"Transmural skip lesions\nmouth to anus · granulomata\nperianal disease · fistulae · cobblestone mucosa"| CD["CROHN'S DISEASE\nInduction of remission:\nMild ileal/ileocaecal: budesonide 9 mg OD × 8 weeks (topical steroid — fewer systemic effects)\nor exclusive enteral nutrition\nModerate-severe: prednisolone 40 mg → taper\nMethotrexate: steroid-sparing in CD (not for UC)\nBiologics: infliximab + azathioprine combination (SONIC trial — superior to monotherapy)\nor adalimumab · ustekinumab (anti-IL-12/23) · vedolizumab · risankizumab\nMaintenance: azathioprine/6-MP + biologic for moderate-severe\nSmoking cessation: strongly associated with Crohn's flares (opposite to UC)\nSurgery: resection or stricturoplasty — not curative (disease recurs)"]
-
-    UC & CD --> MONITOR["IBD MONITORING\nFCP every 3 months (target <150 µg/g = mucosal healing)\nAlbumin · FBC · CRP at every visit\nTherapeutic drug monitoring (TDM): anti-TNF trough levels + antibody levels\nScreen before biologics: TB (IGRA) · HBV · HIV · varicella — live vaccines BEFORE immunosuppression\nBone density: DEXA if on long-term steroids\nMental health: depression/anxiety in 30% IBD — screen and refer"]
-```
-
 ## Management
 
 ### Ulcerative Colitis

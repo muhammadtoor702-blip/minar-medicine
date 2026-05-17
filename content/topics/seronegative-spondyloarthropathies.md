@@ -93,24 +93,6 @@ Arthritis occurring in the context of IBD (Crohn's or UC). Two patterns:
 **HLA-B27**: Supports diagnosis but is not diagnostic — 8% of the general population is HLA-B27 positive without disease. Negative HLA-B27 does not exclude SpA (5–10% of ankylosing spondylitis is HLA-B27 negative).
 
 **Inflammatory markers**: CRP and ESR are elevated in ~50% of active axial SpA — normal markers do not exclude active disease. MRI is the objective measure of inflammation.
-
-```mermaid
-flowchart TD
-    A["Seronegative Spondyloarthropathy\nInflammatory back pain (&lt;45 yrs · improves with exercise and NSAIDs · wakes at night)\nor peripheral arthritis + psoriasis/IBD/uveitis · dactylitis · enthesitis\n(RF negative by definition)"] --> DX["DIAGNOSTIC WORK-UP\nHLA-B27: positive in 90–95% AS (supports — does NOT confirm diagnosis)\nMRI sacroiliac joints (STIR): bone marrow oedema = active inflammation\n(X-ray normal in early disease — only detects late erosions/syndesmophytes)\nESR · CRP · FBC\nBASDAI ≥4 = active disease requiring biologic consideration"]
-
-    DX --> SUBTYPE{"Primary subtype?"}
-
-    SUBTYPE -->|"Inflammatory back pain\nSacroiliitis · HLA-B27\naxial skeleton dominant"| AXIAL["AXIAL SpA / ANKYLOSING SPONDYLITIS\nStep 1: NSAIDs — first-line and remarkably effective in SpA\n→ Naproxen · diclofenac · indomethacin at maximum tolerated dose\n→ Dramatic response within 24–48 h supports inflammatory diagnosis\n→ Continuous NSAID use may slow radiographic progression\nPhysiotherapy: daily spinal exercise ESSENTIAL (prevents ankylosis — swimming/hydrotherapy ideal)\nStep 2: Biologic therapy (NICE: BASDAI ≥4 after ≥2 failed NSAIDs)\n→ Anti-TNF (adalimumab · etanercept · certolizumab · golimumab): first-line\n→ Anti-IL-17 (secukinumab · ixekizumab): highly effective; AVOID in IBD (worsens IBD)\n→ JAK inhibitors (upadacitinib): after anti-TNF failure\ncsDMARDs (MTX · SSZ): NOT effective for axial disease (peripheral arthritis only)"]
-
-    SUBTYPE -->|"Psoriasis + arthritis\nDIP involvement · nail disease · dactylitis"| PSA["PSORIATIC ARTHRITIS\ncsDMARDs: methotrexate first-line (treats joint AND skin disease)\nBiologic if csDMARD failure:\n→ Anti-TNF (adalimumab): effective for joints + skin\n→ Anti-IL-17 (secukinumab · ixekizumab): highly effective for joints · skin · enthesitis\n→ Anti-IL-23 (risankizumab · guselkumab): excellent for skin and peripheral joints\nAxial PsA: treat as axial SpA (anti-TNF or anti-IL-17)\nNote: dactylitis (sausage digit = whole finger/toe swelling) is pathognomonic of SpA — not RA"]
-
-    SUBTYPE -->|"Arthritis 1–4 weeks after\nurogenital or GI infection"| REACTIVE["REACTIVE ARTHRITIS\nTriggers: Chlamydia trachomatis · Salmonella · Shigella · Campylobacter · Yersinia\nClassic triad (present ~30%): arthritis + urethritis + conjunctivitis\nAdditional features: circinate balanitis · keratoderma blennorrhagica · oral ulcers\nTreat infection: doxycycline 100 mg BD ×7 days if chlamydial\nArthritis: NSAIDs · intra-articular steroids; most resolve within 3–6 months\nPersistent (&gt;6 weeks): treat as SpA · DMARDs (SSZ · MTX)"]
-
-    SUBTYPE -->|"IBD + arthritis\nperipheral or axial"| ENTERO["ENTEROPATHIC ARTHRITIS\nPeripheral: correlates with gut disease activity → treat IBD\nAxial: independent of IBD → treat as axial SpA\nAnti-TNF (adalimumab preferred): treats BOTH IBD and joint disease simultaneously\nAnti-IL-17: AVOID — worsens IBD (IL-17 protective in gut mucosa)"]
-
-    AXIAL & PSA --> EXTRARTIC["EXTRA-ARTICULAR MONITORING\nAnterior uveitis: urgent ophthalmology · topical steroids + mydriatics (30–40% of AS)\nOsteoporosis: DEXA screening (entheseal new bone formation + systemic bone loss — paradox)\nAortic regurgitation: echo in longstanding disease\nPre-biologic screen: IGRA/Mantoux + CXR (anti-TNF) · HBV/HCV/HIV · live vaccines before starting"]
-```
-
 ## Management
 
 ### Axial SpA

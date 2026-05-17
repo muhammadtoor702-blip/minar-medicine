@@ -97,21 +97,6 @@ SLE can mimic almost any medical condition. The SLICC and ACR/EULAR classificati
 **ANA cascade**: ANA positive → if ≥1:160, further testing: anti-dsDNA, anti-Smith, anti-Ro, anti-La, antiphospholipid antibodies, complement (C3, C4), urinalysis, renal function.
 
 **Renal biopsy**: Mandatory for proteinuria >500 mg/24h or active urinary sediment in SLE — to classify lupus nephritis and guide treatment intensity.
-
-```mermaid
-flowchart TD
-    A["Suspected connective tissue disease\nMultisystem involvement · ANA positive · elevated ESR/CRP\nor specific organ features"] --> EMERG{"Emergency feature?"}
-
-    EMERG -->|"Unilateral temporal headache\njaw claudication · vision change\nESR &gt;50 · age &gt;50"| GCA["GIANT CELL ARTERITIS — TREAT BEFORE BIOPSY\nPrednisolone 60 mg OD immediately\nIV methylprednisolone 500 mg × 3 days if visual symptoms/jaw claudication\nTemporal artery US or biopsy within 2 weeks of steroids\nUrgent ophthalmology if visual symptoms\nTocilizumab: steroid-sparing · reduces relapse"]
-    EMERG -->|"Active nephritis (haematuria + proteinuria)\nor pulmonary haemorrhage · mononeuritis multiplex"| VASC["ORGAN-THREATENING VASCULITIS/CTD\nImmediate: pulse IV methylprednisolone + immunosuppression\nANCA · anti-GBM · complement C3/C4 · renal biopsy\nAAV (ANCA-vasculitis): rituximab or cyclophosphamide + steroids\nAnti-GBM (Goodpasture's): plasma exchange + steroids + cyclophosphamide\nMaintenance: azathioprine or rituximab"]
-
-    EMERG -->|"No emergency"| CTD{"Feature pattern?"}
-    CTD -->|"Butterfly/malar rash · discoid · photosensitivity\noral ulcers · arthritis · serositis · nephritis\nhaematological cytopaenia"| SLE["SLE\nANA &gt;99% · anti-dsDNA (specific for SLE) · anti-Sm (specific)\nComplement: ↓ C3 + ↓ C4 = active disease\nSLICC criteria: ≥4 of 11 for diagnosis\nRx: hydroxychloroquine (ALL patients — reduces flares + organ damage)\nSteroids + MMF/azathioprine for organ involvement\nLupus nephritis: MMF induction or cyclophosphamide\nBelimumab for refractory · avoid live vaccines"]
-    CTD -->|"Dry eyes (xerophthalmia) · dry mouth (xerostomia)\nrecurrent parotitis · fatigue · arthralgia"| SS["SJÖGREN'S SYNDROME\nAnti-Ro (SSA) ·  Anti-La (SSB)\nSchirmer test · salivary gland biopsy\nDry eyes: artificial tears · topical cyclosporine drops\nDry mouth: saliva substitutes · pilocarpine tablets\nSystemic: hydroxychloroquine for fatigue/arthritis\nMonitor: ↑ NHL risk (40× general population) — lymph nodes · LDH · β₂-microglobulin"]
-    CTD -->|"Skin thickening · Raynaud's · dysphagia\npulmonary fibrosis · PAH\nrenal crisis"| SSC["SYSTEMIC SCLEROSIS (SSc)\ndcSSc: anti-Scl-70 (topoisomerase I) — diffuse · ILD risk\nlcSSc (CREST): anti-centromere — PAH risk\nPAH: sildenafil · endothelin antagonist (bosentan) · IV prostacyclin\nILD: mycophenolate or nintedanib (pirfenidone second-line)\nScleroderma renal crisis: ACEi urgently (can reverse crisis)\nRaynaud's: nifedipine · nailfold capillaroscopy"]
-    CTD -->|"Proximal muscle weakness\nGottron's papules · heliotrope rash\nmechanic's hands · ILD"| MIOYO["INFLAMMATORY MYOPATHY\nDermatomyositis (DM): anti-Mi-2 · anti-MDA5 · anti-TIF1γ\nPolymyositis (PM): anti-Jo-1 (anti-synthetase syndrome = ILD + myositis + mechanic's hands)\nInvestigations: CK · aldolase · MRI muscle · EMG · muscle biopsy\nMalignancy screen mandatory in DM: CT CAP + colonoscopy + age-appropriate cancer screen\nRx: prednisolone 1 mg/kg → azathioprine or MMF steroid-sparing\nIVIG for dysphagia or refractory cases"]
-```
-
 ## Management
 
 ### SLE

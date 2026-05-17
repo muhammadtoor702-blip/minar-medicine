@@ -151,24 +151,6 @@ DRESS is a severe drug hypersensitivity reaction with multi-organ involvement. D
 **Causative drugs**: Aromatic anticonvulsants (carbamazepine, phenytoin, lamotrigine), allopurinol, sulfonamides, minocycline, abacavir (HLA-B*5701).
 
 **Management**: Withdraw causative drug immediately. Oral or IV corticosteroids (prednisolone 0.5–1 mg/kg) to suppress the systemic inflammation. Monitor LFTs, renal function, FBC. Symptoms can relapse weeks after the drug is stopped.
-
-```mermaid
-flowchart TD
-    A["Blistering skin lesion(s)\nor severe cutaneous drug reaction\nAssess: distribution · mucous membranes · systemic features · recent medications"] --> SEVER{"Life-threatening features?\nMucosal involvement · systemic illness\nlarge area of skin detachment\nor rapid progression"}
-
-    SEVER -->|"YES"| EMER["STOP ALL CULPRIT DRUGS IMMEDIATELY\nAdmit · assess for burns unit transfer\nFluid resuscitation · wound care\nOphthalmology URGENTLY if eye involvement\nNutrition + pain management"]
-    EMER --> STYPE{"Pattern of skin detachment\nand systemic features?"}
-    STYPE -->|"Target lesions · acral distribution\n&lt;10% BSA skin detachment\nmild–moderate mucosal"| SJS["SJS (Stevens-Johnson Syndrome)\nMost common drugs: sulfonamides · allopurinol\ncarbamazepine · lamotrigine · NSAIDs\nSCORTEN score for prognosis\nRx: supportive care · wound management\nCyclosporin or IVIG in severe/progressive cases\n(steroids: controversial — may worsen outcomes)"]
-    STYPE -->|"&gt;30% BSA skin detachment\nwidespread epidermal necrolysis\npositive Nikolsky sign"| TEN["TEN (Toxic Epidermal Necrolysis)\nMortality up to 30–50% (SCORTEN-dependent)\nBurn unit mandatory\nIVIG 1 g/kg/day × 3 days (strongest evidence)\nor cyclosporin 3–5 mg/kg/day\nNO systemic corticosteroids\nInfection monitoring: blood cultures · wound swabs"]
-    STYPE -->|"10–30% BSA: overlap\nAND eosinophilia + lymphadenopathy\nfacial oedema + fever + systemic organ involvement\nonset 2–8 weeks after drug"| DRESS["DRESS Syndrome\nCommon culprits: allopurinol · carbamazepine\nlamotrigine · vancomycin · dapsone\nOrgan involvement: hepatitis · nephritis · myocarditis · pneumonitis\nRx: stop culprit · prednisolone 1–2 mg/kg/day\nMonitor: LFTs · Cr · troponin · echo\nReactivation of HHV-6/EBV/CMV common"]
-
-    SEVER -->|"NO — localised blisters\nno systemic illness"| PATTERN{"Blister characteristics?"}
-    PATTERN -->|"Flaccid bullae\nmucous membrane involvement\npositive Nikolsky\nall age groups"| PV["PEMPHIGUS VULGARIS\nIgG vs desmoglein 1 and 3\nDirect IF: intercellular IgG (chicken-wire pattern)\nAnti-Dsg serology confirms diagnosis\nRx: prednisolone 1 mg/kg + azathioprine/MMF\nRituximab for refractory — increasingly first-line"]
-    PATTERN -->|"Tense bullae on erythematous/urticarial base\nelderly &gt;60 y · mucosal sparing"| BP["BULLOUS PEMPHIGOID\nIgG vs BP180/BP230 (hemidesmosome)\nDirect IF: linear IgG + C3 at basement membrane zone\nLocalised: ultra-potent topical clobetasol\nExtensive: prednisolone ± doxycycline + nicotinamide\nSteroid-sparing: azathioprine or MMF"]
-    PATTERN -->|"Grouped vesicles on\nerythematous base · dermatomal"| HZ["HERPES ZOSTER\nVZV reactivation — unilateral dermatomal\nAciclovir 800 mg 5× daily × 7 days\n(most effective within 72 h of rash onset)\nOphthalmology if V1 (ophthalmic branch) involved\nPHN (post-herpetic neuralgia): amitriptyline · gabapentin · pregabalin"]
-    PATTERN -->|"Intensely pruritic vesicles\nextensor surfaces · associated coeliac"| DH["DERMATITIS HERPETIFORMIS\nIgA deposits at dermal papillae on DIF\nAnti-tTG/endomysial antibodies\nRx: gluten-free diet (definitive)\nDapsone for rapid symptom control"]
-```
-
 ## Clinical Insight
 
 The distinction between pemphigus and pemphigoid saves lives and avoids unnecessary treatment. The clinical key: pemphigoid has tense blisters, negative Nikolsky sign, and minimal mucosa involvement in an elderly patient — it is managed with topical clobetasol or oral prednisolone. Pemphigus has flaccid blisters, positive Nikolsky sign, and oral erosions preceding the rash — it requires systemic immunosuppression including rituximab.

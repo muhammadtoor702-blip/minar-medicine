@@ -60,24 +60,6 @@ PH is insidious and frequently diagnosed late — a median delay of 2–3 years 
 - Autoimmune screen: ANA, anti-dsDNA, anti-Scl-70, anti-centromere (connective tissue disease)
 - HIV test, liver function, hepatitis serology
 - Sleep study: OSA
-
-```mermaid
-flowchart TD
-    A["Suspected Pulmonary Hypertension\nProgressive exertional dyspnoea · presyncope · RV heave\nor incidental: loud P2 · elevated RVSP on echo"] --> ECHO["ECHOCARDIOGRAPHY — initial screening\nEstimates RVSP from TR jet velocity\nAssesses RV size/function · excludes left heart/valvular disease\nDoes NOT confirm PH — echo frequently over/underestimates RVSP"]
-
-    ECHO --> RHC["RIGHT HEART CATHETERISATION — gold standard\nConfirms: mPAP ≥20 mmHg (ESC 2022)\nMeasures: PAWP · PVR · cardiac output\nPAWP ≤15 + PVR &gt;2 WU = precapillary (Groups 1/3/4/5)\nPAWP &gt;15 = postcapillary (Group 2)\nVasoreactivity testing: inhaled NO or IV adenosine\n→ Positive (mPAP fall &gt;10 mmHg to &lt;40 without ↓CO) = CCB responsive (~10% idiopathic PAH)"]
-
-    RHC --> GROUP{"WHO Group Classification"}
-
-    GROUP -->|"Group 2\nPAWP &gt;15 mmHg\nleft heart disease (most common overall)"| G2["GROUP 2 — LEFT HEART DISEASE\nOptimise HF therapy (diuretics · ACEi/ARBi · beta-blocker · SGLT2i)\nTreat valvular disease surgically\nDo NOT use PAH-targeted therapies in Group 2\n(PDE-5 inhibitors worsen outcomes in HFpEF-associated PH)"]
-
-    GROUP -->|"Group 3\nlung disease/hypoxia\nCOPD · ILD · OSA"| G3["GROUP 3 — LUNG DISEASE / HYPOXIA\nLong-term O₂ for hypoxaemia (PaO₂ &lt;7.3 kPa)\nCPAP/APAP for OSA\nTreat underlying lung disease (see COPD/ILD guidelines)\nNo proven benefit from PAH-targeted therapies in Group 3"]
-
-    GROUP -->|"Group 4\nCTEPH — organised thrombus\nprior PE · V/Q mismatch\n(V/Q more sensitive than CTPA for CTEPH)"| G4["GROUP 4 — CTEPH\nExpert CTEPH centre: assess surgical operability\nOperable (proximal organised thrombus):\n→ Pulmonary endarterectomy (PEA) — potentially curative\nInoperable (distal/peripheral disease):\n→ Balloon pulmonary angioplasty (BPA)\n→ Riociguat (sGC stimulator): only PAH drug approved for CTEPH\nLifelong anticoagulation: warfarin in all CTEPH\nNote: any post-PE patient with persistent breathlessness → V/Q scan for CTEPH"]
-
-    GROUP -->|"Group 1 — PAH\nPrecapillary · no lung disease\nno CTEPH"| G1["GROUP 1 — PULMONARY ARTERIAL HYPERTENSION\nVasoreactivity positive (~10%): high-dose CCB (amlodipine or diltiazem)\nAll others — COMBINATION THERAPY upfront (AMBITION trial):\n→ ERA (endothelin receptor antagonist): ambrisentan or macitentan\n→ + PDE-5 inhibitor: sildenafil or tadalafil\nSevere PAH / functional class IV:\n→ Add epoprostenol IV (continuous central line infusion)\n→ Only PAH agent with proven mortality benefit in RCT\nOral prostacyclin: selexipag · inhaled iloprost\nProgression on triple therapy: lung transplant assessment\nGeneral: diuretics (RHF) · O₂ for hypoxia · avoid pregnancy\nSSc screening: annual echo + DLCO (10–15% lifetime PAH risk in limited SSc)"]
-```
-
 ## Management
 
 ### Group 2 — Treat the Underlying Left Heart Disease

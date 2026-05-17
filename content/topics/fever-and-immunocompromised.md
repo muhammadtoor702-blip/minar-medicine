@@ -136,22 +136,6 @@ Transplant recipients require lifelong immunosuppression to prevent rejection �
 **CMV in transplant**: Screen all donors and recipients before transplant. D+/R- (donor CMV-positive, recipient negative) = highest risk. Prophylaxis with valganciclovir or pre-emptive monitoring with CMV PCR.
 
 **PCP prophylaxis**: Co-trimoxazole for first 6–12 months post-transplant.
-
-```mermaid
-flowchart TD
-    A["Fever in immunocompromised host\nOR fever of unknown origin (FUO)\nFever >38.3°C on ≥3 occasions over ≥3 weeks\nno diagnosis after initial evaluation"] --> TYPE{"Host immune defect?"}
-
-    TYPE -->|"ANC <500 cells/µL (or expected to fall)\n+ fever ≥38.0°C"| NEUTRO["FEBRILE NEUTROPENIA — ONCOLOGICAL EMERGENCY\nBlood cultures × 2 sets (peripheral + central line port) BEFORE antibiotics\nCXR · urinalysis · wound/port-site swabs\nRisk stratify: MASCC score ≥21 = low risk\nHigh-risk (MASCC <21 or inpatient · solid tumour with expected prolonged neutropenia):\nIV piperacillin-tazobactam 4.5 g TDS WITHIN 1 HOUR\n(meropenem if: penicillin allergy · Pseudomonas risk · prior ESBL)\nAdd vancomycin if: central line site infection · MRSA history · haemodynamic instability · gram-positive bacteraemia\nPersistent fever >96 h despite antibiotics: add antifungal\n(caspofungin/micafungin — mould-active) · consider CT chest (Aspergillus)\nG-CSF: not routine — reserve for life-threatening or prolonged neutropenia"]
-
-    TYPE -->|"Solid organ or haematopoietic\nstem cell transplant recipient"| TRANSPLANT["TRANSPLANT — TIMED INFECTION RISK\n<1 month: donor-derived infections · nosocomial (Gram-neg · Candida · HSV)\n1–6 months (peak immunosuppression):\nCMV (weekly CMV PCR) · EBV · PCP · Aspergillus\nMedication: valganciclovir prophylaxis (CMV) · co-trimoxazole (PCP) · fluconazole (Candida)\n>6 months: late viral reactivation · EBV-PTLD (reduce immunosuppression + rituximab)\nCMV disease: IV ganciclovir or oral valganciclovir (monitor CMV PCR response)"]
-
-    TYPE -->|"HIV/AIDS\n(classify by CD4 count)"| HIV_INFECT["HIV — INFECTION RISK BY CD4 COUNT\nCD4 >500: community infections (same risk as immunocompetent)\nCD4 200–500: TB · bacterial pneumonia · oral candidiasis · VZV\nCD4 <200: PCP (start co-trimoxazole prophylaxis)\nCD4 <100: Toxoplasma (start co-trimoxazole or atovaquone prophylaxis)\nCD4 <50: CMV retinitis · MAC (mycobacterium avium) · PML (JC virus) · Cryptosporidium\nPCP: trimethoprim/sulfamethoxazole (or atovaquone) · steroids if PaO₂ <70 mmHg\nToxoplasma: pyrimethamine + sulfadiazine + folinic acid\nStart ART in ALL patients regardless of CD4 — reduces infection risk and mortality"]
-
-    TYPE -->|"No clear immune defect\nFUO criteria met (≥3 weeks fever\nno diagnosis after standard investigations)"| FUO["FEVER OF UNKNOWN ORIGIN\nMajor categories:\nInfectious (35%): TB (IGRA · sputum AFB) · infective endocarditis (ECHO) · intra-abdominal abscess · brucellosis · CMV/EBV\nMalignancy (20%): Hodgkin/NHL · renal cell carcinoma · HCC · occult solid tumour\nNon-infectious inflammatory (20%): adult-onset Still's (spiking fever + salmon rash + ferritin >5000)\nGCA (age >50 + ESR >50) · SLE · ANCA vasculitis\nMiscellaneous: drug fever · factitious · periodic fever syndromes\nKey investigations: PET-CT (most useful — lymphoma · vasculitis · occult abscess)\nSerial blood cultures × 3 · IGRA · bone marrow biopsy\nFerritin >10,000: HLH — treat etoposide + dexamethasone (HLH-94 protocol) urgently\nDo NOT start empirical steroids before excluding TB · lymphoma · fungal infection"]
-
-    NEUTRO & TRANSPLANT & HIV_INFECT --> REVIEW["48–72 h DE-ESCALATION REVIEW\nNarrow antibiotics when culture/sensitivities available\nNo response: CT chest/abdomen · repeat cultures · consider invasive diagnostics (BAL · biopsy)\nSource control: drain any abscess · remove infected line · debride necrotic tissue\nAntibiotics alone cannot cure undrained collections"]
-```
-
 ## Clinical Insight
 
 In febrile neutropenia, the source of infection is never found in approximately 40–60% of patients. This does not mean there is no infection — it means the organisms are not identifiable by current methods, or the infection has been suppressed before localising. Empirical broad-spectrum antibiotics are started because the consequences of undertreating are catastrophic. A temperature of 38°C in a neutropenic patient is a medical emergency equivalent to septic shock in an immunocompetent patient.

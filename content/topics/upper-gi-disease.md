@@ -146,26 +146,6 @@ Two histological types:
 **Investigation**: OGD + biopsy (diagnosis), CT chest/abdomen/pelvis (staging), EUS (local T/N staging), PET-CT (distant metastases).
 
 **Management**: Curative intent — Ivor Lewis oesophagectomy ± neoadjuvant chemotherapy (FLOT or CROSS protocol). Most present with advanced disease — palliative chemotherapy and endoscopic stenting for dysphagia.
-
-```mermaid
-flowchart TD
-    A["Upper GI Presentation\nEpigastric pain · heartburn · dysphagia · nausea/vomiting\nhaematemesis · melaena · iron deficiency anaemia"] --> ALARM{"Alarm features?\n(NICE NG12 2-week wait)"}
-
-    ALARM -->|"Weight loss · dysphagia\nhaematemesis or melaena\niron deficiency anaemia · epigastric mass\nage &gt;55 with new unexplained dyspepsia"| URGENT_OGD["URGENT OGD — 2-WEEK WAIT REFERRAL\nAll gastric ulcers: BIOPSY MANDATORY (exclude malignancy)\nGastric ulcer: repeat OGD at 6–8 weeks to confirm healing\n(healing does not exclude malignancy — small cancers can appear to heal)\nOGD-based H. pylori testing: CLO test (biopsy urease)"]
-
-    ALARM -->|"Active haematemesis\nor melaena\nhaemodynamic instability"| UGIB["ACUTE UPPER GI BLEED\nRisk stratify: Glasgow-Blatchford Score (GBS)\n→ GBS 0 = low risk — outpatient management may be safe\n→ GBS ≥1 = inpatient + early endoscopy\nComponents: urea · Hb · SBP · pulse · melaena · syncope · hepatic disease · cardiac failure"]
-
-    UGIB --> RESUS["RESUSCITATION\nIV access ×2 large bore · crossmatch 4–6 units · FBC · coag · U&E · LFTs\nIV crystalloid for haemodynamic instability\nTransfuse to Hb ≥70 g/L (restrictive strategy — do NOT over-transfuse)\n→ Over-transfusion raises portal pressure → worsens variceal bleeding\nTarget Hb ≥80 g/L if ischaemic heart disease\nAirway protection if obtunded with active haematemesis"]
-
-    RESUS --> SOURCE{"Likely source of\nUGI bleeding?"}
-
-    SOURCE -->|"Peptic ulcer most likely\n(~50% of UGIB)"| NONVARIC["NON-VARICEAL UGIB\nOGD within 24 h (once resuscitated)\nHaemostasis: adrenaline injection + thermal coagulation / haemoclips\nPost-haemostasis: high-dose PPI\n→ IV omeprazole 80 mg bolus then 8 mg/h for 72 h (reduces rebleeding)\nH. pylori eradication before discharge: PPI + clarithromycin + amoxicillin ×7 days\nConfirm eradication: urea breath test (UBT) 4 weeks after (STOP PPI 2 weeks before test)\nStop PPI 2 weeks AND antibiotics 4 weeks before all non-invasive H. pylori testing"]
-
-    SOURCE -->|"Cirrhosis · known varices\nsplenomegaly · portal hypertension"| VARIC["VARICEAL UGIB\nTerlipressin IV IMMEDIATELY — start before endoscopy\n(reduces portal pressure; improves survival)\nIV ceftriaxone ×5 days: antibiotic prophylaxis (↓SBP · ↓5-day mortality in cirrhosis)\nOGD within 12 h: endoscopic band ligation (first-line for oesophageal varices)\nRefractory variceal bleeding:\n→ TIPSS (transjugular intrahepatic portosystemic shunt): reduces portal pressure definitively\n→ Sengstaken-Blakemore tube: tamponade bridge to TIPSS if uncontrolled"]
-
-    ALARM -->|"No alarm features\ndyspepsia/reflux"| DYSPEPSIA["DYSPEPSIA AND GORD MANAGEMENT\nH. pylori test-and-treat (before empirical PPI in uncomplicated dyspepsia):\n→ UBT or stool antigen test: most accurate non-invasive tests\nH. pylori eradication: PPI + clarithromycin + amoxicillin ×7 days (~80–85% eradication)\nFailed eradication: quadruple therapy (PPI + bismuth + tetracycline + metronidazole) ×10–14 days\nGORD: lifestyle (weight loss · head of bed elevation) + PPI 4–8 weeks\nBarrett's oesophagus: intestinal metaplasia on biopsy → surveillance OGD every 2–5 years\nBarrett's with high-grade dysplasia: endoscopic mucosal resection (EMR) or radiofrequency ablation (RFA)\nNSAID-induced ulcer: stop NSAID if possible; if essential → switch to COX-2 inhibitor + PPI"]
-```
-
 ## Complications
 
 **Peptic ulcer**: Haemorrhage (most common — endoscopic haemostasis), perforation (peritonitis — surgical emergency), gastric outlet obstruction (fibrotic pyloric scarring — bilious vomiting).

@@ -73,28 +73,6 @@ Symptoms depend on severity, speed of onset, and cardiorespiratory reserve. Fati
 **B12 and folate**: Serum B12 has low sensitivity — some deficient patients have borderline levels. Methylmalonic acid (MMA) is elevated specifically in B12 deficiency; homocysteine rises in both B12 and folate deficiency. MMA is the most specific confirmatory test for functional B12 deficiency.
 
 **Reticulocyte count**: Elevated in haemolysis and acute blood loss (appropriate response). Low or normal in nutritional deficiency and aplasia (inadequate response — the bone marrow cannot compensate).
-
-```mermaid
-flowchart TD
-    A["Low Hb: men &lt;13 g/dL · women &lt;12 g/dL\nFBC · reticulocyte count · blood film\niron studies · B12/folate · LDH · bilirubin · haptoglobin"] --> EMER{"Emergency?\nHb &lt;7 or symptomatic (ACS · syncope)\nor active haemorrhage · signs of decompensation"}
-    EMER -->|"Yes"| TRANS["Transfuse: threshold Hb &gt;8 g/dL\n(Hb &gt;10 if ACS or cardiac ischaemia)\nControl source of bleeding\nUrgent haematology if blasts or pancytopenia"]
-    EMER -->|"No"| MCV{"Step 1 — MCV-based classification"}
-
-    MCV -->|"MCV &lt;80 fL\nMICROCYTIC"| MICRO["Iron studies: serum iron · ferritin · TIBC\ntransferrin saturation · blood film"]
-    MICRO -->|"↓ Ferritin · ↓ Fe · ↑ TIBC"| IDA["IRON DEFICIENCY ANAEMIA\nFind the source: GI bleed · malabsorption · menorrhagia\nColonoscopy ± OGD if ≥50 y or alarm features\nOral ferrous sulfate 200 mg TDS × 3 months\nCheck Hb at 4 weeks (↑ 20 g/L expected)\nIV iron if: malabsorption · IBD · intolerant · pre-operative"]
-    MICRO -->|"Normal/↑ ferritin · ↓ Fe · ↓ TIBC\nchronic disease pattern"| ACD["ANAEMIA OF CHRONIC DISEASE\nHepcidin sequesters iron in macrophages\nCauses: infection · cancer · autoimmune · CKD\nTreat underlying cause\nEPO (erythropoietin) if CKD-related anaemia"]
-    MICRO -->|"Normal iron studies\ntarget cell · hypochromic smear"| HGBO["HAEMOGLOBINOPATHY WORKUP\nHPLC / Hb electrophoresis\nAlpha/beta thalassaemia trait · HbS · HbC\nThalassaemia major: transfusion-dependent"]
-
-    MCV -->|"MCV 80–100 fL\nNORMOCYTIC"| NORMO["Reticulocyte index?\n(Retic % × Hct ÷ 0.45)"]
-    NORMO -->|"High retics (&gt;2)\nappropriate response"| HAEM["Haemolysis or acute blood loss\nDAT (direct Coombs) · LDH ↑ · haptoglobin ↓ · unconjugated bili ↑\nBlood film: spherocytes · fragments · sickle cells\n→ See Haemolytic Anaemia article"]
-    NORMO -->|"Low/normal retics\nhypoproliferative"| HYPOPROL["Bone marrow failure or mixed cause\nCKD (↓ EPO) · hypothyroidism · early deficiency · ACD\nCheck: TFTs · U&E · repeat iron/B12/folate\nBone marrow biopsy if pancytopenia or suspected aplasia/malignancy"]
-
-    MCV -->|"MCV &gt;100 fL\nMACROCYTIC"| MACRO["B12 · folate · LFTs · TFTs · blood film\n(hypersegmented neutrophils = megaloblastic)"]
-    MACRO -->|"↓ B12 (&lt;150 pmol/L)\n↑ MMA + ↑ homocysteine"| B12D["B12 DEFICIENCY\nCauses: pernicious anaemia (anti-IF antibodies)\ngastrectomy · ileal disease/resection · vegan diet\nClinical: subacute combined degeneration of cord\n(posterior + lateral column — B12 not folate)\nRx: IM hydroxocobalamin if neurological\nor high-dose oral B12 (1000 μg OD) if dietary cause"]
-    MACRO -->|"↓ Folate\n↑ homocysteine (MMA normal)"| FOLD["FOLATE DEFICIENCY\nCauses: poor intake · alcohol · pregnancy demand\nmalabsorption · methotrexate · phenytoin\nRx: folic acid 5 mg OD\nAlways co-prescribe folic acid with methotrexate\nFolate supplements in pregnancy prevent neural tube defects"]
-    MACRO -->|"B12/folate normal"| MACRONORM["Non-megaloblastic macrocytosis\nAlcohol · liver disease · hypothyroidism\nMDS · drugs (azathioprine · hydroxyurea)\nReticulocytosis (large young RBCs after bleeding/haemolysis)"]
-```
-
 ## Management
 
 ### Iron Deficiency

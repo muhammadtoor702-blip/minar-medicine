@@ -132,26 +132,6 @@ Small vessel vasculitis with pauci-immune necrotising inflammation (minimal immu
 - **Maintenance**: Rituximab 6-monthly or azathioprine — for 24 months minimum
 - **Plasma exchange**: For severe renal failure (creatinine >500 µmol/L) or pulmonary haemorrhage — evidence remains debated (PEXIVAS trial: plasma exchange did not reduce death/ESRD)
 - **Prophylaxis**: Co-trimoxazole — prevents PCP during immunosuppression; reduces relapse in GPA (trimethoprim reduces nasal *Staphylococcus* carriage — a relapse trigger)
-
-```mermaid
-flowchart TD
-    A["Inflammatory joint or systemic vascular presentation\nFever · joint swelling · rash · renal/pulmonary involvement\nESR/CRP · urate · ANCA · urinalysis"] --> EMERG{"Emergency?"}
-
-    EMERG -->|"Hot swollen joint\n± fever · high WBC"| JOINT["SEPTIC ARTHRITIS — EXCLUDE FIRST\nJoint aspiration (before steroids): WBC >50,000 · Gram stain + culture\nBlood cultures × 2\nIV flucloxacillin 2 g QDS (MRSA risk → vancomycin)\nNeisseria gonorrhoeae in sexually active: add ceftriaxone\nDo NOT inject intra-articular steroids until septic arthritis excluded"]
-    EMERG -->|"Pulmonary haemorrhage\nrapidly rising creatinine · mononeuritis multiplex"| AAV["ANCA-ASSOCIATED VASCULITIS — URGENT\ncANCA/PR3 (GPA) · pANCA/MPO (MPA)\nPulse IV methylprednisolone 500 mg × 3 days\nInduction: rituximab 375 mg/m² × 4 doses (preferred)\nor IV cyclophosphamide + prednisolone\nPlasma exchange: pulmonary haemorrhage or Cr >500 µmol/L\nMaintenance: rituximab 500 mg 6-monthly × 24 months\nCo-trimoxazole: PCP prophylaxis + reduces GPA relapse"]
-
-    EMERG -->|"No emergency"| PATTERN{"Pattern of joint involvement?"}
-
-    PATTERN -->|"Acute monoarthritis · first MTP · podagra\nankle · knee · prior similar attacks\nserum urate elevated"| GOUT["GOUT\nJoint aspiration: negatively birefringent needle-shaped crystals\nAcute attack: naproxen 500 mg BD\nor colchicine 500 µg TDS (first 12 h — most effective early)\nor prednisolone 30–40 mg if NSAIDs/colchicine contraindicated\nUrate-lowering therapy (ULT) — start 2–4 weeks after attack settles:\nAllopurinol 100 mg OD → titrate to serum urate <360 µmol/L\n(Cover initiation with colchicine 500 µg BD × 6 months)\nFebuxostat if allopurinol contraindicated/intolerant\nLifelong ULT — do NOT stop during acute attacks"]
-
-    PATTERN -->|"Acute monoarthritis · elderly · knee/wrist\nX-ray chondrocalcinosis"| PSEUDO["PSEUDOGOUT (CPPD disease)\nJoint aspiration: weakly positively birefringent\nrhomboid-shaped calcium pyrophosphate crystals\nX-ray: chondrocalcinosis (menisci · triangular fibrocartilage of wrist)\nAcute: NSAIDs · colchicine · or intra-articular steroid\nNo disease-modifying therapy — manage underlying causes\n(haemochromatosis · hyperparathyroidism · hypomagnesaemia)"]
-
-    PATTERN -->|"Systemic + palpable purpura\nmononeuritis multiplex\nsinusitis · haemoptysis · saddle-nose"| VASC{"Vessel size + ANCA pattern?"}
-    VASC -->|"Small vessel\ncANCA/PR3 (GPA)\nor pANCA/MPO (MPA, eosinophilic GPA)"| ANCA_TX["ANCA-ASSOCIATED VASCULITIS (AAV)\n→ see emergency pathway above\nGPA: granulomatous + polyangiitis (sinuses + lungs + kidneys)\nMPA: microscopic polyangiitis (renal-limited or pulmonary-renal)\nEGPA: eosinophilia + asthma + ANCA (Churg-Strauss)"]
-    VASC -->|"Medium vessel\nnodular purpura · microaneurysms\nmesenteric ischaemia"| PAN["POLYARTERITIS NODOSA (PAN)\nNo glomerulonephritis (distinguishes from AAV)\nHBV-associated in 30% — test HBsAg\nAngiography: saccular microaneurysms\nPrednisolone ± cyclophosphamide\nTreat underlying HBV"]
-    VASC -->|"IgA deposits · palpable purpura\nbuttocks + legs · IgA nephropathy\narthritis · abdominal pain · children"| HSP["IgA VASCULITIS (HENOCH-SCHÖNLEIN PURPURA)\nSerum IgA elevated · renal biopsy: mesangial IgA\nMost self-limiting — supportive care\nPrednisolone for severe GI or renal involvement\nMonitor urine + BP for ≥12 months after episode"]
-```
-
 ## Complications
 
 **Gout**: Tophi with skin ulceration, urate nephropathy, renal calculi, disability from chronic arthropathy, drug side effects (allopurinol hypersensitivity).

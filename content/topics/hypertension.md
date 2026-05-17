@@ -58,31 +58,6 @@ Hypertension is almost universally asymptomatic until end-organ damage occurs. W
 - U&E — renal function, electrolytes (hypokalaemia suggests Conn's)
 - Urine ACR — proteinuria as marker of early nephropathy
 - Fundoscopy — Keith-Wagener-Barker grade 3–4 indicates emergency
-
-```mermaid
-flowchart TD
-    A["Elevated blood pressure\nClinic BP ≥140/90 · or incidental high reading\nConfirm with ABPM or HBPM"] --> EMERG{"Hypertensive emergency?"}
-
-    EMERG -->|"SBP >180/110 + acute target organ damage\n(encephalopathy · acute HF · aortic dissection\nACS · pre-eclampsia/eclampsia · retinal haemorrhage)"| HTN_EMERG["HYPERTENSIVE EMERGENCY\nIV labetalol (1st line) · or IV sodium nitroprusside\nor IV GTN for HF · IV hydralazine for eclampsia\nTarget: reduce MAP by 25% in first hour\n(NOT to normal — risks cerebral ischaemia)\nAortic dissection: target SBP 100–120 with IV labetalol/esmolol\nPre-eclampsia: IV labetalol or IV hydralazine · magnesium (eclampsia)\nICU admission · arterial line · continuous monitoring"]
-
-    EMERG -->|"SBP >180/110\nbut NO acute organ damage"| HTN_URGENCY["HYPERTENSIVE URGENCY\nNo immediate IV treatment needed\nOral agents: amlodipine + ramipril ± doxazosin\nTarget reduction over 24–48 h\nIdentify and treat aggravating factors: pain · anxiety · missed medications"]
-
-    EMERG -->|"No emergency"| DIAG["CONFIRM DIAGNOSIS\nABPM (ambulatory): gold standard — take decision on average of 12 readings/day\nHBPM (home): alternative — 2 readings twice daily × 7 days · discard first day\nWhite coat hypertension: clinic ≥140/90 · ABPM <130/80 · monitor annually\nMasked hypertension: clinic <140/90 · ABPM ≥130/80 · treat as per ABPM"]
-
-    DIAG --> STAGE{"NICE Hypertension\nStage?"}
-    STAGE -->|"Stage 1: ABPM 130–149/85–94\n(clinic ≥140/90)"| ST1["STAGE 1 HYPERTENSION\nAge <80: lifestyle modifications × 3 months\nAge <40: consider secondary causes (FH · renal)\nTreat if: target organ damage · DM · CKD · established CVD · 10-year CV risk >10%\nLifestyle: reduce salt <6 g/day · DASH diet · 150 min exercise/week · weight loss · stop smoking · limit alcohol"]
-
-    STAGE -->|"Stage 2: ABPM ≥150/95\n(clinic ≥160/100)"| ST2["STAGE 2 HYPERTENSION — DRUG TREATMENT\nLifestyle + pharmacotherapy simultaneously\nSTEP THERAPY — NICE AB/CD approach:"]
-    ST2 --> DRUGS{"Drug choice\nby patient profile"}
-    DRUGS -->|"Age <55 · non-Afro-Caribbean\nor diabetic"| ACEI["Step 1: ACEi (ramipril 1.25–10 mg OD)\nor ARB if ACEi-intolerant (candesartan 4–32 mg OD)\nDo NOT combine ACEi + ARB"]
-    DRUGS -->|"Age ≥55 · or Afro-Caribbean\n(renin-angiotensin system less active)"| CCB["Step 1: Calcium channel blocker\nAmlodipine 5–10 mg OD (first-line CCB)\nor felodipine/lercanidipine if oedema"]
-    ACEI & CCB --> STEP2["Step 2: ACEi/ARB + CCB\n(if not at target on monotherapy)"]
-    STEP2 --> STEP3["Step 3: ACEi/ARB + CCB + thiazide-like diuretic\nIndapamide 2.5 mg OD (preferred over bendroflumethiazide)\nTarget: clinic BP <140/90 · ABPM <130/80\n(age >80: clinic BP <150/90)"]
-    STEP3 --> STEP4["Step 4: Resistant hypertension (still not at target on Step 3)\nAdd spironolactone 25 mg if serum K⁺ <4.5 mmol/L\nor doxazosin · or beta-blocker · or amiloride\nInvestigate for secondary hypertension: renal artery stenosis · hyperaldosteronism · phaeochromocytoma"]
-
-    DIAG --> TOD["TARGET ORGAN DAMAGE ASSESSMENT\nECG (LVH · ischaemia) · urine ACR (early nephropathy)\nFundi (hypertensive retinopathy: A-V nipping · flame haemorrhages · papilloedema)\nEchocardiogram if ECG abnormal (LVH)\nBMI · waist circumference · metabolic screen (glucose · lipids)\nQRisk3: 10-year cardiovascular risk score"]
-```
-
 ## Management
 
 ### Lifestyle Modification

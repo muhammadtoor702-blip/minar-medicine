@@ -80,28 +80,6 @@ IBS is a **positive clinical diagnosis** — based on Rome IV criteria in the ab
 - Bile acid malabsorption — post-cholecystectomy or post-ileal resection; SeHCAT scan diagnostic; responds to cholestyramine
 - Lactose/fructose intolerance — dietary exclusion trial
 - SIBO — hydrogen breath test; antibiotic treatment (rifaximin)
-
-```mermaid
-flowchart TD
-    A["Chronic abdominal symptoms\nAbdominal pain · bloating · altered bowel habit\n≥6 months duration"] --> ALARM{"Alarm features?\n(red flags)"}
-
-    ALARM -->|"Age >50 (new symptoms) · rectal bleeding\nweight loss · nocturnal symptoms · family history of CRC/IBD\niron deficiency anaemia · abnormal examination\nor raised FCP"| ORGANIC["INVESTIGATE FOR ORGANIC DISEASE\nFBC · CRP · ferritin · coeliac serology (TTG IgA)\nFaecal calprotectin: if elevated → colonoscopy/CT\n2-week wait referral if alarm features for CRC\nDo NOT diagnose IBS with alarm features present"]
-
-    ALARM -->|"No alarm features\nAge <50 · bloating · pain relieved by defaecation\nchanged stool frequency/form"| COELIAC["Check coeliac serology (TTG IgA + total IgA)\nbefore diagnosing IBS\n(coeliac disease mimics IBS — found in 1% of population)"]
-
-    COELIAC --> IBS_DX["IBS — ROME IV CRITERIA\nRecurrent abdominal pain ≥1 day/week over last 3 months\nAssociated with ≥2 of:\n· Related to defaecation (better or worse)\n· Associated with change in stool frequency\n· Associated with change in stool form/appearance\nOnset ≥6 months before diagnosis\nNO structural disease explaining symptoms"]
-
-    IBS_DX --> SUBTYPE{"IBS subtype\n(Bristol Stool Form Scale)"}
-
-    SUBTYPE -->|"IBS-C (constipation-predominant)\nTypes 1–2 >25% stools\nTypes 6–7 <25% stools"| IBS_C["IBS-C MANAGEMENT\nDiet: FODMAP reduction · adequate fluid · regular meals\nSoluble fibre (ispaghula/psyllium) — improves stool form\nOsmotic laxatives: polyethylene glycol (Movicol) · lactulose\nLibiprostone: chloride channel activator\nLinaclotide: guanylate cyclase-C agonist — NICE approved for moderate-severe IBS-C\nAmitriptyline 10–30 mg ON: reduces visceral hypersensitivity (also useful IBS-D)"]
-
-    SUBTYPE -->|"IBS-D (diarrhoea-predominant)\nTypes 6–7 >25% stools\nTypes 1–2 <25% stools"| IBS_D["IBS-D MANAGEMENT\nExclude: bile acid malabsorption (SeHCAT test), microscopic colitis, post-infectious IBS\nLow FODMAP diet (reduce fermentable carbohydrates): effective in 50–70%\nAntidiarrhoeals: loperamide PRN (before social situations)\nAmitriptyline 10–30 mg ON: first-line gut-brain modulator\nMebeverine or hyoscine: antispasmodics for pain\nRifaximin: non-absorbable antibiotic for IBS-D (post-infectious/SIBO component)\nSSRI: if anxiety/depression comorbid"]
-
-    SUBTYPE -->|"IBS-M (mixed)\nor IBS-U (unclassified)"| IBS_M["IBS-M/IBS-U MANAGEMENT\nGeneral low FODMAP diet\nSymptom-directed therapy: antispasmodic for pain\nAmitriptyline or SSRIs for brain-gut axis\nPsychological therapies: CBT · gut-directed hypnotherapy\n(evidence level equivalent to pharmacotherapy in IBS)"]
-
-    IBS_C & IBS_D & IBS_M --> GENERAL["ALL IBS — SHARED PRINCIPLES\nExplain diagnosis and rationale (reduces anxiety · improves outcomes)\nRegular meal pattern · avoid large fatty meals · alcohol · carbonation\nExercise: improves bowel habit and wellbeing\nPsychological: CBT · hypnotherapy · mindfulness\nReview at 6 months: if poor response → re-investigate (FCP · coeliac)\nAvoid unnecessary procedures/antibiotics/biopsies in clear Rome IV diagnosis"]
-```
-
 ## Management
 
 Management of IBS requires a **biopsychosocial approach** — addressing the physiological, psychological, and lifestyle components together. Symptom severity, patient health beliefs, and level of distress determine the intensity of intervention.

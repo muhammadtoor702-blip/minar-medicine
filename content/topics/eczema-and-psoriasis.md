@@ -143,33 +143,6 @@ Screen for psoriatic arthritis in all patients.
 - **Anti-IL-12/23**: Ustekinumab — less frequent dosing (every 12 weeks maintenance)
 
 PASI (Psoriasis Area and Severity Index) and DLQI (Dermatology Life Quality Index) guide treatment escalation. NICE criteria for biologics: PASI ≥10 + DLQI >10 after failure of ≥2 standard systemic treatments.
-
-```mermaid
-flowchart TD
-    A["Chronic inflammatory skin disease\nAtopic eczema or psoriasis suspected\n(often co-exist — assess both)"] --> PATTERN{"Clinical pattern?"}
-
-    PATTERN -->|"Pruritic · flexural · lichenified\nexudate/weeping · childhood onset\npositive family/personal atopy history"| ECZEMA["ATOPIC ECZEMA\nBNF/NICE Stepladder approach"]
-    ECZEMA --> SEV{"Severity?"}
-    SEV -->|"Mild — localised · not affecting sleep"| E1["Step 1: Emollients (500 g/week — mainstay)\nApply after bathing · avoid soap (use soap substitute)\nMild topical steroid PRN: hydrocortisone 1% (face/flexures)"]
-    SEV -->|"Moderate — widespread · affects sleep"| E2["Step 2: Emollients + moderate-potency steroid\nbetamethasone valerate 0.025% OD\nTopical calcineurin inhibitors (TCI): tacrolimus 0.03–0.1%\n(pimecrolimus) as steroid-sparing — use on face\nWet wraps: short-term for acute flares (children)"]
-    SEV -->|"Severe/refractory"| E3["Step 3: Potent steroid short courses\nbetamethasone 0.1% (betnovate) · clobetasol 0.05% (dermovate) for lichenified areas\nTopical tacrolimus 0.1% OD/BD (adult)"]
-    E3 --> INFECT{"Secondary infection?"}
-    INFECT -->|"S. aureus — weeping/crusted/honey-coloured"| STAPH["Flucloxacillin 500 mg QDS × 7 days\nor cefalexin 500 mg TDS (penicillin allergy)\nMRSA: doxycycline or trimethoprim"]
-    INFECT -->|"HSV superinfection — eczema herpeticum\nmonomorphic vesicles · punched-out erosions · fever"| HSV_TX["MEDICAL EMERGENCY\nIV aciclovir 5–10 mg/kg TDS\nAcute eczema herpeticum can be fatal in infants"]
-    E3 --> SYS{"Inadequate control on topicals?"}
-    SYS -->|"Yes — Step 4 systemic"| SYSTEMIC_E["Dupilumab (anti-IL-4Rα/IL-13 mAb): NICE approved moderate-severe\nInjection 300 mg SC every 2 weeks · effective + safe long-term\nCiclosporin: rapid onset · nephrotoxicity limits long-term use · monitor BP/Cr\nAzathioprine or methotrexate: slower onset · used as steroid-sparing agents\nJAK inhibitors (abrocitinib · upadacitinib): oral · fast onset · approved refractory"]
-
-    PATTERN -->|"Well-demarcated silvery plaques\nextensor surfaces · scalp · nails\nAuspitz sign · Koebner phenomenon"| PSORIASIS["PSORIASIS\nSubtypes: plaque (most common) · guttate · pustular · erythrodermic\nAssess: PASI score · DLQI · psoriatic arthritis screen (nail pitting · enthesitis · dactylitis)"]
-    PSORIASIS --> PSO_SEV{"Severity? PASI + DLQI"}
-    PSO_SEV -->|"Mild — PASI <10 · DLQI ≤10"| PSO1["TOPICAL THERAPY\nCalcipotriol/betamethasone combination (Dovobet): once daily\n(vitamin D analogue + corticosteroid — synergistic)\nScalp: coal tar shampoo · topical steroid application\nNails: potent steroid under occlusion or calcipotriol"]
-    PSO_SEV -->|"Moderate-severe — PASI ≥10 · DLQI >10\nor topicals inadequate"| PSO2["PHOTOTHERAPY\nNB-UVB (narrowband UVB): first-line systemic-equivalent\n3 sessions/week × 6–8 weeks\nContraindicated: prior skin cancer · photosensitising medications · lupus"]
-    PSO2 --> PSO3{"Phototherapy failed, contraindicated,\nor insufficient response?"}
-    PSO3 -->|"Yes — conventional systemic"| CST["CONVENTIONAL SYSTEMICS\nMethotrexate 15–25 mg/week (PO or SC): monitor LFTs + FBC\nAcitretin (retinoid): pustular/erythrodermic · teratogenic (contraception 3 years after)\nCiclosporin: rapid onset · short-course only · nephrotoxicity"]
-    CST --> BIO_CHECK{"PASI ≥10 + DLQI >10\nafter ≥2 systemic treatments?\n(NICE criteria for biologics)"}
-    BIO_CHECK -->|"Yes"| BIOLOGIC["BIOLOGICS\nAnti-TNF: adalimumab (SC fortnightly) · etanercept (SC weekly)\nAnti-IL-17A: secukinumab · ixekizumab (fastest complete clearance)\nAnti-IL-12/23: ustekinumab (every 12 weeks maintenance)\nAnti-IL-23: risankizumab · guselkumab (highest PASI 90/100 rates)\nScreen before starting: TB (IGRA) · HBV · HCV · HIV · varicella\nDo NOT use anti-TNF in moderate-severe HF (EF <35%)"]
-    PSO_SEV -->|"Psoriatic arthritis features\nnail pitting · enthesitis · dactylitis · spine"| PSA["PSORIATIC ARTHRITIS\nNSAIDs first-line · physiotherapy\nMethotrexate for peripheral arthritis\nAnti-TNF or anti-IL-17 for DMARD-refractory PsA\n(biologics cover both skin and joints)"]
-```
-
 ## Complications
 
 **Eczema**: Secondary bacterial infection (*S. aureus* — impetigo/eczema herpeticum if HSV superinfection — medical emergency: IV aciclovir); eczema herpeticum; erythroderma; psychological morbidity; sleep disruption.

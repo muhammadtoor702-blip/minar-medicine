@@ -152,28 +152,6 @@ Vector control: DEET repellent, permethrin-treated clothing, sleeping under inse
 | Malaria (*P. vivax*) | Weeks–months (can relapse years later) | Central/South America, SE Asia |
 
 **Immediate management:** Malaria film (× 3 at intervals if negative) is mandatory for any febrile traveller from a malaria-endemic area — this is non-negotiable. Blood cultures, FBC, U&E, LFTs. Then consider the full differential based on travel history and incubation period.
-
-```mermaid
-flowchart TD
-    A["Fever in Returning Traveller\nAny febrile patient who has travelled to a malaria-endemic area\nrequires malaria films — this is non-negotiable"] --> MALARIA["EXCLUDE MALARIA FIRST\nThick + thin blood films × 3 (12–24 h apart if negative but high suspicion)\nThick film: sensitivity · thin film: species ID and parasitaemia\nRapid diagnostic test (RDT): HRP-2 antigen for P. falciparum\nA SINGLE NEGATIVE FILM DOES NOT EXCLUDE MALARIA\nAlso: FBC (thrombocytopaenia nearly universal in malaria) · U&E · LFTs · glucose · blood cultures"]
-
-    MALARIA --> SPECIES{"Malaria species\nand severity?"}
-
-    SPECIES -->|"P. falciparum (most dangerous)\nno severe features"| FALCI_MILD["UNCOMPLICATED FALCIPARUM MALARIA\nArtemether-lumefantrine (Riamet): first-line in UK · take with fatty food\nAtovaquone-proguanil (Malarone): alternative\nDihydroartemisinin-piperaquine: also effective\nMonitor: daily films until negative · glucose · haematocrit"]
-
-    SPECIES -->|"P. falciparum + ANY severe feature\ncerebral malaria · severe anaemia (Hb &lt;70)\nARDS · AKI · parasitaemia &gt;2% · hypoglycaemia · shock"| FALCI_SEVERE["SEVERE FALCIPARUM MALARIA — EMERGENCY\nIV artesunate: first-line (superior to IV quinine — AQUAMAT and SEAQUAMAT trials)\nIf artesunate unavailable: IV quinine + doxycycline\nICU admission: fluid balance · glucose q1–2h · parasite count twice daily\nExchange transfusion: consider if parasitaemia &gt;10–15% + severe disease\nMonitor: hypoglycaemia (quinine stimulates insulin secretion)\nBlackwater fever (intravascular haemolysis): urgent dialysis if AKI"]
-
-    SPECIES -->|"P. vivax or P. ovale\n(hypnozoites — relapse risk)"| VIVAX["P. VIVAX / P. OVALE\nChloroquine: treats erythrocytic phase (if chloroquine-sensitive — check regional resistance)\nPrimaquine: eliminates hypnozoites (dormant liver stage) and PREVENTS RELAPSE\nCheck G6PD status before primaquine — causes haemolysis in G6PD deficiency"]
-
-    MALARIA --> OTHER_FEVER{"Other diagnosis?\n(by travel history + incubation period)"}
-
-    OTHER_FEVER -->|"South Asia travel\nstepwise fever · relative bradycardia\nrose spots · splenomegaly"| TYPHOID["ENTERIC FEVER (TYPHOID/PARATYPHOID)\nBlood cultures (positive in ~60–80% week 1 — most sensitive)\nCeftriaxone IV: first-line for severe enteric fever\nAzithromycin PO: for uncomplicated disease (particularly South Asia)\nDo NOT use ciprofloxacin from South Asia/Pakistan:\n(widespread fluoroquinolone resistance including XDR typhoid from Pakistan)\nComplication: intestinal perforation (2–3%) · haemorrhage · hepatitis"]
-
-    OTHER_FEVER -->|"Tropical travel\nbreakbone fever · retro-orbital pain\nthrombocytopaenia · rising haematocrit"| DENGUE["DENGUE FEVER\nNS1 antigen (days 1–5) · dengue IgM/IgG · PCR\nTreatment: supportive only — no antiviral\nOral rehydration for uncomplicated disease\nIV fluids for dengue with warning signs (abdominal pain · vomiting · bleeding)\nAntipyretics: PARACETAMOL ONLY\nAVOID NSAIDs and aspirin — worsen bleeding (thrombocytopaenia + platelet dysfunction)\nPlatelet transfusion: only for severe active bleeding (not just low count)"]
-
-    FALCI_MILD & FALCI_SEVERE --> PROPHYLAXIS["MALARIA PROPHYLAXIS (for future travellers)\nAtovaquone-proguanil (Malarone): start 1–2 days before · stop 1 week after (most regions)\nDoxycycline: start 1–2 days before · stop 4 weeks after (SE Asia · Africa)\nMefloquine: start 3 weeks before (less used — neuropsychiatric side effects)\nNo prophylaxis is 100% effective — films required regardless of compliance history"]
-```
-
 ## Complications
 
 **Severe malaria**: Multi-organ failure, ARDS, cerebral malaria, renal failure, hypoglycaemia, blackwater fever (intravascular haemolysis), death.

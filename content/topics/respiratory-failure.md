@@ -73,24 +73,6 @@ The **alveolar-arterial (A-a) gradient** helps localise the problem:
 - CTPA if PE suspected
 - Echo if cardiogenic cause suspected
 - Spirometry and NCS/EMG if neuromuscular disease suspected
-
-```mermaid
-flowchart TD
-    A["Respiratory Failure\nPaO₂ &lt;8 kPa ± PaCO₂ &gt;6 kPa\nABG mandatory — SpO₂ alone insufficient to classify"] --> ABG["INTERPRET ABG\nType 1: PaO₂ &lt;8 kPa · PaCO₂ normal or low (hyperventilation compensates)\nType 2: PaO₂ &lt;8 kPa + PaCO₂ &gt;6 kPa (ventilatory pump failure)\nChronicity: elevated HCO₃ = chronic Type 2 (renal compensation) · normal HCO₃ = acute\nA-a gradient: elevated = V/Q mismatch/shunt/diffusion · normal = hypoventilation only"]
-
-    ABG --> TYPE{"Type of failure?"}
-
-    TYPE -->|"Type 1 — hypoxaemia only\nPaCO₂ normal or low"| T1["TYPE 1 RESPIRATORY FAILURE\nCauses: V/Q mismatch (pneumonia · pulmonary oedema · PE · ARDS)\nor shunt (cardiac R→L · complete consolidation — shunt does NOT respond to supplemental O₂)\nO₂: target SpO₂ 94–98% (88–92% in COPD)\nHigh-flow nasal oxygen (HFNO): up to 60 L/min · reduces work of breathing\nCPAP: alveolar recruitment · first-line for cardiogenic pulmonary oedema\n(reduces preload + afterload → improves cardiac performance)\nIntubation + invasive ventilation: FiO₂ &gt;0.6 · airway unprotected · exhaustion\nARDS (PaO₂/FiO₂ &lt;300): tidal volume 6 mL/kg IBW · PEEP ≥8 · prone positioning"]
-
-    TYPE -->|"Type 2 — hypercapnia\nPaCO₂ &gt;6 kPa\nfeatures of hypercapnia: confusion · asterixis · bounding pulse"| T2CAUSE{"Mechanism?"}
-
-    T2CAUSE -->|"COPD or severe asthma\nairway obstruction + fatigue"| COPDT2["TYPE 2 — COPD/ASTHMA EXACERBATION\nControlled O₂: Venturi mask 24–28% · target SpO₂ 88–92%\n(High-flow O₂ abolishes hypoxic drive + Haldane effect → acute CO₂ retention)\nTreat precipitant: antibiotics · salbutamol + ipratropium nebulisers · prednisolone 30–40 mg ×5 days\nNIV (BiPAP): start early if pH 7.25–7.35 (sweet spot — before severe acidosis)\nIPAP 12–16 cmH₂O · EPAP 4–6 cmH₂O · recheck ABG at 1 h\nNIV reduces intubation rates + mortality in COPD exacerbation (Grade A evidence — BTS 2017)\nNIV contraindications: GCS &lt;8 · copious secretions · undrained pneumothorax · vomiting\nIntubation: pH &lt;7.25 · NIV failure · reduced consciousness\nGoals-of-care discussion before intubation in end-stage COPD"]
-
-    T2CAUSE -->|"Neuromuscular disease\nGBS · myasthenia · MND"| NMTF2["TYPE 2 — NEUROMUSCULAR FAILURE\nCRITICAL: Do NOT rely on ABG alone — patients remain alert until sudden arrest\nSerial forced vital capacity (VC): monitor q4–6 h\nIntubate electively when VC &lt;1.5 L or VC &lt;20 mL/kg\n(do NOT wait for ABG deterioration — too late)\nGBS: IVIg 2 g/kg over 5 days · no steroids (worsen outcome)\nMyasthenic crisis: IVIg or plasmapheresis · IV pyridostigmine\nICU criteria: bulbar weakness · VC &lt;1 L · aspiration risk"]
-
-    T2CAUSE -->|"Opiate/sedative overdose\nOHS · kyphoscoliosis\nreduced central drive"| CENT2["TYPE 2 — CENTRAL/MECHANICAL FAILURE\nOpiate overdose: naloxone 400 mcg IV/IM (titrate doses · short half-life · may need infusion)\nObesity-hypoventilation syndrome: nocturnal NIV (first step) + weight loss\nChronic central/mechanical failure: long-term home NIV (BiPAP)\nDo NOT prescribe opiates/sedatives without respiratory monitoring in at-risk patients"]
-```
-
 ## Management
 
 ### Type 1 Respiratory Failure

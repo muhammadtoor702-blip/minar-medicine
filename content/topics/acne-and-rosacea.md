@@ -155,29 +155,6 @@ Fair-skinned adults (Fitzpatrick I–II), predominantly women (but more severe i
 - CO₂ laser or electrosurgery — rhinophyma (phymatous subtype)
 
 **Ocular rosacea**: Lid hygiene (warm compresses, eyelid scrubs), topical cyclosporin eye drops, oral doxycycline for moderate-severe disease.
-
-```mermaid
-flowchart TD
-    A["Facial ± truncal inflammatory lesion(s)"] --> B{"Primary diagnosis?"}
-    B -->|"Comedones + papules/pustules\n± nodules/cysts; face/back/chest\nno flushing; onset puberty"| ACN["ACNE VULGARIS"]
-    B -->|"Facial flushing/erythema · telangiectasia\nNO comedones; central face\nage 30–60; triggers: heat, alcohol, sun"| ROS["ROSACEA"]
-
-    ACN --> ACNSEV{"Severity?"}
-    ACNSEV -->|"Comedones only\n(non-inflammatory)"| MILD["Mild — Comedonal\nTopical retinoid: adapalene or tretinoin\nApply nightly to entire face\nFirst response at 6–8 weeks"]
-    ACNSEV -->|"&lt;20 papules/pustules"| MOD["Mild–Moderate — Papulopustular\nTopical retinoid + benzoyl peroxide\n± topical antibiotic (clindamycin)\nCombine antibiotic with BPO to limit resistance"]
-    ACNSEV -->|"&gt;20 papules/pustules\nor moderate truncal acne"| MODCO["Moderate-Severe\nAdd oral doxycycline 100 mg BD × 3 months max\nCombine with topical retinoid + BPO throughout"]
-    ACNSEV -->|"Nodules/cysts · scarring\nor failed 2 antibiotic courses"| SEV["Severe — Oral Isotretinoin\nMonitor: LFTs · lipids · β-hCG before starting\nTeratogenic (iPLEDGE/REMS contraception required)\nSide effects: cheilitis · dryness · mood · sun sensitivity\nCumulative dose target: 120–150 mg/kg"]
-
-    ACN --> FEMACN{"Female patient with\nhormonal features?"}
-    FEMACN -->|"Cyclical flares · PCOS features\nor refractory to topicals"| COMB["Combined OCP (anti-androgenic)\nor oral spironolactone 50–100 mg OD\nBoth reduce sebum via androgen blockade"]
-
-    ROS --> ROSSUB{"Subtype?"}
-    ROSSUB -->|"Erythema/flushing\ntelangiectasia · no papules"| ETR["Erythematotelangiectatic\nTrigger avoidance: alcohol · UV · heat · spicy food\nTopical azelaic acid or brimonidine\nLaser/IPL for persistent telangiectasia"]
-    ROSSUB -->|"Papules/pustules on\nerythematous background"| PPR["Papulopustular\nTopical ivermectin 1% (first-line) or metronidazole\nModerate–severe: doxycycline 40 mg MR OD × 12 wks\nSubantimicrobial dose — no resistance risk"]
-    ROSSUB -->|"Rhinophyma\nthickened irregular nasal skin"| PHY["Phymatous (male predominance)\nIsotretinoin may slow progression\nEstablished rhinophyma: CO₂ laser or surgical debulking"]
-    ROSSUB -->|"Gritty eyes · blepharitis\nstyes · photophobia"| OCU["Ocular Rosacea\nLid hygiene + warm compresses daily\nTopical cyclosporine if persistent\nOral doxycycline if keratitis\nOphthalmology referral"]
-```
-
 ## Complications
 
 **Acne**: Psychological morbidity (depression, anxiety, social withdrawal), permanent scarring (atrophic or hypertrophic), post-inflammatory hyperpigmentation.

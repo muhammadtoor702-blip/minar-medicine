@@ -78,30 +78,6 @@ Significant bacteriuria = ≥10⁵ CFU/mL of a single organism (lower thresholds
 - Renal ultrasound — if pyelonephritis is not improving after 48–72 hours, or if complication is suspected (abscess, obstruction)
 - CT urography — for recurrent UTI in men, structural abnormality suspected, or stones
 - All men with a first UTI warrant investigation for structural or functional abnormality
-
-```mermaid
-flowchart TD
-    A["UTI Presentation\nDysuria · frequency · urgency · suprapubic discomfort\nhaematuria · cloudy/smelly urine"] --> SEPSIS{"Sepsis criteria?\nfever · hypotension · HR &gt;90 · confusion\nor loin pain + systemic upset"}
-
-    SEPSIS -->|"Urosepsis — systemic\ninfection criteria met"| UROSEPSIS["UROSEPSIS — FOLLOW SEPSIS PATHWAY\nBlood cultures + MSU BEFORE antibiotics\nIV antibiotics immediately:\n→ piperacillin-tazobactam or co-amoxiclav\n→ meropenem if resistant organism suspected\nIV fluids · ICU if haemodynamic instability\nImaging: renal USS (exclude obstruction or abscess)\nSource control: nephrostomy if obstructed infected system"]
-
-    SEPSIS -->|"No sepsis\nupper UTI features:\nfever · loin pain · rigors · CVA tenderness"| PYELO["PYELONEPHRITIS\nSend MSU for MC&S BEFORE antibiotics (guides de-escalation)\nBlood cultures if systemically unwell\nMild–moderate (tolerating oral): ciprofloxacin 500 mg BD × 7 days\nSevere (vomiting or septic): IV co-amoxiclav or cephalosporin → step down to oral\nDuration: 10–14 days total\nAdmit if: vomiting · sepsis · significant comorbidity · failure to improve after 24 h oral\nUSS if not improving by 72 h (exclude obstruction or renal abscess)\nNOTE: nitrofurantoin NOT suitable for pyelonephritis — inadequate tissue penetration"]
-
-    SEPSIS -->|"No systemic features\nlower UTI symptoms only"| LOWER{"Complicated UTI?\npregnancy · male sex · structural/functional abnormality\nDM · immunosuppressed · AKI or CKD · hospital-acquired"}
-
-    LOWER -->|"Uncomplicated lower UTI\nhealthy non-pregnant woman"| SYMPTOMS{"Symptomatic?"}
-
-    SYMPTOMS -->|"Symptoms present\n(dysuria · frequency · urgency)"| UNCOMPLICATED["UNCOMPLICATED LOWER UTI — WOMEN\nNo urine culture required for first-episode uncomplicated UTI\nFirst-line: nitrofurantoin 100 mg MR BD × 5 days\n(NICE preferred — lower resistance than trimethoprim; avoid if eGFR &lt;30)\nAlternative: trimethoprim 200 mg BD × 7 days\n→ ONLY if local resistance rates &lt;20%\npivmecillinam 400 mg TDS × 3 days (where available)\nSymptom relief: paracetamol · adequate hydration"]
-
-    SYMPTOMS -->|"Bacteriuria without symptoms\n(incidental or screening)"| ASB["ASYMPTOMATIC BACTERIURIA (ASB)\nDO NOT TREAT ASB in the following groups:\n→ Elderly patients · diabetics · catheterised patients · non-pregnant adults\n→ Treating ASB increases antibiotic resistance + C. difficile risk\n→ Bacteriuria in an asymptomatic patient = colonisation, NOT infection\nTREAT ASB ONLY in:\n1. Pregnancy (risk: ascending pyelonephritis → preterm labour)\n2. Before urological instrumentation (e.g., TURP, cystoscopy with biopsy)"]
-
-    LOWER -->|"Complicated UTI\nor any UTI in a man"| COMPLICATED["COMPLICATED UTI\nSend MSU MC&S BEFORE antibiotics\nMale with first UTI: always investigate\n→ MSU culture · renal USS · PSA if age &gt;50 · consider cystoscopy\n→ Structural abnormality · STI · immunosuppression must be excluded\nAntibiotics: guided by culture and clinical severity\nDuration: 7–14 days depending on severity and response\nReview at 48 h with culture results → de-escalate to narrowest effective agent"]
-
-    UNCOMPLICATED --> RECURRENT{"Recurrent UTI?\n≥2 episodes in 6 months\nor ≥3 in 12 months"}
-
-    RECURRENT -->|"Yes — recurrent UTI"| PREV["RECURRENT UTI — PREVENTION STRATEGY\nNon-antibiotic (first-line):\n→ High fluid intake (&gt;1.5–2 L/day) · post-coital voiding\n→ Topical oestrogen: post-menopausal women (restores lactobacillus flora · reduces colonisation)\n→ D-mannose: reduces E. coli uroepithelial adhesion (evidence comparable to low-dose prophylaxis)\n→ Cranberry: modest evidence — reduces symptomatic episodes\nAntibiotic prevention (if non-antibiotic measures fail):\n→ Post-coital single dose: nitrofurantoin 50–100 mg or trimethoprim 100 mg\n→ Low-dose continuous prophylaxis: nitrofurantoin 50–100 mg nocte or trimethoprim 100 mg nocte\n→ Self-start therapy for motivated patients with reliable symptom recognition\nInvestigate for structural or functional cause (cystoscopy · USS · bladder diary)"]
-```
-
 ## Management
 
 ### Uncomplicated Lower UTI (Women)

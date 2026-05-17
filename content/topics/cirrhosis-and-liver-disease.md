@@ -82,28 +82,6 @@ Child-Pugh A (5–6): compensated; B (7–9): moderate; C (10–15): decompensat
 - Neutrophil count ≥250 cells/mm³ = spontaneous bacterial peritonitis (SBP) — treat immediately
 - SAAG (serum-ascites albumin gradient) ≥11 g/L = portal hypertension
 - Cytology — malignant cells suggest peritoneal metastasis
-
-```mermaid
-flowchart TD
-    A["Cirrhosis: known or suspected\nAssess Child-Pugh (A/B/C) + MELD-Na score\nLook for decompensation events"] --> DECO{"Acute presentation?"}
-
-    DECO -->|"Haematemesis/melaena\nor haemodynamic instability"| BLEED["ACUTE VARICEAL HAEMORRHAGE\nABCs · IV access × 2 · blood/crossmatch\nVasoactive drug IMMEDIATELY:\nterlipressin 2 mg IV or octreotide 50 μg bolus → infusion\nCeftriaxone 1 g/day × 7 days (reduces mortality — prevents SBP)\nPlatelet &gt;50 · INR correction · Hb target 70–80 g/L (restrictive transfusion)\nUrgent OGD within 12 h: variceal band ligation (first-line)\nTIPS if Child A/B refractory to endoscopic Rx\nSengstaken tube as bridge to TIPS if uncontrolled"]
-
-    DECO -->|"Fever · abdominal pain · confusion\nor worsening ascites"| PARA["Diagnostic paracentesis\nAscitic PMN count"]
-    PARA --> SBP_CHK{"PMN &gt;250 cells/mm³?"}
-    SBP_CHK -->|"Yes"| SBP["SPONTANEOUS BACTERIAL PERITONITIS\nIV cefotaxime 2 g TDS or ceftriaxone 1 g OD × 5 days\nAlbumin: 1.5 g/kg day 1 + 1 g/kg day 3\n(Prevents hepatorenal syndrome — reduces mortality)\nPrimary prophylaxis: norfloxacin 400 mg OD or ciprofloxacin 500 mg OD\nafter first episode or albumin &lt;15 g/L / bilirubin &gt;50"]
-    SBP_CHK -->|"No"| ALT["Other cause: cardiac · malignancy · TB\nSEAG &gt;11 g/L = portal hypertension"]
-
-    DECO -->|"Confusion · asterixis (flap)\nsleep-wake reversal · fetor"| HE["HEPATIC ENCEPHALOPATHY\nWest Haven Grade I–IV\nFind precipitant: GI bleed · infection · constipation · hypoK · sedatives\nTreat precipitant\nLactulose: titrate to 2–3 soft stools/day\nRifaximin 550 mg BD: reduces recurrence by 58%\nProtein restriction NOT recommended (worsens sarcopenia)"]
-
-    DECO -->|"Rising creatinine in\ncirrhotic with ascites\nno other cause"| HRS["HEPATORENAL SYNDROME (HRS)\nExclude: hypovolaemia · nephrotoxins · sepsis · obstruction\nAKI criteria: Cr ↑ ≥26.5 μmol/L in 48 h or ↑ ≥50% in 7 days\nTreat: albumin 1 g/kg/day + terlipressin\nor noradrenaline + albumin (ICU)\nWithhold diuretics · ACEi/ARBs · NSAIDs\nDefinitive: liver transplantation only"]
-
-    DECO -->|"Stable or compensated\ncirrhosis"| CHRONIC["CHRONIC MANAGEMENT"]
-    CHRONIC --> ASCITES["ASCITES\nNa restriction &lt;2 g/day\nSpironolactone 100 mg + furosemide 40 mg (100:40 ratio)\nMaximum: spiro 400 mg + furo 160 mg\nRefractory: large-volume paracentesis + albumin 8 g/L drained\nor TIPS if no encephalopathy/Child C"]
-    CHRONIC --> SURV["SURVEILLANCE\nHCC: USS ± AFP every 6 months\nVarices: OGD at diagnosis\nNone: every 3 y · Small: every 2 y\nMedium/Large: propranolol or carvedilol (primary prophylaxis)\nor endoscopic band ligation"]
-    CHRONIC --> TX["TRANSPLANTATION\nMELD-Na &gt;15 or after first decompensation\nContraindicated: active alcohol · extrahepatic malignancy\nLife-long immunosuppression post-transplant"]
-```
-
 ## Management
 
 ### Ascites

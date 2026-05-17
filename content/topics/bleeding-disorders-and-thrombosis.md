@@ -114,30 +114,6 @@ The pattern of bleeding points to the component of haemostasis that is defective
 **Thrombophilia screen**: Protein C, protein S, antithrombin, Factor V Leiden (DNA), prothrombin mutation (DNA), antiphospholipid antibodies. Perform at least 3 months after an acute thrombotic event and off anticoagulation — acute thrombosis and anticoagulants interfere with results. Do not screen during acute illness or pregnancy.
 
 **D-dimer**: High sensitivity, low specificity. Excellent for ruling out VTE in low-probability patients (NPV >99%). Elevated in many benign conditions — infection, inflammation, malignancy, pregnancy, post-operatively. Do not use it as a rule-in test.
-
-```mermaid
-flowchart TD
-    A["Abnormal bleeding or coagulation tests\nPT · aPTT · fibrinogen · platelets · blood film\nLDH · bilirubin · haptoglobin if haemolysis suspected"] --> EMER{"Critical bleeding?\nHaemodynamic compromise\nor critical-site bleed (CNS · airway · pericardium)"}
-    EMER -->|"Yes"| EMER_TX["Massive Haemorrhage Protocol\n1:1:1 ratio PRBC:FFP:platelets\nReversal agents: see below\nUrgent haematology · surgical haemostasis"]
-    EMER -->|"No"| CLASSIFY{"Coagulation pattern?"}
-
-    CLASSIFY -->|"↑ PT/INR\nnormal aPTT\nnormal platelets"| PTONLY["Extrinsic pathway (Factor VII)\nCauses: warfarin · liver disease (early) · vitamin K deficiency\nReversal:\n– Warfarin: vitamin K 1–10 mg IV + 4-factor PCC if urgent\n– DOAC (FXa inhibitor): andexanet alfa\n– DOAC (thrombin): idarucizumab (dabigatran)"]
-
-    CLASSIFY -->|"↑ aPTT\nnormal PT\nnormal platelets"| APTTONLY["Intrinsic pathway (Factors VIII · IX · XI · XII)\nMixing study: patient plasma + normal plasma 1:1"]
-    APTTONLY -->|"Corrects → deficiency"| DEFIC["FACTOR DEFICIENCY\nHaemophilia A (↓ FVIII): X-linked · males\nHaemophilia B (↓ FIX): X-linked · males\nvWD (↓ vWF): most common inherited — mucocutaneous bleeding\nTreat: recombinant FVIII/FIX · DDAVP for mild Haemophilia A and vWD\nvWF concentrate for type 2/3 vWD"]
-    APTTONLY -->|"Does NOT correct → inhibitor"| INHIB["COAGULATION INHIBITOR\nAcquired FVIII inhibitor: elderly · autoimmune · postpartum\nLupus anticoagulant (APLS): paradoxically thrombotic not haemorrhagic\nAcquired FVIII: bypass therapy — rFVIIa or aPCC\nAPLS: anticoagulate (warfarin) · hydroxychloroquine · avoid OCP"]
-
-    CLASSIFY -->|"↑ PT + ↑ aPTT\n± low fibrinogen"| BOTH["Common pathway / multiple factor deficiency\nDIC · severe liver disease · massive transfusion · supratherapeutic warfarin"]
-    BOTH --> DIC{"DIC criteria?\nCoagulopathy + thrombocytopenia\n+ high D-dimer + ↓ fibrinogen &lt;1.5 g/L"}
-    DIC -->|"Yes"| DICMGMT["DIC\nTreat underlying cause FIRST:\nsepsis · obstetric catastrophe · trauma · leukaemia (APML)\nCryoprecipitate if fibrinogen &lt;1.5 g/L\nFFP for PT/aPTT prolongation\nPlatelets: transfuse if &lt;50 (bleeding) or &lt;10 (prophylactic)\nHeparin only if thrombosis-predominant DIC"]
-
-    CLASSIFY -->|"Isolated ↓ platelets\nnormal PT/aPTT"| THROMBO["THROMBOCYTOPENIA"]
-    THROMBO --> CAUSE{"Mechanism?"}
-    CAUSE -->|"Recent heparin exposure\nthrombocytopenia + thrombosis"| HIT["HIT (Heparin-Induced Thrombocytopenia)\n4T score: Thrombocytopenia · Timing · Thrombosis · oTher causes\nSTOP all heparin (UFH AND LMWH)\nAlternative anticoagulation: argatroban · fondaparinux\nNEVER warfarin until platelets &gt;150 (limb gangrene risk)"]
-    CAUSE -->|"Microangiopathic haemolysis\nschistocytes · ↑ LDH · ↓ haptoglobin\nno clear cause"| TMA["THROMBOTIC MICROANGIOPATHY\nTTP (ADAMTS13 &lt;10%): plasma exchange + steroids + rituximab\nHUS (STEC-associated): supportive only — NO antibiotics/antiperistaltics\naHUS (complement): eculizumab\n!Platelets contraindicated in TTP/HUS (fuel the thrombus)"]
-    CAUSE -->|"Isolated ↓ platelets\nno systemic illness\nno drug cause"| ITP["ITP (Immune Thrombocytopaenia)\nPlt &lt;30 or bleeding: prednisolone 1 mg/kg/day\nIVIG for emergency (surgery/delivery)\nEltrombopag (TPO agonist) or rituximab for relapse\nSplenectomy: vaccinate first (pneumococcus · Hib · meningococcus)"]
-```
-
 ## Management
 
 ### Haemophilia

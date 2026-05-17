@@ -152,24 +152,6 @@ Reactivation of varicella-zoster virus (VZV) from dorsal root ganglia following 
 - Antivirals (aciclovir 800 mg 5× daily, or valaciclovir 1 g TDS for 7 days) — start within 72 hours of rash onset; reduces duration, severity, and risk of PHN.
 - Pain management: paracetamol, NSAIDs, neuropathic agents for severe pain.
 - **Shingrix vaccine** (recombinant zoster vaccine) — recommended for adults ≥50; 97% efficacy against shingles; highly effective for preventing PHN; two doses 2–6 months apart. Preferred over Zostavax.
-
-```mermaid
-flowchart TD
-    A["Skin Infection Presentation\nErythema · warmth · swelling · fever\nor vesicles · ulcers · crusting · pruritus"] --> DANGER{"Systemic toxicity or\npain out of proportion to skin?"}
-
-    DANGER -->|"Yes — necrotising fasciitis suspected"| NF["NECROTISING FASCIITIS — SURGICAL EMERGENCY\nKey sign: PAIN DISPROPORTIONATE to skin appearance\nLater: dusky skin → haemorrhagic blisters → crepitus (gas in tissue — pathognomonic)\nLRINEC score ≥6 (CRP · WBC · Hb · Na · Cr · glucose): high risk\nDo NOT wait for imaging if clinical suspicion high\nImmediate surgical debridement — the ONLY definitive treatment\nBroad-spectrum IV antibiotics: meropenem + clindamycin + vancomycin (adjunctive — not curative alone)\nICU admission · consider hyperbaric oxygen at specialist centres\nType I (polymicrobial): diabetics · post-surgical\nType II (Group A Streptococcus): young healthy patients · strep toxic shock"]
-
-    DANGER -->|"No — localised or moderate"| TYPE{"Type of infection?"}
-
-    TYPE -->|"Non-raised diffuse erythema\nor sharply raised edge\nfever · lower leg most common"| CELLULITIS["CELLULITIS AND ERYSIPELAS\nErysipelas: upper dermis/lymphatics · SHARPLY RAISED defined edge · face or lower leg\nCellulitis: dermis + subcutaneous · less defined · diffuse erythema\nCausative organisms: Streptococcus pyogenes (most common) · S. aureus (wound-related)\nMark erythema edge at assessment — reassess at 24–48 h\nEron I/II (mild/moderate — outpatient): oral flucloxacillin 500 mg–1 g QDS ×5–7 days\nEron III (severe · comorbidity · face/periorbital): IV flucloxacillin or benzylpenicillin inpatient\nMRSA suspected: IV vancomycin or linezolid\nCRITICAL: examine web spaces in ALL patients — tinea pedis = most common entry portal for recurrent leg cellulitis\n→ Treat tinea: topical/oral antifungal\nRecurrent (≥2 episodes/year): prophylactic phenoxymethylpenicillin 250 mg BD long-term"]
-
-    TYPE -->|"Dermatomal vesicular rash\nunilateral · does not cross midline\nprodromal burning pain"| ZOSTER["HERPES ZOSTER (SHINGLES)\nReactivation of VZV from dorsal root ganglia\nStart antivirals within 72 h of rash: aciclovir 800 mg 5× daily ×7 days\n(↓duration · ↓severity · ↓risk of post-herpetic neuralgia)\nHerpes zoster ophthalmicus (V1 branch — forehead/periocular):\n→ Hutchinson's sign (vesicles on nasal tip): corneal involvement likely\n→ Urgent ophthalmology referral\nRamsay-Hunt syndrome (geniculate ganglion):\n→ Facial palsy + vesicles in EAC + hearing loss + vertigo\n→ Aciclovir + prednisolone\nPost-herpetic neuralgia: amitriptyline · pregabalin/gabapentin · topical lidocaine\nPrevention: Shingrix vaccine (recombinant) — adults ≥50 · 97% efficacy · 2 doses"]
-
-    TYPE -->|"Intensely pruritic · worse at night\nweb spaces · wrists · genitalia\npathognomonic burrows"| SCABIES["SCABIES (Sarcoptes scabiei)\nBurrows: short tortuous track with white dot at advancing end (web spaces · wrists · genitalia · periumbilical)\nCrusted (Norwegian) scabies: immunocompromised · hyperkeratotic plaques · millions of mites · highly contagious\nPermethrin 5% cream: whole body neck down · wash off after 8–12 h · REPEAT at day 7\nCrusted scabies: oral ivermectin (unlicensed UK) + permethrin\nTreat ALL household contacts and sexual partners simultaneously (regardless of symptoms)\nWash clothing/bedding/towels at 60°C on treatment day\nPruritus persists 2–4 weeks post-cure (hypersensitivity to dead mites) — reassure · antihistamines"]
-
-    TYPE -->|"Superficial golden crusted lesions\naround nose/mouth · children\nhighly contagious"| IMPETIGO["IMPETIGO\nNon-bullous: S. aureus or Streptococcus pyogenes · honey-coloured crusts\nBullous: S. aureus exfoliative toxins (cleave desmoglein-1) · fragile bullae → thin crust\nLocalised: topical fusidic acid (first-line); topical mupirocin if MRSA or resistance\nWidespread/systemic: oral flucloxacillin ×7 days"]
-```
-
 ## Clinical Insight
 
 Tinea pedis is the most important and most overlooked risk factor for recurrent lower leg cellulitis. The fissures between the toes provide a portal of entry for streptococcal infection. Treating the tinea — with topical terbinafine or clotrimazole applied consistently to the web spaces — is as important as the antibiotic for preventing recurrence. Every patient with lower leg cellulitis should have their interdigital spaces examined.

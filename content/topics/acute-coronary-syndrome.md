@@ -84,37 +84,6 @@ STEMI is defined by ST elevation ≥1mm in ≥2 contiguous limb leads, or ≥2mm
 **Thrombolysis** is used when primary PCI cannot be delivered within 120 minutes. Tenecteplase or alteplase are standard agents. The patient must still be transferred to a PCI centre after successful thrombolysis.
 
 **Absolute contraindications to thrombolysis:** prior haemorrhagic stroke at any time, ischaemic stroke within 3 months, suspected aortic dissection, active bleeding (excluding menstruation), BP >180/110 uncontrolled.
-
-```mermaid
-flowchart TD
-    A["Chest pain: pressure/heaviness, radiation, diaphoresis, nausea\nAtypical (women · elderly · DM): dyspnoea, jaw/arm pain, epigastric"] --> B["FIRST 10 MIN\n12-lead ECG · IV access · vitals\nAspirin 300 mg chewed immediately"]
-    B --> C{"ECG: STEMI criteria?\nSTE ≥1 mm in ≥2 contiguous limb leads\nV2–V3: men ≥2 mm · men &lt;40 ≥2.5 mm · women ≥1.5 mm\nor new LBBB with ischaemic presentation"}
-
-    C -->|"YES — STEMI\nComplete occlusion until proven otherwise"| STEMI["Load: ticagrelor 180 mg + UFH/enoxaparin + atorvastatin 80 mg\nO₂ only if SpO₂ &lt;90%\nGTN if SBP &gt;90 (avoid if RV MI or PDE5i in last 48 h)"]
-    STEMI --> DISSECT{"Exclude aortic dissection\nTearing maximal pain · BP/pulse asymmetry\nmediastinal widening on CXR?"}
-    DISSECT -->|"Yes → DO NOT THROMBOLYSE"| DISS["CT aorta urgently\nCardiac surgery pathway"]
-    DISSECT -->|"No"| REPERFUSION{"Primary PCI available within 120 min?\nOR door-to-balloon ≤90 min?"}
-    REPERFUSION -->|"Yes"| PCI["PRIMARY PCI\nGold standard — D2B ≤90 min\nTransferring: total ischaemic time ≤120 min"]
-    REPERFUSION -->|"No — onset ≤12 h,\nno absolute CI"| LYSIS["THROMBOLYSIS\nTenecteplase or alteplase — door-to-needle ≤30 min\nAbsolute CI: haemorrhagic stroke ever · ischaemic stroke &lt;3 m\nsuspected dissection · active bleeding · BP &gt;180/110 uncontrolled"]
-    LYSIS --> LYCHECK{"Successful lysis?\nST resolution ≥50% at 60–90 min\n+ reperfusion arrhythmia + pain relief?"}
-    LYCHECK -->|"Yes"| PHARMACI["Transfer for angiography + PCI within 2–24 h"]
-    LYCHECK -->|"No — failed lysis"| RESCPCI["Rescue PCI immediately"]
-
-    C -->|"NO STEMI"| NSTEMI_WU["Serial ECGs + high-sensitivity troponin\n0h/1h or 0h/3h validated pathway"]
-    NSTEMI_WU --> TROP{"Troponin rise/fall\nabove 99th percentile?"}
-    TROP -->|"Yes"| TYPE{"Type 1 vs Type 2?"}
-    TYPE -->|"Type 1: plaque rupture\nischaemic ECG · no dominant supply-demand trigger"| NSTEMI["NSTEMI\nAspirin + ticagrelor + anticoagulation + statin\nAvoid nitrates if RV infarct · hypotension · PDE5i use"]
-    TYPE -->|"Type 2: supply-demand mismatch\nsepsis · anaemia · tachyarrhythmia · hypotension"| T2MI["Type 2 MI / Myocardial Injury\nTreat the underlying cause\nCoronary intervention unlikely to help"]
-    TROP -->|"No + ongoing symptoms\nor dynamic ECG changes"| UA["Unstable Angina\nTreat as NSTE-ACS; risk-stratify"]
-    TROP -->|"No + symptoms resolved\nno ECG changes"| LOW["ACS unlikely\nConsider: PE · dissection · pericarditis · MSK · GI"]
-
-    NSTEMI --> RISK{"Invasive strategy timing"}
-    UA --> RISK
-    RISK -->|"Immediate &lt;2 h:\nshock · refractory pain · acute HF · malignant arrhythmia"| IA["Immediate angiography"]
-    RISK -->|"Early &lt;24 h:\nTIMI ≥3 · dynamic ECG · +troponin · DM · CKD"| EA["Early angiography"]
-    RISK -->|"Low risk:\nall criteria absent"| CONS["Conservative/stress test first\nor CTCA if low-intermediate risk"]
-```
-
 ### NSTEMI — Risk Stratification
 
 The **TIMI score** (0–7) guides the urgency of invasive strategy. A score ≥3 favours early angiography within 24 hours. Immediate angiography is indicated for haemodynamic instability, cardiogenic shock, refractory chest pain, or life-threatening arrhythmia.

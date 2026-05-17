@@ -41,30 +41,6 @@ The result: increased airway resistance → air trapping → hyperinflation → 
 | PaCO₂ | Low (hyperventilating) | Low | Normal or rising |
 
 **A silent chest in the context of acute asthma is a pre-arrest sign** — absent wheeze means no airflow, not improvement.
-
-```mermaid
-flowchart TD
-    A["Acute wheeze · dyspnoea · chest tightness\nSpeech · RR · HR · SpO₂ · PEFR % predicted\nABG if SpO₂ &lt;94% or severe/life-threatening"] --> C{"LIFE-THREATENING?\nAny one of:\nPEFR &lt;33% predicted\nSpO₂ &lt;92%\nSilent chest · cyanosis · exhaustion\nHypotension · arrhythmia\nPaCO₂ normal or rising (exhaustion)"}
-
-    C -->|"YES — LIFE-THREATENING"| LT["CALL ICU/ANAESTHETICS NOW\nHigh-flow O₂ — target SpO₂ 94–98%\nNebulised salbutamol 5 mg back-to-back\n+ nebulised ipratropium 0.5 mg\nIV hydrocortisone 200 mg\nIV magnesium sulphate 2 g over 20 min"]
-    LT --> LT2{"Improving after\ninitial treatment?"}
-    LT2 -->|"No — rising PaCO₂\nsilent chest · exhaustion"| ITU["Controlled intubation and ventilation\nHigh-risk procedure in asthma:\npermissive hypercapnia · low tidal volumes · long expiratory time\nDynamic hyperinflation · barotrauma risk\nIV aminophylline only under specialist guidance"]
-    LT2 -->|"Yes"| MONIT["Close monitoring\nRepeat PEFR + SpO₂ + ABG q30 min"]
-
-    C -->|"NO"| SEV{"SEVERE?\nAny one of:\nPEFR 33–50% predicted\nRR ≥25/min · HR ≥110/min\nCannot complete sentences\nSpO₂ 92–94%"}
-    SEV -->|"Yes — SEVERE"| SEVRX["O₂ target 94–98%\nNebulised salbutamol 5 mg q20 min × 3\n+ ipratropium 0.5 mg\nOral prednisolone 40–50 mg\n(or IV hydrocortisone if cannot swallow)"]
-    SEV -->|"No — MODERATE\nPEFR 50–75% · SpO₂ ≥94%"| MODRX["Salbutamol 2.5–5 mg nebulised (or 4–8 puffs spacer)\nOral prednisolone if not rapidly improving\nReassess at 1 hour"]
-
-    SEVRX --> RESP{"1 hour review:\nPEFR &gt;75% · SpO₂ ≥94%\nclinically stable?"}
-    MODRX --> RESP
-    RESP -->|"Yes — safe to discharge"| DISCH["DISCHARGE CRITERIA\nContinue prednisolone 5 days total\nResume/step-up preventer inhaler\nInhaler technique check before leaving\nWritten personalised asthma action plan\nFollow-up within 48 h (GP or asthma nurse)"]
-    RESP -->|"No — not improving"| LT
-
-    A --> CHRONIC["LONG-TERM STEPWISE MANAGEMENT\nBTS/GINA 2023 guidelines"]
-    CHRONIC --> STEPS["Step 1: SABA reliever only (intermittent mild symptoms)\nStep 2: Add low-dose ICS (budesonide 200–400 μg/day)\nStep 3: Add LABA to ICS — combination inhaler\nStep 4: Increase ICS dose ± LTRA (montelukast) ± LAMA (tiotropium)\nStep 5: Specialist biologics based on T2 endotype:\n– Anti-IgE: omalizumab (allergic/IgE-high)\n– Anti-IL-5: mepolizumab/benralizumab (eosinophilic)\n– Anti-IL-4/13: dupilumab\nThreshold: ≥2 exacerbations/year on high-dose ICS/LABA"]
-    STEPS --> WARN["CRITICAL RULES\nNEVER prescribe LABA alone in asthma — increases mortality\nSABA &gt;2×/week = inadequate control → step up ICS\nStepdown only after 3+ months of stable control\nSafety netting: every patient needs a written action plan"]
-```
-
 **Differential for wheeze:**
 - COPD — older smoker, fixed obstruction, reduced DLCO
 - Acute pulmonary oedema ("cardiac asthma") — bibasal crepitations, raised JVP, cardiac history, CXR evidence of pulmonary oedema

@@ -155,24 +155,6 @@ HRT replaces oestrogen (± progesterone in women with a uterus to prevent endome
 **Diagnosis**: Total testosterone (8–10am sample, fasting), LH, FSH, prolactin, SHBG, full blood count, DEXA scan for bone density.
 
 **Management**: Testosterone replacement therapy (gel, patch, or IM injection) for symptomatic hypogonadism with confirmed low testosterone. Monitor Hb (polycythaemia), PSA (prostate), bone density. Clomifene or pulsatile GnRH to stimulate testicular function if fertility is desired.
-
-```mermaid
-flowchart TD
-    A["Reproductive Endocrinology Presentation\nIrregular cycles · infertility · hirsutism · acne\nor menopausal symptoms · male hypogonadism"] --> ASSESS{"Primary presentation?"}
-
-    ASSESS -->|"Irregular periods · hirsutism\ninfertility · PCO on USS"| PCOS_DX["PCOS DIAGNOSIS — Rotterdam Criteria (2 of 3 required)\n1. Oligo-/anovulation: cycles &gt;35 days or &lt;8/year\n2. Clinical/biochemical hyperandrogenism: hirsutism · elevated FAI/free testosterone\n3. Polycystic ovarian morphology: ≥20 follicles/ovary or ovarian volume &gt;10 mL\nExclude first: CAH (17-OHP) · Cushing's (UFC) · androgen tumour (testosterone &gt;5 nmol/L)\nhyperprolactinaemia · thyroid dysfunction"]
-
-    PCOS_DX --> GOAL{"Management goal?"}
-
-    GOAL -->|"Fertility desired"| FERTILITY["OVULATION INDUCTION\nStep 1: Weight loss 5–10% (restores ovulation in anovulatory obese PCOS)\nStep 2: Letrozole (aromatase inhibitor) — first-line (superior to clomifene — LETROZOLE trial)\nStep 3: Clomifene citrate — second-line · risk of multiple pregnancy\nStep 4: Metformin — adjunct; useful in insulin-resistant PCOS\nStep 5: Gonadotrophin injections — FSH/LH with USS follicle monitoring\nStep 6: Laparoscopic ovarian drilling — unipolar diathermy · restores ovulation ~70%\nStep 7: IVF — if all above fail"]
-
-    GOAL -->|"No fertility\ncycle regulation\nhirsutism/acne"| SYMPTOM["SYMPTOM MANAGEMENT\nCycle control + endometrial protection:\n→ Combined OCP: reduces LH · raises SHBG · prevents endometrial hyperplasia\n→ If OCP not suitable: progestogen 12–14 days every 3 months minimum (withdrawal bleed)\nHirsutism/acne:\n→ Combined OCP (co-cyprindiol/Dianette): first-line hormonal treatment\n→ Spironolactone 50–200 mg/day: anti-androgen (reliable contraception mandatory)\n→ Eflornithine cream · laser/electrolysis\nMetabolic monitoring:\n→ Metformin if IFG or metabolic syndrome · annual HbA1c + fasting lipids\n→ PCOS: 4× lifetime T2DM risk · 3× endometrial cancer risk (unopposed oestrogen)"]
-
-    ASSESS -->|"Age &gt;45 · hot flushes\nnight sweats · vaginal dryness\nirregular or absent periods"| MENO["MENOPAUSE MANAGEMENT\nDiagnosis: clinical in women &gt;45 with typical symptoms\n(FSH &gt;30 IU/L ×2 if &lt;45 — premature ovarian insufficiency)\nFirst-line treatment: HRT — most effective (↓hot flushes by 75%)\nPreferred: transdermal oestradiol (patch/gel) + micronised progesterone (Utrogestan)\n(Transdermal oestrogen does NOT increase VTE or stroke risk — unlike oral)\nPost-hysterectomy: oestrogen-only HRT\nNo mandatory time limit: review annually (NICE NG23 2023)\nContraindications to systemic HRT: oestrogen-sensitive cancer · unexplained bleeding\nNon-hormonal alternatives:\n→ SSRIs/SNRIs (venlafaxine) · fezolinetant (NK3 receptor antagonist — highly effective)\nLocal vaginal oestrogen: for genitourinary symptoms · minimal systemic absorption"]
-
-    ASSESS -->|"Male: low libido · ED · fatigue\nreduced muscle mass · infertility"| HYPO["MALE HYPOGONADISM\nDiagnosis: total testosterone 8–10am sample × 2\nLow T + elevated LH/FSH: primary (testicular failure)\n→ Klinefelter (XXY) · orchitis · chemotherapy · radiation\nLow T + low/normal LH/FSH: secondary (pituitary/hypothalamic)\n→ Hypopituitarism · prolactinoma · haemochromatosis · exogenous testosterone abuse\nTreatment:\nTestosterone replacement (gel/patch/IM) for symptomatic hypogonadism\nFertility desired: clomifene or pulsatile GnRH — NOT TRT (suppresses spermatogenesis)\nMonitor: Hb (polycythaemia) · PSA · bone density (DEXA)"]
-```
-
 ## Clinical Insight
 
 PCOS is a metabolic condition as much as a reproductive one. The ovarian and menstrual features are the presenting complaint — but the insulin resistance, cardiovascular risk, and type 2 diabetes risk are the long-term determinants of health outcomes. Every woman with PCOS should have an annual HbA1c, fasting lipids, and blood pressure check — regardless of her current reproductive goals.

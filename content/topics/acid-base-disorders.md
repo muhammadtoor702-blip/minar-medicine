@@ -41,50 +41,6 @@ If compensation is greater or lesser than expected, a second primary disorder is
 **Step 5 — Delta-delta ratio** (if raised AG metabolic acidosis): (AG − 12) / (24 − HCO₃). Ratio <1 = additional normal AG metabolic acidosis. Ratio >2 = additional metabolic alkalosis.
 
 **Step 6 — Clinical context:** Integrate with history, examination, and other investigations.
-
-```mermaid
-flowchart TD
-    A["ABG: pH · PaCO₂ · HCO₃\nAlso obtain: Na⁺, Cl⁻, albumin, lactate"] --> B{"Step 1 — pH?"}
-    B -->|"&lt; 7.35 acidemia"| AC["Acidemia"]
-    B -->|"&gt; 7.45 alkalemia"| ALK["Alkalemia"]
-    B -->|"7.35–7.45 normal"| NL["May still be mixed disorder\nExamine PaCO₂ and HCO₃ independently"]
-
-    AC --> AC2{"Step 2 — Primary process?"}
-    AC2 -->|"↓ HCO₃ &lt; 22"| MA["METABOLIC ACIDOSIS"]
-    AC2 -->|"↑ PaCO₂ &gt; 45"| RA["RESPIRATORY ACIDOSIS"]
-    AC2 -->|"Both abnormal"| MIXED1["MIXED: Resp + Metabolic Acidosis\nCardiac arrest · severe sepsis · apnoea"]
-
-    MA --> WINTER["Step 3 — Winter's formula\nExpected PaCO₂ = 1.5 × HCO₃ + 8 (±2)"]
-    WINTER --> WC{"Measured PaCO₂?"}
-    WC -->|"Higher than expected"| CONC_RA["+ Respiratory acidosis\nOpioids · neuromuscular failure · COPD fatigue"]
-    WC -->|"Lower than expected"| CONC_RAlk["+ Respiratory alkalosis\nSepsis · PE · salicylates · pregnancy"]
-    WC -->|"Within range"| APPROP["Appropriate compensation only"]
-
-    MA --> AG["Step 4 — Anion gap\nAG = Na⁺ − (Cl⁻ + HCO₃)\nAlbumin-corrected: add 2.5 per g/dL below 4.0"]
-    AG -->|"AG &gt; 12: HIGH"| HAG["MUDPILES\nMethanol · Uraemia · DKA/AKA/starvation\nPropylene glycol · INH/Iron\nLactic acidosis · Ethylene glycol · Salicylates"]
-    HAG --> DELTA["Step 5 — Delta ratio\n(AG − 12) ÷ (24 − HCO₃)"]
-    DELTA -->|"&lt; 1"| D1["+ Normal-AG acidosis\nDiarrhoea · RTA · excessive saline"]
-    DELTA -->|"1–2"| D2["Pure high-AG metabolic acidosis"]
-    DELTA -->|"&gt; 2"| D3["+ Metabolic alkalosis\nVomiting · diuretics · NGT suction"]
-    AG -->|"AG ≤ 12: NORMAL"| NAG["Urine anion gap (UAG)\n= uNa⁺ + uK⁺ − uCl⁻"]
-    NAG -->|"Negative UAG"| GI["GI HCO₃ loss\nDiarrhoea · ileostomy · fistula"]
-    NAG -->|"Positive UAG"| RTA["Renal acidification defect\nRTA · CKD · hypoaldosteronism"]
-
-    RA --> RAC{"HCO₃ rise per 10 mmHg ↑ PaCO₂?"}
-    RAC -->|"Acute: +1"| RAC1["Acute ventilatory failure\nOpioids · CNS depression · severe asthma/COPD\nConsider NIV or intubation"]
-    RAC -->|"Chronic: +3.5"| RAC2["Chronic CO₂ retention\nCOPD/OHS — target SpO₂ 88–92%"]
-
-    ALK --> ALK2{"Step 2 — Primary process?"}
-    ALK2 -->|"↑ HCO₃ &gt; 26"| MALK["METABOLIC ALKALOSIS"]
-    ALK2 -->|"↓ PaCO₂ &lt; 35"| RALK["RESPIRATORY ALKALOSIS"]
-
-    MALK --> UCL{"Urine Cl⁻"}
-    UCL -->|"&lt; 20 mmol/L\nsaline-responsive"| SRESP["Volume/Cl⁻-depleted\nVomiting · NG suction · remote diuretics\nRx: 0.9% NaCl + KCl replacement"]
-    UCL -->|"&gt; 20 mmol/L\nsaline-resistant"| SRES["Volume-expanded / hyperaldosteronism\nConn's · Cushing's · Bartter/Gitelman\nRx: treat underlying cause; replete K⁺ + Mg²⁺"]
-
-    RALK --> RALKC["Causes: hypoxia · PE · sepsis · anxiety\nPregnancy · liver failure · CNS disease\nSalicylates early: mixed resp alk + high-AG acidosis\n→ check salicylate level; alkalinise urine; dialysis if severe"]
-```
-
 ---
 
 ## Metabolic Acidosis

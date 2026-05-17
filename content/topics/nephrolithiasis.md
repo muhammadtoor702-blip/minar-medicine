@@ -75,28 +75,6 @@ Pain from ureteric colic is among the most severe pains in clinical medicine. It
 **Stone analysis:** If a stone is passed or retrieved, send for chemical analysis to guide metabolic evaluation and prevention.
 
 **24-hour urine collection** (after acute episode has resolved, for recurrent stone-formers): Calcium, oxalate, uric acid, citrate, sodium, creatinine, and volume — identifies specific metabolic abnormalities to target with prevention.
-
-```mermaid
-flowchart TD
-    A["Acute loin-to-groin pain or renal colic\nSevere unilateral flank pain · haematuria\nnausea/vomiting · restlessness (can't find comfortable position)"] --> EMERG{"Emergency features?"}
-
-    EMERG -->|"Fever >38°C · systemic upset\nor single kidney · transplant kidney"| OBST_INF["OBSTRUCTED INFECTED KIDNEY — UROLOGICAL EMERGENCY\nIV antibiotics immediately (co-amoxiclav or gentamicin)\nEmergency ureteric stent or nephrostomy (decompression)\n(Do NOT wait for stone to pass — infected obstructed kidney is life-threatening)\nBlood cultures before antibiotics · USS/CT for anatomy"]
-
-    EMERG -->|"Anuria or oliguria\nbilateral obstruction"| ANURIA["BILATERAL OBSTRUCTION\nCatheterise for bladder decompression\nUrgent USS: bilateral hydronephrosis\nBilateral ureteric stents · nephrostomy · urology same day\nMonitor AKI: renal function may deteriorate rapidly"]
-
-    EMERG -->|"No emergency features"| IMAGING["NON-CONTRAST CT KUB\n(Gold standard — detects 97% of stones · size · location · hydronephrosis)\nXR KUB: radio-opaque stones only (calcium · struvite) · 60% visible\nUltrasound: safe in pregnancy · detects hydronephrosis · less sensitive for ureteric stones\nFirst-line in pregnancy: USS → MRI if inconclusive (avoid CT)"]
-
-    IMAGING --> SIZE{"Stone size\nand location?"}
-
-    SIZE -->|"<5 mm ureteric stone\n(>90% pass spontaneously)"| CONSERVATIVE["CONSERVATIVE MANAGEMENT\nIV/IM diclofenac 75 mg (most effective analgesia — NSAID > opioid for renal colic)\nor IM morphine if NSAID contraindicated\nAlpha-blocker: tamsulosin 0.4 mg OD — MET (medical expulsive therapy)\nfacilitates passage of lower ureteric stones ≤10 mm\nHigh fluid intake (2–3 L/day)\nStrain urine — send stone for analysis\nFollow-up KUB/USS in 4 weeks"]
-
-    SIZE -->|"5–10 mm or not passing\nat 4 weeks"| INTER["UROLOGICAL INTERVENTION\nUreterorenoscopy (URS) with laser lithotripsy: mid/lower ureteric stones · gold standard\nShockwave lithotripsy (SWL): upper ureteric/renal stones · can be outpatient\nPercutaneous nephrolithotomy (PCNL): large renal stones >2 cm\nContraindications to SWL: pregnancy · coagulopathy · obstruction distal to stone · AAA"]
-
-    SIZE -->|"Stone analysis → metabolic\nworkup for recurrence"| PREVENTION["STONE PREVENTION\nAll stone types:\n↑ Fluid intake (urine output >2 L/day) · ↓ salt · ↓ animal protein\nCalcium oxalate (most common — 70%):\nNormal calcium diet (low calcium diet INCREASES stones — calcium binds oxalate in gut)\nPotassium citrate or thiazide diuretic\nReduce oxalate: spinach · nuts · chocolate\nCalcium phosphate: thiazide · alkalinise urine\nUric acid stones (radiolucent on CT): allopurinol · alkalinise urine (sodium bicarbonate)\nStruvite (infection stones — staghorn): treat infection · PCNL + antibiotics\nCystine: very high fluid intake · urinary alkalinisation · D-penicillamine"]
-
-    IMAGING --> METABOLIC["METABOLIC INVESTIGATION\n(First stone if <30 years · recurrent · bilateral · family history · metabolic risk factors)\n24-hour urine: volume · pH · calcium · oxalate · citrate · uric acid · sodium\nSerum: Ca²⁺ · urate · PTH (hyperparathyroidism is #1 secondary cause of hypercalciuria)\nRTA type I: distal RTA → calcium phosphate stones · urine pH always >5.5\nHyperoxaluria: primary (AGXT mutation) · enteric (Crohn's/short bowel — ↑oxalate absorption)"]
-```
-
 ## Management
 
 ### Acute Renal Colic

@@ -117,28 +117,6 @@ Antibiotic-associated diarrhoea caused by toxin-producing *C. difficile* — a s
 - Recurrent CDI: **fidaxomicin** (superior to vancomycin for recurrence prevention)
 - Multiple recurrences: **faecal microbiota transplant (FMT)** — highly effective (>80–90% cure rate)
 - Infection control: alcohol hand gel does NOT kill *C. difficile* spores — soap and water essential
-
-```mermaid
-flowchart TD
-    A["Suspected infection"] --> B{"Severity?"}
-    B -->|"Sepsis · shock · neutropenic fever\nCNS infection · rapidly progressive SSTI\nImmunocompromised host"| URGENT["CULTURES BEFORE ANTIBIOTICS — then treat within 1 h\nBlood cultures × 2 (do not delay antibiotics &gt;30 min for cultures)\nBroad-spectrum empiric based on source + resistance risk"]
-    B -->|"Clinically stable\nnon-life-threatening"| NONEMERG["Target diagnostics FIRST\nBlood/urine/sputum cultures · NAAT · serology\nDo not start antibiotics if viral illness likely\nAvoid antibiotics for URTI/viral pharyngitis/bronchitis"]
-
-    URGENT --> EMPIRIC["EMPIRIC SELECTION PRINCIPLES\nCommunity-acquired: narrower spectrum adequate\nHospital-acquired (&gt;48 h) or prior MDR exposure: broader coverage\nPenicillin allergy: clarify type (rash vs anaphylaxis)\nDo not deny effective beta-lactam for documented mild allergy"]
-    NONEMERG --> EMPIRIC
-
-    EMPIRIC --> SOURCE{"Empiric choices by common source"}
-    SOURCE -->|"Community-acquired\npneumonia (CAP)"| CAP["Mild outpatient: amoxicillin + doxycycline\nModerate inpatient: co-amoxiclav + clarithromycin\nSevere/ICU: piperacillin-tazobactam + azithromycin\nAtypical cover required in all hospitalised CAP"]
-    SOURCE -->|"UTI"| UTI["Uncomplicated lower UTI: trimethoprim or nitrofurantoin 3–7 days\nPyelonephritis: co-amoxiclav or cefalexin 7–14 days\nComplicated/MDR risk: piperacillin-tazobactam\nESBL: meropenem or fosfomycin (UTI)"]
-    SOURCE -->|"Bacterial meningitis"| MENING["Ceftriaxone 2 g IV — do not delay for LP\nAdd ampicillin if &gt;50 y or immunocompromised (Listeria)\nDexamethasone 10 mg IV before or with first dose\nConsider aciclovir if HSV encephalitis possible"]
-    SOURCE -->|"Neutropenic fever\n(ANC &lt;0.5 × 10⁹/L)"| NEUTRO["Piperacillin-tazobactam 4.5 g IV 8-hourly\nAdd vancomycin if MRSA risk · line infection · haemodynamically unstable\nAntifungal (micafungin) if fever persists &gt;4–5 days\nLMIC or carbapenem-resistant risk: meropenem"]
-    SOURCE -->|"Skin/soft tissue\n(SSTI)"| SSTI["Non-purulent cellulitis: flucloxacillin or cefalexin\nPurulent: incise and drain ± flucloxacillin\nMRSA or severe: vancomycin IV or linezolid PO\nNecrotising fasciitis: urgent surgery + pip-tazo + clindamycin"]
-
-    EMPIRIC --> DEESC["48–72 h MANDATORY REVIEW\nReview cultures + sensitivities\nNarrow to targeted agent if organism identified\nStop if infection excluded\nIV → oral switch when tolerating + clinically improving\nDefine and document stop date"]
-    DEESC --> DUR["DURATION PRINCIPLES\nUncomplicated UTI: 3–5 days\nCAP: 5 days (7 if severe)\nCellulitis: 5–7 days\nIntra-abdominal (post-source control): 4 days\nEndocarditis/osteomyelitis: 4–6 weeks (organism/valve-dependent)\nShorter validated courses — do not continue 'until better' without indication"]
-    DEESC --> MDR["MDR ORGANISMS\nMRSA: vancomycin · teicoplanin · linezolid · daptomycin\nESBL-producing Enterobacteriaceae: meropenem or fosfomycin\nCarbapenem-resistant Enterobacteriaceae (CRE): ceftazidime-avibactam · meropenem-vaborbactam\nC. difficile: vancomycin PO or fidaxomicin\n(metronidazole no longer first-line for CDI)\nRefer to local antibiogram — resistance patterns vary by institution"]
-```
-
 ## Complications
 
 **AMR infections**: High morbidity and mortality from limited treatment options; prolonged hospital stays; need for toxic last-resort drugs (colistin, fosfomycin).

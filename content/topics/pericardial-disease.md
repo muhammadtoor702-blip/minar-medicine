@@ -116,24 +116,6 @@ Fibrous scarring of the pericardium creates a rigid, non-compliant shell. Diasto
 ### Management
 
 Pericardiectomy is the definitive treatment. Medical management of fluid overload provides symptom relief while awaiting surgery.
-
-```mermaid
-flowchart TD
-    A["Pericardial disease presentation\nChest pain · pericardial rub · ECG changes\nor dyspnoea · haemodynamic instability"] --> EMERG{"Haemodynamic compromise?"}
-
-    EMERG -->|"Hypotension · tachycardia · raised JVP\nMuffled heart sounds (Beck's triad)\nor pulsus paradoxus >10 mmHg"| TAMPONADE["CARDIAC TAMPONADE — EMERGENCY\nBedside echo: pericardial effusion + RV diastolic collapse + IVC plethora (>21 mm · <50% collapse)\nEmergency pericardiocentesis:\nSubxiphoid approach under echo guidance (or fluoroscopy)\nNeedle at 45° toward left shoulder from xiphoid\nDrain until haemodynamically stable (send fluid: LDH · protein · glucose · cytology · culture)\nTemporise: IV fluid 500 mL bolus (raises filling pressures)\nDo NOT use diuretics or nitrates (reduce preload → cardiac arrest)\nFollowing drainage: identify cause (malignancy · TB · uraemia · Dressler's · idiopathic)"]
-
-    EMERG -->|"No haemodynamic compromise"| PERI{"Clinical syndrome?"}
-
-    PERI -->|"Sharp pleuritic chest pain · pericardial rub\nsaddle-shaped ST elevation + PR depression (ECG)\nprevious viral URTI · young adult"| PERIS["ACUTE PERICARDITIS\nESC diagnostic criteria (2 of 4):\n· Pericarditic chest pain (pleuritic · positional — better sitting forward)\n· Pericardial friction rub\n· New ECG changes (saddle ST elevation · PR depression)\n· Pericardial effusion\nTreatment: NSAIDs (ibuprofen 600 mg TDS × 2 weeks) + colchicine 0.5 mg BD × 3 months\nColchicine halves recurrence rate (COPE/ICAP trials)\nAspirin preferred if: MI/post-cardiac surgery (Dressler's)\nRestrict exercise until symptom-free + CRP normalised\nSteroids: AVOID as first-line (↑recurrence risk) — reserve for autoimmune/refractory/NSAID-intolerant"]
-
-    PERI -->|"Recurrent pericarditis\n>3 episodes despite colchicine"| RECURRENT["RECURRENT PERICARDITIS\nIL-1 blockade: anakinra (anti-IL-1β) or rilonacept (IL-1α/β)\nRilonacept: 60–80% reduction in recurrence (RHAPSODY trial)\nImmunosuppression: azathioprine · IVIG for refractory\nPericardiectomy: last resort for constrictive physiology"]
-
-    PERI -->|"Chronic dyspnoea · elevated JVP\nKussmaul's sign (JVP ↑ on inspiration)\nPericardial knock · ascites · peripheral oedema\nequalization of diastolic pressures"| CONSTRICTIVE["CONSTRICTIVE PERICARDITIS\nEchocardiography: ventricular interdependence · 'septal bounce' · respiratory variation\nCT/MRI: pericardial thickening (>4 mm) · calcification\nCardiac catheterisation: equalisation of LVEDP = RVEDP · dip-and-plateau\nCauses: TB · radiation (most common treatable cause) · post-cardiac surgery · viral\nTreatment: diuretics for congestion (temporary relief)\nDefinitive: pericardiectomy (high-risk surgery — 5–10% operative mortality)"]
-
-    PERI -->|"Asymptomatic effusion\nor small-moderate effusion"| EFFUSION["PERICARDIAL EFFUSION\nEcho: quantify (small <10 mm · moderate 10–20 · large >20)\nInvestigate cause: TSH · TFTs · ANA · anti-dsDNA · blood cultures · viral serology · CXR (TB)\nMalignant effusion: cytology on pericardiocentesis fluid · CT for primary\nTB pericarditis: anti-TB treatment × 6 months + prednisolone (reduces constrictive pericarditis risk)\nUraemic pericarditis: dialysis (not pericardiocentesis unless tamponade)"]
-```
-
 ## Clinical Insight
 
 Colchicine is not optional. Adding it to NSAIDs halves the recurrence rate at virtually zero additional cost or toxicity. Every patient with pericarditis should receive it for three months.

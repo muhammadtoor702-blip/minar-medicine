@@ -53,30 +53,6 @@ AF may be completely asymptomatic and discovered incidentally, or may present wi
 
 <!-- Wikimedia Commons: "ECG Atrial Fibrillation.svg" by Ewingdo; vectorised by Marnanel, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation.svg -->
 ![Atrial fibrillation ECG](/images/medical/cardiology/atrial-fibrillation-ecg.svg)
-
-```mermaid
-flowchart TD
-    A["Irregularly irregular pulse · palpitations · dyspnoea\n12-lead ECG: absent P waves · irregular RR · usually narrow QRS"] --> CONF{"AF confirmed?"}
-    CONF -->|"No"| DIFF["Differentials:\nAtrial flutter with variable block (sawtooth ~300 bpm)\nMultifocal atrial tachycardia (≥3 P morphologies)\nFrequent ectopics · sinus arrhythmia"]
-    CONF -->|"Yes"| STABLE{"Haemodynamically UNSTABLE?\nShock · syncope · ischaemia\nacute HF · SBP &lt;90"}
-
-    STABLE -->|"YES"| CARDIO["IMMEDIATE SYNCHRONISED DC CARDIOVERSION\n(Do not delay for anticoagulation)\n200 J biphasic; sedate if conscious"]
-    STABLE -->|"NO — Stable"| THREE["Stable AF: three simultaneous decisions"]
-
-    THREE --> CAUSE["1. REVERSIBLE CAUSES\nTFTs (hyperthyroidism)\nK⁺/Mg²⁺ · infection · PE · ACS\nalcohol · OSA · valvular disease\nAlways check TFTs in new AF — 10–15% have thyrotoxicosis"]
-
-    THREE --> RATERHY{"2. RATE vs RHYTHM CONTROL\nEAST-AFNET 4 (2020): early rhythm control\nreduces cardiovascular events — favour rhythm control"}
-    RATERHY -->|"Rate control preferred:\npermanent AF · elderly · minimal symptoms\nor rhythm control failed"| RATE["Rate control — target resting HR &lt;110 bpm\nBeta-blocker (first-line): bisoprolol\nDiltiazem/verapamil if no HFrEF\nDigoxin if HF or sedentary lifestyle\n(Avoid diltiazem/verapamil in HFrEF)"]
-    RATERHY -->|"Rhythm control preferred:\nnew-onset · young · symptomatic\ntachycardia-induced cardiomyopathy"| RHYTHM["Rhythm control\nAF &lt;48 h or TOE-guided: cardioversion safe\nAF &gt;48 h: anticoagulate ≥3 weeks before + ≥4 weeks after\nPharmacological cardioversion:\n– Flecainide: only if no structural heart disease\n– Amiodarone: HF or structural disease\nLong-term: catheter ablation (PVI) increasingly first-line\nfor paroxysmal and persistent AF"]
-
-    THREE --> STROKE{"3. STROKE PREVENTION\nCHA₂DS₂-VASc score"}
-    STROKE --> SCORE["CHF=1 · HTN=1 · Age ≥75=2 · DM=1\nStroke/TIA=2 · Vascular disease=1\nAge 65–74=1 · Female sex=1"]
-    SCORE --> AC{"Anticoagulate?"}
-    AC -->|"Men ≥2 or Women ≥3"| DOAC["DOAC (preferred in non-valvular AF)\nApixaban · rivaroxaban · dabigatran · edoxaban\nMore predictable · no monitoring · fewer interactions"]
-    AC -->|"Mechanical valve or\nmoderate-severe rheumatic mitral stenosis"| WARF["WARFARIN ONLY — target INR 2–3\nDOACs NOT validated in valvular AF\n(excluded from all landmark DOAC trials)"]
-    AC -->|"Score 0 (men)\nor 1 (women, sex category only)"| NOAC["No anticoagulation\nReassess annually or with new risk factors"]
-```
-
 **Differential for irregular pulse:**
 - Frequent ectopics — P waves visible, premature beats interspersed
 - Atrial flutter with variable block — sawtooth waves at ~300 bpm, regularly irregular

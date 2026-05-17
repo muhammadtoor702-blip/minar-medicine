@@ -170,39 +170,6 @@ Precipitated by intercurrent illness, surgery, trauma, or vomiting (preventing o
 **Diagnosis**: 24-hour urinary or plasma **metanephrines** (normetanephrine and metanephrine) — most sensitive and specific test (>95% sensitivity). Catecholamines less sensitive. Image with CT/MRI adrenals; **¹²³I-MIBG scan** for occult/metastatic disease.
 
 **Management**: **Alpha-blocker first (phenoxybenzamine or doxazosin) for 10–14 days** → then beta-blocker. **Never give beta-blocker first** — unopposed alpha stimulation causes paradoxical severe hypertension. Surgical resection after alpha-blockade is definitive.
-
-```mermaid
-flowchart TD
-    A["Suspected adrenal disease\nIdentify clinical phenotype"] --> B{"Features?"}
-    B -->|"Weight gain · hypertension · hyperglycaemia\ncentral obesity · striae · proximal myopathy\nbuffalo hump · moon face · easy bruising"| CUSH["CUSHING'S SYNDROME"]
-    B -->|"Fatigue · hypotension · hyponatraemia\nhyperkalaemia · weight loss · anorexia\nhyperpigmentation (primary only)"| ADD["ADRENAL INSUFFICIENCY"]
-    B -->|"Hypertension + hypokalaemia\n± muscle weakness · headache\n(often incidental on imaging)"| CONN["PRIMARY HYPERALDOSTERONISM"]
-    B -->|"Episodic headache · palpitations · sweating\nhypertensive crises · weight loss"| PHEO["PHAEOCHROMOCYTOMA"]
-
-    CUSH --> CUSH1["Confirm hypercortisolaemia (any one of):\n1 mg overnight dexamethasone suppression test\n24-h urine free cortisol × 2\nLate-night salivary cortisol × 2"]
-    CUSH1 --> CUSH2{"ACTH level?"}
-    CUSH2 -->|"ACTH elevated / detectable\nACTH-dependent (80–85%)"| CUSH4["High-dose dexamethasone (8 mg) + CRH test\nInferior petrosal sinus sampling (IPSS)\nPituitary MRI — Cushing's disease (80% of ACTH-dependent)\nvs ectopic ACTH (20%): CT chest/abdomen"]
-    CUSH2 -->|"ACTH suppressed &lt;1 pmol/L\nACTH-independent (15–20%)"| CUSH5["CT adrenals\nAdenoma vs adrenal carcinoma vs bilateral hyperplasia\nCarcinoma: large · heterogeneous · rapid growth"]
-
-    ADD --> ADD1["8–9 AM serum cortisol + ACTH"]
-    ADD1 -->|"Cortisol &lt;100 nmol/L"| ADD2["Likely AI — proceed to SST"]
-    ADD1 -->|"Cortisol &gt;500 nmol/L"| ADD3["AI excluded"]
-    ADD1 -->|"100–500 nmol/L: borderline"| SST["Short Synacthen Test\n250 μg ACTH IV/IM · cortisol at 30 + 60 min\nPeak &lt;500 nmol/L = impaired response"]
-    SST --> ACTHCK{"ACTH?"}
-    ACTHCK -->|"ACTH high (&gt;10 pmol/L)"| PRIM["PRIMARY (Addison's)\nAutoimmune (most common) · TB · metastases · haemorrhage\n21-hydroxylase antibodies · CT adrenals\nRx: hydrocortisone 15–25 mg/day + fludrocortisone\nCrisis: IV hydrocortisone 100 mg bolus + 0.9% NaCl"]
-    ACTHCK -->|"ACTH low/normal"| SEC["SECONDARY\nPituitary/hypothalamic disease · exogenous glucocorticoid\nMRI pituitary · evaluate other axes\nRx: hydrocortisone only (aldosterone intact)\nReplace cortisol BEFORE thyroid hormone if both deficient"]
-
-    CONN --> CONN1["Aldosterone-to-renin ratio (ARR)\nStop: spironolactone ×6 wk · diuretics/amiloride ×4 wk\nACEi/ARB/beta-blockers affect results\nARR &gt;30 (ng/dL per μIU/mL): suspicious"]
-    CONN1 -->|"ARR elevated"| CONN2["Confirmatory test\nFludrocortisone suppression · saline infusion · oral salt loading\nFailure to suppress aldosterone confirms diagnosis"]
-    CONN2 --> CONN3["CT adrenals + adrenal vein sampling (AVS)\nAVS: gold standard for lateralisation"]
-    CONN3 -->|"Unilateral adenoma"| CONN4["Laparoscopic adrenalectomy\n30–70% BP cure; K⁺ always normalises"]
-    CONN3 -->|"Bilateral hyperplasia"| CONN5["Medical: spironolactone (first-line)\nor eplerenone (fewer anti-androgenic side effects)\nAmiloride if both intolerant"]
-
-    PHEO --> PHEO1["Biochemistry FIRST — always\nPlasma free metanephrines (most sensitive)\nor 24-h urine metanephrines/catecholamines\n&gt;3× ULN: highly specific"]
-    PHEO1 -->|"Confirmed elevated"| PHEO2["Imaging after biochemistry\nCT abdomen/pelvis (90% adrenal)\nMIBG or ⁶⁸Ga-DOTATATE-PET if extra-adrenal or metastatic"]
-    PHEO2 --> PHEO3["Pre-op preparation — CRITICAL ORDER\nAlpha-blockade FIRST: phenoxybenzamine or doxazosin × 10–14 days\nTHEN beta-blockade (never beta first → hypertensive crisis)\nLaparoscopic adrenalectomy\nLifelong surveillance: 10% malignant · 25% hereditary (RET · VHL · SDHB/C/D)"]
-```
-
 ## Clinical Insight
 
 Adrenal crisis is under-recognised and under-treated. Any patient with known adrenal insufficiency who presents unwell — particularly with hypotension — should receive IM or IV hydrocortisone 100 mg immediately before waiting for investigations. The treatment is safe, the delay is not. All patients with Addison's disease should be trained in self-injection of IM hydrocortisone and carry a steroid emergency card at all times.

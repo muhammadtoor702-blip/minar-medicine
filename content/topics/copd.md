@@ -48,40 +48,6 @@ Progressive exertional dyspnoea is the cardinal symptom, often developing insidi
 ## Diagnosis
 
 **Spirometry is required to diagnose COPD.** Clinical features alone are insufficient.
-
-```mermaid
-flowchart TD
-    A["Smoker/occupational exposure + chronic dyspnoea · cough · sputum\nCOPD suspected: post-BD spirometry mandatory for diagnosis"] --> SPIRO{"Post-bronchodilator FEV1/FVC?"}
-
-    SPIRO -->|"≥0.70 — obstruction not confirmed"| NOTCOPD["Consider alternatives:\nasthma (reversibility testing) · HF · ILD · anaemia · obesity\nRepeat spirometry if clinical suspicion persists"]
-    SPIRO -->|"<0.70 — COPD confirmed"| GOLD{"FEV1 % predicted\n(airflow limitation severity)"}
-
-    GOLD -->|"≥80%"| G1["GOLD 1 — mild"]
-    GOLD -->|"50–79%"| G2["GOLD 2 — moderate"]
-    GOLD -->|"30–49%"| G3["GOLD 3 — severe"]
-    GOLD -->|"<30%"| G4["GOLD 4 — very severe"]
-    G1 & G2 & G3 & G4 --> SYMPT["Assess: CAT score · mMRC dyspnoea scale\nexacerbation history · blood eosinophils · smoking status · vaccines"]
-
-    SYMPT --> ACUTE{"Acute presentation?\n(worsening dyspnoea · ↑ sputum · fever)"}
-
-    ACUTE -->|"Yes — AECOPD"| AECOPD["ACUTE EXACERBATION (AECOPD)\nControlled O₂: target SpO₂ 88–92% · Venturi 24–28%\nNeb salbutamol 2.5 mg + ipratropium 500 µg QDS\nPrednisolone 30–40 mg PO × 5 days\nABG if SpO₂ <92% or clinically severe"]
-    AECOPD --> ABX{"Purulent sputum\nor CXR consolidation?"}
-    ABX -->|"Yes"| ABX_TX["Antibiotics × 5 days:\namoxicillin 500 mg TDS · or doxycycline 200 mg OD\nor clarithromycin 500 mg BD"]
-    ABX -->|"No"| NO_ABX["No antibiotics\n(viral or non-infective trigger)"]
-    AECOPD --> NIV{"pH <7.35 AND PaCO₂ >6 kPa\nafter 1 h of initial treatment?"}
-    NIV -->|"Yes"| NIV_TX["NIV/BiPAP: IPAP 20–25 cmH₂O · EPAP 4–5 cmH₂O\nICU/intubation if NIV contraindicated or failing\n(GCS <8 · vomiting · pneumothorax)"]
-    NIV -->|"No"| REASSESS["Continue bronchodilators\nReassess: PE · pneumonia · pneumothorax\nConsider HELIOS or heliox"]
-
-    ACUTE -->|"No — stable disease"| STABLE["STABLE COPD MANAGEMENT\nSmoking cessation: most effective intervention — varenicline first-line\nInfluenza (annual) + pneumococcal (once) + COVID vaccines\nPulmonary rehabilitation: reduces exacerbations · improves exercise capacity"]
-    STABLE --> INHALER{"GOLD ABCD groups\n(symptoms + exacerbation risk)"}
-    INHALER -->|"Group A: few symptoms\nlow exacerbation risk"| SABA["SABA or SAMA PRN\n(salbutamol or ipratropium)"]
-    INHALER -->|"Group B: more symptoms\nlow exacerbation risk"| LAMA["LAMA (tiotropium · umeclidinium)\nor LABA+LAMA combination preferred if symptomatic\n(umeclidinium/vilanterol · indacaterol/glycopyrronium)"]
-    INHALER -->|"Group E: ≥2 exacerbations/year\nor eosinophils >300 cells/µL"| TRIPLE["LAMA + LABA + ICS triple inhaler\n(fluticasone/umeclidinium/vilanterol · budesonide/glycopyrronium/formoterol)\nICS only ever used with LAMA or LABA — never ICS alone in COPD\nRoflumilast (PDE4i): add if FEV1 <50% + chronic bronchitis + frequent exacerbations"]
-
-    STABLE --> LTOT{"LTOT assessment\n(when clinically stable >3 weeks)"}
-    LTOT -->|"PaO₂ <7.3 kPa\nor 7.3–8.0 kPa + polycythaemia/cor pulmonale"| LTOT_TX["LTOT ≥15 h/day (including overnight)\nImproves survival in severe stable hypoxaemia\nAssess O₂ flow rate for SpO₂ 88–92%"]
-```
-
 Post-bronchodilator FEV1/FVC <0.7 confirms obstructive ventilatory defect. FEV1 % predicted determines GOLD severity:
 
 | GOLD Grade | FEV1 % Predicted | Severity |

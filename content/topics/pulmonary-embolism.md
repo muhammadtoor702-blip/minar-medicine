@@ -54,31 +54,6 @@ PE is highly variable in presentation. The classical triad of pleuritic pain, ha
 | Active malignancy | 1 |
 
 Score ≤4: PE unlikely. Score >4: PE likely. This drives the investigative pathway.
-
-```mermaid
-flowchart TD
-    A["Suspected PE\nPleuritic chest pain · dyspnoea · tachycardia · hypoxia\nrisk factors: immobility · OCP · malignancy · prior VTE · pregnancy"] --> SHOCK{"Haemodynamic instability?\nSBP &lt;90 mmHg · drop &gt;40 mmHg\nor cardiac arrest · shock"}
-
-    SHOCK -->|"Yes — massive PE"| MASSIVE["MASSIVE PE — EMERGENCY\nUFH IV bolus (80 units/kg) immediately\nBedside echo: RV dilation · D-septum · McConnell sign (if CTPA unavailable)\nSystemic thrombolysis: alteplase 100 mg IV over 2 h\nAbsolute contraindications: prior haemorrhagic stroke · active intracranial process\nCardiac arrest from PE: alteplase 50 mg IV bolus → continue CPR ×90 min\nFailed or contraindicated thrombolysis:\n→ Catheter-directed therapy or surgical embolectomy\nSupportive: noradrenaline · cautious IV fluid ≤500 mL · avoid intubation if possible"]
-
-    SHOCK -->|"No — stable"| WELLS["WELLS PE SCORE\nDVT signs/symptoms: 3 pts\nPE most likely diagnosis: 3 pts\nHR &gt;100: 1.5 pts · immobilisation/surgery in 4 weeks: 1.5 pts\nPrior DVT/PE: 1.5 pts · haemoptysis: 1 pt · malignancy: 1 pt"]
-
-    WELLS --> WCUT{"Total score"}
-    WCUT -->|"&gt;4 — PE likely"| CTPA["ORDER CTPA\nStart LMWH/DOAC while awaiting if high suspicion + delay expected"]
-    WCUT -->|"≤4 — PE unlikely"| DDIMER["D-DIMER\nAge-adjusted threshold if age &gt;50 yrs: age × 10 ng/mL FEU\nStandard cut-off: &lt;500 ng/mL FEU\nDo NOT use D-dimer to rule in — only to rule out"]
-
-    DDIMER -->|"Negative — PE excluded"| EXCLUDE["PE EXCLUDED\nAlternative diagnoses:\nPneumothorax · pleuritis · pneumonia\nACS · pericarditis · MSK pain"]
-    DDIMER -->|"Positive"| CTPA
-    CTPA -->|"Negative"| EXCLUDE
-    CTPA -->|"PE confirmed"| RISK{"Risk stratify confirmed PE\nRV dysfunction on echo or CT (RV:LV ratio ≥1)?\nTroponin or BNP elevated?"}
-
-    RISK -->|"RV dysfunction + biomarkers elevated\nhaemodynamically stable"| INTERMEDIATE["INTERMEDIATE-HIGH RISK (submassive PE)\nAnticoagulation: DOAC (apixaban or rivaroxaban) or LMWH\nClose monitoring for haemodynamic deterioration\nRescue thrombolysis ONLY if clinical decompensation\n(do NOT routinely thrombolyse — PEITHO trial: no mortality benefit, ↑↑ bleeding)\nICU-level monitoring recommended"]
-
-    RISK -->|"No RV dysfunction\nno biomarker elevation"| LOWRISK["LOW-RISK PE\nApixaban 10 mg BD ×7 days → 5 mg BD\nor rivaroxaban 15 mg BD ×21 days → 20 mg OD\nLMWH → warfarin if DOAC contraindicated (severe CKD)\nAPS: warfarin ONLY — rivaroxaban inferior in antiphospholipid syndrome\nCancer-associated VTE: LMWH or apixaban/edoxaban preferred\nOutpatient: if sPESI 0 + no RV dysfunction + reliable follow-up"]
-
-    INTERMEDIATE & LOWRISK --> DURATION["ANTICOAGULATION DURATION\nProvoked (transient risk — surgery · flight · OCP): 3 months\nUnprovoked: ≥6 months · consider indefinite (shared decision-making)\nRecurrent VTE: indefinite · Malignancy-associated: throughout active cancer\nSuspected CTEPH: V/Q scan at 3–6 months if persistent breathlessness post-PE"]
-```
-
 ## Diagnosis
 
 **D-dimer:**

@@ -53,26 +53,6 @@ Hyperlipidaemia is asymptomatic until it causes cardiovascular disease. Clinical
 **Secondary cause screen:** TFTs, fasting glucose/HbA1c, U&E, LFTs, urine ACR — perform before initiating lipid-lowering therapy.
 
 **Baseline before starting statin:** LFTs and CK.
-
-```mermaid
-flowchart TD
-    A["Dyslipidaemia identified\nFasting lipid profile: TC · LDL-C · HDL-C · TG · non-HDL-C\nor incidental finding on routine bloods"] --> SEC{"Secondary cause?"}
-
-    SEC -->|"Yes — treat underlying cause first"| SEC_TX["SECONDARY HYPERLIPIDAEMIA\nHypothyroidism (most common): TFTs · ↑LDL · treat hypothyroidism → lipids improve\nDiabetes: ↑TG · ↓HDL · treat DM\nNephrotic syndrome: ↑LDL + ↑VLDL\nHepatic disease: ↑TG · ↓HDL · cirrhosis\nDrugs: thiazides · beta-blockers · retinoids · antiretrovirals · glucocorticoids\nAlcohol: ↑TG (especially)\nPregnancy: physiological ↑TG — reassess postpartum"]
-
-    SEC -->|"No secondary cause"| CLASSIFY{"Lipid pattern?"}
-
-    CLASSIFY -->|"Isolated ↑LDL\nor TC/HDL ratio >6"| RISK["ASSESS 10-YEAR CARDIOVASCULAR RISK\n(QRISK3 score — UK standard)"]
-    RISK --> RISK_STRAT{"Risk group?"}
-    RISK_STRAT -->|"Very high risk:\nestablished CVD (ASCVD) or\nDM + target organ damage or\nCKD stage G3b-5 or\nFH with prior CVD"| VH_RISK["LDL target: <1.4 mmol/L (>50% reduction)\nHigh-intensity statin: atorvastatin 40–80 mg OD\n(or rosuvastatin 20–40 mg OD)\nAdd ezetimibe if LDL not at target on max statin\nAdd PCSK9i (evolocumab/alirocumab) if LDL >1.4 despite ezetimibe + statin:\nSelf-injected fortnightly · >60% LDL reduction · NICE criteria: CVD + LDL >2.6\nor FH + 2 CVD events"]
-    RISK_STRAT -->|"High risk:\n10-year QRISK3 ≥10%\nor FH (untreated)"| H_RISK["LDL target: <1.8 mmol/L (>50% reduction)\nHigh-intensity statin: atorvastatin 40–80 mg OD\nFamilial hypercholesterolaemia (FH):\nSimon Broome criteria: TC >7.5 + tendon xanthomata or 1st-degree relative TC >7.5\nAutosomal dominant: LDLR · APOB · PCSK9 mutations\nCascade screening of all 1st-degree relatives\nFH + statin + ezetimibe → PCSK9i if LDL still not at target"]
-    RISK_STRAT -->|"Moderate risk: QRISK3 <10%\nPrimary prevention"| MOD_RISK["Lifestyle first: 6 months trial before medication\nSaturated fat <10% calories · oily fish 2×/week · Mediterranean diet · soluble fibre\nExercise ≥150 min/week · smoking cessation · weight reduction\nIf lifestyle insufficient: atorvastatin 20 mg OD (lower intensity start)\nAim >40% LDL reduction"]
-
-    CLASSIFY -->|"TG >10 mmol/L\n(severe hypertriglyceridaemia)"| HTRIG["SEVERE HYPERTRIGLYCERIDAEMIA\nTG >10 mmol/L: HIGH pancreatitis risk\nImmediate: fat-free diet · stop alcohol · manage DM/hypothyroidism · stop causative drugs\nFibrates (fenofibrate): first-line for TG >10 (lower by 40–50%)\nOmega-3 fatty acids (icosapent ethyl): REDUCE-IT trial — reduces MACE in high TG\nNiacin: rarely used (side effects)\nTG 5–10 mmol/L: lifestyle + statin\nLipoprotein lipase deficiency (genetic): very rare · TG >50 · pancreatitis · eruptive xanthomata"]
-
-    CLASSIFY -->|"↓ HDL-C (<1.0 mmol/L men\n<1.2 mmol/L women)"| LOW_HDL["LOW HDL-C\nPrimary CV risk factor (inversely correlates with CVD risk)\nNo specific drug therapy approved to raise HDL safely\n(CETP inhibitors failed in trials — anaceptrapib/torcetrapib)\nFocus: treat overall CV risk with statin + lifestyle\nExercise most effective lifestyle measure to raise HDL"]
-```
-
 ## Management
 
 ### Lifestyle — Mandatory for All

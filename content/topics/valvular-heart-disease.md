@@ -131,34 +131,6 @@ Myxomatous degeneration causes leaflet billowing into the LA during systole. Pre
 | Mitral stenosis | Mid-diastolic | Low rumble | Apex (left lateral decubitus) |
 | Mitral valve prolapse | Mid-systolic click + late systolic | Click then murmur | Apex |
 | Tricuspid regurgitation | Holosystolic | Blowing | LLSB; increases with inspiration |
-
-```mermaid
-flowchart TD
-    A["Valvular Heart Disease\nNew murmur · exertional symptoms · syncope\nbreathlessness · palpitations · signs of heart failure"] --> ECHO["TRANSTHORACIC ECHOCARDIOGRAPHY (TTE)\nDefine: valve anatomy · severity · LV function · PA pressure\nAll patients with suspected significant valvular disease require TTE\nECG + CXR + bloods (FBC · U&E · BNP · troponin)"]
-
-    ECHO --> VALVE{"Dominant valve lesion?"}
-
-    VALVE -->|"Aortic stenosis\nejection systolic murmur\nslow-rising pulse · narrow pulse pressure"| AS_SEV{"Severity?\nSevere = AVA &lt;1.0 cm²\nor mean gradient &gt;40 mmHg"}
-
-    AS_SEV -->|"Severe AS + cardinal symptoms\nangina · syncope · heart failure"| AS_INT["SYMPTOMATIC SEVERE AS — URGENT INTERVENTION\nNo medical therapy slows progression\nSurvival WITHOUT intervention:\n→ Angina: ~5 years · Syncope: ~3 years · Heart failure: ~1–2 years\nSAVR (surgical AVR): younger patients · low surgical risk · bicuspid aortic valve\nTAVI/TAVR: high or intermediate surgical risk · increasingly in lower-risk patients\n→ Transfemoral approach preferred\n→ PARTNER + NOTION trials: TAVI non-inferior to SAVR in intermediate/low risk\nAim: intervention within WEEKS of symptom onset — do not delay"]
-
-    AS_SEV -->|"Severe AS\nasymptomatic"| AS_WATCH["ASYMPTOMATIC SEVERE AS — SURVEILLANCE\nSerial echo every 6–12 months\nExercise testing to unmask symptoms (if equivocal)\n→ Symptoms on exercise testing = indication to intervene\nPreventive intervention consider if:\n→ Very severe AS (mean gradient &gt;60 mmHg)\n→ Rapid progression (&gt;10 mmHg/year)\n→ Surgery for another indication (CABG · aorta) planned"]
-
-    VALVE -->|"Aortic regurgitation\nearly diastolic murmur · wide pulse pressure\ncollapsing pulse"| AR{"Acute or chronic?"}
-
-    AR -->|"ACUTE AR\nendocarditis · aortic dissection\nsudden haemodynamic collapse"| ACUTE_AR["ACUTE AR — SURGICAL EMERGENCY\nLV has NO TIME to compensate → acute pulmonary oedema + cardiogenic shock\nEmergency cardiothoracic surgery referral\nBridge: nitroprusside IV (afterload reduction) · inotropes if shocked\nDo NOT use beta-blockers (compensatory tachycardia is critical)\nEndocarditis: full antibiotic course preferred before surgery if haemodynamically stable"]
-
-    AR -->|"Chronic AR\ngradual LV dilation\nwide pulse pressure"| CHRONIC_AR["CHRONIC AORTIC REGURGITATION\nVasodilators + ACEi: afterload reduction (symptom relief · slow LV dilation)\nSerial echo: monitor LV dimensions and EF every 6–12 months\nSurgery when ANY of:\n→ Symptomatic\n→ EF falling &lt;50%\n→ LV end-systolic diameter &gt;50 mm\n→ LV end-diastolic diameter &gt;70 mm"]
-
-    VALVE -->|"Mitral regurgitation\nholosystolic murmur · apex → axilla\ndisplaced hyperdynamic apex"| MR{"Acute or chronic?"}
-
-    MR -->|"ACUTE MR\npapillary muscle rupture post-MI\nor endocarditis · chordal rupture"| ACUTE_MR["ACUTE MR — SURGICAL EMERGENCY\nSudden massive regurgitation into unprepared LA → flash pulmonary oedema\nPapillary muscle rupture: 3–5 days post-MI · new holosystolic murmur + pulmonary oedema\nEmergency surgical repair or replacement\nIABP / IABP as haemodynamic bridge to theatre\nDo NOT delay intervention waiting for echo if clinical diagnosis is clear"]
-
-    MR -->|"Chronic MR\ngradual LA + LV dilation · AF common"| CHRONIC_MR["CHRONIC MITRAL REGURGITATION\nEF is ARTIFICIALLY ELEVATED in MR (LV offloads into low-pressure LA)\n→ EF 60% in MR ≈ EF 40–45% in other conditions\n→ EF &lt;60% in MR = already significantly impaired — DO NOT wait for EF to fall to &lt;50%\nSurgery or MitraClip (transcatheter) when:\n→ Symptomatic with EF &gt;30%\n→ Asymptomatic with EF &lt;60% OR LV end-systolic diameter &gt;40 mm\nOptimise HF therapy: ACEi/ARB · diuretics · rate control for AF"]
-
-    VALVE -->|"Mitral stenosis\nopening snap + mid-diastolic rumble\nloud S1 · rising P2 · AF"| MS["MITRAL STENOSIS\nAlmost exclusively RHEUMATIC (young woman from South Asia · Africa · Middle East)\nSevere MS = MVA &lt;1.5 cm²\nAnticoagulation: WARFARIN — DOACs NOT validated in rheumatic mitral stenosis\n→ AF + rheumatic MS: very high thromboembolic risk · target INR 2–3\nRate control for AF: digoxin · beta-blocker\nPercutaneous mitral balloon valvuloplasty (PMBV):\n→ First-line if anatomy favourable (Wilkins score ≤8 · no significant MR · no LA thrombus)\n→ Delays or avoids open surgery in appropriate candidates\nSurgical repair/replacement: unfavourable anatomy or significant co-existing MR"]
-```
-
 ## Clinical Insight
 
 Aortic stenosis is notoriously underappreciated until symptoms develop. A patient who has had a systolic murmur for years and then reports their first episode of exertional syncope has crossed a critical threshold — do not wait for a second episode. Refer for echo and surgical evaluation urgently.

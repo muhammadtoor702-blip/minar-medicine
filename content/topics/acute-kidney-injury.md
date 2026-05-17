@@ -46,33 +46,6 @@ AKI is often clinically silent until it is advanced. Features depend on the caus
 ## Diagnosis
 
 **Immediately stop all nephrotoxins** — NSAIDs, ACEi/ARBs (can resume when recovered and stable), metformin (risk of lactic acidosis in AKI), aminoglycosides, contrast agents.
-
-```mermaid
-flowchart TD
-    A["Creatinine rise or oliguria\nKDIGO AKI: Cr +26.5 μmol/L in 48 h\nOR ≥1.5× baseline in 7 days\nOR UO &lt;0.5 mL/kg/h for ≥6 h"] --> B["IMMEDIATE ACTIONS\nStop: NSAIDs · ACEi/ARB · metformin · aminoglycosides · contrast\nCheck: K⁺ · HCO₃ · ABG · ECG · urine dipstick · bladder scan"]
-
-    B --> C{"Life-threatening\ncomplication?"}
-    C -->|"K⁺ ≥6.5 or ECG changes\npeaked T · wide QRS · sine wave"| HK["HYPERKALAEMIA\nIV calcium gluconate — membrane stabilisation first\nInsulin 10 U + 50 mL 50% dextrose\nSalbutamol 10 mg nebulised\nEliminate K⁺: kayexalate / patiromer / dialysis"]
-    C -->|"Pulmonary oedema\nfluid overload"| PO["Sit up · O₂ · CPAP\nIV furosemide if any urine output\nFluid restrict\nEmergency dialysis if anuric/refractory"]
-    C -->|"pH &lt;7.1\nuraemic encephalopathy or pericarditis"| URG["Urgent nephrology — AEIOU indications\nAcidosis · Electrolytes · Intoxication\nOverload · Uraemia"]
-    C -->|"None"| CAUSE["CLASSIFY CAUSE"]
-
-    CAUSE --> PRE{"PRE-RENAL (~70%)?\nVolume loss: vomiting · diarrhoea · haemorrhage · burns\nReduced perfusion: HF · sepsis · cirrhosis · NSAIDs/ACEi"}
-    PRE -->|"Yes"| PRERN["Pre-renal AKI\nFeNa &lt;1% (no diuretics) · FeUrea &lt;35% (on diuretics)\nCrystalloid if hypovolaemic\nTreat underlying cause: HF → diuretics; sepsis → antibiotics"]
-    PRERN --> RESP{"Cr improving after\nadequate resuscitation?"}
-    RESP -->|"Yes"| ONGO["Supportive care\nMonitor Cr + K⁺ daily"]
-    RESP -->|"No"| ATN_PROG["Evolving ATN\nProceed to intrinsic workup"]
-
-    PRE -->|"No"| POST{"POST-RENAL (&lt;10%)?\nBPH · bilateral stones · pelvic malignancy\nretroperitoneal fibrosis · bilateral ureteric obstruction"}
-    POST -->|"Yes or bilateral\nhydronephrosis on USS"| POSTRN["Urethral catheter — lower tract obstruction\nUrology: ureteric stent or nephrostomy\nMonitor post-obstructive diuresis\nReplace 50% of hourly urine output"]
-    POST -->|"No"| INTR["INTRINSIC AKI\nSend: urine microscopy · PCR · ANCA · anti-GBM\ncomplement (C3/C4) · ANA/dsDNA"]
-
-    INTR --> MICRO{"Urine microscopy?"}
-    MICRO -->|"Muddy brown granular casts\nFeNa &gt;2%"| ATN["ATN (most common intrinsic ~85%)\nCauses: ischaemia · aminoglycosides · contrast · myoglobin\nSupportive: strict fluid balance · avoid all nephrotoxins\nDialysis when AEIOU criteria met"]
-    MICRO -->|"RBC casts · heavy proteinuria\n± systemic features"| GN["GN / Vasculitis\nANCA · anti-GBM · C3/C4 · ANA/dsDNA\nUrgent nephrology · renal biopsy\nEmpiric pulse steroids ± cyclophosphamide/rituximab"]
-    MICRO -->|"WBCs/eosinophils · rash\nfever · recent new drug"| AIN["AIN (Acute Interstitial Nephritis)\nStop culprit: PPIs · NSAIDs · antibiotics · allopurinol\nSteroids if no improvement at 1–2 weeks"]
-```
-
 **Bloods**: Creatinine (and trend), urea, electrolytes (hyperkalaemia is the life-threatening emergency), bicarbonate, calcium, phosphate, FBC, CK (rhabdomyolysis), LDH, coagulation.
 
 **Urine dipstick and microscopy**:
