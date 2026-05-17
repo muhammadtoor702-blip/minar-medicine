@@ -46,6 +46,16 @@ a { color: inherit; text-decoration: none; }
 .search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: #999; pointer-events: none; }
 .search-kbd { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); background: #f0ede8; border: 1px solid #ddd; border-radius: 4px; padding: 1px 6px; font-size: 12px; color: #999; font-family: monospace; pointer-events: none; }
 
+/* ── Search dropdown ───────────────────────────────────── */
+.search-dropdown { position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: white; border: 1.5px solid #e0ddd6; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.10); z-index: 200; overflow: hidden; }
+.search-dropdown-item { display: flex; justify-content: space-between; align-items: center; padding: 11px 16px; text-decoration: none; color: inherit; border-bottom: 1px solid #f5f3ef; transition: background 0.1s; }
+.search-dropdown-item:last-of-type { border-bottom: none; }
+.search-dropdown-item:hover { background: #F0FAF6; }
+.search-dropdown-title { font-size: 15px; font-weight: 500; color: #1a1a1a; }
+.search-dropdown-system { font-size: 12px; color: #1D9E75; margin-left: 8px; white-space: nowrap; }
+.search-dropdown-status { padding: 14px 16px; font-size: 14px; color: #999; text-align: center; }
+.search-dropdown-more { padding: 9px 16px; font-size: 12px; color: #aaa; text-align: center; border-top: 1px solid #f5f3ef; background: #fafaf8; }
+
 /* ── Sections ──────────────────────────────────────────── */
 .section { padding: 3rem 0; }
 .section-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #999; display: block; margin-bottom: 1.25rem; }

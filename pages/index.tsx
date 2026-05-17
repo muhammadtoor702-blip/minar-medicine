@@ -23,27 +23,46 @@ export default function Home({ topics }: { topics: Topic[] }) {
   const [query, setQuery] = useState('')
   const [aiSlugs, setAiSlugs] = useState<string[]>([])
   const [searching, setSearching] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
   const debounceRef = useRef<NodeJS.Timeout | null>(null)
   const searchRef = useRef<HTMLInputElement>(null)
+  const boxRef = useRef<HTMLDivElement>(null)
 
+  // Keyboard shortcuts
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && document.activeElement !== searchRef.current) {
         e.preventDefault()
         searchRef.current?.focus()
       }
-      if (e.key === 'Escape') searchRef.current?.blur()
+      if (e.key === 'Escape') {
+        searchRef.current?.blur()
+        setDropdownOpen(false)
+      }
     }
     document.addEventListener('keydown', handler)
     return () => document.removeEventListener('keydown', handler)
   }, [])
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (boxRef.current && !boxRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handler)
+    return () => document.removeEventListener('mousedown', handler)
+  }, [])
+
+  // AI search debounce
   useEffect(() => {
     if (query.length < 2) {
       setAiSlugs([])
+      setDropdownOpen(false)
       return
     }
-
+    setDropdownOpen(true)
     if (debounceRef.current) clearTimeout(debounceRef.current)
     debounceRef.current = setTimeout(async () => {
       setSearching(true)
@@ -74,7 +93,7 @@ export default function Home({ topics }: { topics: Topic[] }) {
           aiSlugs.includes(t.slug)
         )
       })
-    : topics
+    : []
 
   return (
     <>
@@ -89,7 +108,9 @@ export default function Home({ topics }: { topics: Topic[] }) {
       <div className="hero">
         <h1>Clinical medicine,<br /><em>reasoned</em> from first principles</h1>
         <p>A free, open reference built around how clinicians actually think — not just what they memorise.</p>
-        <div className="search-box">
+
+        {/* Search box with dropdown */}
+        <div className="search-box" ref={boxRef}>
           <span className="search-icon">⌕</span>
           <input
             ref={searchRef}
@@ -97,80 +118,89 @@ export default function Home({ topics }: { topics: Topic[] }) {
             placeholder="Search a condition, symptom, or system..."
             value={query}
             onChange={e => setQuery(e.target.value)}
+            onFocus={() => { if (query.length > 1) setDropdownOpen(true) }}
             aria-label="Search topics"
+            aria-expanded={dropdownOpen}
+            aria-haspopup="listbox"
+            autoComplete="off"
           />
           {!query && <span className="search-kbd">/</span>}
-          {searching && (
-            <span style={{ fontSize: '12px', color: '#999', marginLeft: '8px' }}>searching...</span>
+
+          {/* Dropdown */}
+          {dropdownOpen && query.length > 1 && (
+            <div className="search-dropdown" role="listbox">
+              {searching ? (
+                <div className="search-dropdown-status">Searching…</div>
+              ) : filtered.length === 0 ? (
+                <div className="search-dropdown-status">No results for &ldquo;{query}&rdquo;</div>
+              ) : (
+                filtered.slice(0, 8).map(t => (
+                  <Link
+                    key={t.slug}
+                    href={`/topics/${t.slug}`}
+                    className="search-dropdown-item"
+                    role="option"
+                    onClick={() => { setDropdownOpen(false); setQuery('') }}
+                  >
+                    <span className="search-dropdown-title">{t.title}</span>
+                    <span className="search-dropdown-system">{t.system}</span>
+                  </Link>
+                ))
+              )}
+              {!searching && filtered.length > 8 && (
+                <div className="search-dropdown-more">
+                  +{filtered.length - 8} more results — keep typing to narrow down
+                </div>
+              )}
+            </div>
           )}
         </div>
       </div>
+
+      {/* Main content — always visible, never affected by search */}
       <div className="container">
-        {!query && (
-          <div className="section">
-            <span className="section-label">Browse by system</span>
-            <div className="system-grid">
-              {SYSTEMS.map(s => {
-                const count = topics.filter(t => t.system.toLowerCase() === s.name.toLowerCase()).length
-                return (
-                  <Link key={s.slug} href={`/systems/${s.slug}`} className="system-card">
-                    <div className="system-icon">{s.icon}</div>
-                    <div className="system-name">{s.name}</div>
-                    <div className="system-count">{count} {count === 1 ? 'topic' : 'topics'}</div>
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-        )}
         <div className="section">
-          <span className="section-label">{query ? `Results for "${query}"` : 'All topics'}</span>
-          {filtered.length === 0 && query ? (
-            <div style={{ textAlign: 'center', padding: '3rem 1rem', color: '#999' }}>
-              <div style={{ fontSize: '32px', marginBottom: '0.75rem' }}>🔍</div>
-              <p style={{ fontSize: '16px', marginBottom: '0.5rem' }}>No topics found for <strong style={{ color: '#1a1a1a' }}>&ldquo;{query}&rdquo;</strong></p>
-              <p style={{ fontSize: '14px' }}>Try a different term, or <button onClick={() => setQuery('')} style={{ background: 'none', border: 'none', color: '#1D9E75', cursor: 'pointer', fontSize: '14px', fontFamily: 'inherit', padding: 0 }}>browse all topics</button></p>
-            </div>
-          ) : query ? (
-            // Search results: flat list with system label
-            <div className="topic-list">
-              {filtered.map(t => (
-                <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
-                  <div>
-                    <div className="topic-title">{t.title}</div>
-                    <div className="topic-system">{t.system}</div>
-                  </div>
-                  <span style={{ color: '#ccc' }}>›</span>
+          <span className="section-label">Browse by system</span>
+          <div className="system-grid">
+            {SYSTEMS.map(s => {
+              const count = topics.filter(t => t.system.toLowerCase() === s.name.toLowerCase()).length
+              return (
+                <Link key={s.slug} href={`/systems/${s.slug}`} className="system-card">
+                  <div className="system-icon">{s.icon}</div>
+                  <div className="system-name">{s.name}</div>
+                  <div className="system-count">{count} {count === 1 ? 'topic' : 'topics'}</div>
                 </Link>
-              ))}
-            </div>
-          ) : (
-            // Default: grouped by system in canonical order
-            <>
-              {SYSTEMS.map(s => {
-                const systemTopics = filtered.filter(t => t.system.toLowerCase() === s.name.toLowerCase())
-                if (systemTopics.length === 0) return null
-                return (
-                  <div key={s.slug} style={{ marginBottom: '2.5rem' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.75rem' }}>
-                      <span style={{ fontSize: '18px' }}>{s.icon}</span>
-                      <Link href={`/systems/${s.slug}`} style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#555' }}>
-                        {s.name}
-                      </Link>
-                    </div>
-                    <div className="topic-list">
-                      {systemTopics.map(t => (
-                        <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
-                          <div className="topic-title">{t.title}</div>
-                          <span style={{ color: '#ccc' }}>›</span>
-                        </Link>
-                      ))}
-                    </div>
+              )
+            })}
+          </div>
+        </div>
+
+        <div className="section">
+          <span className="section-label">All topics</span>
+          <>
+            {SYSTEMS.map(s => {
+              const systemTopics = topics.filter(t => t.system.toLowerCase() === s.name.toLowerCase())
+              if (systemTopics.length === 0) return null
+              return (
+                <div key={s.slug} style={{ marginBottom: '2.5rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.75rem' }}>
+                    <span style={{ fontSize: '18px' }}>{s.icon}</span>
+                    <Link href={`/systems/${s.slug}`} style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#555' }}>
+                      {s.name}
+                    </Link>
                   </div>
-                )
-              })}
-            </>
-          )}
+                  <div className="topic-list">
+                    {systemTopics.map(t => (
+                      <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
+                        <div className="topic-title">{t.title}</div>
+                        <span style={{ color: '#ccc' }}>›</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </>
         </div>
       </div>
     </main>
