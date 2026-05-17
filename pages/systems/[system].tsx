@@ -30,7 +30,7 @@ export default function SystemPage({ system, topics }: { system: string; topics:
       <span className="breadcrumb"><Link href="/">Home</Link> › <Link href="/systems">Systems</Link> › {system}</span>
       <div style={{ marginBottom: '2rem' }}>
         <div style={{ fontSize: '32px', marginBottom: '0.5rem' }}>{s?.icon}</div>
-        <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '32px', fontWeight: 600 }}>{system}</h1>
+        <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '32px', fontWeight: 600 }}>{system}</h1>
         <p style={{ color: '#999', marginTop: '0.5rem' }}>{topics.length} {topics.length === 1 ? 'topic' : 'topics'}</p>
       </div>
       {topics.length === 0 ? (

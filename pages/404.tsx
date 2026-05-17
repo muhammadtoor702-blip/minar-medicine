@@ -9,7 +9,7 @@ export default function NotFound() {
       </Head>
       <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem', textAlign: 'center' }}>
         <div style={{ fontSize: '64px', marginBottom: '1rem' }}>404</div>
-        <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '28px', fontWeight: 600, marginBottom: '1rem' }}>
+        <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '28px', fontWeight: 600, marginBottom: '1rem' }}>
           Page not found
         </h1>
         <p style={{ color: '#666', fontSize: '16px', marginBottom: '2rem', maxWidth: '400px', margin: '0 auto 2rem' }}>

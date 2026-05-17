@@ -3,13 +3,29 @@ import type { AppProps } from 'next/app'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Analytics } from '@vercel/analytics/react'
+import { Playfair_Display, Source_Serif_4 } from 'next/font/google'
 import '../styles/globals.css'
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
+
+const sourceSerif = Source_Serif_4({
+  subsets: ['latin'],
+  weight: ['300', '400', '600'],
+  variable: '--font-source-serif',
+  display: 'swap',
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <>
+    <div className={`${playfair.variable} ${sourceSerif.variable}`}>
       <Head>
         <title>Minar Medicine</title>
         <meta name="description" content="Clinical medicine, reasoned from first principles." />
@@ -67,6 +83,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world and AZ :)</p>
       </footer>
       <Analytics />
-    </>
+    </div>
   )
 }

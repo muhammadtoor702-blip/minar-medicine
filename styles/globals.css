@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:wght@300;400;600&display=swap');
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Source Serif 4', Georgia, serif;
+  font-family: var(--font-source-serif), Georgia, serif;
   background: #FAFAF8;
   color: #1a1a1a;
   line-height: 1.7;
@@ -21,7 +19,7 @@ a { color: inherit; text-decoration: none; }
   z-index: 100;
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; }
-.nav-brand { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.nav-brand { font-family: var(--font-playfair), serif; font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
 .nav-logo { height: 28px; width: auto; }
 .nav-links { display: flex; gap: 2rem; align-items: center; }
 .nav-links a { font-size: 14px; color: #666; }
@@ -37,7 +35,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ── Hero ──────────────────────────────────────────────── */
 .hero { text-align: center; padding: 5rem 1rem 3rem; }
-.hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 6vw, 60px); font-weight: 600; line-height: 1.15; margin-bottom: 1.25rem; }
+.hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(32px, 6vw, 60px); font-weight: 600; line-height: 1.15; margin-bottom: 1.25rem; }
 .hero h1 em { font-style: italic; color: #1D9E75; }
 .hero p { font-size: 18px; color: #666; max-width: 480px; margin: 0 auto 2.5rem; }
 
@@ -85,7 +83,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ── Topic body ────────────────────────────────────────── */
 .topic-body { font-size: 16px; line-height: 1.8; }
-.topic-body h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 600; margin: 2.25rem 0 0.75rem; border-bottom: 1px solid #f0ede8; padding-bottom: 0.4rem; scroll-margin-top: 72px; }
+.topic-body h2 { font-family: var(--font-playfair), serif; font-size: 22px; font-weight: 600; margin: 2.25rem 0 0.75rem; border-bottom: 1px solid #f0ede8; padding-bottom: 0.4rem; scroll-margin-top: 72px; }
 .topic-body h3 { font-size: 17px; font-weight: 600; margin: 1.5rem 0 0.5rem; scroll-margin-top: 72px; }
 .topic-body h4 { font-size: 15px; font-weight: 600; margin: 1.25rem 0 0.4rem; color: #333; }
 .topic-body p { margin-bottom: 1rem; }

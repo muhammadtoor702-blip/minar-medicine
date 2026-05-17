@@ -104,7 +104,7 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
             <span className="badge badge-green">{topic.system}</span>
             <span style={{ fontSize: '12px', color: '#aaa', marginLeft: '4px' }}>{readingTime} min read</span>
           </div>
-          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '30px', fontWeight: 600, lineHeight: 1.2, marginBottom: topic.sources.length ? '1rem' : 0 }}>
+          <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '30px', fontWeight: 600, lineHeight: 1.2, marginBottom: topic.sources.length ? '1rem' : 0 }}>
             {topic.title}
           </h1>
           {topic.sources.length > 0 && (
