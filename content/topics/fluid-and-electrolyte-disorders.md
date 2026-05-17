@@ -7,8 +7,6 @@ sources:
   - ESC/EASD Clinical Guidelines
 ---
 
-
-
 ## Overview
 
 Fluid and electrolyte disorders are among the most common and clinically significant problems encountered in hospital medicine. Disorders of sodium and potassium are particularly important — sodium dysregulation governs water distribution and cell volume across the entire body, while potassium abnormalities carry direct, life-threatening cardiac consequences. A systematic, physiological approach — always asking why the kidney is failing to correct the abnormality — avoids dangerous empirical treatment.
@@ -148,6 +146,15 @@ Clinical assessment of volume status before prescribing IV fluids:
 - Euvolaemic patient with adequate oral intake: no IV fluids needed
 - Signs of hypovolaemia (tachycardia, hypotension, oliguria, dry mucous membranes): IV crystalloid resuscitation bolus
 - Signs of hypervolaemia (raised JVP, pulmonary oedema, peripheral oedema): restrict IV fluids, consider diuretics
+## Complications
+
+- **Hyponatraemia — rapid overcorrection**: osmotic demyelination syndrome (central pontine myelinolysis) — quadriplegia, pseudobulbar palsy; irreversible; correction must not exceed 8-10 mmol/L per 24 hours
+- **Severe hyponatraemia (Na <120)**: cerebral oedema, seizures, coma, uncal herniation, death
+- **Hyperkalaemia (K >=6.5)**: ventricular fibrillation, asystole — immediately life-threatening
+- **Severe hypokalaemia (<2.5)**: rhabdomyolysis, ascending paralysis, respiratory failure, malignant arrhythmias, worsened digoxin toxicity
+- **Hypercalcaemia crisis**: renal failure, nephrocalcinosis, pancreatitis, cardiac arrest
+- **Severe hypermagnesaemia** (usually iatrogenic): respiratory paralysis, cardiac arrest
+
 ## Clinical Insight
 
 Thiazide diuretics and SSRIs are the two most common drug causes of SIADH — and they are frequently prescribed together in elderly women. The combination produces synergistic hyponatraemia. When an elderly woman on these drugs presents confused, the sodium is the first thing to check.

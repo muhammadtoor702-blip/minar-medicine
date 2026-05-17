@@ -7,8 +7,6 @@ sources:
   - PHE Imported Fever Guidelines
 ---
 
-
-
 ## Overview
 
 Travel medicine encompasses the prevention and management of illnesses acquired during travel to endemic regions. The differential diagnosis of fever in a returning traveller is broad but must be approached systematically. Malaria is the most important cause — it is treatable but rapidly fatal if missed or delayed. The three rules of tropical fever: consider malaria in any febrile patient returning from a malaria-endemic area, consider malaria, and consider malaria.

@@ -6,8 +6,6 @@ sources:
   - ESC Valvular Heart Disease Guidelines 2021
 ---
 
-
-
 ## Overview
 
 Valvular heart disease results from stenosis (obstruction to forward flow) or regurgitation (backflow due to incompetent valve closure). The haemodynamic consequences depend on which valve is affected, the severity of the lesion, and critically — the acuity of onset. Acute valvular pathology is far more haemodynamically devastating than the same degree of chronic disease, because the heart has no time to adapt.
@@ -131,6 +129,14 @@ Myxomatous degeneration causes leaflet billowing into the LA during systole. Pre
 | Mitral stenosis | Mid-diastolic | Low rumble | Apex (left lateral decubitus) |
 | Mitral valve prolapse | Mid-systolic click + late systolic | Click then murmur | Apex |
 | Tricuspid regurgitation | Holosystolic | Blowing | LLSB; increases with inspiration |
+## Complications
+
+- **Aortic stenosis**: sudden cardiac death (in symptomatic severe AS), LV failure, AF, infective endocarditis; post-TAVI — paravalvular regurgitation, stroke, heart block (pacemaker ~10-15%), vascular access complications
+- **Aortic regurgitation**: LV failure, AF, infective endocarditis; aortic root dilatation can progress to dissection (especially Marfan syndrome)
+- **Mitral regurgitation**: AF (from LA dilation), pulmonary hypertension, LV failure, infective endocarditis
+- **Mitral stenosis**: AF (40-50%), systemic embolism and stroke (LA thrombus — anticoagulation essential), pulmonary hypertension, right heart failure
+- **Prosthetic valves**: structural deterioration (bioprosthetic, typically after 10-20 years), thrombosis (mechanical — lifelong warfarin), prosthetic valve endocarditis (high mortality), haemolysis (paravalvular leak)
+
 ## Clinical Insight
 
 Aortic stenosis is notoriously underappreciated until symptoms develop. A patient who has had a systolic murmur for years and then reports their first episode of exertional syncope has crossed a critical threshold — do not wait for a second episode. Refer for echo and surgical evaluation urgently.

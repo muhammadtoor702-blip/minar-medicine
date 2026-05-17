@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { getAllTopics, getTopicBySlug } from '../lib/topics'
+import Head from 'next/head'
+import { getAllTopics } from '../lib/topics'
 import { GetStaticProps } from 'next'
 import { useState, useEffect, useRef } from 'react'
 
@@ -16,13 +17,26 @@ const SYSTEMS = [
   { name: 'Dermatology', icon: '🩹', slug: 'dermatology' },
 ]
 
-interface Topic { slug: string; title: string; system: string; scenario: string; summary: string; content: string }
+interface Topic { slug: string; title: string; system: string; scenario: string; summary: string; keywords: string[] }
 
 export default function Home({ topics }: { topics: Topic[] }) {
   const [query, setQuery] = useState('')
   const [aiSlugs, setAiSlugs] = useState<string[]>([])
   const [searching, setSearching] = useState(false)
   const debounceRef = useRef<NodeJS.Timeout | null>(null)
+  const searchRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && document.activeElement !== searchRef.current) {
+        e.preventDefault()
+        searchRef.current?.focus()
+      }
+      if (e.key === 'Escape') searchRef.current?.blur()
+    }
+    document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [])
 
   useEffect(() => {
     if (query.length < 2) {
@@ -56,13 +70,21 @@ export default function Home({ topics }: { topics: Topic[] }) {
           t.system.toLowerCase().includes(q) ||
           (t.scenario || '').toLowerCase().includes(q) ||
           (t.summary || '').toLowerCase().includes(q) ||
-          (t.content || '').toLowerCase().includes(q) ||
+          (t.keywords || []).some(k => k.toLowerCase().includes(q)) ||
           aiSlugs.includes(t.slug)
         )
       })
     : topics
 
   return (
+    <>
+    <Head>
+      <title>Minar Medicine — Clinical medicine, reasoned from first principles</title>
+      <meta name="description" content="Free clinical medicine reference covering 68 topics in internal medicine. Written for medical students and junior doctors who want to understand, not just memorise." />
+      <meta property="og:title" content="Minar Medicine" />
+      <meta property="og:description" content="Clinical medicine, reasoned from first principles. Free reference for medical students and junior doctors." />
+      <meta property="og:type" content="website" />
+    </Head>
     <main>
       <div className="hero">
         <h1>Clinical medicine,<br /><em>reasoned</em> from first principles</h1>
@@ -70,11 +92,14 @@ export default function Home({ topics }: { topics: Topic[] }) {
         <div className="search-box">
           <span className="search-icon">⌕</span>
           <input
+            ref={searchRef}
             type="text"
             placeholder="Search a condition, symptom, or system..."
             value={query}
             onChange={e => setQuery(e.target.value)}
+            aria-label="Search topics"
           />
+          {!query && <span className="search-kbd">/</span>}
           {searching && (
             <span style={{ fontSize: '12px', color: '#999', marginLeft: '8px' }}>searching...</span>
           )}
@@ -114,13 +139,13 @@ export default function Home({ topics }: { topics: Topic[] }) {
         </div>
       </div>
     </main>
+    </>
   )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const topics = getAllTopics().map(t => ({
-    ...t,
-    content: getTopicBySlug(t.slug)?.content || ''
+  const topics = getAllTopics().map(({ slug, title, system, scenario, summary, keywords }) => ({
+    slug, title, system, scenario, summary, keywords
   }))
   return { props: { topics } }
 }

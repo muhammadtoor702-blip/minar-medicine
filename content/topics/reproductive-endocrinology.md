@@ -8,8 +8,6 @@ sources:
   - ESHRE/ASRM PCOS Consensus
 ---
 
-
-
 ## Overview
 
 Reproductive endocrinology encompasses disorders of the hypothalamic-pituitary-gonadal axis, from polycystic ovary syndrome (PCOS — the most common endocrine condition in women of reproductive age) to menopause and male hypogonadism. These conditions share the common thread of disrupted sex hormone physiology, with downstream effects on fertility, metabolic health, bone density, and quality of life.
@@ -155,6 +153,14 @@ HRT replaces oestrogen (± progesterone in women with a uterus to prevent endome
 **Diagnosis**: Total testosterone (8–10am sample, fasting), LH, FSH, prolactin, SHBG, full blood count, DEXA scan for bone density.
 
 **Management**: Testosterone replacement therapy (gel, patch, or IM injection) for symptomatic hypogonadism with confirmed low testosterone. Monitor Hb (polycythaemia), PSA (prostate), bone density. Clomifene or pulsatile GnRH to stimulate testicular function if fertility is desired.
+## Complications
+
+- **PCOS**: metabolic syndrome, type 2 diabetes (5-10x increased risk), cardiovascular disease, endometrial hyperplasia and carcinoma (from chronic anovulation), infertility, psychological morbidity
+- **Ovarian hyperstimulation syndrome (OHSS)**: complication of gonadotrophin therapy — third-space fluid shift, ascites, pleural effusion, AKI, VTE; severe OHSS requires hospitalisation
+- **Premature ovarian insufficiency**: premature oestrogen deficiency causing osteoporosis, cardiovascular disease, and infertility; HRT is mandatory until natural menopause age
+- **Untreated male hypogonadism**: osteoporosis, metabolic syndrome, sexual dysfunction, infertility, cardiovascular risk
+- **HRT**: small increased risk of breast cancer with combined oestrogen-progestogen; VTE risk lower with transdermal route
+
 ## Clinical Insight
 
 PCOS is a metabolic condition as much as a reproductive one. The ovarian and menstrual features are the presenting complaint — but the insulin resistance, cardiovascular risk, and type 2 diabetes risk are the long-term determinants of health outcomes. Every woman with PCOS should have an annual HbA1c, fasting lipids, and blood pressure check — regardless of her current reproductive goals.

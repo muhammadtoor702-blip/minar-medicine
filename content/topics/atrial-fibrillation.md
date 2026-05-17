@@ -7,8 +7,6 @@ sources:
   - NICE NG196
 ---
 
-
-
 ## Overview
 
 Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia, affecting 1–2% of the general population and rising sharply with age. It is characterised by chaotic, disorganised electrical activity in the atria — predominantly triggered by ectopic foci at the pulmonary vein ostia — causing loss of coordinated atrial contraction and an irregular ventricular response.

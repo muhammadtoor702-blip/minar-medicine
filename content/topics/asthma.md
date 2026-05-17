@@ -7,7 +7,6 @@ sources:
   - NICE NG80
 ---
 
-
 ## Overview
 
 Asthma is a chronic inflammatory airway disease characterised by variable, reversible airflow obstruction and bronchial hyperresponsiveness. It affects roughly 8% of the population and remains a significant cause of preventable death — the majority of fatal and near-fatal attacks occur in patients with inadequately treated or under-recognised severe disease.

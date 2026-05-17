@@ -7,7 +7,6 @@ sources:
   - NICE NG106
 ---
 
-
 ## Overview
 
 Heart failure (HF) is a clinical syndrome in which the heart cannot pump sufficient blood to meet the body's metabolic demands, or can only do so at the cost of elevated filling pressures. It is the final common pathway of many cardiac conditions.

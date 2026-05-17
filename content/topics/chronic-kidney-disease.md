@@ -7,8 +7,6 @@ sources:
   - NICE NG203
 ---
 
-
-
 ## Overview
 
 Chronic kidney disease (CKD) is defined as abnormalities of kidney structure or function, present for more than three months, with implications for health. It is classified by both GFR (G1–G5) and albuminuria (A1–A3), and staged accordingly using the CGA system. CKD affects approximately 10% of the global population, is largely asymptomatic until advanced stages, and carries a disproportionately high cardiovascular mortality — patients with CKD are far more likely to die of cardiovascular disease than to reach end-stage renal disease (ESRD).

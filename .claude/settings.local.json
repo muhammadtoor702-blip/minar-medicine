@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(python -c \"import pymupdf; print\\('pymupdf ok'\\)\")",
+      "Bash(python -c \"import fitz; print\\('fitz ok'\\)\")",
+      "Bash(pip list *)",
+      "Bash(findstr -i \"pdf\")",
+      "Bash(pip install *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(npm run *)",
+      "Bash(ls styles/)",
+      "Bash(ls public/)",
+      "Bash(python add_complications.py)",
+      "Bash(rm styles/Home.module.css)",
+      "Bash(npm uninstall *)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")"
+    ]
+  }
+}

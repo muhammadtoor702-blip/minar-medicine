@@ -7,8 +7,6 @@ sources:
   - IHS Classification ICHD-3
 ---
 
-
-
 ## Overview
 
 Headache is one of the most common presenting complaints in medicine, affecting over 90% of the population at some point. The clinical challenge lies in distinguishing the vast majority of primary headaches (migraine, tension-type, cluster) — benign, episodic, and managed without investigation — from the small but critical minority of secondary headaches caused by serious underlying pathology. Missing a subarachnoid haemorrhage or meningitis is catastrophic; over-investigating benign headache is wasteful and anxiety-inducing.
@@ -112,6 +110,14 @@ Treatment: Weight loss (most effective), acetazolamide (reduces CSF production),
 **MRI brain** for chronic progressive headache, cluster headache (exclude secondary cause), atypical aura, or suspicion of structural pathology.
 
 **ESR, CRP, temporal artery biopsy** for suspected GCA.
+## Complications
+
+- **Subarachnoid haemorrhage**: re-bleeding (highest risk first 24 hours), cerebral vasospasm and delayed ischaemia (days 4-14), hydrocephalus, hyponatraemia (SIADH), death (~30-40%)
+- **Chronic migraine**: medication overuse headache (MOH) from >10-15 days/month of acute analgesics — requires slow withdrawal
+- **Giant cell arteritis untreated**: anterior ischaemic optic neuropathy — permanent blindness; stroke; aortic aneurysm
+- **Idiopathic intracranial hypertension**: progressive visual field loss and blindness from optic atrophy if ICP not controlled
+- **Missed sentinel bleed in thunderclap headache**: catastrophic SAH re-bleed within days if SAH not investigated and treated
+
 ## Clinical Insight
 
 The thunderclap headache is a diagnosis until proven otherwise. "The worst headache of my life" in a patient who has never had a headache like it requires an immediate non-contrast CT head, and if negative, a lumbar puncture at 12 hours. A normal CT does not exclude SAH — the sensitivity of CT drops from 95% at 6 hours to 50% at 1 week. Sending a patient home with analgesia after a thunderclap headache without LP is a preventable catastrophe.

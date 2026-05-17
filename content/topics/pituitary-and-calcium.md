@@ -8,8 +8,6 @@ sources:
   - NICE CG141 (Primary Hyperparathyroidism)
 ---
 
-
-
 ## Overview
 
 The pituitary gland — the "master gland" — regulates the thyroid, adrenal cortex, gonads, growth, and water balance through trophic hormones. Pituitary pathology produces disease through two mechanisms: **hormone excess** (from functioning adenomas) and **hormone deficiency** (from mass effect, surgery, or radiation destroying normal tissue). Disorders of calcium metabolism, while primarily parathyroid and renal in origin, are included here given their clinical overlap with endocrine presentations and shared management principles.
@@ -160,6 +158,15 @@ Most commonly iatrogenic — **post-thyroidectomy** or post-parathyroidectomy. A
 **Biochemistry**: Low calcium, elevated phosphate, low/undetectable PTH.
 
 **Management**: **Calcium supplements + active vitamin D (alfacalcidol or calcitriol)** — oral, lifelong. **Recombinant PTH (teriparatide or palopegteriparatide)** — licensed for chronic hypoparathyroidism when standard therapy is insufficient.
+## Complications
+
+- **Pituitary apoplexy**: haemorrhage or infarction into a pituitary adenoma — severe headache, visual field loss, cranial nerve palsies, acute hypopituitarism; emergency neurosurgical management
+- **Hypopituitarism**: secondary adrenal insufficiency (most dangerous — can cause crisis), secondary hypothyroidism, hypogonadism, diabetes insipidus
+- **Untreated acromegaly**: cardiomyopathy (leading cause of death), sleep apnoea, diabetes, colon polyps and malignancy, arthropathy
+- **Hyperprolactinaemia**: infertility, osteoporosis from oestrogen/testosterone suppression, visual field loss from macroadenoma
+- **Hypercalcaemia crisis (Ca >3.5 mmol/L)**: confusion, coma, AKI, pancreatitis, cardiac arrhythmias
+- **Hypoparathyroidism post-thyroidectomy**: tetany, laryngospasm, seizures from hypocalcaemia — may be permanent
+
 ## Clinical Insight
 
 Acromegaly kills through cardiovascular disease — the cardiomyopathy and associated hypertension and diabetes. Achieving biochemical remission (normalised IGF-1, suppressed GH on OGTT) is associated with return of cardiovascular risk to near-normal. The delay in diagnosis — averaging 8–10 years — represents years of unrecognised cardiovascular and metabolic damage. Old photographs are the most sensitive and underused diagnostic tool.

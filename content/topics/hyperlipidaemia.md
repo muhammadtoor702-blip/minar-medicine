@@ -7,8 +7,6 @@ sources:
   - NICE NG238
 ---
 
-
-
 ## Overview
 
 Hyperlipidaemia encompasses elevated total cholesterol, LDL cholesterol, triglycerides, or a combination, and represents one of the most important modifiable risk factors for atherosclerotic cardiovascular disease. Elevated LDL is causally and dose-dependently related to coronary artery disease, stroke, and peripheral arterial disease. Management is guided by overall cardiovascular risk, not absolute lipid levels in isolation.

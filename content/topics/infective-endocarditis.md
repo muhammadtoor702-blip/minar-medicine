@@ -6,8 +6,6 @@ sources:
   - ESC Infective Endocarditis Guidelines 2023
 ---
 
-
-
 ## Overview
 
 Infective endocarditis (IE) is infection of the endocardial surface of the heart, most commonly involving the cardiac valves. It is characterised by the formation of **vegetations** — masses of fibrin, platelets, and microorganisms adherent to the valve surface — that can cause local destruction, embolism, and haematogenous seeding of distant sites. Despite advances in treatment, mortality remains 15–30%.

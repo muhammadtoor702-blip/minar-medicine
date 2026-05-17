@@ -7,8 +7,6 @@ sources:
   - ACC/AHA Aortic Disease Guidelines 2022
 ---
 
-
-
 ## Overview
 
 Aortic disease encompasses two life-threatening entities: **aortic dissection** — a tear in the aortic intima allowing blood to track into a false lumen — and **aortic aneurysm** — pathological dilation of the aorta that risks catastrophic rupture. Both conditions share risk factors and demand urgent recognition, but their immediate management differs fundamentally.

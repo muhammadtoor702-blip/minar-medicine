@@ -8,8 +8,6 @@ sources:
   - BSG Colorectal Cancer Screening Guidelines
 ---
 
-
-
 ## Overview
 
 Colorectal disease encompasses a spectrum from common and benign (haemorrhoids, diverticular disease) to premalignant (polyps) and malignant (colorectal cancer — the second most common cause of cancer death in the UK). These conditions share symptom overlap, and the clinical imperative is to distinguish those requiring urgent investigation from those amenable to reassurance or outpatient management.

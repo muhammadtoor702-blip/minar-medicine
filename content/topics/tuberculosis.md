@@ -7,8 +7,6 @@ sources:
   - WHO TB Guidelines 2022
 ---
 
-
-
 ## Overview
 
 Tuberculosis (TB) is caused by *Mycobacterium tuberculosis* and remains one of the most significant infectious diseases globally — the leading cause of death from a single infectious agent (ahead of HIV). The UK sees approximately 5,000 cases annually, with the highest rates in urban areas and in people born in high-burden countries (South Asia, sub-Saharan Africa, Eastern Europe). The clinical challenge lies in early diagnosis, correct management, and preventing transmission and drug resistance.

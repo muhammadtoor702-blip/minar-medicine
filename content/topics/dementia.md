@@ -7,8 +7,6 @@ sources:
   - DSM-5
 ---
 
-
-
 ## Overview
 
 Dementia is a syndrome of progressive, acquired cognitive decline affecting multiple domains — memory, language, visuospatial function, executive function, personality — of sufficient severity to impair daily functioning. It is not a normal part of ageing. The global prevalence is approximately 55 million, with Alzheimer's disease accounting for 60–70% of cases. Early and accurate diagnosis matters — not because treatments are highly effective, but because it enables planning, driving cessation, legal and financial decisions, carer support, and identification of treatable mimics.

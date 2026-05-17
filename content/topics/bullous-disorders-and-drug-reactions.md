@@ -8,7 +8,6 @@ sources:
   - BAD Drug Reaction Guidelines
 ---
 
-
 ## Overview
 
 Bullous (blistering) skin diseases are caused by disruption of adhesion molecules within the epidermis or at the dermoepidermal junction, producing blisters either within the epidermis (intraepidermal — fragile, rupturing easily) or beneath it (subepidermal — tense, thick-walled, more durable). Identifying the level of blister formation and the underlying immunological mechanism determines diagnosis and management. Severe cutaneous drug reactions, while distinct in aetiology, produce blistering and erosive disease of potentially fatal severity and are included here for clinical relevance.
@@ -151,6 +150,14 @@ DRESS is a severe drug hypersensitivity reaction with multi-organ involvement. D
 **Causative drugs**: Aromatic anticonvulsants (carbamazepine, phenytoin, lamotrigine), allopurinol, sulfonamides, minocycline, abacavir (HLA-B*5701).
 
 **Management**: Withdraw causative drug immediately. Oral or IV corticosteroids (prednisolone 0.5–1 mg/kg) to suppress the systemic inflammation. Monitor LFTs, renal function, FBC. Symptoms can relapse weeks after the drug is stopped.
+## Complications
+
+- **Pemphigus vulgaris**: sepsis (Nikolsky-positive erosions are portals of entry), fluid and electrolyte loss, malnutrition, steroid complications; mortality 5-10% with treatment
+- **Bullous pemphigoid**: bacterial superinfection, aspiration pneumonia, long-term steroid morbidity (osteoporosis, diabetes); mortality increased in elderly
+- **Stevens-Johnson syndrome/TEN**: sepsis (leading cause of death), ARDS, multi-organ failure, ocular scarring (symblepharon, blindness), oesophageal and urethral strictures; TEN mortality up to 30%
+- **DRESS**: hepatitis, myocarditis, nephritis, haematological abnormalities; mortality approximately 10%; delayed organ involvement months after apparent resolution
+- **Erythema multiforme**: corneal scarring and visual impairment with ocular involvement
+
 ## Clinical Insight
 
 The distinction between pemphigus and pemphigoid saves lives and avoids unnecessary treatment. The clinical key: pemphigoid has tense blisters, negative Nikolsky sign, and minimal mucosa involvement in an elderly patient — it is managed with topical clobetasol or oral prednisolone. Pemphigus has flaccid blisters, positive Nikolsky sign, and oral erosions preceding the rash — it requires systemic immunosuppression including rituximab.

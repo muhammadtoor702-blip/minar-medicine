@@ -7,8 +7,6 @@ sources:
   - NICE NG12
 ---
 
-
-
 ## Overview
 
 A pleural effusion is an abnormal accumulation of fluid in the pleural space. The normal pleural space contains only 10–20 mL of fluid — the balance between production (primarily by the parietal pleura) and absorption (primarily via lymphatics). Effusions develop when this balance is disrupted by increased fluid production, reduced absorption, or both. The clinical priority is to determine whether the effusion is a **transudate** (a systemic process affecting fluid dynamics) or an **exudate** (a local process involving the pleura itself), as this fundamentally directs the diagnostic and management pathway.

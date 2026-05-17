@@ -7,8 +7,6 @@ sources:
   - NICE NG158
 ---
 
-
-
 ## Overview
 
 Pulmonary embolism (PE) occurs when a thrombus — most commonly arising from the deep veins of the legs or pelvis — embolises to the pulmonary arterial tree, obstructing blood flow to part of the lung. It represents the most severe end of the venous thromboembolism (VTE) spectrum, which includes deep vein thrombosis (DVT). PE ranges from small, incidentally detected subsegmental clots to massive bilateral occlusion causing cardiovascular collapse and death.

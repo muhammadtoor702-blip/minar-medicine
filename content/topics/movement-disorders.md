@@ -7,8 +7,6 @@ sources:
   - MDS Diagnostic Criteria for Parkinson's Disease 2015
 ---
 
-
-
 ## Overview
 
 Movement disorders are neurological conditions characterised by abnormal voluntary or involuntary movements. They are classified as hypokinetic (reduced movement — Parkinson's disease and Parkinsonism) or hyperkinetic (excessive, involuntary movement — tremor, chorea, dystonia, tics). Parkinson's disease is by far the most clinically significant, affecting 1–2% of people over 65 and representing the second most common neurodegenerative disease after Alzheimer's.

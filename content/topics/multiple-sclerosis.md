@@ -7,8 +7,6 @@ sources:
   - McDonald Criteria 2017
 ---
 
-
-
 ## Overview
 
 Multiple sclerosis (MS) is a chronic, immune-mediated, demyelinating disease of the central nervous system, characterised by inflammatory plaques of demyelination and axonal loss that are disseminated in space (different CNS regions) and time (episodes separated by at least 30 days). It is the most common cause of neurological disability in young adults in temperate climates, with a 2:1 female predominance and peak onset in the third to fourth decades. The clinical course is highly variable.

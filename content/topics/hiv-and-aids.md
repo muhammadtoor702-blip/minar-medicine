@@ -7,8 +7,6 @@ sources:
   - WHO HIV Guidelines 2021
 ---
 
-
-
 ## Overview
 
 HIV (Human Immunodeficiency Virus) is a single-stranded RNA retrovirus that targets CD4+ T lymphocytes, progressively depleting cellular immunity. Untreated, it leads to AIDS (Acquired Immunodeficiency Syndrome) — defined as a CD4 count <200 cells/µL or the occurrence of an AIDS-defining illness. The global epidemic affects over 38 million people. In the era of combination antiretroviral therapy (cART), HIV is a manageable chronic condition — people diagnosed today and started on treatment have near-normal life expectancy. The tragedy of HIV mortality now lies almost entirely in late diagnosis.

@@ -7,8 +7,6 @@ sources:
   - NICE NG51
 ---
 
-
-
 ## Overview
 
 Sepsis is defined as **life-threatening organ dysfunction caused by a dysregulated host response to infection** (Sepsis-3 definition, 2016). Septic shock is sepsis with circulatory failure — a vasopressor is required to maintain a MAP ≥65 mmHg despite adequate fluid resuscitation, and lactate remains >2 mmol/L. Sepsis is not simply infection with a systemic response — it represents the transition from a controlled, beneficial immune response to a destructive, dysregulated one.

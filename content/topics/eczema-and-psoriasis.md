@@ -8,8 +8,6 @@ sources:
   - BAD Guidelines
 ---
 
-
-
 ## Overview
 
 Eczema (atopic dermatitis) and psoriasis are the two most common chronic inflammatory skin diseases. Both are immune-mediated, both are genetically influenced, and both significantly impair quality of life — but their immunopathology, clinical patterns, triggers, and treatments differ substantially. Distinguishing them clinically is usually straightforward; managing them effectively requires an understanding of their pathophysiology.

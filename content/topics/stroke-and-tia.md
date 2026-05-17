@@ -7,7 +7,6 @@ sources:
   - NICE NG128
 ---
 
-
 ## Overview
 
 Stroke is the sudden onset of a focal neurological deficit lasting more than 24 hours, caused by disruption of blood supply to part of the brain. It is the second leading cause of death and the leading cause of disability worldwide. Ischaemic stroke accounts for 85% of cases; haemorrhagic stroke for 15%. A **transient ischaemic attack (TIA)** is clinically identical in presentation but resolves completely within 24 hours (usually within 60 minutes). TIA is not a benign event — it carries a 10–15% risk of stroke within 90 days, with the highest risk in the first 48 hours.

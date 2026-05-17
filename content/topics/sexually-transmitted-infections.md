@@ -7,8 +7,6 @@ sources:
   - WHO STI Guidelines 2021
 ---
 
-
-
 ## Overview
 
 Sexually transmitted infections (STIs) represent a major public health burden — over 1 million new STIs are acquired globally every day. Many are asymptomatic, facilitating silent transmission and complications that may only manifest years later (infertility, ectopic pregnancy, cervical cancer). A systematic, non-judgemental approach to sexual health, including partner notification, contact tracing, and regular STI screening, is essential to controlling transmission.
@@ -147,6 +145,15 @@ HPV types 6 and 11 cause genital warts (condylomata acuminata). Types 16 and 18 
 **Genital warts**: Soft, flesh-coloured, cauliflower-like papules on genitalia and perianal skin. Treatment: podophyllotoxin 0.15% cream (patient-applied, home treatment), imiquimod (immune modulator), cryotherapy, or surgical excision. No treatment affects viral clearance; warts may recur.
 
 **HPV vaccination**: Gardasil-9 (9-valent — covers HPV 6, 11, 16, 18, 31, 33, 45, 52, 58). NHS programme: offered to all children aged 12–13 years and to MSM up to age 45 in sexual health clinics.
+## Complications
+
+- **Untreated chlamydia/gonorrhoea in women**: PID, tubo-ovarian abscess, Fitz-Hugh-Curtis syndrome, chronic pelvic pain, infertility (tubal factor), ectopic pregnancy
+- **Disseminated gonorrhoea**: septic arthritis, tenosynovitis, petechial rash, endocarditis, meningitis
+- **Syphilis tertiary**: gummas, cardiovascular syphilis (aortitis, aortic regurgitation, coronary ostial stenosis), neurosyphilis (tabes dorsalis, general paresis)
+- **Congenital syphilis**: stillbirth, multi-organ disease (snuffles, rash, hepatosplenomegaly, bone lesions, keratitis, deafness)
+- **Neonatal herpes**: disseminated HSV from maternal primary infection at delivery — encephalitis, high mortality; caesarean section indicated if primary lesion at term
+- **HPV**: cervical, anal, oropharyngeal, vulvar, and penile carcinoma from high-risk strains (16/18)
+
 ## Clinical Insight
 
 Partner notification is not optional — it is a core component of STI management. A treated patient with an untreated partner will be reinfected immediately upon resuming sexual contact. Notification can be patient-facilitated (patient informs partners) or provider-facilitated (clinic contacts partners directly, with patient consent). For gonorrhoea and syphilis, active follow-up of partners is essential given the serious complications and resistance implications.

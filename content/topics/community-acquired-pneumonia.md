@@ -7,8 +7,6 @@ sources:
   - NICE NG138
 ---
 
-
-
 ## Overview
 
 Community-acquired pneumonia (CAP) is infection of the lung parenchyma acquired outside hospital (or within 48 hours of admission). It is one of the most common causes of emergency hospital admission and a leading infectious cause of death globally. Accurate severity assessment at presentation drives triage, antibiotic choice, and disposition decisions.

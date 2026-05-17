@@ -7,8 +7,6 @@ sources:
   - EAU Urological Infections Guidelines 2023
 ---
 
-
-
 ## Overview
 
 Urinary tract infections (UTIs) are among the most common bacterial infections in clinical practice, accounting for approximately 15% of all community-prescribed antibiotics. They range from uncomplicated lower UTI (cystitis) — a self-limiting, low-risk condition in healthy women — to complicated upper UTI (pyelonephritis) and urosepsis, which carry significant morbidity and mortality. Distinguishing complicated from uncomplicated UTI determines the urgency of investigation and the choice of antibiotic.

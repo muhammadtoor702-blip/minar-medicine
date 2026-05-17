@@ -7,8 +7,6 @@ sources:
   - NICE NG143 (Neutropenic Sepsis)
 ---
 
-
-
 ## Overview
 
 Infection in the immunocompromised host is one of the most challenging areas of clinical medicine. The normal inflammatory response is blunted, classical signs of infection (fever, localising inflammation) may be absent or misleading, and the spectrum of potential pathogens is vastly expanded compared with immunocompetent individuals. The two most clinically important contexts are **neutropenic sepsis** (in haematological malignancy and chemotherapy) and **opportunistic infections** in profoundly immunosuppressed patients (HIV/AIDS, solid organ transplant, long-term corticosteroids). The unifying principle: a low threshold to treat, a low threshold to broaden coverage, and a systematic approach to identifying the organism.
@@ -136,6 +134,15 @@ Transplant recipients require lifelong immunosuppression to prevent rejection �
 **CMV in transplant**: Screen all donors and recipients before transplant. D+/R- (donor CMV-positive, recipient negative) = highest risk. Prophylaxis with valganciclovir or pre-emptive monitoring with CMV PCR.
 
 **PCP prophylaxis**: Co-trimoxazole for first 6–12 months post-transplant.
+## Complications
+
+- **Untreated febrile neutropenia**: bacteraemia progressing to septic shock within hours; mortality rises steeply with each hour of delayed antibiotics
+- **Invasive fungal infection**: Aspergillus — pulmonary angioinvasion, haemoptysis, haematogenous dissemination; Candida — endophthalmitis, endocarditis; mortality >40% in invasive disease
+- **PCP**: respiratory failure requiring mechanical ventilation, pneumothorax, long-term oxygen dependence
+- **CMV disease**: retinitis (can progress to blindness), colitis, oesophagitis, pneumonitis, encephalitis
+- **Graft-versus-host disease** (post-SCT): acute GVHD — hepatic failure, severe colitis; chronic GVHD — bronchiolitis obliterans, sicca syndrome
+- **Antimicrobial overuse**: AKI (aminoglycosides, amphotericin), hepatotoxicity (azoles), drug-resistant organisms
+
 ## Clinical Insight
 
 In febrile neutropenia, the source of infection is never found in approximately 40–60% of patients. This does not mean there is no infection — it means the organisms are not identifiable by current methods, or the infection has been suppressed before localising. Empirical broad-spectrum antibiotics are started because the consequences of undertreating are catastrophic. A temperature of 38°C in a neutropenic patient is a medical emergency equivalent to septic shock in an immunocompetent patient.

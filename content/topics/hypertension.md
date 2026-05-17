@@ -7,8 +7,6 @@ sources:
   - ACC/AHA HTN Guidelines 2017
 ---
 
-
-
 ## Overview
 
 Hypertension is a sustained elevation of blood pressure that represents one of the most important modifiable risk factors for myocardial infarction, stroke, heart failure, CKD, and peripheral arterial disease. The vast majority — around 90–95% — is primary (essential) hypertension, with no single identifiable cause. Secondary hypertension accounts for the remainder and should always be considered in younger patients, those with resistant hypertension, or atypical features.

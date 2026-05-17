@@ -6,8 +6,6 @@ sources:
   - ESC Pericardial Disease Guidelines 2015
 ---
 
-
-
 ## Overview
 
 Pericardial diseases encompass a spectrum of conditions affecting the two-layered fibroserous sac surrounding the heart. The three major clinical entities — acute pericarditis, pericardial effusion with tamponade, and constrictive pericarditis — represent a continuum of inflammation, fluid accumulation, and fibrosis, respectively.
@@ -116,6 +114,14 @@ Fibrous scarring of the pericardium creates a rigid, non-compliant shell. Diasto
 ### Management
 
 Pericardiectomy is the definitive treatment. Medical management of fluid overload provides symptom relief while awaiting surgery.
+## Complications
+
+- **Cardiac tamponade**: obstructive shock, cardiac arrest — emergency pericardiocentesis is life-saving
+- **Recurrent pericarditis**: affects 15-30% after first episode; multiple recurrences cause significant morbidity; refractory disease may require pericardiectomy
+- **Constrictive pericarditis**: progressive right heart failure, hepatic congestion, ascites, protein-losing enteropathy; requires pericardiectomy
+- **Myopericarditis**: ventricular arrhythmias, LV dysfunction, sudden death in athletes (hence sport restriction during acute pericarditis)
+- **Purulent pericarditis**: rare but high mortality; requires surgical drainage
+
 ## Clinical Insight
 
 Colchicine is not optional. Adding it to NSAIDs halves the recurrence rate at virtually zero additional cost or toxicity. Every patient with pericarditis should receive it for three months.

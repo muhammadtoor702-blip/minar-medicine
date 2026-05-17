@@ -7,8 +7,6 @@ sources:
   - NICE NG129 / NG130
 ---
 
-
-
 ## Overview
 
 Inflammatory bowel disease (IBD) encompasses two chronic, relapsing conditions — **ulcerative colitis (UC)** and **Crohn's disease (CD)** — characterised by immune-mediated gastrointestinal inflammation. They share epidemiological features, some extraintestinal manifestations, and therapeutic approaches, but differ fundamentally in the distribution, depth, and pattern of inflammation. These differences determine their complications, surgical implications, and long-term prognosis.

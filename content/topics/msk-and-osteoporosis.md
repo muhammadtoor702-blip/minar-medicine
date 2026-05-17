@@ -166,6 +166,14 @@ Tendinopathy at the origin of the extensor carpi radialis brevis from the latera
 ### Plantar Fasciitis
 
 Inflammation at the origin of the plantar fascia at the calcaneus. Severe heel pain on first steps in the morning or after rest ("post-static dyskinesia"). Associated with obesity, flat feet, Achilles tightness, and SpA. Management: stretching programme, orthotic insoles, night splints, corticosteroid injection, shockwave therapy.
+## Complications
+
+- **Osteoporotic fractures**: vertebral — chronic pain, kyphosis, restrictive lung disease; hip fracture — 30-day mortality 5-10%, 1-year mortality up to 30%, loss of independence
+- **Secondary osteoporosis**: untreated underlying disease (coeliac, hypogonadism, hyperparathyroidism) accelerates bone loss despite bisphosphonate therapy
+- **Bisphosphonate complications**: osteonecrosis of the jaw (rare, more common with IV zoledronic acid in oncology doses); atypical subtrochanteric femoral fractures (rare, after >5 years)
+- **Chronic back pain**: radiculopathy, spinal stenosis with neurogenic claudication, cauda equina syndrome (surgical emergency)
+- **Inflammatory arthritis untreated**: joint erosion and destruction, functional disability, extra-articular manifestations
+
 ## Clinical Insight
 
 Every patient starting long-term steroids (prednisolone ≥5 mg for >3 months) needs bone protection started simultaneously — not at the 3-month review, not when they fracture. Glucocorticoids reduce bone quality faster than BMD measurements reflect. A patient on prednisolone with a T-score of -1.5 has a higher absolute fracture risk than an untreated postmenopausal woman with the same T-score — because glucocorticoids impair bone quality beyond what DEXA captures. FRAX adjusts for this, but the clinical bottom line is: start bisphosphonate or another bone protection agent with the steroid prescription, not after a fracture proves the need.

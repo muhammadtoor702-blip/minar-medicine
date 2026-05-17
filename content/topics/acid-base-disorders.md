@@ -7,8 +7,6 @@ sources:
   - ADA DKA Standards 2023
 ---
 
-
-
 ## Overview
 
 Acid-base homeostasis maintains arterial pH between 7.35 and 7.45. Deviations beyond this range impair enzyme function, alter drug ionisation, and disrupt cardiovascular physiology. Four primary disorders exist — metabolic acidosis, metabolic alkalosis, respiratory acidosis, and respiratory alkalosis — and they may coexist as mixed disorders. A systematic approach to ABG interpretation is essential: it is a logical, stepwise process, not a pattern-recognition exercise.
@@ -138,6 +136,15 @@ A mixed disorder exists when pH, PaCO₂, and HCO₃ cannot all be explained by 
 | Metabolic acidosis + metabolic alkalosis | DKA with vomiting; renal failure with vomiting |
 | Respiratory acidosis + metabolic alkalosis | COPD + diuretics; COPD + vomiting |
 | Respiratory acidosis + metabolic acidosis | Cardiac arrest |
+
+## Complications
+
+- **Severe metabolic acidosis (pH <7.1)**: myocardial depression, vasodilation, arrhythmias, impaired consciousness — requires urgent correction
+- **Severe metabolic alkalosis**: tetany, seizures, cardiac arrhythmias from associated hypokalaemia and hypocalcaemia
+- **Respiratory alkalosis (acute)**: cerebral vasoconstriction causing dizziness, paraesthesia, syncope
+- **DKA**: cerebral oedema (particularly in children with rapid correction), hypokalaemia during insulin treatment, aspiration, AKI
+- **Lactic acidosis**: multi-organ failure; mortality >50% in Type A lactic acidosis
+- **Iatrogenic**: overcorrection of acidosis with bicarbonate can cause paradoxical CSF acidosis and alkalosis-related hypokalaemia
 
 ## Clinical Insight
 

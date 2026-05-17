@@ -7,8 +7,6 @@ sources:
   - ILAE Epilepsy Classification 2017
 ---
 
-
-
 ## Overview
 
 A seizure is a transient episode of abnormal, excessive, or synchronous neuronal activity. Epilepsy is defined as a tendency to have recurrent unprovoked seizures — operationally, this means two unprovoked seizures more than 24 hours apart, or one unprovoked seizure with a high probability of recurrence (>60% over 10 years), or a diagnosis of an epilepsy syndrome. The distinction between a provoked (acute symptomatic) seizure and an unprovoked seizure is fundamental — it determines whether long-term antiseizure medication (ASM) is indicated.

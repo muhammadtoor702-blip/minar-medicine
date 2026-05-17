@@ -7,8 +7,6 @@ sources:
   - NICE NG148
 ---
 
-
-
 ## Overview
 
 Acute kidney injury (AKI) is defined by the KDIGO criteria as any of: a rise in serum creatinine ≥26.5 µmol/L within 48 hours; a rise to ≥1.5× baseline within 7 days; or urine output <0.5 mL/kg/hour for ≥6 hours. It is a common and serious condition — present in up to 15% of hospital inpatients — and is independently associated with increased mortality, progression to CKD, and prolonged hospital stay.

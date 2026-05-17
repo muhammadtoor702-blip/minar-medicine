@@ -6,7 +6,6 @@ sources:
   - ESC Cardiomyopathy Guidelines 2023
 ---
 
-
 ## Overview
 
 Cardiomyopathies are primary diseases of the heart muscle that are not explained by ischaemia, hypertension, or valvular or congenital heart disease. The four major types — dilated, hypertrophic, restrictive, and arrhythmogenic right ventricular — have distinct pathologies, presentations, and management strategies.

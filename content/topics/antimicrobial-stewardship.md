@@ -7,8 +7,6 @@ sources:
   - UK Government AMR National Action Plan 2024
 ---
 
-
-
 ## Overview
 
 Antimicrobial resistance (AMR) is one of the most significant threats to global health. Without action, AMR is projected to cause 10 million deaths annually by 2050 — exceeding current cancer mortality. The drivers are well understood: overuse and misuse of antibiotics in humans and agriculture, inadequate diagnostics driving empirical prescribing, poor infection prevention and control, and inadequate development of new antimicrobials. Antimicrobial stewardship (AMS) is the systematic effort to optimise antibiotic prescribing — ensuring the right drug, right dose, right duration, for the right patient.

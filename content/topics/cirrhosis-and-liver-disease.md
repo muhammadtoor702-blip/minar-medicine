@@ -7,8 +7,6 @@ sources:
   - EASL Clinical Practice Guidelines
 ---
 
-
-
 ## Overview
 
 Cirrhosis represents the end-stage of all chronic liver diseases — the final common pathway of sustained hepatic injury leading to diffuse fibrosis, architectural distortion, and regenerative nodule formation. Despite widely different aetiologies, cirrhosis produces a consistent clinical syndrome through two main pathophysiological consequences: **portal hypertension** (causing varices, ascites, and splenomegaly) and **hepatocellular dysfunction** (causing impaired synthetic function, encephalopathy, and jaundice). The complications of cirrhosis are themselves life-threatening and require systematic anticipation and management.

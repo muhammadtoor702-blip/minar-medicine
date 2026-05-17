@@ -8,8 +8,6 @@ sources:
   - ETA Guidelines
 ---
 
-
-
 ## Overview
 
 Thyroid disease encompasses a spectrum from hypothyroidism (deficiency of thyroid hormone) to hyperthyroidism (excess), and from benign structural disease (goitre, nodules) to malignancy. The thyroid produces T4 (thyroxine — inactive prohormone) and T3 (triiodothyronine — active form), regulated by the hypothalamic-pituitary-thyroid (HPT) axis. TSH is the most sensitive indicator of thyroid status and is the appropriate first investigation in almost all situations.

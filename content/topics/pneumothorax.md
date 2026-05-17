@@ -6,8 +6,6 @@ sources:
   - BTS Pleural Disease Guidelines 2023
 ---
 
-
-
 ## Overview
 
 A pneumothorax is the presence of air in the pleural space, between the visceral and parietal pleura, causing lung collapse. It is classified by aetiology as primary (no underlying lung disease) or secondary (complicating known lung disease), and clinically as spontaneous, traumatic, or iatrogenic. The distinction matters because management differs substantially.

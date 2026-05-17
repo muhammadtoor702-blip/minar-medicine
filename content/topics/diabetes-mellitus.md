@@ -8,7 +8,6 @@ sources:
   - NICE NG17 (Type 1 Diabetes)
 ---
 
-
 ## Overview
 
 Diabetes mellitus is a group of metabolic disorders characterised by chronic hyperglycaemia resulting from defects in insulin secretion, insulin action, or both. Type 2 diabetes (T2DM) accounts for >90% of cases globally and is the leading cause of end-stage renal disease, new-onset blindness in working-age adults, and non-traumatic lower limb amputation. Type 1 diabetes (T1DM) results from autoimmune destruction of pancreatic beta cells. Despite their different aetiologies, both converge on the same complications — driven by chronic hyperglycaemia and its toxic effects on vasculature and nerves.

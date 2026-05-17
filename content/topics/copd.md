@@ -7,8 +7,6 @@ sources:
   - NICE NG115
 ---
 
-
-
 ## Overview
 
 COPD is a common, preventable, and treatable disease characterised by persistent, progressive airflow limitation that is not fully reversible. It is the third leading cause of death worldwide. The umbrella term encompasses two overlapping pathological processes — emphysema and chronic bronchitis — which coexist to varying degrees in most patients.

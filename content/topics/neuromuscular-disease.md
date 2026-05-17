@@ -7,8 +7,6 @@ sources:
   - EFNS Myasthenia Gravis Guidelines
 ---
 
-
-
 ## Overview
 
 Neuromuscular diseases affect the motor unit — the lower motor neuron (anterior horn cell), peripheral nerve, neuromuscular junction, or muscle. They present with weakness, wasting, reduced reflexes, and in some cases sensory disturbance. The anatomical level of pathology determines the clinical pattern and the most appropriate investigation. Two of the most clinically important conditions — Guillain-Barré syndrome and myasthenia gravis — are discussed in detail here, alongside an overview of other major neuromuscular conditions.
@@ -153,6 +151,15 @@ The hallmark is **fatigable weakness** — weakness that worsens with repeated a
 **Charcot-Marie-Tooth (CMT)**: Most common inherited peripheral neuropathy. Progressive distal weakness and wasting, high-arched feet (pes cavus), hammer toes, areflexia. Demyelinating (CMT1) or axonal (CMT2). No disease-modifying treatment.
 
 **Myotonic dystrophy (DM1)**: Most common adult muscular dystrophy. CTG repeat expansion in DMPK gene. Myotonia (delayed muscle relaxation — cannot release grip), facial weakness, ptosis, distal limb weakness, cardiac conduction disease (ECG mandatory — risk of heart block and sudden death), endocrine involvement (diabetes, hypothyroidism, hypogonadism), cognitive features.
+## Complications
+
+- **Respiratory failure**: primary cause of death in GBS, MND, myasthenia gravis, and muscular dystrophies — requires serial VC monitoring and proactive ICU referral
+- **Aspiration pneumonia**: bulbar weakness causing dysphagia and silent aspiration; common in MND, late GBS, myasthenic crisis
+- **Autonomic instability** (GBS): life-threatening bradycardia, heart block, hypertensive crises — continuous cardiac monitoring required
+- **Myasthenic crisis**: acute respiratory failure requiring intubation; triggered by infection, surgery, or stopping pyridostigmine
+- **Cholinergic crisis** (pyridostigmine overdose): mimics myasthenic crisis but has fasciculations, excessive secretions, and miosis — anticholinesterases must be stopped
+- **MND**: progressive dysphagia requiring PEG, respiratory failure requiring NIV discussions, psychological burden
+
 ## Clinical Insight
 
 In GBS, the vital capacity is the vital sign. ABG will remain reassuringly normal until the patient is in acute respiratory failure — by which time emergency intubation under difficult circumstances is required. A VC of 1.5 L, or a drop of 30% from baseline, is the threshold for elective intubation. Serial 4-hourly VC measurements from the moment of diagnosis allow a planned, controlled procedure rather than a crash intubation.

@@ -7,8 +7,6 @@ sources:
   - ACC/AHA ACS Guidelines 2022
 ---
 
-
-
 ## Overview
 
 Acute coronary syndrome (ACS) is a spectrum of conditions caused by acute myocardial ischaemia, unified by a common pathological mechanism: rupture or erosion of a vulnerable atherosclerotic plaque followed by platelet aggregation and thrombus formation. The three subtypes — unstable angina, NSTEMI, and STEMI — differ in the degree of coronary occlusion and the extent of myocardial injury.

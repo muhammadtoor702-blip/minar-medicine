@@ -7,8 +7,6 @@ sources:
   - NICE NG185
 ---
 
-
-
 ## Overview
 
 Stable coronary artery disease (chronic coronary syndrome) results from fixed, non-obstructing atherosclerotic plaques that narrow one or more coronary arteries. Unlike ACS, there is no acute plaque rupture. Instead, a stable plaque limits blood flow during increased myocardial oxygen demand but permits adequate flow at rest — producing predictable, exertional symptoms that resolve with rest or nitrates.

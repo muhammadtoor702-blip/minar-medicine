@@ -7,8 +7,6 @@ sources:
   - NICE NG118
 ---
 
-
-
 ## Overview
 
 Nephrolithiasis — renal stone disease — is common, affecting approximately 10–15% of the population at least once in a lifetime, with a high recurrence rate (50% within 10 years without intervention). Stones form when urine becomes supersaturated with stone-forming salts, either due to increased solute excretion or decreased inhibitory factors. The clinical presentation is determined by stone size and location. Understanding stone composition drives targeted prevention.

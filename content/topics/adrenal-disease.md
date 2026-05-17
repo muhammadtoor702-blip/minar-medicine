@@ -8,8 +8,6 @@ sources:
   - NICE CG101 (Primary Aldosteronism)
 ---
 
-
-
 ## Overview
 
 The adrenal glands produce three categories of hormones from anatomically distinct zones: **glucocorticoids** (cortisol — zona fasciculata), **mineralocorticoids** (aldosterone — zona glomerulosa), and **androgens** (DHEA — zona reticularis). The adrenal medulla produces catecholamines (adrenaline, noradrenaline). Each zone is subject to distinct pathological conditions — excess or deficiency of any hormone produces a recognisable clinical syndrome.
@@ -170,6 +168,14 @@ Precipitated by intercurrent illness, surgery, trauma, or vomiting (preventing o
 **Diagnosis**: 24-hour urinary or plasma **metanephrines** (normetanephrine and metanephrine) — most sensitive and specific test (>95% sensitivity). Catecholamines less sensitive. Image with CT/MRI adrenals; **¹²³I-MIBG scan** for occult/metastatic disease.
 
 **Management**: **Alpha-blocker first (phenoxybenzamine or doxazosin) for 10–14 days** → then beta-blocker. **Never give beta-blocker first** — unopposed alpha stimulation causes paradoxical severe hypertension. Surgical resection after alpha-blockade is definitive.
+## Complications
+
+- **Addisonian crisis**: life-threatening hypotension, shock, hypoglycaemia, and death if untreated — precipitated by intercurrent illness without adequate steroid adjustment
+- **Cushing's syndrome**: diabetes, hypertension, osteoporotic fractures, cardiovascular disease, immune suppression, avascular necrosis of the femoral head
+- **Conn's syndrome**: hypokalaemia-related arrhythmias, resistant hypertension, cardiovascular remodelling, stroke
+- **Phaeochromocytoma**: hypertensive crisis, malignant arrhythmias, myocardial infarction, haemorrhagic stroke
+- **Long-term steroid therapy**: HPA axis suppression, adrenal atrophy, Cushingoid features, opportunistic infections
+
 ## Clinical Insight
 
 Adrenal crisis is under-recognised and under-treated. Any patient with known adrenal insufficiency who presents unwell — particularly with hypotension — should receive IM or IV hydrocortisone 100 mg immediately before waiting for investigations. The treatment is safe, the delay is not. All patients with Addison's disease should be trained in self-injection of IM hydrocortisone and carry a steroid emergency card at all times.

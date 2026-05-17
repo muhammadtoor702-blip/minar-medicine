@@ -7,8 +7,6 @@ sources:
   - Rome IV Criteria
 ---
 
-
-
 ## Overview
 
 Irritable bowel syndrome (IBS) is the most common functional gastrointestinal disorder, affecting approximately 10–15% of the population globally. It is characterised by recurrent abdominal pain related to defecation, associated with a change in stool frequency or form — in the absence of structural or biochemical abnormalities to explain symptoms. IBS is not a diagnosis of exclusion in younger patients without alarm features — it is a positive clinical diagnosis based on symptom criteria.

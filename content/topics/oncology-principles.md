@@ -146,6 +146,16 @@ Neutrophil count <0.5 × 10⁹/L + temperature ≥38°C in a patient on chemothe
 ### Tumour Lysis Syndrome (TLS)
 
 Massive tumour cell lysis releases intracellular contents: hyperkalaemia (cardiac arrest), hyperphosphataemia (→ hypocalcaemia → tetany, seizures), hyperuricaemia (uric acid nephropathy → AKI). Highest risk: Burkitt's lymphoma, ALL, and any highly chemosensitive tumour. Prevention: aggressive IV hydration, allopurinol (or rasburicase in high-risk patients — directly metabolises uric acid), electrolyte monitoring.
+## Complications
+
+- **Neutropenic sepsis**: highest-mortality oncological emergency — broad-spectrum IV antibiotics within 1 hour; G-CSF as secondary prophylaxis
+- **Hypercalcaemia of malignancy**: confusion, AKI, arrhythmias — IV fluids + zoledronic acid
+- **Superior vena cava obstruction**: facial and upper limb oedema, stridor, airway compromise — dexamethasone + urgent radiotherapy
+- **Spinal cord compression**: paraplegia if not treated within hours — dexamethasone 16 mg stat + urgent MRI + radiotherapy or surgical decompression
+- **Tumour lysis syndrome**: after cytotoxic therapy — hyperkalaemia, hyperphosphataemia, hypocalcaemia, hyperuricaemia, AKI — IV fluids + allopurinol or rasburicase
+- **Venous thromboembolism**: cancer is a major VTE risk; LMWH preferred in active cancer; DOACs increasingly used
+- **Immunotherapy toxicities**: immune-related colitis, pneumonitis, hepatitis, endocrinopathies — manage with high-dose steroids
+
 ## Clinical Insight
 
 Performance status is the single most important factor in treatment decision-making after the biology of the tumour itself. It is more predictive of chemotherapy tolerance and outcomes than age. An 80-year-old with ECOG 0 tolerates treatment far better than a 55-year-old with ECOG 3. Making decisions based on chronological age rather than functional status leads to undertreating the fit elderly and overtreating the frail.

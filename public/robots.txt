@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minar-medicine.vercel.app/sitemap.xml

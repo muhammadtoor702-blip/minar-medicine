@@ -7,8 +7,6 @@ sources:
   - UK Meningitis Research Foundation Guidelines
 ---
 
-
-
 ## Overview
 
 CNS infections encompass bacterial meningitis, viral meningitis/encephalitis, and cerebral abscess — conditions that range from self-limiting to rapidly fatal. The key clinical challenge is early recognition, because delays in antibiotic administration in bacterial meningitis are directly correlated with mortality and permanent neurological morbidity. A non-blanching petechial or purpuric rash in a febrile patient with neurological features is meningococcal disease until proven otherwise — treat before any other investigation.
@@ -116,6 +114,14 @@ Collection of pus within the brain parenchyma, typically arising from direct spr
 **Diagnosis**: CT or MRI with contrast — ring-enhancing lesion with central hypodensity and surrounding oedema. **MRI with DWI** differentiates abscess (restricted diffusion — bright DWI, dark ADC) from tumour or metastasis (no restricted diffusion).
 
 **Management**: IV antibiotics (ceftriaxone + metronidazole for community-acquired; add vancomycin for post-neurosurgical or traumatic) — 4–8 weeks. Surgical aspiration or excision for lesions >2.5 cm, accessible location, or deteriorating neurology. Dexamethasone for oedema with mass effect. Monitor for herniation.
+## Complications
+
+- **Bacterial meningitis**: hearing loss (10-15%; most common long-term sequela — audiological testing before discharge), cognitive impairment, hydrocephalus, cerebral venous sinus thrombosis, subdural empyema, epilepsy, focal deficits, death (~10%)
+- **Encephalitis**: status epilepticus, cerebral oedema, neuropsychiatric sequelae (personality change, memory disorders — especially HSV), severe disability, death
+- **Brain abscess**: herniation if mass effect uncontrolled, ventriculitis (rupture into ventricles — very high mortality), epilepsy (~50% post-abscess), recurrence
+- **Tuberculous meningitis**: hydrocephalus (often requiring VP shunt), cranial nerve palsies, stroke from vasculitis, high mortality without treatment
+- **Waterhouse-Friderichsen syndrome** (meningococcal septicaemia): adrenal haemorrhage, adrenal crisis, DIC, limb ischaemia
+
 ## Clinical Insight
 
 Give antibiotics before CT. Bacterial meningitis kills within hours — the organism load in CSF halves within 15 minutes of the first dose of ceftriaxone, but this is vastly outweighed by the benefit of treatment. The risk of herniation from LP in meningitis without raised ICP is extremely low. The risk of herniation from untreated meningitis is high. When LP is genuinely contraindicated, take blood cultures and CT — but do not delay antibiotics waiting for either.

@@ -6,8 +6,6 @@ sources:
   - ESC/ERS Pulmonary Hypertension Guidelines 2022
 ---
 
-
-
 ## Overview
 
 Pulmonary hypertension (PH) is defined haemodynamically as a mean pulmonary arterial pressure (mPAP) ≥25 mmHg (≥20 mmHg in updated ESC 2022 guidelines) at rest, measured by right heart catheterisation. It is a haemodynamic finding — not a diagnosis in itself — with a broad range of underlying causes grouped into five WHO classifications. The clinical priority is to identify which group the patient belongs to, as this determines treatment.

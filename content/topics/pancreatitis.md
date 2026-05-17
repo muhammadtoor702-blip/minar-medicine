@@ -7,8 +7,6 @@ sources:
   - IAP/APA Guidelines on Acute Pancreatitis
 ---
 
-
-
 ## Overview
 
 Pancreatitis is inflammation of the pancreas, classified as acute or chronic based on whether pancreatic function and morphology return to normal after the episode. Acute pancreatitis ranges from mild self-limiting disease to fulminant necrotising pancreatitis with multi-organ failure and 30% mortality. The most common causes in the UK are gallstones and alcohol, together accounting for ~80% of cases.

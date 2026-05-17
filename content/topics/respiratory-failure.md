@@ -7,8 +7,6 @@ sources:
   - NICE NG191
 ---
 
-
-
 ## Overview
 
 Respiratory failure is defined as the inability of the respiratory system to maintain adequate gas exchange, resulting in arterial hypoxaemia (PaO₂ <8 kPa), with or without hypercapnia (PaCO₂ >6 kPa). It is a physiological diagnosis requiring blood gas analysis — clinical assessment alone is insufficient. Understanding the type and mechanism of failure is essential because it determines both the aetiology and the correct intervention.

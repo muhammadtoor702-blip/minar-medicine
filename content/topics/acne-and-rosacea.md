@@ -8,8 +8,6 @@ sources:
   - BAD Rosacea Guidelines
 ---
 
-
-
 ## Overview
 
 Acne vulgaris is the most common skin condition worldwide, affecting ~85% of adolescents and persisting into adulthood in ~40% of cases. It causes substantial psychological morbidity — depression and anxiety in acne patients rival those seen in conditions like epilepsy and diabetes. Rosacea is a distinct chronic facial inflammatory condition, affecting predominantly fair-skinned adults, with a different pathophysiology and treatment approach. Both conditions are frequently undertreated, with patients enduring years of avoidable suffering.

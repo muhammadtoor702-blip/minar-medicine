@@ -7,8 +7,6 @@ sources:
   - AHA/ACC Arrhythmia Guidelines 2015
 ---
 
-
-
 ## Overview
 
 Arrhythmias arise from disturbances in the generation or conduction of electrical impulses through the heart. Understanding them requires a structured approach: first, is the patient haemodynamically stable? Second, is the QRS narrow or wide? Third, what is the mechanism?

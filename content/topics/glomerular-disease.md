@@ -6,8 +6,6 @@ sources:
   - KDIGO Glomerulonephritis Guidelines 2021
 ---
 
-
-
 ## Overview
 
 Glomerular diseases are a heterogeneous group of conditions characterised by inflammation or structural injury to the glomerulus — the filtering unit of the nephron. They present through two distinct clinical syndromes — nephrotic and nephritic — each reflecting different patterns of glomerular injury. Identifying the syndrome is the first step; determining the underlying histological diagnosis directs specific treatment.

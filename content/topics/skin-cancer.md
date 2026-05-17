@@ -8,8 +8,6 @@ sources:
   - BAD Skin Cancer Guidelines
 ---
 
-
-
 ## Overview
 
 Skin cancer is the most common cancer in white-skinned populations. It encompasses three main types: basal cell carcinoma (BCC), squamous cell carcinoma (SCC), and melanoma — each with distinct behaviour, metastatic potential, and management. BCC and SCC together are termed non-melanoma skin cancer (NMSC) and are far more common than melanoma. Melanoma, though less common, is responsible for the vast majority of skin cancer deaths due to its high metastatic potential. Early detection is the single most powerful determinant of survival.
@@ -166,6 +164,15 @@ Sun-exposed skin — dorsum of hands, scalp, face, lower lip, ears. Also mucosal
 **Self-examination**: Monthly skin self-examination — know your moles and look for change.
 
 **GP surveillance**: Patients with previous melanoma require annual skin checks. Organ transplant recipients require regular dermatology review for SCC.
+## Complications
+
+- **Melanoma metastatic disease**: lymph node, distant metastases (lung, liver, brain, bone) — brain metastases cause seizures, focal deficits, raised ICP; poor prognosis without treatment
+- **BRAF/MEK inhibitor toxicities**: pyrexia, cutaneous squamous cell carcinoma, photosensitivity; resistance develops in most patients within months
+- **Anti-PD-1 immunotherapy toxicities**: immune-related colitis, pneumonitis, hepatitis, endocrinopathies (thyroiditis, adrenalitis), myocarditis
+- **BCC local invasion**: orbital, nasal, or auricular BCC can invade deeply; perineural invasion; intracranial extension (rare)
+- **SCC in immunosuppressed**: aggressive behaviour, high rate of nodal and distant metastasis; 60-100x increased risk in organ transplant recipients
+- **Psychological impact**: body image disturbance, health anxiety, sun avoidance
+
 ## Clinical Insight
 
 Nodular melanoma does not follow the ABCDE rules — it is raised from the outset (not flat), grows quickly, and may be symmetric, small, and relatively uniform in colour. Relying exclusively on ABCDE misses approximately 20% of melanomas. The ugly duckling sign — any lesion that stands out from the rest of the patient's skin as looking different — should prompt referral regardless of ABCDE score. Amelanotic nodular melanoma is particularly easy to miss and is frequently mistaken for a pyogenic granuloma or BCC.

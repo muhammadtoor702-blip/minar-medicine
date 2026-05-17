@@ -7,8 +7,6 @@ sources:
   - BSG Upper GI Bleeding Guidelines 2019
 ---
 
-
-
 ## Overview
 
 Upper gastrointestinal disease encompasses conditions of the oesophagus, stomach, and duodenum — from the common (peptic ulcer disease, GORD) to the surgical emergency (acute upper GI bleed). These conditions share overlapping symptoms and risk factors, making systematic clinical assessment essential. The critical skill is recognising when upper GI symptoms require urgent investigation versus empirical management.

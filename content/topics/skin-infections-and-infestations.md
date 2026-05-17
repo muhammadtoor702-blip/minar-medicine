@@ -8,8 +8,6 @@ sources:
   - BASHH STI Guidelines (HSV)
 ---
 
-
-
 ## Overview
 
 Skin infections are among the most common reasons for acute medical presentation. They range from superficial, self-limiting conditions (impetigo, tinea) to life-threatening surgical emergencies (necrotising fasciitis). The clinical priority in all cases is to recognise the depth and severity of infection, identify the causative organism, and differentiate infectious from non-infectious mimics. In diabetic and immunocompromised patients, the threshold for aggressive investigation and treatment must be lower.
@@ -152,6 +150,14 @@ Reactivation of varicella-zoster virus (VZV) from dorsal root ganglia following 
 - Antivirals (aciclovir 800 mg 5× daily, or valaciclovir 1 g TDS for 7 days) — start within 72 hours of rash onset; reduces duration, severity, and risk of PHN.
 - Pain management: paracetamol, NSAIDs, neuropathic agents for severe pain.
 - **Shingrix vaccine** (recombinant zoster vaccine) — recommended for adults ≥50; 97% efficacy against shingles; highly effective for preventing PHN; two doses 2–6 months apart. Preferred over Zostavax.
+## Complications
+
+- **Necrotising fasciitis**: death (30-40% mortality even with treatment), limb loss, ICU-level morbidity, prolonged reconstruction
+- **Cellulitis**: recurrent episodes (lymphatic damage predisposes to further infections), bacteraemia, sepsis, very rarely necrotising fasciitis
+- **Herpes zoster**: post-herpetic neuralgia (severe chronic pain, especially in elderly); Ramsay Hunt syndrome (facial palsy, deafness, vertigo); herpes zoster ophthalmicus (corneal scarring, iritis, glaucoma, permanent vision loss); disseminated zoster in immunosuppressed
+- **Crusted (Norwegian) scabies**: affects immunosuppressed — hyperkeratotic plaques, millions of mites, highly contagious, resistant to single-treatment permethrin
+- **Impetigo**: post-streptococcal glomerulonephritis (rare), cellulitis, MRSA impetigo
+
 ## Clinical Insight
 
 Tinea pedis is the most important and most overlooked risk factor for recurrent lower leg cellulitis. The fissures between the toes provide a portal of entry for streptococcal infection. Treating the tinea — with topical terbinafine or clotrimazole applied consistently to the web spaces — is as important as the antibiotic for preventing recurrence. Every patient with lower leg cellulitis should have their interdigital spaces examined.
