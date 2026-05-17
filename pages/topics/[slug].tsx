@@ -79,6 +79,26 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
           <Link href="/">Home</Link> › <Link href={`/systems/${systemSlug}`}>{topic.system}</Link> › {topic.title}
         </span>
 
+        {/* Prev / Next within system — shown at top */}
+        {(prevTopic || nextTopic) && (
+          <div className="article-nav" style={{ marginTop: '0.5rem', marginBottom: '1.5rem', paddingTop: 0, borderTop: 'none' }}>
+            <div className="article-nav-inner">
+              {prevTopic ? (
+                <Link href={`/topics/${prevTopic.slug}`} className="article-nav-item article-nav-prev">
+                  <span className="article-nav-label">← Previous in {topic.system}</span>
+                  <span className="article-nav-title">{prevTopic.title}</span>
+                </Link>
+              ) : <div />}
+              {nextTopic ? (
+                <Link href={`/topics/${nextTopic.slug}`} className="article-nav-item article-nav-next">
+                  <span className="article-nav-label">Next in {topic.system} →</span>
+                  <span className="article-nav-title">{nextTopic.title}</span>
+                </Link>
+              ) : <div />}
+            </div>
+          </div>
+        )}
+
         <div className="card" style={{ marginBottom: '1.5rem' }}>
           <div style={{ marginBottom: '0.75rem', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '6px' }}>
             <span className="badge badge-green">{topic.system}</span>
@@ -130,26 +150,6 @@ export default function TopicPage({ topic, prevTopic, nextTopic }: {
             ↑ Back to top
           </button>
         </div>
-
-        {/* Prev / Next navigation */}
-        {(prevTopic || nextTopic) && (
-          <div className="article-nav">
-            <div className="article-nav-inner">
-              {prevTopic ? (
-                <Link href={`/topics/${prevTopic.slug}`} className="article-nav-item article-nav-prev">
-                  <span className="article-nav-label">← Previous</span>
-                  <span className="article-nav-title">{prevTopic.title}</span>
-                </Link>
-              ) : <div />}
-              {nextTopic ? (
-                <Link href={`/topics/${nextTopic.slug}`} className="article-nav-item article-nav-next">
-                  <span className="article-nav-label">Next →</span>
-                  <span className="article-nav-title">{nextTopic.title}</span>
-                </Link>
-              ) : <div />}
-            </div>
-          </div>
-        )}
       </div>
     </>
   )
@@ -164,10 +164,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const topic = getTopicBySlug(params!.slug as string)
   if (!topic) return { notFound: true }
 
-  const allTopics = getAllTopics()
-  const idx = allTopics.findIndex(t => t.slug === topic.slug)
-  const prevTopic = idx > 0 ? { slug: allTopics[idx - 1].slug, title: allTopics[idx - 1].title } : null
-  const nextTopic = idx < allTopics.length - 1 ? { slug: allTopics[idx + 1].slug, title: allTopics[idx + 1].title } : null
+  // Prev/Next within the same system only
+  const systemTopics = getAllTopics().filter(t => t.system === topic.system)
+  const idx = systemTopics.findIndex(t => t.slug === topic.slug)
+  const prevTopic = idx > 0 ? { slug: systemTopics[idx - 1].slug, title: systemTopics[idx - 1].title } : null
+  const nextTopic = idx < systemTopics.length - 1 ? { slug: systemTopics[idx + 1].slug, title: systemTopics[idx + 1].title } : null
 
   return { props: { topic, prevTopic, nextTopic } }
 }

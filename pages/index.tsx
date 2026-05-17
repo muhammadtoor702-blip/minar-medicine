@@ -131,7 +131,8 @@ export default function Home({ topics }: { topics: Topic[] }) {
               <p style={{ fontSize: '16px', marginBottom: '0.5rem' }}>No topics found for <strong style={{ color: '#1a1a1a' }}>&ldquo;{query}&rdquo;</strong></p>
               <p style={{ fontSize: '14px' }}>Try a different term, or <button onClick={() => setQuery('')} style={{ background: 'none', border: 'none', color: '#1D9E75', cursor: 'pointer', fontSize: '14px', fontFamily: 'inherit', padding: 0 }}>browse all topics</button></p>
             </div>
-          ) : (
+          ) : query ? (
+            // Search results: flat list with system label
             <div className="topic-list">
               {filtered.map(t => (
                 <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
@@ -143,6 +144,32 @@ export default function Home({ topics }: { topics: Topic[] }) {
                 </Link>
               ))}
             </div>
+          ) : (
+            // Default: grouped by system in canonical order
+            <>
+              {SYSTEMS.map(s => {
+                const systemTopics = filtered.filter(t => t.system.toLowerCase() === s.name.toLowerCase())
+                if (systemTopics.length === 0) return null
+                return (
+                  <div key={s.slug} style={{ marginBottom: '2.5rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.75rem' }}>
+                      <span style={{ fontSize: '18px' }}>{s.icon}</span>
+                      <Link href={`/systems/${s.slug}`} style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#555' }}>
+                        {s.name}
+                      </Link>
+                    </div>
+                    <div className="topic-list">
+                      {systemTopics.map(t => (
+                        <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
+                          <div className="topic-title">{t.title}</div>
+                          <span style={{ color: '#ccc' }}>›</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )
+              })}
+            </>
           )}
         </div>
       </div>

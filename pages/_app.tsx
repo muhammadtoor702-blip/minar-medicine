@@ -63,14 +63,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
 
       <footer className="footer">
-        <div className="footer-links">
-          <Link href="/">Home</Link>
-          <Link href="/systems">Systems</Link>
-          <Link href="/about">About</Link>
-          <a href="https://minar-medicine-ai.vercel.app" target="_blank" rel="noopener noreferrer">AI Tutor</a>
-        </div>
-        <p style={{ marginTop: '1rem' }}>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
-        <p style={{ marginTop: '0.4rem' }}>From Lahore — for the world and AZ :)</p>
+        <p>Minar Medicine — Clinical medicine, reasoned from first principles.</p>
+        <p style={{ marginTop: '0.5rem' }}>From Lahore — for the world and AZ :)</p>
       </footer>
       <Analytics />
     </>
