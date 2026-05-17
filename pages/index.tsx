@@ -124,7 +124,6 @@ export default function Home({ topics }: { topics: Topic[] }) {
             aria-haspopup="listbox"
             autoComplete="off"
           />
-          {!query && <span className="search-kbd">/</span>}
 
           {/* Dropdown */}
           {dropdownOpen && query.length > 1 && (
@@ -175,33 +174,6 @@ export default function Home({ topics }: { topics: Topic[] }) {
           </div>
         </div>
 
-        <div className="section">
-          <span className="section-label">All topics</span>
-          <>
-            {SYSTEMS.map(s => {
-              const systemTopics = topics.filter(t => t.system.toLowerCase() === s.name.toLowerCase())
-              if (systemTopics.length === 0) return null
-              return (
-                <div key={s.slug} style={{ marginBottom: '2.5rem' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.75rem' }}>
-                    <span style={{ fontSize: '18px' }}>{s.icon}</span>
-                    <Link href={`/systems/${s.slug}`} style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#555' }}>
-                      {s.name}
-                    </Link>
-                  </div>
-                  <div className="topic-list">
-                    {systemTopics.map(t => (
-                      <Link key={t.slug} href={`/topics/${t.slug}`} className="topic-card">
-                        <div className="topic-title">{t.title}</div>
-                        <span style={{ color: '#ccc' }}>›</span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )
-            })}
-          </>
-        </div>
       </div>
     </main>
     </>
