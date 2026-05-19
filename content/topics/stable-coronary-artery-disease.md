@@ -65,7 +65,7 @@ Pre-test probability of significant CAD (ESC 2019) — based on age, sex, and sy
 | Intervention | Target/Notes |
 |-------------|-------------|
 | Antiplatelet therapy | Aspirin 75mg indefinitely. Clopidogrel if aspirin intolerant. |
-| High-intensity statin | Atorvastatin 80mg or rosuvastatin 20–40mg. LDL target <1.4 mmol/L (very high risk). |
+| High-intensity statin | Atorvastatin 80mg or rosuvastatin 20–40mg. LDL target <55 mg/dL (very high risk). |
 | ACE inhibitor or ARB | All patients with LV dysfunction, diabetes, or CKD; consider in all. |
 | BP control | Target <130/80 mmHg |
 | Glycaemic control | HbA1c <53 mmol/mol |

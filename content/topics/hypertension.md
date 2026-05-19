@@ -107,7 +107,7 @@ Lifestyle changes are mandatory for all patients regardless of whether medicatio
 - Renal function and electrolytes at 1–2 weeks after starting ACEi or ARB, and after every dose increase — an initial creatinine rise of up to 30% is acceptable and expected.
 - Up to 20% rise in creatinine after starting ACEi should prompt investigation for renovascular disease if not already excluded.
 - Once stable: review annually (or 6-monthly if at high cardiovascular risk).
-- A potassium >5.5 mmol/L on ACEi/ARB + spironolactone is an indication to stop or reduce the spironolactone immediately.
+- A potassium >5.5 mEq/L on ACEi/ARB + spironolactone is an indication to stop or reduce the spironolactone immediately.
 
 ### Drug-Specific Notes
 

@@ -1,7 +1,7 @@
 ---
 title: Hyperlipidaemia
 system: Cardiology
-scenario: "A 46-year-old man attends a health check. He is asymptomatic but his father died of an MI at 51. Fasting lipids: total cholesterol 8.1 mmol/L, LDL 5.6 mmol/L, HDL 0.9 mmol/L, triglycerides 3.4 mmol/L. He has firm nodular thickenings over both Achilles tendons and xanthelasma around his left eye."
+scenario: "A 46-year-old man attends a health check. He is asymptomatic but his father died of an MI at 51. Fasting lipids: total cholesterol 313 mg/dL, LDL 217 mg/dL, HDL 35 mg/dL, triglycerides 301 mg/dL. He has firm nodular thickenings over both Achilles tendons and xanthelasma around his left eye."
 sources:
   - ESC Dyslipidaemia Guidelines 2019
   - NICE NG238
@@ -37,8 +37,8 @@ Hyperlipidaemia is asymptomatic until it causes cardiovascular disease. Clinical
 - **Tendon xanthomata** — firm, painless deposits over Achilles tendons and extensor tendons of the fingers; highly specific for familial hypercholesterolaemia
 - **Xanthelasma** — lipid deposits around the eyelids; less specific than tendon xanthomata
 - **Corneal arcus** — lipid ring around the cornea; significant if present in patients under 45
-- **Eruptive xanthomata** — small yellowish papules on the buttocks, shoulders, or extensor surfaces; indicate severe hypertriglyceridaemia (TG usually >10 mmol/L)
-- **Lipaemia retinalis** — creamy appearance of retinal vessels; TG typically >20 mmol/L
+- **Eruptive xanthomata** — small yellowish papules on the buttocks, shoulders, or extensor surfaces; indicate severe hypertriglyceridaemia (TG usually >900 mg/dL)
+- **Lipaemia retinalis** — creamy appearance of retinal vessels; TG typically >1800 mg/dL
 
 ## Diagnosis
 
@@ -46,7 +46,7 @@ Hyperlipidaemia is asymptomatic until it causes cardiovascular disease. Clinical
 
 **Cardiovascular risk assessment:** QRISK3 (UK) or SCORE2 (European) to estimate 10-year cardiovascular risk, which guides treatment thresholds.
 
-**Familial hypercholesterolaemia:** Diagnosed clinically using Dutch Lipid Clinic Network (DLCN) criteria or Simon Broome criteria — incorporating LDL level, clinical features (tendon xanthomata), and family history. LDL >5 mmol/L with a first-degree relative with similar levels or premature CVD should trigger evaluation. Genetic testing confirms the diagnosis.
+**Familial hypercholesterolaemia:** Diagnosed clinically using Dutch Lipid Clinic Network (DLCN) criteria or Simon Broome criteria — incorporating LDL level, clinical features (tendon xanthomata), and family history. LDL >190 mg/dL with a first-degree relative with similar levels or premature CVD should trigger evaluation. Genetic testing confirms the diagnosis.
 
 **Secondary cause screen:** TFTs, fasting glucose/HbA1c, U&E, LFTs, urine ACR — perform before initiating lipid-lowering therapy.
 
@@ -65,10 +65,10 @@ Hyperlipidaemia is asymptomatic until it causes cardiovascular disease. Clinical
 
 | Risk Category | Definition | LDL Target |
 |-------------|-----------|-----------|
-| Very high | Established CVD, DM with organ damage, CKD ≥G3, FH + risk factor, SCORE2 ≥10% | <1.4 mmol/L AND ≥50% reduction |
-| High | Single markedly elevated risk factor, CKD G3, SCORE2 5–10% | <1.8 mmol/L |
-| Moderate | SCORE2 1–5% | <2.6 mmol/L |
-| Low | SCORE2 <1% | <3.0 mmol/L |
+| Very high | Established CVD, DM with organ damage, CKD ≥G3, FH + risk factor, SCORE2 ≥10% | <55 mg/dL AND ≥50% reduction |
+| High | Single markedly elevated risk factor, CKD G3, SCORE2 5–10% | <70 mg/dL |
+| Moderate | SCORE2 1–5% | <100 mg/dL |
+| Low | SCORE2 <1% | <115 mg/dL |
 
 ### Statins — First-Line
 
@@ -97,19 +97,19 @@ Indicated for: very high-risk patients not at LDL target on maximum statin + eze
 
 ### Hypertriglyceridaemia
 
-TG 2–10 mmol/L: lifestyle (alcohol, refined carbohydrates, weight), treat secondary causes, add fenofibrate or omega-3 fatty acids if needed. Statins have modest TG-lowering effect and address overall CV risk.
+TG 175–885 mg/dL: lifestyle modification first (reduce alcohol, refined carbohydrates, weight), treat secondary causes, add fenofibrate or omega-3 fatty acids if needed. Statins have modest TG-lowering effect and address overall CV risk.
 
-TG >10 mmol/L: significant risk of **acute pancreatitis** — urgent treatment with fenofibrate, strict dietary fat restriction, and alcohol abstinence. Hospitalisation if TG >20 mmol/L or pancreatitis occurs.
+TG >885 mg/dL: significant risk of **acute pancreatitis** — urgent treatment with fenofibrate, strict dietary fat restriction, and alcohol abstinence. Hospitalise if TG >1800 mg/dL or pancreatitis occurs.
 
 ## Complications
 
 - Premature atherosclerosis with MI and stroke — particularly in FH
-- Acute pancreatitis — from severe hypertriglyceridaemia (TG >10 mmol/L)
+- Acute pancreatitis — from severe hypertriglyceridaemia (TG >885 mg/dL)
 - Statin-associated myopathy and rhabdomyolysis (rare)
 
 ## Clinical Insight
 
-Tendon xanthomata are pathognomonic of familial hypercholesterolaemia. A patient with LDL >5 mmol/L and this finding has FH until proven otherwise. Cascade screening of first-degree relatives is mandatory — each child has a 50% chance of inheriting the condition, and early treatment prevents premature heart disease.
+Tendon xanthomata are pathognomonic of familial hypercholesterolaemia. A patient with LDL >190 mg/dL and this finding has FH until proven otherwise. Cascade screening of first-degree relatives is mandatory — each child has a 50% chance of inheriting the condition, and early treatment prevents premature heart disease.
 
 Lp(a) is not measured in a standard lipid panel and is not reduced by statins. In patients with premature CVD, recurrent events on optimal medical therapy, or a strong family history unexplained by standard lipid levels, measure Lp(a). Elevated levels (>50 mg/dL or >125 nmol/L) indicate very high cardiovascular risk and may justify PCSK9 inhibitor therapy.
 

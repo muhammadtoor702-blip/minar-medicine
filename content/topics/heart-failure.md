@@ -106,7 +106,7 @@ No therapy has yet demonstrated mortality reduction in HFpEF. Management focuses
 
 - Recheck U&E, creatinine, and potassium 1–2 weeks after each dose increase of ACEi, ARB, ARNI, or MRA, and at each clinical review.
 - A creatinine rise of up to 30% after ACEi is acceptable. A rise >50% suggests renal artery stenosis or excessive diuresis.
-- Potassium >5.5 mmol/L is an indication to reduce or stop MRA and/or ACEi.
+- Potassium >5.5 mEq/L is an indication to reduce or stop MRA and/or ACEi.
 - Serial BNP measurements at outpatient visits guide diuretic adjustment — a persistently elevated BNP suggests residual congestion.
 - Repeat echo after 3–6 months of GDMT to reassess EF — some patients recover function significantly (especially tachycardia-induced, peripartum, alcohol-related DCM).
 
