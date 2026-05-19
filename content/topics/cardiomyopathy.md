@@ -1,14 +1,15 @@
 ---
 title: Cardiomyopathy
 system: Cardiology
-scenario: "A 24-year-old competitive footballer collapses during a match and is resuscitated from ventricular fibrillation. He reports occasional exertional chest tightness and one prior episode of near-syncope during a game. His father died suddenly at 39. Examination reveals a harsh systolic murmur at the left lower sternal border that increases with standing."
+scenario: "A 24-year-old competitive footballer collapses during a match and is resuscitated from ventricular fibrillation. He reports occasional exertional chest tightness and one prior episode of near-syncope during a game. His father died suddenly at 39 of an unspecified cardiac cause. Examination reveals a jerky pulse, a prominent 'a' wave in the JVP, and a harsh systolic murmur at the left lower sternal edge that gets louder on standing."
 sources:
   - ESC Cardiomyopathy Guidelines 2023
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
 
-Cardiomyopathies are primary diseases of the heart muscle that are not explained by ischaemia, hypertension, or valvular or congenital heart disease. The four major types — dilated, hypertrophic, restrictive, and arrhythmogenic right ventricular — have distinct pathologies, presentations, and management strategies.
+Cardiomyopathies are primary diseases of the heart muscle — structurally and functionally abnormal myocardium in the absence of coronary artery disease, hypertension, valvular disease, or congenital heart disease sufficient to cause the observed abnormality. Four major phenotypes exist: dilated, hypertrophic, restrictive, and arrhythmogenic right ventricular. Each has a distinct pathology, presentation, and management strategy, though overlap occurs.
 
 ---
 
@@ -16,134 +17,181 @@ Cardiomyopathies are primary diseases of the heart muscle that are not explained
 
 ### Pathophysiology
 
-HCM is caused by mutations in sarcomere protein genes, most commonly **β-myosin heavy chain** or **myosin-binding protein C** (autosomal dominant, variable penetrance). The result is disorganised, hypertrophied cardiomyocytes with interstitial fibrosis, producing **asymmetric septal hypertrophy**.
+HCM is caused by mutations in **sarcomere protein genes** — most commonly β-myosin heavy chain and myosin-binding protein C — inherited as autosomal dominant with variable penetrance. Approximately 50% of cases are sporadic. The result is disorganised, hypertrophied cardiomyocytes with myofibrillar disarray and interstitial fibrosis, producing **asymmetric septal hypertrophy**.
 
-In two-thirds of patients, the hypertrophied septum obstructs the LVOT dynamically. Systolic anterior motion (SAM) of the mitral valve worsens the obstruction. The key feature is that this obstruction is **dynamic** — it worsens with conditions that reduce ventricular volume or increase contractility.
+In about two-thirds of patients, the hypertrophied septum obstructs the LV outflow tract (LVOT) dynamically. **Systolic anterior motion (SAM)** of the mitral valve (drawn toward the septum by a Venturi effect) worsens obstruction and causes mitral regurgitation. This obstruction is **dynamic** — it worsens with anything that reduces LV volume or increases contractility.
 
-**Murmur behaviour:**
+**Effect of manoeuvres on the HCM murmur:**
 
-| Manoeuvre | Effect on LV Volume | Effect on Murmur |
-|-----------|--------------------|--------------------|
-| Standing, Valsalva | Decreases preload → smaller LV | Murmur louder |
-| Squatting, leg raise, handgrip | Increases preload → larger LV | Murmur softer |
+| Manoeuvre | LV Volume Effect | Murmur |
+|-----------|----------------|--------|
+| Standing, Valsalva strain | Decreases (less preload → smaller LV) | Louder |
+| Squatting, passive leg raise, handgrip | Increases (more preload → larger LV) | Softer |
 
-This is the opposite of aortic stenosis and MR, which both soften with Valsalva.
+This is the **opposite** of aortic stenosis and MR — a crucial examination distinction.
+
+HCM is the **leading cause of sudden cardiac death in young athletes**, often the first manifestation of the disease.
 
 ### Clinical Presentation
 
-- Exertional chest pain, dyspnoea, and palpitations
-- **Exertional syncope** — fixed cardiac output cannot increase to meet demand
-- **Sudden cardiac death** — the most common cause of SCD in young athletes. Often the first manifestation.
-- Harsh systolic murmur at LLSB; bifid carotid pulse; S4 (stiff, non-compliant ventricle)
+- Exertional dyspnoea, angina (demand exceeds fixed supply from hypertrophied LV), palpitations
+- **Exertional syncope** — fixed cardiac output cannot increase to meet demand during exercise
+- **Sudden cardiac death** — from VF; may occur in previously asymptomatic patients
 
-**Risk factors for SCD in HCM:**
-- Prior cardiac arrest or sustained VT
+**Examination:**
+- Jerky (bifid) carotid pulse — rapid initial upstroke then falls as obstruction develops mid-systole
+- Prominent 'a' wave in JVP (forceful atrial contraction against a stiff LV)
+- Double apex beat (palpable atrial beat + ventricular beat)
+- Systolic thrill at lower left sternal edge
+- Harsh ejection systolic murmur at LLSB; **not** radiating to carotids (distinguishes from AS)
+- 4th heart sound (S4) — stiff, non-compliant LV
+
+**ECG:** LVH; progressive T-wave inversion; **deep, narrow Q waves** in inferolateral leads (II, III, aVF, I, aVL, V5–V6) — a hallmark; WPW; ventricular ectopics; non-sustained VT on Holter.
+
+**Echo:** Asymmetric septal hypertrophy; small LV cavity; SAM of the anterior mitral valve leaflet; mid-systolic closure of the aortic valve; MR. Doppler measures LVOT gradient.
+
+**Risk stratification for sudden cardiac death (SCD):** Use the validated **HCM Risk-SCD calculator** (www.doc2do.com/hcm/webHCM.html), which incorporates:
+- Maximal LV wall thickness
 - Family history of HCM-related SCD
 - Unexplained syncope
-- Massive LV hypertrophy (wall thickness ≥30mm)
-- LVOT gradient ≥30 mmHg at rest
-- Non-sustained VT on Holter monitoring
+- Non-sustained VT on Holter
+- LVOT gradient at rest
+- Left atrial diameter
+- Age
+
+5-year SCD risk ≥6% → ICD implantation recommended. Prior cardiac arrest or sustained VT → ICD regardless of score.
 
 ### Management
 
-- **Beta-blocker** — first-line. Slows heart rate, increases diastolic filling time, reduces outflow gradient.
-- **Verapamil** — if beta-blocker not tolerated.
-- **Avoid:** vasodilators, nitrates, diuretics (all reduce preload, worsen obstruction), digoxin (increases contractility, worsens obstruction)
-- **ICD** — for high-risk patients, based on 5-year SCD risk calculators (HCM Risk-SCD)
-- **Septal myectomy or alcohol septal ablation** — for refractory severe LVOT obstruction
-- **Restriction from competitive sport** — all patients with HCM, regardless of symptoms
+- **Beta-blocker** — first-line for symptoms. Bisoprolol 2.5–10mg OD or propranolol. Reduces heart rate, prolongs diastolic filling time, reduces outflow gradient. Do not use digoxin (increases contractility → worsens obstruction) or vasodilators/nitrates (reduce preload → worsens obstruction).
+- **Verapamil or diltiazem** — if beta-blocker not tolerated. Never combine with beta-blockers.
+- **Disopyramide** — negative inotrope; effective for LVOT obstruction when beta-blockers and CCBs are insufficient.
+- **ICD** — for high-risk patients based on HCM Risk-SCD calculator.
+- **Septal reduction therapy** — for severe symptomatic LVOT obstruction refractory to medications:
+  - Surgical myectomy — removal of a portion of the hypertrophied septum; gold standard; restores normal outflow
+  - Alcohol septal ablation — percutaneous; ethanol injected into the first septal perforator artery causes a controlled infarction of the basal septum
+- **Anticoagulate** for paroxysmal AF or systemic emboli.
+- **Restriction from competitive sport** — for all patients with HCM, regardless of symptoms or LVOT gradient. This is non-negotiable.
 
 ---
 
 ## Dilated Cardiomyopathy (DCM)
 
-### Pathophysiology
-
-DCM is characterised by four-chamber dilation and systolic dysfunction (EF <40%), resulting from loss of contractile myocytes and replacement with fibrous tissue. It is the most common cardiomyopathy and the leading indication for cardiac transplantation.
+Dilatation and impaired contraction of one or both ventricles (EF typically <40%), with no cause attributable to ischaemia, hypertension, or valve disease. The most common cardiomyopathy. Prevalence ~0.2%.
 
 **Causes:**
 
 | Category | Examples |
 |---------|---------|
-| Genetic (~50%) | Titin (TTN), lamin A/C mutations — autosomal dominant |
-| Viral myocarditis | Coxsackievirus B (most common), CMV, EBV |
-| Toxic | Alcohol (most common toxic cause), cocaine, doxorubicin (dose-dependent), trastuzumab |
-| Peripartum | Onset in last month of pregnancy to 5 months postpartum |
-| Takotsubo | Triggered by severe emotional stress; apical ballooning, reversible |
-| Tachycardia-induced | Chronic uncontrolled tachyarrhythmia — reversible with rate control |
-| Chagas disease | *Trypanosoma cruzi* — important cause in Latin America |
+| Genetic (~50% of "idiopathic") | Titin (TTN) — most common; lamin A/C; other sarcomere gene mutations |
+| Viral myocarditis | Coxsackievirus B (most common), CMV, EBV, HIV, enteroviruses |
+| Alcohol (most common toxic cause) | Dose-dependent; can be partially reversible with abstinence |
+| Chemotherapy | Doxorubicin/anthracyclines (dose-dependent); trastuzumab (reversible); cyclophosphamide |
+| Peripartum | Last month of pregnancy to 5 months postpartum |
+| Takotsubo (stress) | Triggered by severe emotional/physical stress; apical ballooning; usually reversible |
+| Tachycardia-induced | Chronic uncontrolled tachyarrhythmia (AF, SVT); reversible with rate/rhythm control |
+| Haemochromatosis | Iron overload; restrictive pattern initially, dilated later |
+| Chagas disease | *Trypanosoma cruzi*; important in Latin America |
+| Autoimmune | SLE, sarcoidosis |
 
-### Management
+**Presentation:** Fatigue, dyspnoea, pulmonary oedema, RHF, emboli (LV mural thrombus if EF <25%), AF, VT. Signs: pulse, BP, displaced diffuse apex, S3 gallop, MR/TR (functional), peripheral oedema.
 
-Treat as HFrEF — GDMT with ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2 inhibitor. ICD if EF <35% after ≥3 months of optimal therapy. Identify and remove the cause (e.g., abstinence in alcoholic DCM, rate control in tachycardia-induced).
+**Tests:** BNP (elevated); ECG: tachycardia, non-specific T-wave changes, poor R-wave progression, LBBB; CXR: cardiomegaly, pulmonary oedema; Echo: globally dilated hypokinetic heart, low EF, functional MR.
+
+**Management:** Treat as HFrEF — full GDMT (ACEi/ARNI + beta-blocker + MRA + SGLT2 inhibitor). ICD if EF <35% after ≥3 months of optimal therapy. **Identify and remove the cause** — abstinence in alcohol-related DCM; rate control in tachycardia-induced DCM; stopping doxorubicin; antiviral in HIV.
+
+---
+
+## Acute Myocarditis
+
+Inflammation of the myocardium, often with concurrent pericarditis (myopericarditis). Causes include:
+
+| Category | Examples |
+|---------|---------|
+| Idiopathic | ~50% of cases |
+| Viral | Coxsackievirus, adenovirus, EBV, CMV, HIV, HHV6, influenza, COVID-19 |
+| Bacterial | Staph, Strep, diphtheria, TB, Lyme disease |
+| Drugs | Cyclophosphamide, trastuzumab, clozapine, methyldopa |
+| Autoimmune | SLE, sarcoidosis, giant cell myocarditis (fulminant; poor prognosis) |
+| Toxins | Cocaine, alcohol, lead |
+
+**Presentation:** ACS-like symptoms (chest pain, dyspnoea), palpitations, fever; new murmur (functional MR); signs of HF; arrhythmias. In young patients presenting with "MI" and normal coronary angiography — consider myocarditis.
+
+**Tests:** Troponin and CRP elevated; ECG: diffuse ST changes, AV block, arrhythmias; Echo: regional or global hypokinesis; Cardiac MRI is the investigation of choice in stable patients — shows myocardial oedema and inflammation (T2-weighted), late gadolinium enhancement in a non-ischaemic distribution. Endomyocardial biopsy is the gold standard but rarely needed.
+
+**Management:** Supportive — treat HF (diuretics, ACEi), arrhythmias, and underlying cause. **Avoid NSAIDs** (worsen myocardial inflammation and can increase mortality), alcohol, and competitive exercise (risk of VF). Prognosis: 50% recover within 4 weeks; 12–25% develop DCM.
 
 ---
 
 ## Restrictive Cardiomyopathy
 
-### Pathophysiology
-
-Myocardial infiltration causes the ventricle to become stiff and non-compliant, impairing diastolic filling. Systolic function is often initially preserved. Elevated filling pressures cause prominent right heart failure symptoms.
+Myocardial infiltration or fibrosis causes the ventricle to become stiff and non-compliant, severely impairing diastolic filling while initially preserving systolic function. Elevated filling pressures cause prominent right heart failure signs.
 
 **Causes:**
 
 | Cause | Distinguishing Feature |
 |------|----------------------|
-| Amyloidosis (most common) | Low-voltage ECG + thick walls on echo ("voltage-mass mismatch"); "sparkling" myocardium; apple-green birefringence on Congo red stain |
-| Sarcoidosis | Heart block, VT, systemic granulomatous disease |
-| Haemochromatosis | Iron studies elevated, liver disease, diabetes |
-| Radiation | Prior chest radiotherapy |
-| Endomyocardial fibrosis | Eosinophilia (Loeffler's), tropical regions |
+| **Amyloidosis** (most common) | Low-voltage ECG + thick walls on echo ("voltage-mass mismatch"); "granular sparkling" myocardium; apple-green birefringence on Congo red; Tc-99m DPD scintigraphy highly specific for ATTR |
+| Sarcoidosis | Heart block, VT; non-caseating granulomas; systemic involvement |
+| Haemochromatosis | Elevated ferritin/transferrin saturation; liver disease; diabetes |
+| Radiation | Prior chest radiotherapy; may develop years later |
+| Loeffler's endocarditis / eosinophilic | Hypereosinophilia; tropical regions |
+| Idiopathic | Diagnosis of exclusion |
 
-Cardiac amyloidosis deserves particular attention. ATTR amyloidosis (wild-type, formerly senile amyloid) is increasingly recognised in elderly men. Tafamidis reduces mortality in ATTR-CM (ATTR-ACT trial). The mismatch between low ECG voltage and increased wall thickness on echo is the key diagnostic clue.
+**Cardiac amyloidosis** deserves particular attention. Two types:
+- **AL amyloidosis** — monoclonal light chain deposition from plasma cell dyscrasia; treat with chemotherapy ± autologous SCT
+- **ATTR amyloidosis** — transthyretin deposition; wild-type ("senile") increasingly recognised in elderly men with HFpEF + carpal tunnel syndrome + bilateral biceps tendon rupture. Tafamidis stabilises transthyretin and reduces mortality (ATTR-ACT trial).
 
-### Management
+The key diagnostic clue: **voltage-mass mismatch** — low QRS voltage on ECG despite dramatically increased wall thickness on echo.
 
-Treat the underlying cause. Diuretics for congestion. Cardiac transplantation for refractory cases. Avoid digoxin in amyloid (binds to amyloid fibrils, increases toxicity risk).
+**Management:** Treat the underlying cause. Diuretics for congestion (used cautiously — diastolic function is dependent on adequate filling). **Avoid digoxin** in amyloidosis — it binds to amyloid fibrils and causes toxicity at normal levels. Cardiac transplantation for refractory cases.
 
 ---
 
 ## Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
 
-Fibro-fatty replacement of the RV myocardium, caused by mutations in **desmosomal proteins** (most commonly plakophilin-2). Presents with VT with LBBB morphology (ectopic focus in RV), palpitations, syncope, or SCD — typically in young athletes.
+Fibro-fatty replacement of the RV myocardium, caused by mutations in **desmosomal proteins** — most commonly plakophilin-2 (PKP2), desmoglein, desmocollin. Autosomal dominant with incomplete penetrance. Prevalence ~1 in 5000.
 
-**ECG:** Epsilon wave (terminal notch after QRS in V1–V3), T-wave inversions in V1–V3, right precordial ST changes.
+**Presentation:** Palpitations, syncope, and VT with **LBBB morphology** (ectopic focus in RV → depolarises from right to left → LBBB pattern). Occurs predominantly in young athletes during exertion. Sudden cardiac death in previously well young people.
 
-**Management:** Restrict from competitive sport, beta-blocker, ICD for high-risk patients, catheter ablation for recurrent VT.
+**ECG:** Epsilon wave (terminal notch after QRS in V1–V3) — pathognomonic; T-wave inversions in V1–V3; RBBB; QRS broadening in right precordial leads.
+
+**Cardiac MRI:** Gold standard — demonstrates fatty infiltration and fibrosis of RV wall (late gadolinium enhancement in RV); RV dilation and dysfunction.
+
+**Management:** Restrict from competitive sport (exercise accelerates disease progression and increases SCD risk). Beta-blocker. ICD for high-risk patients (prior sustained VT/VF, syncope, extensive disease). Catheter ablation for recurrent VT not controlled by ICD therapy.
 
 ---
 
-## Diagnosis — Imaging and Investigation
-
-Echocardiography is the initial investigation of choice for all suspected cardiomyopathies. Cardiac MRI (CMR) provides superior characterisation of myocardial tissue.
+## Diagnosis — Imaging Comparison
 
 | Feature | HCM | DCM | Restrictive | ARVC |
 |---------|-----|-----|-------------|------|
-| Wall thickness | Increased (asymmetric) | Normal/thin | Increased | Normal |
-| Cavity size | Small LV, SAM | Four-chamber dilation | Normal | RV dilation |
-| EF | Preserved | Reduced (<40%) | Preserved or reduced | RV dysfunction |
-| CMR pattern | LGE at septal insertions | Patchy mid-wall fibrosis | Subendocardial or diffuse | Fatty RV replacement |
-| ECG | LVH, deep septal Q waves | LBBB, QRS prolongation | Low voltage (amyloid) | Epsilon wave, V1–V3 T-inversion |
+| LV wall thickness | Increased (asymmetric) | Normal or thin | Increased (diffuse) | Normal |
+| Cavity size | Small LV | Four-chamber dilation | Normal or small | RV dilated |
+| EF | Preserved | Reduced (<40%) | Preserved initially | RV dysfunction |
+| ECG | LVH, deep septal Q waves, TWI | LBBB, QRS prolongation | Low voltage (amyloid) | Epsilon wave, V1–V3 TWI |
+| CMR LGE pattern | At septal insertions, patchy mid-wall | Patchy mid-wall fibrosis | Subendocardial or diffuse (amyloid) | Fatty RV replacement |
 
-**Key investigations:**
-- CMR with gadolinium — late gadolinium enhancement (LGE) identifies myocardial fibrosis, which is independently associated with arrhythmic risk
-- Genetic testing — offered to index patient; family cascade screening follows
-- Holter monitor — non-sustained VT guides ICD decision in HCM and ARVC
-- Exercise stress testing — provokes LVOT gradient in HCM, assesses BP response (failure to augment BP on exercise in HCM is a risk marker)
-- Technetium-99m bone scintigraphy — highly specific for ATTR cardiac amyloidosis (if positive with negative serum/urine electrophoresis, no biopsy needed)
-- Myocardial biopsy — reserved for unexplained DCM, suspected infiltrative disease, or post-transplant rejection surveillance
+**Key investigations for all cardiomyopathies:**
+- CMR with gadolinium — tissue characterisation; late gadolinium enhancement independently predicts arrhythmic risk
+- Genetic testing — offered to index patient; cascade screening of first-degree relatives
+- 24h Holter monitor — non-sustained VT guides ICD decisions
+- Exercise stress test — provokes LVOT gradient in HCM; abnormal BP response (failure to rise) is a risk marker
+- Technetium-99m bone scintigraphy (DPD scan) — highly specific for ATTR cardiac amyloidosis; positive scan + negative serum/urine protein electrophoresis = no biopsy needed
+- Myocardial biopsy — for unexplained DCM, suspected infiltrative disease, or where diagnosis remains uncertain
 
 ## Complications
 
-- Sudden cardiac death — particularly HCM and ARVC
-- Progressive HF — DCM, end-stage restrictive
-- AF and other arrhythmias
-- Thromboembolic events in DCM (mural thrombus, especially with EF <25%)
+- **Sudden cardiac death** — HCM and ARVC predominantly; can be the first manifestation
+- **Progressive HF** — DCM, end-stage restrictive cardiomyopathy
+- **AF and other arrhythmias** — all types; AF in HCM requires anticoagulation
+- **Thromboembolic events** — LV mural thrombus in DCM (especially EF <25%); systemic embolism
+- **Inherited disease in family members** — genetic counselling and cascade screening are mandatory
 
 ## Clinical Insight
 
-Peripartum cardiomyopathy is underdiagnosed. Any woman presenting in the last month of pregnancy or within five months of delivery with breathlessness and signs of heart failure requires urgent echocardiography. Recovery is possible but not guaranteed, and recurrence in subsequent pregnancies is real — these patients need careful counselling before attempting future pregnancies.
+HCM is the great mimic. The deep septal Q waves in inferolateral leads can be mistaken for old MI. The harsh systolic murmur can be attributed to aortic stenosis. The distinguishing features — bifid pulse, murmur louder on standing, dynamic obstruction — are found on examination, not in the blood results.
 
-Doxorubicin cardiotoxicity is dose-dependent but also cumulative. Baseline echo before initiating anthracycline chemotherapy and serial monitoring throughout is mandatory. By the time symptoms develop, significant irreversible damage may have occurred.
+Peripartum cardiomyopathy is underdiagnosed. Any woman in the last month of pregnancy or within five months of delivery presenting with dyspnoea and oedema requires urgent echocardiography. Recovery occurs in ~50%, but subsequent pregnancies carry a 30–50% relapse rate — these patients need careful counselling.
 
-Takotsubo cardiomyopathy mimics STEMI exactly — anterior ST elevation, troponin rise, and wall motion abnormalities. The clue is a recent severe emotional or physical stressor and, on angiography, completely normal coronary arteries with characteristic apical ballooning. It is reversible in most cases within weeks.
+Cardiac amyloidosis should be in the differential for any elderly man with HFpEF, carpal tunnel syndrome (amyloid deposits in carpal tunnel), a history of bilateral biceps tendon rupture, and low QRS voltage on ECG despite thick walls on echo. This combination is virtually pathognomonic.

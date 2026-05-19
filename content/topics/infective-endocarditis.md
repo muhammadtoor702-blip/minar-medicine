@@ -4,121 +4,191 @@ system: Cardiology
 scenario: "A 34-year-old IV drug user presents with three weeks of fever, night sweats, and malaise. He has a new pansystolic murmur at the lower left sternal border. Blood cultures are positive for Staphylococcus aureus on two separate sets. He has painless haemorrhages under several fingernails and tender nodules on his fingertips."
 sources:
   - ESC Infective Endocarditis Guidelines 2023
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
 
-Infective endocarditis (IE) is infection of the endocardial surface of the heart, most commonly involving the cardiac valves. It is characterised by the formation of **vegetations** — masses of fibrin, platelets, and microorganisms adherent to the valve surface — that can cause local destruction, embolism, and haematogenous seeding of distant sites. Despite advances in treatment, mortality remains 15–30%.
+Infective endocarditis (IE) is infection of the endocardial surface of the heart — most commonly the cardiac valves. It is characterised by the formation of **vegetations**: masses of fibrin, platelets, bacteria, and inflammatory cells adherent to the valve surface. Vegetations cause local tissue destruction, embolise to distant organs, and seed haematogenous infection throughout the body. Despite modern antibiotics and surgical techniques, in-hospital mortality remains 15–30%, and the disease carries a high rate of severe complications.
+
+---
 
 ## Pathophysiology
 
-IE begins with endothelial injury — from turbulent flow across a diseased valve, a prosthetic surface, or an intravascular catheter — exposing subendothelial collagen and triggering platelet aggregation and fibrin deposition. This sterile thrombus becomes infected during an episode of bacteraemia. Most bacteraemias are transient and cleared by immune defences, but organisms capable of adhering to the thrombus establish a persistent infection.
+### How a Vegetation Forms
 
-**Vegetations** grow by accretion, becoming increasingly infected and friable. They cause disease through three mechanisms:
-1. **Local destruction** — valvular regurgitation, annular abscess, conduction defects (AV block suggests perivalvular extension)
-2. **Embolism** — septic emboli to brain, kidneys, spleen, coronary arteries, or (in right-sided IE) lungs
-3. **Immune complex deposition** — Osler nodes, Janeway lesions, Roth spots, glomerulonephritis
+IE begins with endothelial injury, which exposes subendothelial collagen and triggers platelet adhesion and fibrin deposition — forming a sterile thrombus (non-bacterial thrombotic endocarditis, NBTE). Turbulent blood flow across a diseased native valve, a prosthetic surface, or an intravascular catheter generates the endothelial injury. Most bacteraemias are transient and cleared by host defences, but organisms capable of adhering to this thrombus — particularly those with surface adhesins — establish a persistent infection.
 
-**Organisms by clinical setting:**
+Vegetations grow by accretion as more fibrin, platelets, and bacteria accumulate. The deeper layers become avascular and densely packed with bacteria, explaining why prolonged IV antibiotics are required to achieve bactericidal concentrations throughout the vegetation.
 
-| Setting | Typical Organism |
-|---------|----------------|
-| Native valve, community | *Streptococcus viridans* (most common) |
-| Healthcare-associated / IV access | *Staphylococcus aureus* (most virulent) |
-| IV drug use | *S. aureus* (right-sided, tricuspid valve) |
-| Prosthetic valve, early (<1 year) | *S. epidermidis*, *S. aureus* |
-| Prosthetic valve, late (>1 year) | As native valve |
-| Dental procedure | *Streptococcus* spp |
-| Colorectal malignancy | *Streptococcus bovis* — always investigate for colon cancer |
-| Culture-negative IE | *Coxiella burnetii* (Q fever), *Bartonella*, HACEK organisms |
+### Mechanisms of Disease
+
+Vegetations cause damage through three distinct pathways:
+
+1. **Local destruction** — valvular incompetence (regurgitation), annular abscess, fistula formation, conduction defects (AV block indicates perivalvular extension to the AV node — a surgical emergency)
+2. **Embolism** — septic emboli to brain (causing stroke or cerebral abscess), kidneys (causing infarction and haematuria), spleen, coronary arteries (causing MI), limbs; in right-sided IE, septic emboli travel to the lungs causing multiple pulmonary infarcts and cavitating pneumonia
+3. **Immune complex deposition** — circulating immune complexes deposit in the microvasculature, kidneys (causing focal glomerulonephritis with haematuria and proteinuria), and skin (Osler nodes, Roth spots)
+
+### Organisms by Clinical Setting
+
+| Setting | Typical Organism | Notes |
+|---------|----------------|-------|
+| Native valve, community-acquired | *Streptococcus viridans* (oral streptococci) | Most common overall; subacute presentation |
+| Healthcare-associated / IV access | *Staphylococcus aureus* | Most virulent; acute, destructive; high embolic risk |
+| IV drug use | *S. aureus* | Right-sided (tricuspid valve); pulmonary emboli |
+| Prosthetic valve, early (<1 year) | *S. epidermidis*, *S. aureus*, Gram-negatives | Biofilm formation on prosthetic surface |
+| Prosthetic valve, late (>1 year) | As native valve | Similar spectrum to community-acquired |
+| Dental procedure | *Streptococcus* spp. | Portal of entry: gingival manipulation |
+| Colorectal malignancy | *Streptococcus bovis* (*S. gallolyticus*) | **Always investigate for colorectal cancer** |
+| Culture-negative IE | *Coxiella burnetii* (Q fever), *Bartonella*, HACEK organisms | Special serology and PCR required |
+| Fungi | *Candida*, *Aspergillus* | Immunocompromised, prosthetic valves, prolonged IV access |
+
+**HACEK organisms** (*Haemophilus*, *Aggregatibacter*, *Cardiobacterium*, *Eikenella*, *Kingella*) — fastidious Gram-negative rods; require prolonged incubation of blood cultures. Often culture-negative on standard protocols.
+
+---
 
 ## Clinical Presentation
 
-IE typically presents as a **subacute systemic illness** with fever, night sweats, malaise, and weight loss. New or changing murmur is an important sign but may be absent initially. A high index of suspicion is required.
+### Subacute vs Acute Presentation
 
-**Peripheral stigmata (immune complex and embolic phenomena):**
+IE presents on a spectrum:
+- **Subacute IE** (typically viridans streptococci) — insidious onset over weeks; low-grade fever, night sweats, malaise, anorexia, weight loss, arthralgia; valve destruction is gradual; classic peripheral stigmata more likely to be present
+- **Acute IE** (typically *S. aureus*) — days to weeks; high fever, rigors, rapidly destructive; early embolic events; may present with septic shock before peripheral stigmata develop
 
-| Finding | Description | Mechanism |
-|---------|------------|-----------|
-| Splinter haemorrhages | Linear haemorrhages under nails | Microemboli |
-| Janeway lesions | Painless haemorrhagic macules on palms/soles | Septic emboli |
-| Osler nodes | Painful raised nodules on fingertips/toes | Immune complex deposition |
-| Roth spots | Retinal haemorrhages with pale centre | Immune complex deposition |
-| Clubbing | In chronic IE | |
-| Splenomegaly | Immune activation | |
+**New or changing murmur** is an important sign but may be absent in early disease or right-sided IE. Any patient with unexplained fever lasting >1–2 weeks, a predisposing cardiac condition, or risk factors for bacteraemia requires blood cultures and clinical assessment for IE.
 
-**Remember:** Janeway = painless (J is friendly), Osler = painful (O is for Ouch).
+### Peripheral Stigmata
 
-**New AV block in a patient with IE** indicates perivalvular abscess (extension of infection to the AV node) — this demands urgent surgical review.
+| Sign | Description | Mechanism |
+|------|-------------|-----------|
+| **Splinter haemorrhages** | Linear, dark-red haemorrhages in the distal nail bed | Microemboli in nail capillaries |
+| **Janeway lesions** | Painless haemorrhagic macules on the palms and soles | Septic microemboli |
+| **Osler nodes** | Painful, raised, red-brown nodules on the fingertip pulps or toes | Immune complex deposition (with local vasculitis) |
+| **Roth spots** | Retinal haemorrhages with a pale centre | Immune complex deposition in retinal capillaries |
+| **Clubbing** | In chronic or subacute IE | Chronic hypoxia/inflammation |
+| **Splenomegaly** | Tender splenomegaly | Immune activation and splenic infarcts |
+| **Haematuria** | Microscopic | Focal GN or renal emboli |
+
+**Memory aid:** Janeway = **J**ust painless (J is friendly); Osler = **O**uch (painful).
+
+### Critical Alarm Signs
+
+- **New AV block** (PR prolongation or complete heart block) — indicates **perivalvular abscess** extending into the interventricular septum or AV node. This is a surgical emergency — will not resolve with antibiotics alone, risk of sudden death from complete heart block.
+- **Embolic stroke** in a patient with fever — think IE until proven otherwise
+- **Rapidly progressive cardiac failure** from acute severe valvular regurgitation
+
+---
 
 ## Diagnosis
 
-**The Modified Duke Criteria** stratify patients into definite, possible, or rejected IE:
+### Modified Duke Criteria
+
+The Duke criteria stratify patients as **definite**, **possible**, or **rejected** IE.
 
 **Major criteria:**
-- Positive blood cultures with typical organism (≥2 separate sets, or persistent bacteraemia)
-- Evidence of endocardial involvement on echocardiography (vegetation, abscess, new valvular regurgitation, or new prosthetic valve dehiscence)
+1. **Positive blood culture** with a typical IE organism: ≥2 separate blood cultures positive for *S. aureus*, *S. viridans*, *S. bovis*, HACEK, or *Enterococcus* without primary focus; or persistently positive cultures (>12h apart, or majority of ≥4 sets)
+2. **Evidence of endocardial involvement on echo:** vegetation; abscess; new partial dehiscence of a prosthetic valve; or **new valvular regurgitation** (worsening or changing of a pre-existing murmur is insufficient)
 
 **Minor criteria:**
-- Predisposing cardiac condition or IV drug use
+- Predisposing cardiac condition (valve disease, prosthetic valve, previous IE) or IV drug use
 - Fever ≥38°C
-- Vascular phenomena (arterial emboli, septic pulmonary infarcts, Janeway lesions)
-- Immunological phenomena (Osler nodes, Roth spots, positive rheumatoid factor, GN)
-- Positive blood cultures not meeting major criteria
+- Vascular phenomena: arterial emboli, septic pulmonary infarcts, Janeway lesions, mycotic aneurysm, intracranial haemorrhage
+- Immunological phenomena: Osler nodes, Roth spots, GN, positive rheumatoid factor
+- Positive blood cultures not meeting major criteria, or serological evidence of active infection with *Coxiella* or *Bartonella*
 
-**Definite IE:** 2 major, or 1 major + 3 minor, or 5 minor criteria.
+**Definite IE:** 2 major criteria; OR 1 major + 3 minor; OR 5 minor criteria.
 
-**Blood cultures:** Three sets from three separate sites, at least one hour apart, before any antibiotics. This is the single most important investigation.
+### Blood Cultures — The Single Most Important Investigation
 
-**Echocardiography:**
-- **TOE is superior to TTE** for detecting vegetations, perivalvular abscess, and prosthetic valve involvement. Sensitivity ~90–95% vs ~60–75% for TTE.
-- TOE should be performed in all suspected prosthetic valve IE, all cases with negative TTE but high suspicion, and when complications are suspected.
+- **Three sets from three separate venepuncture sites**, at least one hour apart
+- **Before any antibiotics** — bacteraemia in IE is continuous (not intermittent), so timing is less critical than in other infections, but cultures after antibiotics dramatically reduce sensitivity
+- Delay antibiotics by 30–60 minutes to obtain three sets — this is almost always clinically safe and acceptable
+- If empirical antibiotics were started, notify the laboratory — they can extend incubation and apply molecular methods
+- Request **extended incubation** if HACEK organisms suspected
 
-**Other investigations:** FBC (raised WBC, normocytic anaemia), CRP/ESR, U&E (immune GN), urinalysis (haematuria, proteinuria), CXR (right-sided IE may show septic emboli/pulmonary infiltrates), CT chest/abdomen/pelvis (for embolic complications).
+### Echocardiography
+
+- **TOE is superior to TTE** — sensitivity ~90–95% vs ~60–75% for TTE. TOE can detect vegetations as small as 2mm, perivalvular abscesses, fistulae, and prosthetic valve involvement that TTE misses.
+- **TOE should be performed in:** all suspected prosthetic valve IE; all cases with negative TTE but continuing suspicion; all cases where complications (abscess, fistula) are suspected; cases involving ICDs or pacemaker leads.
+- **Repeat echo** if initial study is negative but suspicion remains high — vegetations may not be visible early in infection
+
+### Other Investigations
+
+- **FBC:** raised WBC; normocytic normochromic anaemia (anaemia of chronic inflammation)
+- **CRP and ESR:** markedly elevated; useful for monitoring treatment response
+- **U&E:** renal impairment from GN or emboli; monitor closely during aminoglycoside therapy
+- **Urinalysis:** haematuria and proteinuria in GN
+- **CXR:** cardiomegaly (LV or RV enlargement); in right-sided IE, multiple round opacities or cavities (septic pulmonary emboli)
+- **CT chest/abdomen/pelvis:** for embolic complications — cerebral infarcts/abscess, splenic infarcts, renal infarcts; characterise any suspected mycotic aneurysm
+- **Brain MRI/CT:** if neurological symptoms develop; identifies embolic stroke, cerebral abscess, mycotic aneurysm
+
+---
+
 ## Management
 
-### Antibiotics
+### Antibiotic Therapy
 
-Antibiotic therapy is prolonged (4–6 weeks for native valve, 6 weeks for prosthetic) and typically IV. Regimens are guided by organism and sensitivities:
+Antibiotic treatment is prolonged — **4–6 weeks for native valve** IE, **6 weeks** for prosthetic valve IE — and almost always IV (oral switch protocols are emerging for selected low-risk cases). Regimens are organism- and sensitivity-directed:
 
-| Organism | Empirical/Directed Regimen |
-|---------|--------------------------|
-| Streptococcal native valve | Penicillin G or amoxicillin ± gentamicin (short course) |
-| *S. aureus* native valve | Flucloxacillin (IV). Vancomycin if MRSA. |
-| Enterococcal | Amoxicillin + gentamicin (or ampicillin + ceftriaxone) |
-| Prosthetic valve | Vancomycin + rifampicin + gentamicin (empirical, pending cultures) |
-| Culture-negative | Broad spectrum — discuss with microbiology/ID |
+| Organism | Regimen | Notes |
+|---------|---------|-------|
+| Streptococcal (penicillin-sensitive native valve) | Penicillin G or amoxicillin ± gentamicin (2-week synergistic course) | Gentamicin reduces treatment duration |
+| *S. aureus* (MSSA native valve) | Flucloxacillin (nafcillin) IV for 4–6 weeks | Never treat MSSA IE with vancomycin if susceptible — inferior outcomes |
+| *S. aureus* (MRSA) | Vancomycin ± rifampicin | Monitor vancomycin trough levels |
+| Enterococcal | Amoxicillin + gentamicin or ampicillin + ceftriaxone | "Double beta-lactam" regimen avoids aminoglycoside toxicity |
+| Prosthetic valve (empirical) | Vancomycin + rifampicin + gentamicin | Pending culture results |
+| Culture-negative | Broad spectrum — discuss with microbiology | Consider *Bartonella*, *Coxiella*, HACEK |
 
-**Gentamicin** — used for synergistic bactericidal activity in streptococcal and enterococcal IE. Monitor renal function and levels closely.
+**Gentamicin** — used for synergistic bactericidal activity. Monitor renal function and gentamicin levels closely. Vestibular toxicity (irreversible) and nephrotoxicity are the principal concerns.
 
-### Surgical Indications (urgent or emergency surgery)
+**Rifampicin** — used in prosthetic valve IE for biofilm penetration. Never use as monotherapy (rapid resistance development). Start only after bacteraemia is cleared to avoid selecting resistant organisms in active infection.
 
-- **Heart failure** from valvular destruction (most common indication)
-- **Uncontrolled infection** — persistent bacteraemia after 7–10 days adequate antibiotics, perivalvular abscess, fistula, mycotic aneurysm
-- **Prevention of embolism** — large (>10mm) mobile vegetation, especially after a cerebral embolic event
-- **Prosthetic valve IE** — lower threshold for surgery
+### Surgical Indications
 
-### Prophylaxis
+Surgery is required in approximately 50% of IE cases during the initial admission. Indications are classified by urgency:
 
-Current guidelines (NICE, ESC) recommend antibiotic prophylaxis **only for the highest-risk cardiac conditions** undergoing high-risk dental procedures (those involving gingival manipulation or mucosal incisions):
+**Emergency (within 24 hours):**
+- Acute severe aortic or mitral regurgitation with haemodynamic instability (refractory pulmonary oedema or cardiogenic shock)
+- Perivalvular abscess or fistula with haemodynamic compromise
+
+**Urgent (within days):**
+- **Heart failure** from valve destruction without haemodynamic collapse (most common surgical indication)
+- **Uncontrolled infection** — persistent bacteraemia after 7–10 days of appropriate antibiotics, or new perivalvular abscess
+- Large (>10mm) mobile vegetation, especially after an embolic stroke — to prevent recurrent embolism
+
+**Elective (during current admission):**
+- Prosthetic valve IE — lower threshold for surgery; higher mortality with medical therapy alone
+- Fungal IE — antifungals alone rarely sterilise vegetations; surgical removal usually required
+
+### Antibiotic Prophylaxis
+
+Current ESC 2023 and NICE guidelines **recommend prophylaxis only for the highest-risk cardiac conditions** undergoing high-risk dental procedures (those involving manipulation of gingival tissue, periapical regions of teeth, or mucosal incisions):
+
+**High-risk cardiac conditions warranting prophylaxis:**
 - Prosthetic cardiac valves (including TAVI)
-- Prior IE
-- Congenital heart disease — cyanotic, or repaired with residual defects
+- Previous infective endocarditis
+- Cyanotic congenital heart disease, or surgically corrected with residual defects
 
-Prophylaxis is **not** recommended for all patients with valvular heart disease. Good oral hygiene remains the most important preventive measure.
+**Prophylaxis regimen:** Amoxicillin 2g PO (or IV if unable to take orally) 30–60 minutes before the procedure. If penicillin-allergic: clindamycin 600mg PO.
+
+Prophylaxis is **not** recommended for patients with native valve disease, bicuspid aortic valve, or HCM without the above criteria. Good oral hygiene and regular dental care are the most effective preventive measures.
+
+---
 
 ## Complications
 
-- Heart failure — from acute severe regurgitation
-- Embolic stroke — in 20–40%, especially with mitral vegetation and *S. aureus*
-- Perivalvular abscess with complete heart block
-- Renal failure — embolic or immune-mediated GN
-- Mycotic aneurysm — may rupture, causing catastrophic haemorrhage
+- **Heart failure** — from acute severe regurgitation (aortic or mitral most commonly); the most common cause of death
+- **Embolic stroke** — 20–40% of cases; highest risk with mitral valve vegetation and *S. aureus*; haemorrhagic transformation risk if anticoagulated
+- **Perivalvular abscess** with complete heart block — surgical emergency
+- **Mycotic aneurysm** — infected emboli lodge in arterial walls, causing focal arterial wall destruction and aneurysm formation; most dangerous in the cerebral circulation where rupture causes subarachnoid haemorrhage
+- **Renal failure** — from embolic renal infarction or immune-mediated GN
+- **Septic metastases** — cerebral abscess, vertebral osteomyelitis, psoas abscess, septic arthritis
+- **Recurrent IE** — if predisposing structural abnormality not corrected
 
 ## Clinical Insight
 
-*Streptococcus bovis* bacteraemia — now reclassified as *S. gallolyticus* — has a well-established association with colorectal carcinoma. Any patient with IE caused by this organism must undergo colonoscopy before or shortly after completing treatment.
+*Streptococcus bovis* (now reclassified as *S. gallolyticus*) has a well-established, mechanistically unexplained association with colorectal carcinoma. Any patient with IE or bacteraemia caused by this organism must undergo colonoscopy — either before discharge or within 3–6 months of completing treatment. This association applies even if the patient has no bowel symptoms.
 
-New conduction abnormality (PR prolongation or AV block) in a patient with IE is a surgical emergency. It indicates that the infection has burrowed into the interventricular septum or AV node — a perivalvular abscess that will not respond to antibiotics alone and has a high risk of complete heart block and sudden death.
+New conduction abnormality in a patient with IE is a surgical emergency, not a waiting sign. It indicates perivalvular abscess has extended to the AV node or interventricular septum. Antibiotics alone will not sterilise an abscess, and complete heart block can develop suddenly. These patients need urgent surgical referral the same day the ECG change is recognised.
 
-The blood culture is sacred. Drawing cultures after antibiotics are started dramatically reduces sensitivity and may leave you treating for six weeks without ever knowing the organism. Delay antibiotics by 30–60 minutes to obtain three properly drawn sets — this is almost always achievable and clinically safe.
+The blood culture is sacred. Three separate sets before antibiotics is a standard that saves lives. A patient who has had empirical antibiotics started before cultures are drawn may complete six weeks of IV antibiotics and never know the causative organism — leaving them with an untreated residual infection, a risk of relapse, and no guide for oral step-down or oral prophylaxis. If a colleague has already started antibiotics, tell the laboratory immediately and request extended incubation.

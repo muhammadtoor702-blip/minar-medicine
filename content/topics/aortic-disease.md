@@ -9,7 +9,7 @@ sources:
 
 ## Overview
 
-Aortic disease encompasses two life-threatening entities: **aortic dissection** — a tear in the aortic intima allowing blood to track into a false lumen — and **aortic aneurysm** — pathological dilation of the aorta that risks catastrophic rupture. Both conditions share risk factors and demand urgent recognition, but their immediate management differs fundamentally.
+Aortic disease encompasses two life-threatening entities that share risk factors but demand fundamentally different immediate management: **aortic dissection** — a catastrophic intimal tear with propagation of blood into a false lumen — and **aortic aneurysm** — progressive pathological dilation that risks sudden, lethal rupture. Both conditions are underdiagnosed until they cause catastrophic events, and both are preventable with appropriate screening and risk factor control.
 
 ---
 
@@ -17,58 +17,96 @@ Aortic disease encompasses two life-threatening entities: **aortic dissection** 
 
 ### Pathophysiology
 
-Aortic dissection begins with a **tear in the intima**, typically at points of maximal mechanical stress: the proximal ascending aorta (2–3 cm above the aortic valve) and the descending aorta just distal to the left subclavian artery (ligamentum arteriosum). Pulsatile blood pressure forces blood into the media, creating a **false lumen** that propagates both proximally and distally, shearing off branch vessel origins and disrupting aortic valve support.
+Aortic dissection begins with a **tear in the intima**, most commonly at two sites of maximal haemodynamic stress:
+1. **The proximal ascending aorta**, 2–3 cm above the aortic valve — the region of greatest pulsatile tension
+2. **The descending aorta just distal to the left subclavian artery** at the ligamentum arteriosum — a point of relative fixation where shear forces concentrate
 
-**Classification — Stanford (most clinically used):**
+Once the tear occurs, pulsatile blood pressure forces blood into the medial layer, rapidly propagating a **false lumen** both proximally (toward the heart) and distally (toward the abdominal aorta). As the false lumen expands, it compresses the true lumen and shears off branch vessel origins, causing malperfusion to dependent organs.
 
-| Type | Involvement | Urgency | Treatment |
-|------|------------|---------|-----------|
-| Type A | Involves ascending aorta (regardless of origin) | Surgical emergency | Emergency open repair |
-| Type B | Descending only (distal to left subclavian) | Urgent medical management | BP control; TEVAR if complicated |
+**Why the intima tears:** The aortic wall is subjected to continuous pulsatile mechanical stress. In hypertension, the medial layer (composed of vascular smooth muscle, collagen, and elastin) undergoes progressive degeneration — **cystic medial necrosis** — weakening its integrity. Connective tissue disorders that disrupt structural proteins accelerate this process.
 
-**Risk factors:** Hypertension (most important, present in >70%), bicuspid aortic valve, Marfan syndrome, Ehlers-Danlos syndrome, Turner syndrome, coarctation, cocaine use, pregnancy (particularly third trimester), prior aortic surgery.
+### Stanford Classification
+
+| Type | Involvement | Urgency | Definitive Treatment |
+|------|------------|---------|---------------------|
+| **Type A** | Involves ascending aorta (regardless of where the tear originated) | Surgical emergency | Emergency open repair |
+| **Type B** | Descending aorta only (distal to left subclavian) | Urgent medical stabilisation | BP/HR control; TEVAR if complicated |
+
+Type A dissections are immediately life-threatening because proximal extension can cause cardiac tamponade, acute AR, coronary occlusion, and stroke. Mortality without surgery approaches **1–2% per hour** in the first 24–48 hours.
+
+**DeBakey classification (older system):**
+- Type I: ascending + descending
+- Type II: ascending only
+- Type III: descending only (equivalent to Stanford B)
+
+### Risk Factors
+
+- **Hypertension** (most important — present in >70% of dissections)
+- **Bicuspid aortic valve** — abnormal aortic wall architecture predisposing to root dilation and dissection independent of valve function
+- **Connective tissue disorders:** Marfan syndrome (FBN1 gene; fibrillin-1 deficiency); Ehlers-Danlos syndrome type IV (COL3A1; type III collagen); Loeys-Dietz syndrome
+- **Turner syndrome** — coarctation and bicuspid valve increase aortic risk
+- **Cocaine** — acute severe hypertension causing intimal tear
+- **Pregnancy** — third trimester; increased cardiac output and hormonal changes affecting aortic wall
+- **Aortic root dilation** — prior to frank dissection; any cause of dilated aortic root is a risk factor
+- **Coarctation of the aorta** — increased proximal hypertension
+- **Prior cardiac surgery or catheterisation** — iatrogenic intimal injury
 
 ### Clinical Presentation
 
-The classical presentation is **sudden onset tearing or ripping pain**, maximal at onset (distinguishing it from the crescendo pattern of ACS), radiating to the interscapular back (descending dissection) or to the anterior chest (ascending). Migration of pain reflects propagation of the dissection.
+**Classic symptom:** Sudden-onset **tearing or ripping pain** that is **maximal at onset** — distinguishing it from the crescendo build-up of ACS. The pain location correlates anatomically with the dissection:
+- Anterior chest, tearing to the back → ascending + arch involvement
+- Interscapular back pain → descending dissection
+- Migrating pain (chest → back → abdomen) → propagating dissection
 
 **Complications that may dominate the presentation:**
 
-- **Aortic regurgitation** — ascending dissection disrupts aortic valve support → acute severe AR → acute pulmonary oedema
-- **Cardiac tamponade** — proximal extension into the pericardial space
-- **Coronary occlusion** — dissection flap occluding RCA or LAD → MI pattern; STEMI in the context of possible dissection demands exclusion of dissection before thrombolysis
-- **Stroke** — carotid artery involvement
-- **Limb ischaemia** — iliac involvement
-- **Paraplegia** — anterior spinal artery compromise
-- **Mesenteric ischaemia** — SMA involvement
-- **Acute kidney injury** — renal artery compromise
+| Complication | Mechanism | Clinical Features |
+|-------------|-----------|-----------------|
+| Acute aortic regurgitation | Ascending dissection disrupts aortic valve support | Pulmonary oedema; early diastolic murmur |
+| Cardiac tamponade | Proximal extension into pericardial space | Beck's triad; pulsus paradoxus; PEA arrest |
+| Coronary occlusion | Dissection flap occludes RCA (most common) | ST elevation mimicking inferior STEMI |
+| Stroke | Carotid artery involvement | Focal neurological deficits |
+| Limb ischaemia | Iliac or subclavian involvement | Absent pulse, pain, pallor, paraesthesia |
+| Paraplegia | Anterior spinal artery compromise (from intercostal/lumbar vessel shearing) | Acute spinal cord syndrome |
+| Mesenteric ischaemia | SMA involvement | Abdominal pain, raised lactate |
+| AKI | Renal artery compromise | Rising creatinine, oliguria |
+| Horner's syndrome | Sympathetic chain involvement | Ptosis, miosis, anhydrosis |
 
-**BP asymmetry between arms** (>20 mmHg) is a highly specific but insensitive finding — present in about 20–30% of cases.
+**BP asymmetry between arms** (>20 mmHg) — present in ~20–30% of cases; highly specific when present; do not be reassured by its absence.
+
+**Pulse deficit** — absent peripheral pulse from occlusion of a branch vessel.
 
 ### Diagnosis
 
-**CT aortography** is the investigation of choice — it defines the extent of dissection, the true and false lumens, and branch vessel involvement. It is rapidly available and highly accurate (sensitivity >95%).
+**CT aortography** — investigation of choice. Performed with IV contrast; defines the intimal flap, true and false lumens, and all branch vessel involvement. Sensitivity >95% and available in most emergency departments. If the patient is haemodynamically stable, this is the first-line investigation.
 
-**CXR** — widened mediastinum (>8cm) is classic but present in only ~60%. Other findings: loss of aortic knuckle, left pleural effusion (haemothorax from leaking descending dissection).
+**CXR findings:**
+- Widened mediastinum (>8cm) — present in ~60% of ascending dissections; absence does not exclude
+- Loss of normal aortic knuckle
+- Left pleural effusion (haemothorax from descending dissection)
+- Tracheal/oesophageal deviation
 
-**Important:** Do not give thrombolytics for suspected STEMI until aortic dissection has been excluded. In a patient with chest pain and ST elevation, features suggesting dissection (tearing pain, back radiation, BP asymmetry, AR murmur, mediastinal widening) demand CT first.
+**TOE (transoesophageal echocardiography):** If patient is too haemodynamically unstable for CT, TOE can be performed in the resuscitation bay or operating theatre. Identifies the intimal flap, aortic regurgitation, and pericardial effusion. Excellent for ascending aorta.
 
-**TOE** — if patient is too unstable for CT; can be performed in the operating theatre.
+**ECG and troponin:** Often performed to exclude ACS. In aortic dissection, ECG may be normal, show LVH (from chronic hypertension), or show inferior ST elevation (if the dissection has occluded the RCA). **A patient with STEMI in the context of features suggesting dissection must have dissection excluded before thrombolytics are given.**
 
 ### Management
 
-**All patients:**
-- IV **labetalol** — reduces both heart rate and blood pressure, decreasing aortic wall stress. Target HR <60 bpm and systolic 100–120 mmHg.
-- If labetalol unavailable: IV esmolol (short-acting beta-blocker) to control HR first, then vasodilator.
-- IV access, group and crossmatch, ITU-level monitoring.
+**Immediate — all dissections:**
+- ITU-level monitoring; arterial line; two large-bore IV cannulae; group and crossmatch
+- Target **HR <60 bpm** and **systolic BP 100–120 mmHg** — reduces aortic wall stress (reduces dP/dt)
+- **IV labetalol** — simultaneous beta and alpha blockade; both reduces HR and lowers BP. Ideal first-line agent. If labetalol unavailable: IV esmolol (short-acting beta-blocker) first to control HR, then add vasodilator (sodium nitroprusside or GTN infusion).
+- **Never give vasodilators alone** without beta-blockade — reflex tachycardia increases aortic wall stress and accelerates propagation
+- Morphine for pain control (analgesia also reduces sympathetic activation)
 
-**Type A dissection:**
-- Emergency cardiac surgery — mortality without surgery approaches 50% at 48 hours. Every hour counts.
-- Even in elderly patients, the risk of surgery is outweighed by the near-certain mortality of conservative management.
+**Type A dissection — surgical emergency:**
+- Emergency open repair under cardiopulmonary bypass
+- Mortality without surgery approaches 50% at 48 hours; operative mortality is ~20–30% but still far better than conservative management
+- Time from diagnosis to operating theatre must be minimised — contact cardiothoracic surgery simultaneously with CT
 
 **Type B dissection:**
-- Uncomplicated: medical management (BP and HR control), close imaging surveillance.
-- Complicated (malperfusion — limb, renal, mesenteric ischaemia; refractory pain; rapid expansion): **TEVAR** (thoracic endovascular aortic repair) is preferred over open surgery.
+- **Uncomplicated** (no malperfusion, controlled pain, no rapid expansion): **medical management** — BP and HR control with IV labetalol transitioning to oral antihypertensives; serial imaging (CT at 24h, 1 week, 1 month, then 6-monthly); most uncomplicated Type B dissections heal with medical therapy
+- **Complicated** (malperfusion syndrome — limb, renal, or mesenteric ischaemia; refractory pain despite adequate analgesia; rapid expansion of false lumen; haemorrhage): **TEVAR** (thoracic endovascular aortic repair) — a covered stent graft is deployed in the descending aorta via the femoral artery to cover the primary intimal tear, re-expanding the true lumen and restoring branch vessel perfusion. Preferred over open surgery in most centres.
 
 ---
 
@@ -76,48 +114,92 @@ The classical presentation is **sudden onset tearing or ripping pain**, maximal 
 
 ### Pathophysiology
 
-An aneurysm is defined as focal dilation of the aorta to >1.5× its normal diameter. **Abdominal aortic aneurysm (AAA)** — normal infrarenal aorta diameter ~2cm; aneurysm defined as ≥3cm — is the most clinically significant. The wall weakens due to atherosclerosis, chronic inflammation, and metalloproteinase-mediated degradation of elastin and collagen. Risk of rupture increases exponentially with diameter.
+An aneurysm is defined as focal dilation of the aorta to **≥1.5× its normal diameter**. The normal infrarenal aortic diameter is ~2 cm; aneurysm is defined as ≥3 cm. Aneurysm formation results from:
 
-**Risk factors:** Age >65, male sex, smoking (most important modifiable factor — quintuples risk), hypertension, atherosclerosis, family history, COPD.
+1. **Atherosclerosis** — inflammation, oxidative stress, and macrophage infiltration within the arterial wall
+2. **Metalloproteinase (MMP) activation** — MMPs (particularly MMP-9) degrade elastin and collagen in the aortic media, progressively weakening the wall
+3. **Chronic inflammation** — adventitial inflammatory infiltrate further degrades structural proteins
 
-### Clinical Presentation
+Wall tension follows the **Law of Laplace (T = Pr)** — at a given pressure, larger vessels experience greater wall tension. Risk of rupture therefore increases exponentially with diameter, not linearly.
 
-**Unruptured AAA** is usually asymptomatic and discovered incidentally or on screening USS. It may present with back or abdominal pain as it expands.
+**Risk factors for AAA:**
+- Age >65 (prevalence ~5% in men aged 65–74)
+- Male sex (6× more common than women)
+- **Smoking** — most important modifiable risk factor; quintuples AAA risk; cessation slows growth
+- Hypertension
+- Family history (first-degree relative with AAA)
+- COPD (shared smoking aetiology; elastin degradation)
+- Connective tissue disorders (Marfan, Ehlers-Danlos — typically thoracic)
 
-**Ruptured AAA** — classic triad:
-1. Sudden severe abdominal or back pain
+### Abdominal Aortic Aneurysm (AAA)
+
+**Unruptured AAA** — usually asymptomatic; discovered incidentally on abdominal USS or CT. Occasionally causes dull back or abdominal pain as the sac expands.
+
+**Ruptured AAA — classic triad:**
+1. Sudden severe abdominal or back pain (may radiate to groin — mimics renal colic)
 2. Pulsatile abdominal mass
-3. Haemodynamic instability (hypotension, tachycardia)
+3. Haemodynamic instability (hypotension, tachycardia, collapse)
 
-Retroperitoneal containment may temporarily limit haemorrhage, producing transient haemodynamic stability — this is deceptive. These patients may arrive in the emergency department relatively stable and deteriorate rapidly.
+**Retroperitoneal tamponade** may temporarily contain a haemorrhage, producing a period of relative haemodynamic stability — this is deceptive. These patients are critically unstable and can decompose within minutes. Do not be reassured by a "reasonable" BP in a patient with the classic triad.
 
-### Management
+**Other presentations:**
+- **Aortoenteric fistula** — AAA erodes into the duodenum; presents as massive upper GI haemorrhage; sentinel bleed often precedes catastrophic haemorrhage
+- **Distal embolism** — thrombus within the aneurysm sac embolises to lower limb arteries; "trash foot" (multiple digital ischaemic lesions from microemboli)
+- Venous compression (DVT from IVC compression)
 
-**Screening:** In the UK, all men aged 65 are offered a one-off abdominal USS. AAA is detected in ~2% — allowing elective intervention before rupture.
+### UK AAA Screening Programme
 
-**Surveillance by diameter:**
+All men aged **65 years** are offered a **one-off abdominal ultrasound**. AAA is detected in approximately 2% — these patients are enrolled in surveillance, allowing elective repair before rupture. This programme has reduced population-level AAA mortality by ~50%.
 
-| Diameter | Interval |
-|---------|---------|
-| 3.0–4.4 cm | Annual USS |
-| 4.5–5.4 cm | 3-monthly USS |
-| ≥5.5 cm | Refer for surgical repair |
+**Not routinely screened:** Women (lower prevalence); this may change as evidence accumulates.
 
-**Repair:**
-- **EVAR** (endovascular aortic repair) — less invasive, preferred in most patients
-- **Open repair** — for anatomically unsuitable EVAR candidates or younger patients
-- Emergency open or endovascular repair for rupture — mortality is ~40–50% even with surgery
+### Surveillance by Diameter
 
-**Thoracic aneurysm:** Repair indicated at ≥5.5cm (ascending) or ≥6.0cm (descending), or faster growth >5mm in 6 months.
+| Diameter | Management |
+|---------|-----------|
+| <3.0 cm | Normal; reassure |
+| 3.0–4.4 cm | Annual USS surveillance |
+| 4.5–5.4 cm | Every 3 months USS surveillance |
+| ≥5.5 cm | Refer for elective surgical repair |
+| Any size with rapid growth (>1 cm/year) | Expedite referral |
+| Symptomatic (pain, tenderness) | Urgent referral regardless of size |
+
+### Repair
+
+**EVAR (endovascular aortic repair):** A covered stent graft is delivered via both femoral arteries and deployed within the AAA sac, excluding the aneurysm from systemic pressure. Requires suitable anatomy (adequate proximal aortic neck above the aneurysm). Less invasive than open repair; lower short-term mortality; 30-day mortality ~1–2%. **EVAR requires lifelong surveillance imaging** — risk of endoleak (type I: around graft seal; type II: via lumbar or mesenteric back-bleeding; type III: graft failure) requiring reintervention.
+
+**Open repair:** The aorta is clamped proximal and distal to the aneurysm and replaced with a Dacron graft. More durable in the long term (no endoleak risk); 30-day mortality ~3–5% in elective cases. Preferred for anatomically unsuitable EVAR candidates and younger patients (<65 years) who will outlive the graft.
+
+**Emergency repair of ruptured AAA:** Both EVAR and open repair are used depending on anatomy and haemodynamic status. Overall mortality is 40–50% even with surgery; many patients die before reaching hospital.
+
+### Thoracic Aortic Aneurysm (TAA)
+
+- **Ascending aorta:** Intervention at ≥5.5 cm (≥4.5–5.0 cm in Marfan syndrome or Loeys-Dietz, or if rapid growth)
+- **Descending aorta:** Intervention at ≥6.0 cm
+
+Annual surveillance imaging (CT or MRI) in patients with known TAA or connective tissue disorders. Beta-blockers (losartan in Marfan syndrome — COMPARE trial) reduce rate of aortic dilation.
+
+---
+
 ## Complications
 
-- Aortic dissection: death from rupture, cardiac tamponade, stroke, visceral malperfusion, acute AR, spinal cord ischaemia
-- AAA: rupture (catastrophic haemorrhage), aortoenteric fistula, distal embolism, thrombosis
+**Aortic dissection:**
+- Death from aortic rupture, cardiac tamponade, or massive haemorrhage
+- Stroke from carotid involvement
+- Spinal cord ischaemia (paraplegia) — irreversible
+- Visceral malperfusion (gut necrosis, renal failure)
+- Acute AR with pulmonary oedema
+
+**Aortic aneurysm:**
+- Rupture — catastrophic haemorrhage; often fatal before hospital arrival
+- Aortoenteric fistula
+- Distal embolism
+- EVAR-specific: endoleak, graft migration, stent thrombosis
 
 ## Clinical Insight
 
-The single most dangerous mistake in aortic dissection is thrombolysis. When a patient presents with chest pain and ST elevation and might have a dissection, the consequences of giving thrombolytics — haemopericardium, exsanguination — are irreversible. Take 10 minutes to get a CT before committing.
+The single most dangerous mistake in aortic dissection is giving thrombolytics for a presumed STEMI. A dissection flap occluding the RCA produces inferior ST elevation — clinically identical to STEMI. If a patient with chest pain and ST elevation has tearing pain, interscapular radiation, BP asymmetry, an AR murmur, or mediastinal widening, stop. CT first. Thrombolytics in aortic dissection cause haemopericardium, aortic haemorrhage, and death. These consequences are irreversible.
 
-In ruptured AAA, do not be reassured by haemodynamic stability. Retroperitoneal tamponade is temporary. Resuscitate judiciously — permissive hypotension (target systolic ~80–90 mmHg) is preferred to aggressive fluid resuscitation, which can disrupt the clot and precipitate free rupture.
+In ruptured AAA, do not be reassured by haemodynamic stability. Retroperitoneal tamponade is temporary — clot can dislodge at any moment. Resuscitate with **permissive hypotension**: target systolic ~80–90 mmHg rather than aggressive fluid replacement. Aggressive fluid resuscitation raises the BP, disrupts the clot, and precipitates free rupture and exsanguination. The operating theatre, not the resuscitation bay, is where the haemorrhage is controlled.
 
-Any man over 65 presenting to primary care should be asked whether he has ever had an abdominal aortic aneurysm screen. The one-off USS screening programme reduces AAA mortality by ~50% through early detection of asymptomatic disease.
+Any man over 65 who has never been screened for AAA should be offered an abdominal USS. The one-off screening programme has demonstrably reduced AAA mortality. Ask the question — it costs nothing and may save a life.
