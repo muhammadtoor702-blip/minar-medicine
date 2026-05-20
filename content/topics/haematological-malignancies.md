@@ -192,3 +192,30 @@ APL (AML M3) is the one subtype of acute leukaemia where speed of specific treat
 The Philadelphia chromosome transformed oncology twice — first as the molecular target that led to imatinib, and second as the proof of concept that targeted cancer therapy was possible. CML is now a model chronic disease managed with oral daily tablets. The lesson generalised to every other cancer with an identifiable molecular driver.
 
 Watch and wait in follicular lymphoma and CLL is not inaction — it is an evidence-based decision that early treatment does not improve survival and exposes patients to unnecessary toxicity. The instinct to treat every cancer immediately is understandable but wrong in these contexts. The hardest clinical skill is sometimes to explain to a patient with lymphoma why you are not prescribing chemotherapy.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 68-year-old man with 3 months of fatigue, recurrent infections, and night sweats. Bilateral painless cervical and axillary lymphadenopathy. Hb 9.2 g/dL, WBC 82 × 10⁹/L, platelets 94 × 10⁹/L. Blood film: lymphocytosis with **smear cells**. Flow cytometry: **CD5+/CD19+/CD23+** B-cell population.
+
+**Step 1 — Diagnose CLL:** The flow cytometry findings are diagnostic:
+- **CD19/CD23** = B-cell markers ✓
+- **CD5** = aberrantly expressed T-cell marker on CLL B-cells (not present on normal B-cells) ✓
+- **Smear (smudge) cells on blood film** = pathognomonic of CLL — fragile lymphocytes that are damaged during blood film preparation
+This is **CLL** with certainty. CLL is the most common leukaemia in adults in the Western world.
+
+**Step 2 — Stage to determine whether treatment is needed (Binet staging):**
+- **Binet Stage A**: <3 lymph node areas involved, Hb ≥10, platelets ≥100 → watch and wait
+- **Binet Stage B**: ≥3 node areas, Hb ≥10, platelets ≥100 → watch and wait if asymptomatic
+- **Binet Stage C**: Hb **<10 g/dL** OR platelets **<100 × 10⁹/L** → **treat**
+This patient: Hb 9.2 g/dL (<10) + platelets 94 × 10⁹/L (<100) = **Binet Stage C → treatment indicated**.
+
+**Step 3 — Check for AIHA:** Anaemia in CLL is often from **autoimmune haemolytic anaemia** (warm AIHA — CLL is the most common secondary cause). Check direct Coombs test, reticulocyte count, LDH, and bilirubin. If AIHA confirmed → steroids first before chemotherapy.
+
+**Step 4 — Treatment options:**
+- **Venetoclax + obinutuzumab** or **ibrutinib** (BTK inhibitor) — now preferred over FCR in most elderly patients (fewer infections, oral dosing, excellent outcomes)
+- **FCR** (fludarabine + cyclophosphamide + rituximab) — still used in young, fit, IGHV-mutated patients where it can achieve long-term remission or potential cure
+- Refer to haematology for molecular profiling (IGHV mutation status, TP53, del17p)
+
+**Exam trigger:** *Blood film smear cells + lymphocytosis + CD5+/CD19+/CD23+* → CLL. Binet Stage C (Hb <10 or platelets <100) = treat; Stage A/B asymptomatic = watch and wait. The distractor is treating all CLL — early-stage CLL does not benefit from early chemotherapy.

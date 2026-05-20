@@ -213,3 +213,39 @@ Adrenal crisis is under-recognised and under-treated. Any patient with known adr
 The aldosterone:renin ratio should be checked in all patients with resistant hypertension. Primary hyperaldosteronism is the most common cause of secondary hypertension — far more prevalent (~10%) than previously recognised. Discovering it changes management: a unilateral adenoma is cured by surgery, avoiding lifelong antihypertensive polypharmacy. An untreated aldosterone excess causes end-organ damage beyond that explained by the blood pressure alone (direct cardiac and renal toxicity).
 
 Never give a beta-blocker first to a patient with phaeochromocytoma. The adrenergic physiology is critical: phenylephrine (from the tumour) acts on alpha receptors to cause vasoconstriction. Beta-blockers remove the beta-mediated vasodilation and cardiac output support — leaving only the vasoconstrictive alpha stimulation unopposed, causing a hypertensive crisis and potential catastrophe. Always alpha-block first, then carefully add beta-blockade.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 38-year-old woman with 2 years of central and facial weight gain, easy bruising, proximal muscle weakness, mood changes, purple abdominal striae, BP 162/98, fasting glucose 151 mg/dL. Not on exogenous corticosteroids.
+
+**Step 1 — Recognise Cushing's syndrome:** This patient has the classic cluster:
+- **Central obesity + moon face** (fat redistribution)
+- **Purple striae >1 cm wide** — distinguishes Cushing's from obesity (obesity causes pink/white narrow striae)
+- **Proximal muscle weakness** — glucocorticoid-induced myopathy (difficulty rising from chair, climbing stairs)
+- **Easy bruising** — collagen loss from excess cortisol
+- **Hypertension + impaired glucose tolerance** — cortisol promotes gluconeogenesis and mineralocorticoid effects
+Not on corticosteroids → **endogenous Cushing's syndrome** confirmed
+
+**Step 2 — Biochemically confirm hypercortisolism (need ≥2 positive tests):**
+1. **1 mg overnight dexamethasone suppression test** — give 1 mg dexamethasone at 11pm; measure cortisol at 8am next day. Failure to suppress below 1.8 µg/dL = positive (sensitivity >95%)
+2. **24-hour urinary free cortisol** × 2 — elevated >3× ULN = significant
+3. **Late-night salivary cortisol** — elevated in Cushing's (normal diurnal variation is lost)
+
+**Step 3 — Determine ACTH-dependent vs ACTH-independent:**
+- Measure **plasma ACTH**:
+  - **ACTH elevated (>20 pg/mL)** → ACTH-dependent: pituitary adenoma (**Cushing's disease**, ~70%) or ectopic ACTH (lung carcinoid, SCLC, pancreatic NET)
+  - **ACTH suppressed (<5 pg/mL)** → ACTH-independent: adrenal adenoma or carcinoma
+
+**Step 4 — Localise:** If ACTH elevated:
+- **MRI pituitary** (high-resolution for microadenoma)
+- If MRI negative or equivocal: **inferior petrosal sinus sampling (IPSS)** — gold standard to confirm pituitary vs ectopic source
+- If ACTH suppressed: **CT adrenals**
+
+**Step 5 — Treatment:**
+- **Cushing's disease**: transsphenoidal adenomectomy — first-line; remission in ~80%
+- **Adrenal adenoma**: laparoscopic adrenalectomy — curative
+- **Ectopic ACTH**: resect primary tumour if localised; medical blockade (metyrapone, ketoconazole) if inoperable
+
+**Exam trigger:** *Central obesity + purple striae + proximal weakness + hypertension + hyperglycaemia + not on steroids* → endogenous Cushing's. First test: overnight dexamethasone suppression. Then measure ACTH to determine source.

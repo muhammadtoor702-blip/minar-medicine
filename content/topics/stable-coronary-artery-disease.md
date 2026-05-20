@@ -172,3 +172,35 @@ The ISCHEMIA trial has fundamentally changed how we approach stable CAD — it c
 GTN should relieve typical angina within 2–5 minutes. If pain persists beyond 20 minutes, or occurs at rest, it is ACS until proven otherwise — manage accordingly.
 
 Always auscultate for aortic stenosis before any stress testing. A patient with haemodynamically significant AS and exertional symptoms sent for an exercise ECG may develop syncope or life-threatening arrhythmia during the test if the valve pathology is unrecognised. The ESM radiating to the carotids, slow-rising pulse, and narrow pulse pressure are the clues.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 57-year-old man with hypertension, T2DM, and a 20 pack-year history. Four months of central chest tightness on climbing two flights of stairs, consistently relieved within 5 minutes of rest. Normal resting ECG. GP has started aspirin and a statin.
+
+**Step 1 — Confirm the clinical diagnosis:** This is classic **stable angina** — predictable, reproducible, exertional, and relieved promptly by rest. The normal resting ECG is expected (ischaemia causes dynamic changes at exercise, not at rest). A normal ECG does not exclude stable CAD.
+
+**Step 2 — Confirm and characterise with non-invasive testing:** Choose based on local availability and patient factors:
+- **CT coronary angiography (NICE first-line)** — high negative predictive value; defines anatomy and guides revascularisation planning
+- **CT-FFR** (functional assessment on CT) — determines which stenoses are haemodynamically significant
+- **Functional imaging** (myocardial perfusion scan, stress echo) — if CT non-diagnostic or contraindicated
+
+**Step 3 — Optimise medical therapy before any revascularisation decision:**
+- **Short-acting GTN spray** — for acute episodes; teach the patient: use one puff, sit down, repeat at 5 minutes if pain persists; if pain at 15 minutes (3 doses), call emergency services
+- **Beta-blocker** (bisoprolol 5–10 mg) — first-line anti-anginal; reduces heart rate and myocardial O₂ demand
+- If beta-blocker contraindicated: **rate-limiting CCB** (diltiazem MR or verapamil)
+- **Aspirin 75 mg** — already started ✓
+- **Atorvastatin 80 mg** — high-intensity; LDL target <55 mg/dL ✓ (check current dose)
+- **ACEi (ramipril)** — indicated given T2DM and hypertension; renoprotective and cardiovascular benefits
+- BP target: <130/80 mmHg
+
+**Step 4 — The ISCHEMIA trial principle:** For stable CAD with moderate-to-severe ischaemia, **optimal medical therapy** is equivalent to early revascularisation for preventing MI and death. Revascularisation (PCI/CABG) is performed for:
+- Symptom control when medical therapy is inadequate
+- **Left main stem or proximal triple-vessel disease** — where CABG improves survival (the one indication where intervention is superior to medicine alone)
+
+**Step 5 — Address modifiable risk factors:** The most impactful interventions for long-term prognosis:
+- **Smoking cessation** — single highest-impact lifestyle intervention
+- HbA1c optimisation; lipid targets; strict BP control
+
+**Exam trigger:** *Stable angina + normal resting ECG* → the ECG being normal does not exclude CAD. Investigate with CT coronary angiography. Optimise medical therapy first — revascularisation for symptom control only, unless left main/triple-vessel disease is found.
