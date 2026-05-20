@@ -1,11 +1,12 @@
 ---
 title: Diabetes Mellitus
 system: Endocrinology
-scenario: "A 47-year-old man with a BMI of 34 attends for review of his blood results. He has been increasingly fatigued and thirsty. Fasting glucose is 9.1 mmol/L and HbA1c is 71 mmol/mol (8.6%). He has no ketonuria. His father had type 2 diabetes and died of a myocardial infarction at 59. BP 148/92, microalbuminuria on urine dipstick."
+scenario: "A 47-year-old man with a BMI of 34 attends for review of his blood results. He has been increasingly fatigued and thirsty. Fasting glucose is 164 mg/dL and HbA1c is 71 mmol/mol (8.6%). He has no ketonuria. His father had type 2 diabetes and died of a myocardial infarction at 59. BP 148/92, microalbuminuria on urine dipstick."
 sources:
   - ADA Standards of Care 2024
   - NICE NG28 (Type 2 Diabetes)
   - NICE NG17 (Type 1 Diabetes)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -47,7 +48,7 @@ Initially, beta cells hypersecrete insulin to overcome resistance — maintainin
 
 ### Type 1
 
-Typically presents acutely in young, lean patients: polydipsia, polyuria, weight loss, fatigue, and blurred vision. Often presents with DKA (pH <7.3, ketones >3 mmol/L, glucose >11 mmol/L).
+Typically presents acutely in young, lean patients: polydipsia, polyuria, weight loss, fatigue, and blurred vision. Often presents with DKA (pH <7.3, ketones >3 mmol/L, glucose >200 mg/dL).
 
 ### Type 2
 
@@ -73,10 +74,10 @@ Often **asymptomatic** — discovered on routine screening. When symptomatic: po
 
 | Test | Diabetes | Pre-diabetes |
 |------|---------|--------------|
-| Fasting plasma glucose | ≥7.0 mmol/L | 6.1–6.9 mmol/L (IFG) |
-| 2-hour OGTT glucose | ≥11.1 mmol/L | 7.8–11.0 mmol/L (IGT) |
+| Fasting plasma glucose | ≥126 mg/dL | 110–125 mg/dL (IFG) |
+| 2-hour OGTT glucose | ≥200 mg/dL | 140–199 mg/dL (IGT) |
 | HbA1c | ≥48 mmol/mol (6.5%) | 42–47 mmol/mol |
-| Random glucose + symptoms | ≥11.1 mmol/L | — |
+| Random glucose + symptoms | ≥200 mg/dL | — |
 
 **HbA1c limitations**: Falsely low in haemolytic anaemia, haemoglobinopathies (HbS, HbC), recent blood transfusion, and high RBC turnover. Falsely high in iron deficiency anaemia. Use glucose-based criteria in these situations.
 
@@ -124,18 +125,18 @@ Often **asymptomatic** — discovered on routine screening. When symptomatic: po
 
 ### DKA Management (Critical Points)
 
-**Diagnostic criteria**: Glucose >11 mmol/L + pH <7.3 + bicarbonate <15 + blood ketones >3 mmol/L (or urine ketones ≥2+).
+**Diagnostic criteria**: Glucose >200 mg/dL + pH <7.3 + bicarbonate <15 mEq/L + blood ketones >3 mmol/L (or urine ketones ≥2+).
 
 **Fixed-rate IV insulin infusion protocol (FRIII)**:
 1. IV fluids — 0.9% NaCl with potassium (monitor K+ and replace aggressively — insulin drives K+ into cells)
 2. Fixed-rate IV insulin — 0.1 units/kg/hour (do NOT give bolus doses)
-3. Add 10% dextrose when glucose <14 mmol/L (continue insulin to clear ketones)
+3. Add 10% dextrose when glucose <250 mg/dL (continue insulin to clear ketones)
 4. Monitor glucose hourly, ketones 2-hourly, electrolytes 4-hourly
 5. Resolution: pH >7.3 + bicarbonate >15 + ketones <0.6 mmol/L
 
 **Most common precipitant**: Infection. **Most common cause of death in DKA**: Cerebral oedema (in children), hypokalaemia, aspiration.
 
-**Hyperosmolar hyperglycaemic state (HHS)** — T2DM equivalent of DKA: Glucose >30 mmol/L, osmolality >320 mOsm/kg, no significant ketoacidosis, severe dehydration. Slower fluid replacement (rapid correction → cerebral oedema). Mortality higher than DKA (~15–20%).
+**Hyperosmolar hyperglycaemic state (HHS)** — T2DM equivalent of DKA: Glucose >540 mg/dL, osmolality >320 mOsm/kg, no significant ketoacidosis, severe dehydration. Slower fluid replacement (rapid correction → cerebral oedema). Mortality higher than DKA (~15–20%).
 
 ### Diabetic Complication Management
 
@@ -155,7 +156,7 @@ Often **asymptomatic** — discovered on routine screening. When symptomatic: po
 
 **Chronic — macrovascular**: Coronary artery disease (~2× risk), stroke (~1.5× risk), peripheral arterial disease, diabetic foot (neuropathy + ischaemia + infection → gangrene).
 
-**Hypoglycaemia**: Blood glucose <4 mmol/L. Symptoms: autonomic (sweating, tremor, palpitations — warning) and neuroglycopaenic (confusion, slurred speech, seizure, coma). Treat with 15–20g fast-acting carbohydrate. Glucagon 1 mg IM or IV dextrose if unconscious.
+**Hypoglycaemia**: Blood glucose <72 mg/dL. Symptoms: autonomic (sweating, tremor, palpitations — warning signs) and neuroglycopaenic (confusion, slurred speech, seizure, coma — from cerebral glucose deprivation). Treat with 15–20 g fast-acting carbohydrate (conscious) or glucagon 1 mg IM / IV dextrose 50 mL 50% (unconscious).
 
 ## Clinical Insight
 

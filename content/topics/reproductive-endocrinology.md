@@ -6,6 +6,7 @@ sources:
   - Endocrine Society PCOS Guidelines 2023
   - NICE NG23 (Menopause)
   - ESHRE/ASRM PCOS Consensus
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -35,7 +36,7 @@ Simultaneously, hyperinsulinaemia reduces hepatic production of sex hormone-bind
 2. Clinical or biochemical hyperandrogenism (hirsutism, acne, male-pattern alopecia; or elevated free testosterone / free androgen index)
 3. Polycystic ovarian morphology on USS (≥20 follicles per ovary on modern probes, or ovarian volume >10 mL)
 
-Exclude other causes of hyperandrogenism before diagnosing PCOS: congenital adrenal hyperplasia (17-OHP), Cushing's syndrome (clinical features, UFC), androgen-secreting tumour (testosterone >5 nmol/L — investigate urgently), hyperprolactinaemia, thyroid dysfunction.
+Exclude other causes of hyperandrogenism before diagnosing PCOS: congenital adrenal hyperplasia (17-OHP), Cushing's syndrome (clinical features, UFC), androgen-secreting tumour (testosterone >144 ng/dL — investigate urgently for tumour), hyperprolactinaemia, thyroid dysfunction.
 
 **Symptoms:**
 - **Menstrual irregularity** — oligomenorrhoea, amenorrhoea, or (less commonly) regular cycles with anovulation

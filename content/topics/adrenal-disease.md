@@ -1,11 +1,12 @@
 ---
 title: Adrenal Disease
 system: Endocrinology
-scenario: "A 38-year-old woman is referred with a two-year history of weight gain predominantly around the abdomen and face, easy bruising, proximal muscle weakness, and mood changes. She has developed purple striae on her abdomen. Her blood pressure is 162/98. Fasting glucose is 8.4 mmol/L. She is not taking any corticosteroids."
+scenario: "A 38-year-old woman is referred with a two-year history of weight gain predominantly around the abdomen and face, easy bruising, proximal muscle weakness, and mood changes. She has developed purple striae on her abdomen. Her blood pressure is 162/98. Fasting glucose is 151 mg/dL. She is not taking any corticosteroids."
 sources:
   - Endocrine Society Cushing's Guidelines 2022
   - Endocrine Society Addison's Guidelines
   - NICE CG101 (Primary Aldosteronism)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -42,7 +43,7 @@ The clinical features of Cushing's reflect the catabolic, immunosuppressive, and
 **Common but not specific:**
 - Central obesity, moon face (rounded), buffalo hump (dorsal fat pad), supraclavicular fat pads
 - Hypertension (~80%)
-- Glucose intolerance or diabetes (~60%)
+- Glucose intolerance or diabetes (~60%) — fasting glucose >100 mg/dL or frank T2DM
 - Hirsutism, acne, menstrual irregularity (androgen excess from adrenal)
 - Depression, cognitive impairment, psychosis
 

@@ -1,11 +1,12 @@
 ---
 title: Pituitary Disorders and Calcium Metabolism
 system: Endocrinology
-scenario: "A 42-year-old man presents with headaches, progressive visual field loss, and erectile dysfunction. He has noticed his shoe size has increased over the past five years and his ring no longer fits. His hands and feet appear large and spade-like, and his facial features are coarser. Fasting glucose is 9.2 mmol/L. IGF-1 is markedly elevated. MRI shows a 2.4cm pituitary macroadenoma."
+scenario: "A 42-year-old man presents with headaches, progressive visual field loss, and erectile dysfunction. He has noticed his shoe size has increased over the past five years and his ring no longer fits. His hands and feet appear large and spade-like, and his facial features are coarser. Fasting glucose is 166 mg/dL. IGF-1 is markedly elevated. MRI shows a 2.4cm pituitary macroadenoma."
 sources:
   - Endocrine Society Acromegaly Guidelines 2014
   - Endocrine Society Pituitary Incidentaloma Guidelines
   - NICE CG141 (Primary Hyperparathyroidism)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -126,7 +127,7 @@ Deficiency of one or more pituitary hormones. Causes: pituitary adenoma (or its 
 
 **Familial hypocalciuric hypercalcaemia (FHH)**: Rare mimic of PHPT. Inactivating mutations in the calcium-sensing receptor → hypercalcaemia with low urinary calcium. **Calcium:creatinine clearance ratio (CCCR) <0.01 suggests FHH** — important to exclude before parathyroid surgery. No treatment required.
 
-**Management**: Parathyroidectomy — indicated for: symptomatic PHPT, serum calcium >0.25 mmol/L above upper limit, age <50, eGFR <60, nephrolithiasis or nephrocalcinosis, T-score <–2.5 on DXA. Localise with **sestamibi scan** (nuclear medicine — identifies adenoma) and USS neck.
+**Management**: Parathyroidectomy — indicated for: symptomatic PHPT, serum calcium >1 mg/dL above the upper limit of normal, age <50, eGFR <60, nephrolithiasis or nephrocalcinosis, T-score <–2.5 on DXA. Localise with **sestamibi scan** (nuclear medicine — identifies adenoma) and USS neck.
 
 Medical management (for those not undergoing surgery): Cinacalcet (calcimimetic — activates CaSR → reduces PTH); annual calcium monitoring.
 
@@ -164,7 +165,7 @@ Most commonly iatrogenic — **post-thyroidectomy** or post-parathyroidectomy. A
 - **Hypopituitarism**: secondary adrenal insufficiency (most dangerous — can cause crisis), secondary hypothyroidism, hypogonadism, diabetes insipidus
 - **Untreated acromegaly**: cardiomyopathy (leading cause of death), sleep apnoea, diabetes, colon polyps and malignancy, arthropathy
 - **Hyperprolactinaemia**: infertility, osteoporosis from oestrogen/testosterone suppression, visual field loss from macroadenoma
-- **Hypercalcaemia crisis (Ca >3.5 mmol/L)**: confusion, coma, AKI, pancreatitis, cardiac arrhythmias
+- **Hypercalcaemia crisis (Ca >14 mg/dL)**: confusion, coma, AKI, pancreatitis, cardiac arrhythmias
 - **Hypoparathyroidism post-thyroidectomy**: tetany, laryngospasm, seizures from hypocalcaemia — may be permanent
 
 ## Clinical Insight

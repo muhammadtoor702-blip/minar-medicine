@@ -6,6 +6,7 @@ sources:
   - ATA Hyperthyroidism Guidelines 2016
   - ATA Hypothyroidism Guidelines 2012
   - ETA Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
