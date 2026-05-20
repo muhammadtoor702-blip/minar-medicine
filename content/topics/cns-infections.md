@@ -126,3 +126,30 @@ Give antibiotics before CT. Bacterial meningitis kills within hours — the orga
 Herpes encephalitis mimics acute psychiatric disease in its early stages. Personality change, aggression, bizarre behaviour, and disinhibition in a febrile patient with altered consciousness should prompt immediate LP and empirical IV aciclovir. By the time MRI shows classic temporal lobe changes, significant irreversible damage has usually occurred. The drug is safe, cheap, and renal-dose adjustable — the risk of withholding it while awaiting confirmation far exceeds the risk of giving it.
 
 Anti-NMDAR encephalitis is now more common than herpes encephalitis as a cause of encephalitis in young women. The psychiatric prodrome is so prominent — psychosis, catatonia, emotional lability — that patients are frequently admitted to psychiatric wards before the neurological features (movement disorders, autonomic instability, reduced consciousness) become apparent. Send anti-NMDAR antibodies in the serum and CSF of any young woman with a new psychiatric presentation combined with any neurological feature.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 19-year-old university student. 12 hours of severe headache, fever, and vomiting with progressive confusion. Well yesterday. Temp 39.8°C, HR 128, BP 94/58, GCS 11. Neck stiffness. Non-blanching purpuric rash spreading across trunk and legs.
+
+**Step 1 — Recognise the emergency:** A **non-blanching purpuric rash** in a febrile patient with meningism = **meningococcal disease** (septicaemia ± meningitis) until proven otherwise. This is the most important skin sign in acute medicine. Every other diagnosis waits.
+
+**Step 2 — Give antibiotics NOW — this is a time-critical emergency:** Do not wait for CT. Do not wait for LP. Do not wait for blood cultures if they will delay antibiotics.
+- **IV ceftriaxone 2 g immediately** (or benzylpenicillin if ceftriaxone unavailable)
+- Time to antibiotics is the primary determinant of outcome — every 30-minute delay increases mortality
+- Blood cultures take 60 seconds to draw — draw them on the same line before the antibiotic bolus if possible
+
+**Step 3 — Dexamethasone with or just before the first antibiotic dose:**
+- **Dexamethasone 0.15 mg/kg IV QDS × 4 days** — reduces hearing loss and neurological complications in bacterial meningitis (primarily *S. pneumoniae*)
+- Must be given with or before the first antibiotic dose — once the bacteria start lysing, the window closes
+- Do not give if: TB meningitis suspected, or immunocompromised
+
+**Step 4 — Resuscitate for septic shock:** BP 94/58 = septic shock.
+- IV crystalloid bolus 30 mL/kg
+- If BP remains low → noradrenaline via CVC
+- **ICU** — this patient has septic shock + GCS 11; will likely need ITU monitoring and possible intubation
+
+**Step 5 — Contact prophylaxis and public health notification:** Notify the health protection team. All **household contacts and intimate contacts** receive **ciprofloxacin 500 mg PO stat** (or rifampicin 600 mg BD × 2 days) to eliminate pharyngeal carriage. University hall contact tracing may be required.
+
+**Exam trigger:** *Non-blanching rash + fever + meningism in a young person* → meningococcal disease. Give ceftriaxone + dexamethasone before CT, before LP, before everything except IV access and blood cultures. The distractor is CT/LP before antibiotics — this sequence kills patients.

@@ -174,3 +174,29 @@ The timing of haematuria relative to infection is diagnostically critical and mu
 Anti-PLA2R antibody testing has transformed the management of membranous nephropathy. A high titre at diagnosis predicts progression and may guide earlier treatment decisions. A falling titre during treatment predicts immunological remission before protein excretion normalises — the kidney's structural recovery lags weeks behind the immunological response. Retreatment decisions should be guided by titre trends, not just proteinuria, to avoid both over-treatment and under-treatment.
 
 The PEXIVAS trial permanently changed practice in AAV: plasma exchange, once considered standard of care, did not prevent ESRD or death. This is the opposite of anti-GBM disease, where plasmapheresis is essential. The two conditions can coexist (dual-positive ANCA + anti-GBM disease occurs in ~10%) — in this situation, always perform plasmapheresis regardless of the ANCA result, because the anti-GBM component drives the catastrophic renal injury.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 7-year-old boy with 1 week of periorbital and leg swelling. No haematuria. BP 90/58 mmHg (low). Urine: 4+ protein, no blood. Albumin 1.2 g/dL, cholesterol 352 mg/dL, frothy urine.
+
+**Step 1 — Diagnose nephrotic syndrome:** The classic tetrad is present:
+- **Heavy proteinuria** (4+ on dipstick) ✓
+- **Hypoalbuminaemia** (albumin 1.2 g/dL — normal >3.5 g/dL) ✓
+- **Oedema** (periorbital + legs) ✓ — periorbital oedema in the morning is classic because fluid shifts when supine
+- **Hyperlipidaemia** (cholesterol 352 mg/dL) ✓ — liver compensatory lipoprotein synthesis
+This is **nephrotic syndrome**. The **absence of haematuria and hypertension** (BP 90/58 is low) is the critical distinction from nephritic syndrome.
+
+**Step 2 — Identify the cause in a child:** Age 7 + no haematuria + no hypertension + preserved GFR = **minimal change disease (MCD)** until proven otherwise. MCD accounts for ~90% of nephrotic syndrome in children aged 1–12. The filtration barrier (podocyte foot process fusion) fails selectively for proteins — haematuria does not occur because the GBM remains structurally intact.
+
+**Step 3 — No renal biopsy needed:** Children with typical MCD features (age 1–12, no haematuria, no hypertension, normal complement and ANCA) are treated empirically. **Biopsy only if**: atypical age (<1 or >12), haematuria, hypertension, reduced GFR, steroid resistance, or frequent relapses.
+
+**Step 4 — Treatment:** Prednisolone 60 mg/m²/day (max 80 mg) as a single morning dose for 4–6 weeks, then taper. ~90% of MCD in children responds within 2 weeks. Remission defined as urine protein trace or negative for 3 consecutive days.
+
+**Step 5 — Manage the acute oedema and risks:**
+- **Diuretics cautiously** — albumin 1.2 g/dL means the intravascular compartment is depleted; aggressive diuresis causes AKI and thrombosis despite oedema
+- **Anticoagulation** if albumin <2.5 g/dL — urinary loss of antithrombin III + protein C/S creates a hypercoagulable state (renal vein thrombosis risk)
+- **Pneumococcal vaccine** — urinary immunoglobulin loss increases susceptibility to encapsulated organisms; *S. pneumoniae* peritonitis is a feared complication in nephrotic children on steroids
+
+**Exam trigger:** *Child + periorbital oedema + heavy proteinuria + no haematuria + normal BP* → MCD. Treat with steroids without biopsy. The distractor is ordering a biopsy in a child with classic MCD presentation — that is not the standard of care in this age group with typical features.

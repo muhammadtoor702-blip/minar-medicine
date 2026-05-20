@@ -222,4 +222,34 @@ Thiazide diuretics and SSRIs are the two most common drug causes of SIADH — an
 
 Osmotic demyelination is irreversible once established. The only treatment is prevention — correct sodium at ≤10 mEq/L per 24 hours without exception. If overcorrection occurs, act within 24 hours: desmopressin 2 mcg IV every 8 hours + 5% dextrose infusion to re-lower the sodium back toward the starting point can abort demyelination. After 24 hours, this window closes.
 
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 74-year-old woman on thiazide diuretics for hypertension. Found confused by her daughter after 2 days of nausea and poor intake. Na⁺ 118 mEq/L, K⁺ 3.1 mEq/L. Urine Na⁺ 42 mEq/L, urine osmolality 380 mOsm/kg. Clinically euvolaemic.
+
+**Step 1 — Classify the hyponatraemia:**
+- Na⁺ 118 = **severe** hyponatraemia (<125 mEq/L)
+- Euvolaemic + urine Na⁺ >40 mEq/L + urine osmolality >100 mOsm/kg = urine is inappropriately concentrated despite low plasma osmolality = **SIADH pattern**
+- Most likely cause: **thiazide diuretic** — the most common drug cause of SIADH-like hyponatraemia. Thiazides block NaCl reabsorption in the distal tubule while impairing urinary dilution capacity, causing free water retention. SSRIs are the other major culprit.
+- K⁺ 3.1 (hypokalaemia) + hyponatraemia = thiazide signature
+
+**Step 2 — Determine if symptomatic:** Confusion = **symptomatic hyponatraemia**. This changes management from "slow correction" to "act now."
+
+**Step 3 — Immediate treatment for symptomatic severe hyponatraemia:**
+- **Stop the thiazide** — remove the cause
+- **3% hypertonic saline 150 mL IV over 20 minutes** — to acutely raise Na⁺ and relieve cerebral oedema causing the confusion
+- Recheck Na⁺ after 20 minutes; repeat once more if still confused or deteriorating
+- Target: raise Na⁺ by **4–6 mEq/L in the first 1–2 hours** to relieve symptoms
+- **Never exceed 10 mEq/L in 24 hours** — osmotic demyelination syndrome (central pontine myelinolysis) causes irreversible quadriplegia and is precipitated by overcorrection
+
+**Step 4 — Ongoing monitoring:**
+- Na⁺ every 1–2 hours initially
+- If Na⁺ rises faster than 10 mEq/L/24h: give desmopressin 2 µg IV + 5% dextrose to slow correction
+- Once confusion resolves: switch to oral fluid restriction + dietary salt — no further hypertonic saline needed
+
+**Step 5 — Long-term:** Thiazide is the cause — switch to a loop diuretic (furosemide) for BP control if still needed. Thiazides must not be re-prescribed in this patient.
+
+**Exam trigger:** *Elderly woman on thiazide + confusion + Na⁺ 118 + euvolaemic* → thiazide-induced hyponatraemia. Symptomatic → 3% saline to raise Na⁺ by 4–6 mEq/L, then slow. The distractor is correcting Na⁺ too rapidly — osmotic demyelination is a greater risk than the hyponatraemia itself once the acute symptoms are relieved.
+
 Never bolus potassium intravenously. Concentrated KCl delivered as a bolus causes immediate cardiac arrest by directly depolarising the cardiac membrane. Potassium must always be diluted and given as a slow infusion with continuous cardiac monitoring. This is one of the most consequential drug errors in hospital medicine — it appears on never-event lists internationally and still occurs.
