@@ -6,6 +6,7 @@ sources:
   - NICE NG187 (Osteoporosis)
   - NICE CG59 (Osteoporosis Fragility Fracture)
   - BSR Soft Tissue Rheumatism Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

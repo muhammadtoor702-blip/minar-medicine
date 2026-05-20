@@ -5,6 +5,7 @@ scenario: "A 26-year-old man presents with a 3-year history of low back pain and
 sources:
   - ASAS/EULAR Axial SpA Recommendations 2022
   - NICE NG65 (Spondyloarthritis)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

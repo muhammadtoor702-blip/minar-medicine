@@ -5,6 +5,7 @@ scenario: "A 38-year-old woman presents with a 4-month history of symmetrical sw
 sources:
   - NICE NG100 (Rheumatoid Arthritis)
   - EULAR RA Management Recommendations 2022
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

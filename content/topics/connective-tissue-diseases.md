@@ -5,6 +5,7 @@ scenario: "A 29-year-old woman presents with a 6-month history of facial rash ex
 sources:
   - EULAR SLE Recommendations 2023
   - BSR Lupus Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

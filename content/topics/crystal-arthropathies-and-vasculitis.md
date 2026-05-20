@@ -1,11 +1,12 @@
 ---
 title: Crystal Arthropathies and Vasculitis
 system: Rheumatology
-scenario: "A 58-year-old man with hypertension, CKD stage 3, and a BMI of 33 presents with a 24-hour history of excruciating pain, swelling, and erythema of his right first MTP joint. He cannot bear the weight of a bedsheet. He has been on bendroflumethiazide for 10 years and drinks 30 units of alcohol weekly. Serum urate is 580 µmol/L."
+scenario: "A 58-year-old man with hypertension, CKD stage 3, and a BMI of 33 presents with a 24-hour history of excruciating pain, swelling, and erythema of his right first MTP joint. He cannot bear the weight of a bedsheet. He has been on bendroflumethiazide for 10 years and drinks 30 units of alcohol weekly. Serum urate is 9.7 mg/dL."
 sources:
   - BSR Gout Guidelines 2022
   - EULAR Crystal Arthropathy Recommendations
   - EULAR/ACR Vasculitis Guidelines 2022
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -18,7 +19,7 @@ Crystal arthropathies result from the deposition of crystals in joint spaces and
 
 ### Pathophysiology
 
-Gout results from hyperuricaemia (serum urate >360 µmol/L in women, >420 µmol/L in men) leading to monosodium urate (MSU) crystal deposition in joints, tendons, and soft tissues. Urate is the end-product of purine metabolism — humans lack uricase, the enzyme that would further metabolise urate to the more soluble allantoin (present in most other mammals).
+Gout results from hyperuricaemia (serum urate >6.0 mg/dL in women, >7.0 mg/dL in men) leading to monosodium urate (MSU) crystal deposition in joints, tendons, and soft tissues. Urate is the end-product of purine metabolism — humans lack uricase, the enzyme that would further metabolise urate to the more soluble allantoin (present in most other mammals).
 
 **Causes of hyperuricaemia:**
 
@@ -66,7 +67,7 @@ Other commonly affected joints: ankle, midfoot, knee, wrist, small hand joints. 
 
 Indicated after: ≥2 attacks per year, tophi, renal stone, urate nephropathy, or any attack in CKD stage ≥2 or on diuretics.
 
-- **Allopurinol**: First-line. Xanthine oxidase inhibitor — reduces uric acid production. Start at 50–100 mg daily; titrate monthly (maximum 900 mg). Target serum urate <360 µmol/L (or <300 µmol/L in tophaceous gout). Screen for **HLA-B*5801** before starting in South/East Asian populations (severe hypersensitivity — SJS/TEN risk).
+- **Allopurinol**: First-line. Xanthine oxidase inhibitor — reduces uric acid production. Start at 50–100 mg daily; titrate monthly (maximum 900 mg). Target serum urate <6.0 mg/dL (or <5.0 mg/dL in tophaceous gout). Screen for **HLA-B*5801** before starting in South/East Asian populations (severe hypersensitivity — SJS/TEN risk).
 - **Febuxostat**: More potent XO inhibitor. Second-line (cardiovascular safety concerns — FAST trial; caution in established CVD).
 - **Prophylaxis during ULT initiation**: Start colchicine 500 µg OD or naproxen for 6 months — mobilised crystals cause acute attacks during the initial urate-lowering period.
 - **Lifestyle**: Reduce alcohol, avoid purine-rich foods, increase hydration, switch thiazide to an alternative antihypertensive. **Losartan** is uricosuric — the antihypertensive of choice in gout with hypertension.
@@ -130,7 +131,7 @@ Small vessel vasculitis with pauci-immune necrotising inflammation (minimal immu
 **Management (AAV)**:
 - **Induction**: Rituximab + high-dose prednisolone — now preferred over cyclophosphamide for most patients (RAVE and RITUXVAS trials). Cyclophosphamide + prednisolone — alternative, particularly for severe renal disease
 - **Maintenance**: Rituximab 6-monthly or azathioprine — for 24 months minimum
-- **Plasma exchange**: For severe renal failure (creatinine >500 µmol/L) or pulmonary haemorrhage — evidence remains debated (PEXIVAS trial: plasma exchange did not reduce death/ESRD)
+- **Plasma exchange**: For severe renal failure (creatinine >5.7 mg/dL) or pulmonary haemorrhage — evidence remains debated (PEXIVAS trial: plasma exchange did not reduce death/ESRD)
 - **Prophylaxis**: Co-trimoxazole — prevents PCP during immunosuppression; reduces relapse in GPA (trimethoprim reduces nasal *Staphylococcus* carriage — a relapse trigger)
 ## Complications
 
