@@ -5,6 +5,8 @@ scenario: "A 67-year-old man with hypertension and a 40 pack-year smoking histor
 sources:
   - ESC Aortic Disease Guidelines 2014
   - ACC/AHA Aortic Disease Guidelines 2022
+  - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

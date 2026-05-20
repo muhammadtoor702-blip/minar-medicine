@@ -5,6 +5,7 @@ scenario: "A 24-year-old competitive footballer collapses during a match and is 
 sources:
   - ESC Cardiomyopathy Guidelines 2023
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

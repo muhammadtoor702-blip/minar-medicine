@@ -6,6 +6,7 @@ sources:
   - NICE NG136
   - ACC/AHA HTN Guidelines 2017
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

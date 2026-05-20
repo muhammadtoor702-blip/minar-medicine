@@ -5,6 +5,7 @@ scenario: "A 75-year-old retired teacher presents with 18 months of progressive 
 sources:
   - ESC Valvular Heart Disease Guidelines 2021
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

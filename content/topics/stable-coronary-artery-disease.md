@@ -6,6 +6,7 @@ sources:
   - ESC Chronic Coronary Syndrome Guidelines 2019
   - NICE NG185
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

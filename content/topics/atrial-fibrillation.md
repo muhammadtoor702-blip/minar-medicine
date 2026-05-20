@@ -6,6 +6,7 @@ sources:
   - ESC AF Guidelines 2020
   - NICE NG196
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

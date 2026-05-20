@@ -6,6 +6,7 @@ sources:
   - ESC Dyslipidaemia Guidelines 2019
   - NICE NG238
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

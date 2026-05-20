@@ -5,6 +5,7 @@ scenario: "A 34-year-old IV drug user presents with three weeks of fever, night 
 sources:
   - ESC Infective Endocarditis Guidelines 2023
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

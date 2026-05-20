@@ -6,6 +6,7 @@ sources:
   - ACC/AHA Heart Failure Guidelines 2022
   - NICE NG106
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

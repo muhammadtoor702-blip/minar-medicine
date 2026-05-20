@@ -6,6 +6,7 @@ sources:
   - ESC STEMI Guidelines 2017
   - ACC/AHA ACS Guidelines 2022
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

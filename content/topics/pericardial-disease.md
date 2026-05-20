@@ -5,6 +5,7 @@ scenario: "A 22-year-old medical student presents with two days of sharp central
 sources:
   - ESC Pericardial Disease Guidelines 2015
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
