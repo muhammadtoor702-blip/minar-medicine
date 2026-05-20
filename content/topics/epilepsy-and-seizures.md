@@ -138,3 +138,36 @@ Lateral tongue biting is pathognomonic of a generalised tonic-clonic seizure —
 Valproate and women of childbearing age is one of the highest-profile drug safety issues in neurology. Every woman of childbearing age on valproate should be on the PPP, using effective contraception, and reviewed annually. If a woman on valproate becomes pregnant unexpectedly, do not stop it abruptly (seizure risk), but refer urgently to a specialist — folic acid 5 mg daily, detailed foetal anomaly scanning, and a joint decision about continued therapy.
 
 The postictal state tells you as much as the seizure itself. A patient who was witnessed to "black out" and shakes briefly is often labelled as having a seizure when they had a syncopal episode with convulsive movements. A patient who recovers fully in 30 seconds had a syncope. A patient who is confused and somnolent for 20–30 minutes had a seizure. The postictal period is the single most discriminating feature.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 24-year-old woman, first seizure in a supermarket. Witnessed: tonic phase → clonic phase, lasted 90 seconds, unresponsive throughout. Tongue bite, incontinence of urine, post-ictal confusion and combativeness. No prior medical history.
+
+**Step 1 — Confirm it was a seizure, not syncope:**
+- **Lateral tongue bite** = pathognomonic of generalised tonic-clonic seizure (jaw clamps during tonic phase)
+- **Post-ictal confusion lasting >10–20 minutes** = seizure (syncope resolves within 30–60 seconds)
+- Urinary incontinence = common in GTCS
+- Tonic-then-clonic sequence = classic GTCS
+This is unambiguously a seizure.
+
+**Step 2 — Immediate priorities:** Check blood glucose (hypoglycaemia mimics and provokes seizures), secure IV access, correct any electrolyte abnormalities. The seizure has stopped — this is not status epilepticus; no emergency antiseizure medication needed now.
+
+**Step 3 — Investigate the cause of the first seizure:**
+- **Bloods**: glucose, Na⁺, Ca²⁺, Mg²⁺, FBC, LFTs, renal function (structural metabolic causes)
+- **MRI brain** (with and without gadolinium) — preferred over CT for detecting structural lesions (hippocampal sclerosis, cortical dysplasia, tumour)
+- **EEG** — ideally within 24–48 hours; assists with syndrome classification and recurrence risk
+
+**Step 4 — Should antiseizure medication be started after a first seizure?**
+- Risk of recurrence after first unprovoked seizure: ~30–50% overall
+- If structural or metabolic cause found → treat the cause; consider early ASM
+- If no cause found (idiopathic) → **defer treatment**, discuss with patient (individual decision based on lifestyle risk, job, driving)
+- First seizure in a patient with an abnormal EEG or brain MRI lesion → earlier treatment appropriate
+
+**Step 5 — Driving — the immediate and non-optional action:**
+- This patient **must not drive for 12 months** from date of seizure
+- DVLA notification is **the patient's legal responsibility** — you must inform them of this explicitly
+- If the patient drives before the 12-month period: you have an obligation to report to DVLA if they refuse
+
+**Exam trigger:** *First tonic-clonic seizure + lateral tongue bite + prolonged post-ictal confusion* → confirmed seizure; investigate before starting antiseizure medication. The distractor is starting levetiracetam immediately — a first seizure does not automatically require medication. The mandatory action is: stop driving, notify DVLA.

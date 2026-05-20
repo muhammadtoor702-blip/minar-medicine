@@ -189,3 +189,34 @@ Prophylaxis is **not** recommended for patients with native valve disease, bicus
 New conduction abnormality in a patient with IE is a surgical emergency, not a waiting sign. It indicates perivalvular abscess has extended to the AV node or interventricular septum. Antibiotics alone will not sterilise an abscess, and complete heart block can develop suddenly. These patients need urgent surgical referral the same day the ECG change is recognised.
 
 The blood culture is sacred. Three separate sets before antibiotics is a standard that saves lives. A patient who has had empirical antibiotics started before cultures are drawn may complete six weeks of IV antibiotics and never know the causative organism — leaving them with an untreated residual infection, a risk of relapse, and no guide for oral step-down or oral prophylaxis. If a colleague has already started antibiotics, tell the laboratory immediately and request extended incubation.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 34-year-old IV drug user, 3 weeks of fever, night sweats, malaise. New pansystolic murmur at the lower left sternal border. Blood cultures: *S. aureus* on 2 separate sets. Splinter haemorrhages (painless) + tender fingertip nodules (Osler's nodes).
+
+**Step 1 — Confirm IE using Duke criteria:**
+- **Major criterion 1**: Positive blood cultures — *S. aureus* (a typical IE organism) from 2 separate sets ✓
+- **Major criterion 2**: New valvular abnormality — new pansystolic murmur at LLSB (tricuspid regurgitation in an IVDU) ✓
+- 2 major criteria = **definite infective endocarditis**
+
+**Step 2 — Identify the valve and explain the murmur:** Pansystolic murmur at the **lower left sternal border** in an IV drug user = **tricuspid valve endocarditis**. IV injection introduces organisms directly into the venous system → right-sided seeding. Right-sided IE causes **septic pulmonary emboli** — expect bilateral nodular opacities on CXR.
+
+**Step 3 — Peripheral stigmata:**
+- **Splinter haemorrhages** (painless, under nails) = microemboli
+- **Osler's nodes** (tender nodules on fingertips) = immune complex deposition + microemboli
+- Janeway lesions (painless, palms/soles) = also microemboli; Roth spots (pale-centred retinal haemorrhages)
+
+**Step 4 — Get echocardiography:** TTE first; if non-diagnostic, **TOE** (transoesophageal echo). Identifies vegetation size, valvular function, perivalvular abscess. Right-sided vegetations are often well seen on TTE.
+
+**Step 5 — Antibiotic choice — this is critical:**
+- *S. aureus*, blood cultures pending sensitivity → **assume MSSA until proven otherwise**
+- For MSSA native valve IE: **flucloxacillin (nafcillin) IV for 4–6 weeks**
+- **Do NOT use vancomycin if MSSA is confirmed** — vancomycin is inferior to flucloxacillin for MSSA and associated with worse outcomes
+- If MRSA confirmed → vancomycin ± rifampicin
+- Get ID/microbiology input on day 1
+
+**Step 6 — Monitor for surgical indications:** Daily ECG (new AV block = perivalvular abscess → surgical emergency same day). Persistent fever at 7–10 days despite appropriate antibiotics = uncontrolled infection → urgent surgical review.
+
+**Exam trigger:** *IVDU + right-sided IE + S. aureus* → flucloxacillin if MSSA, not vancomycin. The distractor is vancomycin for all S. aureus IE — MSSA must receive flucloxacillin.

@@ -162,3 +162,38 @@ Always exclude *C. difficile* before escalating immunosuppression. Giving IV ste
 PSC follows an independent course from UC — the bowel can be in complete remission while PSC progresses silently. Any UC patient with an unexplained elevated ALP requires MRCP. The risk of cholangiocarcinoma in PSC makes this a surveillance and management priority that cannot be deferred.
 
 Toxic megacolon is a radiological diagnosis. Every patient admitted with acute severe colitis requires a daily AXR. A patient who looks clinically stable — even improving — may have a colon hours from perforation. The radiological finding of transverse colon >6 cm mandates urgent surgical review regardless of clinical appearance.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 24-year-old woman with 4 months of bloody diarrhoea up to 8 times daily, cramping lower abdominal pain, urgency, and tenesmus. 7 kg weight loss. Painful red nodule on the shin (erythema nodosum) + mouth ulcer. CRP 74 mg/L, Hb 9.6 g/dL, albumin 26 g/L. Colonoscopy: continuous mucosal inflammation from rectum to splenic flexure, crypt abscesses on biopsy.
+
+**Step 1 — Diagnose UC with confidence:** The colonoscopy findings are diagnostic:
+- **Continuous inflammation starting from the rectum** (never a rectal-sparing pattern)
+- **Up to the splenic flexure** = left-sided/extended UC
+- **Crypt abscesses on histology** = characteristic but not exclusive to UC
+This is **not Crohn's disease** — Crohn's shows skip lesions, transmural inflammation, and often spares the rectum.
+
+**Step 2 — Classify the extra-intestinal manifestations:**
+- **Erythema nodosum** (painful red nodule on shin) = parallels UC disease activity — treat the colitis and it usually resolves
+- **Aphthous mouth ulcers** = also UC-related, activity-dependent
+These are the two EIMs that track colitis activity. PSC, pyoderma gangrenosum, and ankylosing spondylitis follow independent courses.
+
+**Step 3 — Assess severity (Truelove and Witts):**
+- Stool frequency >6/day with blood = severe criterion
+- Hb 9.6 g/dL + albumin 26 g/L + CRP 74 mg/L + tachycardia = **systemic toxicity**
+- This is **acute severe UC** — requires hospital admission
+
+**Step 4 — Acute severe UC management (Oxford regimen):**
+- Admit; daily AXR (exclude toxic megacolon — transverse colon >6 cm)
+- **IV hydrocortisone 100 mg every 6 hours** — the cornerstone of acute severe UC treatment
+- IV fluids + correct anaemia (Hb 9.6 g/dL) + nutritional support
+- Stool sample for *C. difficile* **before** starting steroids
+- VTE prophylaxis (UC is prothrombotic; IBD + hospital admission = DVT risk)
+
+**Step 5 — Reassess at 72 hours (the pivotal decision):** If not responding (CRP still high, stool frequency unchanged):
+- **Rescue therapy**: ciclosporin IV or infliximab — avoid proceeding to colectomy without trying rescue
+- If rescue therapy fails or patient deteriorates: **urgent subtotal colectomy**
+
+**Exam trigger:** *Bloody diarrhoea + continuous rectal inflammation + crypt abscesses* → UC, not Crohn's. *>6 bloody stools/day + systemic upset* → acute severe UC → IV hydrocortisone; check for *C. diff* first, daily AXR.

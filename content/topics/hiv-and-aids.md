@@ -146,3 +146,36 @@ Late diagnosis is the greatest driver of HIV mortality and morbidity in the UK. 
 IRIS following ART initiation in patients with active cryptococcal meningitis is a genuine risk — the reconstituting immune system can cause fatal raised intracranial pressure. Current guidance recommends delaying ART for 4–6 weeks after starting treatment for cryptococcal meningitis, once the patient is clinically stable, to reduce IRIS risk. This is one of the few scenarios where immediate ART is not recommended.
 
 U=U (Undetectable = Untransmittable) is one of the most transformative concepts in infectious disease. A person with HIV on effective ART with a consistently undetectable viral load has zero risk of transmitting HIV sexually. This message is essential for reducing stigma, promoting testing, and supporting treatment adherence — and it is now supported by the highest level of evidence (PARTNER and HPTN 052 studies).
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 34-year-old man with 4 weeks of fever, night sweats, 8 kg weight loss, and non-productive cough. White plaques on tongue that **bleed when scraped**. CD4 62 cells/µL, viral load 340,000 copies/mL. CXR: bilateral diffuse ground-glass infiltrates.
+
+**Step 1 — Diagnose AIDS and identify the infections:**
+- CD4 **62 cells/µL** = **AIDS** (CD4 <200 cells/µL = AIDS-defining)
+- White plaques that bleed when scraped = **oral candidiasis** (distinguishes from oral hairy leukoplakia, which does not bleed or scrape off and is caused by EBV)
+- Bilateral ground-glass infiltrates + non-productive cough + CD4 <200 = **Pneumocystis jirovecii pneumonia (PCP)** until proven otherwise
+
+**Step 2 — Confirm PCP:**
+- ABG: PaO₂ characteristically disproportionately low; calculate A-a gradient (elevated)
+- **LDH** — elevated in PCP; correlates with severity (LDH >500 = severe disease)
+- **Bronchoscopy + BAL** for Gomori methenamine silver (GMS) stain — confirms *P. jirovecii* cysts. High-sensitivity PCR on BAL increasingly used.
+- β-D-glucan: elevated in PCP; useful if BAL not immediately available
+
+**Step 3 — Treat PCP immediately:**
+- **High-dose co-trimoxazole (TMP-SMX)** — IV if severe (PaO₂ <70 mmHg), oral if mild-moderate. Standard dose: 15–20 mg/kg/day (TMP component) in 3–4 divided doses × 21 days
+- **Add prednisolone 40 mg BD** if PaO₂ <70 mmHg or A-a gradient >35 mmHg — reduces respiratory failure and mortality. Start within 24–72 hours of antibiotics.
+- Alternative if TMP-SMX intolerant: IV pentamidine
+
+**Step 4 — When to start ART:** Not immediately.
+- For **PCP**: start ART **within 2 weeks** of starting PCP treatment (ACTG 5164 trial) — early ART reduces mortality; but unlike cryptococcal meningitis, the IRIS risk is lower with PCP
+- For **cryptococcal meningitis**: delay ART 4–6 weeks (IRIS causes fatal raised ICP)
+
+**Step 5 — Ongoing prophylaxis (once stable on ART):**
+- Continue co-trimoxazole prophylaxis until CD4 >200 cells/µL for ≥3 months
+- CD4 <100: also prophylaxis for toxoplasmosis (co-trimoxazole covers both)
+- CD4 <50: MAC prophylaxis (azithromycin 1250 mg weekly)
+
+**Exam trigger:** *CD4 <200 + non-productive cough + bilateral ground-glass infiltrates* → PCP. *White tongue plaques that bleed when scraped* → candidiasis (not leukoplakia). Co-trimoxazole + steroids if PaO₂ <70 mmHg. Do not start ART simultaneously with PCP treatment — wait 2 weeks.

@@ -141,3 +141,31 @@ Legionella is reliably missed unless actively tested for. The clinical clues —
 A 6-week follow-up CXR is not optional in patients over 50 or smokers. Resolution of consolidation typically takes 4–8 weeks. An opacity that persists beyond this raises the real possibility of an obstructing endobronchial lesion — malignancy or foreign body — and requires urgent CT and bronchoscopy. Treating "recurrent pneumonia" in the same lobe without looking for an obstructing cause is a common diagnostic miss.
 
 *Streptococcus bovis* (*S. gallolyticus*) bacteraemia has a well-established association with colorectal carcinoma, even without bowel symptoms. Any patient with *S. bovis* bacteraemia or endocarditis requires colonoscopy — arrange before discharge or within 3–6 months of completing treatment.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 51-year-old man with three days of fever, rigors, rust-coloured sputum, and right-sided pleuritic chest pain. Temp 39.1°C, RR 26, HR 108, BP 114/74, SpO₂ 92%. Right base: dull to percussion, bronchial breathing, increased vocal resonance. CXR: right lower lobe consolidation.
+
+**Step 1 — Confirm the diagnosis:** Rusty (rust-coloured) sputum + lobar consolidation + bronchial breathing = **classic Streptococcus pneumoniae pneumonia**. The consolidation on examination (dullness, bronchial breathing, and increased TVF — all three together) confirms lobar pneumonia rather than bronchopneumonia or pleural effusion.
+
+**Step 2 — Apply CURB-65 for severity and admission:**
+- **C**onfusion: not described = 0
+- **U**rea >19 mg/dL: not given — check urgently (critical for score)
+- **R**R ≥30: RR 26 = 0 (below threshold)
+- **B**P <90 systolic or <60 diastolic: BP 114/74 = 0
+- **A**ge ≥65: age 51 = 0
+- Minimum score with available data: **0–1**. But SpO₂ 92% is a strong additional reason to admit regardless of CURB-65 — hypoxia overrides low score.
+
+**Step 3 — Antibiotic selection for moderate CAP:**
+- CURB-65 0–1 = low severity; SpO₂ 92% + rigors = moderate in clinical context
+- **Amoxicillin 500 mg–1 g PO TDS** covers *S. pneumoniae*
+- Add **clarithromycin 500 mg BD** to cover atypicals (*Mycoplasma*, *Legionella*, *Chlamydophila*) — dual therapy recommended for moderate CAP
+- IV route if unable to tolerate orally or rapidly worsening; switch to oral when apyrexial and tolerating food
+
+**Step 4 — Supportive care:** Oxygen to maintain SpO₂ 94–98% (unlike COPD). IV fluids if dehydrated. Analgesia for pleuritic pain. Physiotherapy not routinely needed acutely.
+
+**Step 5 — Mandatory follow-up:** Age 51 + consolidation → **6-week follow-up CXR**. A persistent opacity beyond 6 weeks requires urgent CT and bronchoscopy to exclude an obstructing endobronchial lesion (carcinoma or foreign body). This is not optional.
+
+**Exam trigger:** *Rust-coloured sputum + lobar consolidation* → S. pneumoniae. *CURB-65 ≥3 or SpO₂ <94%* → admit and treat. *Post-pneumonia opacity persisting >6 weeks in >50s or smoker* → CT/bronchoscopy, not repeat antibiotics.

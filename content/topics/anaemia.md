@@ -124,3 +124,26 @@ A ferritin below 30 µg/L indicates iron depletion even before anaemia develops.
 The neurological complications of B12 deficiency can occur without anaemia or macrocytosis. Approximately 25% of patients with SACD have a normal blood count at diagnosis. Any patient with unexplained peripheral neuropathy, posterior column signs, or cognitive decline warrants B12 measurement regardless of the Hb or MCV.
 
 Iron deficiency in a man or a postmenopausal woman demands GI investigation. The anaemia is the presenting symptom; the cause may be a resectable colorectal cancer. Treating the ferritin without investigating the source is an incomplete — and potentially dangerous — response.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 42-year-old woman with 4 months of fatigue, dyspnoea on exertion, and pallor. Menorrhagia, vegetarian diet. Hb 7.4 g/dL, MCV 68 fL, ferritin 6 ng/mL, TIBC elevated. Blood film: microcytic hypochromic red cells with pencil cells.
+
+**Step 1 — Classify by MCV:** MCV 68 fL = **microcytic anaemia**. The differential is IDA, thalassaemia, anaemia of chronic disease (usually normocytic but can be microcytic), sideroblastic anaemia.
+
+**Step 2 — Confirm iron deficiency:** Ferritin 6 ng/mL = depleted iron stores (normal >30 µg/L in women). TIBC elevated = more transferrin is produced to scavenge scarce iron. Blood film: pencil cells (elongated microcytes) = **classic for IDA**. Diagnosis confirmed.
+
+**Step 3 — Identify the cause:** Pre-menopausal woman with menorrhagia + vegetarian diet = dual mechanism (increased loss + reduced intake). This is a clinically plausible cause. **However:** always consider whether the menorrhagia fully explains the degree of anaemia. Check dietary history carefully; also consider coeliac disease (impairs iron absorption — check anti-TTG antibodies in all IDA without obvious cause).
+
+**Step 4 — Does this patient need GI investigation?** She is a 42-year-old pre-menopausal woman with menorrhagia as a clear explanation. **GI investigation is not mandatory right now**, but if the anaemia fails to respond to treatment — or if the menorrhagia does not fully account for the degree of loss — investigate the GI tract. If she were a postmenopausal woman or a man: **mandatory upper and lower GI endoscopy** to exclude colorectal cancer.
+
+**Step 5 — Treat:**
+- **Ferrous sulfate 200 mg TDS** (or ferrous fumarate 210 mg BD) — oral iron is first-line
+- Check Hb at 4 weeks: expect rise of ~1 g/dL per week with adequate treatment and compliance
+- Continue oral iron for **3 months after Hb normalises** to replenish stores (ferritin target >30 µg/L)
+- Also check **B12 and folate** — vegetarian diet depletes B12 over time; coexisting macrocytic anaemia may be masked by concurrent IDA
+- Address the menorrhagia with gynaecology (levonorgestrel IUS, tranexamic acid)
+
+**Exam trigger:** *Microcytic anaemia + low ferritin + elevated TIBC + pencil cells* → IDA. *IDA in a man or postmenopausal woman* → GI investigation mandatory (colonoscopy ± OGD) regardless of other explanations offered.

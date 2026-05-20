@@ -193,3 +193,38 @@ Winter's formula is the single most important compensation calculation. In any m
 In DKA, the potassium appears normal or elevated at presentation because acidosis drives K+ out of cells. This is deceptive — total body K+ is profoundly depleted from osmotic diuresis. As insulin is given and pH corrects, K+ re-enters cells and serum K+ can fall catastrophically. Never start insulin with K+ <3.5 mEq/L. Check K+ every 1–2 hours and replace aggressively throughout the infusion.
 
 Salicylate toxicity must be considered in any mixed respiratory alkalosis + metabolic acidosis. The pattern is almost diagnostic when found together. Early aspirin overdose looks like a pure respiratory alkalosis (salicylates stimulate the respiratory centre); as the overdose progresses, uncoupling of oxidative phosphorylation generates organic acids and the picture shifts toward mixed. Always measure a salicylate level in any unexplained ABG showing this combination, particularly in a patient found collapsed at home.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 19-year-old woman with T1DM, missed insulin for 2 days. Confused, vomiting, RR 28 (deep sighing respirations). ABG: pH 7.18, PaO₂ 99 mmHg, PaCO₂ 21 mmHg, HCO₃ 8 mEq/L, BE −18. Glucose 504 mg/dL. Strong ketones in blood and urine.
+
+**Step 1 — Read the ABG systematically:**
+- pH 7.18 = **acidosis**
+- HCO₃ 8 mEq/L = low = **metabolic (primary)**
+- PaCO₂ 21 mmHg = low = respiratory compensation (Kussmaul breathing)
+- Diagnosis so far: **primary metabolic acidosis with respiratory compensation**
+
+**Step 2 — Check compensation with Winter's formula:**
+Expected PaCO₂ = (1.5 × HCO₃) + 8 ± 2 = (1.5 × 8) + 8 ± 2 = **20 ± 2 mmHg**
+Actual PaCO₂ = 21 mmHg → **within the expected range** → **appropriate compensation** → no concurrent respiratory disorder. This is a **pure high anion gap metabolic acidosis**.
+
+**Step 3 — Confirm DKA:** Glucose 504 mg/dL + ketonemia + metabolic acidosis = **DKA**. Classic presentation in T1DM + missed insulin (most common precipitant is infection; this case is missed medication).
+
+**Step 4 — Check potassium BEFORE starting insulin (the most important step):**
+- Acidosis drives K⁺ out of cells → serum K⁺ may appear normal or elevated at presentation
+- Total body K⁺ is profoundly depleted from osmotic diuresis
+- Insulin rapidly drives K⁺ back into cells → serum K⁺ can fall precipitously
+- **Never start insulin if K⁺ <3.5 mEq/L** → replace potassium first
+- Check K⁺ every 1–2 hours throughout treatment
+
+**Step 5 — DKA management:**
+- **IV 0.9% saline** resuscitation (1 L over 1 hour, then titrate to response)
+- **Fixed-rate insulin infusion 0.1 units/kg/hour** — once K⁺ ≥3.5 mEq/L
+- Add KCl to IV fluids from the outset (unless K⁺ ≥5.5 mEq/L)
+- Switch to 10% glucose when blood glucose <200 mg/dL (to allow continued insulin without hypoglycaemia)
+- Resolution criteria: pH >7.3 + HCO₃ >15 mEq/L + blood ketones <0.6 mmol/L
+- Do not stop insulin infusion until eating and drinking; switch to SC insulin at the next meal
+
+**Exam trigger:** *DKA + normal serum K⁺ on admission* → do not be reassured; total body K⁺ is depleted. Start K⁺ replacement immediately. Starting insulin without correcting K⁺ can cause fatal cardiac arrhythmia from hypokalaemia.

@@ -124,3 +124,37 @@ The thunderclap headache is a diagnosis until proven otherwise. "The worst heada
 Medication overuse headache is the most under-recognised and under-treated cause of chronic daily headache. The first step in managing any patient with near-daily headache is to ask precisely how often they take analgesics. More than 10–15 days per month means MOH until proven otherwise. No preventive therapy will work until the overused medication is stopped.
 
 Giant cell arteritis is a visual emergency. The risk is ischaemic optic neuropathy causing permanent blindness. Any patient over 50 with a new temporal headache and jaw claudication should receive high-dose prednisolone that same day — before the ESR result, before the biopsy, and before the rheumatology appointment. One day's delay can mean lifelong blindness.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 29-year-old woman, third visit in 2 months for headache. Unilateral, throbbing, lasting 12–18 hours. Nausea, photophobia, phonophobia, must lie in a dark room. Triggered by menstruation and stress. Takes ibuprofen and codeine **most days**.
+
+**Step 1 — Diagnose migraine:** Apply the POUND mnemonic:
+- **P**ulsating quality ✓
+- **O**ne-day duration (4–72 hours) ✓
+- **U**nilateral ✓
+- **N**ausea ✓
+- **D**isabling ✓ (must lie in dark room)
+5/5 criteria = **migraine with high confidence**. No further investigation needed.
+
+**Step 2 — Identify the complication: medication overuse headache (MOH):** She takes ibuprofen and codeine **most days**. Thresholds for MOH:
+- Opioids/triptans: ≥**10 days/month**
+- Simple analgesics (NSAIDs): ≥**15 days/month**
+Codeine use most days = **MOH superimposed on migraine**. This is why she is attending repeatedly and why any preventive therapy started previously will not work.
+
+**Step 3 — The essential first step is withdrawal, not more prescribing:** Stop codeine (gradual if long-term; can do abrupt in motivated patient). Warn her: headaches will **worsen for 2–4 weeks** during withdrawal before improving. This must be clearly explained — most patients stop withdrawing because they assume the treatment isn't working.
+
+**Step 4 — Acute migraine treatment (once MOH resolved):**
+- **Triptan** (sumatriptan 50–100 mg PO or 6 mg SC) at first sign of attack, not at peak
+- Combine with an NSAID (naproxen 500 mg) for additive effect
+- Anti-emetics if nausea limits oral absorption
+
+**Step 5 — Preventive therapy (for ≥3 migraines/month):**
+- **Topiramate** 25–100 mg OD or **propranolol** 40–80 mg BD — first-line NICE options
+- **Amitriptyline** 10–75 mg nocte — especially if sleep disruption co-exists
+- **CGRP monoclonal antibodies** (erenumab, fremanezumab) — for chronic migraine or after 3 failed preventives
+- **Menstrual migraine**: frovatriptan 2.5 mg BD starting 2 days before expected onset
+
+**Exam trigger:** *Recurring headaches + analgesics most days* → medication overuse headache; preventive therapy will fail until the overused drugs are withdrawn. The distractor is adding a preventive without addressing MOH first.

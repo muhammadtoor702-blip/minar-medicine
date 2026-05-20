@@ -161,3 +161,34 @@ Ethambutol causes dose-dependent optic neuritis — a reversible cause of visual
 Rifampicin is one of the most potent inducers of hepatic CYP450 enzymes. It dramatically reduces plasma levels of many co-administered drugs — the combined oral contraceptive pill is rendered ineffective (women must use additional contraception), warfarin requires dose increases, and antiretroviral drugs are significantly affected. Reconcile all concurrent medications before starting TB treatment.
 
 Sterile pyuria is pathognomonic of renal TB until proven otherwise. White cells in urine with no bacterial growth on standard aerobic culture — the mycobacteria will not grow on the media used for standard urine cultures. If standard urine cultures are negative but pyuria persists, send early-morning urine (three consecutive specimens) for ZN stain and mycobacterial culture, and perform renal USS/CT to look for upper urinary tract disease.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 29-year-old man from Pakistan, 3 months of productive cough, drenching night sweats, 8 kg weight loss. In the UK for 18 months. Temp 37.8°C. CXR: right **upper lobe** consolidation with cavitation + ipsilateral hilar shadow.
+
+**Step 1 — Recognise the CXR pattern:**
+- **Upper lobe consolidation with cavitation** = **post-primary (reactivation) TB** — the organism preferentially seeds to the upper lobes (high O₂ tension, poor lymphatic drainage). This pattern distinguishes reactivation TB from primary TB (which causes lower-zone infiltrates and hilar/paratracheal lymphadenopathy).
+- Upper lobe cavitation in a patient from a high-prevalence country with constitutional symptoms = TB until proven otherwise.
+
+**Step 2 — Isolate immediately:** Suspected smear-positive pulmonary TB = **airborne precautions**; place in a **negative-pressure isolation room**. Notify the infection control team before the diagnosis is confirmed.
+
+**Step 3 — Confirm the diagnosis:**
+- **3 sputum samples for AFB smear and culture** (early morning specimens have highest yield)
+- If smear-positive, treatment should start before culture results return (culture takes 6–8 weeks)
+- Consider bronchoscopy + BAL if sputum not obtainable
+- **HIV test** — mandatory in all TB diagnoses; co-infection changes management (rifampicin interactions with ART, timing of ART initiation)
+
+**Step 4 — Start treatment (RIPE regimen):**
+- **Intensive phase (2 months):** Rifampicin + Isoniazid + Pyrazinamide + Ethambutol (4 drugs)
+- **Continuation phase (4 months):** Rifampicin + Isoniazid only
+- Always add **pyridoxine 25 mg daily** with isoniazid — prevents isoniazid-induced peripheral neuropathy
+
+**Step 5 — Baseline monitoring and counselling:**
+- LFTs before starting (rifampicin, pyrazinamide, isoniazid are all hepatotoxic)
+- Visual acuity + colour vision before ethambutol (optic neuritis risk)
+- Warn: **rifampicin turns urine, tears, and sweat orange**; **OCP becomes ineffective** (use barrier contraception)
+- **Notifiable disease** — inform local health protection team; contact tracing for all household contacts
+
+**Exam trigger:** *Upper lobe cavitation + immigrant from high-prevalence country + constitutional symptoms* → pulmonary TB. Isolate first, cultures before treatment where possible, start RIPE regardless. HIV test is mandatory — do not treat TB in isolation without knowing HIV status.
