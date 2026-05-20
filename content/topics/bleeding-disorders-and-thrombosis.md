@@ -62,6 +62,79 @@ The most common inherited bleeding disorder (~1% of the population). vWF has two
 
 Autoimmune destruction of platelets by anti-GPIIb/IIIa antibodies. Leads to mucocutaneous bleeding (petechiae, purpura, epistaxis, menorrhagia). Primary ITP is a diagnosis of exclusion; secondary ITP is associated with SLE, CLL, HIV, H. pylori, and drugs.
 
+### Disseminated Intravascular Coagulation (DIC)
+
+**First Aid high-yield** — one of the most tested haematology topics. DIC is a pathological, systemic activation of both coagulation and fibrinolysis simultaneously, leading to paradoxical bleeding and thrombosis.
+
+**Pathophysiology**: A trigger → massive release of tissue factor (or other procoagulant stimuli) → systemic thrombin generation → consumption of clotting factors and platelets → **consumptive coagulopathy** → diffuse microvascular thrombosis (organ damage) + simultaneous bleeding from factor depletion + plasmin activation → fibrinolysis → elevated D-dimers, FDPs.
+
+**Causes — FA mnemonic "STOP Making New Thrombi"**:
+- **S**epsis (gram-negative most common — LPS triggers TF release; also gram-positive)
+- **T**rauma (massive tissue injury, fat embolism, head injury)
+- **O**bstetric emergency (amniotic fluid embolism, abruptio placentae, HELLP syndrome, retained dead fetus)
+- **P**romyelocytic leukaemia (APL — azurophilic granules in blasts release thromboplastin → DIC is the hallmark of APL)
+- **M**alignancy (solid tumours, AML subtypes)
+- **N**ecrotising pancreatitis
+- **T**ransfusion reaction (haemolytic)
+
+**Laboratory findings — the hallmark of DIC is "everything is prolonged and consumed"**:
+- **Prolonged PT and APTT** (factors consumed)
+- **Low fibrinogen** (<1.5 g/L — critical)
+- **Low platelets** (consumed)
+- **Elevated D-dimer** (fibrinolysis active) — very sensitive, near-universal in DIC
+- **Schistocytes on blood film** (microangiopathic haemolytic anaemia from RBCs shearing on fibrin strands)
+- Elevated LDH, low haptoglobin (MAHA component)
+
+**Clinical features**: Bleeding from multiple sites (venepuncture sites, surgical drains, mucosae), microvascular thrombosis causing purpura fulminans, acral ischaemia, organ failure (AKI, ARDS, hepatic failure).
+
+**Management**:
+1. **Treat the underlying cause** — this is the most important step; DIC does not resolve until the trigger is removed
+2. **Supportive**: FFP (replaces all clotting factors), cryoprecipitate (replaces fibrinogen and FVIII), platelet transfusion (target >50 × 10⁹/L if bleeding; >20 × 10⁹/L if no bleeding)
+3. **Tranexamic acid**: Anti-fibrinolytic — use in trauma-associated DIC; avoid in APL-associated DIC
+4. **Heparin**: Controversial; occasionally used in thrombosis-predominant DIC (purpura fulminans, acral gangrene) — never for bleeding-predominant DIC
+5. **APL-specific**: ATRA (all-trans retinoic acid) simultaneously treats the APL and halts the DIC by differentiating the blasts → removal of thromboplastin source
+
+### Thrombotic Thrombocytopaenic Purpura (TTP) and Haemolytic Uraemic Syndrome (HUS)
+
+**First Aid high-yield** — these form the microangiopathic haemolytic anaemia (MAHA) group. Must distinguish from DIC.
+
+**TTP Pathophysiology**: Deficiency (hereditary) or autoantibodies against **ADAMTS13** (a metalloprotease that cleaves large vWF multimers) → accumulation of ultra-large vWF multimers → platelet aggregation in small vessels → microvascular thrombosis and shearing of red cells (schistocytes).
+
+**Classic pentad of TTP — FA mnemonic "FAT RN"**:
+- **F**ever
+- **A**naemia (microangiopathic haemolytic — schistocytes, elevated LDH, low haptoglobin, Coombs negative)
+- **T**hrombocytopaenia (platelet consumption)
+- **R**enal dysfunction (usually mild in TTP)
+- **N**eurological abnormalities (confusion, seizures, focal deficit — hallmark distinguishing TTP from HUS)
+
+**TTP vs HUS:**
+| Feature | TTP | HUS (Typical) |
+|---------|-----|---------------|
+| Primary cause | ADAMTS13 deficiency/antibody | Shiga toxin (*E. coli* O157:H7) |
+| Predominant feature | Neurological | **Severe AKI** |
+| Platelet count | Very low | Low |
+| ADAMTS13 activity | <10% (diagnostic) | Normal |
+| Age | Any (adults more) | Children more common |
+| Fever | Yes | Less prominent |
+| Treatment | **Plasma exchange + steroids** | Supportive; no antibiotics |
+
+**TTP management — a true haematological emergency**:
+- **Plasma exchange (plasmapheresis)**: Removes ADAMTS13 antibodies AND replaces functional enzyme — the cornerstone of treatment. Start within hours. Daily until platelets normalise and LDH falls.
+- **Steroids** (prednisolone 1 mg/kg): Suppress antibody production
+- **Rituximab**: For refractory/relapsing TTP — depletes B-cells producing anti-ADAMTS13
+- **Caplacizumab**: Anti-vWF nanobody — prevents platelet-vWF interaction; new agent that rapidly normalises platelets
+- **Never give platelet transfusions** in TTP — adds "fuel to the fire," worsens microvascular thrombosis. This is a critical FA point.
+
+**Atypical HUS (aHUS)**: Caused by complement dysregulation (mutations in complement regulatory proteins CFH, CFI, MCP). Treat with **eculizumab** (complement inhibitor).
+
+### Platelet Function Disorders
+
+**Bernard-Soulier syndrome**: Autosomal recessive; deficiency of **GPIb** (the vWF receptor) → impaired platelet adhesion. Giant platelets on blood film, prolonged bleeding time, normal PT/APTT.
+
+**Glanzmann's thrombasthenia**: Autosomal recessive; deficiency of **GPIIb/IIIa** (the fibrinogen receptor) → impaired platelet aggregation. Normal platelet count and morphology, severely prolonged bleeding time, absent aggregation response to all agonists (but normal response to ristocetin — this is what distinguishes it from vWD where ristocetin-induced aggregation is absent).
+
+**FA comparison**: Both Bernard-Soulier and Glanzmann's have: normal PT/APTT, prolonged bleeding time/PFA-100, normal platelet count. Distinguish by ristocetin test: impaired in vWD and Bernard-Soulier (GPIb receptor for vWF), normal in Glanzmann's.
+
 ### Thrombophilia and Venous Thromboembolism
 
 Virchow's triad — the three contributors to thrombus formation: stasis (immobility, venous obstruction), endothelial injury, and hypercoagulability.

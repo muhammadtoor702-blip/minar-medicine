@@ -52,6 +52,35 @@ Thalassaemias result from reduced or absent synthesis of alpha or beta globin ch
 
 **Alpha-thalassaemia**: Four alpha genes — one or two deletions are clinically silent or cause mild microcytosis. Three deletions (HbH disease) causes moderate haemolytic anaemia. Four deletions (Hb Bart's / hydrops fetalis) is incompatible with postnatal life.
 
+### Hereditary Spherocytosis (HS)
+
+**First Aid high-yield** — the most common hereditary haemolytic anaemia in northern Europeans. Autosomal dominant (75%) or recessive.
+
+**Pathophysiology**: Mutations in genes encoding red cell membrane proteins — most commonly **spectrin** (alpha or beta), **ankyrin**, or **Band 3** protein — weaken the vertical interactions between the lipid bilayer and the underlying cytoskeleton. The RBC loses membrane as it passes through the spleen (which culls abnormally rigid cells) → loss of surface area relative to cell volume → spherocyte formation → trapped and destroyed in the spleen (extravascular haemolysis).
+
+**Clinical features**:
+- Haemolytic anaemia (variable severity — compensated to severe)
+- **Splenomegaly** (from splenic work sequestering abnormal cells)
+- Jaundice (unconjugated bilirubin from haemolysis)
+- **Pigmented (bilirubin) gallstones** — a classic complication; cholecystectomy often needed
+- **Aplastic crises**: Sudden Hb fall from parvovirus B19 infection — transiently halts erythropoiesis; can be severe (Hb falls precipitously without reticulocytosis)
+- **Haemolytic crises**: Acute worsening during infections (increased haemolysis)
+
+**Laboratory findings**:
+- Spherocytes on blood film (small, dense, hyperchromic — no central pallor)
+- **Elevated MCHC** (mean corpuscular haemoglobin concentration — most reliable screening test; >36 g/dL)
+- Elevated reticulocyte count, elevated bilirubin, low haptoglobin
+- **Osmotic fragility test**: Spherocytes lyse at higher salt concentrations than normal RBCs (though this test is largely replaced by more specific assays)
+- **EMA (eosin-5-maleimide) binding test**: Flow cytometry assay — most sensitive and specific; detects reduced membrane protein content
+- Coombs (DAT) test: **Negative** — distinguishes from AIHA
+
+**Management**:
+- **Splenectomy**: Curative — removes the site of destruction. Resolves haemolysis and prevents complications. However, deferred in children <5 years due to sepsis risk. **Pneumococcal, meningococcal, and Hib vaccines** must be given ≥2 weeks before splenectomy; lifelong penicillin prophylaxis after.
+- Folic acid supplementation (increased demand from chronic haemolysis)
+- Monitor for gallstones and aplastic crises
+
+**FA buzzword**: "Spherocytes + elevated MCHC + family history + Coombs negative + splenomegaly" = hereditary spherocytosis. Contrast with warm AIHA (spherocytes + Coombs positive).
+
 ### Autoimmune Haemolytic Anaemia (AIHA)
 
 **Warm AIHA**: IgG antibodies bind RBCs at 37°C → partial phagocytosis by splenic macrophages → spherocytes (loss of membrane without cytoplasm loss). Causes: idiopathic, SLE, CLL, drugs (methyldopa, penicillin). Direct Coombs test (DAT) positive for IgG. Treat with prednisolone; rituximab for refractory cases.

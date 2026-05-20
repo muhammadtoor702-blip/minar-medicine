@@ -34,7 +34,27 @@ Both B12 and folate are required for DNA synthesis, specifically for thymidine p
 
 B12 deficiency uniquely causes neurological damage: **subacute combined degeneration of the cord (SACD)** — demyelination of the dorsal columns (loss of proprioception, vibration sense, positive Romberg) and corticospinal tracts (spasticity, hyperreflexia, upgoing plantars). Folate deficiency does not cause SACD.
 
+**OHCM pearl**: "Body stores of B12 are sufficient for 4 years" — this is why dietary deficiency (vegans who switch diet) takes years to manifest, unlike folate deficiency where stores last only weeks to months.
+
 **Pernicious anaemia** is the most common cause of B12 deficiency in developed countries. Autoimmune gastritis destroys parietal cells → loss of intrinsic factor (IF) → failure of the IF-B12 complex to bind the cubilin receptor in the terminal ileum → B12 malabsorption. Anti-IF antibodies are specific (~50% sensitivity); anti-parietal cell antibodies are sensitive but less specific.
+
+### Sideroblastic Anaemia
+
+**First Aid high-yield** — ringed sideroblasts are pathognomonic. Defective haem synthesis with iron accumulation inside mitochondria of developing erythroblasts, forming a "ring" of iron granules around the nucleus visible on Prussian blue stain — **ringed sideroblasts**. Despite iron accumulation, the cell cannot incorporate it into haem → microcytic anaemia + iron overload.
+
+**Causes:**
+- **Congenital** (X-linked sideroblastic anaemia): Mutation in aminolevulinate synthase 2 (ALAS2) — treat with pyridoxine (B6), which is a cofactor for ALAS2
+- **Acquired**:
+  - **Lead poisoning**: Inhibits ALAD and ferrochelatase (key haem synthesis enzymes). Features: microcytic anaemia, basophilic stippling on blood film, lead lines on gum/long bones (epiphyseal plates), encephalopathy, peripheral neuropathy, GI cramping. Serum lead level confirms. Treat with chelation (dimercaprol, DMSA, EDTA).
+  - **Alcohol**: Most common acquired cause — interferes with pyridoxine metabolism
+  - **Isoniazid**: Interferes with pyridoxine → give pyridoxine prophylactically with isoniazid
+  - **Pyridoxine (B6) deficiency**: Rare
+  - **Myelodysplastic syndrome**: Refractory anaemia with ringed sideroblasts (RARS)
+  - **Chloramphenicol**: Reversible cause
+
+**Laboratory features**: Microcytic anaemia + **elevated serum iron** (unlike iron deficiency where iron is low) + **elevated ferritin** + normal/low TIBC + ringed sideroblasts on bone marrow aspirate.
+
+**FA buzzword**: "Ringed sideroblasts + elevated serum iron + microcytic anaemia" = sideroblastic anaemia; contrast with iron deficiency (low ferritin, low iron, high TIBC).
 
 ### Anaemia of Chronic Disease (ACD)
 
@@ -58,7 +78,7 @@ Symptoms depend on severity, speed of onset, and cardiorespiratory reserve. Fati
 
 **Iron deficiency-specific features**: Koilonychia (spoon-shaped nails), angular stomatitis, glossitis, brittle hair, pica (craving non-food substances — ice, clay, starch), and dysphagia from a post-cricoid web (Plummer-Vinson syndrome — rare).
 
-**B12/folate deficiency**: Megaloblastic features plus mild jaundice from intramedullary haemolysis. Neurological features in B12 deficiency as described above — can occur without anaemia or macrocytosis in ~25% of cases.
+**B12/folate deficiency**: Megaloblastic features plus **lemon-yellow skin** — the combination of pallor (anaemia) and mild jaundice (intramedullary haemolysis) gives the characteristic lemon-yellow or "lemon tinge" to the complexion. **Beefy-red sore tongue** (glossitis) — OHCM classic sign. Neurological features in B12 deficiency as described above — can occur without anaemia or macrocytosis in ~25% of cases.
 
 ## Diagnosis
 

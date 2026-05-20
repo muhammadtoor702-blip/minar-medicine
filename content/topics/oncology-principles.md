@@ -122,6 +122,44 @@ Ionising radiation causes DNA double-strand breaks → cell death preferentially
 - Breast cancer: Tamoxifen (premenopausal — SERM, blocks oestrogen receptor), aromatase inhibitors (postmenopausal — anastrozole, letrozole, exemestane — block oestrogen synthesis)
 - Prostate cancer: LHRH agonists/antagonists (androgen deprivation therapy) + enzalutamide or abiraterone (advanced disease)
 
+## Paraneoplastic Syndromes
+
+**First Aid high-yield** — effects of tumour at a site remote from the primary tumour or its metastases, mediated by hormones, antibodies, or T-cell immune reactions.
+
+### Endocrine Paraneoplastic Syndromes
+
+| Syndrome | Tumour | Mechanism |
+|---------|--------|-----------|
+| **SIADH** (hyponatraemia) | **Small cell lung cancer (SCLC)** most common | Ectopic ADH secretion |
+| **Cushing's syndrome** (rapid onset, hypokalaemic alkalosis, no skin features) | SCLC, carcinoid, thymoma | Ectopic ACTH secretion |
+| **Hypercalcaemia of malignancy** | Squamous cell carcinoma of the lung, RCC, breast, myeloma | PTHrP (humoral HHM) or osteolytic bone metastases |
+| **Hypoglycaemia** | Large retroperitoneal tumours, insulinoma, hepatoma | IGF-2 secretion or insulin secretion |
+| **Carcinoid syndrome** (flushing, diarrhoea, bronchoconstriction) | Carcinoid tumours (usually with hepatic mets) | Serotonin, histamine, bradykinin |
+| **VIPoma** (watery diarrhoea, hypokalaemia, achlorhydria) | Pancreatic neuroendocrine tumour | VIP secretion |
+
+**FA buzzword**: SCLC + hyponatraemia = SIADH (ectopic ADH). SCLC + hypokalaemia + cushingoid features (rapid onset, no striae, severe muscle wasting) = ectopic ACTH. Squamous cell lung cancer + hypercalcaemia = PTHrP.
+
+### Neurological Paraneoplastic Syndromes
+
+**Caused by antibodies (often anti-neuronal)** that cross-react with neural tissue expressing tumour antigens:
+
+| Syndrome | Antibody | Associated Tumour | Features |
+|---------|---------|-----------------|---------|
+| **Lambert-Eaton myasthenic syndrome (LEMS)** | Anti-VGCC (voltage-gated calcium channel) | **SCLC** | Proximal muscle weakness that **improves** with repeated use (opposite of myasthenia gravis); reduced/absent reflexes; autonomic features |
+| Paraneoplastic encephalomyelitis | Anti-Hu (ANNA-1) | SCLC | Limbic encephalitis, brainstem encephalitis, sensory neuropathy |
+| Cerebellar degeneration | Anti-Yo (PCA-1) | **Ovarian, breast** | Subacute cerebellar ataxia, rapidly progressive |
+| Opsoclonus-myoclonus | Anti-Ri | Breast, SCLC | Involuntary eye movements, myoclonus |
+| Paraneoplastic limbic encephalitis | Anti-NMDAR, anti-LGI1 | Ovarian teratoma (anti-NMDAR) | Memory loss, confusion, seizures, psychiatric features |
+
+**FA**: Lambert-Eaton → SCLC; weakness improves with repetition (pre-synaptic calcium channel defect means repeated stimulation builds up calcium and temporarily improves transmission). This is the **opposite** of myasthenia gravis, where weakness worsens with repetition (post-synaptic acetylcholine receptor defect).
+
+### Haematological Paraneoplastic Syndromes
+
+- **Polycythaemia**: Renal cell carcinoma, hepatocellular carcinoma, cerebellar haemangioblastoma — ectopic EPO secretion
+- **Trousseau's syndrome** (migratory superficial thrombophlebitis): Pancreatic and GI cancers — hypercoagulable state from tumour mucin activating coagulation
+- **Acanthosis nigricans**: Gastric and GI cancers — velvety, hyperpigmented skin in axillae and neck
+- **Dermatomyositis/polymyositis**: Ovarian, lung, breast cancer — inflammatory myopathy + characteristic skin changes (heliotrope rash, Gottron's papules)
+
 ## Oncological Emergencies
 
 ### Superior Vena Cava Obstruction (SVCO)

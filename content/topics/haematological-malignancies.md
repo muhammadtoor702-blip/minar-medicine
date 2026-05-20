@@ -38,6 +38,61 @@ CML progresses through three phases: chronic phase (indolent, responds to TKI) �
 - **Follicular lymphoma** — most common indolent NHL; not curable with standard therapy but very long natural history; "watch and wait" appropriate in asymptomatic disease
 - **Burkitt's lymphoma** — highly aggressive; t(8;14) translocation (MYC oncogene); "starry sky" pattern on histology; associated with EBV; endemic (jaw) and sporadic (abdomen) forms
 
+### Myelodysplastic Syndromes (MDS)
+
+A clonal stem cell disorder characterised by ineffective haematopoiesis (cells produced but die before maturation) → cytopaenias (despite a hypercellular or normocellular marrow), dysplastic morphology on blood film and marrow, and risk of transformation to AML (~30%).
+
+**Epidemiology**: Median age at diagnosis ~70 years. Associated with prior chemotherapy, radiation, or occupational benzene exposure.
+
+**Clinical features**: Predominantly anaemia (most common presenting symptom), with variable neutropaenia and thrombocytopaenia. The disease is often discovered on a routine blood count.
+
+**Diagnosis**:
+- Blood film: dysplastic changes — pseudo-Pelger-Huët cells (bilobed neutrophils), hypogranular neutrophils, macrocytes, ringed sideroblasts (in MDS-RS subtype)
+- Bone marrow biopsy: dysplasia in ≥1 cell line + <20% blasts (blasts ≥20% = AML)
+- Cytogenetics: prognostic — del(5q) is particularly important
+
+**Del(5q) syndrome — FA high-yield**: Isolated deletion of chromosome 5q in MDS → macrocytic anaemia, normal or elevated platelets, hypolobated megakaryocytes on marrow. Responds dramatically to **lenalidomide** (immunomodulatory agent) — a FA classic answer. Low risk of transformation to AML.
+
+**IPSS-R scoring**: Classifies MDS risk by cytogenetics, blast percentage, and severity of cytopaenias → guides treatment intensity.
+
+**Management**:
+- **Low-risk MDS**: Supportive care (transfusions, erythropoiesis-stimulating agents), lenalidomide for del(5q), iron chelation for transfusion-dependent patients
+- **High-risk MDS**: Hypomethylating agents (azacitidine, decitabine) — standard of care; allogeneic stem cell transplant in fit patients (only potentially curative option)
+
+### Waldenström's Macroglobulinaemia
+
+**First Aid high-yield** — rare but commonly tested. Clonal proliferation of lymphoplasmacytic cells producing a monoclonal **IgM** paraprotein (in contrast to myeloma which is IgG or IgA).
+
+**Pathophysiology**: IgM is a large pentameric molecule that markedly increases serum viscosity → **hyperviscosity syndrome**.
+
+**Clinical features**:
+- **Hyperviscosity syndrome**: Headache, visual disturbances (fundoscopy shows dilated "sausage-link" retinal veins), confusion, dizziness, stroke-like episodes, bleeding tendency
+- Anaemia (due to marrow infiltration and immune haemolysis)
+- Peripheral neuropathy (IgM antibodies against myelin-associated glycoprotein — MAG-neuropathy)
+- **No bone lesions, no hypercalcaemia** — this distinguishes it from myeloma (IgM does not activate osteoclasts the same way)
+- Lymphadenopathy and splenomegaly (the lymphoplasmacytic cells infiltrate)
+- **Cold agglutinin disease**: IgM antibodies sometimes act as cold agglutinins → haemolytic anaemia in cold exposure
+
+**Diagnosis**:
+- Serum protein electrophoresis: IgM paraprotein (M-spike in the gamma region)
+- Bone marrow biopsy: lymphoplasmacytic lymphoma
+- **MYD88 L265P mutation**: Present in >90% of Waldenström's — a highly specific molecular marker
+
+**Management**:
+- **Plasmapheresis** for acute hyperviscosity syndrome (rapidly removes IgM from circulation)
+- Systemic therapy: BTK inhibitors (ibrutinib), rituximab-based regimens
+
+**FA comparison table — plasma cell dyscrasias:**
+| Feature | Myeloma | Waldenström's | MGUS |
+|---------|---------|---------------|------|
+| Ig type | IgG (60%), IgA (30%) | IgM | Any |
+| Bone lesions | Yes (lytic) | No | No |
+| Hypercalcaemia | Yes | No | No |
+| Hyperviscosity | IgA/IgG3 (sometimes) | Yes (IgM — large) | Rare |
+| Neuropathy | Yes | Yes (MAG) | Rare |
+| Renal failure | Yes (cast nephropathy) | Less common | No |
+| Treatment | VRDP, bortezomib | Ibrutinib, rituximab | Watch and wait |
+
 ### Myeloma
 
 **Multiple myeloma**: Malignant proliferation of plasma cells in the bone marrow, producing a monoclonal immunoglobulin (paraprotein). Plasma cells produce osteoclast-activating factors → lytic bone lesions and hypercalcaemia. Monoclonal light chains (Bence-Jones proteins) are filtered by the glomerulus and damage the tubules → cast nephropathy → renal failure.
