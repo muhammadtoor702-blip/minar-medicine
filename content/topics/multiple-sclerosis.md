@@ -6,6 +6,7 @@ sources:
   - NICE NG220 (Multiple Sclerosis)
   - McDonald Criteria 2017
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -70,6 +71,59 @@ A clinically isolated syndrome (CIS) — a single clinical episode suggestive of
 **Visual evoked potentials (VEPs)**: Delayed P100 latency indicates optic nerve demyelination, even when clinically silent — demonstrates dissemination in space.
 
 **Differential diagnosis of CNS white matter lesions:** NMOSD (neuromyelitis optica spectrum disorder — anti-AQP4 or anti-MOG antibodies, longitudinally extensive spinal cord lesions, severe optic neuritis — must be excluded before diagnosing MS as treatment differs), ADEM (acute disseminated encephalomyelitis — monophasic, post-infectious, children), CNS vasculitis, Susac syndrome, migraine-related white matter changes, CADASIL (NOTCH3 mutation, migraine with aura, early stroke, dementia), B12 deficiency (subacute combined degeneration of the cord), HIV encephalopathy. **Anti-AQP4 and anti-MOG antibodies should be checked in all suspected MS** — NMOSD responds to different treatments (not beta-interferon, which can worsen it).
+
+---
+
+## Neuromyelitis Optica Spectrum Disorder (NMOSD)
+
+NMOSD (formerly Devic's disease) is a distinct autoimmune CNS inflammatory disease that is frequently misdiagnosed as MS. It is critical to distinguish them because standard MS disease-modifying therapies can **worsen** NMOSD.
+
+### Pathophysiology
+
+The hallmark is **anti-aquaporin-4 (AQP4) antibodies** (present in ~75% of NMOSD cases) targeting the AQP4 water channel expressed on astrocyte foot processes at the blood-brain barrier. This leads to astrocyte destruction and secondary demyelination — a distinct mechanism from MS (which primarily targets oligodendrocytes). A second subgroup has **anti-MOG (myelin oligodendrocyte glycoprotein) antibodies**, which tends to have a different, often more favourable clinical phenotype (MOG-antibody associated disease, MOGAD).
+
+### Clinical Presentation
+
+NMOSD attacks are characteristically **more severe** than MS relapses and recover less completely:
+
+- **Longitudinally extensive transverse myelitis (LETM)**: Spinal cord inflammation spanning ≥3 vertebral segments. Severe — often causes complete para/tetraplegia, sensory level, and bladder/bowel dysfunction. Contrast with MS, where cord lesions are typically short (<2 segments) and partial.
+- **Severe optic neuritis**: Often bilateral (or sequential). Greater visual loss than MS-related optic neuritis; more permanent residual deficit. Periorbital pain, severe acuity loss, colour blindness.
+- **Area postrema syndrome**: Intractable hiccups and/or nausea and vomiting lasting days — a near-pathognomonic feature caused by inflammation of the area postrema (vomiting centre) at the floor of the fourth ventricle. FA buzzword: **intractable hiccups + young woman = NMOSD until proven otherwise**.
+- **Brainstem syndromes**, **diencephalic syndrome** (narcolepsy, hypothermia, SIADH), and **cerebral syndrome** also occur.
+
+**Key differentiators from MS:**
+
+| Feature | MS | NMOSD |
+|---------|-----|-------|
+| Spinal cord lesion length | Short (<2 segments) | Long (≥3 segments, LETM) |
+| Optic neuritis | Usually unilateral, good recovery | Often bilateral, poor recovery |
+| Intractable hiccups/vomiting | Rare | Characteristic (area postrema) |
+| Oligoclonal bands in CSF | >95% | Absent or transient |
+| Brain MRI lesions | Multiple (periventricular "Dawson's fingers") | Often normal or non-specific |
+| Anti-AQP4 antibody | Negative | Positive in ~75% |
+| Anti-MOG antibody | Negative | Positive in ~25% (MOGAD) |
+| Progressive course | SPMS/PPMS occur | Relapsing-remitting; no progressive phase |
+
+### Diagnosis
+
+**Anti-AQP4 antibody testing** (serum) — highly specific when positive. If negative but NMOSD clinically suspected, test **anti-MOG antibodies**. Both antibodies should be checked in all patients with suspected MS who have severe attacks or LETM.
+
+**MRI spinal cord**: LETM — T2 hyperintensity spanning ≥3 vertebral segments; central cord involvement (versus the more peripheral/posterior MS lesion pattern).
+
+**MRI brain**: May be normal; or show area postrema lesions (dorsal medullary T2 signal), hypothalamic or corpus callosum lesions (distinct from MS "Dawson's fingers").
+
+### Management
+
+**Acute attacks**: High-dose IV methylprednisolone (same as MS relapse). Plasma exchange (PLEX) for refractory or severe attacks — evidence suggests NMOSD responds better to PLEX than MS does.
+
+**Maintenance immunosuppression** (to prevent relapses — NMOSD does not have spontaneous remission like MS):
+- **Azathioprine** + prednisolone — traditional first-line; widely used
+- **Mycophenolate mofetil** — alternative to azathioprine
+- **Rituximab** (anti-CD20, B-cell depletion) — highly effective; widely used off-label
+- **Inebilizumab** (anti-CD19), **satralizumab** (anti-IL-6R), **eculizumab** (complement inhibitor) — newly licensed; RCT-proven; reserved for anti-AQP4 positive patients
+
+**Drugs to AVOID in NMOSD**: Beta-interferons (IFN-β), natalizumab, fingolimod, alemtuzumab — may **worsen** NMOSD and precipitate severe relapses.
+
 ## Management
 
 ### Acute Relapse

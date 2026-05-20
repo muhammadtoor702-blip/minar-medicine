@@ -6,6 +6,7 @@ sources:
   - NICE NG217
   - ILAE Epilepsy Classification 2017
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

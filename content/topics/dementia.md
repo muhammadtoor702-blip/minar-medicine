@@ -6,6 +6,7 @@ sources:
   - NICE NG97
   - DSM-5
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

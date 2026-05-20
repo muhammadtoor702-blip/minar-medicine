@@ -6,6 +6,7 @@ sources:
   - NICE NG71 (Parkinson's disease)
   - MDS Diagnostic Criteria for Parkinson's Disease 2015
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

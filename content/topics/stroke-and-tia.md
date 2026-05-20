@@ -6,6 +6,7 @@ sources:
   - ESC/AHA Stroke Guidelines 2021
   - NICE NG128
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

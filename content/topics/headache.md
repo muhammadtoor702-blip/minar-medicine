@@ -6,6 +6,7 @@ sources:
   - NICE NG150 (Headaches in over 12s)
   - IHS Classification ICHD-3
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

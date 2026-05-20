@@ -7,6 +7,7 @@ sources:
   - EULAR Crystal Arthropathy Recommendations
   - EULAR/ACR Vasculitis Guidelines 2022
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
