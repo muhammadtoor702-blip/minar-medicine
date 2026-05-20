@@ -6,6 +6,7 @@ sources:
   - BSG Cirrhosis Guidelines 2023
   - EASL Clinical Practice Guidelines
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -118,6 +119,34 @@ Vaccination generates anti-HBs only (no anti-HBc). HBV carriers with ALT >30 IU/
 **Hepatitis C (HCV)** — RNA flavivirus; blood-borne (IVDU, blood products, sexual):
 - ~85% develop chronic infection; ~25% develop cirrhosis over 20 years; 4% per year develop HCC once cirrhosis is established
 - **Curable in >95%**: Direct-acting antivirals (DAAs) — NS5B/NS5A inhibitors (ledipasvir + sofosbuvir, glecaprevir + pibrentasvir, or sofosbuvir + velpatasvir for 8–12 weeks). Interferon-free regimens — excellent tolerance and near-universal cure across all genotypes including in established cirrhosis.
+
+---
+
+## Budd-Chiari Syndrome
+
+Hepatic venous outflow obstruction — thrombosis of the hepatic veins or inferior vena cava at the hepatic vein level, causing hepatic venous congestion and sinusoidal hypertension.
+
+**FA buzzword**: Young woman + hepatomegaly + ascites + right upper quadrant pain = Budd-Chiari until proven otherwise.
+
+**Causes**: Hypercoagulable states in ~75%:
+- **Most common**: Polycythaemia vera (JAK2 V617F mutation — screen all Budd-Chiari), antiphospholipid syndrome, paroxysmal nocturnal haemoglobinuria (PNH — FLAER test), factor V Leiden, prothrombin gene mutation
+- Oral contraceptive pill (particularly combined with thrombophilia)
+- Pregnancy/puerperium
+- Myeloproliferative neoplasms, Behçet's disease, antithrombin III deficiency
+
+**Clinical presentation**: Acute or subacute hepatic failure, hepatomegaly (tender, congested liver), ascites (refractory and protein-rich), right upper quadrant pain, jaundice. Caudate lobe hypertrophy is a characteristic finding — the caudate lobe drains directly into the IVC and is spared from hepatic vein thrombosis, undergoing compensatory hypertrophy.
+
+**Diagnosis**:
+- **Doppler USS** (first-line) — absent or reversed hepatic vein flow; caudate lobe hypertrophy. Sensitivity limited by operator expertise and body habitus.
+- **CT or MRI with venography** — confirms the diagnosis; identifies extent of thrombosis and caudate hypertrophy; the "comma-shaped" caudate lobe is characteristic on CT
+- Liver biopsy: centrilobular congestion and necrosis (hepatic venules are the inflow, so centrilobular regions are most congested — the reverse of portal vein thrombosis)
+- **Thrombophilia screen** (after anticoagulation is established): JAK2 mutation, antiphospholipid antibodies, factor V Leiden, prothrombin mutation, protein C/S, antithrombin III, PNH screen
+
+**Management**:
+- **Anticoagulation** (heparin then warfarin or DOAC) — all patients unless transplant is imminent
+- Treat the underlying cause (e.g., hydroxyurea for PV; eculizumab for PNH; stop OCP)
+- **TIPSS** — the primary intervention for acute Budd-Chiari; decompresses hepatic sinusoidal hypertension and restores hepatic blood flow; improves 5-year survival
+- **Liver transplantation** — for acute liver failure or chronic disease not amenable to TIPSS. Lifelong anticoagulation required post-transplant (the underlying thrombophilia persists)
 
 ---
 

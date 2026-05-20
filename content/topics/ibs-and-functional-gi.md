@@ -6,6 +6,7 @@ sources:
   - NICE NG61 (IBS)
   - Rome IV Criteria
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

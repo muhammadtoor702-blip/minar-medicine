@@ -6,6 +6,7 @@ sources:
   - BSG Acute Pancreatitis Guidelines 2023
   - IAP/APA Guidelines on Acute Pancreatitis
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

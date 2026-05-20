@@ -7,6 +7,7 @@ sources:
   - NICE NG12 (Cancer Referral)
   - BSG Colorectal Cancer Screening Guidelines
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

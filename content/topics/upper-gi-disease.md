@@ -6,6 +6,7 @@ sources:
   - NICE NG12 / NG106
   - BSG Upper GI Bleeding Guidelines 2019
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
