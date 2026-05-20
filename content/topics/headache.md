@@ -5,6 +5,7 @@ scenario: "A 29-year-old woman presents to the GP with her third visit in two mo
 sources:
   - NICE NG150 (Headaches in over 12s)
   - IHS Classification ICHD-3
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -95,9 +96,11 @@ A granulomatous vasculitis of medium and large vessels; almost exclusively in pa
 
 **Idiopathic intracranial hypertension (IIH):**
 
-Raised ICP without underlying structural cause. Classic patient: obese woman of childbearing age. Headache, pulsatile tinnitus, transient visual obscurations, papilloedema, and if severe — permanent visual loss. LP opening pressure >25 cmH₂O with normal CSF composition. MRI may show empty sella, flattening of optic nerve head, or slit-like ventricles.
+Raised ICP without underlying structural cause. Classic patient: obese woman of childbearing age. Headache, pulsatile tinnitus (synchronous with heartbeat — highly characteristic), transient visual obscurations (seconds-long visual loss on positional change — from optic nerve ischaemia), papilloedema, and if severe — permanent visual loss from optic atrophy. Sixth nerve palsy (false localising sign from raised ICP). LP opening pressure >25 cmH₂O with normal CSF composition. MRI may show empty sella, flattening of posterior optic nerve heads, or slit-like ventricles.
 
-Treatment: Weight loss (most effective), acetazolamide (reduces CSF production), topiramate, repeated LP, CSF diversion (VP shunt or optic nerve sheath fenestration for visual threat).
+Treatment: **Weight loss** (most effective — even 5–10% loss can normalise ICP), acetazolamide 250–500 mg BD (carbonic anhydrase inhibitor — reduces CSF production), topiramate (added benefit of weight loss), repeated LP for symptomatic relief, CSF diversion (VP or lumboperitoneal shunt for refractory cases) or **optic nerve sheath fenestration** when vision is acutely threatened.
+
+**Drugs causing secondary IIH** (raised ICP): vitamin A/retinoids (isotretinoin — important in acne treatment), tetracyclines (minocycline, doxycycline), steroids (especially withdrawal), growth hormone, oral contraceptives.
 
 ## Diagnosis
 

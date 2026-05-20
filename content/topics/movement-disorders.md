@@ -5,6 +5,7 @@ scenario: "A 67-year-old retired teacher presents with a 2-year history of right
 sources:
   - NICE NG71 (Parkinson's disease)
   - MDS Diagnostic Criteria for Parkinson's Disease 2015
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -69,7 +70,7 @@ Secondary or atypical Parkinsonism should be suspected if:
 
 PSP = Progressive supranuclear palsy; MSA = Multiple system atrophy; CBS = Corticobasal syndrome.
 
-**Drug-induced parkinsonism**: From dopamine receptor blockers — metoclopramide, prochlorperazine, haloperidol, risperidone. Usually symmetric, no tremor. Resolves when drug is stopped (may take months). These drugs must be avoided in PD patients.
+**Drug-induced parkinsonism**: From dopamine receptor blockers — metoclopramide, prochlorperazine, haloperidol, risperidone. Usually symmetric, no tremor. Resolves when drug is stopped (may take months). These drugs must be avoided in PD patients. **Wilson's disease** — autosomal recessive copper metabolism disorder (ATP7B mutation); presents under age 40 with Parkinsonism, psychiatric features, liver disease, and Kayser-Fleischer rings; screen with serum caeruloplasmin and 24-hour urinary copper in any young patient with unexplained movement disorder.
 
 ### Diagnosis
 

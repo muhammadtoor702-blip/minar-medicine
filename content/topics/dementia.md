@@ -5,6 +5,7 @@ scenario: "A 74-year-old retired engineer is brought by his daughter who is conc
 sources:
   - NICE NG97
   - DSM-5
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -43,6 +44,23 @@ Disproportionate atrophy of the frontal and temporal lobes. Presents typically i
 - **Progressive non-fluent aphasia**: Halting, effortful speech; grammatical errors; left perisylvian atrophy
 
 FTD is associated with TDP-43 and FUS pathology, and with motor neurone disease (FTD-ALS overlap).
+
+### Normal Pressure Hydrocephalus (NPH)
+
+A surgically treatable cause of dementia. Classic triad: **Hakim's triad** — "wet, wobbly, and wacky":
+- **Gait apraxia** ("magnetic gait" — shuffling, wide-based, as if feet are stuck to the floor — earliest and most prominent feature)
+- **Urinary incontinence** — urgency, then frank incontinence
+- **Dementia** — frontal-subcortical pattern, often mild; memory is less affected than in Alzheimer's
+
+CT/MRI shows disproportionate ventricular enlargement relative to sulcal atrophy (Evans' index >0.3 — ratio of frontal horn width to inner skull diameter). LP large-volume drain (20–30 mL CSF) followed by gait assessment is the diagnostic test — improvement in gait after LP predicts response to ventriculoperitoneal shunting. **VP shunting is the treatment** and can dramatically improve symptoms, particularly gait. Cognitive improvement is more variable.
+
+NPH is chronically underdiagnosed because the gait disorder is attributed to arthritis or Parkinson's, and the dementia is attributed to Alzheimer's. Any patient with the triad should have imaging. Even partial shunt response is clinically meaningful.
+
+### Creutzfeldt-Jakob Disease (CJD)
+
+A rare but important rapidly progressive dementia. The prion disease family includes sporadic CJD (most common, ~1/million/year), variant CJD (vCJD — from prion-contaminated beef; much younger patients, psychiatric prodrome), familial CJD, and iatrogenic CJD. Rapidly progressive cognitive decline over weeks to months, associated with myoclonus, cerebellar ataxia, pyramidal and extrapyramidal signs, visual disturbance, and akinetic mutism in the terminal phase. Death typically within 12 months of onset.
+
+EEG: periodic sharp wave complexes in sporadic CJD (not vCJD). MRI DWI: cortical ribboning and basal ganglia signal change. CSF 14-3-3 protein (elevated in >85% of sporadic CJD). RT-QuIC (real-time quaking-induced conversion) — highly sensitive and specific CSF or nasal brushing test. Definitive diagnosis requires brain biopsy (rarely done) or post-mortem neuropathology. No treatment available.
 
 **Comparison of dementia subtypes:**
 

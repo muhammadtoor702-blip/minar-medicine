@@ -5,6 +5,7 @@ scenario: "A 69-year-old man with hypertension and AF (on warfarin) is brought i
 sources:
   - ESC/AHA Stroke Guidelines 2021
   - NICE NG128
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -82,6 +83,8 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 
 **CT/MR angiography**: Essential if mechanical thrombectomy is being considered — identifies large vessel occlusion (ICA, M1/M2 MCA, basilar artery).
 
+**NIHSS (National Institutes of Health Stroke Scale):** A validated 15-item score (range 0–42) assessing level of consciousness, gaze, vision, facial palsy, arm/leg motor, ataxia, sensation, language, dysarthria, and neglect. A score ≥4 generally indicates moderate-severe deficit; used to guide treatment decisions and track clinical progression. Importantly, the NIHSS underestimates posterior circulation strokes — a patient with a basilar occlusion may score low but be in extremis.
+
 **After stabilisation — cardioembolic screen:**
 - 12-lead ECG + prolonged cardiac monitoring (minimum 24 hours, ideally 7 days with implantable loop recorder) — AF detection
 - Echocardiogram — LAA thrombus, structural heart disease, PFO
@@ -101,16 +104,17 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 - Symptoms >4.5 hours or unknown onset
 - INR >1.7 or therapeutic anticoagulation
 - Platelet count <100 × 10⁹/L
-- Glucose <2.8 or >22 mmol/L
+- Glucose <50 mg/dL or >396 mg/dL
 - Recent major surgery or serious head trauma (<3 months)
 - Prior haemorrhagic stroke at any time
 - Active internal bleeding
 
 **Mechanical thrombectomy (MT)**:
-- For large vessel occlusion (ICA, MCA M1/M2, basilar artery)
-- Window: up to **24 hours** from onset with CT perfusion imaging confirming viable penumbra (DAWN and DEFUSE-3 trials)
-- Superior to thrombolysis alone for LVO — number needed to treat ~2.5 for independence
-- Can be combined with IV thrombolysis ("bridging therapy")
+- For large vessel occlusion (ICA, MCA M1/M2, basilar artery confirmed on CTA or MRA)
+- Window: up to **24 hours** from onset with CT/MR perfusion imaging confirming viable penumbra (DAWN and DEFUSE-3 trials — selected patients benefit even beyond the conventional window based on mismatch imaging)
+- Superior to thrombolysis alone for LVO — number needed to treat ~2.5 for functional independence at 90 days
+- Can be combined with IV thrombolysis ("bridging therapy") if within thrombolysis window
+- **Wake-up stroke / unknown onset**: If the patient wakes with stroke symptoms or onset time is unknown, MRI FLAIR-DWI mismatch (new DWI lesion with no corresponding FLAIR change, indicating the lesion is <4.5 hours old) supports thrombolysis (WAKE-UP trial). If imaging criteria met, treat as if within the 4.5h window.
 
 **Blood pressure management in acute ischaemic stroke**:
 - Permissive hypertension — do **not** lower BP aggressively in acute ischaemic stroke unless giving thrombolysis. The elevated BP maintains perfusion pressure to the penumbra through collateral vessels; lowering it extends the infarct.
@@ -119,7 +123,7 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 
 **Aspirin 300 mg**: Start within 24–48 hours of confirmed ischaemic stroke (wait 24 hours after thrombolysis to reduce bleeding risk). Continue for 2 weeks then transition to long-term antiplatelet therapy.
 
-**Supportive care**: Maintain normoglycaemia (glucose 4–11 mmol/L), normothermia, adequate hydration, early mobilisation, DVT prophylaxis, swallowing assessment before oral intake (aspiration risk), pressure area care.
+**Supportive care**: Maintain normoglycaemia (glucose 72–198 mg/dL), normothermia, adequate hydration, early mobilisation, DVT prophylaxis, swallowing assessment before oral intake (aspiration risk), pressure area care.
 
 ### Haemorrhagic Stroke Management
 
@@ -149,6 +153,18 @@ Neurological localisation is a core clinical skill. Identifying the vascular ter
 - CAROTID stenting as alternative in patients unsuitable for surgery
 
 **TIA management**: Same secondary prevention as ischaemic stroke. ABCD² score ≥4 or crescendo TIA — same-day specialist review and investigation. Do not discharge without initiating antiplatelet, statin, and BP management.
+
+## Cerebral Venous Thrombosis (CVT)
+
+Thrombosis of the cerebral venous sinuses (superior sagittal sinus most common) or cortical veins. Presents with headache (gradual onset over days, not thunderclap), focal neurological deficits, seizures, and papilloedema. Unlike arterial stroke, symptoms may progress over days. Can cause venous infarction with haemorrhage, paradoxically.
+
+**Risk factors:** Oral contraceptive pill, pregnancy/puerperium, thrombophilia, malignancy, infection (otitis → sigmoid sinus thrombosis = septic CVT), dehydration.
+
+**Diagnosis:** CT may show dense sinus sign or haemorrhagic infarcts in non-arterial distributions. **MRI with MR venography** is the investigation of choice — shows absence of flow in the affected sinus.
+
+**Treatment:** Anticoagulation with LMWH (then warfarin or DOAC) even in the presence of haemorrhagic infarction — the haemorrhage is from venous congestion, and anticoagulation prevents propagation. Most patients recover fully.
+
+---
 
 ## Complications
 

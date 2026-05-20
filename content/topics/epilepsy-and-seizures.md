@@ -5,6 +5,7 @@ scenario: "A 24-year-old woman is brought in by ambulance after collapsing in a 
 sources:
   - NICE NG217
   - ILAE Epilepsy Classification 2017
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -59,7 +60,7 @@ Seizures arise from an imbalance between excitatory (glutamatergic) and inhibito
 - Preserved awareness during apparent bilateral convulsions
 - Normal serum prolactin (rises transiently after tonic-clonic seizures)
 
-**Status epilepticus**: Continuous seizure activity lasting ≥5 minutes, or two or more seizures without full recovery of consciousness between them. A neurological emergency with 10–20% mortality — escalating treatment must begin immediately.
+**Status epilepticus**: Continuous seizure activity lasting ≥5 minutes, or two or more seizures without full recovery of consciousness between them. A neurological emergency with 10–20% mortality — escalating treatment must begin immediately. **Non-convulsive status epilepticus (NCSE)** — persistent altered consciousness or confusion without overt convulsion — is frequently missed; consider EEG in any patient with unexplained prolonged confusion.
 
 ## Diagnosis
 

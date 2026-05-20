@@ -5,6 +5,7 @@ scenario: "A 34-year-old woman presents with three weeks of progressive leg weak
 sources:
   - EAN Guidelines on Guillain-Barré Syndrome 2023
   - EFNS Myasthenia Gravis Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

@@ -5,6 +5,7 @@ scenario: "A 28-year-old woman presents with a 10-day history of progressive pai
 sources:
   - NICE NG220 (Multiple Sclerosis)
   - McDonald Criteria 2017
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -68,7 +69,7 @@ A clinically isolated syndrome (CIS) — a single clinical episode suggestive of
 
 **Visual evoked potentials (VEPs)**: Delayed P100 latency indicates optic nerve demyelination, even when clinically silent — demonstrates dissemination in space.
 
-**Differential diagnosis of CNS white matter lesions:** NMOSD (neuromyelitis optica spectrum disorder — anti-AQP4 or anti-MOG antibodies, longitudinally extensive spinal cord lesions), ADEM (acute disseminated encephalomyelitis — monophasic, post-infectious, children), CNS vasculitis, Susac syndrome, migraine-related white matter changes, CADASIL, B12 deficiency, HIV encephalopathy.
+**Differential diagnosis of CNS white matter lesions:** NMOSD (neuromyelitis optica spectrum disorder — anti-AQP4 or anti-MOG antibodies, longitudinally extensive spinal cord lesions, severe optic neuritis — must be excluded before diagnosing MS as treatment differs), ADEM (acute disseminated encephalomyelitis — monophasic, post-infectious, children), CNS vasculitis, Susac syndrome, migraine-related white matter changes, CADASIL (NOTCH3 mutation, migraine with aura, early stroke, dementia), B12 deficiency (subacute combined degeneration of the cord), HIV encephalopathy. **Anti-AQP4 and anti-MOG antibodies should be checked in all suspected MS** — NMOSD responds to different treatments (not beta-interferon, which can worsen it).
 ## Management
 
 ### Acute Relapse
