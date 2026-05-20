@@ -66,9 +66,11 @@ Inflammatory arthritis occurring in ~30% of patients with psoriasis. Five clinic
 
 Sterile inflammatory arthritis triggered by infection elsewhere, most commonly urogenital (*Chlamydia trachomatis*) or gastrointestinal (*Salmonella*, *Shigella*, *Campylobacter*, *Yersinia*). Presents 1–4 weeks after infection.
 
-**Classic triad** (complete in only ~30%): Arthritis + urethritis/cervicitis + conjunctivitis ("can't see, can't pee, can't climb a tree").
+**Classic triad** (complete in only ~30%): Arthritis + urethritis/cervicitis + conjunctivitis. **FA mnemonic: "can't see, can't pee, can't bend your knee."** The urethritis is sterile — it reflects the immune response to the triggering infection, not active urogenital infection. Treat any identified *Chlamydia* infection, but the arthritis is autoimmune and does not respond to antibiotics.
 
-Additional features: Circinate balanitis (shallow penile ulceration), keratoderma blennorrhagica (hyperkeratotic skin lesions on palms and soles — histologically identical to pustular psoriasis), oral ulcers, enthesitis, dactylitis.
+Additional features: Circinate balanitis (shallow, painless penile ulceration — may be mistaken for syphilis), keratoderma blennorrhagica (hyperkeratotic skin lesions on palms and soles — **histologically identical to pustular psoriasis** — another First Aid high-yield link between these conditions), oral ulcers, enthesitis, dactylitis.
+
+**FA high-yield**: The triad of reactive arthritis following urogenital infection (*Chlamydia*) in a young man = **Reiter's syndrome** (older terminology). The gastrointestinal-triggered form (post-*Salmonella*, *Shigella*, *Campylobacter*, *Yersinia*) affects men and women equally; the urogenital form is predominantly young men (3:1 male predominance). HLA-B27 positive in ~70% of reactive arthritis — predicts more severe and persistent disease.
 
 Most cases self-limit within 3–6 months. Treat with NSAIDs; intra-articular steroids; if persistent >6 weeks, treat like SpA. Treat the triggering infection.
 
@@ -80,6 +82,13 @@ Arthritis occurring in the context of IBD (Crohn's or UC). Two patterns:
 - **Axial arthritis** (sacroiliitis/spondylitis): Independent of bowel disease activity — does not respond to bowel disease treatment; managed as axial SpA
 
 ## Diagnosis
+
+**CASPAR criteria for Psoriatic Arthritis** (≥3 points is diagnostic):
+- Current psoriasis (2 points) or personal/family history of psoriasis (1 point each)
+- Psoriatic nail dystrophy — pitting, onycholysis, hyperkeratosis (1 point)
+- Negative RF (1 point)
+- Dactylitis — current or history (1 point)
+- Radiological: juxta-articular new bone formation, excluding osteophytes (1 point)
 
 **ASAS classification criteria for axial SpA**: Back pain ≥3 months + age <45 + one of:
 - Sacroiliitis on imaging (MRI — bone marrow oedema; or X-ray — erosions, sclerosis, ankylosis) + ≥1 SpA feature

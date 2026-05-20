@@ -32,6 +32,8 @@ Gout results from hyperuricaemia (serum urate >6.0 mg/dL in women, >7.0 mg/dL in
 
 **Why the first MTP joint?** The "podagra" of gout at the hallux MTP reflects the lower temperature at the extremities (cooler temperature reduces urate solubility → lower crystallisation threshold at the feet) and the mechanical trauma and pressure this joint endures.
 
+**FA high-yield — Lesch-Nyhan syndrome**: X-linked recessive deficiency of **HGPRT (hypoxanthine-guanine phosphoribosyl transferase)** — the salvage pathway enzyme that recycles purines. Without HGPRT, purines are degraded to urate → severe hyperuricaemia from childhood. Features: gout (early onset), **self-mutilation behaviour** (biting fingers and lips — pathognomonic), intellectual disability, spasticity, choreoathetosis. Treatment: allopurinol reduces urate but does not correct the neurological features. The FA buzzword is: young male + gout + self-mutilation = Lesch-Nyhan.
+
 ### Clinical Presentation
 
 **Acute gout**: Abrupt onset (often waking from sleep), monoarthritis (first MTP most commonly — "podagra"), escalating to maximum intensity within hours. Exquisite tenderness — the weight of a bedsheet is unbearable. Periarticular erythema, warmth, and swelling. Fever may accompany severe attacks. Resolves spontaneously within 7–14 days.
@@ -83,6 +85,22 @@ Calcium pyrophosphate dihydrate (CPP) crystals deposit in articular cartilage (c
 **Associations**: Hyperparathyroidism, hypothyroidism, haemochromatosis, hypomagnesaemia, hypophosphataemia, Wilson's disease, ageing. Screen for metabolic causes in any patient with CPPD under 55 or with multiple joint involvement.
 
 **Management**: Same as gout for acute attacks — colchicine, NSAIDs, or intra-articular/systemic steroids. No equivalent of ULT — no treatment removes existing CPP deposits. Hydroxychloroquine or methotrexate for recurrent inflammatory CPPD.
+
+### Gout vs Pseudogout — FA Crystal Comparison
+
+| Feature | Gout (MSU) | Pseudogout (CPPD) |
+|---------|-----------|-----------------|
+| Crystal type | Monosodium urate | Calcium pyrophosphate |
+| Shape | Needle-shaped | Rhomboid-shaped |
+| Birefringence | **Negatively birefringent** | **Positively birefringent** |
+| Colour (parallel to compensator) | **Yellow** | **Blue** |
+| Most common joint | First MTP (podagra) | Knee (most common) |
+| X-ray | Rat bite erosions, punched-out lesions | Chondrocalcinosis (menisci, wrist) |
+| Serum marker | Elevated urate | No serum marker |
+| ULT available? | Yes (allopurinol, febuxostat) | No |
+| Metabolic associations | Obesity, alcohol, diuretics, CKD | Hyperparathyroidism, hypothyroidism, haemochromatosis |
+
+**FA mnemonic**: **"N**egative for **G**out" — gout crystals are **N**egatively birefringent. Pseudogout is the **P**ositive one.
 
 ---
 

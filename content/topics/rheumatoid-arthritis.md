@@ -55,7 +55,19 @@ RA is a systemic disease — extra-articular manifestations reflect the same und
 
 ## Diagnosis
 
-RA is a **clinical diagnosis** supported by serology and imaging. The **2010 ACR/EULAR classification criteria** are used in clinical trials; in practice, the diagnosis is made on clinical grounds.
+RA is a **clinical diagnosis** supported by serology and imaging. The **2010 ACR/EULAR classification criteria** — **score ≥6 is diagnostic** (from OHCM):
+
+| Domain | Score |
+|--------|-------|
+| **Joint involvement**: 1 large joint = 0; 2–10 large = 1; 1–3 small = 2; 4–10 small = 3; >10 joints (≥1 small) = 5 | 0–5 |
+| **Serology**: Both negative = 0; Low positive RF or anti-CCP = 2; High positive = 3 | 0–3 |
+| **Acute phase**: Normal CRP and ESR = 0; Abnormal = 1 | 0–1 |
+| **Symptom duration**: <6 weeks = 0; ≥6 weeks = 1 | 0–1 |
+
+**OHCM autoantibody specificity pearls:**
+- **Anti-CCP**: ~96% specific for RA — the single best test for RA diagnosis
+- **RF**: ~70% sensitive but only ~80% specific — also positive in Sjögren's (100%), Felty's syndrome, SLE, infections, elderly normals
+- Seronegative RA (RF and anti-CCP both negative) occurs in ~20% of patients — does not preclude aggressive disease
 
 **Serology**: RF and anti-CCP. A patient with symmetrical polyarthritis who is anti-CCP positive has RA until proven otherwise. RF alone is insufficient — it is too non-specific.
 

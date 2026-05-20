@@ -167,6 +167,47 @@ Tendinopathy at the origin of the extensor carpi radialis brevis from the latera
 ### Plantar Fasciitis
 
 Inflammation at the origin of the plantar fascia at the calcaneus. Severe heel pain on first steps in the morning or after rest ("post-static dyskinesia"). Associated with obesity, flat feet, Achilles tightness, and SpA. Management: stretching programme, orthotic insoles, night splints, corticosteroid injection, shockwave therapy.
+
+### Polymyalgia Rheumatica (PMR)
+
+**First Aid / OHCM high-yield** — an inflammatory condition of middle and elderly age (almost never before 50, peak incidence 70s) characterised by aching and profound stiffness in the shoulder and pelvic girdles.
+
+**Pathophysiology**: Synovitis and bursitis (subacromial and hip bursae) — the pain is periarticular rather than articular. Aetiology is unclear; IL-6 plays a central role. **Strongly associated with giant cell arteritis (GCA) — occurs concurrently in 40–50% of GCA; 15–20% of PMR patients have or develop GCA.** Screen all PMR patients for GCA symptoms (headache, jaw claudication, visual symptoms).
+
+**Clinical features**:
+- Bilateral shoulder and pelvic girdle aching — raising arms above head is painful; difficulty rising from a chair
+- **Profound morning stiffness lasting ≥45 minutes** — often the dominant complaint
+- Constitutional features: fatigue, weight loss, low-grade fever
+- **Strikingly elevated ESR** (often >50 mm/hr, frequently >100) and CRP
+- Normal CK (distinguishes from inflammatory myopathy — in polymyositis, CK is elevated)
+- **No muscle weakness on formal testing** (pain may limit effort but power is preserved — the key distinction from dermatomyositis/polymyositis)
+
+**Diagnosis**: Clinical — no diagnostic test. EULAR/ACR 2012 classification criteria: age ≥50, bilateral shoulder aching, abnormal CRP and/or ESR, plus morning stiffness >45 min, new hip pain/stiffness, negative RF and anti-CCP, and absence of other joint involvement.
+
+**Management**: **Prednisolone 15 mg/day** — dramatic response within 24–48 hours is virtually diagnostic. Failure to respond promptly should prompt reconsideration of the diagnosis (consider inflammatory myopathy, myeloma, occult malignancy). Slow taper over 12–24 months; relapse is common. Methotrexate as steroid-sparing agent. Bone protection mandatory.
+
+**FA buzzword**: Elderly woman + bilateral shoulder/hip girdle stiffness + ESR >100 + dramatic response to 15 mg prednisolone = PMR. If she also has headache and jaw claudication → GCA.
+
+### Fibromyalgia
+
+A central sensitisation syndrome — amplified pain processing without peripheral tissue inflammation. The most common cause of widespread musculoskeletal pain in clinical practice. Affects ~2% of the population; female predominance (7:1). Often co-exists with IBS, chronic fatigue syndrome, migraine, and mood disorders.
+
+**Pathophysiology**: Altered central pain processing — functional neuroimaging shows enhanced activation of pain-processing brain regions in response to stimuli that are not painful in healthy controls. Substance P levels in CSF are elevated; descending inhibitory pathways are impaired. This is not psychosomatic — it is a genuine disorder of pain modulation.
+
+**Clinical features** (ACR 2010 diagnostic criteria):
+- **Widespread pain index (WPI) ≥7** — pain in ≥7 of 19 specified body areas — and symptom severity score ≥5, OR WPI 3–6 plus symptom severity score ≥9
+- Symptoms present for ≥3 months
+- No other disorder that would explain the pain
+- Key associated symptoms: fatigue, unrefreshing sleep, cognitive dysfunction ("fibrofog"), headache, IBS, bladder urgency
+
+**Diagnosis**: Clinical — normal inflammatory markers (ESR, CRP), normal FBC, normal TFTs (exclude hypothyroidism — an important mimic). The absence of objective joint swelling, synovitis, or inflammation distinguishes fibromyalgia from inflammatory arthritis.
+
+**Management**:
+- **Patient education**: Explain central sensitisation — legitimises the diagnosis and empowers self-management
+- **Aerobic exercise**: The single most evidence-based intervention — graded, progressive; improves pain, fatigue, and function
+- **Cognitive behavioural therapy (CBT)**: Addresses maladaptive pain beliefs and coping strategies
+- **Pharmacological** (modest benefit): Duloxetine (SNRI), pregabalin/gabapentin (reduce central sensitisation), amitriptyline low-dose at night (sleep + pain). **Opioids and NSAIDs are not effective** and should be avoided.
+- Sleep hygiene intervention — non-restorative sleep perpetuates central sensitisation
 ## Complications
 
 - **Osteoporotic fractures**: vertebral — chronic pain, kyphosis, restrictive lung disease; hip fracture — 30-day mortality 5-10%, 1-year mortality up to 30%, loss of independence

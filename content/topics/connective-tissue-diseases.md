@@ -76,6 +76,45 @@ SLE can mimic almost any medical condition. The SLICC and ACR/EULAR classificati
 
 **Jaccoud's arthropathy**: Deforming but non-erosive arthritis in SLE — reducible deformities from capsule and tendon laxity (unlike RA where deformities are fixed from structural damage).
 
+**First Aid SLE mnemonic — "SOAP BRAIN MD"** (11 ACR criteria for SLE diagnosis — 4 required):
+- **S**erositis (pleuritis, pericarditis)
+- **O**ral ulcers (painless)
+- **A**rthritis (non-erosive, ≥2 joints)
+- **P**hotosensitivity
+- **B**lood disorders (haemolytic anaemia, leucopaenia, thrombocytopaenia)
+- **R**enal (proteinuria >500 mg/day or cellular casts)
+- **A**NA positive
+- **I**mmunological (anti-dsDNA, anti-Smith, antiphospholipid)
+- **N**eurological (seizures, psychosis)
+- **M**alar rash (butterfly rash, spares nasolabial folds)
+- **D**iscoid rash
+
+### Drug-Induced Lupus (DIL)
+
+**First Aid high-yield** — a distinct entity from idiopathic SLE.
+
+**Mechanism**: Certain drugs cause histone modifications → immune recognition of histone-DNA complexes → anti-histone antibodies → lupus-like syndrome.
+
+**Key culprit drugs — FA mnemonic "HIPP"**:
+- **H**ydralazine (most common cause)
+- **I**soniazid
+- **P**rocainamide (highest risk if taking daily — ~50% develop antibodies)
+- **P**henytoin
+Also: minocycline, methyldopa, quinidine, chlorpromazine, TNF inhibitors
+
+**Features of drug-induced lupus vs SLE:**
+| Feature | Drug-Induced Lupus | Idiopathic SLE |
+|---------|------------------|----------------|
+| Anti-histone Ab | **>95% positive** | ~70% |
+| Anti-dsDNA | Rare (important to check) | ~70% (specific for SLE) |
+| Anti-Smith | Absent | ~25% |
+| Complement | Normal | Decreased (active disease) |
+| Renal/CNS | Very rare | Common |
+| Sex ratio | More equal | F:M = 9:1 |
+| Resolves when drug stopped | Yes | No |
+
+**Management**: Stop the offending drug → symptoms typically resolve within weeks to months; anti-histone antibodies may persist longer. Short courses of NSAIDs or steroids for symptom relief during resolution.
+
 ## Diagnosis
 
 ### Autoantibody Profile — The Rheumatology Cheat Sheet
