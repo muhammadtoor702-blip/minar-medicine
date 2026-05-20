@@ -5,6 +5,7 @@ scenario: "A 58-year-old man with AML on chemotherapy presents on day 12 post-cy
 sources:
   - IDSA Febrile Neutropenia Guidelines 2023
   - NICE NG143 (Neutropenic Sepsis)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

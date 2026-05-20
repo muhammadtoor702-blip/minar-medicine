@@ -5,6 +5,7 @@ scenario: "A 19-year-old university student is brought in by ambulance with a 12
 sources:
   - NICE NG240 (Meningitis)
   - UK Meningitis Research Foundation Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -61,8 +62,8 @@ The **classic triad** of bacterial meningitis — headache, fever, and neck stif
 |-----------|--------|---------|-------|----------|
 | Appearance | Clear | Turbid/cloudy | Clear | Clear/turbid |
 | White cells | <5/mm³ | Thousands (neutrophils) | Hundreds (lymphocytes) | Hundreds (lymphocytes) |
-| Protein | <0.45 g/L | Very high (>1 g/L) | Mildly elevated | Elevated |
-| Glucose | >2/3 serum | Very low (<2 mmol/L or <50% serum) | Normal/mildly low | Low |
+| Protein | <45 mg/dL | Very high (>100 mg/dL) | Mildly elevated | Elevated |
+| Glucose | >2/3 serum | Very low (<36 mg/dL or <50% serum) | Normal/mildly low | Low |
 | Gram stain | Negative | Positive in ~60% | Negative | AFB in TB |
 | Culture | Negative | Positive (if no prior antibiotics) | Negative | Weeks for TB |
 

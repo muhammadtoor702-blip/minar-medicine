@@ -5,6 +5,7 @@ scenario: "A 28-year-old man presents with a four-day history of high-grade feve
 sources:
   - WHO Malaria Guidelines 2023
   - PHE Imported Fever Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -46,7 +47,7 @@ Fever (with or without classic cyclical periodicity), rigors, profuse sweating, 
 
 **Severe falciparum malaria** (WHO criteria — any ONE of):
 - Cerebral malaria — impaired consciousness, seizures, coma
-- Severe anaemia (Hb <70 g/L)
+- Severe anaemia (Hb <7.0 g/dL)
 - Respiratory distress / ARDS
 - Circulatory collapse / septic shock
 - Acute kidney injury

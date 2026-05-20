@@ -5,6 +5,7 @@ scenario: "A 78-year-old care home resident is admitted with confusion and falls
 sources:
   - NICE NG15 (Antimicrobial Stewardship)
   - UK Government AMR National Action Plan 2024
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

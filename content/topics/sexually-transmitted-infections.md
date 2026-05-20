@@ -5,6 +5,7 @@ scenario: "A 22-year-old woman attends a sexual health clinic with a two-week hi
 sources:
   - BASHH Guidelines 2023
   - WHO STI Guidelines 2021
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

@@ -5,6 +5,7 @@ scenario: "A 34-year-old man presents with a four-week history of fever, drenchi
 sources:
   - BHIVA HIV Treatment Guidelines 2023
   - WHO HIV Guidelines 2021
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -36,7 +37,7 @@ Occurs 2–6 weeks after transmission. A mononucleosis-like syndrome: fever, pha
 
 **CD4 <200:**
 
-**Pneumocystis jirovecii pneumonia (PCP)** — most common AIDS-defining illness in developed countries. Insidious onset progressive dyspnoea, dry cough, and fever over weeks. CXR: bilateral perihilar ground-glass infiltrates (can be normal early). LDH elevated — a sensitive but non-specific marker of severity. PaO₂ often severely reduced. Diagnosis: induced sputum or BAL with Grocott (GMS) stain. Treatment: high-dose co-trimoxazole (TMP-SMX) for 21 days. Add prednisolone if PaO₂ <9.3 kPa (reduces mortality).
+**Pneumocystis jirovecii pneumonia (PCP)** — most common AIDS-defining illness in developed countries. Insidious onset progressive dyspnoea, dry cough, and fever over weeks. CXR: bilateral perihilar ground-glass infiltrates (can be normal early). LDH elevated — a sensitive but non-specific marker of severity. PaO₂ often severely reduced. Diagnosis: induced sputum or BAL with Grocott (GMS) stain. Treatment: high-dose co-trimoxazole (TMP-SMX) for 21 days. Add prednisolone if PaO₂ <70 mmHg (reduces mortality).
 
 **CD4 <100:**
 
