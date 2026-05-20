@@ -6,6 +6,7 @@ sources:
   - BHIVA HIV Treatment Guidelines 2023
   - WHO HIV Guidelines 2021
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -52,6 +53,26 @@ Occurs 2–6 weeks after transmission. A mononucleosis-like syndrome: fever, pha
 **Mycobacterium avium complex (MAC)** — disseminated disease with fever, night sweats, weight loss, diarrhoea, hepatosplenomegaly, and markedly elevated ALP. Blood cultures in specific mycobacterial bottles. Treatment: clarithromycin + ethambutol ± rifabutin.
 
 **Other AIDS-defining illnesses**: Oesophageal candidiasis (odynophagia — distinct from oral thrush), Kaposi's sarcoma (HHV-8 — violaceous skin lesions), CNS lymphoma (primary — single or multiple ring-enhancing lesions, solitary, in contrast to toxoplasmosis which is usually multiple), Wasting syndrome, HIV encephalopathy.
+
+### AIDS-Defining Conditions — Complete List (First Aid High-Yield)
+
+CDC-defined conditions that diagnose AIDS regardless of CD4 count (the presence of any one = AIDS):
+
+| Category | Conditions |
+|---------|-----------|
+| **Infections** | PCP (*Pneumocystis jirovecii* pneumonia), Toxoplasmosis of brain, Cryptococcosis (extrapulmonary), CMV disease (other than liver/spleen/nodes), CMV retinitis, Histoplasmosis (disseminated/extrapulmonary), Coccidioidomycosis (disseminated), MAC (disseminated or extrapulmonary), TB (pulmonary or extrapulmonary), Recurrent bacterial pneumonia (≥2 episodes/year), Recurrent *Salmonella* septicaemia, Chronic intestinal cryptosporidiosis (>1 month), Chronic isosporiasis (>1 month), Chronic mucocutaneous HSV (>1 month or bronchitis/oesophagitis/pneumonitis) |
+| **Malignancies** | Kaposi's sarcoma (HHV-8), Burkitt's lymphoma (or equivalent term), Immunoblastic lymphoma (or equivalent), Primary CNS lymphoma (Epstein-Barr associated), Invasive cervical cancer |
+| **Other** | HIV encephalopathy (AIDS dementia complex), Progressive multifocal leukoencephalopathy (PML — JC virus), HIV wasting syndrome (>10% body weight loss + chronic diarrhoea or fever), Oesophageal candidiasis |
+
+**FA buzzwords by CD4 threshold:**
+- **CD4 <500**: Oral candidiasis (thrush), hairy leukoplakia (EBV — on lateral tongue; doesn't scrape off unlike candida), seborrhoeic dermatitis, VZV reactivation, recurrent herpes, CIN/cervical dysplasia
+- **CD4 <200**: PCP → start prophylaxis at this threshold (co-trimoxazole)
+- **CD4 <100**: Toxoplasmosis, cryptococcal meningitis (from pigeon droppings — *Cryptococcus* encapsulated by India ink)
+- **CD4 <50**: CMV retinitis, disseminated MAC (fever + night sweats + weight loss + elevated ALP + anaemia), PML (JC virus — progressive neurological decline, white matter lesions, no mass effect, no enhancement)
+
+**Kaposi's sarcoma (KS)**: HHV-8 (Human Herpesvirus 8). Violaceous (purple-red), non-tender, non-pruritic plaques/nodules on the skin, mucous membranes, and viscera. KS is the most common AIDS-associated malignancy. Treatment: local therapies for limited disease; systemic pegylated liposomal doxorubicin; control depends critically on ART — immune reconstitution often causes KS regression.
+
+**Hairy leukoplakia**: White, corrugated (hairy) lesion on the lateral border of the tongue — EBV-driven. Unlike oral candidiasis, **cannot be scraped off**. Not premalignant. Resolves with ART.
 
 ## Diagnosis
 

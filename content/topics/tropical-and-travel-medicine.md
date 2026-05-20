@@ -6,6 +6,7 @@ sources:
   - WHO Malaria Guidelines 2023
   - PHE Imported Fever Guidelines
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -125,6 +126,49 @@ Vector control: DEET repellent, permethrin-treated clothing, sleeping under inse
 **Diagnosis**: NS1 antigen (positive days 1–5), dengue IgM/IgG serology, PCR.
 
 **Management**: Supportive — oral rehydration, antipyretics (paracetamol only — **avoid NSAIDs and aspirin**: worsen bleeding). IV fluids for dengue with warning signs. Platelet transfusion only for severe bleeding.
+
+---
+
+## Leptospirosis (Weil's Disease)
+
+**OHCM high-yield** — a spirochaetal zoonosis caused by *Leptospira interrogans*. Transmitted via contact with water or soil contaminated by infected animal urine (rats, cattle, pigs). Occupational risk: farmers, sewage workers, water sport participants.
+
+**Biphasic presentation** (classic pattern):
+1. **Leptospiraemic phase** (days 1–7): Abrupt fever, severe headache, myalgia (especially calf muscles), conjunctival suffusion (redness without discharge — characteristic), rigors. Subsides after ~1 week.
+2. **Immune/leptospiruric phase** (days 7–14): Either recovery, or progression in ~10% to severe disease (Weil's disease):
+   - **Jaundice** (hepatic involvement — cholestatic)
+   - **AKI** (oliguric renal failure — tubular necrosis)
+   - **Uveitis** (can persist for months after acute illness)
+   - **Meningitis** (aseptic — CSF lymphocytosis)
+   - **Pulmonary haemorrhage** + ARDS (rare but ~40% mortality)
+   - Thrombocytopaenia, elevated CK
+
+**Diagnosis**: Serology (MAT — microscopic agglutination test — reference standard; paired titres); PCR (blood in first week, urine in second week); blood cultures in first week.
+
+**Treatment**: Mild disease — oral doxycycline 100 mg BD or azithromycin. Severe disease — IV benzylpenicillin or IV ceftriaxone for 7 days. **Always ask about water/animal exposure in any febrile patient with jaundice + AKI + conjunctival suffusion.**
+
+---
+
+## Schistosomiasis (Bilharzia)
+
+Blood flukes (*Schistosoma* species) transmitted via penetration of skin during freshwater contact. ~240 million people infected worldwide — second most prevalent parasitic disease after malaria. The UK sees cases from Africa (Lake Malawi, Nile), Brazil, and the Middle East.
+
+**Three main species:**
+- *S. haematobium*: Urogenital disease (Africa, Middle East)
+- *S. mansoni*: Intestinal and hepatic disease (Africa, South America)
+- *S. japonicum*: Hepatic and intestinal disease (East Asia — most severe)
+
+**Clinical phases:**
+1. **Swimmer's itch** (cercarial penetration): Pruritic papular rash at the site of penetration — hours to days after exposure
+2. **Katayama fever** (4–8 weeks post-exposure — immune complex response to migrating schistosomules): Fever, urticaria, cough, wheeze, diarrhoea, hepatosplenomegaly, **eosinophilia** (very high eosinophil count is the key laboratory clue)
+3. **Chronic disease** (months to years — from egg deposition):
+   - *S. haematobium*: Haematuria (painless — key symptom), dysuria, squamous cell carcinoma of the bladder (chronic mucosal inflammation → SCC — not TCC)
+   - *S. mansoni/japonicum*: Portal hypertension, oesophageal varices, hepatosplenomegaly, Salmonella co-infection (Salmonella persists in schistosomal gut)
+   - CNS: Transverse myelitis (cord compression from ectopic egg deposition in spine)
+
+**Diagnosis**: Stool ova (all species except haematobium); urine ova for *S. haematobium* (terminal urine specimen at midday — highest egg concentration); serology (positive 6–8 weeks post-exposure — may be negative in Katayama fever); **eosinophilia on FBC is a strong clue**.
+
+**Treatment**: **Praziquantel 40 mg/kg** as a single dose (or two doses 4 hours apart for *S. japonicum*). Highly effective. For Katayama fever — steroids to reduce immune complex inflammation while waiting for praziquantel to take effect.
 
 ---
 

@@ -6,6 +6,7 @@ sources:
   - NICE NG33
   - WHO TB Guidelines 2022
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

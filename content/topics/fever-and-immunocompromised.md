@@ -6,6 +6,7 @@ sources:
   - IDSA Febrile Neutropenia Guidelines 2023
   - NICE NG143 (Neutropenic Sepsis)
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

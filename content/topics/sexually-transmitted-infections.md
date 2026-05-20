@@ -6,6 +6,7 @@ sources:
   - BASHH Guidelines 2023
   - WHO STI Guidelines 2021
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -104,6 +105,40 @@ NAAT — most sensitive. Culture required for antibiotic sensitivity testing. Gr
 **Penicillin allergy**: Doxycycline 100 mg BD for 14 days (not for neurosyphilis or pregnancy).
 
 **Jarisch-Herxheimer reaction**: Fever, rigors, and worsening of rash within 8–12 hours of first antibiotic dose — from rapid spirochaete lysis and cytokine release. Manage with paracetamol and reassurance. Warn patients before treatment.
+
+---
+
+## Bacterial Vaginosis (BV)
+
+**First Aid high-yield** — the most common cause of vaginal discharge in women of reproductive age. **Not sexually transmitted** — BV results from an imbalance in vaginal flora, with overgrowth of anaerobic bacteria (*Gardnerella vaginalis*, *Mobiluncus*, *Mycoplasma hominis*) replacing the normal lactobacillus-dominant flora.
+
+**Clinical features**: Thin, grey-white homogeneous discharge with a **characteristic "fishy" odour** (amine odour — released by anaerobic metabolism of vaginal amines, especially after sex with ejaculation → alkaline pH volatilises amines). Mild to no vulvovaginal irritation (unlike trichomonas or candida which cause significant irritation/inflammation).
+
+**Amsel criteria** (3 of 4 required for diagnosis):
+1. Homogeneous, thin, grey-white adherent discharge
+2. Vaginal pH >4.5 (normally <4.5 with lactobacilli — BV flora raises pH)
+3. **Positive whiff test**: Fishy odour with addition of 10% KOH to discharge
+4. **Clue cells** on microscopy: Vaginal epithelial cells coated with bacteria (stippled appearance — "clue cells") — most specific finding
+
+**Treatment**: **Metronidazole 400 mg BD for 7 days** (or 2 g single dose — lower efficacy) or metronidazole 0.75% vaginal gel. Clindamycin 2% vaginal cream alternative. No treatment required for asymptomatic BV except in pregnancy (associated with preterm labour and late miscarriage — treat all pregnant women with BV).
+
+**FA buzzword**: Thin grey discharge + fishy smell + pH >4.5 + clue cells + no inflammation = BV. Contrast with:
+- **Candida**: Thick white "cottage cheese" discharge + intense vulvovaginal pruritus + no odour + pH normal
+- **Trichomonas**: Frothy, yellow-green discharge + "strawberry cervix" + motile flagellated protozoa on wet mount
+
+---
+
+## Trichomonas Vaginalis
+
+**First Aid high-yield** — a flagellated protozoan (*Trichomonas vaginalis*). An STI — the most common non-viral STI globally. Often asymptomatic in men; symptomatic in ~50% of women.
+
+**Clinical features:**
+- **Women**: Frothy, yellow-green, malodorous vaginal discharge; vulvovaginal soreness and pruritus; dysuria; **"strawberry cervix"** (punctate haemorrhages on the cervix — pathognomonic but seen in <30% of cases)
+- **Men**: Usually asymptomatic; can cause urethritis (clear discharge, dysuria); rarely symptomatic prostatitis
+
+**Diagnosis**: **Wet mount microscopy** — motile, pear-shaped, flagellated protozoa (sensitivity ~60–70%). NAAT is now the gold standard (sensitivity >95%). Vaginal pH elevated (>4.5).
+
+**Treatment**: **Metronidazole 2 g single dose** (patient and partner simultaneously) — or 400 mg BD for 5–7 days if single-dose fails. Avoid alcohol for 48 hours after metronidazole (disulfiram-like reaction). **Partner treatment is essential** — reinfection is the primary cause of treatment failure. Screen for other STIs (high co-infection rate with BV and other STIs).
 
 ---
 

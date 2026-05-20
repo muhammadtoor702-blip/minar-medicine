@@ -6,6 +6,7 @@ sources:
   - NICE NG15 (Antimicrobial Stewardship)
   - UK Government AMR National Action Plan 2024
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -87,6 +88,13 @@ Once blood or tissue culture results are available, de-escalate to the narrowest
 ---
 
 ## Drug-Specific Stewardship Points
+
+**MRSA treatment — First Aid high-yield**:
+- **Vancomycin** IV — first-line for serious MRSA infections (bacteraemia, endocarditis, pneumonia, bone/joint). Monitor trough levels (target AUC/MIC ≥400) — nephrotoxic, especially with aminoglycosides. Vancomycin inhibits cell wall synthesis by binding to D-Ala-D-Ala terminus — MRSA does not inherently resist vancomycin.
+- **Daptomycin** — lipopeptide, active against Gram-positive organisms including MRSA. Preferred for MRSA bacteraemia (non-inferior to vancomycin; less renal toxicity). **NOT for MRSA pneumonia** — daptomycin is inactivated by pulmonary surfactant.
+- **Linezolid** — oxazolidinone, inhibits 50S ribosomal initiation. Active against MRSA and VRE. Excellent oral bioavailability (oral = IV). Avoid with SSRIs (serotonin syndrome) and MAOIs. Side effects: myelosuppression (monitor FBC if >2 weeks), optic neuropathy.
+- **Teicoplanin/telavancin** — glycopeptides; alternatives to vancomycin for MRSA.
+- **Decolonisation** (MRSA carriage): Mupirocin nasal ointment + chlorhexidine washes for 5 days — before elective surgery if MRSA-positive.
 
 **Fluoroquinolones (ciprofloxacin, levofloxacin):** Excellent broad-spectrum activity and oral bioavailability. However, they are associated with *C. difficile*, tendon rupture (particularly Achilles, especially in elderly and on corticosteroids), peripheral neuropathy (potentially irreversible), aortic aneurysm/dissection, and CNS effects. MHRA 2019 safety review restricted their use: only when no alternative exists. Do not use for simple UTI, sore throat, or LRTI as first-line.
 

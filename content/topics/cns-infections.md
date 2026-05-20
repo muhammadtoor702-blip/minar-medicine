@@ -6,6 +6,7 @@ sources:
   - NICE NG240 (Meningitis)
   - UK Meningitis Research Foundation Guidelines
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
