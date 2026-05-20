@@ -1,130 +1,179 @@
 ---
 title: Glomerular Disease
 system: Nephrology
-scenario: "A 7-year-old boy is brought in with periorbital and leg swelling that his parents noticed one week ago. He has no haematuria. BP is 90/58 mmHg. Urinalysis shows 4+ protein and no blood. Albumin 12 g/L, total cholesterol 9.1 mmol/L, urine is frothy. His urine ACR is markedly elevated."
+scenario: "A 7-year-old boy is brought in with periorbital and leg swelling that his parents noticed one week ago. He has no haematuria. BP is 90/58 mmHg. Urinalysis shows 4+ protein and no blood. Albumin 1.2 g/dL, total cholesterol 352 mg/dL, urine is frothy. His urine ACR is markedly elevated."
 sources:
   - KDIGO Glomerulonephritis Guidelines 2021
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
 
-Glomerular diseases are a heterogeneous group of conditions characterised by inflammation or structural injury to the glomerulus — the filtering unit of the nephron. They present through two distinct clinical syndromes — nephrotic and nephritic — each reflecting different patterns of glomerular injury. Identifying the syndrome is the first step; determining the underlying histological diagnosis directs specific treatment.
+Glomerular diseases are a heterogeneous group of conditions characterised by inflammation or structural injury to the glomerulus — the nephron's filtering unit. They present through two distinct clinical syndromes — **nephrotic** and **nephritic** — each reflecting different patterns of glomerular injury. Identifying the syndrome is the first step; determining the underlying histological diagnosis directs specific treatment. In this child, the classic features of nephrotic syndrome — periorbital oedema, massive proteinuria, hypoalbuminaemia, hypercholesterolaemia, and absence of haematuria — point to minimal change disease, the most common cause in children under 8.
+
+---
 
 ## Pathophysiology
 
-The glomerulus consists of three filtration barriers: fenestrated endothelial cells, the glomerular basement membrane (GBM), and podocytes (specialised epithelial cells with foot processes). Charge and size selectivity are maintained by heparan sulphate proteoglycans in the GBM and the intact slit diaphragm between podocyte foot processes.
+The glomerulus filters 180 L/day of plasma through three barriers: fenestrated endothelial cells, the glomerular basement membrane (GBM), and podocytes (specialised epithelial cells with interdigitating foot processes). The slit diaphragm between podocyte foot processes and heparan sulphate proteoglycans in the GBM provide charge and size selectivity, repelling anionic proteins such as albumin.
 
-**Nephrotic syndrome** results from loss of the charge barrier or podocyte injury, allowing albumin to pass through the GBM into the filtrate. Massive proteinuria (>3.5 g/24 hours) leads to hypoalbuminaemia, which reduces plasma oncotic pressure, causing fluid to shift into the interstitium — producing oedema. The liver compensates by increasing lipoprotein synthesis, causing hyperlipidaemia. Lipoprotein and lipid in the urine produce the characteristic frothy appearance.
+**Nephrotic syndrome** results from loss of the charge barrier or podocyte injury, allowing albumin to pass through the GBM into the filtrate. Massive proteinuria (>3.5 g/24 hours) leads to hypoalbuminaemia, which reduces plasma oncotic pressure, causing fluid to shift into the interstitium (oedema). The liver compensates by increasing lipoprotein synthesis → hyperlipidaemia. Lipoprotein and lipid spilling into the urine produce frothy urine. Loss of antithrombin III, protein C, and protein S in the urine — combined with increased hepatic synthesis of clotting factors and increased platelet aggregability — creates a prothrombotic state. This explains the high risk of renal vein thrombosis and pulmonary embolism.
 
-**Nephritic syndrome** results from inflammatory disruption of the GBM — immune complex deposition or anti-GBM antibodies cause complement activation, inflammatory cell influx, and destruction of the glomerular architecture. RBCs leak through the damaged basement membrane (haematuria with dysmorphic RBCs and RBC casts), protein leaks in moderate amounts, and sodium and water retention causes hypertension and oedema.
+**Nephritic syndrome** results from inflammatory disruption of the GBM — immune complex deposition or anti-GBM antibodies cause complement activation, inflammatory cell influx, and architectural destruction. RBCs leak through the damaged basement membrane (haematuria with dysmorphic RBCs and RBC casts), protein leaks in moderate amounts, and sodium and water retention causes hypertension and oedema. GFR falls as inflammation impairs filtration.
 
 **Distinguishing the syndromes:**
 
 | Feature | Nephrotic | Nephritic |
 |---------|----------|---------|
-| Proteinuria | Massive (>3.5 g/24h) | Mild–moderate |
-| Haematuria | Absent | Present (RBC casts) |
-| Blood pressure | Normal or low | Hypertensive |
-| Oedema | Prominent (periorbital, peripheral) | Mild |
-| Albumin | Low (<30 g/L) | Normal or mildly low |
-| GFR | Often preserved initially | Often reduced |
+| Proteinuria | Massive (>3.5 g/24h) | Mild–moderate (<3.5 g/24h) |
+| Haematuria | Absent | Present — dysmorphic RBCs, RBC casts |
+| Blood pressure | Normal or low (low oncotic pressure) | Hypertension (Na/water retention) |
+| Oedema | Prominent — periorbital (worse in morning), peripheral, ascites | Mild |
+| Albumin | Low (<3.0 g/dL) | Normal or mildly reduced |
+| GFR | Often preserved initially | Often reduced (active inflammation) |
+| Complement | Normal (except MPGN, lupus) | Low (PSGN, lupus, MPGN) |
 
-## Nephrotic Syndrome — Causes and Distinguishing Features
+---
 
-**Minimal change disease (MCD):**
+## Nephrotic Syndrome — Causes and Features
 
-The most common cause of nephrotic syndrome in children under 8 years. On light microscopy, the glomeruli appear entirely normal. Electron microscopy reveals diffuse **effacement (fusion) of podocyte foot processes** — the only abnormality. There is no immune complex deposition on immunofluorescence. The pathogenesis involves T-cell dysfunction producing a circulating factor that injures podocytes.
+### Minimal Change Disease (MCD)
 
-Presentation is classic nephrotic syndrome: periorbital oedema (worst in the morning), peripheral oedema, frothy urine, marked hypoalbuminaemia, and hypercholesterolaemia. Blood pressure is typically normal or low. Haematuria is absent.
+The most common cause of nephrotic syndrome in children under 8. On light microscopy, the glomeruli appear entirely normal. Electron microscopy reveals **diffuse effacement (fusion) of podocyte foot processes** — the only structural abnormality. Immunofluorescence is negative (no immune complex deposition). The pathogenesis involves T-cell dysfunction producing a circulating permeability factor that injures podocytes — the identity of this factor remains elusive.
 
-MCD responds dramatically to corticosteroids — >90% achieve complete remission within 4–8 weeks of prednisolone. In adults, MCD is associated with NSAIDs and Hodgkin lymphoma.
+Presentation is classic nephrotic syndrome: periorbital oedema (worst in the morning — positional fluid shifts during sleep), peripheral oedema, frothy urine, marked hypoalbuminaemia, and hypercholesterolaemia. Blood pressure is typically normal or low. Haematuria is absent. MCD does not affect complement levels.
 
-**Focal segmental glomerulosclerosis (FSGS):**
+**Treatment:** Prednisolone 2 mg/kg/day (max 60 mg/day). >90% of children achieve complete remission within 4–8 weeks. Adults respond more slowly (~75% remission at 16 weeks). Frequent relapsers require cyclophosphamide, ciclosporin, or mycophenolate mofetil.
 
-Segmental scarring affecting some (focal) glomeruli in only part of the glomerular tuft (segmental). It is the most common cause of primary nephrotic syndrome in adults and the leading glomerular cause of ESRD in the Western world.
+In **adults**, MCD is associated with NSAIDs (direct podocyte toxicity) and **Hodgkin lymphoma** (lymphocyte-derived permeability factor) — always screen for lymphadenopathy and perform CXR in adult-onset MCD.
 
-Primary FSGS involves circulating podocyte permeability factors. Secondary causes include HIV, heroin use, severe obesity, sickle cell disease, and reflux nephropathy. Genetic mutations in podocyte proteins (NPHS1, NPHS2, WT1) cause inherited FSGS in children.
+### Focal Segmental Glomerulosclerosis (FSGS)
 
-Steroid resistance is common (~50%). Management involves ACEi/ARB for proteinuria reduction; ciclosporin or tacrolimus for steroid-resistant cases.
+Segmental scarring affecting **some** (focal) glomeruli in only **part** of the glomerular tuft (segmental). The most common cause of primary nephrotic syndrome in adults and the leading glomerular cause of ESRD in the Western world.
 
-**Membranous nephropathy:**
+Primary FSGS involves circulating podocyte permeability factors (suPAR — soluble urokinase-type plasminogen activator receptor). Secondary causes: **HIV** (collapsing variant — highly aggressive), heroin use, severe obesity, sickle cell disease, unilateral renal agenesis, reflux nephropathy, and any cause of nephron reduction causing adaptive hyperfiltration injury.
 
-The most common cause of primary nephrotic syndrome in adults aged 40–60. Characterised by subepithelial immune complex deposits producing the "spike and dome" appearance on electron microscopy (spikes = GBM projections between deposits).
+Steroid resistance is common (~50%). Treatment: ACEi/ARB to reduce proteinuria; ciclosporin or tacrolimus for steroid-resistant FSGS; rituximab in refractory cases.
 
-**Anti-PLA2R antibodies** (anti-phospholipase A2 receptor) are present in ~70–80% of primary membranous nephropathy cases — highly specific and now used for diagnosis (reducing the need for biopsy in classic presentations), monitoring, and predicting relapse.
+### Membranous Nephropathy
 
-Secondary causes: malignancy (lung, colon, breast — always screen for occult cancer in adults with membranous nephropathy, especially >50 years), hepatitis B, SLE, drugs (gold, penicillamine, NSAIDs).
+The most common cause of primary nephrotic syndrome in adults aged 40–60. Characterised by **subepithelial immune complex deposits** producing the "spike and dome" appearance on electron microscopy (spikes = GBM projections between the immune complex domes).
 
-One-third undergo spontaneous remission. Treatment for progressive disease: **rituximab** (anti-CD20) is now first-line over cyclophosphamide-based regimens (MENTOR trial).
+**Anti-PLA2R antibodies** (anti-phospholipase A2 receptor) are present in ~70–80% of primary membranous nephropathy — highly specific. Anti-PLA2R testing has transformed the diagnosis:
+- A positive titre in a patient with classic nephrotic syndrome and no secondary cause **effectively confirms primary membranous nephropathy** — reducing the need for biopsy in many cases
+- Titre correlates with disease activity — falling titre predicts remission, rising titre predicts relapse
+- Persistent high titre despite treatment predicts progression
 
-**Diabetic nephropathy:**
+Secondary causes of membranous: **malignancy** (lung, colon, breast — always screen for occult cancer in adults >50 with membranous nephropathy; ~20% have underlying malignancy), **hepatitis B** (anti-HBs in deposits), **SLE** (lupus nephritis class V), drugs (gold, penicillamine, NSAIDs, captopril).
 
-Most common cause of ESRD worldwide. The earliest change is microalbuminuria (ACR >3 mg/mmol) due to glomerular hyperfiltration and mesangial expansion. Pathologically, the Kimmelstiel-Wilson nodule — nodular mesangial expansion — is pathognomonic on histology. Management: ACEi/ARB + SGLT2 inhibitor + glycaemic and BP control.
+**Rule of thirds**: one-third undergo spontaneous remission; one-third stable proteinuria; one-third progress to ESRD. Treatment for progressive disease: **rituximab** (anti-CD20 depletes B-cells producing PLA2R antibody) is now **first-line over cyclophosphamide/steroids** (MENTOR trial: rituximab non-inferior at 24 months with better safety profile). Anti-PLA2R titre-guided retreatment is emerging.
 
-## Nephritic Syndrome — Causes and Distinguishing Features
+**Thromboembolism risk** is highest in membranous nephropathy — consider prophylactic anticoagulation when albumin <2.5 g/dL due to urinary loss of antithrombin III, protein C, and protein S. Renal vein thrombosis (flank pain, haematuria, deteriorating renal function) should be suspected in any patient with membranous nephropathy and sudden clinical deterioration.
 
-**IgA nephropathy (Berger's disease):**
+### Diabetic Nephropathy
 
-The most common glomerulonephritis worldwide. Characterised by IgA immune complex deposition in the glomerular mesangium. Presents with **episodic macroscopic haematuria occurring 1–3 days after an upper respiratory tract infection or exercise** (synpharyngitic haematuria — concurrent with the infection, not 2–3 weeks later as in PSGN). May also cause asymptomatic persistent microscopic haematuria with proteinuria.
+The most common cause of ESRD worldwide. Earliest change: microalbuminuria (urine ACR >3 mg/mmol) from glomerular hyperfiltration and mesangial expansion. The **Kimmelstiel-Wilson nodule** — nodular mesangial expansion with hyaline material — is the **pathognomonic lesion** on light microscopy (PAS stain). Associated findings: glomerular basement membrane thickening, efferent arteriolar hyalinosis (more specific than afferent). Management: ACEi/ARB + SGLT2 inhibitor + finerenone (in proteinuric diabetic CKD) + glycaemic and BP control.
 
-Prognosis varies — 20–30% progress to ESRD over 20 years. Complement levels are normal. Management: ACEi/ARB for proteinuria, fish oil, and steroids for progressive disease with heavy proteinuria.
+---
 
-**Post-streptococcal glomerulonephritis (PSGN):**
+## Nephritic Syndrome — Causes and Features
 
-Classic childhood presentation following Group A beta-haemolytic streptococcal infection (pharyngitis or skin infection) by **2–3 weeks** — the latent period allows time for immune complex formation. Features: haematuria (cola-coloured urine), periorbital oedema, hypertension, oliguria, elevated ASOT (anti-streptolysin O) titre.
+### IgA Nephropathy (Berger's Disease)
 
-Complement: **low C3, normal C4** (alternative pathway activation). Immunofluorescence shows granular "starry sky" deposits of IgG and C3. Generally self-limiting in children; worse prognosis in adults and elderly.
+The most common glomerulonephritis worldwide. **Aberrantly glycosylated IgA1** is produced in excess, forms immune complexes, and deposits in the **glomerular mesangium** — activating complement (alternative and lectin pathways) and mesangial cells.
 
-**Anti-GBM disease (Goodpasture's syndrome):**
+Classic presentation: **episodic macroscopic haematuria occurring 1–3 days after an upper respiratory tract infection or exercise** (synpharyngitic haematuria — concurrent with the infection). Between episodes, persistent microscopic haematuria ± proteinuria. The timing is critical: IgA nephropathy presents **during** the URTI; PSGN presents **2–3 weeks after** — the distinction is made from the history.
 
-Autoantibodies against **type IV collagen** in the GBM (and alveolar basement membrane) cause rapidly progressive GN and pulmonary haemorrhage. Young men (pulmonary haemorrhage dominant) and elderly (renal failure dominant).
+Complement levels are **normal** (a useful distinguishing feature). Diagnosis confirmed by renal biopsy showing mesangial IgA deposits on immunofluorescence.
 
-Immunofluorescence shows **linear IgG deposition** along the GBM — the pattern is distinctive from the granular deposits of immune complex disease. Treatment: urgent plasmapheresis (to remove circulating antibodies) + cyclophosphamide + steroids. Without treatment, progression to dialysis-dependent renal failure occurs within days to weeks.
+Prognosis varies: 20–30% progress to ESRD over 20 years. High-risk features: proteinuria >1 g/day, hypertension, eGFR <60, crescents on biopsy. Management: ACEi/ARB to reduce proteinuria; fish oil (modest benefit); targeted corticosteroids for high-risk progressive disease; **sparsentan** (combined endothelin + angiotensin receptor antagonist — PROTECT trial: significant proteinuria reduction) and **targeted-release budesonide** (Nefecon — protects the Peyer's patches where aberrant IgA is produced) are emerging disease-specific therapies.
 
-**ANCA-associated vasculitis (AAV):**
+### Post-Streptococcal Glomerulonephritis (PSGN)
 
-Pauci-immune GN — minimal or no immune deposits on immunofluorescence (characteristic). Crescent formation on biopsy. Causes: granulomatosis with polyangiitis (GPA, formerly Wegener's — cANCA/PR3), microscopic polyangiitis (MPA — pANCA/MPO), eosinophilic GPA (EGPA, Churg-Strauss — pANCA/MPO).
+Classic childhood presentation following Group A beta-haemolytic streptococcal (GAS) infection (pharyngitis OR skin infection) by **2–3 weeks** — the latent period allows immune complex formation and deposition. Features: haematuria (cola-coloured/brown urine), periorbital oedema, hypertension, oliguria, elevated ASOT titre (pharyngeal infection) or anti-DNase B (skin infection).
 
-Systemic features: saddle-nose deformity and nasal/oral ulcers (GPA), pulmonary cavities and haemoptysis, mononeuritis multiplex. Treatment: cyclophosphamide or rituximab + high-dose steroids for induction; azathioprine or rituximab for maintenance.
+**Complement: low C3, normal C4** — alternative pathway activation. This pattern also occurs in MPGN and cryoglobulinaemia (low C3 + low C4 suggests classical pathway activation — lupus, cryoglobulinaemia, type II MPGN).
 
-**Lupus nephritis:**
+Immunofluorescence: granular "starry sky" IgG and C3 deposits along the capillary walls. Generally self-limiting in children with complete recovery; worse prognosis in adults and elderly. Treat hypertension; antibiotics to eradicate remaining streptococcal infection.
 
-SLE involves the kidney in up to 60% of cases. WHO/ISN classes I–VI range from minimal mesangial (I) to sclerosing (VI), with diffuse proliferative nephritis (class III/IV) being the most severe. Low C3 and C4 (classical complement pathway activation by immune complexes), positive ANA and anti-dsDNA. Treat active nephritis with mycophenolate mofetil or cyclophosphamide + steroids.
+### Anti-GBM Disease (Goodpasture's Syndrome)
+
+Autoantibodies against the **NC1 domain of type IV collagen alpha-3 chain** in the GBM — and in the alveolar basement membrane (shared antigen). Results in rapidly progressive GN (crescent formation) ± pulmonary haemorrhage.
+
+Bimodal age distribution: young men (pulmonary haemorrhage dominant — haemoptysis); elderly patients (renal failure dominant). Pulmonary involvement is triggered by alveolar injury — smoking, hydrocarbon exposure, infection. Without alveolar injury, anti-GBM antibodies may not cause pulmonary haemorrhage even if present.
+
+Immunofluorescence shows **linear IgG deposition** along the GBM — the **most specific finding in glomerular disease** (all other immune complex diseases produce granular deposits). Treatment: **urgent plasmapheresis** (1–4 L plasma exchanges daily for 14 days to remove circulating antibodies — this is the cornerstone; kidneys can be saved if GFR >15 mL/min at presentation) **+ cyclophosphamide + steroids**. Without plasmapheresis, progression to dialysis-dependent renal failure occurs within days to weeks.
+
+### ANCA-Associated Vasculitis (AAV)
+
+**Pauci-immune GN** — minimal or no immune deposits on immunofluorescence, despite severe crescentic inflammation (characteristically contrasts with anti-GBM and immune complex diseases). ANCA (anti-neutrophil cytoplasmic antibodies) activate primed neutrophils, causing small vessel inflammation.
+
+**ANCA types and associated conditions:**
+- **cANCA / PR3-ANCA**: Granulomatosis with polyangiitis (GPA, Wegener's) — saddle-nose deformity, nasal/oral ulcers, pulmonary nodules and cavities, scleritis, mononeuritis multiplex
+- **pANCA / MPO-ANCA**: Microscopic polyangiitis (MPA) and eosinophilic GPA (EGPA, Churg-Strauss) — eosinophilia, asthma, mononeuritis
+
+**Treatment:**
+- Induction: **cyclophosphamide + high-dose steroids** (standard) or **rituximab + steroids** (RAVE trial: non-inferior to cyclophosphamide; preferred in younger patients and relapsing disease due to fertility preservation)
+- **Plasma exchange**: The PEXIVAS trial (NEJM 2020) showed plasma exchange did NOT improve composite endpoint of ESRD or death in AAV at 2.5 years — it is no longer routinely recommended in AAV (contrast with anti-GBM disease where plasmapheresis is essential)
+- Maintenance: azathioprine or rituximab for ≥18–24 months
+
+### Lupus Nephritis
+
+SLE involves the kidney in 50–60% of cases. **ISN/RPS classification:**
+- Class I/II: minimal or mesangial involvement — observe
+- Class III: focal proliferative — treat if active
+- Class IV: diffuse proliferative (most common and most severe) — treat aggressively
+- Class V: membranous — can coexist with III or IV
+- Class VI: sclerosing — no treatment modifies outcome
+
+Serological pattern: **low C3 and C4** (classical complement pathway activation by immune complexes), positive ANA and anti-dsDNA (anti-dsDNA correlates with disease activity), positive anti-Sm (highly specific for SLE).
+
+Treatment for active class III/IV: **mycophenolate mofetil (MMF) + steroids** (first-line in most patients) or **cyclophosphamide + steroids** (preferred in severe class IV). **Belimumab** (anti-BLyS) and **voclosporin** (calcineurin inhibitor) are add-on therapies reducing proteinuria and improving remission rates in lupus nephritis — both approved for active lupus nephritis.
+
+---
 
 ## Diagnosis
 
 **Initial workup for any suspected glomerular disease:**
 
-- Urine dipstick, microscopy (RBC casts, dysmorphic RBCs), 24-hour urine protein or ACR
-- U&E, albumin, complement (C3, C4), ANCA, anti-GBM, ANA, anti-dsDNA, anti-PLA2R
-- ASOT, throat swab, hepatitis B/C, HIV
-- SPEP and UPEP (Bence-Jones protein) — myeloma presenting as nephrotic syndrome
-- CXR and CT chest/abdomen — screen for malignancy in adult-onset nephrotic syndrome
+- Urine dipstick, microscopy (RBC casts, dysmorphic RBCs), urine ACR or 24-hour protein
+- U&E, albumin, complement (C3, C4), ANCA, anti-GBM antibody, ANA, anti-dsDNA, anti-PLA2R
+- ASOT and anti-DNase B (if PSGN suspected)
+- Hepatitis B, hepatitis C, HIV
+- SPEP and UPEP (Bence-Jones protein — myeloma causing nephrotic syndrome)
+- CXR and CT chest/abdomen — screen for malignancy in adult-onset nephrotic syndrome and for pulmonary infiltrates in AAV/anti-GBM disease
 
-**Renal biopsy** is required in adults with glomerular disease to determine histological diagnosis, guide treatment, and prognosticate. Children with classic MCD presentation are treated empirically with steroids without biopsy — biopsy only if atypical features, steroid resistance, or adult-onset.
+**Renal biopsy** is required in adults with glomerular disease to determine the histological diagnosis, guide treatment, and assess prognosis. **Children with classic MCD** are treated empirically with steroids without biopsy — biopsy only if there are atypical features (haematuria, hypertension, reduced GFR, age >8 or <1), steroid resistance, or frequent relapses.
+
+---
+
 ## Management Principles
 
 **Nephrotic syndrome — general measures:**
-
-- ACEi or ARB: reduce proteinuria and slow progression
-- Diuretics (furosemide ± aldosterone antagonist): for oedema — use cautiously (intravascular depletion despite peripheral oedema)
-- Statins: hyperlipidaemia in nephrotic syndrome is atherogenic
-- Anticoagulation: consider in membranous nephropathy with albumin <20 g/L — risk of renal vein thrombosis and systemic thromboembolic events due to urinary loss of antithrombin III, protein C and S
+- **ACEi or ARB**: reduce intraglomerular pressure and proteinuria; slow progression
+- **Diuretics** (furosemide ± spironolactone): for oedema — use cautiously; the intravascular compartment is depleted despite peripheral oedema (oncotic pressure is low), so excessive diuresis causes AKI and thrombosis
+- **Statins**: hyperlipidaemia in nephrotic syndrome is atherogenic and requires treatment
+- **Anticoagulation**: consider prophylactic anticoagulation when albumin <2.5 g/dL (particularly in membranous nephropathy) — risk of renal vein thrombosis, DVT, and PE due to urinary loss of antithrombin III, protein C, and protein S
+- **Infection prophylaxis**: loss of immunoglobulins in urine increases susceptibility to encapsulated organisms — consider pneumococcal vaccination; in children on steroids, prophylactic co-trimoxazole for *Pneumocystis*
 
 **Disease-specific immunosuppression:** as outlined per cause above.
 
+---
+
 ## Complications
 
-- Thromboembolism — particularly renal vein thrombosis in membranous nephropathy (loss of anticoagulant proteins)
-- Infection — loss of immunoglobulins in urine increases susceptibility to encapsulated organisms (*S. pneumoniae*) — consider prophylactic penicillin and pneumococcal vaccination
-- ESRD — most common with FSGS, lupus nephritis, AAV, and anti-GBM disease
-- Hypertensive crisis — particularly with rapidly progressive GN
-- Complications of immunosuppression — infection, bone disease, malignancy with cyclophosphamide
+- **Thromboembolism** — renal vein thrombosis, PE; particularly in membranous nephropathy with severe hypoalbuminaemia
+- **Infection** — loss of immunoglobulins, complement factors, and impaired opsonisation; *S. pneumoniae* peritonitis in nephrotic children
+- **ESRD** — most common with FSGS, lupus nephritis, AAV, and anti-GBM disease
+- **Hypertensive crisis** — particularly with rapidly progressive GN (crescentic nephritis)
+- **Immunosuppression complications** — opportunistic infection, haemorrhagic cystitis (cyclophosphamide), lymphoma risk, bone disease
+
+---
 
 ## Clinical Insight
 
-The timing of haematuria in relation to infection is diagnostically critical. IgA nephropathy causes macroscopic haematuria **concurrent** with the pharyngitis — the patient notices blood in the urine at the same time as the sore throat. PSGN causes haematuria **2–3 weeks after** the throat infection — the latent period reflects the time needed for immune complex formation. Getting this history precisely right determines the diagnosis before any test result.
+The timing of haematuria relative to infection is diagnostically critical and must be elicited precisely. IgA nephropathy causes macroscopic haematuria **concurrent** with the pharyngitis — the patient notices blood in the urine at the same time as the sore throat (or within 1–2 days). PSGN causes haematuria **2–3 weeks after** the throat infection — the latent period reflects the time needed for immune complex formation. These are not subtle differences: getting this history right determines the diagnosis before any blood result returns. The clinician who asks "when exactly was the throat infection relative to the blood in the urine?" will get the diagnosis; the one who settles for "it was around the time of a throat infection" will not.
 
-Anti-PLA2R antibody testing has transformed the diagnosis of membranous nephropathy. A positive anti-PLA2R in a patient with classic nephrotic syndrome and no secondary cause effectively confirms primary membranous nephropathy — obviating biopsy in many cases, and allowing monitoring of treatment response (titre correlates with disease activity).
+Anti-PLA2R antibody testing has transformed the management of membranous nephropathy. A high titre at diagnosis predicts progression and may guide earlier treatment decisions. A falling titre during treatment predicts immunological remission before protein excretion normalises — the kidney's structural recovery lags weeks behind the immunological response. Retreatment decisions should be guided by titre trends, not just proteinuria, to avoid both over-treatment and under-treatment.
 
-Goodpasture's disease requires plasmapheresis as the cornerstone of treatment. The circulating anti-GBM antibodies are directly pathogenic, and removing them with plasma exchange dramatically improves renal and pulmonary outcomes. Immunosuppression alone without plasmapheresis is insufficient.
+The PEXIVAS trial permanently changed practice in AAV: plasma exchange, once considered standard of care, did not prevent ESRD or death. This is the opposite of anti-GBM disease, where plasmapheresis is essential. The two conditions can coexist (dual-positive ANCA + anti-GBM disease occurs in ~10%) — in this situation, always perform plasmapheresis regardless of the ANCA result, because the anti-GBM component drives the catastrophic renal injury.
