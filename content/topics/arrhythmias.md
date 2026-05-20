@@ -246,3 +246,30 @@ Adenosine is both diagnostic and therapeutic in narrow complex SVT. If the rhyth
 A QTc >500ms in a patient just started on a new antiarrhythmic, antipsychotic, or antibiotic is a clinical alarm requiring action — either dose reduction, drug change, or electrolyte correction — before torsades occurs.
 
 Screening young competitive athletes with a personal history of syncope during exertion, or a family history of sudden cardiac death in a relative under 40, is essential. The ECG may be the only warning before a fatal event.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 31-year-old woman, sudden palpitations and breathlessness for 25 minutes. Three prior self-terminating episodes. HR 182 bpm, regular. BP 106/70, SpO₂ 98%. ECG: narrow complex tachycardia 182 bpm, no visible P waves, QRS 80ms.
+
+**Step 1 — Classify the tachycardia:** Narrow complex (QRS <120ms) + regular = **supraventricular tachycardia (SVT)**. No visible P waves at 182 bpm, with P waves likely buried within the QRS = **AVNRT (AV nodal re-entrant tachycardia)** — the most common SVT mechanism (~60%).
+
+**Step 2 — Is the patient haemodynamically stable?** BP 106/70, SpO₂ 98%, alert = stable. **Do NOT go straight to DC cardioversion** — that is only for haemodynamically unstable patients.
+
+**Step 3 — Vagal manoeuvres first:**
+- **Modified Valsalva** (bear down hard with knees to chest, then legs passively raised): terminates ~43% of SVTs (REVERT trial)
+- **Carotid sinus massage** (one side only, after excluding carotid bruit)
+- Ice to face — effective in children
+
+**Step 4 — If vagal manoeuvres fail: IV adenosine:**
+- **6 mg IV** as rapid bolus into a large proximal vein (antecubital), immediately followed by 20 mL flush
+- If no response at 1–2 minutes: **12 mg**, then **18 mg** (or 12 mg × 2)
+- Warn the patient: will feel transient chest tightness, breathlessness, and a sense of impending doom — this is the AV block and lasts only 10–15 seconds
+- Adenosine terminates AVNRT by blocking the AV node re-entrant circuit; if AFL or AF is present, it will temporarily slow ventricular rate to unmask the underlying atrial activity
+
+**Step 5 — Longer-term management:** Four episodes of SVT = recurrent symptomatic SVT. Discuss:
+- **Catheter ablation** — success rate >95% for AVNRT; curative; first-line recommendation for recurrent symptomatic SVT
+- **Oral verapamil or beta-blocker** — for patients who decline ablation or while awaiting the procedure
+
+**Exam trigger:** *Narrow complex regular tachycardia + no visible P waves* → SVT (most likely AVNRT). Algorithm: vagal → adenosine → verapamil/beta-blocker → DC cardioversion if unstable. The distractor is using verapamil in presumed SVT that turns out to be VT — always exclude structural heart disease and prior MI before giving verapamil.

@@ -173,3 +173,29 @@ The trajectory of eGFR matters as much as the absolute value. An eGFR of 31 that
 SGLT2 inhibitors protect the kidney through a mechanism largely independent of glucose lowering — reduced intraglomerular pressure from tubuloglomerular feedback (afferent arteriolar constriction), anti-inflammatory effects, and reduced renal oxygen consumption. They work in non-diabetic CKD and should be considered in all eligible patients (eGFR >25 + uACR >25) regardless of glycaemic status. The instinct to defer these drugs until "things are settled" misses the window of maximum benefit — early nephroprotection produces the largest absolute reduction in progression risk.
 
 Atorvastatin 20 mg is specifically recommended in CKD rather than higher-potency statins or fibrates — it has the best evidence base for CVD reduction in CKD and avoids the statin myopathy risk that is amplified by urinary statin excretion impairment. Do not let the complexity of CKD management cause cardiovascular prevention to be deprioritised; it is the intervention most likely to prevent death.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 61-year-old woman with T2DM and hypertension. eGFR fallen from 52 to 31 mL/min/1.73m² over 2 years. Urine ACR 84 mg/mmol. BP 156/94. Hb 9.4 g/dL, bicarbonate 18 mEq/L, phosphate 5.9 mg/dL. On metformin, ramipril, and amlodipine.
+
+**Step 1 — Classify and stage:** eGFR 31 = **CKD G3b** (30–44). ACR 84 mg/mmol = **category A3** (severely increased). Combined staging: G3b/A3 = **high-to-very-high risk of progression**.
+
+**Step 2 — Flag the rate of decline:** eGFR dropped from 52 to 31 in 2 years = **~10.5 mL/min/year** — this is **rapid progression** (>5 mL/min/year is the NICE threshold for urgent nephrology referral regardless of absolute eGFR). She is not just CKD G3b — she is rapidly progressing CKD requiring urgent nephrology review.
+
+**Step 3 — Action the current medications:**
+- **Stop metformin now** — eGFR 31 is at the threshold (stop at <30 mL/min); given rapid decline, stopping now avoids lactic acidosis risk
+- Ramipril: continue (nephroprotective); monitor K⁺ and creatinine closely
+- Add **SGLT2 inhibitor (dapagliflozin 10 mg)** — proven to reduce CKD progression and cardiovascular death regardless of diabetes status in patients with eGFR >25 and ACR >25 mg/mmol (DAPA-CKD trial). This is the most impactful new drug addition.
+
+**Step 4 — Manage the complications already present:**
+- **Anaemia (Hb 9.4 g/dL):** Check iron stores (ferritin, transferrin saturation) first. If iron-deficient → IV iron (ferric carboxymaltose). If iron-replete → consider erythropoiesis-stimulating agent (ESA; target Hb 100–120 g/L)
+- **Metabolic acidosis (HCO₃ 18 mEq/L):** Start **oral sodium bicarbonate** 1–3 g TDS — correcting acidosis slows CKD progression and reduces muscle catabolism
+- **Hyperphosphataemia (5.9 mg/dL):** Dietary phosphate restriction + **phosphate binder** (sevelamer preferred — does not cause calcium overload)
+
+**Step 5 — BP and nephrology referral:**
+- Target BP <130/80 mmHg in CKD with proteinuria — current 156/94 needs intensification. Add spironolactone if K⁺ allows.
+- **Refer to nephrology now** (eGFR <30 + rapid decline) — RRT planning, vascular access creation (AV fistula matures in 3–6 months; must be created before needed)
+
+**Exam trigger:** *CKD + rapid eGFR decline + ACR >25 + eGFR >25* → add SGLT2 inhibitor (dapagliflozin) regardless of diabetes status. The distractor is waiting for better glucose control first — this is a renoprotective indication independent of HbA1c.

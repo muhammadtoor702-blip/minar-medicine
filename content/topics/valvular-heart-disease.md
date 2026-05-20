@@ -216,3 +216,33 @@ Aortic stenosis is notoriously underappreciated until symptoms develop. A patien
 In mitral regurgitation, the EF is misleading. Because the LV offloads easily into the low-pressure LA, it appears to function well even when myocardial contractility is impaired. An EF of 55% in severe MR may represent significantly reduced contractile reserve — the threshold for surgical intervention is EF <60%, not the usual <50%.
 
 The opening snap and diastolic murmur in mitral stenosis behave inversely to what might be intuitive. A closer opening snap means more severe disease (higher LA pressure opens the valve sooner); a longer murmur means more severe disease (takes longer for pressures to equalise across a tight orifice). These relationships are tested frequently in examinations and matter clinically for serial monitoring without echo.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 75-year-old woman with 18 months of progressive exertional breathlessness and one episode of exertional near-syncope. Harsh ejection systolic murmur at the right upper sternal border radiating to the carotids. Slow-rising pulse. Soft second heart sound.
+
+**Step 1 — Diagnose severe aortic stenosis:** The clinical findings form the classic triad:
+- **Ejection systolic murmur (crescendo-decrescendo) at the right upper sternal border → carotids** = aortic stenosis (not MR, which radiates to the axilla)
+- **Slow-rising, low-volume pulse** (pulsus parvus et tardus) = reduced stroke volume across stenotic valve
+- **Soft S2** = calcified valve leaflets no longer close with a snap
+
+**Step 2 — Recognise where she is on the prognostic timeline:** The **SAD triad** of severe AS:
+- **S**yncope (or near-syncope) → mean survival ~3 years without intervention
+- **A**ngina → mean survival ~5 years
+- **D**yspnoea/heart failure → mean survival ~2 years
+She has dyspnoea + near-syncope. **Mean survival without intervention is now 2–3 years**. Referral must happen today — not at a follow-up in 3 months.
+
+**Step 3 — Urgent echocardiography:** Confirms severe AS (peak transvalvular gradient >40 mmHg OR mean gradient >20–25 mmHg, aortic valve area <1.0 cm²). Also assesses LV function (EF may be preserved initially, falls late).
+
+**Step 4 — Heart team decision — TAVI vs SAVR:**
+- Age 75, female, exertional symptoms = **TAVI preferred** in most centres (lower procedural risk, equivalent long-term outcomes in intermediate/high-risk surgical candidates — PARTNER trials)
+- SAVR if anatomy unsuitable for TAVI or younger patient with long life expectancy
+
+**Step 5 — What NOT to do while awaiting intervention:**
+- **No vasodilators** (ACEi, nitrates, amlodipine) — fixed outflow obstruction means vasodilation causes life-threatening hypotension
+- **Avoid vigorous diuresis** — preload-dependent ventricle
+- **No strenuous exercise** — exertional syncope risk
+
+**Exam trigger:** *Progressive exertional breathlessness + syncope + ejection systolic murmur at RUSB + slow-rising pulse + soft S2* → severe AS. The SAD triad (Syncope, Angina, Dyspnoea) marks the urgency. Once symptoms develop, immediate cardiac surgery/TAVI referral is required — watchful waiting has a 2–3-year survival.

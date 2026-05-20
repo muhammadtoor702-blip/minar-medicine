@@ -137,3 +137,30 @@ TSH is the single most informative thyroid test in the vast majority of clinical
 In thyroid storm, the sequence matters: PTU first, then iodine — never the reverse. Giving Lugol's iodine before blocking synthesis with PTU provides a massive substrate load for continued hormone production and can catastrophically worsen thyrotoxicosis. This is a pharmacological principle with potentially fatal consequences if violated.
 
 Amiodarone causes thyroid dysfunction in up to 15–20% of patients — both hypo- and hyperthyroidism. Amiodarone-induced hyperthyroidism (AIH) is particularly difficult to manage — it has two types (Type 1: excess iodine-stimulated synthesis in an abnormal gland; Type 2: destructive thyroiditis from direct amiodarone toxicity), which require different treatments. Thyroid function must be checked before starting amiodarone and every 6 months thereafter.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 31-year-old woman with 3 months of palpitations, heat intolerance, weight loss despite good appetite, tremor, and irregular periods. Diffuse smooth goitre, lid lag, bilateral proptosis, pretibial myxoedema. HR 108, irregularly irregular. Undetectable TSH, markedly elevated free T4.
+
+**Step 1 — Diagnose Graves' disease:** Three features are specific to Graves' disease and appear together in this patient:
+1. **Diffuse smooth goitre** (from TSH-receptor antibody stimulation)
+2. **Proptosis/exophthalmos** (Graves' ophthalmopathy — autoimmune infiltration of retroorbital tissue)
+3. **Pretibial myxoedema** (glycosaminoglycan deposition in skin)
+This triad = **Graves' disease** until proven otherwise. Confirm with TSH-receptor antibodies (TRAb/TSHR-Ab).
+
+**Step 2 — Address the AF immediately:** Irregular pulse at 108 bpm = atrial fibrillation, the commonest arrhythmia from hyperthyroidism. Rate control is the immediate priority:
+- **Propranolol 40 mg TDS** (or atenolol) — controls both HR and thyrotoxic symptoms (tremor, anxiety, palpitations). Start now.
+- Cardioversion is NOT appropriate yet — AF is almost certainly secondary to hyperthyroidism and will often resolve spontaneously once euthyroid
+
+**Step 3 — Start antithyroid drug:** Carbimazole 20–40 mg OD (titration regimen: titrate down as TFTs normalise, or block-and-replace: fixed high dose + add levothyroxine once levels fall). Typically takes 4–8 weeks to achieve euthyroidism. Check FBC before starting — 0.1–0.3% risk of agranulocytosis; warn patient to attend urgently if they develop fever or sore throat.
+
+**Step 4 — Definitive treatment:** Three options for Graves' disease:
+- **Radioiodine (RAI)** — first-line in most adults; permanent and effective; avoid in active significant ophthalmopathy (worsens eye disease)
+- **Total thyroidectomy** — first-line if large goitre, compressive symptoms, or patient preference; also preferred in active significant ophthalmopathy
+- **Long-term antithyroid drugs** — if patient declines RAI/surgery; remission rate ~50% after 12–18 months
+
+**Step 5 — Ophthalmopathy management:** Bilateral proptosis = active Graves' ophthalmopathy. Refer to ophthalmology. Severe active disease: **IV methylprednisolone** (orbital decompression in selected cases). Avoid RAI if active moderate-severe ophthalmopathy.
+
+**Exam trigger:** *Proptosis + pretibial myxoedema + diffuse goitre + hyperthyroidism* → Graves' disease. These three features together are pathognomonic. Do not confuse with toxic multinodular goitre (no proptosis, no pretibial myxoedema).
