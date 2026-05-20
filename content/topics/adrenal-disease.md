@@ -7,6 +7,7 @@ sources:
   - Endocrine Society Addison's Guidelines
   - NICE CG101 (Primary Aldosteronism)
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -169,6 +170,40 @@ Precipitated by intercurrent illness, surgery, trauma, or vomiting (preventing o
 **Diagnosis**: 24-hour urinary or plasma **metanephrines** (normetanephrine and metanephrine) — most sensitive and specific test (>95% sensitivity). Catecholamines less sensitive. Image with CT/MRI adrenals; **¹²³I-MIBG scan** for occult/metastatic disease.
 
 **Management**: **Alpha-blocker first (phenoxybenzamine or doxazosin) for 10–14 days** → then beta-blocker. **Never give beta-blocker first** — unopposed alpha stimulation causes paradoxical severe hypertension. Surgical resection after alpha-blockade is definitive.
+## Congenital Adrenal Hyperplasia (CAH)
+
+**First Aid high-yield** — a group of autosomal recessive disorders of adrenal steroidogenesis, most commonly caused by **21-hydroxylase deficiency** (~95% of cases). Disruption of cortisol synthesis → loss of negative feedback → ACTH rises → adrenal hyperplasia → shunting of steroid precursors into androgen synthesis.
+
+### 21-Hydroxylase Deficiency — Three Clinical Forms
+
+**Enzyme**: 21-hydroxylase (CYP21A2) converts progesterone → deoxycorticosterone (→ aldosterone pathway) and 17-OHP → 11-deoxycortisol (→ cortisol pathway). Deficiency → cortisol ↓ + aldosterone ↓ + androgen excess (17-OHP shunted into DHEA and testosterone).
+
+**Diagnostic marker**: **Elevated 17-hydroxyprogesterone (17-OHP)** — the blocked substrate that accumulates. Measured in the morning (diurnal variation), or by ACTH stimulation test for non-classic form.
+
+| Form | Features | Onset |
+|------|---------|-------|
+| **Classic salt-wasting** (~75% of classic) | Cortisol + aldosterone deficiency → life-threatening salt-wasting crisis in neonates (hyponatraemia, hyperkalaemia, shock) + virilisation of female genitalia (ambiguous genitalia — clitoromegaly, labial fusion) | Neonatal (days 1–2 of life) |
+| **Classic simple virilising** (~25%) | Cortisol deficiency without aldosterone deficiency → virilisation in females, precocious puberty in males, no salt-wasting crisis | Childhood |
+| **Non-classic (late-onset)** | Partial enzyme deficiency; cortisol and aldosterone preserved; presents with mild hyperandrogenism | Adolescence/adulthood |
+
+**Classic form in females**: Genetically XX with **ambiguous genitalia** at birth (clitoromegaly, labial fusion, urogenital sinus — internal Müllerian structures are normal). Most common cause of ambiguous genitalia in females.
+
+**Classic form in males**: Normal-appearing genitalia at birth (testosterone elevated but normal male genitalia already formed). May present with salt-wasting crisis or, if milder, with precocious puberty and advanced bone age.
+
+**Non-classic CAH**: The most common autosomal recessive disorder in humans. Presents in women with features mimicking PCOS (oligomenorrhoea, hirsutism, acne). Distinguished from PCOS by **early morning 17-OHP >6 nmol/L** (or >30 nmol/L after ACTH stimulation).
+
+### Management
+
+**Classic CAH**: Lifelong glucocorticoid replacement (hydrocortisone in children — minimises growth suppression vs prednisolone; dexamethasone in adults). Fludrocortisone for salt-wasting. Monitor 17-OHP and androstenedione to adjust dose.
+
+**Surgical**: Female infants with classic CAH may require clitoroplasty and vaginoplasty (controversial — timing debated).
+
+**Newborn screening**: Heel-prick spot test at day 5 — measures 17-OHP (included in UK newborn screening panel).
+
+**Non-classic CAH**: Low-dose hydrocortisone or prednisolone if symptomatic (similar response to PCOS management — OCP/spironolactone for hirsutism). Fertility treatment with ovulation induction if infertility is the concern.
+
+---
+
 ## Complications
 
 - **Addisonian crisis**: life-threatening hypotension, shock, hypoglycaemia, and death if untreated — precipitated by intercurrent illness without adequate steroid adjustment

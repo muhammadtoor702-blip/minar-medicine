@@ -7,6 +7,7 @@ sources:
   - Endocrine Society Pituitary Incidentaloma Guidelines
   - NICE CG141 (Primary Hyperparathyroidism)
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
@@ -159,6 +160,55 @@ Most commonly iatrogenic — **post-thyroidectomy** or post-parathyroidectomy. A
 **Biochemistry**: Low calcium, elevated phosphate, low/undetectable PTH.
 
 **Management**: **Calcium supplements + active vitamin D (alfacalcidol or calcitriol)** — oral, lifelong. **Recombinant PTH (teriparatide or palopegteriparatide)** — licensed for chronic hypoparathyroidism when standard therapy is insufficient.
+## Multiple Endocrine Neoplasia (MEN) Syndromes
+
+**First Aid high-yield** — inherited tumour syndromes involving multiple endocrine glands. Autosomal dominant. Recognising the pattern directs genetic testing and screening.
+
+### MEN1 (Wermer's Syndrome) — "3 Ps"
+
+**Gene**: MEN1 (menin — tumour suppressor, chromosome 11q13). Loss of heterozygosity.
+
+**Triad**: **P**ituitary + **P**arathyroid + **P**ancreas:
+- **Pituitary adenoma** (most commonly prolactinoma, then GH-secreting → acromegaly)
+- **Parathyroid hyperplasia** (most common presentation, >90%; multigland disease — serum Ca elevated; treat with subtotal parathyroidectomy)
+- **Pancreatic neuroendocrine tumours (PNETs)**: Gastrinoma (most common — Zollinger-Ellison syndrome: intractable peptic ulcers, diarrhoea, elevated fasting gastrin), insulinoma (hypoglycaemia), VIPoma, glucagonoma
+
+**FA buzzword**: ZES (Zollinger-Ellison syndrome) + hyperparathyroidism + pituitary adenoma = MEN1. Treat gastrinomas with high-dose PPI; surgical resection if localised.
+
+### MEN2A (Sipple's Syndrome) — "2 Cs + P"
+
+**Gene**: RET proto-oncogene (activating mutation — gain of function). Chromosome 10q11.
+
+**Triad**: **C**alcitonin (medullary thyroid cancer) + **C**atecholamines (phaeochromocytoma) + **P**arathyroid hyperplasia:
+- **Medullary thyroid carcinoma (MTC)** — penetrance >90%; calcitonin elevated; always treat first (before phaeochromocytoma)
+- **Phaeochromocytoma** (~50%) — bilateral in 50%; treat with alpha-blockade before thyroidectomy
+- **Parathyroid hyperplasia** (~30%)
+
+**Management**: RET mutation testing in all MTC patients and first-degree relatives. **Prophylactic total thyroidectomy** in RET-positive individuals before cancer develops (timing based on specific codon mutation — high-risk: ≤6 months of age; others: before age 5–10).
+
+### MEN2B (most aggressive MEN syndrome)
+
+**Gene**: RET codon 918 mutation (most aggressive).
+
+**Features**: MTC (earliest onset, age <1 year) + phaeochromocytoma + **mucosal neuromas** (lips, tongue, GI tract) + **marfanoid habitus** (tall, slender, elongated limbs — but no lens or aortic involvement). No parathyroid disease.
+
+**FA buzzword**: Mucosal neuromas on the lips/tongue + marfanoid body + MTC = MEN2B. Most aggressive form — prophylactic thyroidectomy should occur within 6 months of birth.
+
+### MEN Comparison Table
+
+| Feature | MEN1 | MEN2A | MEN2B |
+|---------|------|-------|-------|
+| Gene | MEN1 (menin) | RET | RET (codon 918) |
+| Parathyroid | ✓ Hyperplasia | ✓ (30%) | ✗ |
+| Pituitary | ✓ (prolactinoma) | ✗ | ✗ |
+| Pancreas | ✓ (gastrinoma/insulinoma) | ✗ | ✗ |
+| MTC | ✗ | ✓ | ✓ (aggressive) |
+| Phaeochromocytoma | ✗ | ✓ | ✓ |
+| Mucosal neuromas | ✗ | ✗ | ✓ |
+| Marfanoid | ✗ | ✗ | ✓ |
+
+---
+
 ## Complications
 
 - **Pituitary apoplexy**: haemorrhage or infarction into a pituitary adenoma — severe headache, visual field loss, cranial nerve palsies, acute hypopituitarism; emergency neurosurgical management

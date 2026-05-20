@@ -7,6 +7,7 @@ sources:
   - NICE NG28 (Type 2 Diabetes)
   - NICE NG17 (Type 1 Diabetes)
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
