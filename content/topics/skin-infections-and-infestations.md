@@ -6,6 +6,7 @@ sources:
   - NICE NG141 (Cellulitis)
   - BAD Skin Infection Guidelines
   - BASHH STI Guidelines (HSV)
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

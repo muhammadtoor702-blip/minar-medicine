@@ -6,6 +6,7 @@ sources:
   - NICE NG198 (Acne)
   - BAD Acne Guidelines
   - BAD Rosacea Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

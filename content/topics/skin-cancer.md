@@ -6,6 +6,7 @@ sources:
   - NICE NG14 (Melanoma)
   - NICE NG12 (Suspected Cancer Referral)
   - BAD Skin Cancer Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

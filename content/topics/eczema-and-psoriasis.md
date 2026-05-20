@@ -6,6 +6,7 @@ sources:
   - NICE NG53 (Psoriasis)
   - NICE NG190 (Atopic Eczema)
   - BAD Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

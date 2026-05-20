@@ -6,6 +6,7 @@ sources:
   - BAD Pemphigoid Guidelines 2023
   - NICE SJS/TEN Guidelines
   - BAD Drug Reaction Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
