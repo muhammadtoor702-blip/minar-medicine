@@ -5,6 +5,7 @@ scenario: "A 74-year-old woman on thiazide diuretics for hypertension presents a
 sources:
   - NICE NG29 (Intravenous Fluid Therapy)
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

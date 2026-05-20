@@ -5,6 +5,7 @@ scenario: "A 19-year-old woman with type 1 diabetes is brought in confused and v
 sources:
   - ADA DKA Standards 2023
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -6,6 +6,7 @@ sources:
   - EAU Urolithiasis Guidelines 2023
   - NICE NG118
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

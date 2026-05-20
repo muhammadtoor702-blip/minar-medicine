@@ -5,6 +5,7 @@ scenario: "A 7-year-old boy is brought in with periorbital and leg swelling that
 sources:
   - KDIGO Glomerulonephritis Guidelines 2021
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

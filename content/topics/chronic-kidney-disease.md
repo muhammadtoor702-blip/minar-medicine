@@ -6,6 +6,7 @@ sources:
   - KDIGO CKD Guidelines 2022
   - NICE NG203
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -6,6 +6,7 @@ sources:
   - NICE NG109
   - EAU Urological Infections Guidelines 2023
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
