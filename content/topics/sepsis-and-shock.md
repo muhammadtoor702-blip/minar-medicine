@@ -6,6 +6,7 @@ sources:
   - Surviving Sepsis Campaign Guidelines 2021
   - NICE NG51
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

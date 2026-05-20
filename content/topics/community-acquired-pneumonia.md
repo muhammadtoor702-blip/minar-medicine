@@ -6,6 +6,7 @@ sources:
   - BTS CAP Guidelines 2009 (updated)
   - NICE NG138
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

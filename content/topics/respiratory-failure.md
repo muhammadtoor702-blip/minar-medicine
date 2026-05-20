@@ -6,6 +6,7 @@ sources:
   - BTS NIV Guidelines 2017
   - NICE NG191
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

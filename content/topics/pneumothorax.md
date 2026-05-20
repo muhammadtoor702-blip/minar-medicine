@@ -5,6 +5,7 @@ scenario: "A 19-year-old tall, thin university student presents with sudden onse
 sources:
   - BTS Pleural Disease Guidelines 2023
   - Oxford Handbook of Clinical Medicine 11e
+  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
