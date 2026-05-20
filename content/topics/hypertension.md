@@ -159,3 +159,32 @@ The most common reason BP remains uncontrolled is under-treatment — failure to
 Spontaneous hypokalaemia in a hypertensive patient not taking diuretics should always prompt measurement of the aldosterone:renin ratio to exclude primary hyperaldosteronism. This condition is far more prevalent than historically thought — affecting perhaps 5–10% of all hypertensives — and is both curable (unilateral adenoma → adrenalectomy) and important to identify.
 
 Malignant hypertension requires urgent treatment but demands a controlled reduction. The temptation to bring BP down rapidly is dangerous — autoregulation of cerebral blood flow is set at a higher level in chronic hypertensives, so a rapid fall to what would be a "normal" BP can cause watershed ischaemia and stroke. Reduce MAP by no more than 25% in the first hour, then reassess.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 52-year-old man, asymptomatic. Clinic BP 168/102 on two readings 10 minutes apart. Smoker (15/day), family history of stroke, BMI 31. Normal urinalysis. Fundoscopy: silver wiring and arteriovenous nipping, no haemorrhages or papilloedema.
+
+**Step 1 — Classify the hypertension stage:**
+- BP 168/102 = **Stage 2 hypertension** (≥160/100 mmHg in UK NICE classification)
+- Fundoscopic changes: silver wiring + AV nipping = **Grade 2 hypertensive retinopathy** — this constitutes end-organ damage
+
+**Step 2 — Confirm before treating — but end-organ damage changes this:** NICE recommends ABPM confirmation before starting antihypertensives in most cases. However, **Grade 2 retinopathy = established end-organ damage** → treatment is warranted without waiting for ABPM. Arrange ABPM to establish baseline but start treatment now.
+
+**Step 3 — Cardiovascular risk stratification:** Smoker + family history (stroke) + BMI 31 + Stage 2 HTN = **very high 10-year CV risk**. Use QRISK3 formally. This risk score also determines whether statin therapy is indicated (≥10% threshold = yes).
+
+**Step 4 — Drug selection (NICE Step 1, age <55, non-black):**
+- **ACE inhibitor** (ramipril 5–10 mg OD) or **ARB** as first choice
+- Given Stage 2 BP with CV risk factors: consider starting Step 1 + Step 2 simultaneously — ACEi + **amlodipine** (CCB)
+- Do not use bendroflumethiazide — inferior to chlorthalidone/indapamide for cardiovascular outcomes
+
+**Step 5 — Other interventions:**
+- **Statin** — atorvastatin 20 mg (high CV risk)
+- **Smoking cessation** — most impactful single intervention for reducing cardiovascular events
+- Weight loss, dietary sodium reduction, alcohol moderation, regular aerobic exercise
+- BP target: **<130/80 mmHg** in high-risk individuals
+
+**Step 6 — Monitor:** U&E + creatinine 2 weeks after starting ACEi. Recheck BP at 4–8 weeks; if not at target, advance to Step 2/3.
+
+**Exam trigger:** *Hypertension + fundoscopic changes (AV nipping, silver wiring, haemorrhages)* → know the grading. Grade 1–2 = treated medically; Grade 3–4 (haemorrhages/papilloedema) = **hypertensive emergency** requiring hospital admission and IV antihypertensives.

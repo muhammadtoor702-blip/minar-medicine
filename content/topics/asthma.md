@@ -149,3 +149,34 @@ A rising PaCO₂ in an acute asthma attack is a medical emergency. In acute asth
 The LABA-without-ICS rule is absolute. On examinations, any answer that involves prescribing a LABA as monotherapy in asthma is wrong. In COPD, LABA monotherapy is standard — this distinction is a frequent source of error. The SMART trial established that LABA monotherapy in asthma increases asthma-related mortality.
 
 Many deaths from asthma occur in patients who were not recognised as severe. Patients with brittle asthma, frequent hospitalisations, prior intubation, or poor adherence are at highest risk. These patients need a specialist-led care plan, ready access to rescue medication, and a low threshold for emergency review. A written personalised asthma action plan is the single most evidence-based intervention for preventing severe attacks and should be given to every patient with diagnosed asthma.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** An 18-year-old woman with childhood asthma, ran out of salbutamol 2 days ago. Cannot complete sentences. RR 30, SpO₂ 90%, HR 124, PEFR 32% of predicted, accessory muscle use, prolonged expiratory wheeze.
+
+**Step 1 — Classify severity immediately:**
+- PEFR 33–50% predicted = severe asthma
+- PEFR **<33% predicted** = **life-threatening**
+- This patient at 32% is crossing into **life-threatening** territory
+- SpO₂ 90% = life-threatening criterion confirmed
+- Cannot complete sentences + accessory muscles = severe/life-threatening
+
+**Step 2 — Start treatment in parallel with assessment — do not wait:**
+- **High-flow oxygen** to target SpO₂ 94–98% (unlike COPD, give freely in asthma)
+- **Salbutamol 5 mg** nebulised, back-to-back every 15–20 minutes initially; driven with oxygen
+- **Ipratropium 0.5 mg** nebulised — add in severe/life-threatening attack (additive bronchodilation)
+- **IV hydrocortisone 100 mg** immediately + oral prednisolone 40–50 mg — steroids take 4–6 hours to work; start now
+- **IV magnesium sulphate 2 g over 20 minutes** — for life-threatening or refractory severe asthma; direct bronchodilator effect
+
+**Step 3 — Get an arterial blood gas:** This is non-negotiable in life-threatening asthma.
+- Expected: **low PaCO₂** (32–36 mmHg) from hyperventilation
+- **Normal PaCO₂ (40–45 mmHg)** = patient is tiring; ventilatory failure is imminent
+- **Raised PaCO₂ (>45 mmHg)** = impending respiratory arrest → alert anaesthetics **now**
+
+**Step 4 — Criteria for ICU:** Silent chest, cyanosis, bradycardia, exhaustion, confusion, PaCO₂ ≥45 mmHg. Any one of these = immediate anaesthetic review.
+
+**Step 5 — Before discharge:** Identify why she ran out of salbutamol — this is a preventable system failure. Prescribe a written **personalised asthma action plan**, ensure ICS/LABA supply, and arrange GP follow-up within 2 working days.
+
+**Exam trigger:** *Life-threatening asthma + normal PaCO₂ on ABG* → the "normal" CO₂ is the alarm, not reassurance. Normal CO₂ in severe asthma means exhaustion and impending arrest. Call anaesthetics immediately.

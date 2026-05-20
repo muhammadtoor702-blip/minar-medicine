@@ -144,3 +144,32 @@ The window of opportunity in RA is real and time-limited. Synovial inflammation 
 Anti-CCP positivity in a patient with arthritis — even with a normal CRP, even with only a few months of symptoms — is a strong predictor of erosive RA and demands urgent rheumatology review. Anti-CCP antibodies predate clinical disease by years and mark a fundamentally different prognosis from seronegative arthritis.
 
 Methotrexate without folic acid is a missed opportunity. Folic acid co-prescription reduces nausea, mouth ulcers, and LFT abnormalities without reducing methotrexate's anti-inflammatory effect. The most common reason patients stop methotrexate is GI intolerance — much of which is preventable. If a patient on methotrexate is struggling with side effects, ask about folic acid compliance before switching drugs.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 38-year-old woman with 4 months of symmetrical wrist, MCP, and PIP swelling. Morning stiffness lasting >2 hours. Fatigue, 5 kg weight loss. RF strongly positive, anti-CCP elevated, CRP 54 mg/L. X-rays show periarticular osteopaenia but no erosions.
+
+**Step 1 — Score the 2010 ACR/EULAR criteria:**
+- Joint involvement: MCPs + PIPs + wrists, >10 joints including small joints = **5 points**
+- Serology: RF strongly positive + anti-CCP elevated = **3 points**
+- Acute phase: CRP 54 mg/L (abnormal) = **1 point**
+- Duration: 4 months ≥ 6 weeks = **1 point**
+- **Total: 10/10** — unequivocal RA. No further diagnostic workup needed before starting treatment.
+
+**Step 2 — Recognise the window of opportunity:** No erosions on X-ray = early, potentially reversible synovial inflammation. This is the moment where aggressive DMARDs change long-term outcomes. Waiting for erosions to develop before treating is the wrong approach — the absence of erosions is the reason to act urgently, not a reason to observe.
+
+**Step 3 — Start methotrexate immediately:**
+- Methotrexate 7.5 mg/week orally, titrating to 15–25 mg/week as tolerated
+- **Always co-prescribe folic acid 5 mg once weekly** on a different day — reduces GI toxicity without reducing efficacy
+- Baseline bloods: FBC, LFTs, creatinine; monitor monthly × 6 months, then 3-monthly
+- Reliable contraception: methotrexate is teratogenic — counsel explicitly
+
+**Step 4 — Bridging therapy while awaiting DMARD effect (6–12 weeks):** Short course of prednisolone. Add PPI if on concurrent NSAIDs for symptomatic relief.
+
+**Step 5 — Treat-to-target:** Reassess DAS28 formally at 3 and 6 months. If DAS28 ≥3.2 (not in remission or low disease activity) at 6 months → escalate: add hydroxychloroquine + sulfasalazine (triple csDMARD therapy) or refer for biologic consideration.
+
+**Step 6 — Don't forget cardiovascular risk:** RA is an independent cardiovascular risk factor equivalent to diabetes. Lipid profile, BP assessment, and smoking cessation counselling belong in the same consultation as starting methotrexate.
+
+**Exam trigger:** *Anti-CCP positive + symmetrical small joint polyarthritis* → diagnose RA, start methotrexate + folic acid, reassess at 3–6 months. The distractor is waiting for erosions, or treating symptoms only without DMARDs.

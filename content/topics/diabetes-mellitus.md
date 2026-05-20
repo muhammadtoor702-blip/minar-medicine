@@ -160,3 +160,25 @@ SGLT2 inhibitors and GLP-1 receptor agonists have transformed T2DM management be
 HbA1c targets must be individualised. An elderly patient with frailty, dementia, or frequent falls has more to fear from hypoglycaemia than from modest hyperglycaemia. A tight HbA1c target in this group — achieved with sulfonylureas or insulin — can precipitate falls, fractures, cardiac events, and death. The target should be relaxed, and hypoglycaemia-causing agents avoided.
 
 Urine ACR is the earliest and most sensitive marker of diabetic nephropathy — detectable years before creatinine rises or eGFR falls. It must be measured annually in every person with diabetes. Starting ACEi or ARB at the microalbuminuria stage (ACR 3–30 mg/mmol) halts or significantly delays progression to macroalbuminuria and ESRD. This is one of the highest-impact preventive interventions in all of medicine.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 47-year-old man, BMI 34, fatigue and thirst. Fasting glucose 164 mg/dL (≥126 = diagnostic threshold), HbA1c 8.6%. No ketonuria. Father had T2DM and premature MI at 59. BP 148/92, microalbuminuria on dipstick.
+
+**Step 1 — Confirm the diagnosis:** Two diagnostic criteria are met simultaneously — fasting glucose ≥126 mg/dL **and** HbA1c ≥6.5%. Either alone is sufficient. No ketonuria and a BMI of 34 makes **type 2 diabetes** the clear diagnosis; T1DM is possible at any age but uncommon at 47 with obesity and a positive family history, and the absence of ketonuria is reassuring.
+
+**Step 2 — Assess complications at diagnosis:** Microalbuminuria (urine ACR positive) = early **diabetic nephropathy**. This must be quantified with a spot urine ACR. BP 148/92 + microalbuminuria → start **ACEi (ramipril) or ARB regardless of ethnicity** — the renoprotective effect is independent of BP lowering. Target BP <130/80 mmHg.
+
+**Step 3 — Assess cardiovascular risk:** Father with premature CVD (MI <60 years), BMI 34, hypertension = **high cardiovascular risk**. This determines drug choice beyond metformin.
+
+**Step 4 — Pharmacotherapy:**
+- **Metformin** — first-line; start 500 mg BD with food, titrate. Withhold if eGFR <30.
+- **SGLT2 inhibitor** (empagliflozin or dapagliflozin) — add given CV risk and microalbuminuria; proven to reduce cardiovascular death and slow nephropathy progression independently of glucose control. Do not wait for HbA1c to be uncontrolled before adding.
+- Or **GLP-1 receptor agonist** (liraglutide, semaglutide) — if high CVD risk or obesity; weight loss benefit is additional
+- **Statin** — all T2DM patients >40 years or with additional risk factors; atorvastatin 20–40 mg
+
+**Step 5 — HbA1c target:** Individualise to 7.0% (53 mmol/mol) in most patients. Reassess at 3 months; if not at target, add the second agent above.
+
+**Exam trigger:** *T2DM + microalbuminuria + hypertension* → start ACEi/ARB regardless of baseline BP — the renoprotective indication is independent. The distractor is waiting until BP exceeds a specific threshold.

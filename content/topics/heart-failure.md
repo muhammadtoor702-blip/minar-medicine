@@ -162,3 +162,30 @@ The most common precipitant of acute decompensation is medication non-compliance
 Never start a beta-blocker in an acutely decompensated patient. Wait until euvolaemic — the negative inotropy of a beta-blocker in a patient whose sympathetic drive is the only thing maintaining cardiac output can precipitate cardiogenic shock. Stabilise first, then introduce bisoprolol at 1.25mg with very slow up-titration.
 
 NT-proBNP is actionable. Titrating diuretics and neurohormonal blockade toward a target NT-proBNP — rather than managing symptoms alone — is associated with better outcomes and gives you an objective endpoint to work toward at each clinic visit.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 68-year-old woman with hypertension and T2DM, 3 weeks of worsening breathlessness, orthopnoea, sleeping on 3 pillows, bilateral ankle swelling. Elevated JVP 5 cm, bibasal crepitations, pitting oedema to knees. NT-proBNP 3400 pg/mL.
+
+**Step 1 — Confirm heart failure:** NT-proBNP 3400 pg/mL is well above the >2000 threshold for urgent referral. Elevated JVP + bibasal crepitations + bilateral oedema + orthopnoea = clinical heart failure. The elevated JVP is the most reliable objective sign of fluid overload and distinguishes cardiogenic from pulmonary causes of dyspnoea.
+
+**Step 2 — Urgent echocardiogram within 2 weeks:** NT-proBNP >2000 = NICE urgent pathway. Echo determines EF, which drives every subsequent treatment decision. You cannot safely initiate evidence-based pharmacotherapy without knowing the EF.
+
+**Step 3 — Determine the subtype:** Hypertension + T2DM + age 68 = most likely **HFpEF** (preserved EF ≥50%), where diastolic dysfunction rather than systolic failure predominates. If echo confirms reduced EF (<40%), the treatment algorithm is different and more evidence-based.
+
+**Step 4 — If HFrEF (EF <40%) — start all four pillars:**
+1. ACEi (ramipril) or ARNI (sacubitril/valsartan) — start low, titrate up
+2. Beta-blocker (bisoprolol 1.25 mg → 10 mg) — only when euvolaemic
+3. MRA (spironolactone 25 mg) — monitor K⁺ and creatinine
+4. SGLT2 inhibitor (dapagliflozin 10 mg) — now first-line regardless of diabetes status
+
+**Step 5 — If HFpEF (EF ≥50%):** No therapy has yet proven mortality benefit. Priorities:
+- Aggressively treat hypertension (the primary driver)
+- SGLT2 inhibitor — strongest emerging evidence (EMPEROR-Preserved trial)
+- Furosemide for congestion; tight glycaemic control
+
+**Step 6 — Furosemide now for symptom relief:** Start furosemide 40 mg PO. Monitor electrolytes (hypokalaemia) and creatinine. The goal is euvolaemia — resolve the oedema and crepitations — but diuretics have no mortality benefit.
+
+**Exam trigger:** *NT-proBNP >2000 + clinical fluid overload* → urgent echo within 2 weeks. The distractor is starting treatment without confirming EF — you cannot know whether to use all four pillars or symptom management only without an echocardiogram.

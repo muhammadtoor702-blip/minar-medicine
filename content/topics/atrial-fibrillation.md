@@ -151,3 +151,34 @@ Hyperthyroidism is identified in 10–15% of patients presenting with new AF, an
 The risk of cardioversion in inadequately anticoagulated AF is real and irreversible. A thrombus that has been silently forming in the LAA for days can be dislodged by cardioversion and cause a devastating stroke. When the duration of AF is >48 hours or unknown, either anticoagulate for 3 weeks before cardioversion or perform TOE to exclude LAA thrombus first — there is no shortcut.
 
 Correctable bleeding risks should prompt action, not refusal to anticoagulate. Uncontrolled hypertension, NSAIDs, and labile INR are modifiable. A patient with a high HAS-BLED score and high CHA₂DS₂-VASc score almost always benefits from anticoagulation after risk factors have been optimised — the alternative (untreated AF stroke) carries far higher mortality and morbidity than well-managed anticoagulation bleeding.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 72-year-old man with hypertension and T2DM. Two days of palpitations, mild breathlessness, fatigue. Pulse irregularly irregular at 114 bpm. ECG: absent P waves, irregularly irregular, 114 bpm. BP 138/86. Normal TFTs.
+
+**Step 1 — Confirm AF and exclude reversible causes:** ECG confirms AF. TFTs normal — hyperthyroidism accounts for 10–15% of new AF and must be excluded first. U&E (hypokalaemia, hypomagnesaemia), echo (structural disease), and alcohol history complete the initial workup.
+
+**Step 2 — Calculate CHA₂DS₂-VASc:**
+- Congestive HF = 0 (not mentioned)
+- Hypertension = **+1**
+- Age 72 = **+1** (≥65 = 1 point; ≥75 = 2 points)
+- Diabetes = **+1**
+- Stroke/TIA = 0
+- Vascular disease = 0
+- Sex (male) = 0
+- **Total: 3** — anticoagulation is strongly indicated. Annual stroke risk ~3.2%.
+
+**Step 3 — Anticoagulate:** Start a **DOAC** (apixaban 5 mg BD, rivaroxaban 20 mg OD with evening meal, edoxaban 60 mg OD, or dabigatran 150 mg BD) — preferred over warfarin in non-valvular AF (lower risk of haemorrhagic stroke, no INR monitoring required). Valvular AF (mechanical valve, rheumatic mitral stenosis) = warfarin only.
+
+**Step 4 — Rate vs rhythm control:** Two days of AF, mildly symptomatic, haemodynamically stable.
+- **Rate control** is appropriate initial strategy (AFFIRM/RACE trials: no mortality difference vs rhythm control)
+- Target resting HR <110 bpm: **bisoprolol 2.5–5 mg** or rate-limiting CCB (diltiazem) — avoid verapamil if LV function impaired
+- Rhythm control (cardioversion) can be considered if: symptoms persist despite rate control, or patient strongly prefers it
+
+**Step 5 — If cardioverting:** Duration 2 days — onset is borderline. Either:
+- TOE to exclude LAA thrombus, then cardiovert under anticoagulation cover, or
+- Anticoagulate for **3 weeks**, then cardiovert, then continue anticoagulation for **minimum 4 weeks** post-cardioversion (regardless of return to sinus rhythm — stunning risk)
+
+**Exam trigger:** *New AF + CHA₂DS₂-VASc ≥2 (men) or ≥3 (women)* → anticoagulate with a DOAC. The distractor is using aspirin for stroke prevention in AF — aspirin provides minimal protection against cardioembolic stroke and significantly increases bleeding risk.

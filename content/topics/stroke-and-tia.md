@@ -179,3 +179,29 @@ Non-contrast CT is not good at seeing ischaemic stroke — it is good at excludi
 Never lower blood pressure aggressively in acute ischaemic stroke unless you are about to give thrombolysis. The hypertension is a physiological response to maintain perfusion to the penumbra through collateral vessels. Bringing the BP from 200 to 150 in an attempt to be helpful can extend the infarct by eliminating this collateral flow.
 
 The TIA is the warning shot. A patient who has a TIA and is sent home without antiplatelet therapy, a statin, and urgent investigation has not been managed — they have been deferred. The risk of stroke in the 48 hours following a TIA is 5–10%. These patients need same-day specialist review and initiation of secondary prevention before they leave the department.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 69-year-old man with AF on warfarin, unable to speak, right arm and face weakness for 2 hours. GCS 13, right hemiplegia, expressive aphasia, right facial droop. BP 192/106, INR 1.4.
+
+**Step 1 — Localise the lesion:** Expressive aphasia = Broca's area (left inferior frontal gyrus). Right face and arm weakness with arm > leg predominance = upper MCA territory. This is a **left MCA superior division stroke**. The mechanism — AF → left atrial appendage thrombus → cardioembolic occlusion — explains the sudden, maximal onset.
+
+**Step 2 — Is thrombolysis possible? Check each criterion:**
+- Time: 2 hours from onset ✓ (within 4.5-hour window)
+- CT head required first to exclude haemorrhage — **cannot skip this step under any circumstances**
+- INR 1.4 ✓ — the contraindication threshold is INR **>1.7**; INR 1.4 does **not** preclude thrombolysis
+- BP 192/106 ✗ — must be brought to **<185/110 mmHg** before alteplase; treat with IV labetalol or glyceryl trinitrate infusion
+
+**Step 3 — CT shows no haemorrhage → give alteplase:** 0.9 mg/kg IV (max 90 mg), 10% as bolus, remainder over 60 minutes. Simultaneously arrange **CT angiography** — if large vessel occlusion confirmed (M1 MCA), transfer for mechanical thrombectomy.
+
+**Step 4 — Blood pressure after thrombolysis:** Maintain BP <180/105 mmHg during and after infusion. Do **not** lower BP aggressively in acute ischaemic stroke outside thrombolysis — elevated BP maintains collateral perfusion to the penumbra.
+
+**Step 5 — Secondary prevention:**
+- Restart anticoagulation **4–14 days** post-stroke (balance between haemorrhagic transformation risk and recurrent embolism)
+- **DOAC preferred over warfarin** for non-valvular AF (this patient's warfarin suggests he may be a candidate to switch)
+- High-intensity statin: atorvastatin 80 mg
+- Target BP <130/80, starting 24–48 hours after the acute event
+
+**Exam trigger:** *AF + acute stroke + INR 1.4* → INR 1.4 does not contraindicate thrombolysis (cutoff is 1.7). Treat the blood pressure, get the CT, give alteplase. The distractor is assuming any anticoagulation = thrombolysis contraindicated.

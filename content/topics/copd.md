@@ -151,3 +151,30 @@ Digital clubbing is not caused by COPD. If a patient with apparent COPD has fing
 The oxygen target of 88–92% is perhaps the most important number in acute respiratory medicine. Giving uncontrolled high-flow oxygen to a hypercapnic COPD patient is one of the most common and preventable causes of iatrogenic harm in emergency medicine. The risk is real, the mechanism is well established, and Venturi masks exist precisely to prevent it. The 24% blue Venturi mask is the correct starting point for any COPD patient in respiratory distress — do not reach for the non-rebreather mask.
 
 LABA should not be used without ICS in asthma — but in COPD, LABA monotherapy is standard. This distinction matters both clinically and in examinations. The same drug (salmeterol) in a different disease has a completely different risk profile. Prescribing salmeterol without ICS to an asthmatic is dangerous; prescribing it without ICS to a COPD patient is standard practice.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 66-year-old ex-smoker with a 45 pack-year history. Three days of worsening breathlessness, increased green sputum, and wheeze. RR 26, SpO₂ 87% on air, HR 112, pursed-lip breathing, barrel chest, hyperresonant, prolonged expiration.
+
+**Step 1 — Diagnose and classify:** This is an **acute exacerbation of COPD (AECOPD)** — defined by worsening breathlessness + increased sputum volume + change in sputum character (purulent). SpO₂ 87% confirms significant hypoxaemia requiring oxygen.
+
+**Step 2 — Controlled oxygen — the single most important prescribing decision:** SpO₂ 87% needs correction, but **do not reach for a non-rebreather mask**.
+- Start **24% Venturi mask** (blue Venturi) — gives precisely 24% FiO₂
+- **Target SpO₂ 88–92%** — not 94–98% as in most other conditions
+- The risk: uncontrolled high-flow O₂ in a hypercapnic COPD patient abolishes the hypoxic respiratory drive and causes CO₂ retention with respiratory acidosis
+- After 30–60 minutes: **get an ABG** — is this type 2 respiratory failure (PaCO₂ >45 mmHg, pH <7.35)?
+
+**Step 3 — Bronchodilators:** Salbutamol 2.5–5 mg + ipratropium 0.5 mg nebulised. In CO₂ retainers, **drive nebulisers with air, not oxygen** — to avoid worsening hypercapnia.
+
+**Step 4 — Treat the exacerbation:**
+- **Prednisolone 30 mg orally for 5 days** — reduces recovery time and risk of treatment failure
+- **Antibiotics** if sputum is purulent (this patient has green sputum) — amoxicillin, doxycycline, or clarithromycin as per local guidelines
+- Monitor electrolytes — salbutamol drives K⁺ into cells; hypokalaemia common in high-dose nebuliser treatment
+
+**Step 5 — ABG shows pH <7.35 and PaCO₂ >45 mmHg → NIV (BiPAP):** Non-invasive ventilation in hypercapnic respiratory failure reduces intubation rates and mortality. Start promptly if acidosis persists after initial bronchodilators.
+
+**Step 6 — After recovery:** Review and optimise inhaler therapy (GOLD step), pulmonary rehabilitation referral, check vaccination status (influenza, pneumococcal), smoking cessation if not already achieved, consider long-term azithromycin if ≥3 exacerbations/year.
+
+**Exam trigger:** *COPD exacerbation + SpO₂ 87%* → controlled oxygen via Venturi mask targeting 88–92%. The wrong answer is high-flow oxygen. The wrong result is a PaCO₂ of 75 mmHg and a pH of 7.2.

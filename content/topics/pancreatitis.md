@@ -169,3 +169,27 @@ Cholecystectomy during the index admission for mild gallstone pancreatitis preve
 Early enteral nutrition in severe pancreatitis is not merely preferred over TPN — it actively prevents complications. The gut becomes the mediator of the systemic inflammatory response in severe pancreatitis through bacterial translocation from a compromised intestinal barrier. Feeding via a nasojejunal tube maintains barrier integrity, reduces infectious complications, and reduces mortality. Nil-by-mouth and TPN should be reserved for the uncommon situation where enteral feeding is technically impossible.
 
 New-onset diabetes in a patient over 50 with weight loss and upper abdominal discomfort requires pancreatic imaging before accepting a diagnosis of type 2 diabetes. Type 3c pancreatogenic diabetes is a recognised presenting feature of pancreatic adenocarcinoma. A "new type 2 diabetes" diagnosis in this clinical context without abdominal imaging is incomplete — and potentially delays a diagnosis that, caught earlier, might be resectable.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 42-year-old woman with severe epigastric pain radiating to the back, onset 8 hours after a fatty meal, repeated vomiting, unable to find a comfortable position. Two prior milder episodes. Temp 38.1°C, HR 118, BP 102/68. Amylase 2400 U/L. USS shows gallstones.
+
+**Step 1 — Confirm the diagnosis:** Amylase >3× ULN in the appropriate clinical context = **acute pancreatitis**. 2400 U/L is unambiguous. The clinical picture — epigastric pain radiating to the back, post-fatty-meal onset, vomiting, relieved by leaning forward — is classic. No imaging required to confirm.
+
+**Step 2 — Identify the cause:** Fatty meal trigger + gallstones on USS + female sex + prior similar episodes = **gallstone pancreatitis**. Most common cause in women (~45%). Alcohol would be the leading diagnosis in a male with heavy drinking history.
+
+**Step 3 — Assess severity:** HR 118, BP 102/68, temp 38.1°C — this patient meets SIRS criteria and has haemodynamic compromise. This is **not mild pancreatitis**. Apply the Modified Glasgow/Imrie score formally at **48 hours** (not on admission — early scoring underestimates severity). Score ≥3 at 48h = severe → ICU/HDU.
+
+**Step 4 — Immediate management (first 24 hours):**
+- **IV Hartmann's/Ringer's lactate** — aggressive resuscitation, 250–500 mL/hour initially; **not 0.9% saline** (causes hyperchloraemic acidosis in large volumes)
+- IV analgesia — morphine; do not withhold
+- **No prophylactic antibiotics** — multiple RCTs show no mortality benefit; increases C. difficile and resistance. Antibiotics only if confirmed infected necrosis or concurrent cholangitis
+- Early oral feeding when nausea subsides — not nil-by-mouth
+
+**Step 5 — Reassess at 48 hours:** If Modified Glasgow ≥3 → nasojejunal enteral feeding within 24–48 hours (superior to TPN for reducing infectious complications and mortality). CECT abdomen if not improving (not earlier — CT at <48h underestimates necrosis extent).
+
+**Step 6 — The answer that separates a good answer from a complete one:** Same-admission **laparoscopic cholecystectomy**. Without it, ~30% of patients have a second episode of gallstone pancreatitis within 6 weeks — and the next episode may be worse. Discharging this patient without organising cholecystectomy before she leaves is incomplete management.
+
+**Exam trigger:** *Gallstone pancreatitis + recovery from mild-moderate episode* → cholecystectomy this admission. "Schedule as an outpatient" is the wrong answer. Every day of deferral in a fit patient is an avoidable risk of recurrence.

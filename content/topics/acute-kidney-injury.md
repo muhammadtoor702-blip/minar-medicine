@@ -159,3 +159,30 @@ Calcium chloride 10% provides 3× the elemental calcium of calcium gluconate —
 Metformin is renally excreted and accumulates in AKI. Accumulation inhibits hepatic mitochondrial metabolism, causing fatal lactic acidosis. The drug must be stopped at the first presentation of AKI — not after a creatinine threshold is crossed — and must not be restarted until function is fully restored and the patient is stable. This is one of the most important prescribing rules in nephrology, and one of the most commonly violated.
 
 A bladder scan takes two minutes. In any elderly man admitted with AKI and no clear pre-renal explanation, bladder outlet obstruction from BPH is common, silent, and completely reversible with a single catheterisation. Every AKI workup must include assessment of the post-void residual before embarking on complex investigation for intrinsic disease.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 76-year-old man with hypertension and T2DM. Four days of vomiting and diarrhoea with reduced urine output. Takes ramipril, metformin, and ibuprofen. Creatinine 3.8 mg/dL (baseline 1.1 mg/dL). Oliguric, dry mucous membranes, HR 112, BP 94/58.
+
+**Step 1 — Stage the AKI:** Creatinine rose from 1.1 to 3.8 mg/dL = 3.5× baseline. **KDIGO Stage 3** (≥3× baseline). This is severe AKI requiring urgent management.
+
+**Step 2 — Identify the mechanism — the "triple whammy":** This presentation is a classic drug-induced AKI in the context of volume depletion:
+- **Ibuprofen (NSAID)** blocks prostaglandin-mediated afferent arteriolar dilation → reduces GFR
+- **Ramipril (ACEi)** blocks angiotensin II-mediated efferent arteriolar constriction → reduces GFR further
+- **Volume depletion** from vomiting/diarrhoea → reduces renal perfusion pressure
+All three mechanisms simultaneously = catastrophic GFR collapse. This is pre-renal AKI that may be transitioning to ATN if tubular ischaemia is established.
+
+**Step 3 — Stop all nephrotoxins immediately (this is the first action):**
+- **Stop ibuprofen** — direct nephrotoxin + afferent constriction
+- **Stop ramipril** — must be withheld until creatinine recovers and the patient is haemodynamically stable
+- **Stop metformin NOW** — renally excreted; accumulation in AKI causes fatal lactic acidosis. This is non-negotiable.
+
+**Step 4 — Resuscitate:** IV Hartmann's 500 mL bolus; reassess BP, HR, and urine output. Insert urinary catheter to accurately monitor output. Target urine output >0.5 mL/kg/hour.
+
+**Step 5 — Check potassium urgently:** AKI + ACEi = high risk of dangerous hyperkalaemia. Get an ECG — peaked T waves indicate cardiac toxicity. If K⁺ >6.0 mEq/L with ECG changes: calcium chloride → insulin-dextrose → consider dialysis.
+
+**Step 6 — Renal ultrasound:** Mandatory to exclude obstruction. A 76-year-old man with AKI may have concurrent prostatic obstruction — check post-void residual.
+
+**Exam trigger:** *AKI + NSAID + ACEi + volume depletion* → triple whammy; stop all three drugs immediately. The most dangerous omission is failing to stop metformin — lactic acidosis from metformin accumulation in AKI is fatal.

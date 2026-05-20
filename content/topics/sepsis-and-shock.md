@@ -168,3 +168,30 @@ Blood cultures before antibiotics is an absolute principle — but it must never
 Noradrenaline, not dopamine, is the vasopressor of choice in septic shock. Dopamine caused significantly more arrhythmias and was associated with worse outcomes in the SOAP-II trial. There is no longer a clinical role for dopamine as a first-line vasopressor in septic shock.
 
 Lactate is not just about hypoperfusion — it is a marker of cellular dysfunction in sepsis even when macrocirculatory parameters appear normal. A high lactate in a patient who looks "not that sick" (warm, well-perfused, reasonably maintained BP) is a warning sign. Cytopathic hypoxia means the cells cannot utilise delivered oxygen despite adequate delivery. Serial lactate clearance is a more reliable resuscitation endpoint than any single haemodynamic parameter.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 73-year-old man, obtunded and febrile. Five days of green productive cough. Temp 39.4°C, HR 128, BP 76/42, RR 30, SpO₂ 88%. Confused. Lactate 46 mg/dL (~4.1 mmol/L). CXR: left lower lobe consolidation.
+
+**Step 1 — Identify: this is septic shock, not just sepsis:**
+- Infection source: community-acquired pneumonia (fever, purulent cough, consolidation, 5 days)
+- Organ dysfunction: confusion (brain), RR 30 + SpO₂ 88% (lung), hypotension (cardiovascular) = Sepsis-3 criteria met
+- Lactate 46 mg/dL = **>18 mg/dL (>2 mmol/L)** + vasopressor requirement = **septic shock**
+- Estimated mortality: ~40% from septic shock
+
+**Step 2 — Activate the 1-hour bundle (Surviving Sepsis Guidelines):**
+- **Blood cultures × 2** from different sites — draw within the first minute, **before antibiotics**
+- **IV antibiotics within 1 hour** — do not wait for culture results. For severe CAP: co-amoxiclav 1.2 g IV TDS + clarithromycin 500 mg IV BD. Every hour of delay increases mortality ~7%.
+- **IV Hartmann's or 0.9% NaCl 30 mL/kg** bolus over 30 minutes — aggressive fluid resuscitation
+- **Supplemental oxygen** to target SpO₂ ≥94%
+- **Measure lactate** (already done) and repeat at 2 hours to confirm clearance ≥10%
+
+**Step 3 — Vasopressors if BP not responding to fluids:** If MAP <65 mmHg after 30 mL/kg fluids → start **noradrenaline** (not dopamine — SOAP-II trial: dopamine caused more arrhythmias and worse outcomes). Target MAP ≥65 mmHg. Insert arterial line and CVC.
+
+**Step 4 — ICU criteria:** This patient needs ICU — vasopressors + mechanical ventilation likely required. Early senior review and ICU referral within the first 30 minutes.
+
+**Step 5 — Source control:** Pneumonia does not usually require procedural source control. But confirm: is there a parapneumonic effusion or empyema (needs chest drain)? Repeat CXR, USS chest if in doubt.
+
+**Exam trigger:** *Septic shock + pneumonia → antibiotics within 1 hour after blood cultures*. The distractor is waiting for culture sensitivities before starting antibiotics. In septic shock, that wait kills the patient.

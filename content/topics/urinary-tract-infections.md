@@ -157,3 +157,25 @@ Nitrofurantoin concentrates in the urine to achieve bactericidal levels, but bar
 Sterile pyuria — white cells in the urine with a negative standard bacterial culture — must never be dismissed as "a negative result." The most important diagnosis to exclude is **urinary tuberculosis**: Mycobacterium tuberculosis does not grow on standard urine culture media and causes a characteristic sterile pyuria. Early morning urine samples for AFB smear and TB culture (three samples on consecutive days) are the investigation. A missed renal TB diagnosis leads to progressive renal destruction and potential spread.
 
 Recurrent UTIs in a young woman on repeated trimethoprim courses without culture guidance is a pattern that reliably selects for resistant E. coli. By the time the patient presents requesting another prescription, resistance rates in her personal flora may be 50% or higher. Send a culture before each treatment course, perform a vaginal examination (if indicated), and invest time in behavioural and preventive strategies — post-coital voiding, adequate hydration, D-mannose, and if needed, low-dose prophylaxis. Another empirical trimethoprim course is not a management plan; it is a temporary fix that worsens the medium-term problem.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 28-year-old woman with two days of dysuria, frequency, and suprapubic pain. Apyrexial. Dipstick: leucocyte esterase 2+, nitrites positive. Not pregnant. Three similar episodes in the past year, all treated with trimethoprim.
+
+**Step 1 — Classify the infection:** No fever, no flank pain, not pregnant = **uncomplicated lower UTI (cystitis)**. Positive nitrites + leucocyte esterase on dipstick in a symptomatic patient confirms the diagnosis clinically. No urine culture is needed to diagnose — but this is not a first episode, which changes the approach.
+
+**Step 2 — Recognise the recurrent UTI pattern:** Three episodes in 12 months meets the definition of **recurrent UTI** (≥3 episodes in 12 months). The management goal shifts from treating an acute episode to preventing the next one.
+
+**Step 3 — Flag the trimethoprim problem:** Three empirical trimethoprim courses without culture = textbook resistance selection. Before prescribing anything, **send an MSU for MC&S**. Trimethoprim resistance exceeds 20% nationally; in her personal flora after repeated exposure, it may be much higher. Empirical trimethoprim for a fourth time is the wrong answer on an exam and in clinic.
+
+**Step 4 — Treat this episode:** Nitrofurantoin MR 100 mg twice daily × 3 days — correct first-line (NICE NG109; lower resistance rates; uncomplicated lower UTI means renal tissue penetration is not required). Await culture; adjust if resistant organism identified.
+
+**Step 5 — Prevention (the core of what this question is testing):**
+- High fluid intake ≥1.5–2 L/day; post-coital voiding
+- D-mannose or cranberry extract (modest but consistent evidence)
+- If UTIs consistently follow intercourse: **post-coital single-dose prophylaxis** — nitrofurantoin 50–100 mg or trimethoprim 100 mg
+- If no clear trigger: **continuous low-dose prophylaxis** — nitrofurantoin 50 mg nocte, reducing recurrence by ~80%
+
+**Exam trigger:** *Recurrent UTI + repeated empirical trimethoprim* → the correct next step is: send MSU culture first, treat with nitrofurantoin, implement a structured prevention plan. Another trimethoprim prescription without culture is the distractor.

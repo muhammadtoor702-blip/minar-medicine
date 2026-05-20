@@ -163,3 +163,28 @@ The inferior STEMI demands immediate right-sided leads (V4R) in every case. RV i
 Never administer thrombolytics without first excluding aortic dissection. A patient with tearing interscapular pain, BP asymmetry between arms, and ST changes who is thrombolysed will likely exsanguinate or develop haemopericardium. Take 10 minutes to get a CT first.
 
 Troponin is not the diagnosis — it is a marker of myocardial injury from any cause. A troponin rise in a patient with sepsis, severe tachycardia, or respiratory failure is Type 2 MI from supply-demand mismatch. Rushing that patient to the catheterisation laboratory changes nothing and risks contrast nephropathy. Identify and treat the cause.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 61-year-old man with hypertension and heavy smoking history. Central crushing chest pain radiating to the jaw, diaphoresis, and nausea for 90 minutes. ECG: 3mm ST elevation in II, III, and aVF with reciprocal ST depression in I and aVL. HR 88, BP 96/64.
+
+**Step 1 — Diagnose and localise:** ST elevation in II, III, and aVF = **inferior STEMI**. The culprit vessel in ~90% of inferior STEMIs is the **right coronary artery (RCA)**. Reciprocal changes in I and aVL confirm this is a true STEMI, not pericarditis (which causes diffuse saddle-shaped elevation without reciprocal depression).
+
+**Step 2 — The critical next step: right-sided leads immediately.** BP 96/64 in an inferior STEMI raises the immediate concern of **RV infarction** — present in up to 40% of inferior STEMIs when the occlusion is proximal. Do **V4R** before giving any vasodilator or diuretic. ST elevation ≥1mm in V4R confirms RV involvement.
+
+**Step 3 — If RV infarction confirmed (ST elevation in V4R):** This patient is **preload-dependent**. Their hypotension is from RV failure, not LV failure.
+- **Give IV fluid resuscitation** (0.9% saline boluses)
+- **Absolutely avoid nitrates** — GTN will drop venous return, precipitate cardiovascular collapse
+- **Avoid diuretics** — same mechanism
+- Inotropes (dobutamine) if fluids alone do not restore BP
+
+**Step 4 — Activate primary PCI:** Door-to-balloon ≤90 minutes at a PCI-capable centre. Give aspirin 300 mg + ticagrelor 180 mg loading doses immediately. Anticoagulate with LMWH or UFH. Oxygen only if SpO₂ <90%.
+
+**Step 5 — Secondary prevention post-PCI:**
+- DAPT (aspirin 75 mg + ticagrelor 90 mg BD) for 12 months
+- Atorvastatin 80 mg, ramipril, bisoprolol
+- Echo to assess EF — if EF <35% at 40 days despite optimal therapy → ICD referral
+
+**Exam trigger:** *Inferior STEMI + hypotension* → before giving GTN, **get right-sided leads**. RV infarction is the answer. GTN in this context can kill the patient.

@@ -163,3 +163,32 @@ D-dimer is a rule-out test, not a rule-in test. A positive D-dimer in a post-ope
 Antiphospholipid syndrome (APS) is an important consideration in young patients with unprovoked PE, recurrent VTE, or a history of recurrent miscarriage. The DOAC-APS trial and subsequent data showed that rivaroxaban performed significantly worse than warfarin in APS — patients on rivaroxaban had more arterial events. If APS is confirmed, use warfarin (target INR 2–3), not DOACs.
 
 CTEPH is the one complication of PE that is both common enough to matter (3–5% of survivors) and treatable with a potentially curative surgical procedure. Any patient with a history of PE who develops unexplained progressive breathlessness — even years later — should be evaluated for CTEPH with V/Q scanning, not just CTPA. V/Q scan shows perfusion defects in areas where CT shows no filling defect because the organised thrombus is not detected by CT contrast.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 27-year-old woman with sudden right-sided pleuritic chest pain and breathlessness. 9-hour flight 3 days ago, on the OCP. HR 116, RR 22, SpO₂ 94%, BP 108/72. Normal CXR. D-dimer 3.1 mg/L (elevated).
+
+**Step 1 — Apply the Wells score before doing anything else:**
+- PE is most likely diagnosis and no alternative is evident = **+3**
+- Heart rate >100 bpm = **+1.5**
+- Immobilisation >3 days (long-haul flight) = **+1.5**
+- **Total: 6 — High probability (>6 = high; 2–6 = moderate)**
+
+High Wells score means: **go directly to CTPA**. Do not use D-dimer to guide decision-making in high-probability patients — a positive D-dimer adds nothing and a negative D-dimer is not reliable enough to exclude PE when pre-test probability is high.
+
+**Step 2 — Haemodynamic assessment:** SpO₂ 94%, BP 108/72 — this is a **submassive (intermediate-risk) PE**, not massive. No need for thrombolysis. She needs anticoagulation and monitoring, not systemic thrombolysis.
+
+**Step 3 — Start anticoagulation now** (while awaiting CTPA if it will be delayed — do not wait for imaging if clinical probability is high and no contraindication to anticoagulation):
+- **DOAC** — apixaban 10 mg BD × 7 days then 5 mg BD (preferred; no bridging required)
+- Or rivaroxaban 15 mg BD × 21 days then 20 mg OD
+- Admit for monitoring; echo to assess RV function (RV dilation = higher-risk submassive PE)
+
+**Step 4 — Determine antibiotic duration (actually anticoagulation duration):**
+- Provoked by minor transient risk factors (OCP + flight) = **3–6 months** then stop
+- After stopping anticoagulation: **stop the OCP** — it is both a thrombotic risk factor and no longer indicated in a patient with confirmed VTE
+
+**Step 5 — Consider thrombophilia screen:** Young unprovoked or weakly provoked PE → lupus anticoagulant, anticardiolipin antibodies, anti-β₂-GP1. If **antiphospholipid syndrome confirmed → warfarin, not DOAC** (rivaroxaban inferior in APS — DOAC-APS trial).
+
+**Exam trigger:** *Young woman + OCP + long-haul flight + pleuritic chest pain* → high Wells score; go directly to CTPA, start apixaban. The distractor is using the elevated D-dimer to diagnose — D-dimer is a rule-out test only and is useless in high-probability cases.
