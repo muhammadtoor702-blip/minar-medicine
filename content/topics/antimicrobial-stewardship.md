@@ -2,11 +2,6 @@
 title: Antimicrobial Stewardship and Resistance
 system: Infectious Disease
 scenario: "A 78-year-old care home resident is admitted with confusion and falls. His urine dipstick shows leucocytes and nitrites. He is afebrile, HR 80, BP 128/76. His previous urine culture from two months ago grew E. coli resistant to trimethoprim and amoxicillin but sensitive to nitrofurantoin. His son asks why he hasn't been given antibiotics for 'the urine infection' yet."
-sources:
-  - NICE NG15 (Antimicrobial Stewardship)
-  - UK Government AMR National Action Plan 2024
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

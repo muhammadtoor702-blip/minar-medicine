@@ -2,11 +2,6 @@
 title: Haematological Malignancies
 system: Haematology
 scenario: "A 68-year-old man presents with a 3-month history of fatigue, recurrent infections, and night sweats. He has bilateral painless cervical and axillary lymphadenopathy. FBC: Hb 9.2 g/dL, WBC 82 × 10⁹/L, platelets 94 × 10⁹/L. Blood film shows a lymphocytosis with smear cells. Flow cytometry confirms CD5+/CD19+/CD23+ B-cell population."
-sources:
-  - NICE NG52 (CLL)
-  - NICE NG47 (Diffuse Large B-cell Lymphoma)
-  - BSH Leukaemia Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

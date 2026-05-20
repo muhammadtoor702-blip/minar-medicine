@@ -2,10 +2,6 @@
 title: Valvular Heart Disease
 system: Cardiology
 scenario: "A 75-year-old retired teacher presents with 18 months of progressive exertional breathlessness. She had one episode of exertional near-syncope last month. Examination reveals a harsh ejection systolic murmur at the right upper sternal edge radiating to both carotids, a slow-rising pulse, and a soft second heart sound."
-sources:
-  - ESC Valvular Heart Disease Guidelines 2021
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

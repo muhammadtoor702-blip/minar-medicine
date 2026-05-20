@@ -2,10 +2,6 @@
 title: Connective Tissue Diseases
 system: Rheumatology
 scenario: "A 29-year-old woman presents with a 6-month history of facial rash exacerbated by sun exposure, painful swollen joints, fatigue, and oral ulcers. She had a miscarriage at 10 weeks last year. BP 154/94, urinalysis shows proteinuria 2+ and microscopic haematuria. ANA is positive at 1:640, anti-dsDNA elevated, complement C3 and C4 are low."
-sources:
-  - EULAR SLE Recommendations 2023
-  - BSR Lupus Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

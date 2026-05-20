@@ -2,12 +2,6 @@
 title: Diabetes Mellitus
 system: Endocrinology
 scenario: "A 47-year-old man with a BMI of 34 attends for review of his blood results. He has been increasingly fatigued and thirsty. Fasting glucose is 164 mg/dL and HbA1c is 71 mmol/mol (8.6%). He has no ketonuria. His father had type 2 diabetes and died of a myocardial infarction at 59. BP 148/92, microalbuminuria on urine dipstick."
-sources:
-  - ADA Standards of Care 2024
-  - NICE NG28 (Type 2 Diabetes)
-  - NICE NG17 (Type 1 Diabetes)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

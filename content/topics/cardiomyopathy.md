@@ -2,10 +2,6 @@
 title: Cardiomyopathy
 system: Cardiology
 scenario: "A 24-year-old competitive footballer collapses during a match and is resuscitated from ventricular fibrillation. He reports occasional exertional chest tightness and one prior episode of near-syncope during a game. His father died suddenly at 39 of an unspecified cardiac cause. Examination reveals a jerky pulse, a prominent 'a' wave in the JVP, and a harsh systolic murmur at the left lower sternal edge that gets louder on standing."
-sources:
-  - ESC Cardiomyopathy Guidelines 2023
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

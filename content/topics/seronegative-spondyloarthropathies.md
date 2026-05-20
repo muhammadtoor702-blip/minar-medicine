@@ -2,10 +2,6 @@
 title: Seronegative Spondyloarthropathies
 system: Rheumatology
 scenario: "A 26-year-old man presents with a 3-year history of low back pain and stiffness that is worst in the early morning, lasts over an hour, and improves with exercise but not rest. He had an episode of left eye pain and redness last year. His father has a similar back condition. HLA-B27 is positive. MRI sacroiliac joints shows bone marrow oedema bilaterally."
-sources:
-  - ASAS/EULAR Axial SpA Recommendations 2022
-  - NICE NG65 (Spondyloarthritis)
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

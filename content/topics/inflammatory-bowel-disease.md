@@ -2,11 +2,6 @@
 title: Inflammatory Bowel Disease
 system: Gastroenterology
 scenario: "A 24-year-old woman presents with four months of bloody diarrhoea up to eight times daily, cramping lower abdominal pain, urgency, and tenesmus. She has lost 7kg. She has a painful red nodule on her shin and a mouth ulcer. CRP 74, Hb 9.6 g/dL, albumin 26 g/L. Colonoscopy shows continuous mucosal inflammation from rectum to splenic flexure with crypt abscesses on biopsy."
-sources:
-  - ECCO IBD Guidelines 2023
-  - NICE NG129 / NG130
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

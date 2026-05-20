@@ -2,11 +2,6 @@
 title: Heart Failure
 system: Cardiology
 scenario: "A 68-year-old woman with hypertension and type 2 diabetes presents with 3 weeks of worsening breathlessness, orthopnoea, and bilateral ankle swelling. She sleeps on three pillows. JVP is elevated at 5cm above the sternal angle, bibasal crepitations are present, and there is pitting oedema to the knees. NT-proBNP is 3400 pg/mL."
-sources:
-  - ACC/AHA Heart Failure Guidelines 2022
-  - NICE NG106
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

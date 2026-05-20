@@ -2,11 +2,6 @@
 title: Dementia
 system: Neurology
 scenario: "A 74-year-old retired engineer is brought by his daughter who is concerned about his memory. Over the past two years he has become increasingly forgetful — repeating himself, missing appointments, and getting lost driving to familiar places. He recently left the gas on. On examination he is alert and cooperative but scores 20/30 on MMSE. Neurological examination is otherwise normal."
-sources:
-  - NICE NG97
-  - DSM-5
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

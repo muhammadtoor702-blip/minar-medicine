@@ -2,11 +2,6 @@
 title: Irritable Bowel Syndrome and Functional GI Disorders
 system: Gastroenterology
 scenario: "A 28-year-old woman presents with an 18-month history of intermittent lower abdominal cramping, bloating, and alternating constipation and loose stools. Symptoms are worse during periods of stress and reliably improve after defecation. She has had normal colonoscopy, normal blood tests including CRP and coeliac serology, and a faecal calprotectin of 18 µg/g. She is anxious about cancer and her symptoms significantly impair her quality of life."
-sources:
-  - NICE NG61 (IBS)
-  - Rome IV Criteria
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

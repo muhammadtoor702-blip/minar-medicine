@@ -2,11 +2,6 @@
 title: Atrial Fibrillation
 system: Cardiology
 scenario: "A 72-year-old man with hypertension and type 2 diabetes presents with two days of palpitations, mild breathlessness, and fatigue. His pulse is irregularly irregular at 114 bpm. ECG shows absent P waves with an irregularly irregular rhythm at 114 bpm. He is haemodynamically stable with BP 138/86. TFTs are normal."
-sources:
-  - ESC AF Guidelines 2020
-  - NICE NG196
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

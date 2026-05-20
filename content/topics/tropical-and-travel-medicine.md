@@ -2,11 +2,6 @@
 title: Tropical and Travel Medicine
 system: Infectious Disease
 scenario: "A 28-year-old man presents with a four-day history of high-grade fever, rigors, myalgia, and headache. He returned from a two-week trip to rural Kenya three days ago and took no malaria prophylaxis. Temperature 39.6°C, HR 116, BP 104/68. He looks unwell and has mild splenomegaly. Blood film shows ring forms and banana-shaped gametocytes."
-sources:
-  - WHO Malaria Guidelines 2023
-  - PHE Imported Fever Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

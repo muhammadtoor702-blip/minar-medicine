@@ -2,11 +2,6 @@
 title: Pancreatitis
 system: Gastroenterology
 scenario: "A 42-year-old woman presents with severe epigastric pain radiating to the back, onset 8 hours ago after a fatty meal. She has vomited repeatedly and cannot find a comfortable position. She has had two previous similar but milder episodes in the past year. Temperature 38.1°C, HR 118, BP 102/68. Serum amylase is 2400 U/L. USS shows gallstones."
-sources:
-  - BSG Acute Pancreatitis Guidelines 2023
-  - IAP/APA Guidelines on Acute Pancreatitis
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

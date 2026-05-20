@@ -2,12 +2,6 @@
 title: Adrenal Disease
 system: Endocrinology
 scenario: "A 38-year-old woman is referred with a two-year history of weight gain predominantly around the abdomen and face, easy bruising, proximal muscle weakness, and mood changes. She has developed purple striae on her abdomen. Her blood pressure is 162/98. Fasting glucose is 151 mg/dL. She is not taking any corticosteroids."
-sources:
-  - Endocrine Society Cushing's Guidelines 2022
-  - Endocrine Society Addison's Guidelines
-  - NICE CG101 (Primary Aldosteronism)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

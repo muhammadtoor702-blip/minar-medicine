@@ -2,10 +2,6 @@
 title: Anaemia
 system: Haematology
 scenario: "A 42-year-old woman presents with four months of progressive fatigue, dyspnoea on climbing stairs, and pallor. She has menorrhagia and follows a vegetarian diet. Hb 7.4 g/dL, MCV 68 fL, ferritin 6 ng/mL, TIBC elevated. Blood film shows microcytic hypochromic red cells with pencil cells."
-sources:
-  - BSH Anaemia Guidelines 2021
-  - NICE NG24
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

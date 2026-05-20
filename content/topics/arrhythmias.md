@@ -2,11 +2,6 @@
 title: Arrhythmias and Electrophysiology
 system: Cardiology
 scenario: "A 31-year-old woman presents with sudden-onset palpitations and breathlessness that started 25 minutes ago at rest. She has had three similar self-terminating episodes before. HR is 182 bpm, regular, BP 106/70, SpO₂ 98%. ECG shows a narrow complex tachycardia at 182 bpm with no clearly visible P waves. The QRS is 80ms."
-sources:
-  - ESC Arrhythmia Guidelines 2019
-  - AHA/ACC Arrhythmia Guidelines 2015
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

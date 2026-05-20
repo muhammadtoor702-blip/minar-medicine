@@ -2,11 +2,6 @@
 title: Rheumatoid Arthritis
 system: Rheumatology
 scenario: "A 38-year-old woman presents with a 4-month history of symmetrical swelling, pain, and stiffness in her wrists, MCPs, and PIPs — worst in the morning and lasting over 2 hours. She is fatigued and has lost 5kg. RF is strongly positive, anti-CCP is elevated, and CRP is 54 mg/L. X-rays show periarticular osteopaenia but no erosions yet."
-sources:
-  - NICE NG100 (Rheumatoid Arthritis)
-  - EULAR RA Management Recommendations 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,11 +2,6 @@
 title: Acute Coronary Syndrome
 system: Cardiology
 scenario: "A 61-year-old man with hypertension and a 30 pack-year smoking history presents at 2am with crushing central chest pain radiating to his left jaw, diaphoresis, and nausea. The pain started 90 minutes ago. ECG shows 3mm ST elevation in II, III, and aVF with reciprocal ST depression in I and aVL. HR 88, BP 96/64."
-sources:
-  - ESC STEMI Guidelines 2017
-  - ACC/AHA ACS Guidelines 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

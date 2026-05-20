@@ -2,11 +2,6 @@
 title: Movement Disorders
 system: Neurology
 scenario: "A 67-year-old retired teacher presents with a 2-year history of right-hand tremor at rest, which disappears when he reaches for objects. His wife has noticed he walks with smaller steps and has difficulty turning in bed at night. On examination there is a pill-rolling rest tremor, cogwheel rigidity, bradykinesia, and a stooped shuffling gait. His face is expressionless."
-sources:
-  - NICE NG71 (Parkinson's disease)
-  - MDS Diagnostic Criteria for Parkinson's Disease 2015
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,12 +2,6 @@
 title: Eczema and Psoriasis
 system: Dermatology
 scenario: "A 28-year-old woman presents with a six-month history of intensely itchy, red, scaly patches on her elbows, knees, and scalp. The plaques are well-defined with a silvery-white scale. She also has pitting of her fingernails. Her mother has a similar condition. A separate presentation: a 4-year-old boy with dry, itchy, red patches in the antecubital and popliteal fossae, with a personal history of asthma and allergic rhinitis."
-sources:
-  - NICE NG53 (Psoriasis)
-  - NICE NG190 (Atopic Eczema)
-  - BAD Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

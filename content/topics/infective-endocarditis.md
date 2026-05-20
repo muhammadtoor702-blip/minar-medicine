@@ -2,10 +2,6 @@
 title: Infective Endocarditis
 system: Cardiology
 scenario: "A 34-year-old IV drug user presents with three weeks of fever, night sweats, and malaise. He has a new pansystolic murmur at the lower left sternal border. Blood cultures are positive for Staphylococcus aureus on two separate sets. He has painless haemorrhages under several fingernails and tender nodules on his fingertips."
-sources:
-  - ESC Infective Endocarditis Guidelines 2023
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

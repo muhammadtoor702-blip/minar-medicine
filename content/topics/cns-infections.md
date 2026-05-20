@@ -2,11 +2,6 @@
 title: CNS Infections
 system: Neurology
 scenario: "A 19-year-old university student is brought in by ambulance with a 12-hour history of severe headache, fever, and vomiting, with progressive confusion over the past 3 hours. His flatmate notes he seemed well yesterday. Temperature 39.8°C, HR 128, BP 94/58, GCS 11. On examination there is neck stiffness and a non-blanching purpuric rash spreading across his trunk and lower limbs."
-sources:
-  - NICE NG240 (Meningitis)
-  - UK Meningitis Research Foundation Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

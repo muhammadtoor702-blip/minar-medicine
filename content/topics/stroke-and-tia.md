@@ -2,11 +2,6 @@
 title: Stroke and TIA
 system: Neurology
 scenario: "A 69-year-old man with hypertension and AF (on warfarin) is brought in after his wife found him unable to speak and with right-sided arm and face weakness. Onset was approximately 2 hours ago. GCS is 13. He has right-sided hemiplegia, expressive aphasia, and right facial droop. BP is 192/106. INR is 1.4."
-sources:
-  - ESC/AHA Stroke Guidelines 2021
-  - NICE NG128
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

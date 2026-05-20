@@ -2,12 +2,6 @@
 title: Acne and Rosacea
 system: Dermatology
 scenario: "An 18-year-old man presents with a 2-year history of persistent facial spots despite trying over-the-counter benzoyl peroxide. He has inflammatory papules, pustules, and several nodules on his cheeks, forehead, and chest. He has two large tender cysts on his jaw. He is visibly self-conscious and has been avoiding social situations. He asks about isotretinoin."
-sources:
-  - NICE NG198 (Acne)
-  - BAD Acne Guidelines
-  - BAD Rosacea Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

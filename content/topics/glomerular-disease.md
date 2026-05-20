@@ -2,10 +2,6 @@
 title: Glomerular Disease
 system: Nephrology
 scenario: "A 7-year-old boy is brought in with periorbital and leg swelling that his parents noticed one week ago. He has no haematuria. BP is 90/58 mmHg. Urinalysis shows 4+ protein and no blood. Albumin 1.2 g/dL, total cholesterol 352 mg/dL, urine is frothy. His urine ACR is markedly elevated."
-sources:
-  - KDIGO Glomerulonephritis Guidelines 2021
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

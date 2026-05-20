@@ -2,11 +2,6 @@
 title: Acute Kidney Injury
 system: Nephrology
 scenario: "A 76-year-old man with hypertension and type 2 diabetes is admitted with four days of vomiting, diarrhoea, and reduced urine output. He takes ramipril, metformin, and ibuprofen for chronic back pain. Creatinine today is 3.8 mg/dL; his baseline six months ago was 1.1 mg/dL. He is oliguric, mucous membranes are dry, HR 112, BP 94/58."
-sources:
-  - KDIGO AKI Guidelines 2012
-  - NICE NG148
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

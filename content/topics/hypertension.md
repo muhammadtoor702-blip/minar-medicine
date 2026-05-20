@@ -2,11 +2,6 @@
 title: Hypertension
 system: Cardiology
 scenario: "A 52-year-old man is seen at a routine check. He has no symptoms. Clinic BP is 168/102 on two readings 10 minutes apart. He smokes 15 cigarettes daily, has a family history of stroke, and his BMI is 31. Urinalysis is normal. Fundoscopy shows silver wiring and arteriovenous nipping with no haemorrhages."
-sources:
-  - NICE NG136
-  - ACC/AHA HTN Guidelines 2017
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

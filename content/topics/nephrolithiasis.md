@@ -2,11 +2,6 @@
 title: Nephrolithiasis
 system: Nephrology
 scenario: "A 34-year-old man presents to A&E with sudden onset severe right-sided loin pain radiating to the groin and right iliac fossa, associated with nausea and vomiting. He is writhing in agony and cannot find a comfortable position. Urinalysis shows microscopic haematuria. He had a similar episode two years ago that resolved spontaneously."
-sources:
-  - EAU Urolithiasis Guidelines 2023
-  - NICE NG118
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,11 +2,6 @@
 title: Stable Coronary Artery Disease
 system: Cardiology
 scenario: "A 57-year-old man with hypertension, type 2 diabetes, and a 20 pack-year smoking history presents with a four-month history of central chest tightness on climbing two flights of stairs, consistently relieved by rest within five minutes. His resting ECG is normal. His GP has started aspirin and a statin."
-sources:
-  - ESC Chronic Coronary Syndrome Guidelines 2019
-  - NICE NG185
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

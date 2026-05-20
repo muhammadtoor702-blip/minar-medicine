@@ -2,11 +2,6 @@
 title: Tuberculosis
 system: Pulmonology
 scenario: "A 29-year-old man from Pakistan presents with a three-month history of productive cough, drenching night sweats, and unintentional weight loss of 8kg. He has been in the UK for 18 months. Temperature 37.8°C. CXR shows right upper lobe consolidation with cavitation and an ipsilateral hilar shadow. Sputum is sent for smear and culture."
-sources:
-  - NICE NG33
-  - WHO TB Guidelines 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

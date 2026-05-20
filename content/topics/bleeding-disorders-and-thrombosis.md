@@ -2,11 +2,6 @@
 title: Bleeding Disorders and Thrombosis
 system: Haematology
 scenario: "A 28-year-old man presents after prolonged bleeding following a dental extraction. He has a history of easy bruising since childhood and haemarthroses. His father and maternal uncle have a similar bleeding history. PT is normal, APTT is markedly prolonged, platelet count is normal, and bleeding time is normal. FVIII activity is 2%."
-sources:
-  - BSH Haemophilia Guidelines 2023
-  - NICE NG158 (VTE)
-  - BSH Thrombosis Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

@@ -2,11 +2,6 @@
 title: Fever of Unknown Origin and Infection in the Immunocompromised
 system: Infectious Disease
 scenario: "A 58-year-old man with AML on chemotherapy presents on day 12 post-cycle with fever of 38.6°C and rigors. He has a central venous line in situ. HR 118, BP 96/62. He is neutropenic — neutrophil count 0.2 × 10⁹/L. There is no clear focus of infection clinically. Blood cultures are taken and broad-spectrum antibiotics are started urgently."
-sources:
-  - IDSA Febrile Neutropenia Guidelines 2023
-  - NICE NG143 (Neutropenic Sepsis)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

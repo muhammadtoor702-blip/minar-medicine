@@ -2,11 +2,6 @@
 title: Cirrhosis and Chronic Liver Disease
 system: Gastroenterology
 scenario: "A 52-year-old man with known alcohol-related liver disease is brought in with two weeks of increasing abdominal distension and confusion. He is jaundiced with multiple spider naevi, palmar erythema, and a flapping tremor. His abdomen is tense with shifting dullness. Bilirubin 5.1 mg/dL, albumin 2.2 g/dL, INR 2.1, creatinine 1.6 mg/dL. Diagnostic ascitic tap shows neutrophil count 380 cells/mm³."
-sources:
-  - BSG Cirrhosis Guidelines 2023
-  - EASL Clinical Practice Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

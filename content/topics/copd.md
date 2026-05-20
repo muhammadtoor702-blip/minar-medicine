@@ -2,11 +2,6 @@
 title: COPD
 system: Pulmonology
 scenario: "A 66-year-old ex-smoker with a 45 pack-year history presents with three days of worsening breathlessness, increased sputum production that has turned green, and wheeze. On examination: RR 26, SpO₂ 87% on air, HR 112, pursed-lip breathing, barrel chest, hyperresonant percussion, and prolonged expiration."
-sources:
-  - GOLD Guidelines 2024
-  - NICE NG115
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

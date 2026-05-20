@@ -2,11 +2,6 @@
 title: Pleural Effusion
 system: Pulmonology
 scenario: "A 62-year-old man with a 45 pack-year smoking history presents with three months of progressive breathlessness and a non-productive cough. He has lost 6kg and noticed his voice has become hoarse. On examination, his trachea is deviated to the right. There is stony dullness to percussion and absent breath sounds over the left lower and mid zones."
-sources:
-  - BTS Pleural Disease Guidelines 2023
-  - NICE NG12
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

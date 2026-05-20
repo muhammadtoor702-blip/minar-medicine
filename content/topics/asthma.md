@@ -2,11 +2,6 @@
 title: Asthma
 system: Pulmonology
 scenario: "An 18-year-old woman is brought to A&E at midnight with severe breathlessness and wheeze. She has had asthma since childhood and ran out of her salbutamol inhaler two days ago. She cannot complete sentences. RR 30, SpO₂ 90% on air, HR 124, PEFR 32% of predicted. She is using accessory muscles with a prolonged expiratory wheeze."
-sources:
-  - BTS/SIGN Asthma Guidelines 2023
-  - NICE NG80
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

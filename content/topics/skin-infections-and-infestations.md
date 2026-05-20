@@ -2,12 +2,6 @@
 title: Skin Infections and Infestations
 system: Dermatology
 scenario: "A 45-year-old man with type 2 diabetes presents with a 4-day history of a rapidly expanding area of redness, warmth, and swelling on his right lower leg. He has a 2cm wound on his heel from a corn that he picked at. Temperature 38.6°C, HR 104, BP 118/76. The erythema has a sharp, well-defined edge and has extended proximally by approximately 4cm since yesterday morning."
-sources:
-  - NICE NG141 (Cellulitis)
-  - BAD Skin Infection Guidelines
-  - BASHH STI Guidelines (HSV)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

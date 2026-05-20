@@ -2,11 +2,6 @@
 title: HIV and AIDS
 system: Infectious Disease
 scenario: "A 34-year-old man presents with a four-week history of fever, drenching night sweats, weight loss of 8kg, and a non-productive cough. He has white plaques on his tongue that bleed when scraped. His CD4 count is 62 cells/µL and his HIV viral load is 340,000 copies/mL. CXR shows bilateral diffuse ground-glass infiltrates."
-sources:
-  - BHIVA HIV Treatment Guidelines 2023
-  - WHO HIV Guidelines 2021
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

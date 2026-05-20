@@ -2,11 +2,6 @@
 title: Sepsis and Shock
 system: Pulmonology
 scenario: "A 73-year-old man is brought in by ambulance obtunded and febrile. His wife reports five days of worsening cough with green sputum. Temperature 39.4°C, HR 128, BP 76/42, RR 30, SpO₂ 88% on air. He is confused. Lactate is 46 mg/dL. CXR shows left lower lobe consolidation."
-sources:
-  - Surviving Sepsis Campaign Guidelines 2021
-  - NICE NG51
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

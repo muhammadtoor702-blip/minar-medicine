@@ -2,12 +2,6 @@
 title: Crystal Arthropathies and Vasculitis
 system: Rheumatology
 scenario: "A 58-year-old man with hypertension, CKD stage 3, and a BMI of 33 presents with a 24-hour history of excruciating pain, swelling, and erythema of his right first MTP joint. He cannot bear the weight of a bedsheet. He has been on bendroflumethiazide for 10 years and drinks 30 units of alcohol weekly. Serum urate is 9.7 mg/dL."
-sources:
-  - BSR Gout Guidelines 2022
-  - EULAR Crystal Arthropathy Recommendations
-  - EULAR/ACR Vasculitis Guidelines 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

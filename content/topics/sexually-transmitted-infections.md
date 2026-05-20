@@ -2,11 +2,6 @@
 title: Sexually Transmitted Infections
 system: Infectious Disease
 scenario: "A 22-year-old woman attends a sexual health clinic with a two-week history of increased vaginal discharge, intermenstrual bleeding, and deep dyspareunia. She has a new partner of six weeks. Temperature 38.1°C, HR 98. Cervical examination shows mucopurulent discharge and marked cervical motion tenderness. NAAT for chlamydia and gonorrhoea are sent."
-sources:
-  - BASHH Guidelines 2023
-  - WHO STI Guidelines 2021
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

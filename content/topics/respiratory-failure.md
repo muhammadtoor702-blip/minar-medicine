@@ -2,11 +2,6 @@
 title: Respiratory Failure
 system: Pulmonology
 scenario: "A 58-year-old man with severe COPD is admitted with worsening breathlessness and increasing confusion over 12 hours. His wife reports he has been cyanosed and drowsy since this morning. RR 32, SpO₂ 82% on air, HR 116, BP 148/92. He is using all accessory muscles. ABG on air: pH 7.28, PaO₂ 46 mmHg, PaCO₂ 71 mmHg, HCO₃ 32 mEq/L."
-sources:
-  - BTS NIV Guidelines 2017
-  - NICE NG191
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,10 +2,6 @@
 title: Pericardial Disease
 system: Cardiology
 scenario: "A 22-year-old medical student presents with two days of sharp central chest pain that is worse lying flat and relieved by leaning forward. He had a viral URTI one week ago. HR 96, BP 118/76. A three-component scratching sound is audible at the left sternal edge. ECG shows diffuse concave-up ST elevation with PR depression."
-sources:
-  - ESC Pericardial Disease Guidelines 2015
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,11 +2,6 @@
 title: Urinary Tract Infections
 system: Nephrology
 scenario: "A 28-year-old woman presents with a two-day history of dysuria, urinary frequency, and suprapubic discomfort. She is apyrexial. Her urine dipstick shows leucocyte esterase 2+ and nitrites positive. She is not pregnant. She has had three similar episodes in the past year, all treated with trimethoprim."
-sources:
-  - NICE NG109
-  - EAU Urological Infections Guidelines 2023
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

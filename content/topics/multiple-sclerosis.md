@@ -2,11 +2,6 @@
 title: Multiple Sclerosis
 system: Neurology
 scenario: "A 28-year-old woman presents with a 10-day history of progressive painless visual loss in her right eye. She describes colours as washed out and notices pain on eye movement. Visual acuity is 6/36 in the right eye with a relative afferent pupillary defect. Two years ago she had an episode of right leg weakness and tingling that resolved spontaneously over 6 weeks. MRI brain shows multiple periventricular white matter lesions."
-sources:
-  - NICE NG220 (Multiple Sclerosis)
-  - McDonald Criteria 2017
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

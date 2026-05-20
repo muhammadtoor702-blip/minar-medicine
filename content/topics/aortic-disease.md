@@ -2,11 +2,6 @@
 title: Aortic Disease
 system: Cardiology
 scenario: "A 67-year-old man with hypertension and a 40 pack-year smoking history presents with sudden onset tearing chest pain radiating through to his back. He is pale and diaphoretic. BP is 178/96 in his right arm and 142/88 in his left. He has aortic regurgitation on auscultation. CXR shows a widened mediastinum."
-sources:
-  - ESC Aortic Disease Guidelines 2014
-  - ACC/AHA Aortic Disease Guidelines 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

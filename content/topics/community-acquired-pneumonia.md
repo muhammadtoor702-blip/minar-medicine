@@ -2,11 +2,6 @@
 title: Community-Acquired Pneumonia
 system: Pulmonology
 scenario: "A 51-year-old man presents with a three-day history of fever, rigors, productive cough with rusty sputum, and right-sided pleuritic chest pain. Temperature 39.1°C, RR 26, HR 108, BP 114/74, SpO₂ 92% on air. Dullness to percussion at the right base with bronchial breathing and increased tactile vocal fremitus. CXR shows right lower lobe consolidation."
-sources:
-  - BTS CAP Guidelines 2009 (updated)
-  - NICE NG138
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

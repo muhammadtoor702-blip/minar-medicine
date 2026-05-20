@@ -2,10 +2,6 @@
 title: Pulmonary Hypertension
 system: Pulmonology
 scenario: "A 34-year-old woman presents with 18 months of progressive exertional breathlessness and two episodes of exertional near-syncope. She has no cardiac or pulmonary history. Her ECG shows right axis deviation and right ventricular hypertrophy. Echo reveals a severely elevated RVSP of 72 mmHg and RV dilation with septal flattening."
-sources:
-  - ESC/ERS Pulmonary Hypertension Guidelines 2022
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

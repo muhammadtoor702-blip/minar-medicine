@@ -2,12 +2,6 @@
 title: Colorectal Disease
 system: Gastroenterology
 scenario: "A 66-year-old man presents to his GP with a six-week history of altered bowel habit — alternating constipation and looser stools — and fresh blood mixed in with the stool. He has lost 5kg and has been feeling generally unwell. He has a family history of bowel cancer in his father (diagnosed age 68). Examination reveals a palpable right-sided abdominal mass."
-sources:
-  - NICE NG151 (Colorectal Cancer)
-  - NICE NG12 (Cancer Referral)
-  - BSG Colorectal Cancer Screening Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,10 +2,6 @@
 title: Pneumothorax
 system: Pulmonology
 scenario: "A 19-year-old tall, thin university student presents with sudden onset left-sided sharp chest pain and breathlessness that started while sitting in a lecture. No prior history. RR 20, SpO₂ 96%, HR 94, BP 118/74. Percussion is hyperresonant on the left. Breath sounds are reduced on the left. CXR shows a visible pleural line with a 3cm rim of air at the apex."
-sources:
-  - BTS Pleural Disease Guidelines 2023
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

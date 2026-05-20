@@ -2,11 +2,6 @@
 title: Chronic Kidney Disease
 system: Nephrology
 scenario: "A 61-year-old woman with 14 years of type 2 diabetes and hypertension attends routine review. Her eGFR has fallen from 52 to 31 mL/min/1.73m² over two years. Urine ACR is 84 mg/mmol. BP is 156/94. Hb 9.4 g/dL, bicarbonate 18 mEq/L, phosphate 5.9 mg/dL. She is on metformin, ramipril, and amlodipine."
-sources:
-  - KDIGO CKD Guidelines 2022
-  - NICE NG203
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

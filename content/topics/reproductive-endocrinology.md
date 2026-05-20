@@ -2,12 +2,6 @@
 title: Reproductive Endocrinology
 system: Endocrinology
 scenario: "A 26-year-old woman presents with an 18-month history of irregular periods occurring every 35–60 days, weight gain, facial hair, and acne. She and her partner have been trying to conceive for 14 months without success. BMI is 31. On examination there is mild hirsutism and acanthosis nigricans at the nape of the neck. USS shows bilateral enlarged ovaries with multiple small peripheral follicles."
-sources:
-  - Endocrine Society PCOS Guidelines 2023
-  - NICE NG23 (Menopause)
-  - ESHRE/ASRM PCOS Consensus
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

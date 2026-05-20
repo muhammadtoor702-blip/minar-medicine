@@ -2,10 +2,6 @@
 title: Fluid and Electrolyte Disorders
 system: Nephrology
 scenario: "A 74-year-old woman on thiazide diuretics for hypertension presents after her daughter found her confused at home. She has been poorly for two days with nausea and reduced oral intake. Na+ 118 mEq/L, K+ 3.1 mEq/L, urine sodium 42 mEq/L, urine osmolality 380 mOsm/kg. She is clinically euvolaemic."
-sources:
-  - NICE NG29 (Intravenous Fluid Therapy)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

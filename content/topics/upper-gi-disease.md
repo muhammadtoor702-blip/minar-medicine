@@ -2,11 +2,6 @@
 title: Upper GI Disease
 system: Gastroenterology
 scenario: "A 54-year-old man presents with a three-month history of epigastric pain 2–3 hours after meals, relieved by eating and antacids. He takes ibuprofen regularly for back pain. He has lost 4kg. On examination there is epigastric tenderness. Urea breath test is positive for H. pylori. OGD shows a 1.5cm duodenal ulcer."
-sources:
-  - NICE NG12 / NG106
-  - BSG Upper GI Bleeding Guidelines 2019
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

@@ -2,12 +2,6 @@
 title: Skin Cancer
 system: Dermatology
 scenario: "A 62-year-old farmer presents with a rapidly growing pigmented lesion on his left forearm noticed over the past three months. It is asymmetric, has irregular borders, multiple colours including dark brown, black, and pink areas, and measures 1.2cm. He has a fair complexion, blue eyes, and has worked outdoors his entire life. His father had a melanoma removed."
-sources:
-  - NICE NG14 (Melanoma)
-  - NICE NG12 (Suspected Cancer Referral)
-  - BAD Skin Cancer Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

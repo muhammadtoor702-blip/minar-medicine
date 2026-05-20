@@ -2,11 +2,6 @@
 title: Oncology Principles
 system: Haematology
 scenario: "A 58-year-old woman with stage IV non-small cell lung cancer (NSCLC) is referred for systemic therapy. Molecular profiling shows an EGFR exon 19 deletion. She has an ECOG performance status of 1 and no brain metastases. Her oncologist discusses first-line osimertinib versus platinum-based chemotherapy."
-sources:
-  - NICE NG122 (Lung Cancer)
-  - ESMO NSCLC Guidelines 2023
-  - WHO Classification of Tumours
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

@@ -2,11 +2,6 @@
 title: Epilepsy and Seizures
 system: Neurology
 scenario: "A 24-year-old woman is brought in by ambulance after collapsing in a supermarket. Witnesses describe her falling, becoming rigid, then shaking rhythmically for about 90 seconds. She was unresponsive throughout and bit her tongue. She is now confused and combative, smells of urine, and has a 3cm laceration above her right eyebrow. She has no prior medical history."
-sources:
-  - NICE NG217
-  - ILAE Epilepsy Classification 2017
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

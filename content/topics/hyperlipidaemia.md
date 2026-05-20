@@ -2,11 +2,6 @@
 title: Hyperlipidaemia
 system: Cardiology
 scenario: "A 46-year-old man attends a health check. He is asymptomatic but his father died of an MI at 51. Fasting lipids: total cholesterol 313 mg/dL, LDL 217 mg/dL, HDL 35 mg/dL, triglycerides 301 mg/dL. He has firm nodular thickenings over both Achilles tendons and xanthelasma around his left eye."
-sources:
-  - ESC Dyslipidaemia Guidelines 2019
-  - NICE NG238
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

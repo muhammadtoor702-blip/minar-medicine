@@ -2,11 +2,6 @@
 title: Pulmonary Embolism
 system: Pulmonology
 scenario: "A 27-year-old woman presents with sudden onset right-sided pleuritic chest pain and breathlessness that started while sitting at her desk. She returned from a 9-hour flight three days ago and is on the combined oral contraceptive pill. HR 116, RR 22, SpO₂ 94% on air, BP 108/72. CXR is normal. D-dimer is 3.1 mg/L."
-sources:
-  - ESC PE Guidelines 2019
-  - NICE NG158
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

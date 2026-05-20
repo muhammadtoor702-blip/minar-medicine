@@ -2,12 +2,6 @@
 title: Thyroid Disease
 system: Endocrinology
 scenario: "A 31-year-old woman presents with a three-month history of palpitations, heat intolerance, weight loss of 6kg despite a good appetite, and tremor. Her periods have become irregular. On examination there is a diffuse smooth goitre, lid lag, bilateral proptosis, and pretibial myxoedema. HR 108 and irregularly irregular. TSH is undetectable and free T4 is markedly elevated."
-sources:
-  - ATA Hyperthyroidism Guidelines 2016
-  - ATA Hypothyroidism Guidelines 2012
-  - ETA Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

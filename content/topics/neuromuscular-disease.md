@@ -2,11 +2,6 @@
 title: Neuromuscular Disease
 system: Neurology
 scenario: "A 34-year-old woman presents with three weeks of progressive leg weakness, starting distally and ascending to involve her thighs and lower back. She had a gastrointestinal illness four weeks ago. She now has difficulty climbing stairs and cannot rise from a chair without arm support. Examination shows areflexia throughout with distal-predominant weakness. Her vital capacity is 2.1 L."
-sources:
-  - EAN Guidelines on Guillain-Barré Syndrome 2023
-  - EFNS Myasthenia Gravis Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

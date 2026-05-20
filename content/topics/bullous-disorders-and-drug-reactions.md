@@ -2,12 +2,6 @@
 title: Bullous Skin Disorders and Severe Drug Reactions
 system: Dermatology
 scenario: "A 72-year-old woman presents with a 3-week history of large, tense blisters appearing on her trunk, thighs, and forearms. The blisters are clear and arise on normal or erythematous skin. She has mild pruritus but no mucosal involvement. The blisters do not burst easily with pressure. Skin biopsy shows subepidermal separation and direct immunofluorescence reveals linear IgG and C3 along the basement membrane."
-sources:
-  - BAD Pemphigoid Guidelines 2023
-  - NICE SJS/TEN Guidelines
-  - BAD Drug Reaction Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

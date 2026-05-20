@@ -2,11 +2,6 @@
 title: Musculoskeletal Disorders and Osteoporosis
 system: Rheumatology
 scenario: "A 67-year-old woman with a 10-year history of rheumatoid arthritis on long-term prednisolone 7.5 mg daily presents after a fall from standing height that fractured her L2 vertebra. She had a previous wrist fracture 3 years ago. DEXA shows a T-score of -2.8 at the lumbar spine. She is not on any bone protection."
-sources:
-  - NICE NG187 (Osteoporosis)
-  - NICE CG59 (Osteoporosis Fragility Fracture)
-  - BSR Soft Tissue Rheumatism Guidelines
-  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

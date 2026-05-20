@@ -2,11 +2,6 @@
 title: Headache
 system: Neurology
 scenario: "A 29-year-old woman presents to the GP with her third visit in two months for headache. She describes unilateral, throbbing headaches lasting 12–18 hours, associated with nausea, photophobia, and phonophobia. She has to lie in a dark room. They are triggered by menstruation and stress. She takes ibuprofen and codeine most days."
-sources:
-  - NICE NG150 (Headaches in over 12s)
-  - IHS Classification ICHD-3
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview

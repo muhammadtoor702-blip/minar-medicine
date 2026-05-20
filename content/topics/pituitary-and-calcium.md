@@ -2,12 +2,6 @@
 title: Pituitary Disorders and Calcium Metabolism
 system: Endocrinology
 scenario: "A 42-year-old man presents with headaches, progressive visual field loss, and erectile dysfunction. He has noticed his shoe size has increased over the past five years and his ring no longer fits. His hands and feet appear large and spade-like, and his facial features are coarser. Fasting glucose is 166 mg/dL. IGF-1 is markedly elevated. MRI shows a 2.4cm pituitary macroadenoma."
-sources:
-  - Endocrine Society Acromegaly Guidelines 2014
-  - Endocrine Society Pituitary Incidentaloma Guidelines
-  - NICE CG141 (Primary Hyperparathyroidism)
-  - Oxford Handbook of Clinical Medicine 11e
-  - First Aid for the USMLE Step 2 CK
 ---
 
 ## Overview
