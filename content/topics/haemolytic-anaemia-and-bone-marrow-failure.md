@@ -1,10 +1,11 @@
 ---
 title: Haemolytic Anaemia and Bone Marrow Failure
 system: Haematology
-scenario: "A 19-year-old man of West African origin presents with severe pain in his hands, feet, and chest, and a Hb of 62 g/L. He has had multiple similar episodes since childhood. He is jaundiced with a palpable spleen. Blood film shows sickle-shaped cells and target cells. His temperature is 38.4°C and his chest X-ray shows new bilateral infiltrates."
+scenario: "A 19-year-old man of West African origin presents with severe pain in his hands, feet, and chest, and a Hb of 6.2 g/dL. He has had multiple similar episodes since childhood. He is jaundiced with a palpable spleen. Blood film shows sickle-shaped cells and target cells. His temperature is 38.4°C and his chest X-ray shows new bilateral infiltrates."
 sources:
   - BSH Sickle Cell Guidelines 2021
   - BSH Aplastic Anaemia Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

@@ -1,15 +1,16 @@
 ---
 title: Anaemia
 system: Haematology
-scenario: "A 42-year-old woman presents with four months of progressive fatigue, dyspnoea on climbing stairs, and pallor. She has menorrhagia and follows a vegetarian diet. Hb 74 g/L, MCV 68 fL, ferritin 6 µg/L, TIBC elevated. Blood film shows microcytic hypochromic red cells with pencil cells."
+scenario: "A 42-year-old woman presents with four months of progressive fatigue, dyspnoea on climbing stairs, and pallor. She has menorrhagia and follows a vegetarian diet. Hb 7.4 g/dL, MCV 68 fL, ferritin 6 ng/mL, TIBC elevated. Blood film shows microcytic hypochromic red cells with pencil cells."
 sources:
   - BSH Anaemia Guidelines 2021
   - NICE NG24
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
 
-Anaemia is defined as a haemoglobin concentration below the reference range for age and sex — broadly <130 g/L in adult men and <120 g/L in adult women. It is a sign, not a diagnosis. Every anaemia requires a cause. The most productive initial approach is morphological classification by MCV, which immediately narrows the differential and directs investigation.
+Anaemia is defined as a haemoglobin concentration below the reference range for age and sex — broadly <13.0 g/dL in adult men and <12.0 g/dL in adult women. It is a sign, not a diagnosis. Every anaemia requires a cause. The most productive initial approach is morphological classification by MCV, which immediately narrows the differential and directs investigation.
 
 | MCV | Classification | Key Causes |
 |-----|---------------|-----------|
@@ -79,7 +80,7 @@ Symptoms depend on severity, speed of onset, and cardiorespiratory reserve. Fati
 
 Identify and treat the cause — this is more important than the iron supplementation itself.
 
-**Oral iron**: Ferrous sulfate 200 mg TDS is first-line. Take on an empty stomach for better absorption (though GI side effects are more common). Avoid calcium, tea, antacids, and PPIs within 2 hours. Expect Hb rise of ~10–20 g/L per 2 weeks. Continue for 3 months after normalisation to replete stores.
+**Oral iron**: Ferrous sulfate 200 mg TDS is first-line. Take on an empty stomach for better absorption (though GI side effects are more common). Avoid calcium, tea, antacids, and PPIs within 2 hours. Expect Hb rise of ~1.0–2.0 g/dL per 2 weeks. Continue for 3 months after normalisation to replete stores.
 
 **IV iron** (ferric carboxymaltose, iron sucrose): For malabsorption, oral intolerance, ongoing losses exceeding oral replacement, IBD, CKD, or pre-operative optimisation. Faster and more reliable. Small risk of hypersensitivity.
 
@@ -95,7 +96,7 @@ Folic acid 5 mg OD orally for 4 months. Address the underlying cause. Prophylact
 
 ## Complications
 
-- Cardiac failure from severe anaemia (Hb <60–70 g/L)
+- Cardiac failure from severe anaemia (Hb <6.0–7.0 g/dL)
 - SACD from untreated B12 deficiency — potentially irreversible after 6 months
 - Plummer-Vinson syndrome and koilonychia (chronic iron deficiency)
 - Pernicious anaemia carries 2–3× increased risk of gastric carcinoma and carcinoid — endoscopic surveillance is recommended

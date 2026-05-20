@@ -6,6 +6,7 @@ sources:
   - BSH Haemophilia Guidelines 2023
   - NICE NG158 (VTE)
   - BSH Thrombosis Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview

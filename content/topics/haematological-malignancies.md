@@ -1,11 +1,12 @@
 ---
 title: Haematological Malignancies
 system: Haematology
-scenario: "A 68-year-old man presents with a 3-month history of fatigue, recurrent infections, and night sweats. He has bilateral painless cervical and axillary lymphadenopathy. FBC: Hb 92 g/L, WBC 82 × 10⁹/L, platelets 94 × 10⁹/L. Blood film shows a lymphocytosis with smear cells. Flow cytometry confirms CD5+/CD19+/CD23+ B-cell population."
+scenario: "A 68-year-old man presents with a 3-month history of fatigue, recurrent infections, and night sweats. He has bilateral painless cervical and axillary lymphadenopathy. FBC: Hb 9.2 g/dL, WBC 82 × 10⁹/L, platelets 94 × 10⁹/L. Blood film shows a lymphocytosis with smear cells. Flow cytometry confirms CD5+/CD19+/CD23+ B-cell population."
 sources:
   - NICE NG52 (CLL)
   - NICE NG47 (Diffuse Large B-cell Lymphoma)
   - BSH Leukaemia Guidelines
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
@@ -63,9 +64,9 @@ Marrow infiltration suppresses normal haematopoiesis, producing:
 **Hodgkin lymphoma**: Young adults (bimodal peak 15–35 and >55 years). Painless cervical lymphadenopathy. **B symptoms** — fever (>38°C), drenching night sweats, weight loss >10% in 6 months — indicate systemic disease and adverse prognosis. **Pel-Ebstein fever** — cyclical high fever alternating with afebrile periods (classic but uncommon). Alcohol-induced pain in lymph nodes — pathognomonic but rare.
 
 **Multiple myeloma** — the CRAB criteria for symptomatic disease:
-- **C**alcium elevated (>2.75 mmol/L)
-- **R**enal impairment (creatinine >177 µmol/L or eGFR <40)
-- **A**naemia (Hb <100 g/L)
+- **C**alcium elevated (>11.0 mg/dL)
+- **R**enal impairment (creatinine >2.0 mg/dL or eGFR <40 mL/min/1.73m²)
+- **A**naemia (Hb <10.0 g/dL)
 - **B**one lesions (lytic lesions, osteoporosis, pathological fractures)
 
 Bone pain (especially back pain from vertebral collapse) is the most common presenting symptom. Hyperviscosity from paraprotein: headache, visual disturbance, confusion, bleeding.

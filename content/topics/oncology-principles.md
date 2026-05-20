@@ -6,6 +6,7 @@ sources:
   - NICE NG122 (Lung Cancer)
   - ESMO NSCLC Guidelines 2023
   - WHO Classification of Tumours
+  - Oxford Handbook of Clinical Medicine 11e
 ---
 
 ## Overview
