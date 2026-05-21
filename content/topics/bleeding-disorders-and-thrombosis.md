@@ -232,3 +232,30 @@ The mixing study is the most important and underutilised test in coagulation. A 
 Lupus anticoagulant is one of medicine's great confusing misnomers. It prolongs the APTT in the laboratory because it interferes with phospholipid-dependent coagulation assays. In vivo, however, it causes thrombosis — arterial and venous — and recurrent pregnancy loss. A patient with a prolonged APTT who is not bleeding but has had recurrent clots almost certainly has antiphospholipid syndrome, not haemophilia.
 
 DDAVP works for mild haemophilia A because it releases stored FVIII — but it only works if there are stores to release. Patients with severe haemophilia A (FVIII <1%) have no stores; DDAVP is useless. Before any procedure in a patient with known mild haemophilia A, a DDAVP challenge test (measuring FVIII level before and after DDAVP) should be performed to confirm responsiveness.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 28-year-old man with prolonged bleeding after dental extraction. Easy bruising since childhood, haemarthroses. Father and maternal uncle have a similar bleeding history. PT normal, APTT markedly prolonged, platelets normal, bleeding time normal. FVIII activity 2%.
+
+**Step 1 — Localise the defect from the coagulation screen:** The pattern tells you everything before any further testing:
+- **Normal PT** → extrinsic pathway (FVII) intact
+- **Markedly prolonged APTT** → intrinsic pathway defect (FVIII, FIX, FXI, or FXII)
+- **Normal platelets and bleeding time** → primary haemostasis intact (no platelet or vWF problem)
+- **Haemarthroses** → deep tissue bleeding = coagulation factor deficiency, not platelet disorder
+
+This pattern: isolated prolonged APTT + normal PT + normal platelets + haemarthroses = **haemophilia**.
+
+**Step 2 — X-linked family history confirms haemophilia A:** Father affected + maternal uncle affected = X-linked recessive pattern. The patient inherited the defective X chromosome from his carrier mother. FVIII activity 2% = **moderate haemophilia A** (1–5% = moderate; <1% = severe; >5% = mild). Moderate disease causes bleeding with minor trauma — consistent with a prolonged bleed after dental extraction but not necessarily spontaneous haemarthroses.
+
+**Step 3 — Acute management:** Replace the missing factor.
+- **Recombinant FVIII concentrate** — 1 unit/kg raises FVIII by ~2%. Target FVIII 30–50% for minor bleed/dental procedure; 80–100% for major surgery or life-threatening bleed
+- For this patient with active post-dental bleeding: **target FVIII ≥30%** — calculate the dose needed
+- **Do not give DDAVP** for moderate haemophilia A — DDAVP releases stored FVIII from endothelial cells but FVIII stores are significantly depleted; response is unreliable at 2% baseline
+
+**Step 4 — Check for inhibitors:** ~30% of severe haemophilia A patients develop anti-FVIII antibodies (inhibitors) that neutralise infused FVIII. If the patient fails to respond to recombinant FVIII, send an **inhibitor titre (Bethesda units)**. If inhibitors present, use bypassing agents (recombinant FVIIa or aPCC) or emicizumab.
+
+**Step 5 — Long-term prophylaxis:** Modern standard of care is **emicizumab** (subcutaneous bispecific antibody mimicking FVIII cofactor function) or regular FVIII infusions. Prophylaxis prevents haemarthroses and the consequent haemophilic arthropathy. Refer to a haemophilia centre for comprehensive care and genetic counselling.
+
+**Exam trigger:** *Prolonged APTT + normal PT + normal platelets + haemarthroses + X-linked family history* → **haemophilia A** (FVIII 2% = moderate). Treat with recombinant FVIII concentrate dosed to target factor level. The distractor is giving DDAVP — ineffective at this factor level, and haemarthroses indicate this is not mild disease with adequate FVIII stores.

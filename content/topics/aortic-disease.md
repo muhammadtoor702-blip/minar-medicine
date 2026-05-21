@@ -200,3 +200,31 @@ The single most dangerous mistake in aortic dissection is giving thrombolytics f
 In ruptured AAA, do not be reassured by haemodynamic stability. Retroperitoneal tamponade is temporary — clot can dislodge at any moment. Resuscitate with **permissive hypotension**: target systolic ~80–90 mmHg rather than aggressive fluid replacement. Aggressive fluid resuscitation raises the BP, disrupts the clot, and precipitates free rupture and exsanguination. The operating theatre, not the resuscitation bay, is where the haemorrhage is controlled.
 
 Any man over 65 who has never been screened for AAA should be offered an abdominal USS. The one-off screening programme has demonstrably reduced AAA mortality. Ask the question — it costs nothing and may save a life.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 67-year-old man with hypertension and 40 pack-years. Sudden onset **tearing** chest pain radiating to his back. Pale and diaphoretic. BP 178/96 right arm, 142/88 left arm (asymmetry of 36 mmHg). Aortic regurgitation on auscultation. CXR: widened mediastinum.
+
+**Step 1 — Recognise aortic dissection:** Four simultaneous red flags:
+- **Tearing/ripping pain maximal at onset** — unlike ACS which typically builds gradually
+- **BP asymmetry >20 mmHg between arms** — present in ~30%; highly specific when found
+- **Aortic regurgitation** — ascending dissection undermines aortic valve commissural support → acute AR
+- **Widened mediastinum** — present in ~60% of ascending dissections
+
+This is **aortic dissection** — Stanford Type A (AR murmur + anterior chest pain = ascending aorta involvement).
+
+**Step 2 — Do NOT give thrombolytics or antiplatelet drugs.** If the ECG shows inferior ST changes (RCA occlusion from dissection flap), the instinct is to treat as STEMI. **This is the most dangerous mistake in aortic disease.** Thrombolytics in aortic dissection cause haemopericardium, mediastinal haemorrhage, and rapid death. This patient needs CT, not a catheter lab.
+
+**Step 3 — Immediate stabilisation:** ITU-level monitoring. Two large-bore IV cannulae. Crossmatch 6 units. Target:
+- **HR <60 bpm** — reduces aortic wall stress (dP/dt)
+- **Systolic BP 100–120 mmHg** — reduces propagation pressure
+- **IV labetalol** — simultaneous alpha + beta blockade; ideal agent. Never give a vasodilator alone (reflex tachycardia worsens propagation).
+- Morphine for pain (also reduces sympathetic activation)
+
+**Step 4 — Emergency CT aortography:** Confirms the intimal flap, defines the extent of dissection, identifies branch vessel involvement. Sensitivity >95%. Contact the cardiothoracic surgical team simultaneously — do not wait for CT results before calling them.
+
+**Step 5 — Type A dissection = surgical emergency:** Emergency open repair under cardiopulmonary bypass. Mortality without surgery approaches 50% in 48 hours. Every minute from diagnosis to theatre matters. Operative mortality is ~20–30% — substantially better than conservative management.
+
+**Exam trigger:** *Sudden tearing chest pain + BP asymmetry + AR murmur + widened mediastinum* → Stanford Type A aortic dissection. Call cardiothoracics immediately, give IV labetalol, emergency CT. The distractor is treating inferior ST changes with thrombolytics — this kills the patient. The dissection flap can occlude the RCA, mimicking STEMI perfectly.

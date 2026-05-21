@@ -192,3 +192,26 @@ HCM is the great mimic. The deep septal Q waves in inferolateral leads can be mi
 Peripartum cardiomyopathy is underdiagnosed. Any woman in the last month of pregnancy or within five months of delivery presenting with dyspnoea and oedema requires urgent echocardiography. Recovery occurs in ~50%, but subsequent pregnancies carry a 30–50% relapse rate — these patients need careful counselling.
 
 Cardiac amyloidosis should be in the differential for any elderly man with HFpEF, carpal tunnel syndrome (amyloid deposits in carpal tunnel), a history of bilateral biceps tendon rupture, and low QRS voltage on ECG despite thick walls on echo. This combination is virtually pathognomonic.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 24-year-old competitive footballer resuscitated from VF during a match. Exertional chest tightness and one prior near-syncope during a game. Father died suddenly at 39. Exam: **jerky pulse**, prominent **'a' wave** in JVP, **harsh systolic murmur at LLSB louder on standing**.
+
+**Step 1 — Diagnose HCM:** The clinical picture is pathognomonic:
+- **Young athlete + cardiac arrest during exertion** → HCM is the leading cause of SCD in young athletes
+- **Jerky (bifid) carotid pulse** → rapid early upstroke then falls as LVOT obstruction develops mid-systole
+- **Prominent 'a' wave** → forceful atrial contraction against a stiff, non-compliant LV
+- **Murmur louder on standing** → standing reduces preload → smaller LV → worsens LVOT obstruction → louder murmur. This is the **opposite** of aortic stenosis (softer on standing) and the key examination differentiator
+- **Family history of premature sudden death** → autosomal dominant sarcomere gene mutation (β-myosin heavy chain or MyBP-C)
+
+**Step 2 — ICD is mandatory — no score calculation needed:** This patient has survived a cardiac arrest from VF. Prior cardiac arrest or sustained VT = **absolute indication for ICD regardless of HCM Risk-SCD score**. The calculator is used for primary prevention in patients who have NOT yet arrested. Do not waste time scoring — this patient needs ICD implantation before discharge.
+
+**Step 3 — Confirm with echocardiography and Holter monitoring:** Echo will show asymmetric septal hypertrophy (septal:posterior wall ratio >1.3), SAM of the anterior mitral valve leaflet, and LVOT obstruction with Doppler gradient. 24h Holter for non-sustained VT. Cardiac MRI for fibrosis assessment (late gadolinium enhancement at septal insertions = arrhythmic substrate).
+
+**Step 4 — Medications for symptoms:** **Beta-blocker** (bisoprolol 2.5–10 mg OD) — reduces heart rate, prolongs diastolic filling, reduces LVOT gradient. If insufficient, add verapamil or disopyramide. **Avoid:** vasodilators, nitrates, diuretics (reduce preload → worsen obstruction), digoxin (positive inotropy worsens obstruction).
+
+**Step 5 — Withdraw from all competitive sport immediately:** This is **non-negotiable** in HCM. Adrenergic surge and dehydration during competition reduce LV volume and increase contractility — both worsen LVOT obstruction and predispose to VF. This applies even after ICD implantation. Additionally, the patient's first-degree relatives (parents, siblings, children) require cascade genetic testing and echocardiography.
+
+**Exam trigger:** *Young athlete + VF + family history of sudden death + jerky pulse + murmur louder on standing* → **HCM**. ICD is mandatory (prior cardiac arrest). The distractor is calculating the HCM Risk-SCD score — that is for primary prevention in patients without prior arrest. This patient has already arrested; the score is irrelevant.

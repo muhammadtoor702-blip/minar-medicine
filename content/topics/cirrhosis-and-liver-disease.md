@@ -250,3 +250,23 @@ Albumin infusion after large-volume paracentesis is not optional. Draining 5 or 
 Rifaximin should be added to lactulose in any patient with a second episode of overt hepatic encephalopathy. It reduces the number of episodes by 58% and halves hospitalisations. Its non-absorbed profile means it can be used in patients with renal impairment and carries minimal *C. difficile* risk compared with systemically absorbed antibiotics.
 
 A cirrhotic patient presenting with decompensation (new encephalopathy, worsening ascites, jaundice, or bleeding) requires a systematic search for a precipitant before attributing the deterioration to disease progression. The mnemonic for precipitants is: dehydration, constipation, covert alcohol relapse, infection (especially SBP — always tap the ascites), opiate use, and occult GI bleeding. Portal vein thrombosis is a less common but important precipitant. Missing a treatable precipitant in a patient who "appears to be progressing" is one of the most common avoidable errors in liver medicine.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 52-year-old man with known alcohol-related liver disease. Two weeks of increasing abdominal distension and confusion. Jaundiced, spider naevi, palmar erythema, flapping tremor (asterixis). Tense ascites. Bilirubin 5.1 mg/dL, albumin 2.2 g/dL, INR 2.1, creatinine 1.6 mg/dL. Ascitic neutrophil count 380 cells/mm³.
+
+**Step 1 — Recognise decompensated cirrhosis:** The clinical picture is unambiguous — stigmata of chronic liver disease (spider naevi, palmar erythema, jaundice), tense ascites, and asterixis (Grade II hepatic encephalopathy). Decompensation is defined by any of: ascites, variceal haemorrhage, encephalopathy, or SBP. This patient has three simultaneously.
+
+**Step 2 — Diagnose and treat SBP immediately:** Ascitic neutrophil count ≥250 cells/mm³ = **spontaneous bacterial peritonitis** — treat without waiting for culture results. Start:
+- **IV ceftriaxone 2 g/day for 5 days**
+- **IV albumin 1.5 g/kg on day 1 and 1 g/kg on day 3** — this is not optional; it reduces HRS development and mortality (Sort et al. 1999). At 82 kg, that is ~120 g albumin on day 1.
+
+**Step 3 — Identify the precipitant of encephalopathy:** SBP is the most likely precipitant here (infection → systemic inflammation → ammonia accumulation). But always exclude the full list — GI bleeding (PR exam, rectal blood), opiates/benzodiazepines (medication review), constipation (last bowel opening?), electrolyte abnormalities (hypokalaemia drives renal ammoniagenesis). Start **lactulose** 30 mL every 8 hours targeting 2–4 soft stools per day.
+
+**Step 4 — Calculate Child-Pugh to stratify prognosis:** Bilirubin 5.1 mg/dL (3 pts) + albumin 2.2 g/dL (3 pts) + tense ascites (3 pts) + Grade II encephalopathy (2 pts) + INR 2.1 (~2 pts) = **Child-Pugh C** (~13 points). One-year survival ~35%. Transplant assessment should be initiated once the acute episode resolves — but alcohol abstinence for ≥6 months is required.
+
+**Step 5 — Monitor for hepatorenal syndrome:** Creatinine is already 1.6 mg/dL and rising in a cirrhotic patient — this is an HRS-AKI red flag. Stop all nephrotoxins (NSAIDs, aminoglycosides, ACE inhibitors). If creatinine fails to improve after 48 hours of IV albumin and antibiotics, add **terlipressin 2 mg IV every 4–6 hours** — splanchnic vasoconstriction restores renal perfusion. Early recognition is critical: HRS type 1 has a median survival of 2 weeks without treatment.
+
+**Exam trigger:** *Ascitic neutrophil count ≥250 cells/mm³ in a cirrhotic patient* → SBP. Treat immediately with IV ceftriaxone **plus IV albumin**. The distractor is starting lactulose and fluids first — the infection (SBP) is driving the encephalopathy, and albumin prevents HRS. Treating the encephalopathy without treating SBP is a fatal omission.

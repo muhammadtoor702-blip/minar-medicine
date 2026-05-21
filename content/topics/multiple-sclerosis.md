@@ -173,3 +173,33 @@ The diagnosis of MS requires dissemination in space and time. A single clinical 
 Uhthoff's phenomenon is not a relapse. When a patient reports temporary worsening of symptoms with a hot shower, exercise, or fever, they do not need IV steroids — they need cooling strategies and reassurance. Treating pseudo-relapses with steroids exposes patients unnecessarily to side effects. The key question is whether symptoms are genuinely new or represent worsening of pre-existing deficits.
 
 Bladder symptoms in MS are both common and clinically important — yet often go unreported by patients out of embarrassment. Untreated detrusor overactivity leads to infections; untreated urinary retention leads to renal damage. Ask about bladder function at every review. Urodynamic assessment guides management. This is not a minor quality-of-life issue — it is a major determinant of independence and renal health.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 28-year-old woman with 10 days of progressive visual loss in the right eye — colours washed out, pain on eye movement, VA 6/36, RAPD. Two years ago she had an episode of right leg weakness and tingling that resolved over 6 weeks. MRI shows multiple periventricular white matter lesions.
+
+**Step 1 — Diagnose optic neuritis:** The triad of **subacute visual loss + pain on eye movement + RAPD** is optic neuritis. The RAPD (Marcus Gunn pupil) is the crucial sign — during the swinging light test, the affected eye constricts poorly compared to the fellow eye, because its optic nerve conducts afferent input less efficiently. Colour desaturation (red saturation is typically most affected) completes the picture.
+
+**Step 2 — Apply McDonald 2017 criteria — this is MS, not CIS:** Dissemination in space requires lesions in ≥2 of 4 locations:
+- ✓ **Optic nerve** (current episode)
+- ✓ **Periventricular** (seen on MRI)
+
+Dissemination in time requires evidence of two temporally separate events:
+- ✓ **Two years ago**: right leg weakness/tingling lasting 6 weeks = a prior clinical relapse
+- ✓ **Now**: optic neuritis = a second relapse
+
+Both DIS and DIT are fulfilled. **This is clinically definite MS at first neurological presentation** — not a clinically isolated syndrome. The diagnosis is made today, not after future surveillance.
+
+**Step 3 — Exclude NMOSD before labelling as MS:** Anti-AQP4 and anti-MOG antibodies must be checked. Red flags for NMOSD here are absent (unilateral not bilateral optic neuritis, no longitudinally extensive cord lesion, no intractable hiccups). But this test is mandatory — beta-interferons **worsen** NMOSD, and starting the wrong treatment could precipitate a devastating relapse.
+
+**Step 4 — Treat the acute relapse:** **IV methylprednisolone 1 g/day for 3–5 days** — accelerates visual recovery but does not change the final long-term visual outcome. Outpatient treatment is feasible. Inform the patient: full recovery of acuity occurs in ~85% within 3 months. She should not drive until VA is ≥6/12 in each eye.
+
+**Step 5 — Start disease-modifying therapy:** With confirmed MS and a second relapse, DMT should be initiated. Begin the conversation about efficacy tiers:
+- **Moderate efficacy** (dimethyl fumarate, teriflunomide, glatiramer, IFN-β): 30–50% ARR reduction
+- **High efficacy** (natalizumab, ocrelizumab, alemtuzumab): 60–70% reduction; early high-efficacy therapy may yield better long-term outcomes — this is actively debated
+
+DVLA must be notified. First unprovoked episode driving restrictions apply.
+
+**Exam trigger:** *RAPD + pain on eye movement + prior resolving neurological episode + periventricular lesions* → **clinically definite MS**. McDonald criteria are met at the first presentation — do not call this CIS. Check anti-AQP4 before starting treatment. The distractor is diagnosing "clinically isolated syndrome" and deferring treatment — the criteria for MS are already satisfied.
