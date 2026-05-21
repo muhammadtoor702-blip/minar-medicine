@@ -153,3 +153,35 @@ The diagnosis of PAH should never be accepted without right heart catheterisatio
 Systemic sclerosis (especially limited cutaneous SSc, formerly CREST syndrome) carries a 10–15% lifetime risk of developing PAH, and it tends to be severe and progress rapidly. Annual screening with echocardiography and DLCO measurement is recommended for all SSc patients. A declining DLCO disproportionate to the spirometry change should trigger right heart catheterisation. Early detection before significant haemodynamic deterioration substantially improves outcomes.
 
 CTEPH is one of the few conditions in medicine where surgery can be curative. Any patient with a history of PE who develops unexplained progressive breathlessness — even years later — should be evaluated for CTEPH with V/Q scanning, which is more sensitive than CTPA for organised chronic thrombus. Don't assume the breathlessness is deconditioning or residual PE damage — CTEPH is underdiagnosed and surgical endarterectomy can restore normal pulmonary pressures.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 34-year-old woman, 18 months of progressive exertional breathlessness and two episodes of exertional near-syncope. No cardiac or pulmonary history. ECG: right axis deviation + RVH. Echo: RVSP 72 mmHg, RV dilation, septal flattening.
+
+**Step 1 — Recognise idiopathic PAH:** The clinical picture is textbook Group 1 PAH:
+- **Young woman** — PAH affects women 2–3× more than men; peak onset in the third to fourth decade
+- **Progressive exertional dyspnoea** — the most common initial symptom; insidious onset with a median 2–3 year diagnostic delay
+- **Exertional near-syncope** — a red flag indicating severely impaired cardiac output reserve. The failing RV cannot augment stroke volume during exercise; forward flow falls precipitously and cerebral perfusion drops. This carries a poor prognosis and demands urgent evaluation.
+- **ECG**: Right axis deviation + RVH = RV pressure overload
+- **Echo**: RVSP 72 mmHg (severely elevated; normal <35 mmHg) + RV dilation + septal D-sign (septal flattening from RV pushing against the septum) = advanced RV strain
+
+**Step 2 — Right heart catheterisation is mandatory — echo is not enough:** Echo estimates RVSP but cannot confirm the diagnosis or classify PH. **Right heart catheterisation** provides the definitive diagnosis:
+- **mPAP ≥20 mmHg** confirms PH
+- **PAWP ≤15 mmHg** = precapillary = Groups 1/3/4/5 (the lung vasculature is the problem)
+- **PAWP >15 mmHg** = postcapillary = **Group 2 — left heart disease** — PAH-targeted drugs are absolutely contraindicated in Group 2; they cause pulmonary vasodilation, flood an already struggling left ventricle, and precipitate acute pulmonary oedema
+
+**Step 3 — Investigate for secondary causes (screen before labelling idiopathic):**
+- **ANA, anti-Scl-70, anti-centromere** — SSc (limited and diffuse) is the most common CTD cause of PAH; anti-centromere suggests limited SSc with PAH risk
+- **HIV, hepatitis serology** — portopulmonary and HIV-associated PAH
+- **V/Q scan** — exclude CTEPH (Group 4): V/Q is **more sensitive** than CTPA for chronic organised thrombus
+- **Echo** with bubble study — exclude congenital heart disease (atrial or ventricular septal defect)
+- **PFTs + HRCT** — exclude significant lung disease (Group 3)
+
+**Step 4 — Upfront combination therapy (modern standard):** For WHO functional class II–IV PAH without vasoreactivity:
+- **ERA + PDE-5 inhibitor** (macitentan 10mg OD + tadalafil 40mg OD) — established by the AMBITION trial as superior to monotherapy
+- Add IV epoprostenol for high-risk or rapidly deteriorating disease
+- **Avoid pregnancy** — contraindicated in PAH; maternal mortality approaches 25–50%
+
+**Exam trigger:** *Young woman + exertional SOB + near-syncope + RVH on ECG + RVSP 72 mmHg on echo* → **pulmonary arterial hypertension**. Right heart catheterisation is mandatory — echo alone does not confirm the diagnosis. Check PAWP: >15 mmHg = Group 2 and PAH drugs are contraindicated. Upfront combination ERA + PDE-5 inhibitor is now standard of care.

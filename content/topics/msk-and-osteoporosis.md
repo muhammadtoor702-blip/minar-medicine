@@ -218,3 +218,32 @@ Every patient starting long-term steroids (prednisolone ≥5 mg for >3 months) n
 Knee arthroscopy for osteoarthritis or degenerative meniscal tears is one of the most convincingly overperformed procedures in surgical practice. Multiple high-quality RCTs — FINISH, FIDELITY, and the Kirkley trial — show no benefit over sham surgery or physiotherapy for degenerative meniscal disease in the absence of true mechanical locking. The patient with knee pain and an MRI showing a meniscal tear likely has OA with incidental meniscal degeneration. Arthroscopy will not help and may accelerate OA progression. Physiotherapy is the correct management.
 
 The first step in assessing any joint complaint is to decide: is this inflammatory or mechanical? The answer shapes every subsequent decision — investigations, urgency of referral, and treatment. Morning stiffness lasting >60 minutes, joint warmth, elevated CRP, and improvement with activity all point to inflammation. Morning stiffness lasting <30 minutes, worsening with use, and normal inflammatory markers point to mechanical disease. Getting this right at the first consultation prevents months of inappropriate treatment.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 67-year-old woman with 10-year RA on prednisolone 7.5 mg/day. Fall from standing height → L2 vertebral fracture. Prior wrist fracture 3 years ago. DEXA T-score -2.8 at the lumbar spine. No bone protection.
+
+**Step 1 — Diagnose severe glucocorticoid-induced osteoporosis (GIOP):** Three criteria define this as severe osteoporosis:
+- **T-score -2.8** (≤-2.5 = osteoporosis by WHO definition)
+- **Fragility fracture** (fall from standing height = low-energy trauma = fragility fracture = severe osteoporosis by definition)
+- **Second fracture** (prior wrist fracture 3 years ago) — each vertebral fracture multiplies future fracture risk ~5-fold
+
+The cause is dual: **glucocorticoids** (prednisolone 7.5 mg/day suppresses osteoblast activity, increases osteoclast lifespan, reduces intestinal calcium absorption — bone loss of 5–10% occurs in the first year) and **RA itself** (synovial inflammation drives osteoclast activation via RANKL; immobility from joint disease further reduces mechanical loading of bone).
+
+**Step 2 — This bone protection should have started 10 years ago:** NICE and BSR guidance is unequivocal: **any patient taking oral prednisolone ≥5 mg for >3 months should be started on bone protection simultaneously** — not at a review, not after a fracture. Waiting for osteoporosis to declare itself with a fracture is a preventable harm. The prescribing clinician should have initiated bisphosphonates at the time of the long-term steroid prescription.
+
+**Step 3 — Start treatment now:**
+- **Alendronate 70 mg once weekly** (take on an empty stomach with a full glass of water; remain upright 30 minutes) — first-line bisphosphonate; reduces vertebral fracture by ~50%
+- **Calcium 1000–1200 mg/day + vitamin D 800–1000 IU/day** — mandatory foundation; bisphosphonate alone without adequate calcium/vitamin D is ineffective
+- Monitor renal function (contraindicated if eGFR <30 — switch to IV zoledronate or denosumab)
+
+**Step 4 — Consider anabolic therapy:** T-score -2.8 with two fractures on long-term steroids = the threshold for **teriparatide** (PTH 1-34, subcutaneous daily for 24 months) — the most effective treatment for GIOP with severe bone loss. Teriparatide stimulates bone formation rather than simply inhibiting resorption. More appropriate than bisphosphonate alone for this degree of severity.
+
+**Step 5 — Fall prevention and RA optimisation:**
+- Review medications for fall risk (sedatives, antihypertensives)
+- Home safety assessment (trip hazards, grab rails)
+- Optimise RA disease control — reducing corticosteroid dose is the most important long-term bone protection intervention. Discuss with rheumatology: can she transition to a DMARD that allows prednisolone reduction?
+
+**Exam trigger:** *Fragility fracture + T-score -2.8 + long-term prednisolone + RA + no bone protection* → glucocorticoid-induced osteoporosis. Bone protection should have started when the steroid was prescribed. Start **alendronate + calcium + vitamin D** immediately. Consider teriparatide for severe GIOP. The distractor is prescribing bisphosphonate without co-prescribing calcium and vitamin D — the foundation supplements are mandatory.

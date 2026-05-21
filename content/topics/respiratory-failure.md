@@ -149,3 +149,37 @@ Oxygen is a drug. In type 2 respiratory failure with chronic hypercapnia, high-f
 NIV should be started early in COPD exacerbation with type 2 failure — before the patient becomes severely acidotic. Once pH falls below 7.25, NIV becomes less effective and intubation more likely. The window where NIV works best is pH 7.25–7.35. Waiting until the patient is comatose to start NIV is too late.
 
 Neuromuscular causes of type 2 failure (GBS, myasthenia) are missed because these patients can be remarkably alert and communicative right up until the point of respiratory arrest. The critical monitoring parameter is serial vital capacity — a falling VC, not a worsening ABG, is the trigger to intubate electively and safely before crisis develops.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 58-year-old man with severe COPD, 12 hours of worsening breathlessness and confusion. Cyanosed and drowsy. RR 32, SpO₂ 82% on air, HR 116, BP 148/92. All accessory muscles engaged. ABG on air: pH 7.28, PaO₂ 46 mmHg, PaCO₂ 71 mmHg, HCO₃ 32 mEq/L.
+
+**Step 1 — Classify the ABG — this is type 2 respiratory failure (acute-on-chronic):**
+- **pH 7.28** = acidaemia
+- **PaCO₂ 71 mmHg** = hypercapnia = ventilatory failure
+- **HCO₃ 32 mEq/L** = elevated = renal metabolic compensation = **this hypercapnia is not purely acute**
+
+This is the classic pattern of **acute-on-chronic type 2 RF**: the kidneys have already had time to retain bicarbonate (3–5 days), indicating chronic CO₂ retention at baseline, now acutely worsening. Confusion + drowsiness = CO₂ narcosis (hypercapnic encephalopathy).
+
+**Step 2 — Controlled oxygen IMMEDIATELY — NOT a non-rebreather mask:** SpO₂ 82% on air is dangerously low, but giving uncontrolled high-flow oxygen will worsen CO₂ retention via:
+- **Haldane effect** — oxygenated haemoglobin releases CO₂ less readily → dissolved CO₂ rises
+- **Reversal of hypoxic pulmonary vasoconstriction** → worsens V/Q mismatch → more CO₂ retained
+
+Start with **24% Venturi mask (blue)** — the most precisely controlled low-flow oxygen delivery. Target SpO₂ **88–92%** — no higher. Recheck ABG after 30–60 minutes of controlled oxygen.
+
+**Step 3 — Start NIV (BiPAP) immediately — this is the cornerstone intervention:** pH 7.28 + hypercapnia in COPD = **indication for non-invasive ventilation**. Do not delay.
+- IPAP: 12–20 cmH₂O | EPAP: 4–6 cmH₂O | Backup rate: 14 breaths/min
+- FiO₂ titrated to SpO₂ 88–92%
+- NIV reduces intubation rates and mortality in COPD exacerbation (evidence grade A)
+- **Recheck ABG at 1 hour**: if pH rising and PaCO₂ falling → continue NIV; if no improvement → escalate to ITU/intubation
+
+**Step 4 — Treat the AECOPD precipitant:**
+- **Nebulised salbutamol 5 mg + ipratropium 0.5 mg** Q4–6h (bronchodilation)
+- **Prednisolone 40 mg oral** (or IV hydrocortisone if cannot swallow) for 5 days — reduces treatment failure and length of stay
+- **Antibiotics** (amoxicillin or doxycycline) — if purulent sputum or CRP elevated — AECOPD is often triggered by bacterial infection (H. influenzae, M. catarrhalis, S. pneumoniae)
+
+**Step 5 — Ceiling of care discussion:** If NIV fails, the next step is intubation and invasive ventilation. In severe COPD, this is a major decision — discuss resuscitation status with the patient (if he regains enough cognition) and family. An advance decision or DNAR in a patient with end-stage COPD changes the pathway dramatically. This conversation should have happened before admission, but if not, it must happen before crisis demands an answer.
+
+**Exam trigger:** *Type 2 RF (low pH, high CO₂, high HCO₃) in severe COPD* → acute-on-chronic hypercapnic failure. Use **24% Venturi mask** (not non-rebreather). Start **NIV (BiPAP)** immediately. Target SpO₂ 88–92%. Recheck ABG at 1 hour. The distractor is giving 15 L/min non-rebreather oxygen — this precipitates further CO₂ retention and can be fatal in a chronic CO₂ retainer.
