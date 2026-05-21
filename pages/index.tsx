@@ -19,6 +19,8 @@ const SYSTEMS = [
   { name: 'Obstetrics & Gynaecology', icon: '🤰', slug: 'obstetrics-and-gynaecology' },
   { name: 'Surgery', icon: '🔧', slug: 'surgery' },
   { name: 'Emergency Medicine', icon: '🚨', slug: 'emergency-medicine' },
+  { name: 'ENT', icon: '👂', slug: 'ent' },
+  { name: 'Ophthalmology', icon: '👁', slug: 'ophthalmology' },
 ]
 
 interface Topic { slug: string; title: string; system: string; scenario: string; summary: string; keywords: string[] }
