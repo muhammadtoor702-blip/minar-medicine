@@ -164,3 +164,26 @@ In GBS, the vital capacity is the vital sign. ABG will remain reassuringly norma
 Drugs that worsen myasthenia gravis are encountered constantly in hospital medicine. Aminoglycosides, fluoroquinolones, and macrolides are all commonly prescribed antibiotics that impair neuromuscular transmission. Before prescribing any of these to a patient with MG, assess whether the risk is justified. In a myasthenic crisis precipitated by infection, the antibiotic choice must balance treating the infection against the risk of worsening NMJ transmission.
 
 The fatigable nature of MG is its defining characteristic and the key to diagnosis at the bedside. Ask the patient to sustain upgaze for 60 seconds — progressive ptosis developing over this time is virtually diagnostic of MG. The ice pack test (ice on closed lid for 2 minutes → ptosis improves transiently) has over 80% sensitivity and is completely safe — it can be performed immediately while waiting for serological confirmation.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 34-year-old woman. Three weeks of progressive leg weakness starting distally and ascending to involve thighs and lower back. GI illness 4 weeks ago. Difficulty climbing stairs, cannot rise from chair without arm support. Areflexia throughout, distal-predominant weakness. Vital capacity 2.1 L.
+
+**Step 1 — Diagnose Guillain-Barré syndrome:** The clinical pattern is definitive:
+- **Ascending, symmetric weakness** beginning distally (feet → legs → thighs → lower back) — the hallmark of GBS
+- **Areflexia throughout** — universal in GBS, often the earliest sign; absent reflexes in a patient with ascending weakness = GBS until proven otherwise
+- **Post-infectious trigger** — GI illness 4 weeks prior. *Campylobacter jejuni* is the most common precipitant (~30% of GBS), causing molecular mimicry between lipooligosaccharide gangliosides and peripheral nerve GM1 gangliosides. The typical onset is **2–4 weeks** after infection.
+
+**Step 2 — The vital capacity is the vital sign — not the ABG:** At 2.1 L the patient is currently above the intubation threshold (~1.5 L), but she is deteriorating weekly. **Serial spirometry every 4–6 hours** is mandatory. The 20-30-40 rule: intubate electively when VC <20 mL/kg (approximately 1.2 L in a 60 kg woman), maximum inspiratory pressure <30 cmH₂O, or maximum expiratory pressure <40 cmH₂O. Do not wait for the ABG to show CO₂ retention — by then, respiratory reserve is critically exhausted and emergency intubation under difficult circumstances is required.
+
+**Step 3 — Confirm with CSF and nerve conduction studies:** LP will show **albuminocytological dissociation** — elevated protein (often >1 g/L) with a normal white cell count (<10 cells/mm³). Note: CSF may be normal in the first week; repeat if clinical suspicion is high. NCS demonstrates demyelinating pattern (reduced conduction velocity, conduction block).
+
+**Step 4 — ICU-level monitoring and treatment:**
+- Continuous cardiac monitoring — autonomic dysfunction causes labile BP and potentially lethal arrhythmias
+- **IVIg 2 g/kg over 5 days** — first-line immunotherapy. Alternatively: **plasma exchange (5 exchanges over 2 weeks)** — equivalent efficacy. Choose based on availability and patient factors.
+- **Steroids are NOT effective in GBS** — do not prescribe them; they are beneficial in CIDP but harmful in GBS (increase recurrence risk)
+- VTE prophylaxis, pain management (neuropathic pain is significant — gabapentin), bladder catheter if urinary retention
+
+**Exam trigger:** *Ascending weakness + areflexia + post-GI illness + 3-week progression* → GBS. Monitor **vital capacity every 4–6 hours** (not ABG). Treat with IVIg or plasma exchange — **no steroids**. The distractor is giving IV methylprednisolone (standard for other neurological conditions) or relying on SpO₂ and ABG instead of VC for respiratory monitoring.

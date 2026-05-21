@@ -219,3 +219,29 @@ Acromegaly kills through cardiovascular disease — the cardiomyopathy and assoc
 Hypercalcaemia in an outpatient with an elevated or inappropriately normal PTH = primary hyperparathyroidism until proven otherwise. Hypercalcaemia in a hospitalised or acutely unwell patient with a suppressed PTH = malignancy until proven otherwise. This simple dichotomy narrows the differential immediately and directs investigation efficiently.
 
 Secondary adrenal insufficiency from exogenous corticosteroid use is the most common cause of adrenal insufficiency seen in clinical practice — far more common than Addison's disease. Any patient who has taken >7.5 mg prednisolone daily for more than 3 weeks has significant HPA axis suppression and cannot mount a stress response. They need steroid cover for surgery, illness, or any physiological stress — and must never have steroids abruptly withdrawn.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 42-year-old man with headaches, progressive visual field loss, erectile dysfunction, increased shoe size over 5 years, ring no longer fits, spade-like hands and feet, coarser facial features. Fasting glucose 166 mg/dL. IGF-1 markedly elevated. MRI: 2.4 cm pituitary macroadenoma.
+
+**Step 1 — Diagnose acromegaly:** The clinical picture is unambiguous. Compare old photographs — **acromegaly has an insidious onset with a mean 8–10 year diagnostic delay**. The hallmarks are here:
+- **Acral enlargement**: increased shoe size, ring no longer fitting (widening of the hands), spade-like hands and feet
+- **Coarsened facial features**: prognathism, macroglossia, frontal bossing
+- **Markedly elevated IGF-1**: the best screening marker (stable throughout the day, unlike pulsatile GH)
+- **Diabetes mellitus**: fasting glucose 166 mg/dL (>126 mg/dL = DM). GH is counter-regulatory → insulin resistance → diabetes in ~25–30% of acromegaly patients
+
+**Step 2 — Confirm with OGTT-GH (biochemical gold standard):** Administer 75 g oral glucose → measure GH at 0, 30, 60, 90, 120 minutes. Normal: GH suppresses to <1 µg/L. Acromegaly: **GH fails to suppress** (or paradoxically rises in ~25%). This confirms active disease and is required before surgery.
+
+**Step 3 — Urgent visual field assessment:** The macroadenoma is 2.4 cm — significant suprasellar extension. The optic chiasm lies immediately above the pituitary fossa. Progressive visual field loss + headache = chiasmal compression. Formal Humphrey perimetry should be arranged urgently. **Bitemporal hemianopia** (starts with superior temporal quadrants) is the classic finding. Visual compromise = urgent surgical referral.
+
+**Step 4 — First-line treatment: transsphenoidal pituitary surgery:** Remission rates ~80–85% for microadenomas and ~50% for macroadenomas. GH falls within hours of successful resection. For a 2.4 cm macroadenoma with visual compromise, surgery is urgent. **Post-operatively**: IGF-1 measurement and repeat OGTT-GH at 3 months to confirm remission. If residual disease: add **somatostatin receptor ligand (octreotide LAR or lanreotide)** — suppresses GH/IGF-1 in ~60–70%.
+
+**Step 5 — Don't miss the systemic complications:**
+- **Diabetes mellitus** → start metformin or other diabetes therapy; IGF-1 normalisation often improves glycaemia
+- **Colonoscopy at diagnosis** — 2–3× increased risk of colorectal polyps and cancer; mandatory screening
+- **Echocardiogram** — acromegalic cardiomyopathy (the leading cause of death in untreated disease)
+- **Sleep study** — obstructive sleep apnoea affects ~70%
+
+**Exam trigger:** *Spade-like hands + increased shoe size + coarsened features + headache + visual field loss + diabetes + elevated IGF-1 + pituitary macroadenoma* → acromegaly. Confirm with OGTT-GH suppression test. First-line treatment is **transsphenoidal surgery**. The distractor is starting a somatostatin analogue as definitive treatment — medical therapy is for residual or inoperable disease, not first-line.

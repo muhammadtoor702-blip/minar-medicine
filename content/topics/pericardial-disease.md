@@ -196,3 +196,32 @@ Colchicine is not optional. Adding it to NSAIDs from the outset halves the recur
 Beck's triad is present in only a minority of tamponade cases. The clinical diagnosis is made at the bedside by the combination of rising JVP, hypotension, tachycardia, and a plausible cause. Waiting for all three classic components before ordering an echo or calling for pericardiocentesis is dangerous.
 
 The most important distinction in pericardial disease is between tamponade (fluid under pressure) and constrictive pericarditis (rigid shell). Both cause elevated JVP and right heart failure, but their haemodynamics are mirror images: tamponade has pulsus paradoxus and blunted y-descent; constrictive has Kussmaul's sign and prominent y-descent. Pericardiocentesis cures tamponade but has no role in constrictive pericarditis, where pericardiectomy is required.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 22-year-old medical student, 2 days of sharp central chest pain worse lying flat, relieved by leaning forward. Viral URTI 1 week ago. HR 96, BP 118/76. Three-component scratching sound at left sternal edge. ECG: diffuse concave-up ST elevation with PR depression.
+
+**Step 1 — Diagnose acute pericarditis (3 of 4 diagnostic criteria met):**
+- ✓ **Characteristic chest pain**: sharp, positional (worse supine, relieved leaning forward — the pericardium is inflamed and stretches with supine position; leaning forward takes the visceral pericardium away from the parietal layer)
+- ✓ **Pericardial friction rub**: three components (atrial systole, ventricular systole, early ventricular filling) — classically described as "leather on leather"
+- ✓ **ECG**: **diffuse concave-up (saddle-shaped) ST elevation** + **PR depression** — the PR depression is highly specific for pericarditis (atrial epicardial inflammation affects atrial repolarisation)
+- The viral URTI 1 week ago is the classic precipitant: post-viral immune-mediated pericardial inflammation
+
+**Step 2 — Exclude STEMI before anything else:** The ECG features look like ST elevation — but this is **not** STEMI. Four distinguishing features:
+- ST elevation is **concave-up (saddle-shaped)** not convex-up (dome-shaped)
+- Distribution is **diffuse** (all leads) not focal (one vascular territory)
+- **PR depression** is present — absent in STEMI
+- **No reciprocal ST depression** — STEMI has reciprocal changes in mirror leads
+
+Do not give thrombolytics or anticoagulants. Do not activate the cardiac catheter lab.
+
+**Step 3 — Treat with NSAIDs + colchicine (both mandatory):**
+- **Ibuprofen 600 mg TDS for 1–2 weeks** + **PPI** (gastric protection)
+- **Colchicine 0.5 mg BD for 3 months** — mandatory; the COPE and ICAP trials demonstrated that colchicine added to NSAIDs halves the recurrence rate. This is not optional.
+- No risk factors for poor prognosis (no fever >38°C, no large effusion, no haemodynamic compromise, young and otherwise well) → **outpatient management** is appropriate
+
+**Step 4 — Restrict physical activity:** No competitive sport or strenuous exercise until completely asymptomatic AND CRP has normalised. Exertion during active pericarditis risks myopericarditis and arrhythmia — in a medical student this is an important conversation.
+
+**Exam trigger:** *Young man + viral prodrome + positional sharp chest pain + pericardial friction rub + diffuse saddle-shaped ST elevation + PR depression* → acute pericarditis. Treat with ibuprofen + **colchicine** (3 months). The distractor is activating the STEMI pathway or prescribing steroids first-line — steroids increase recurrence risk and should only be used if NSAIDs are contraindicated.

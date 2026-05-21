@@ -144,3 +144,26 @@ The most important single feature distinguishing Parkinson's disease from atypic
 Impulse control disorders — pathological gambling, hypersexuality, binge eating, compulsive shopping — affect up to 15% of PD patients on dopamine agonists and are severely underreported by patients. Ask specifically and proactively at every medication review. If identified, reduce or stop the dopamine agonist, even if motor control worsens temporarily.
 
 The neuropsychiatric features of PD are often more disabling than the motor features and are consistently undertreated. Depression affects more than 40% of patients, yet many clinicians focus exclusively on tremor and rigidity. A comprehensive review of non-motor symptoms at every clinic visit — using validated tools like the NMS Quest — is as important as the motor examination.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 67-year-old retired teacher, 2 years of right-hand tremor at rest — disappears when reaching for objects. Difficulty turning in bed at night. Pill-rolling rest tremor, cogwheel rigidity, bradykinesia, shuffling gait, expressionless face.
+
+**Step 1 — Diagnose Parkinson's disease:** The three cardinal features are all present:
+- **Rest tremor** (pill-rolling, unilateral, disappears with voluntary movement — distinguishes from essential tremor which is an **action** tremor)
+- **Cogwheel rigidity** (lead-pipe rigidity + superimposed ratcheting from the tremor)
+- **Bradykinesia** (slowness, small steps, reduced arm swing)
+
+The asymmetric unilateral onset and the expressionless face (hypomimia) complete the picture. Difficulty turning in bed reflects axial rigidity — a non-motor prodrome of autonomic dysfunction (constipation, anosmia) would also support the diagnosis.
+
+**Step 2 — Clinical diagnosis, no blood test confirms it:** PD is diagnosed clinically. MRI brain is performed to exclude structural causes (normal pressure hydrocephalus, vascular Parkinsonism, basal ganglia lesions) — it will be normal in idiopathic PD. If there is diagnostic uncertainty (no tremor, symmetric onset, early falls within 1 year), a **DAT scan** can confirm dopaminergic depletion (distinguishes PD from essential tremor and drug-induced Parkinsonism, but not from atypical Parkinsonism).
+
+**Step 3 — Screen for drugs that worsen PD:** Before prescribing anything, review the drug list. **Metoclopramide and prochlorperazine** are common prescription culprits — dopamine antagonists that worsen Parkinsonism or cause drug-induced Parkinsonism. If the patient develops nausea (e.g., from levodopa), use **domperidone** (does not cross the BBB) — not metoclopramide.
+
+**Step 4 — Start pharmacological treatment:** **Co-beneldopa** (levodopa + benserazide) or co-careldopa — most effective symptomatic treatment. Start low and titrate. The benserazide/carbidopa component prevents peripheral conversion to dopamine, minimising nausea and maximising CNS delivery. Alternatively, a **dopamine agonist** (pramipexole, ropinirole) can be used in younger patients (reduced motor fluctuation risk early on, but more psychiatric side effects).
+
+**Step 5 — Multidisciplinary team:** Physiotherapy (gait and balance training), occupational therapy (home modifications), speech and language therapy (dysarthria and dysphagia assessment). DVLA notification — the patient should notify DVLA; driving may continue if adequate control is demonstrated.
+
+**Exam trigger:** *Unilateral rest tremor + cogwheel rigidity + bradykinesia + shuffling gait + hypomimia* → Parkinson's disease. Levodopa (co-beneldopa) is the most effective initial treatment. The distractor is prescribing metoclopramide for nausea — a dopamine antagonist that dramatically worsens PD. Use domperidone instead.

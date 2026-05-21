@@ -143,3 +143,30 @@ Bilateral transudates in the context of heart failure do not routinely need pleu
 A unilateral exudative effusion in a smoker with weight loss is a malignant effusion until proven otherwise. The absence of malignant cells on cytology does not exclude it — sensitivity is only about 60%. **Thoracoscopy with pleural biopsy** is the investigation of choice for unexplained exudative effusion and achieves a diagnosis in over 90% of malignant cases. Don't stop at negative cytology.
 
 Mesothelioma is the one diagnosis that is easy to miss and devastating to delay. Any pleural effusion with a history of asbestos exposure — even decades prior — should prompt CT, thoracoscopy, and pleural biopsy. The latent period between asbestos exposure and mesothelioma development is 20–45 years. The fluid can look bland and the CXR may show only pleural thickening. Histological diagnosis is essential because the peritoneal and pericardial variants are clinically distinct and have different management pathways.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 62-year-old man with 45 pack-years. Three months of progressive breathlessness and non-productive cough. 6 kg weight loss. Hoarse voice. Trachea deviated to the right. Stony dullness and absent breath sounds over the left lower and mid zones.
+
+**Step 1 — Diagnose large pleural effusion and identify the likely cause immediately:**
+- **Stony dullness** (not just dull) + **absent breath sounds** + **reduced vocal fremitus** = pleural effusion
+- **Trachea deviated to the right** (away from the left-sided effusion) = large effusion pushing the mediastinum contralaterally
+- **Hoarse voice** = **left recurrent laryngeal nerve palsy** (the nerve loops under the aortic arch in the left mediastinum) — mediastinal involvement by tumour or lymphadenopathy is the cause
+- **45 pack-years + weight loss + hoarse voice + large unilateral effusion** = **lung cancer with malignant pleural effusion** until proven otherwise
+
+**Step 2 — USS-guided pleural aspiration:** Ultrasound before any pleural procedure is mandatory — it confirms fluid, identifies loculations, and guides safe needle placement. Aspirate ≥50 mL for cytology (sensitivity ~60% — negative does not exclude malignancy). Send for:
+- **Light's criteria** (protein, LDH — serum and pleural) — this will be an exudate (malignancy)
+- **Cytology** (at least 50 mL)
+- **pH, glucose, microbiology** (to exclude concurrent empyema)
+- **LDH** (degree of inflammation/malignant burden)
+
+**Step 3 — CT thorax with contrast:** Essential for characterisation. Irregular, nodular pleural thickening ± mediastinal or hilar lymphadenopathy ± a primary pulmonary mass. CT also identifies the primary tumour (most likely non-small cell lung cancer given 45 pack-years) and guides bronchoscopy or EBUS biopsy for tissue diagnosis. CT may also reveal the left recurrent laryngeal nerve palsy cause — enlarged left paratracheal or AP window nodes.
+
+**Step 4 — Manage the malignant pleural effusion:**
+- **Therapeutic thoracocentesis** for symptom relief (drain up to 1.5 L per session to avoid re-expansion pulmonary oedema)
+- If lung re-expands fully after drainage: **talc pleurodesis** (most effective method — >75% success) or **indwelling pleural catheter (IPC)** — both are equivalent for dyspnoea relief (TIME2 trial)
+- If lung is **trapped** (fails to re-expand after drainage, due to obstructing tumour): **IPC** is preferred (pleurodesis cannot work without lung contact)
+
+**Exam trigger:** *Unilateral large left effusion + tracheal deviation to the right (away) + hoarse voice + 45 pack-years + weight loss* → malignant pleural effusion from lung cancer. Hoarse voice = recurrent laryngeal nerve palsy = mediastinal disease. USS-guided aspiration + cytology. CT thorax. The distractor is attributing tracheal deviation "toward" an effusion (this indicates endobronchial collapse, not a free effusion).
