@@ -1,207 +1,212 @@
 ---
 title: Stroke and TIA
-system: Neurology
-scenario: "A 69-year-old man with hypertension and AF (on warfarin) is brought in after his wife found him unable to speak and with right-sided arm and face weakness. Onset was approximately 2 hours ago. GCS is 13. He has right-sided hemiplegia, expressive aphasia, and right facial droop. BP is 192/106. INR is 1.4."
+system: Emergency Medicine
+scenario: "A 71-year-old woman is brought to A&E by ambulance with sudden-onset left-sided facial droop, left arm weakness, and expressive dysphasia that began 90 minutes ago. She has atrial fibrillation, hypertension, and type 2 diabetes. Her medications include apixaban 5 mg BD (last dose 14 hours ago), amlodipine, and metformin. NIHSS score is 14. CT head shows no haemorrhage. BP is 168/94 mmHg. BM is 124 mg/dL."
 ---
 
 ## Overview
 
-Stroke is the sudden onset of a focal neurological deficit lasting more than 24 hours, caused by disruption of blood supply to part of the brain. It is the second leading cause of death and the leading cause of disability worldwide. Ischaemic stroke accounts for 85% of cases; haemorrhagic stroke for 15%. A **transient ischaemic attack (TIA)** is clinically identical in presentation but resolves completely within 24 hours (usually within 60 minutes). TIA is not a benign event — it carries a 10–15% risk of stroke within 90 days, with the highest risk in the first 48 hours.
+Stroke is the leading cause of disability and the third most common cause of death in high-income countries. It occurs when cerebral blood flow to part of the brain is interrupted — either by occlusion (ischaemic stroke, 85%) or haemorrhage (intracerebral haemorrhage 10–15%, subarachnoid haemorrhage ~5%). The ischaemic penumbra — tissue surrounding the irreversible infarct core that is ischaemic but potentially recoverable — is the therapeutic target of all reperfusion strategies. Every minute of untreated large vessel occlusion causes the loss of approximately 1.9 million neurons and 13.8 billion synapses ("time is brain"). Intravenous thrombolysis and mechanical thrombectomy are the two evidence-based reperfusion strategies, and their benefit is directly proportional to treatment speed.
+
+---
 
 ## Pathophysiology
 
-**Ischaemic stroke** — three mechanisms:
+### The Ischaemic Penumbra
 
-1. **Thrombotic**: In situ thrombosis at a ruptured or eroded atherosclerotic plaque in a large vessel (ICA, MCA, basilar artery) or small vessel (lacunar infarct). Onset may be stuttering or on waking (low BP overnight).
+Cerebral blood flow (CBF) in normal brain: ~50 mL/100g/min. Autoregulation maintains CBF across a wide range of perfusion pressures (CPP 50–150 mmHg). In ischaemic stroke:
 
-2. **Embolic**: Clot originating from a proximal source embolises to a distal artery. Sources include the heart (AF is the most important — LAA thrombus; also valvular disease, mural thrombus post-MI, paradoxical embolism through PFO) and proximal atherosclerotic plaques in the carotid or aortic arch. Onset is typically sudden and maximal.
+- **CBF <20 mL/100g/min:** Neuronal electrical failure — neurons stop firing but remain viable; this territory is the **ischaemic penumbra** — salvageable with reperfusion
+- **CBF <10–12 mL/100g/min:** Irreversible infarction begins — neuronal death within minutes (the **core**)
 
-3. **Lacunar**: Occlusion of small perforating arteries (lenticulostriate, thalamogeniculate) from lipohyalinosis — a consequence of hypertension and diabetes. Produces discrete small-volume infarcts producing pure syndromes. Accounts for ~25% of ischaemic strokes.
+As time passes without reperfusion, core expands into penumbra. Modern CT or MRI perfusion imaging quantifies this ratio and identifies patients who may benefit from thrombectomy even beyond the traditional 6-hour window (DAWN and DEFUSE-3 trials: thrombectomy benefit up to 24h in patients with large penumbra).
 
-**Haemorrhagic stroke:**
+### Mechanisms of Ischaemic Stroke — TOAST Classification
 
-- **Intracerebral haemorrhage (ICH)**: Most commonly from rupture of small perforating arteries damaged by chronic hypertension (basal ganglia, thalamus, pons, cerebellum). Also from cerebral amyloid angiopathy (elderly, lobar haemorrhage), AVM, coagulopathy, or anticoagulation.
-- **Subarachnoid haemorrhage (SAH)**: Rupture of a berry aneurysm (typically at arterial bifurcations on the circle of Willis). Presents as thunderclap headache — the "worst headache of my life", maximal at onset.
+1. **Large artery atherosclerosis:** Carotid or vertebrobasilar stenosis → in-situ thrombosis or artery-to-artery embolism; preceding TIA common; cortical infarcts
+2. **Cardioembolic:** AF (most common — left atrial thrombus → embolism to MCA); LV thrombus; valvular disease; paradoxical embolism via PFO; large cortical + subcortical infarcts
+3. **Small vessel occlusion (lacunar):** Lipohyalinosis of small penetrating arteries from hypertension/diabetes; lacunar infarcts (small, deep); classic syndromes (pure motor, pure sensory)
+4. **Other cause:** Arterial dissection (young patients, trauma), hypercoagulable states, vasculitis
+5. **Cryptogenic:** ~30% — many are likely embolic from occult paroxysmal AF
 
-**The ischaemic penumbra**: After complete occlusion, the ischaemic core (irreversibly infarcted) is surrounded by a zone of salvageable ischaemic but still viable tissue — the penumbra. It depends on collateral flow and begins to die within hours. Thrombolysis and thrombectomy aim to rescue the penumbra. Approximately 1.9 million neurons are lost per minute without reperfusion.
+### Haemorrhagic Stroke
 
-## Clinical Presentation — Localise the Lesion
+**Intracerebral haemorrhage (ICH):** Rupture of hypertensive Charcot-Bouchard microaneurysm (basal ganglia, thalamus, pons, cerebellum) or cerebral amyloid angiopathy (elderly, lobar haemorrhages), AVMs, anticoagulation. Haematoma expansion occurs in 30–40% within 24h → poor outcome.
 
-Neurological localisation is a core clinical skill. Identifying the vascular territory allows prediction of the aetiology and informs investigation.
+**Subarachnoid haemorrhage (SAH):** Berry aneurysm rupture at the circle of Willis → "thunderclap headache" — the most severe headache of the patient's life; may be misdiagnosed as migraine if LP is not performed.
 
-**Anterior circulation (carotid territory):**
+---
 
-| Territory | Vessel | Deficits |
-|-----------|--------|---------|
-| MCA superior division | MCA | Contralateral face and arm > leg weakness and sensory loss; expressive aphasia (left hemisphere); hemineglect (right hemisphere) |
-| MCA inferior division | MCA | Wernicke's (receptive) aphasia (left); homonymous superior quadrantanopia |
-| ACA | ACA | Contralateral leg > arm weakness (medial cortex representation) |
-| Internal capsule | Lenticulostriate arteries | Pure motor hemiplegia (contralateral face, arm, leg equally) |
+## Clinical Presentation
 
-**Posterior circulation (vertebrobasilar territory):**
+### FAST and BEFAST
 
-| Syndrome | Vessel | Key Features |
-|---------|--------|-------------|
-| Lateral medullary (Wallenberg) | PICA | Ipsilateral face sensory loss + contralateral limb sensory loss (crossed); ipsilateral Horner's; dysphagia, dysarthria, vertigo, ataxia |
-| Basilar artery occlusion | Basilar | Locked-in syndrome, coma, bilateral long tract signs |
-| PCA | PCA | Contralateral homonymous hemianopia with macular sparing |
-| AICA | AICA | Ipsilateral facial palsy, hearing loss, vertigo, ataxia |
+**FAST:** Facial droop, Arm weakness, Speech difficulty, Time to call 999. Sensitivity ~80% but misses posterior circulation strokes.
 
-**Lacunar syndromes** (small vessel, internal capsule or pons):
-- Pure motor hemiplegia — posterior limb of internal capsule
-- Pure sensory stroke — VPL thalamus
-- Ataxic hemiparesis — corona radiata or pons
-- Dysarthria-clumsy hand — pons
+**BE-FAST (extended):** Balance problems + Eye problems (diplopia, visual field loss) + FAST — better captures posterior circulation strokes.
 
-**FAST** (Face, Arms, Speech, Time) is a public screening tool. **ROSIER** (Recognition of Stroke in the Emergency Room) is the validated clinical scoring system used in hospitals.
+### Stroke Syndromes
 
-**TIA** presents identically to stroke but resolves completely. Do not dismiss a resolved deficit — the ABCD² score (Age, BP, Clinical features, Duration, Diabetes) stratifies 2-day stroke risk.
+| Artery | Clinical Features |
+|--------|------------------|
+| MCA dominant hemisphere | Contralateral hemiparesis (face + arm > leg) + hemisensory loss + expressive/receptive aphasia |
+| MCA non-dominant | Left-sided weakness + hemispatial neglect; NO aphasia |
+| ACA | Leg > arm weakness; frontal lobe signs |
+| PCA | Contralateral homonymous hemianopia; no hemiparesis |
+| Lateral medullary (PICA, Wallenberg) | Ipsilateral facial numbness + contralateral body pain/temperature loss + Horner's + dysphagia + vertigo |
+| Basilar artery | Locked-in syndrome; bilateral cranial nerve signs; coma |
+| Lacunar | Pure motor, pure sensory — no cortical features; best prognosis |
 
-**Differential for sudden focal neurological deficit:**
-- Hypoglycaemia — always check glucose immediately; mimics stroke
-- Todd's paresis — post-ictal weakness following focal seizure
-- Hemiplegic migraine — younger patient, headache, preceding aura, resolves
-- Space-occupying lesion — more gradual, but acute bleed into tumour can mimic
-- MS relapse — younger, prior episodes, multiple lesion locations
-- Peripheral nerve lesion — pattern does not match cerebral territory
+### NIHSS (National Institutes of Health Stroke Scale)
+
+Standardised 11-item neurological examination scoring 0–42:
+- 1–4 = minor; 5–15 = moderate; 15–20 = moderate-severe; >20 = severe
+
+**This patient:** NIHSS 14 = moderate stroke, likely proximal MCA occlusion.
+
+### TIA — ABCD2 Score
+
+**TIA:** Complete resolution of neurological symptoms. No infarction on DWI-MRI.
+
+**ABCD2 score (predicts 7-day stroke risk after TIA):**
+- Age ≥60 = 1
+- BP ≥140/90 = 1
+- Clinical features: unilateral weakness = 2; speech disturbance only = 1
+- Duration ≥60 min = 2; 10–59 min = 1
+- Diabetes = 1
+- Score ≥4 = high risk (~4% stroke within 2 days) → **same-day assessment + immediate secondary prevention**
+
+---
 
 ## Diagnosis
 
-**Non-contrast CT head — within 25 minutes of arrival**: The most urgent investigation. Its primary purpose is to **exclude haemorrhage before any thrombolysis is given**. Ischaemic stroke is often CT-negative in the first 6 hours. Early signs of ischaemia include: dense MCA sign (hyperdense MCA from clot), loss of grey-white differentiation, sulcal effacement.
+**Non-contrast CT head (NECT):** First-line within 15–20 minutes of arrival — primary purpose is to **exclude haemorrhage** (hyperdense/white on CT). Ischaemia may not appear for 6–24h. ASPECT score (10 = no early changes; ≤5 = large infarct core).
 
-**Blood glucose immediately** — hypoglycaemia mimics stroke and must be excluded before thrombolysis.
+**CT angiography (CTA) from arch to vertex:** Identifies large vessel occlusion (LVO) — essential before thrombectomy. Performed simultaneously with perfusion CT.
 
-**Immediate bloods**: FBC, coagulation (INR — critical if on warfarin), U&E, glucose, lipids, troponin, group and save.
+**CT perfusion or MRI DWI/PWI:** Quantifies core vs. penumbra; selects patients for extended time window thrombectomy (DAWN, DEFUSE-3: core <70 mL + penumbra:core mismatch >1.8 at 6–24h).
 
-**ECG**: AF detection (and to exclude concurrent MI).
+**MRI DWI:** Gold standard — restricts within minutes of infarction (bright on DWI, dark on ADC); more sensitive than CT for posterior fossa and lacunar infarcts.
 
-**MRI brain with DWI (diffusion-weighted imaging)**: Most sensitive for early ischaemic stroke — restricted diffusion appears bright within minutes of ischaemia. Used to confirm diagnosis, define territory, and identify the penumbra for thrombectomy planning.
+**Cardiac monitoring:** 24-hour Holter (paroxysmal AF detected in 3–5%); prolonged monitoring with implantable loop recorder detects AF in 30% at 3 years (EMBRACE trial). Echocardiography for cardioembolic source.
 
-**CT/MR angiography**: Essential if mechanical thrombectomy is being considered — identifies large vessel occlusion (ICA, M1/M2 MCA, basilar artery).
+---
 
-**NIHSS (National Institutes of Health Stroke Scale):** A validated 15-item score (range 0–42) assessing level of consciousness, gaze, vision, facial palsy, arm/leg motor, ataxia, sensation, language, dysarthria, and neglect. A score ≥4 generally indicates moderate-severe deficit; used to guide treatment decisions and track clinical progression. Importantly, the NIHSS underestimates posterior circulation strokes — a patient with a basilar occlusion may score low but be in extremis.
-
-**After stabilisation — cardioembolic screen:**
-- 12-lead ECG + prolonged cardiac monitoring (minimum 24 hours, ideally 7 days with implantable loop recorder) — AF detection
-- Echocardiogram — LAA thrombus, structural heart disease, PFO
-- Carotid Doppler USS — carotid stenosis
 ## Management
 
-### Acute Ischaemic Stroke
+### Thrombolysis — IV Alteplase
 
-**IV thrombolysis (alteplase)**:
-- Window: within **4.5 hours** of symptom onset (or last known well time)
-- Dose: 0.9 mg/kg (max 90 mg) — 10% as IV bolus, remainder over 60 minutes
-- Must exclude haemorrhage on CT first
-- BP must be <185/110 mmHg before giving — treat if necessary
+**IV alteplase 0.9 mg/kg (max 90 mg):** 10% as IV bolus, 90% over 60 minutes. Activates plasminogen → plasmin → fibrin clot dissolution → recanalisation.
 
-**Absolute contraindications to thrombolysis:**
-- Haemorrhage on CT
-- Symptoms >4.5 hours or unknown onset
-- INR >1.7 or therapeutic anticoagulation
-- Platelet count <100 × 10⁹/L
-- Glucose <50 mg/dL or >396 mg/dL
-- Recent major surgery or serious head trauma (<3 months)
-- Prior haemorrhagic stroke at any time
-- Active internal bleeding
+**Eligibility:**
+- Ischaemic stroke confirmed (no haemorrhage on CT)
+- **Onset within 4.5 hours** (IST-3/ECASS trials)
+- BP ≤185/110 mmHg (treat with labetalol IV or nicardipine to achieve before giving)
+- No contraindications
 
-**Mechanical thrombectomy (MT)**:
-- For large vessel occlusion (ICA, MCA M1/M2, basilar artery confirmed on CTA or MRA)
-- Window: up to **24 hours** from onset with CT/MR perfusion imaging confirming viable penumbra (DAWN and DEFUSE-3 trials — selected patients benefit even beyond the conventional window based on mismatch imaging)
-- Superior to thrombolysis alone for LVO — number needed to treat ~2.5 for functional independence at 90 days
-- Can be combined with IV thrombolysis ("bridging therapy") if within thrombolysis window
-- **Wake-up stroke / unknown onset**: If the patient wakes with stroke symptoms or onset time is unknown, MRI FLAIR-DWI mismatch (new DWI lesion with no corresponding FLAIR change, indicating the lesion is <4.5 hours old) supports thrombolysis (WAKE-UP trial). If imaging criteria met, treat as if within the 4.5h window.
+**Absolute contraindications:**
+- Haemorrhage on imaging
+- Previous intracranial haemorrhage
+- Onset >4.5 hours or unknown onset
+- BP >185/110 mmHg (uncontrolled)
+- Glucose <50 or >400 mg/dL (exclude stroke mimic)
+- Recent major surgery <14 days, GI haemorrhage <3 months, major trauma <14 days
+- **Active anticoagulation:** Full therapeutic DOAC within 48 hours; warfarin INR >1.7
 
-**Blood pressure management in acute ischaemic stroke**:
-- Permissive hypertension — do **not** lower BP aggressively in acute ischaemic stroke unless giving thrombolysis. The elevated BP maintains perfusion pressure to the penumbra through collateral vessels; lowering it extends the infarct.
-- If giving thrombolysis: keep BP <185/110 before and <180/105 during/after
-- If not giving thrombolysis: only treat if BP >220/120 and sustained
+**DOAC and thrombolysis:** This patient's apixaban (last dose 14h ago, half-life ~12h) likely has significant residual anti-Xa activity → thrombolysis contraindicated. Options:
+1. Check anti-Xa level urgently — if undetectable, thrombolysis may be considered
+2. **Andexanet alfa** (apixaban/rivaroxaban reversal) → then thrombolysis
+3. **Preferred: proceed directly to mechanical thrombectomy** (does not require anticoagulation reversal; best strategy for NIHSS 14 + LVO)
 
-**Aspirin 300 mg**: Start within 24–48 hours of confirmed ischaemic stroke (wait 24 hours after thrombolysis to reduce bleeding risk). Continue for 2 weeks then transition to long-term antiplatelet therapy.
+**Tenecteplase:** Single IV bolus; non-inferior to alteplase; increasingly used.
 
-**Supportive care**: Maintain normoglycaemia (glucose 72–198 mg/dL), normothermia, adequate hydration, early mobilisation, DVT prophylaxis, swallowing assessment before oral intake (aspiration risk), pressure area care.
+### Mechanical Thrombectomy (MT)
 
-### Haemorrhagic Stroke Management
+Endovascular clot retrieval for proximal large vessel occlusion (ICA, M1, M2 MCA, basilar) — one of the most effective acute interventions in all of medicine.
 
-- **Reverse anticoagulation immediately**: Vitamin K + prothrombin complex concentrate (PCC) for warfarin; specific reversal agents for DOACs (idarucizumab for dabigatran, andexanet alfa for apixaban/rivaroxaban).
-- **BP control**: Target systolic <140 mmHg acutely (INTERACT-2 trial); avoid over-rapid reduction.
-- **ICP management** if raised: head of bed 30°, avoid hypotonic fluids, osmotic therapy (mannitol, hypertonic saline), consider EVD for hydrocephalus.
-- **Neurosurgical referral**: Cerebellar haematoma >3 cm (surgical evacuation prevents brainstem compression); accessible lobar haematoma with neurological deterioration.
+**Evidence:** MR CLEAN, ESCAPE, SWIFT PRIME, DAWN, DEFUSE-3 — NNT for functional independence (mRS 0–2) at 90 days = **2.6**. Reduces death and disability by 40% in anterior circulation LVO.
+
+**Eligibility:**
+- CTA confirming LVO
+- Within **6 hours** of onset (anterior circulation) — or **24 hours** if large penumbra (DAWN/DEFUSE-3)
+- Basilar occlusion: up to **24 hours** (BASICS trial)
+- NIHSS ≥6; pre-stroke independence (mRS 0–2)
+
+**Blood pressure targets:**
+- Before thrombolysis: reduce to ≤185/110 mmHg
+- After thrombolysis: maintain ≤180/105 mmHg for 24h
+- No thrombolysis/thrombectomy: **permissive hypertension** (allow up to 220/120 mmHg) — higher BP maintains penumbral perfusion
+- After successful thrombectomy: ≤180/105 mmHg (prevents reperfusion haemorrhage)
 
 ### Secondary Prevention
 
-**Antiplatelet therapy (non-cardioembolic ischaemic stroke):**
-- Dual antiplatelet (aspirin + clopidogrel) for 21 days following high-risk TIA or minor ischaemic stroke (POINT and CHANCE trials) — significantly reduces early recurrence
-- Then single antiplatelet indefinitely (clopidogrel 75 mg preferred over aspirin — CAPRIE trial)
+**Antiplatelet therapy (non-AF ischaemic stroke):**
+- **Aspirin 300 mg immediately** (once haemorrhage excluded); then 75 mg/day long-term
+- **DAPT for 21 days** (aspirin + clopidogrel 300 mg loading): for minor stroke (NIHSS ≤3) or high-risk TIA (CHANCE, POINT trials) — reduces 90-day recurrence from ~10% to ~6%
+- Do NOT use antiplatelets for cardioembolic stroke (AF) — use anticoagulation
 
-**Anticoagulation (cardioembolic — AF):**
-- Start 4–14 days after ischaemic stroke (earlier risks haemorrhagic transformation; later risks recurrence)
-- DOAC preferred over warfarin in non-valvular AF
-- Valvular AF (mechanical valve, rheumatic MS) — warfarin only
+**Anticoagulation for AF stroke:**
+- Start **2–14 days after ischaemic stroke** (delay due to haemorrhagic transformation risk; earlier for smaller strokes — TIMING trial)
+- **DOACs:** Apixaban/rivaroxaban/dabigatran/edoxaban — superior to warfarin for AF with less ICH
+- Warfarin (INR 2–3): for prosthetic mechanical heart valves, severe mitral stenosis, severe CKD
 
-**Statin**: High-intensity statin (atorvastatin 80 mg) for all ischaemic stroke/TIA regardless of baseline LDL.
+**Blood pressure:** Start antihypertensives **after 24–48h acute phase**; target <130/80 mmHg long-term — most important long-term secondary prevention.
 
-**Blood pressure control**: Target <130/80. Start 24–48 hours after the acute event.
+**Statin:** Atorvastatin 80 mg immediately (SPARCL trial).
 
-**Carotid endarterectomy (CEA)**:
-- For symptomatic carotid stenosis 50–99% — CEA within **2 weeks** of TIA or minor stroke
-- Delay beyond 2 weeks substantially increases recurrence risk
-- CAROTID stenting as alternative in patients unsuitable for surgery
-
-**TIA management**: Same secondary prevention as ischaemic stroke. ABCD² score ≥4 or crescendo TIA — same-day specialist review and investigation. Do not discharge without initiating antiplatelet, statin, and BP management.
-
-## Cerebral Venous Thrombosis (CVT)
-
-Thrombosis of the cerebral venous sinuses (superior sagittal sinus most common) or cortical veins. Presents with headache (gradual onset over days, not thunderclap), focal neurological deficits, seizures, and papilloedema. Unlike arterial stroke, symptoms may progress over days. Can cause venous infarction with haemorrhage, paradoxically.
-
-**Risk factors:** Oral contraceptive pill, pregnancy/puerperium, thrombophilia, malignancy, infection (otitis → sigmoid sinus thrombosis = septic CVT), dehydration.
-
-**Diagnosis:** CT may show dense sinus sign or haemorrhagic infarcts in non-arterial distributions. **MRI with MR venography** is the investigation of choice — shows absence of flow in the affected sinus.
-
-**Treatment:** Anticoagulation with LMWH (then warfarin or DOAC) even in the presence of haemorrhagic infarction — the haemorrhage is from venous congestion, and anticoagulation prevents propagation. Most patients recover fully.
+**Carotid endarterectomy (CEA):** Symptomatic carotid stenosis 50–99% → within 2 weeks of TIA/minor stroke.
 
 ---
 
 ## Complications
 
-- Haemorrhagic transformation — conversion of ischaemic infarct to haemorrhage, particularly after thrombolysis or in large infarcts
-- Cerebral oedema and raised ICP — malignant MCA infarction; decompressive hemicraniectomy can be life-saving in selected patients aged <60
-- Post-stroke seizures — occur in ~10%; treat as standard epilepsy
-- Aspiration pneumonia — dysphagia is common; requires early SALT assessment and modified diet/NG feeding
-- DVT and PE — early mobilisation and LMWH
-- Post-stroke depression — very common; treat actively with antidepressants and psychological support
-- Vascular dementia — cumulative cognitive impairment from multiple small vessel strokes
+- **Haemorrhagic transformation:** 5–10% without thrombolysis; risk factors: large infarct, glucose >180 mg/dL, anticoagulation; symptomatic in ~6% with thrombolysis
+- **Malignant MCA infarction:** >50% MCA territory → oedema peaks 48–96h → transtentorial herniation → death; **decompressive hemicraniectomy** (DESTINY-2) reduces mortality in ≤60-year-olds but survivors often have significant disability
+- **Early seizures:** ~5%; post-stroke epilepsy 5–10% at 1 year
+- **Depression and cognitive impairment:** Post-stroke depression 30%; vascular dementia from cumulative small vessel disease
+- **DVT/PE:** Immobility + pro-thrombotic state; LMWH prophylaxis once haemorrhage risk low (24–48h)
+- **Aspiration pneumonia:** 15% of stroke patients aspirate; nil-by-mouth + formal swallow assessment (SALT) before oral intake
+
+---
 
 ## Clinical Insight
 
-Non-contrast CT is not good at seeing ischaemic stroke — it is good at excluding haemorrhage. A normal CT in a patient with a focal neurological deficit does not rule out ischaemic stroke. The question the CT is answering is: "is there blood?" If the answer is no and the presentation is consistent with stroke, thrombolyse — do not delay because the CT looks normal.
+The BP management in acute ischaemic stroke is the most counter-intuitive aspect of the entire field. The instinct is to lower a very high blood pressure. But in the setting of acute ischaemia, cerebral autoregulation fails in the ischaemic territory — perfusion becomes entirely pressure-dependent. Lowering MAP reduces penumbral perfusion and extends the infarct. Only lower BP before thrombolysis (to meet the ≤185/110 safety threshold) or if BP is extreme (>220 mmHg). The permissive hypertension rule is: unless you are giving thrombolysis or BP is >220/120, do not treat the blood pressure acutely.
 
-Never lower blood pressure aggressively in acute ischaemic stroke unless you are about to give thrombolysis. The hypertension is a physiological response to maintain perfusion to the penumbra through collateral vessels. Bringing the BP from 200 to 150 in an attempt to be helpful can extend the infarct by eliminating this collateral flow.
+The wake-up stroke represents one of the most important recent advances in patient selection. Traditional practice excluded these patients from thrombolysis because onset time was unknown — they were assumed to have been ischaemic for 8 hours. The WAKE-UP trial showed that DWI-positive/FLAIR-negative MRI mismatch (visible ischaemia on DWI but no established infarct on FLAIR) identifies strokes likely within 4.5 hours of onset, regardless of clock time. This moved the treatment decision from the clock to the imaging — a fundamental paradigm shift.
 
-The TIA is the warning shot. A patient who has a TIA and is sent home without antiplatelet therapy, a statin, and urgent investigation has not been managed — they have been deferred. The risk of stroke in the 48 hours following a TIA is 5–10%. These patients need same-day specialist review and initiation of secondary prevention before they leave the department.
+Cryptogenic stroke in a young patient (<60, no AF, no large vessel disease) warrants investigation for patent foramen ovale (PFO). The RESPECT and CLOSE trials showed PFO closure reduces recurrent cryptogenic stroke by ~64% compared to antiplatelets alone in patients with a high-risk PFO (large PFO + atrial septal aneurysm). All young patients with cryptogenic stroke should have a bubble echocardiogram to assess for PFO.
 
 ---
 
 ## Scenario Walkthrough
 
-**The patient:** A 69-year-old man with AF on warfarin, unable to speak, right arm and face weakness for 2 hours. GCS 13, right hemiplegia, expressive aphasia, right facial droop. BP 192/106, INR 1.4.
+**The patient:** 71-year-old woman, AF on apixaban (last dose 14h ago), NIHSS 14, expressive dysphasia + left-sided weakness, onset 90 minutes ago, CT head: no haemorrhage, BP 168/94.
 
-**Step 1 — Localise the lesion:** Expressive aphasia = Broca's area (left inferior frontal gyrus). Right face and arm weakness with arm > leg predominance = upper MCA territory. This is a **left MCA superior division stroke**. The mechanism — AF → left atrial appendage thrombus → cardioembolic occlusion — explains the sudden, maximal onset.
+**Diagnosis: Left MCA territory ischaemic stroke (dominant hemisphere — aphasia + right-sided weakness), likely LVO given NIHSS 14**
 
-**Step 2 — Is thrombolysis possible? Check each criterion:**
-- Time: 2 hours from onset ✓ (within 4.5-hour window)
-- CT head required first to exclude haemorrhage — **cannot skip this step under any circumstances**
-- INR 1.4 ✓ — the contraindication threshold is INR **>1.7**; INR 1.4 does **not** preclude thrombolysis
-- BP 192/106 ✗ — must be brought to **<185/110 mmHg** before alteplase; treat with IV labetalol or glyceryl trinitrate infusion
+**Step 1 — CTA brain + neck immediately:**
+- NIHSS 14 + aphasia = likely proximal MCA or ICA occlusion → needs urgent CTA to confirm LVO
+- CT perfusion simultaneously if available
 
-**Step 3 — CT shows no haemorrhage → give alteplase:** 0.9 mg/kg IV (max 90 mg), 10% as bolus, remainder over 60 minutes. Simultaneously arrange **CT angiography** — if large vessel occlusion confirmed (M1 MCA), transfer for mechanical thrombectomy.
+**Step 2 — Thrombolysis assessment:**
+- Within 4.5h window (90 minutes) → eligible on timing
+- Apixaban last dose 14h ago → anti-Xa likely present → **standard thrombolysis contraindicated**
+- Evaluate anti-Xa level urgently (POC test if available)
+- **Most appropriate: proceed directly to mechanical thrombectomy** — does not require reversal; best option for NIHSS 14 LVO
 
-**Step 4 — Blood pressure after thrombolysis:** Maintain BP <180/105 mmHg during and after infusion. Do **not** lower BP aggressively in acute ischaemic stroke outside thrombolysis — elevated BP maintains collateral perfusion to the penumbra.
+**Step 3 — If LVO confirmed on CTA: activate thrombectomy pathway:**
+- Target onset-to-groin puncture <90 minutes; onset-to-recanalisation <120 minutes
+- Stent-retriever + aspiration to recanalise left MCA occlusion
 
-**Step 5 — Secondary prevention:**
-- Restart anticoagulation **4–14 days** post-stroke (balance between haemorrhagic transformation risk and recurrent embolism)
-- **DOAC preferred over warfarin** for non-valvular AF (this patient's warfarin suggests he may be a candidate to switch)
-- High-intensity statin: atorvastatin 80 mg
-- Target BP <130/80, starting 24–48 hours after the acute event
+**Step 4 — Blood pressure during procedure:**
+- BP 168/94 → acceptable; not above 185/110 threshold for thrombolysis
+- Post-thrombectomy: maintain ≤180/105 mmHg for 24h (reperfusion haemorrhage prevention)
 
-**Exam trigger:** *AF + acute stroke + INR 1.4* → INR 1.4 does not contraindicate thrombolysis (cutoff is 1.7). Treat the blood pressure, get the CT, give alteplase. The distractor is assuming any anticoagulation = thrombolysis contraindicated.
+**Step 5 — Post-procedure care:**
+- Dysphagia screen before oral intake (aphasia + swallowing risk)
+- Restart apixaban in 2–7 days (AF-related stroke, small/moderate infarct with good recanalisation)
+- Long-term: BP target <130/80, atorvastatin 80 mg, continue apixaban
+- Multidisciplinary rehabilitation: physiotherapy, speech and language therapy (aphasia recovery)
+
+**Exam trigger:** *AF + ischaemic stroke (NIHSS 14) + therapeutic DOAC* → thrombolysis contraindicated; proceed to CTA + mechanical thrombectomy. The distractor is giving IV alteplase despite apixaban use within 48h — this risks catastrophic haemorrhagic transformation.
