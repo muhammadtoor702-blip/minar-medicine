@@ -262,3 +262,27 @@ In psoriasis, **never withdraw systemic corticosteroids abruptly**. This is one 
 Psoriatic arthritis precedes the skin rash in approximately 10–15% of patients. A young patient with seronegative inflammatory arthritis, particularly involving DIP joints (with nail changes — pitting, oil drop sign), should always have their skin examined carefully and be asked specifically about psoriasis in family members.
 
 The key to contact dermatitis diagnosis is the **distribution pattern**. A rash in a geometric pattern — straight lines, the exact shape of a watch strap, a rash under a ring — should always prompt patch testing. Many patients with "eczema" that doesn't respond to steroids have allergic contact dermatitis with ongoing allergen exposure.
+
+---
+
+## Scenario Walkthrough
+
+**The patients:** (1) A 28-year-old woman with 6 months of itchy, red, scaly plaques on elbows, knees, and scalp. Plaques are well-demarcated with silvery-white scale. Nail pitting. Mother has a similar condition. (2) A 4-year-old boy with dry, itchy, red patches in the antecubital and popliteal fossae, with asthma and allergic rhinitis.
+
+**Case 1: Diagnosing psoriasis — use the distinguishing features systematically:**
+
+**Step 1 — Identify psoriasis by its hallmarks:** Well-demarcated + silvery-white (micaceous) scale + **extensor** surface distribution (elbows and knees) = psoriasis. The distribution is the opposite of eczema (which affects flexures). Add nail pitting (pathognomonic of psoriasis — not seen in eczema) and a positive family history (HLA-Cw6 association). Auspitz sign — pinpoint bleeding on scale removal — would be positive. This is not eczema.
+
+**Step 2 — Classify severity and check for psoriatic arthritis:** Before treating, assess: PASI (Psoriasis Area and Severity Index) and DLQI (Dermatology Life Quality Index). Screen for psoriatic arthritis — ask about joint pain, stiffness, and swelling, particularly at the DIP joints. PsA precedes the rash in 10–15% of patients. Check for sausage digits (dactylitis). Escalation decisions require both PASI and DLQI — NICE biologic criteria require PASI ≥10 AND DLQI >10 after failing ≥2 systemics.
+
+**Step 3 — Start topical therapy for mild-moderate plaque psoriasis:** First-line: **Calcipotriol (vitamin D analogue)** for body plaques — inhibits keratinocyte proliferation. Combine with **betamethasone dipropionate** (potent topical steroid) — the combination (Dovobet) is more effective than either agent alone and is the standard first-line topical regimen. Apply once daily. For scalp: calcipotriol shampoo or coal tar-based shampoo, or Dovobet gel. Avoid potent steroids continuously — tachyphylaxis and skin atrophy. **Never abruptly stop systemic corticosteroids in psoriasis** — this can precipitate generalised pustular psoriasis, a medical emergency.
+
+**Step 4 — Escalate if inadequate response:** Persistent moderate-severe disease → phototherapy (narrowband UVB, 3× weekly, first-line for moderate disease). Failure of phototherapy → systemic therapy: methotrexate (folic acid supplementation + liver monitoring), ciclosporin (BP + renal function monitoring, max 2 years), or acitretin (teratogenic — women must avoid pregnancy for 3 years post-treatment). Failure of ≥2 systemics → biologic therapy (anti-IL-17 — secukinumab, ixekizumab — most effective; or anti-IL-23 — risankizumab, guselkumab).
+
+**Case 2: Diagnosing atopic eczema — use age and distribution:**
+
+**Step 5 — Diagnose atopic eczema by the flexural distribution and the atopic triad:** In a 4-year-old, eczema affects the antecubital and popliteal fossae (flexures) — this is the classic childhood distribution. Asthma + allergic rhinitis = the atopic triad. The UK Working Party diagnostic criteria: itchy skin + flexural involvement + onset <2 years + personal/family history of atopy. This is atopic eczema.
+
+**Step 6 — Stepwise management starting with the foundation:** Emollients first — apply liberally (at least twice daily, within 3 minutes of bathing) to all skin, not just affected areas. Prescribe generously (500g per week). For acute flares on the face/flexures, use **hydrocortisone 1%** (mild potency — only mild steroids on face and flexures in children). For body flares, **moderate potency** (clobetasone butyrate). Short courses — apply until the flare resolves, then stop. Avoid soap (use emollient as wash substitute). Identify and avoid triggers — house dust mite reduction, avoid wool clothing, treat skin infections early.
+
+**Exam trigger (Psoriasis):** *Well-demarcated silvery-white plaques on extensor surfaces + nail pitting + family history* → **psoriasis**. Key features distinguishing from eczema: extensor (not flexural), silver scale (not weeping/dry), well-demarcated (not poorly defined), nail pitting. Never abruptly stop systemic steroids in psoriasis — triggers generalised pustular psoriasis (emergency). **Exam trigger (Eczema):** *Itchy flexural rash in a child with asthma and rhinitis* → **atopic eczema**. The distractor for psoriasis is using potent topical steroids continuously (causes tachyphylaxis and skin atrophy) or prescribing an anti-IL-17 biologic to a patient with concomitant IBD (IL-17 inhibition worsens IBD — use anti-TNF instead).
