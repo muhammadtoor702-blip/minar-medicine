@@ -22,6 +22,13 @@ The hippocampus and entorhinal cortex are earliest and most severely affected, e
 
 Cholinergic pathways (nucleus basalis of Meynert) are early casualties — the rationale for acetylcholinesterase inhibitors as treatment.
 
+**Genetics of Alzheimer's disease — First Aid high-yield:**
+
+- **APOE ε4** (chromosome 19) — the most important genetic risk factor for **late-onset** (sporadic) AD. Having one copy triples the lifetime risk; two copies increases risk approximately 15-fold. APOE ε4 promotes Aβ aggregation and impairs its clearance from the brain. It is not deterministic — many ε4 carriers do not develop AD.
+- **PSEN1** (presenilin-1, chromosome 14) — the most common cause of **early-onset familial AD** (<65 years), autosomal dominant. Mutations alter gamma-secretase function, shifting APP cleavage toward longer, more aggregation-prone Aβ42 peptides.
+- **PSEN2** (presenilin-2, chromosome 1) — rare, autosomal dominant early-onset familial AD; later onset and lower penetrance than PSEN1.
+- **APP** (amyloid precursor protein, chromosome 21) — rare familial AD mutations near the cleavage site. More importantly, **trisomy 21 (Down syndrome)** means three copies of the APP gene → overproduction of Aβ → universal Alzheimer's pathology by age 40. Down syndrome patients who survive into adulthood almost universally develop dementia — this is one of the strongest genetic models confirming the amyloid cascade hypothesis.
+
 ### Vascular Dementia
 
 The second most common cause. Results from cerebrovascular disease — cortical infarcts (multi-infarct dementia), small vessel disease (subcortical/white matter ischaemia), or strategic single infarcts in critical areas (thalamus, hippocampus). Often coexists with Alzheimer's pathology (mixed dementia). Presents with stepwise progression, focal neurological deficits, prominent executive dysfunction early, and preserved memory until later stages.
@@ -39,7 +46,7 @@ Disproportionate atrophy of the frontal and temporal lobes. Presents typically i
 - **Semantic dementia**: Progressive loss of word meaning; fluent but empty speech; bilateral temporal atrophy
 - **Progressive non-fluent aphasia**: Halting, effortful speech; grammatical errors; left perisylvian atrophy
 
-FTD is associated with TDP-43 and FUS pathology, and with motor neurone disease (FTD-ALS overlap).
+FTD is associated with **TDP-43 and FUS** pathology, and with motor neurone disease (FTD-ALS overlap). Tau pathology is also prominent — **Pick bodies** (intraneuronal, rounded tau inclusions) are the eponymous hallmark of Pick's disease, which is the original description of bvFTD. The term "Pick's disease" is now reserved for tau-positive FTD with Pick bodies on histopathology, within the broader FTD spectrum.
 
 ### Normal Pressure Hydrocephalus (NPH)
 

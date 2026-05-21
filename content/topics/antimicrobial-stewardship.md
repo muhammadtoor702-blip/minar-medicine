@@ -27,6 +27,30 @@ Bacteria acquire resistance through four main mechanisms:
 
 Plasmids carrying multiple resistance genes (co-resistance) explain why treating with one antibiotic can select for resistance to multiple unrelated antibiotics simultaneously.
 
+## Antibiotic Mechanisms of Action
+
+Understanding how antibiotics work is essential for predicting resistance patterns and choosing rational combinations. Each drug class has a specific molecular target — the mechanism determines the spectrum, bactericidal vs bacteriostatic activity, and which resistance mechanisms will defeat it.
+
+| Mechanism | Class / Agent | Notes |
+|-----------|--------------|-------|
+| **Cell wall synthesis — transpeptidation (PBPs)** | Penicillins, cephalosporins, carbapenems, aztreonam (monobactam) | Bactericidal; inhibit cross-linking of peptidoglycan by blocking penicillin-binding proteins; cell lysis follows |
+| **Cell wall synthesis — D-Ala-D-Ala binding** | Vancomycin, teicoplanin (glycopeptides) | Bind the D-Ala-D-Ala terminus of peptidoglycan precursors; Gram-positive organisms only (too large to cross the outer membrane of Gram-negatives) |
+| **Cell membrane disruption** | Daptomycin (Gram-positive); polymyxins/colistin (Gram-negative) | Depolarise the cell membrane → ion leakage → cell death; bactericidal; daptomycin inactivated by pulmonary surfactant (do not use for pneumonia) |
+| **30S ribosome — misreading** | Aminoglycosides (gentamicin, amikacin, tobramycin) | Bind 16S rRNA of 30S subunit → misreading of mRNA → aberrant proteins → cell death; bactericidal; synergistic with cell-wall agents |
+| **30S ribosome — tRNA docking block** | Tetracyclines, doxycycline, tigecycline | Block aminoacyl-tRNA from docking at the A site of the 30S subunit; bacteriostatic |
+| **50S ribosome — translocation inhibition** | Macrolides (azithromycin, clarithromycin, erythromycin); clindamycin | Bind 23S rRNA of 50S subunit; prevent translocation of peptidyl-tRNA; bacteriostatic |
+| **50S ribosome — peptidyl transferase** | Chloramphenicol | Inhibits peptide bond formation at the 50S peptidyl transferase centre; bacteriostatic (bactericidal against some organisms) |
+| **50S ribosome — initiation complex** | Linezolid, tedizolid (oxazolidinones) | Bind 23S rRNA, prevent formation of the 70S initiation complex; bacteriostatic; active against MRSA and VRE; avoid with SSRIs (serotonin syndrome) |
+| **DNA gyrase (Gram-neg) / topoisomerase IV (Gram-pos)** | Fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin) | Inhibit bacterial DNA replication and repair; bactericidal; broad-spectrum including atypicals |
+| **RNA polymerase — beta subunit** | Rifamycins (rifampicin, rifabutin) | Block transcription initiation; bactericidal; used for TB, Mycobacteria, and MRSA decolonisation; resistance develops rapidly if used as monotherapy |
+| **Folate synthesis — DHPS (step 1)** | Sulfonamides (sulfamethoxazole, dapsone) | Competitive inhibition of dihydropteroate synthase; bacteriostatic; sequential block with trimethoprim |
+| **Folate synthesis — DHFR (step 2)** | Trimethoprim | Inhibits dihydrofolate reductase; bacteriostatic; TMP-SMX (co-trimoxazole) exploits sequential double block — a bactericidal combination |
+| **Anaerobic DNA damage** | Metronidazole | Reduced under anaerobic conditions to toxic free radicals that damage DNA; active against anaerobes and protozoa only; requires anaerobic activation |
+
+**Mnemonic — "Buy AT 30, CELL at 50":** 30S inhibitors: **A**minoglycosides, **T**etracyclines. 50S inhibitors: **C**hloramphenicol, **E**rythromycin (macrolides), **L**inezolid, c**L**indamycin.
+
+**Bactericidal vs bacteriostatic:** Bactericidal agents are essential in certain settings: endocarditis, bacterial meningitis, febrile neutropenia, and any immunocompromised host (who cannot mount the cellular immune response needed to clear bacteriostatic-inhibited bacteria).
+
 ## Key Resistant Organisms
 
 | Organism | Resistance Pattern | Clinical Relevance |

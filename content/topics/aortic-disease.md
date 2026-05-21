@@ -41,6 +41,13 @@ Type A dissections are immediately life-threatening because proximal extension c
 - **Hypertension** (most important — present in >70% of dissections)
 - **Bicuspid aortic valve** — abnormal aortic wall architecture predisposing to root dilation and dissection independent of valve function
 - **Connective tissue disorders:** Marfan syndrome (FBN1 gene; fibrillin-1 deficiency); Ehlers-Danlos syndrome type IV (COL3A1; type III collagen); Loeys-Dietz syndrome
+
+  **Marfan syndrome phenotypic features — First Aid high-yield:** Autosomal dominant; FBN1 mutation → defective fibrillin-1 → weakened extracellular matrix throughout the body.
+  - *Skeletal:* Tall stature; **arm span > height** (the single most useful bedside sign); **arachnodactyly** — **positive wrist sign** (thumb and little finger overlap when encircling the opposite wrist) and **positive thumb sign** (thumb extends beyond the ulnar border of a clenched fist); pectus excavatum or carinatum; high-arched palate; scoliosis; hypermobile joints
+  - *Cardiovascular:* Aortic root dilation → progressive aortic regurgitation → dissection; mitral valve prolapse (most common cardiac finding)
+  - *Ocular:* **Ectopia lentis** — lens subluxation, classically **upward and outward** (contrast with homocystinuria, where the lens subluxates **downward and inward**, and patients are also tall but have intellectual disability, osteoporosis, and thromboembolic disease — a common exam trap)
+  - *Neurological:* Dural ectasia (sacral nerve root sleeve expansion — causes low back pain and headache)
+  - *Management:* **Beta-blockers** (reduce aortic dP/dt and slow root dilation); **losartan** (ARB — reduces TGF-β signalling downstream of fibrillin-1 deficiency; the COMPARE trial demonstrated that losartan slows aortic root growth comparably to beta-blockers); aortic root repair electively at ≥4.5 cm (lower threshold than non-Marfan patients)
 - **Turner syndrome** — coarctation and bicuspid valve increase aortic risk
 - **Cocaine** — acute severe hypertension causing intimal tear
 - **Pregnancy** — third trimester; increased cardiac output and hormonal changes affecting aortic wall

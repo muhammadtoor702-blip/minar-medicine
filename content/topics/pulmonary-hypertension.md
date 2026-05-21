@@ -128,6 +128,25 @@ Modern management uses **upfront combination therapy** rather than sequential mo
 
 **General measures:** Supervised exercise rehabilitation (now evidence-supported — supervised exercise, not unsupervised, which was historically discouraged); supplemental oxygen for hypoxaemia at rest or on exertion (target SpO₂ ≥92%); diuretics for RV fluid overload; anticoagulation in idiopathic PAH (controversial — evidence mixed); **avoid pregnancy** (high maternal and foetal mortality in PAH — pregnancy is contraindicated).
 
+### Eisenmenger Syndrome
+
+**Eisenmenger syndrome** represents the end-stage pulmonary vascular consequence of a long-standing left-to-right intracardiac shunt. It is one of the highest-yield congenital heart disease complications in USMLE and UKMLA examinations.
+
+**Pathophysiology:** A congenital L→R shunt (most commonly ASD, VSD, or PDA) causes chronically elevated pulmonary blood flow. Over years to decades, the pulmonary vasculature responds with progressive vasoconstriction, smooth muscle hypertrophy, and vascular remodelling — an identical process to Group 1 PAH — until pulmonary vascular resistance rises to equal or exceed systemic vascular resistance. At this point, the pressure gradient driving L→R flow reverses: the shunt becomes **right-to-left**, and deoxygenated blood enters the systemic circulation.
+
+**Clinical features:**
+- **Central cyanosis** — R→L shunting bypasses the pulmonary circulation; lips and mucous membranes are blue
+- **Clubbing** — from chronic hypoxaemia
+- **Secondary polycythaemia** — compensatory erythropoietin-driven red cell production from chronic hypoxaemia; causes hyperviscosity symptoms (headache, visual disturbance, fatigue, TIA-like episodes)
+- **Paradoxical embolism** — venous thrombus can cross the reversed shunt into the systemic arterial circulation → stroke; a pulmonary embolus in a normal person is filtered by the lungs, but in Eisenmenger's, it can pass directly to the brain
+- **Haemoptysis** — from pulmonary arterial rupture or in-situ thrombosis
+- **Syncope** — from fixed pulmonary vascular resistance and inability to increase cardiac output
+- Signs of PAH and right heart failure: RV heave, loud P2, elevated JVP, peripheral oedema
+
+**The critical rule — surgical closure is absolutely contraindicated once Eisenmenger syndrome is established.** Closing the defect in a patient whose pulmonary vascular resistance already equals systemic resistance removes the right ventricle's "escape valve." The RV has no route to decompress and immediately fails catastrophically. This is one of the most important contraindication rules in all of cardiology.
+
+**Management:** PAH-targeted therapy (ERAs, PDE-5 inhibitors, prostacyclin analogues) — same classes used for Group 1 PAH — slow progression and improve functional capacity. Avoid dehydration (worsens haemoconcentration), iron deficiency (impairs erythropoiesis needed for the compensatory polycythaemia), and anaemia. Venesection for symptomatic hyperviscosity (Hb >200 g/L or haematocrit >65%) — cautiously, replacing volume with saline, not aggressively, as polycythaemia is compensatory. **Pregnancy is absolutely contraindicated** — maternal mortality approaches 30–50%, among the highest of any cardiac condition. Definitive treatment is **combined heart-lung transplantation** — rarely performed, long waiting times; outcomes are guarded.
+
 ### Cor Pulmonale
 
 Cor pulmonale refers to RV structural changes (hypertrophy, dilation) and/or RV dysfunction caused specifically by **chronic lung disease and/or hypoxaemia** (Group 3 PH). It is the right heart consequence of chronic hypoxic pulmonary vasoconstriction.
