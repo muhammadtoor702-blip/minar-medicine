@@ -24,6 +24,12 @@ Thyroid disease encompasses a spectrum from hypothyroidism (deficiency of thyroi
 
 **Drug-induced**: Amiodarone (contains 37% iodine by weight — causes both hypo- and hyperthyroidism). Iodinated contrast. Excess iodine supplementation.
 
+**Jod-Basedow phenomenon**: Iodine-induced hyperthyroidism in patients with pre-existing thyroid autonomy (multinodular goitre, subclinical Graves'). When a large iodine load is given (amiodarone, IV contrast) to a gland with autonomous nodules that have escaped the normal regulatory mechanisms, the substrate for synthesis overwhelms suppression → hyperthyroidism. The same large iodine load in a **normal thyroid** causes the Wolff-Chaikoff effect (transient suppression of organification → brief hypothyroidism), from which the normal gland escapes within 1–2 weeks. Autonomous tissue cannot escape — it becomes hyperthyroid instead.
+
+**Amiodarone-induced thyroid disease (AIT)**: Two distinct types requiring different treatment:
+- **Type 1 AIT**: Excess iodine-driven synthesis in an abnormal gland (Jod-Basedow). Treat with carbimazole + potassium perchlorate (to block iodine uptake).
+- **Type 2 AIT**: Destructive thyroiditis from direct amiodarone cytotoxicity. Treat with prednisolone. Thyroid uptake scan: **low uptake** (not synthesising — only leaking). Often self-limiting.
+
 ### Clinical Presentation
 
 **Symptoms of thyroid hormone excess**: Palpitations, heat intolerance, weight loss despite increased appetite, tremor, anxiety, irritability, hyperactivity, diarrhoea, menstrual irregularity (oligomenorrhoea), proximal muscle weakness.
@@ -77,6 +83,8 @@ Life-threatening exacerbation of hyperthyroidism — precipitated by surgery, in
 **Hashimoto's thyroiditis** (most common cause in iodine-sufficient regions): Autoimmune destruction of thyroid follicular cells. Characterised by lymphocytic infiltration and anti-thyroid antibodies (**anti-TPO** most sensitive and specific, **anti-thyroglobulin**). Initially presents with transient hyperthyroidism ("Hashitoxicosis" — from follicular disruption releasing stored hormone), followed by hypothyroidism, followed in some by permanent hypothyroidism with a small atrophied gland.
 
 **Other causes**: Post-RAI, post-thyroidectomy, iodine deficiency (most common worldwide cause), drugs (amiodarone, lithium, carbimazole, interferon-alpha), central hypothyroidism (TSH or TRH deficiency — pituitary/hypothalamic disease), congenital (cretinism — a leading cause of preventable intellectual disability).
+
+**Sick euthyroid syndrome (non-thyroidal illness syndrome — NTIS)**: In any severe systemic illness (sepsis, major surgery, ICU admission, malnutrition, myocardial infarction), the peripheral conversion of T4 to T3 is impaired → low T3, with normal or low T4, and normal or low TSH. The body downregulates thyroid hormone activity as an adaptive response to conserve energy and reduce catabolism. The reverse T3 (rT3) — an inactive isomer — accumulates. Critically: **do not treat sick euthyroid syndrome with levothyroxine** — thyroid replacement does not improve outcomes in this context and may cause harm. The abnormal TFTs resolve when the underlying illness resolves. Distinguish from central hypothyroidism (also low TSH + low T4), which presents in a clinically different context (other pituitary deficiency signs, history of pituitary disease) and requires treatment.
 
 ### Clinical Presentation
 

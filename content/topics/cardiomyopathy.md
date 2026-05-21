@@ -64,6 +64,7 @@ HCM is the **leading cause of sudden cardiac death in young athletes**, often th
 - **Verapamil or diltiazem** — if beta-blocker not tolerated. Never combine with beta-blockers.
 - **Disopyramide** — negative inotrope; effective for LVOT obstruction when beta-blockers and CCBs are insufficient.
 - **ICD** — for high-risk patients based on HCM Risk-SCD calculator.
+- **Mavacamten** — selective cardiac myosin inhibitor (reduces actin-myosin cross-bridge formation → reduces hypercontractility and dynamic LVOT obstruction). The EXPLORER-HCM trial demonstrated significant reductions in LVOT gradient, symptom burden, and NT-proBNP. Now licensed (FDA 2022, NICE 2024) for symptomatic obstructive HCM (LVOT gradient ≥30 mmHg) not adequately controlled by beta-blockers or CCBs, prior to considering invasive septal reduction. EF monitoring is mandatory — over-reduction of EF is a dose-dependent risk requiring echocardiographic surveillance.
 - **Septal reduction therapy** — for severe symptomatic LVOT obstruction refractory to medications:
   - Surgical myectomy — removal of a portion of the hypertrophied septum; gold standard; restores normal outflow
   - Alcohol septal ablation — percutaneous; ethanol injected into the first septal perforator artery causes a controlled infarction of the basal septum

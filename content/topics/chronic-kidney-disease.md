@@ -32,7 +32,7 @@ Regardless of the initial insult, CKD progresses through a common final pathway:
 | Diabetic nephropathy | Leading cause of ESRD worldwide; Kimmelstiel-Wilson nodular lesion on biopsy |
 | Hypertensive nephrosclerosis | Second most common in the developed world; diagnosis of exclusion |
 | Glomerulonephritis | Biopsy required to define subtype and guide treatment |
-| ADPKD | Most common inherited kidney disease; large kidneys with cysts bilaterally |
+| ADPKD | Most common inherited kidney disease; large kidneys with cysts bilaterally; mutations in *PKD1* (chromosome 16, ~85%) or *PKD2* (chromosome 4, ~15%); PKD2 has slower progression. Associated with intracranial berry aneurysms (screen with MR angiography in those with family history of subarachnoid haemorrhage), hepatic cysts, mitral valve prolapse, colonic diverticula |
 | Renovascular disease | Atherosclerotic (>60 years with vascular disease); fibromuscular dysplasia (young women) |
 | Reflux nephropathy | Childhood vesicoureteric reflux → recurrent pyelonephritis → renal scarring |
 
@@ -93,6 +93,8 @@ This patient is **G3b A3** — a high-risk combination with rapid progression li
 
 Target <130/80 mmHg. **ACEi or ARB are first-line in any patient with proteinuria** — they reduce intraglomerular pressure by dilating the efferent arteriole, independently slowing CKD progression beyond their antihypertensive effect. A rise in creatinine of up to 30% within two weeks of starting ACEi/ARB is expected (afferent vasodilation reduces GFR transiently), acceptable, and does not warrant stopping the drug. Stop only if creatinine rises >30% or hyperkalaemia develops.
 
+**The bilateral renal artery stenosis trap**: If creatinine rises >30% after starting ACEi/ARB, this is the investigation trigger for **bilateral renal artery stenosis** (or stenosis to a solitary functioning kidney). In bilateral RAS, the kidneys depend on angiotensin II-mediated efferent arteriolar constriction to maintain glomerular filtration pressure — remove angiotensin II with an ACEi/ARB and the GFR collapses. ACEi/ARB are **contraindicated** in confirmed bilateral RAS. Investigate with renal Doppler USS (screening), CT/MR angiography, or renal angiography (gold standard). Atherosclerotic RAS (>60 years, generalised vascular disease) and fibromuscular dysplasia (young woman, string-of-beads appearance) are the two causes.
+
 **2. SGLT2 inhibitors — a paradigm shift**
 
 Dapagliflozin and empagliflozin are now recommended for CKD in patients with **eGFR >25 and uACR >25 mg/mmol**, regardless of whether the patient has diabetes. The DAPA-CKD and EMPA-KIDNEY trials demonstrated significant reductions in progression to ESRD and cardiovascular events — effects that are largely independent of glucose lowering, working through reduced intraglomerular pressure (tubuloglomerular feedback), anti-inflammatory, and anti-fibrotic mechanisms. These are now first-line alongside ACEi/ARB.
@@ -151,6 +153,8 @@ Refer to nephrology when eGFR <30 — this allows time for education, modality c
 | Kidney transplantation | Best outcomes and quality of life; **pre-emptive transplant** (before dialysis starts) is ideal — avoids dialysis-related complications and preserves residual function; living donor superior to deceased donor |
 
 **Conservative management** is a valid, patient-centred option — particularly for elderly patients with significant comorbidities where dialysis offers survival benefit but substantially impairs quality of life. Conservative care focuses on symptom management, fluid balance, and advance care planning.
+
+**ADPKD-specific treatment — Tolvaptan**: A V2 vasopressin receptor antagonist that reduces cAMP-driven cyst growth in ADPKD. The TEMPO 3:4 trial demonstrated significant slowing of kidney volume growth and eGFR decline. Indicated for adults with rapidly progressing ADPKD (annual kidney growth >5% on MRI, or Mayo imaging classification 1C-1E). Side effects: **aquaretic** (not diuretic — acts on collecting duct V2 receptors) → marked thirst and polyuria; hepatotoxicity (REMS monitoring required; stop if ALT rises). Patients must have adequate access to water and must not restrict fluid intake while on tolvaptan.
 
 ---
 

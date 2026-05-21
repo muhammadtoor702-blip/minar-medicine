@@ -101,9 +101,19 @@ Drug choice is guided by seizure type, syndrome, sex, comorbidities, and drug in
 
 **Sodium valproate** is the most broadly effective antiseizure drug but is **absolutely contraindicated in pregnancy** without specialist review — it carries a 10% risk of congenital malformations and a 30–40% risk of neurodevelopmental harm in children exposed in utero. The MHRA Valproate Pregnancy Prevention Programme (PPP) requires annual review, two forms of contraception, and a risk acknowledgement form for all women of childbearing potential. It must not be initiated in women of childbearing potential without this process.
 
-**Lamotrigine** — broad-spectrum, generally well-tolerated, safe in pregnancy (lower teratogenicity risk). Titrate slowly to avoid Stevens-Johnson syndrome (rash).
+**Lamotrigine** — broad-spectrum, generally well-tolerated, safe in pregnancy (lower teratogenicity risk). Titrate slowly to avoid Stevens-Johnson syndrome (rash). Levels drop significantly in pregnancy (induction by oestrogen → monitor levels and adjust dose).
 
 **Levetiracetam** — broad-spectrum, no drug interactions, renally cleared. Behavioural side effects (irritability, aggression) limit tolerability in some.
+
+**First Aid high-yield — AED-specific toxicities:**
+
+| Drug | Key Toxicities | Notes |
+|------|---------------|-------|
+| **Carbamazepine** | SJS/TEN (especially HLA-B\*1502 in Han Chinese/South-East Asian populations — screen before prescribing), **hyponatraemia** (SIADH — common, particularly in elderly), CYP450 induction (reduces OCP, warfarin, other AED efficacy) | Also causes diplopia, dizziness at high levels |
+| **Phenytoin** | **Zero-order (saturable) kinetics** — small dose increments can cause sudden toxicity; **gum hyperplasia**, hirsutism, coarsening of facial features (chronic), peripheral neuropathy, folate deficiency, **nystagmus and ataxia** at toxic levels, osteomalacia, induces CYP450 | IV phenytoin must be given slowly (hypotension and cardiac arrhythmia with rapid infusion); monitor levels |
+| **Phenobarbital** | Sedation, cognitive impairment, tolerance, dependence, CYP450 induction, osteomalacia, Dupuytren's contracture (chronic use) | Rarely first-line now |
+| **Valproate** | **Teratogen** (see above), hepatotoxicity (rare, severe in children), weight gain, tremor, alopecia (reversible), polycystic ovaries, pancreatitis (rare); **inhibits CYP450** (increases lamotrigine levels) | |
+| **Ethosuximide** | GI side effects (take with food), headache, behavioural changes; **does not cause hepatotoxicity** | For absence only |
 
 ### Status Epilepticus — Emergency Protocol
 

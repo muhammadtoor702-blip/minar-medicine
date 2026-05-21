@@ -100,6 +100,49 @@ MRI: T2/FLAIR signal change in the temporal lobes, insular cortex, and cingulate
 
 ---
 
+## Tuberculous Meningitis
+
+The most dangerous form of TB and the most challenging to diagnose quickly. TB meningitis results from haematogenous seeding of the meninges and subsequent rupture of a cortical tuberculoma (Rich focus) into the subarachnoid space. It is most common in endemic regions and in the immunocompromised (particularly HIV co-infection).
+
+### Clinical Features
+
+**Subacute presentation over days to weeks** — unlike bacterial meningitis. This is the cardinal distinguishing feature.
+
+- **Prodrome**: 2–4 weeks of headache, low-grade fever, malaise, anorexia, and subtle personality change before meningism develops
+- **Meningism**: headache, neck stiffness, photophobia — less dramatic than bacterial meningitis
+- **Cranial nerve palsies**: the basal exudate of TB meningitis preferentially involves the basal cisterns → **CN VI most commonly** (abducens palsy — diplopia), then CN III and CN VII; a CN VI palsy with subacute meningitis = TB meningitis until proven otherwise
+- **Hydrocephalus**: from obstruction of CSF flow by basal exudate — causes vomiting, papilloedema, and deteriorating consciousness
+- **Stroke**: arteritis of basal cerebral arteries can cause infarction (perforating arteries to the basal ganglia → caudate/putamen infarcts)
+- Systemic: fever, weight loss, night sweats (TB features); evidence of pulmonary or extrapulmonary TB elsewhere (~50% have concurrent pulmonary TB on CXR)
+
+### Diagnosis
+
+**LP is essential** — subacute onset makes LP contraindication less common than in acute bacterial meningitis, but papilloedema must be excluded first.
+
+| CSF Feature | TB Meningitis |
+|-------------|--------------|
+| Appearance | Clear or slightly turbid; xanthochromic |
+| White cells | 100–500, predominantly **lymphocytes** |
+| Protein | Markedly elevated (>100 mg/dL, often >200) |
+| Glucose | **Low** (<36 mg/dL; CSF:serum ratio <0.5) |
+| AFB smear | Only 10–40% sensitive — **do not rely on it** |
+| TB culture | Gold standard but takes 6–8 weeks |
+| TB PCR | 56% sensitivity, >98% specificity — far more rapid; request on all LP samples if TB is in the differential |
+
+**Additional tests**: ADA (adenosine deaminase) elevated in CSF in TB meningitis; IGRA/Mantoux (often falsely negative in severe TB meningitis); CXR and CT chest; brain MRI (basal meningeal enhancement, hydrocephalus, infarcts).
+
+### Management
+
+**Do not wait for culture results** — start antituberculous therapy empirically when CSF picture is consistent with TB meningitis in the right clinical context.
+
+- **RIPE regimen**: Rifampicin + Isoniazid + Pyrazinamide + Ethambutol for 2 months, then Rifampicin + Isoniazid for 10 months (total 12 months — longer than pulmonary TB due to CNS penetration challenges)
+- **Dexamethasone 0.4 mg/kg/day for 4 weeks, then taper over 4 weeks** — significantly reduces mortality and severe disability in HIV-negative patients (MMRC trial); **the only CNS infection (besides bacterial meningitis) where steroids are clearly indicated**
+- Pyridoxine 10mg OD with isoniazid to prevent peripheral neuropathy
+- Manage hydrocephalus: repeated LPs or VP shunt if severe; intracranial pressure monitoring
+- **ART deferral in HIV/TB meningitis**: delay ART 4–8 weeks after starting antituberculous therapy (IRIS from immune reconstitution can be fatal — especially with TB meningitis); this contrasts with TB/HIV pulmonary co-infection where ART should be started within 2–8 weeks
+
+---
+
 ## Cerebral Abscess
 
 Collection of pus within the brain parenchyma, typically arising from direct spread from adjacent infection (sinusitis, otitis media, mastoiditis, dental infection), haematogenous spread (infective endocarditis, lung abscess), or penetrating trauma/neurosurgery. Cryptogenic in ~30%.

@@ -141,6 +141,40 @@ The hallmark is **fatigable weakness** — weakness that worsens with repeated a
 
 ---
 
+## Lambert-Eaton Myasthenic Syndrome (LEMS)
+
+LEMS is a **presynaptic** NMJ disorder — the opposite location to myasthenia gravis — caused by autoantibodies against **voltage-gated calcium channels (VGCC)** on the presynaptic terminal. Without calcium influx, ACh vesicles cannot be released. Classically a **paraneoplastic syndrome**, most commonly associated with **small cell lung cancer (SCLC)** (~60% of cases); the rest are autoimmune without malignancy.
+
+### Key Distinguishing Features from Myasthenia Gravis
+
+| Feature | Myasthenia Gravis | LEMS |
+|---------|------------------|----|
+| Site of NMJ defect | **Postsynaptic** (AChR/MuSK) | **Presynaptic** (VGCC) |
+| Proximal limb weakness | Yes | Yes — **legs > arms** |
+| Ocular features | Prominent (ptosis, diplopia — in 60% at onset) | **Uncommon or mild** |
+| Bulbar features | Common | Less prominent |
+| Reflexes | Normal (preserved) | **Absent initially; return after sustained exercise** (post-tetanic potentiation) |
+| Effect of repeated activity | Weakness **worsens** (fatigues) | Weakness **briefly improves** then worsens |
+| Autonomic dysfunction | Absent | **Present** — dry mouth, erectile dysfunction, constipation, anhidrosis (autonomic VGCC involved) |
+| Antibody | Anti-AChR (85%), anti-MuSK | **Anti-VGCC** |
+| Association | Thymoma, thymic hyperplasia | **Small cell lung cancer (60%)** |
+
+**The LEMS exam clue**: Proximal leg weakness + absent knee jerks that **return after 10 seconds of sustained isometric contraction (post-exercise facilitation)** = LEMS until proven otherwise. The reflexes return because the temporary calcium accumulation during sustained activity briefly restores ACh release.
+
+### Diagnosis
+
+- **Anti-VGCC antibodies** — present in >85% of paraneoplastic LEMS; lower sensitivity in autoimmune LEMS
+- **Repetitive nerve stimulation**: Low CMAP amplitude at baseline that **increases >100%** at high frequencies (50 Hz) — the opposite of the decrement seen in MG (**incremental response** = LEMS)
+- **CT chest** — mandatory to look for SCLC (may diagnose the cancer before it is clinically apparent)
+
+### Management
+
+- Treat the underlying malignancy (if paraneoplastic) — tumour treatment often improves LEMS
+- **3,4-Diaminopyridine (3,4-DAP)** — first-line symptomatic treatment; blocks presynaptic potassium channels → prolongs action potential → increases calcium influx → more ACh release
+- Immunotherapy: IVIg, prednisolone, azathioprine for autoimmune LEMS
+
+---
+
 ## Other Neuromuscular Conditions — Overview
 
 **Motor neurone disease (MND/ALS)**: Upper and lower motor neuron degeneration without sensory involvement. Progressive bulbar palsy (dysarthria, dysphagia) + limb weakness ± respiratory failure. Riluzole (modest survival benefit). Multidisciplinary care. PEG feeding, NIV for respiratory failure.

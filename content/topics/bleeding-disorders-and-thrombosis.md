@@ -130,6 +130,47 @@ Autoimmune destruction of platelets by anti-GPIIb/IIIa antibodies. Leads to muco
 
 **FA comparison**: Both Bernard-Soulier and Glanzmann's have: normal PT/APTT, prolonged bleeding time/PFA-100, normal platelet count. Distinguish by ristocetin test: impaired in vWD and Bernard-Soulier (GPIb receptor for vWF), normal in Glanzmann's.
 
+### Heparin-Induced Thrombocytopenia (HIT)
+
+**First Aid high-yield** — one of the most commonly tested and clinically dangerous drug reactions in medicine. HIT is an immune-mediated, paradoxical prothrombotic state triggered by heparin.
+
+**Two types:**
+
+| Feature | HIT Type I | HIT Type II |
+|---------|-----------|------------|
+| Mechanism | Non-immune; direct platelet activation | Immune: IgG antibodies against PF4-heparin complex |
+| Onset | Days 1–2 of heparin | Days **5–10** (or within 24h if prior heparin exposure within 3 months) |
+| Platelet fall | Mild (rarely <100 × 10⁹/L) | **>50% fall from baseline** (rarely <20 × 10⁹/L) |
+| Thrombosis | No | Yes — arterial and venous ("white clot syndrome") |
+| Action required | Continue heparin; self-limiting | **Stop all heparin immediately** |
+
+**HIT Type II pathophysiology**: Heparin binds platelet factor 4 (PF4) → forms an immunogenic complex → IgG antibodies develop → antibody-PF4-heparin complexes bind FcγRIIA on platelets → platelet activation → thrombus formation → thrombocytopenia from platelet consumption. The paradox: despite low platelets, the clotting risk — not the bleeding risk — is elevated.
+
+**4T Score** (pre-test probability for HIT):
+- **T**hrombocytopenia (degree of fall and nadir)
+- **T**iming (5–10 days after heparin start)
+- **T**hrombosis (new arterial or venous)
+- o**T**her causes excluded
+
+Score ≤3 = low probability (negative predictive value >99%); score ≥6 = high probability — act before confirmatory testing returns.
+
+**Investigations**:
+- **PF4 ELISA** — high sensitivity; useful screen; can be false positive
+- **Serotonin release assay (SRA)** — gold standard for confirmation; high specificity
+
+**Management — the four "Never Do" rules:**
+1. **Stop ALL heparin immediately** — including UFH, LMWH, heparin flushes, and heparin-coated catheters
+2. **Never give platelet transfusions** — fuels thrombosis, not bleeding
+3. **Never give warfarin until platelets >150 × 10⁹/L** — warfarin depletes protein C before other factors → skin necrosis (warfarin-induced skin necrosis is the classic exam complication)
+4. **Never use LMWH as the alternative** — cross-reacts with anti-PF4 antibodies in ~80% of cases
+
+**Alternative anticoagulation (non-heparin)**:
+- **Argatroban** (direct thrombin inhibitor, hepatically cleared) — preferred if renal impairment
+- **Bivalirudin** (direct thrombin inhibitor, mostly non-renal) — also used
+- **Fondaparinux** (synthetic pentasaccharide, factor Xa inhibitor) — does not cross-react with PF4 antibodies; used in some centres
+
+---
+
 ### Thrombophilia and Venous Thromboembolism
 
 Virchow's triad — the three contributors to thrombus formation: stasis (immobility, venous obstruction), endothelial injury, and hypercoagulability.
@@ -222,6 +263,7 @@ The pattern of bleeding points to the component of haemostasis that is defective
 - Haemophilic arthropathy — progressive joint destruction from recurrent haemarthroses
 - Inhibitor development in haemophilia — renders standard factor replacement ineffective
 - Warfarin over-anticoagulation — intracranial haemorrhage (most feared), GI bleeding; reverse with vitamin K ± 4-factor PCC (not FFP — too slow)
+- **HIT Type II** — arterial and venous thrombosis despite thrombocytopenia; warfarin-induced skin necrosis if started before platelets recover
 - Post-thrombotic syndrome — chronic venous insufficiency after DVT (50% of patients); prevent with compression stockings
 - Chronic thromboembolic pulmonary hypertension (CTEPH) — 3–4% after PE; suspect if persistent dyspnoea after PE treatment; assess with V/Q scan
 
@@ -232,6 +274,8 @@ The mixing study is the most important and underutilised test in coagulation. A 
 Lupus anticoagulant is one of medicine's great confusing misnomers. It prolongs the APTT in the laboratory because it interferes with phospholipid-dependent coagulation assays. In vivo, however, it causes thrombosis — arterial and venous — and recurrent pregnancy loss. A patient with a prolonged APTT who is not bleeding but has had recurrent clots almost certainly has antiphospholipid syndrome, not haemophilia.
 
 DDAVP works for mild haemophilia A because it releases stored FVIII — but it only works if there are stores to release. Patients with severe haemophilia A (FVIII <1%) have no stores; DDAVP is useless. Before any procedure in a patient with known mild haemophilia A, a DDAVP challenge test (measuring FVIII level before and after DDAVP) should be performed to confirm responsiveness.
+
+HIT is the anticoagulation emergency that kills through thrombosis, not bleeding. The instinct when a patient's platelet count falls on heparin is to worry about bleeding — but in HIT Type II, the patient is forming clots, not losing them. A DVT or arterial thrombosis developing while a patient is on heparin is HIT until proven otherwise. The 4T score should be calculated immediately, all heparin stopped, and a non-heparin anticoagulant started — even before confirmatory testing returns. Delay costs limbs and lives.
 
 ---
 

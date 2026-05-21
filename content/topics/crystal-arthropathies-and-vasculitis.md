@@ -146,6 +146,40 @@ Small vessel vasculitis with pauci-immune necrotising inflammation (minimal immu
 - **Maintenance**: Rituximab 6-monthly or azathioprine — for 24 months minimum
 - **Plasma exchange**: For severe renal failure (creatinine >5.7 mg/dL) or pulmonary haemorrhage — evidence remains debated (PEXIVAS trial: plasma exchange did not reduce death/ESRD)
 - **Prophylaxis**: Co-trimoxazole — prevents PCP during immunosuppression; reduces relapse in GPA (trimethoprim reduces nasal *Staphylococcus* carriage — a relapse trigger)
+
+### IgA Vasculitis (Henoch-Schönlein Purpura — HSP)
+
+The most common vasculitis in children, though it also affects adults (with worse renal outcomes). IgA immune complexes deposit in small vessel walls of the skin, joints, gut, and kidneys — driven by abnormally glycosylated IgA1 (the same mechanism as IgA nephropathy, which can be considered the renal-limited equivalent).
+
+**Classic tetrad — FA mnemonic "PARK":**
+- **P**alpable purpura — non-blanching, on the buttocks and lower limbs; occurs despite a normal platelet count (distinguishing from thrombocytopenic purpura)
+- **A**rthritis — migratory, non-destructive; ankles and knees most commonly affected
+- **R**enal disease — haematuria ± proteinuria ± AKI (identical to IgA nephropathy on biopsy — mesangial IgA deposits)
+- **K**olik (abdominal pain) — from GI vasculitis; can cause intussusception in children (lead point), melaena, and bowel ischaemia
+
+Typically follows an upper respiratory tract infection (IgA response to mucosal antigens triggers immune complex formation). Usually **self-limiting** in children (resolves within 4–6 weeks); adults have greater risk of chronic renal impairment.
+
+**Treatment**: Supportive (rest, analgesia) for mild disease. **Prednisolone** for severe abdominal pain or arthritis. Immunosuppression (prednisolone ± azathioprine) for renal involvement. Long-term monitoring of renal function — up to 25% of adults develop chronic CKD.
+
+### Kawasaki Disease
+
+Medium vessel vasculitis affecting children, almost exclusively under 5 years of age. The most common cause of acquired heart disease in children in developed countries. Aetiology unknown — likely an aberrant immune response to an infectious trigger.
+
+**Diagnostic criteria (classic Kawasaki):** Fever for ≥5 days PLUS ≥4 of 5 features — mnemonic **"CRASH"**:
+- **C**onjunctivitis — bilateral, non-exudative (no pus)
+- **R**ash — polymorphous (not vesicular); perineal and truncal distribution
+- **A**denopathy — cervical lymphadenopathy >1.5 cm (usually unilateral)
+- **S**tomach/mouth — strawberry tongue, cracked lips, pharyngeal erythema (mucositis)
+- **H**ands and feet — erythema and oedema initially → periungual desquamation (peeling) in convalescence
+
+**Incomplete (atypical) Kawasaki**: Fever ≥5 days + fewer than 4 clinical features, but echocardiographic coronary artery abnormalities present. Requires treatment.
+
+**The feared complication**: **Coronary artery aneurysms** — develop in ~25% of untreated patients and can cause myocardial infarction, sudden death, or coronary artery disease decades later. Risk is dramatically reduced with timely treatment.
+
+**Treatment**:
+- **IVIG 2 g/kg** as a single infusion — reduces fever within 48 hours and dramatically reduces coronary aneurysm risk (from 25% to <5%)
+- **Aspirin** — high-dose (anti-inflammatory) during the febrile phase (unusual in paediatrics — this is one of the only indications for aspirin in children), then low-dose (antiplatelet) for 6–8 weeks until inflammation resolves; continued indefinitely if coronary aneurysms develop
+- Echocardiography at diagnosis, 2 weeks, and 6 weeks to assess coronary arteries
 ## Complications
 
 **Gout**: Tophi with skin ulceration, urate nephropathy, renal calculi, disability from chronic arthropathy, drug side effects (allopurinol hypersensitivity).

@@ -98,7 +98,9 @@ Features that make angina less likely: pain that is continuous; pleuritic; or wo
 | Intervention | Target / Notes |
 |-------------|---------------|
 | Aspirin 75mg OD | Indefinitely; clopidogrel 75mg if genuinely aspirin-intolerant |
-| High-intensity statin | Atorvastatin 40–80mg or rosuvastatin 20–40mg; LDL target <55 mg/dL in very high-risk |
+| High-intensity statin | Atorvastatin 40–80mg or rosuvastatin 20–40mg; LDL target <55 mg/dL in very high-risk (stable CAD = very high risk) |
+| Ezetimibe 10mg OD | Add if LDL remains >55 mg/dL on maximum tolerated statin — inhibits intestinal cholesterol absorption (NPC1L1 transporter); IMPROVE-IT trial showed CV benefit as add-on to statin |
+| PCSK9 inhibitors | Evolocumab (Repatha) 140mg SC every 2 weeks or 420mg monthly; alirocumab (Praluent) — indicated if LDL >55 mg/dL despite maximum statin + ezetimibe, or statin-intolerant. Inhibit proprotein convertase subtilisin/kexin type 9 (which degrades LDL receptors) → more LDL receptors available → LDL falls 50–60%. FOURIER (evolocumab) and ODYSSEY (alirocumab) trials showed significant CV event reduction. Now NICE-approved for secondary prevention post-MI with LDL >55 mg/dL. Inclisiran (small interfering RNA targeting hepatic PCSK9 production) — twice-yearly injection; equivalent LDL reduction; increasingly used. |
 | ACE inhibitor | Especially if coexisting diabetes, CKD, proteinuria, or LV dysfunction |
 | BP control | Target <130/80 mmHg; beta-blockers preferred if also post-MI |
 | Glycaemic control | HbA1c target according to diabetes guidelines; GLP-1 agonists and SGLT2 inhibitors reduce CV events |

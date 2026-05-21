@@ -208,6 +208,18 @@ These are clinically silent until potentially fatal and are likely responsible f
 
 **Long QT Syndrome (LQTS):** Channelopathies (mutated K⁺ or Na⁺ channels) prolonging repolarisation → early afterdepolarisations → torsades de pointes. Symptoms: syncope during exertion or emotional stress, or sudden death. Management: avoid QT-prolonging drugs, beta-blocker, ICD for high-risk.
 
+**First Aid high-yield — LQT subtypes by gene and trigger:**
+
+| Subtype | Gene | Channel | Trigger | Beta-blocker response |
+|---------|------|---------|---------|----------------------|
+| LQT1 | *KCNQ1* | Kv7.1 (IKs — slow delayed rectifier K⁺) | **Exercise, swimming** | Excellent — first-line |
+| LQT2 | *KCNH2* (hERG) | IKr — rapid delayed rectifier K⁺ | **Auditory stimuli** (alarm clock, phone ringing), sudden emotion | Moderate; avoid QT-prolonging drugs that block hERG |
+| LQT3 | *SCN5A* | Nav1.5 (INa — same gene as Brugada) | **Sleep or rest** | Poor; consider mexiletine (Na⁺ channel blocker); ICD often needed |
+
+**Mnemonic**: LQT**1** = s**W**im, LQT**2** = a**L**arm, LQT**3** = s**L**eep. The same SCN5A gene causes LQT3 when it is a gain-of-function mutation and Brugada syndrome when it is a loss-of-function mutation — same gene, opposite direction, opposite ECG pattern.
+
+Romano-Ward syndrome (autosomal dominant, hearing normal) accounts for most inherited LQTS. Jervell-Lange-Nielsen syndrome (autosomal recessive, congenital sensorineural deafness + severe LQTS) — higher arrhythmic risk.
+
 **Brugada Syndrome:** Sodium channelopathy. Diagnosis: classic coved ST elevation in V1–V3 on ECG (spontaneous or unmasked by fever, drugs, or electrolyte imbalance) + suggestive clinical history (family history of SCD, nocturnal syncope). Check www.brugadadrugs.org for a comprehensive drug list to avoid. ICD for symptomatic patients.
 
 **ARVC (Arrhythmogenic Right Ventricular Cardiomyopathy):** Fibro-fatty replacement of RV myocardium from desmosomal protein mutations. ECG: epsilon wave (terminal notch after QRS in V1–V3), T-wave inversion in V1–V3. Presents with VT (LBBB morphology — ectopic in RV), palpitations, syncope in young athletes. Restrict from competitive sport; beta-blocker; ICD.
@@ -246,6 +258,8 @@ Adenosine is both diagnostic and therapeutic in narrow complex SVT. If the rhyth
 A QTc >500ms in a patient just started on a new antiarrhythmic, antipsychotic, or antibiotic is a clinical alarm requiring action — either dose reduction, drug change, or electrolyte correction — before torsades occurs.
 
 Screening young competitive athletes with a personal history of syncope during exertion, or a family history of sudden cardiac death in a relative under 40, is essential. The ECG may be the only warning before a fatal event.
+
+**Wellens syndrome** is an ECG pattern that must not be missed: biphasic T waves (type A) or deep, symmetric T-wave inversions (type B) in leads V2–V3, occurring in the **pain-free interval** after an episode of chest pain. This pattern indicates critical proximal LAD stenosis with threatened anterior wall ischaemia. The danger is that the patient appears well and the ECG is recorded when they are asymptomatic — but the lesion has not been treated. **Never perform an exercise stress test** in Wellens syndrome — the effort can precipitate anterior MI. Urgent coronary angiography and revascularisation are required.
 
 ---
 
