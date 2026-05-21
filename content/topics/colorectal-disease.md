@@ -195,3 +195,28 @@ Lynch syndrome is chronically under-diagnosed. Every CRC — regardless of clini
 Rectal bleeding mixed with stool should never be attributed to haemorrhoids in anyone over 40 without colonoscopy. Haemorrhoids produce painless bleeding that coats the stool or drips into the toilet pan — they do not cause bleeding mixed into the stool body. Blood mixed with stool suggests a more proximal and more sinister source. The 2-week wait referral criteria exist precisely because haemorrhoids are the most common misattribution that delays a potentially curable cancer diagnosis.
 
 Hartmann's procedure is not a sign of operative failure — it is the correct operation for perforated diverticulitis with faecal peritonitis in an unstable patient. Attempting primary anastomosis under these conditions risks anastomotic leak, which carries a mortality of 20–30%. The colostomy can be reversed 3–6 months later once the inflammatory process has fully resolved and the patient has been nutritionally optimised.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 66-year-old man with 6 weeks of altered bowel habit (alternating constipation and loose stools), fresh blood **mixed with** stool, 5 kg weight loss, family history of bowel cancer in his father (age 68), and a **palpable right-sided abdominal mass**.
+
+**Step 1 — Recognise this as colorectal cancer until proven otherwise:** Multiple simultaneous alarm features are present:
+- **Altered bowel habit** >4 weeks in a man over 60 = NICE 2-week wait criterion alone
+- **Blood mixed with stool** — haemorrhoids produce blood that coats the stool or drips into the pan; blood mixed into the stool body points to a more proximal, sinister source
+- **Unintentional weight loss** — systemic feature of malignancy
+- **Palpable right-sided abdominal mass** — red flag at any age; this is likely the primary tumour (caecal/ascending colon)
+
+Do not attribute this to haemorrhoids. Do not reassure with dietary advice. Refer urgently on the 2-week wait pathway.
+
+**Step 2 — Arrange urgent investigations in parallel:** The 2-week wait referral triggers:
+- **Colonoscopy + biopsy** — gold standard; full colonic visualisation + tissue diagnosis + assessment for synchronous lesions (present in ~5%)
+- **CT chest/abdomen/pelvis** — staging; the right-sided mass with weight loss raises concern for hepatic metastases (present in 20% at diagnosis)
+- **FBC** — right-sided CRC classically causes **occult blood loss → IDA** even without visible rectal bleeding; this patient has visible blood, suggesting significant tumour vascularity
+
+**Step 3 — Check for Lynch syndrome:** Father diagnosed with CRC age 68 is not a classic Lynch pedigree (usually earlier onset), but all CRC specimens must undergo **reflex MMR IHC testing** (MLH1, MSH2, MSH6, PMS2). This is not optional — it requires no clinical decision and saves the lives of the patient's relatives.
+
+**Step 4 — Stage and plan definitive treatment:** If CT confirms disease confined to the right colon (Stage I–III), the patient should be discussed at the colorectal MDT. Stage II–III right-sided CRC → **right hemicolectomy** (laparoscopic preferred) + adjuvant chemotherapy (FOLFOX or CAPOX) if node-positive (Stage III).
+
+**Exam trigger:** *Altered bowel habit + blood mixed with stool + palpable right-sided mass + weight loss in a man over 60* → colorectal cancer. Urgent 2-week wait referral. The distractor is reassuring the patient that his symptoms are due to his family history of benign bowel disease, or attributing the bleeding to haemorrhoids — blood mixed with stool is never from haemorrhoids.

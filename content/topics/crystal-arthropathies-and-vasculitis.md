@@ -161,3 +161,28 @@ The serum urate is unreliable during an acute gout attack. IL-1β drives acute-p
 Giant cell arteritis is a visual emergency managed on clinical suspicion, not biopsy confirmation. The temporal artery biopsy is performed to confirm the diagnosis but must never delay treatment. Prednisolone started today will not negate the biopsy result — granulomatous changes persist histologically for up to 4 weeks after steroid initiation. In a patient with jaw claudication and visual symptoms, starting steroids tomorrow instead of today may be the difference between sight and blindness.
 
 Rituximab has replaced cyclophosphamide as the preferred induction agent for ANCA-associated vasculitis in most patients. This matters clinically because cyclophosphamide carries substantial toxicity — haemorrhagic cystitis (mesna prophylaxis and adequate hydration required), bladder cancer (lifetime risk ~5%), gonadal failure, and secondary malignancy. In a young woman with GPA, rituximab is strongly preferred for fertility preservation. This is a shared decision-making conversation that should happen before induction begins.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 58-year-old man with hypertension, CKD stage 3, BMI 33. Twenty-four hours of excruciating pain, swelling, and erythema of the right first MTP joint — cannot bear the weight of a bedsheet. On bendroflumethiazide for 10 years. Drinks 30 units of alcohol weekly. Serum urate 9.7 mg/dL.
+
+**Step 1 — Diagnose gout:** The clinical picture is classic. **Podagra** (acute monoarthritis of the first MTP joint) + urate 9.7 mg/dL (markedly elevated) = gout until proven otherwise. The bedsheet sign — exquisite allodynia where even the lightest touch is unbearable — is gout until synovial fluid analysis proves otherwise. Three independent precipitants are present:
+- **Bendroflumethiazide** — reduces renal urate excretion (the most common drug cause of hyperuricaemia)
+- **30 units of alcohol weekly** — alcohol (especially beer) increases purine production and acutely inhibits renal urate excretion
+- **CKD stage 3** — impaired renal urate clearance
+
+**Step 2 — Treat the acute attack (mind the comorbidities):**
+- **NSAIDs are contraindicated** — CKD stage 3 makes NSAIDs high-risk for acute kidney injury
+- **Colchicine** — check eGFR first. If eGFR ≥30: colchicine 500 µg BD for 5–7 days is safe. Diarrhoea is the dose-limiting side effect. If eGFR <30: avoid colchicine.
+- **Prednisolone 30–35 mg/day for 5 days** — the preferred option if both NSAIDs and colchicine are contraindicated; also appropriate as first-line given CKD. Safe and highly effective.
+- Do NOT start allopurinol during an acute attack — changing urate levels mobilises crystals and can prolong the attack.
+
+**Step 3 — After the acute episode resolves, start urate-lowering therapy:**
+- **Switch bendroflumethiazide to losartan** — losartan is uricosuric (increases renal urate excretion), provides equivalent antihypertensive effect, and does not worsen gout. An essential drug switch.
+- **Allopurinol** — start at 50–100 mg daily, titrate monthly. Target serum urate **<6.0 mg/dL**. Dose-adjust for CKD (reduced starting dose, slower titration).
+- **Prophylaxis** during ULT initiation: colchicine 500 µg OD for 6 months (or longer until urate is stable at target) — prevents mobilisation flares.
+- Reduce alcohol and increase hydration.
+
+**Exam trigger:** *Excruciating first MTP joint pain + bendroflumethiazide + CKD + elevated urate* → gout. Avoid NSAIDs in CKD. Use prednisolone for the acute attack. Switch thiazide to **losartan** (uricosuric antihypertensive) and start allopurinol once the acute attack has fully resolved. The distractor is starting allopurinol immediately or using NSAIDs in the context of CKD.

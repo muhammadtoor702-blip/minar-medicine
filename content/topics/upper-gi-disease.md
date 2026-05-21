@@ -246,3 +246,28 @@ All gastric ulcers must be biopsied at endoscopy and followed with repeat OGD at
 The urea breath test gives a false negative if the patient is taking a PPI. PPIs suppress H. pylori metabolic activity without eradicating the organism — it becomes temporarily undetectable. Stop PPIs 2 weeks before testing. A negative UBT in a patient on omeprazole taken the day before is meaningless and provides false reassurance.
 
 The restrictive transfusion threshold in acute UGIB (Hb 70 g/dL) saves lives — particularly in variceal bleeding, where over-transfusion raises portal venous pressure and precipitates rebleeding. Transfusing a haemodynamically stable patient with Hb of 72 g/dL to "make them safer" is the wrong decision. Check coagulation separately — PT/INR prolongation requires FFP, not more red cells.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 54-year-old man, 3 months of epigastric pain 2–3 hours after meals, relieved by eating and antacids. Regular ibuprofen for back pain. Weight loss 4 kg. Epigastric tenderness. Positive urea breath test for H. pylori. OGD shows a 1.5 cm duodenal ulcer.
+
+**Step 1 — Understand the duodenal ulcer pain pattern:** Pain occurring 2–3 hours after meals (when gastric acid is secreted in response to food but the buffering meal has been emptied from the stomach) and **relieved by eating** (food re-buffers the acid) is the classic pattern of a duodenal ulcer. This contrasts with gastric ulcer pain, which can worsen with eating. The relief pattern is physiology — not psychosomatic.
+
+**Step 2 — Identify and address both aetiological factors:** This patient has a **double hit**:
+- **H. pylori** (positive UBT) — causes hypergastrinaemia and direct mucosal injury via CagA and VacA toxins
+- **Regular ibuprofen** — inhibits COX-1 → reduces prostaglandin synthesis → impairs mucosal defence
+
+Both must be treated. Eradicating H. pylori alone without stopping the NSAID will result in ulcer recurrence. Stopping the NSAID without eradicating H. pylori leaves the mucosal inflammation unresolved.
+
+**Step 3 — H. pylori eradication (triple therapy):**
+**Lansoprazole 30 mg BD + clarithromycin 500 mg BD + amoxicillin 1 g BD for 7 days.** High-dose PPI acid suppression + dual antibiotics. Complete the full course. Then confirm eradication:
+- **Urea breath test 4 weeks after completing treatment** (and after stopping PPI for at least 2 weeks before the test — PPI within 2 weeks = false negative)
+- If eradication fails → quadruple therapy (PPI + bismuth + tetracycline + metronidazole)
+
+**Step 4 — Stop ibuprofen:** Switch to **paracetamol** for back pain — effective analgesic, no GI mucosal risk. If an NSAID is genuinely essential (e.g., for inflammatory pain), use a **selective COX-2 inhibitor (celecoxib) + PPI** — celecoxib spares COX-1 (mucosal protection) while inhibiting COX-2 (inflammation). Never restart a non-selective NSAID after a peptic ulcer without PPI cover.
+
+**Step 5 — Address the weight loss:** The 4 kg weight loss is an ALARM feature that appropriately triggered OGD. The OGD has revealed the culprit (duodenal ulcer causing pain → reduced intake). Repeat OGD at 6–8 weeks is mandatory for **gastric ulcers** to confirm healing and exclude malignancy — less urgent for a duodenal ulcer, but weight loss warrants clinical reassessment at 6 weeks to confirm the patient is recovering and eating normally.
+
+**Exam trigger:** *Post-meal epigastric pain relieved by eating + H. pylori + regular NSAID use* → duodenal ulcer. Treat **both** causes: H. pylori eradication AND stop the NSAID. Confirm eradication with UBT 4 weeks post-treatment (stop PPI 2 weeks before the test). The distractor is treating only one cause, or not confirming eradication before declaring the patient cured.

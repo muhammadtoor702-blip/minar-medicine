@@ -151,3 +151,26 @@ The earliest and most sensitive cognitive domain to screen is **episodic memory*
 Lewy body dementia is regularly diagnosed as Alzheimer's, and the consequence can be fatal. When an elderly patient with dementia is admitted with worsening confusion or psychosis and given haloperidol, the possibility of undiagnosed DLB should always be considered. The core diagnostic triad — fluctuating cognition, visual hallucinations, parkinsonism — is highly specific. A DAT scan confirms it.
 
 Depression and dementia are frequently confused and frequently coexist. In a patient who is "not coping" cognitively and is clearly low in mood, always treat the depression first — with an SSRI, for 6 months — before concluding the cognitive impairment is degenerative. True Alzheimer's does not reverse with antidepressants; pseudodementia often does.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 74-year-old retired engineer. Two years of progressive memory problems — repeating himself, missing appointments, getting lost on familiar routes, leaving the gas on. Alert and cooperative on examination but MMSE 20/30. Normal neurological examination.
+
+**Step 1 — Characterise the dementia syndrome:** The history is classic Alzheimer's disease:
+- **Insidious onset** over 2 years (not acute/subacute = not delirium or vascular)
+- **Episodic memory first** — repeating himself (short-term memory loop failure); getting lost driving familiar routes (visuospatial and route memory from hippocampal and entorhinal cortex involvement)
+- **Functional impairment** — missing appointments, leaving gas on (ADL involvement confirms dementia, not just MCI)
+- **Normal neurological examination** — no focal deficits (against vascular dementia), no parkinsonism or hallucinations (against DLB)
+- **MMSE 20/30** — mild-moderate cognitive impairment (mild: 21–25; moderate: 10–20; severe: <10)
+
+**Step 2 — Exclude reversible causes first (mandatory in every case):** Bloods: TFTs (hypothyroidism = reversible), B12/folate (deficiency = reversible), FBC, U&E, glucose, calcium, LFTs. These investigations cost very little and occasionally reveal a treatable cause that would otherwise be labelled as Alzheimer's disease. If you miss hypothyroid dementia, you have failed the patient.
+
+**Step 3 — MRI brain:** Look for medial temporal lobe and hippocampal atrophy (characteristic of Alzheimer's), white matter changes (vascular), frontal/temporal atrophy (FTD), or disproportionate ventricular enlargement (NPH). MRI also excludes a structural cause — subdural haematoma can mimic dementia in the elderly after trivial head injury.
+
+**Step 4 — Address driving — this is urgent:** This patient is already getting lost on familiar routes. He must **stop driving immediately**. The DVLA must be notified. Continuing to drive with dementia constitutes a legal and public safety risk. This is a non-negotiable conversation — document it in the notes. Family should be informed that if the patient continues driving, they must contact the DVLA directly.
+
+**Step 5 — Start pharmacological treatment:** Mild-moderate Alzheimer's → **donepezil 5 mg OD** (increase to 10 mg after 4–6 weeks if tolerated). Modest but consistent benefit in cognition and daily function. Rivastigmine or galantamine are alternatives. Side effects: GI (nausea, diarrhoea — prescribe to take at night to reduce nocturnal GI effects), bradycardia. Initiate lasting power of attorney discussion while capacity remains.
+
+**Exam trigger:** *Insidious 2-year progressive episodic memory loss + functional impairment + MMSE 20/30 + normal neuro exam* → Alzheimer's disease. First-line treatment is donepezil. DVLA notification is mandatory — the patient is getting lost while driving. The distractor is waiting until a specialist confirms the diagnosis before stopping driving or starting treatment.

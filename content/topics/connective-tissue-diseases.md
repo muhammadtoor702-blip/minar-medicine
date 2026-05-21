@@ -181,3 +181,32 @@ Complement levels (C3, C4) and anti-dsDNA together give a dynamic picture of SLE
 Hydroxychloroquine is not optional in SLE — it is the backbone of treatment. Studies consistently show it reduces mortality, reduces flare frequency, halves the risk of developing lupus nephritis, and reduces the risk of cardiovascular events and thrombosis. A patient with SLE not on hydroxychloroquine (without a contraindication) is undertreated regardless of what else they are taking.
 
 Any patient with recurrent pregnancy loss, unexplained arterial or venous thrombosis, or thrombocytopenia should be tested for antiphospholipid antibodies — on two occasions, 12 weeks apart (to exclude transient positivity). APS is one of the most important and most treatable causes of recurrent miscarriage, and its diagnosis changes management profoundly: lifelong anticoagulation for thrombotic APS; low-dose aspirin + LMWH throughout pregnancy for obstetric APS.
+
+---
+
+## Scenario Walkthrough
+
+**The patient:** A 29-year-old woman, 6 months of facial rash worsened by sun exposure, painful swollen joints, fatigue, and oral ulcers. Miscarriage at 10 weeks last year. BP 154/94. Urinalysis: proteinuria 2+ and microscopic haematuria. ANA 1:640, anti-dsDNA elevated, C3 and C4 low.
+
+**Step 1 — Diagnose SLE with lupus nephritis:** Count the ACR criteria ("SOAP BRAIN MD"):
+- ✓ **Photosensitivity** (facial rash worsened by sun)
+- ✓ **Oral ulcers**
+- ✓ **Arthritis** (painful swollen joints)
+- ✓ **Renal** (proteinuria + haematuria = active urinary sediment)
+- ✓ **ANA positive** at 1:640
+- ✓ **Immunological** (anti-dsDNA elevated)
+
+Six criteria met (four required). This is **SLE**. The combination of proteinuria + haematuria + active anti-dsDNA + consumed complement = **lupus nephritis** until proven otherwise.
+
+**Step 2 — Renal biopsy is mandatory:** Do not estimate the nephritis class from urinalysis alone. The distinction between Class III/IV (focal/diffuse proliferative — aggressive, requires IV cyclophosphamide or mycophenolate) and Class V (membranous — nephrotic, different treatment intensity) directly determines treatment. Microscopic haematuria with proteinuria and low complement strongly suggests Class III or IV. Biopsy before escalating immunosuppression.
+
+**Step 3 — Screen for antiphospholipid syndrome:** A miscarriage at 10 weeks gestation in a young woman with SLE is the classic presentation of **obstetric APS**. Send: **anticardiolipin IgG/IgM, anti-β2-glycoprotein I, lupus anticoagulant**. If positive, confirm with a second test 12 weeks later. If APS is confirmed, management in future pregnancies requires **aspirin 75 mg + LMWH** throughout. Warfarin is teratogenic.
+
+**Step 4 — Initiate treatment:**
+- **Hydroxychloroquine** immediately — backbone of SLE treatment regardless of disease severity; reduces flare frequency, protects against nephritis, improves survival
+- **High-dose prednisolone** (0.5–1 mg/kg) for induction
+- **Mycophenolate mofetil** 2–3 g/day (preferred over IV cyclophosphamide for fertility preservation in a 29-year-old woman) — once biopsy confirms Class III/IV
+- **ACE inhibitor (ramipril)** — lowers BP, reduces proteinuria, has renoprotective effect
+- BP target: <130/80 mmHg
+
+**Exam trigger:** *Young woman + butterfly rash + photosensitivity + oral ulcers + arthritis + renal involvement + ANA + anti-dsDNA + low complement + prior miscarriage* → **SLE with lupus nephritis + possible APS**. Renal biopsy before escalating immunosuppression. Check antiphospholipid antibodies — missed APS = unprotected future pregnancy. Start hydroxychloroquine immediately.
