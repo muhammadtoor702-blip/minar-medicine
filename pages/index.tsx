@@ -15,6 +15,10 @@ const SYSTEMS = [
   { name: 'Rheumatology', icon: '🦴', slug: 'rheumatology' },
   { name: 'Infectious Disease', icon: '🦠', slug: 'infectious-disease' },
   { name: 'Dermatology', icon: '🩹', slug: 'dermatology' },
+  { name: 'Paediatrics', icon: '👶', slug: 'paediatrics' },
+  { name: 'Obstetrics & Gynaecology', icon: '🤰', slug: 'obstetrics-and-gynaecology' },
+  { name: 'Surgery', icon: '🔧', slug: 'surgery' },
+  { name: 'Emergency Medicine', icon: '🚨', slug: 'emergency-medicine' },
 ]
 
 interface Topic { slug: string; title: string; system: string; scenario: string; summary: string; keywords: string[] }
