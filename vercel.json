@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://minar-medicine-ai.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
